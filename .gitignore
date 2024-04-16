@@ -88,3 +88,14 @@ venv.bak/
 # Operating System Files
 .DS_Store
 Thumbs.db
+
+# Data Files
+data/
+*.csv
+*.json
+*.xls
+*.xlsx
+*.sqlite
+*.db
+*.h5
+*.nc
