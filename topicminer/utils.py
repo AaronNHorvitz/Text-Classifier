@@ -101,6 +101,7 @@ def generate_email_text(
     email_from: str,
     email_subject: str,
     email_body: str,
+    word_wrap_limit: int = 100,
 ) -> str:
     """
     Generates formatted email text with word-wrapped body. The function formats the provided email details into
@@ -150,7 +151,7 @@ def generate_email_text(
         email_subject = email_subject.strip()
 
     # Ensure the email body is wrapped correctly
-    email_body = textwrap.fill(email_body, width=100)
+    email_body = textwrap.fill(email_body, width=word_wrap_limit)
 
     # Construct the email string
     email_str = f"""
@@ -207,7 +208,7 @@ def format_and_save_emails(df: pd.DataFrame, output_dir: str):
         print(f"Processed email document ID: {row['docID']}")
 
 
-def read_text_file(file_path: str) -> list:
+def read_text_file(file_path: str, word_wrap_limit=100) -> list:
     """
     Read a text file and return its contents as a list of lines, automatically handling encoding detection.
 
@@ -239,7 +240,7 @@ def read_text_file(file_path: str) -> list:
 
     # Read and return the contents of the file
     with open(file_path, "r", encoding=encoding) as file:
-        text_file_contents = file.readlines()
+        text_file_contents = file.readlines() 
 
     return text_file_contents
 
@@ -526,70 +527,6 @@ def preprocess_text(text: str, unwanted_texts_file_path: str) -> str:
     return preprocessed_text
 
 
-def email_viewer_widget(processed_files_directory):
-    """
-    """
-    files = sorted([f for f in os.listdir(processed_files_directory) if f.endswith('.txt')])
-    if not files:
-        print("No text files found in the directory.")
-        return
-    
-    output_area = widgets.Output(layout={'border': '1px solid black', 'width': '100%', 'height': '300px'})
-    doc_id_input = widgets.Text(placeholder='Enter Document ID', description='Go to ID:')
-    go_button = widgets.Button(description='Go')
-    prev_button = widgets.Button(description='Previous')
-    next_button = widgets.Button(description='Next')
-    navigation_info = widgets.Label(value=f"Document 1 of {len(files)}")
-    
-    def read_file(file_path):
-        with open(file_path, 'r', encoding='utf-8') as file:
-            return file.read()
-    
-    def update_display(index):
-        file_path = os.path.join(processed_files_directory, files[index])
-        email_content = read_file(file_path)
-        with output_area:
-            clear_output(wait=True)
-            display(email_content)
-        navigation_info.value = f"Document {index + 1} of {len(files)}"
-    
-    def on_prev_button_clicked(b):
-        nonlocal current_index
-        if current_index > 0:
-            current_index -= 1
-            update_display(current_index)
-    
-    def on_next_button_clicked(b):
-        nonlocal current_index
-        if current_index < len(files) - 1:
-            current_index += 1
-            update_display(current_index)
-    
-    def on_go_button_clicked(b):
-        try:
-            target_id = f"{doc_id_input.value}.txt"
-            target_index = files.index(target_id)
-            update_display(target_index)
-            current_index = target_index
-        except ValueError:
-            with output_area:
-                clear_output(wait=True)
-                print("Document ID not found!")
-    
-    prev_button.on_click(on_prev_button_clicked)
-    next_button.on_click(on_next_button_clicked)
-    go_button.on_click(on_go_button_clicked)
-    
-    current_index = 0
-    update_display(current_index)
-    
-    navigation_buttons = widgets.HBox([prev_button, navigation_info, next_button])
-    search_box = widgets.HBox([doc_id_input, go_button])
-    interface = widgets.VBox([search_box, navigation_buttons, output_area])
-    
-    return interface
-
-
 def email_viewer(doc_id, data_path, unwanted_text_file_path):
     """
     Displays an email text comparison in a formatted table including original, cleaned, and preprocessed versions.
@@ -607,7 +544,7 @@ def email_viewer(doc_id, data_path, unwanted_text_file_path):
 
     try:
         # Retrieve and parse the original email text
-        text_file_contents = read_text_file(text_file_path)
+        text_file_contents = read_text_file(text_file_path, word_wrap_limit=50)
         email_recipient, email_from, email_date, email_subject, email_body = parse_email_text_file_components(text_file_contents)
         reconstructed_email = f"To: {email_recipient}\nFrom: {email_from}\nSent: {email_date}\n\nSubject: {email_subject}\n\n{email_body}"
         reconstructed_email = ''.join(reconstructed_email)
@@ -628,15 +565,15 @@ def email_viewer(doc_id, data_path, unwanted_text_file_path):
         normalized_text = preprocess_text(cleaned_email_body, unwanted_text_file_path)
         normalized_text = ''.join(normalized_text)
 
-        # Create HTML content for display
+        # Create HTML content for display with customizable font size and type
         comparison_html = f"""
         <style>
             table {{ width: 100%; border-collapse: collapse; }}
-            th, td {{border: 1px solid #ddd; padding: 8px; vertical-align: top; }}
-            th {{background-color: #f2f2f2;}}
-            pre {{white-space: pre-wrap; word-wrap: break-word; text-align: left; margin: 0;}}
-            mark {{background-color: orange;}}
-            .text-container {{text-align: left; font-size: 12px;}}  /* Smaller font size */
+            th, td {{ border: 1px solid #ddd; padding: 8px; vertical-align: top; }}  /* Ensure content is top-aligned */
+            th {{ background-color: #f2f2f2; }}
+            pre {{ white-space: pre-wrap; word-wrap: break-word; text-align: left; margin: 0; max-width: 600px; font-family: 'Arial', sans-serif; font-size: 14px; }}
+            mark {{ background-color: orange; }}
+            .text-container {{ text-align: left; overflow-wrap: break-word; min-height: 400px; }}  /* Adjusted for more vertical space */
         </style>
         <table>
             <tr>
@@ -659,73 +596,6 @@ def email_viewer(doc_id, data_path, unwanted_text_file_path):
         print(f"An error occurred: {str(e)}")
 
 
-# # Utilities for display and progress tracking
-# from IPython.display import display, HTML, clear_output
-# from ipywidgets import Button, HBox, VBox, Output, Layout, Text, Label
-
-# from IPython.display import display, HTML, clear_output
-# import ipywidgets as widgets
-# import os
-
-# def email_viewer_widget(processed_files_directory, unwanted_text_file_path):
-#     files = sorted([f for f in os.listdir(processed_files_directory) if f.endswith('.txt')])
-#     if not files:
-#         print("No text files found in the directory.")
-#         return
-
-#     output_area = widgets.Output(layout={'border': '1px solid black', 'width': '100%', 'height': '500px'})
-#     doc_id_input = widgets.Text(placeholder='Enter Document ID', description='Go to ID:')
-#     go_button = widgets.Button(description='Go')
-#     prev_button = widgets.Button(description='Previous')
-#     next_button = widgets.Button(description='Next')
-#     navigation_info = widgets.Label(value=f"Document 1 of {len(files)}")
-#     current_index = [0]  # Use a list to hold current index to modify inside nested functions
-
-#     def update_display():
-#         doc_id = files[current_index[0]][:-4]  # Remove '.txt' extension
-#         comparison_html = email_viewer(doc_id, processed_files_directory, unwanted_text_file_path)
-#         with output_area:
-#             clear_output(wait=True)  # Clear previous outputs
-#             display(HTML(comparison_html))  # Display new HTML content within the widget
-#         navigation_info.value = f"Document {current_index[0] + 1} of {len(files)}"
-
-#     def on_prev_button_clicked(b):
-#         if current_index[0] > 0:
-#             current_index[0] -= 1
-#             update_display()
-
-#     def on_next_button_clicked(b):
-#         if current_index[0] < len(files) - 1:
-#             current_index[0] += 1
-#             update_display()
-
-#     def on_go_button_clicked(b):
-#         try:
-#             target_id = f"{doc_id_input.value}.txt"
-#             target_index = files.index(target_id)
-#             current_index[0] = target_index
-#             update_display()
-#         except ValueError:
-#             with output_area:
-#                 clear_output(wait=True)
-#                 print("Document ID not found!")
-
-#     prev_button.on_click(on_prev_button_clicked)
-#     next_button.on_click(on_next_button_clicked)
-#     go_button.on_click(on_go_button_clicked)
-
-#     update_display()  # Initial display update
-
-#     navigation_buttons = widgets.HBox([prev_button, navigation_info, next_button])
-#     search_box = widgets.HBox([doc_id_input, go_button])
-#     interface = widgets.VBox([search_box, navigation_buttons, output_area])
-
-#     return interface
-
-# from IPython.display import display, HTML, clear_output
-# import ipywidgets as widgets
-# import os
-
 def email_viewer_widget(processed_files_directory, unwanted_text_file_path):
     files = sorted([f for f in os.listdir(processed_files_directory) if f.endswith('.txt')])
     if not files:
@@ -734,70 +604,210 @@ def email_viewer_widget(processed_files_directory, unwanted_text_file_path):
 
     output_area = Output(layout={'border': '1px solid black', 'width': '100%', 'height': '500px'})
     doc_id_input = Text(placeholder='Enter Document ID', description='Go to ID:')
+    text_to_manage = Text(placeholder='Enter text to add/delete', description='Manage Text:')
     go_button = Button(description='Go')
     prev_button = Button(description='Previous')
     next_button = Button(description='Next')
-    add_text_input = Text(placeholder='Enter text to add/remove', description='Manage Text:')
-    add_button = Button(description='Add Unwanted Text')
-    delete_button = Button(description='Delete Unwanted Text')
-    refresh_button = Button(description='Refresh View')
-    navigation_info = Label(value=f"Document 1 of {len(files)}")
-    current_index = [0]  # Use a list to hold current index to modify inside nested functions
+    add_text_button = Button(description='Add Text')
+    delete_text_button = Button(description='Delete Text')
+    refresh_button = Button(description='Refresh')
+    navigation_info = Label()
+    current_doc_label = Label()
 
-    def update_display():
-        doc_id = files[current_index[0]][:-4]  # Remove '.txt' extension
+    def update_display(index):
+        nonlocal current_index  # Ensure current_index can be modified
+        doc_id = files[index][:-4]  # Remove '.txt' extension
+        current_doc_label.value = f"Viewing: {doc_id}"
         comparison_html = email_viewer(doc_id, processed_files_directory, unwanted_text_file_path)
         with output_area:
-            clear_output(wait=True)  # Clear previous outputs
-            display(HTML(comparison_html))  # Display new HTML content within the widget
-        navigation_info.value = f"Document {current_index[0] + 1} of {len(files)}"
+            clear_output(wait=True)
+            display(HTML(comparison_html))
+        navigation_info.value = f"Document {index + 1} of {len(files)}"
+        current_index = index  # Update the current index
 
     def on_prev_button_clicked(b):
-        if current_index[0] > 0:
-            current_index[0] -= 1
-            update_display()
+        if current_index > 0:
+            update_display(current_index - 1)
 
     def on_next_button_clicked(b):
-        if current_index[0] < len(files) - 1:
-            current_index[0] += 1
-            update_display()
+        if current_index < len(files) - 1:
+            update_display(current_index + 1)
 
     def on_go_button_clicked(b):
         try:
             target_id = f"{doc_id_input.value}.txt"
             target_index = files.index(target_id)
-            current_index[0] = target_index
-            update_display()
+            update_display(target_index)
         except ValueError:
             with output_area:
                 clear_output(wait=True)
                 print("Document ID not found!")
 
-    def on_add_button_clicked(b):
-        add_unwanted_text(unwanted_text_file_path, add_text_input.value)
-        add_text_input.value = ''  # Clear the input after adding
+    def on_add_text_button_clicked(b):
+        add_unwanted_text(unwanted_text_file_path, text_to_manage.value)
+        text_to_manage.value = ""  # Clear the input field
 
-    def on_delete_button_clicked(b):
-        delete_unwanted_text(unwanted_text_file_path, add_text_input.value)
-        add_text_input.value = ''  # Clear the input after deleting
+    def on_delete_text_button_clicked(b):
+        delete_unwanted_text(unwanted_text_file_path, text_to_manage.value)
+        text_to_manage.value = ""  # Clear the input field
 
     def on_refresh_button_clicked(b):
-        update_display()  # Refresh the current email view
+        update_display(current_index)
 
     prev_button.on_click(on_prev_button_clicked)
     next_button.on_click(on_next_button_clicked)
     go_button.on_click(on_go_button_clicked)
-    add_button.on_click(on_add_button_clicked)
-    delete_button.on_click(on_delete_button_clicked)
+    add_text_button.on_click(on_add_text_button_clicked)
+    delete_text_button.on_click(on_delete_text_button_clicked)
     refresh_button.on_click(on_refresh_button_clicked)
 
-    update_display()  # Initial display update
+    current_index = 0
+    update_display(current_index)  # Initialize the display with the first document
 
+    # Layouts
     navigation_buttons = HBox([prev_button, navigation_info, next_button])
-    manage_text_buttons = HBox([add_button, delete_button, refresh_button])
-    manage_text_area = VBox([add_text_input, manage_text_buttons])
+    text_management_buttons = HBox([add_text_button, delete_text_button, refresh_button, text_to_manage])
     search_box = HBox([doc_id_input, go_button])
-    interface = VBox([search_box, navigation_buttons, manage_text_area, output_area])
+    doc_info = HBox([current_doc_label])
+
+    left_box = VBox([search_box, navigation_buttons, doc_info])
+    right_box = VBox([text_management_buttons])
+    top_row = HBox([left_box, right_box], layout=Layout(justify_content='space-between'))
+    interface = VBox([top_row, output_area])
 
     return interface
 
+def parse_date_day_time(date_str):
+    """
+    Parses a string representing a date and time, returning the day of the week, date, and time in a standardized format.
+
+    This function is designed to handle multiple date formats by checking each format defined in `date_formats`. It uses
+    the `datetime.strptime` method to try parsing the date string according to each format until successful. If none of
+    the formats match, or the date string is a known placeholder for missing data, it defaults to returning "Unknown" for
+    each part of the date.
+
+    Parameters
+    ----------
+    date_str : str
+        The date string to parse. This can be in various formats or a known placeholder indicating missing data.
+
+    Returns
+    -------
+    tuple
+        A tuple containing three strings: (date, time, day_of_week). If parsing fails or the input is a known placeholder,
+        these will return as "Unknown".
+
+    Examples
+    --------
+    >>> parse_date_day_time("Monday, January 01, 2020 02:30 PM")
+    ('January 01, 2020', '14:30', 'Monday')
+
+    >>> parse_date_day_time("2020-01-01")
+    ('January 01, 2020', 'Unknown', 'Unknown')
+
+    >>> parse_date_day_time("Unknown Date")
+    ('Unknown', 'Unknown', 'Unknown')
+
+    Notes
+    -----
+    The function can handle custom formats by modifying the `date_formats` list. It uses Python's datetime library for
+    parsing and formatting. If new formats are expected, they should be added to the `date_formats` list to ensure
+    proper parsing.
+    """
+    # Define your date formats
+    date_formats = [
+        "%A, %B %d, %Y %I:%M %p",  # Original format
+        "%Y-%m-%d",  # New expected format
+    ]
+
+    # Placeholder for unknown date
+    unknown_placeholder = "Unknown Date"
+
+    # Initialize default values for date, time, and day_of_week
+    date = "Unknown"
+    time = "Unknown"
+    day_of_week = "Unknown"
+
+    if date_str == unknown_placeholder or not date_str:
+        return date, time, day_of_week
+
+    for format in date_formats:
+        try:
+            # Attempt to parse the date
+            date_obj = datetime.strptime(date_str, format)
+            date = date_obj.strftime("%B %d, %Y")
+            time = date_obj.strftime("%H:%M")  # 24 hour clock
+            day_of_week = date_obj.strftime("%A")
+            break  # Break the loop if the date is successfully parsed
+        except ValueError:
+            # If parsing fails, try the next format
+            continue
+
+    return date, time, day_of_week
+
+def process_emails_in_directory(data_path, unwanted_text_file_path):
+    """
+    Processes all email .txt files in the specified directory,
+    extracting and preprocessing relevant components, and returns a DataFrame.
+
+    :param data_path: Path to the directory containing email .txt files
+    :return: DataFrame with processed email data
+    """
+    email_data = []
+
+    # Loop through each file in the directory
+    for filename in tqdm(os.listdir(data_path)):
+
+        # Construct a file path to each .txt file in the data directory
+        text_file_path = os.path.join(data_path, filename)
+
+        # Ensure the file is a .txt file
+        if not text_file_path.endswith(".txt"):
+            continue
+
+        # Extract from_line, sent_line, subject_line, body
+        text_file_contents = read_text_file(text_file_path)
+        email_recipient, email_from, email_date, email_subject, email_body = parse_email_text_file_components(text_file_contents)
+
+        # Extract date, time, day_of_week from sent_line
+        date, time, day_of_week = parse_date_day_time(date_str=email_date)
+
+        # Recreate Document ID
+        doc_id = filename.strip(".txt")
+
+        # Apply the preprocessing function to the 'Email Text' column
+        processed_body_text = preprocess_text(email_body, unwanted_text_file_path)
+
+        # Append the extracted email components to a list
+        email_data.append(
+            [
+                doc_id,
+                date,
+                time,
+                day_of_week,
+                email_recipient,
+                email_from,
+                email_subject,
+                email_body,
+                processed_body_text,
+                text_file_path,
+            ]
+        )
+
+    # Create a DataFrame
+    df_emails = pd.DataFrame(
+        email_data,
+        columns=[
+            "doc_id",
+            "date",
+            "time",
+            "day_of_week",
+            "to_line",
+            "from_line",
+            "subj_line",
+            "body",
+            "processed_body_text",
+            "file_path",
+        ],
+    )
+    return df_emails
