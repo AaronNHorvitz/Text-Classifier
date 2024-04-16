@@ -597,6 +597,47 @@ def email_viewer(doc_id, data_path, unwanted_text_file_path):
 
 
 def email_viewer_widget(processed_files_directory, unwanted_text_file_path):
+    """
+    Creates an interactive Jupyter Notebook widget for viewing and managing email documents. 
+    It allows users to navigate through email documents stored in a specified directory, 
+    display them with unwanted texts highlighted, and interactively manage unwanted texts using a JSON file.
+
+    The widget includes navigation buttons to move between emails, a text box to directly jump to a specific email by document ID, 
+    and buttons for adding or deleting text strings to/from an unwanted text list.
+
+    Parameters:
+    ----------
+    processed_files_directory : str
+        The directory path where processed email files (.txt) are stored.
+    unwanted_text_file_path : str
+        The path to the JSON file that stores a list of unwanted text strings used for cleaning the emails.
+
+    Returns:
+    -------
+    ipywidgets.VBox
+        A VBox widget containing all interactive elements including navigation buttons, document display area,
+        and text management tools.
+
+    Examples:
+    --------
+    Assuming `data_path` and `unwanted_texts_path` are your directory and file paths respectively:
+
+    >>> email_widget = email_viewer_widget(data_path, unwanted_texts_path)
+    >>> display(email_widget)
+
+    This function integrates several key functionalities:
+    - It reads and displays emails from text files using their document IDs.
+    - It allows users to navigate through emails using 'Previous' and 'Next' buttons.
+    - Users can jump to any email by entering its document ID in the 'Go to ID' text box.
+    - Users can add or remove phrases from the unwanted texts list using the provided text box and corresponding buttons.
+    - The 'Refresh' button can be used to reload the current email text, reflecting any changes made to the unwanted texts.
+
+    Notes:
+    -----
+    Ensure that both the `processed_files_directory` and `unwanted_text_file_path` are correctly specified and accessible.
+    This widget is designed to facilitate the review and cleaning process of email texts for further analysis or modeling.
+    """
+   
     files = sorted([f for f in os.listdir(processed_files_directory) if f.endswith('.txt')])
     if not files:
         print("No text files found in the directory.")
