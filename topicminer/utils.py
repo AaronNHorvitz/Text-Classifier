@@ -1,30 +1,46 @@
+# TODO: Write a function to check for duplicate emails.
+# TODO: Add visual plots to the Excel output.
+# TODO: Review the UI for Jupyter Notebook widgets.
+# TODO: Revise code for duplicate functionality.
+# TODO: Review code for latency issues.
+# TODO: Double check the typing in all the function calls.
+
 """
-Utilities Module for TopicMiner
+-------------------------------------------------------------------------------
+File: utilities.py
+Written by: Aaron Noah Horvitz
+Date: 4/18/2024
+Description: This utilities file is part of the Topic Miner project, designed for
+             processing and analyzing Outlook emails saved as .txt files. The utilities
+             include functions to read, clean, and preprocess these emails, extracting
+             key information and preparing them for topic modeling using methods like
+             LDA, TF-IDF, Doc2Vec, and K-Means clustering. The raw data is stored in
+             a predefined directory structure and scripts are executed within a Jupyter
+             Notebook environment to leverage interactive capabilities.
 
-This module provides utility functions for processing email data for the TopicMiner application.
-It includes functions to convert date formats, generate formatted email text with proper word wrapping,
-and save the formatted emails as text files.
-
-Functions:
-- convert_date_format(date_str): Converts a date string from 'YYYY-MM-DD' format to 'Month DD, YYYY' format.
-- generate_email_text(email_date, email_recipient, email_from, email_subject, email_body): 
-  Generates a formatted email text with a word-wrapped body, including headers such as To, From, Sent, and Subject.
-- format_and_save_emails(df, output_dir): Processes a DataFrame containing email data, formats each email,
-  and saves it as a text file in the specified directory.
-
-The module uses Python's built-in datetime and textwrap libraries to handle date conversions and text formatting,
-ensuring that the emails are easily readable and maintain a standard layout.
-
-Example Usage:
-To use these utilities, import the module and call functions like `convert_date_format()` with a date string,
-or `format_and_save_emails()` with a DataFrame of emails and an output directory path.
+             Key functions in this file include:
+             - convert_date_format: Converts dates from 'YYYY-MM-DD' to a more readable format.
+             - generate_email_text: Formats email data into a structured text format.
+             - format_and_save_emails: Saves formatted emails back into the filesystem.
+             - read_text_file: Reads a .txt file while handling different encodings.
+             - parse_email_text_file_components: Extracts components from email text.
+             - add_unwanted_text, delete_unwanted_text: Manage a list of unwanted texts for cleaning.
+             - load_unwanted_text: Loads the list of unwanted texts from a JSON file.
+             - clean_email_body: Cleans the email body by removing unwanted texts.
+             - preprocess_text: Applies text preprocessing like tokenization and lemmatization.
+             - email_viewer: Displays emails in an HTML format for review.
+             - email_viewer_widget: Interactive Jupyter Widget for navigating through emails.
 
 Dependencies:
-- pandas: Used for handling data in DataFrame format.
-- numpy: Utilized for handling NaN values effectively.
-- datetime: Needed for date manipulations.
-- textwrap: Employed to ensure that the email body is wrapped at word boundaries and does not exceed 100 characters per line.
+- Python Standard Library: json, os, re, textwrap
+- Third-party Libraries: chardet, numpy, pandas, nltk, IPython, ipywidgets, tqdm
+- Data Files: Requires access to .txt email files and a JSON file for unwanted texts.
 
+Usage:
+- This script is intended to be used within a Jupyter Notebook to benefit from the
+  interactive widgets and immediate display of processed results.
+
+-------------------------------------------------------------------------------
 """
 
 # Standard library imports
@@ -45,6 +61,10 @@ from datetime import datetime
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+from nltk import data
+
+# data.path.append('/projects/merc_text_analytics/nltk_data') # Add the path to the NLTK data directory if the data is not found in local
+data.path.append("./topicminoer/data/nltk_data")
 
 # Utilities for display and progress tracking
 from IPython.display import display, HTML, clear_output
@@ -159,7 +179,7 @@ To: {email_recipient}
 From: {email_from}
 Sent: {email_date}
 Subject: {email_subject}
-
+ 
 {email_body}
     """
     return email_str.strip()
@@ -167,36 +187,36 @@ Subject: {email_subject}
 
 def format_and_save_emails(df: pd.DataFrame, output_dir: str):
     """
-    Iterates through each row in a DataFrame, formats it as an email using predefined format,
-    and saves each formatted email as a text file in the specified directory.
+     Iterates through each row in a DataFrame, formats it as an email using predefined format,
+     and saves each formatted email as a text file in the specified directory.
 
-    Parameters
-    ----------
-    df : pd.DataFrame
-        A pandas DataFrame containing email data with columns 'docDate', 'to', 'from', 'subject', 'docText', and 'docID'.
-        Each row represents an email with details to be formatted into a text file.
-    output_dir : str
-        The path to the directory where the email text files will be saved. Each file is named using the 'docID'
-        field from the DataFrame and saved with a '.txt' extension.
+     Parameters
+     ----------
+     df : pd.DataFrame
+         A pandas DataFrame containing email data with columns 'docDate', 'to', 'from', 'subject', 'docText', and 'docID'.
+         Each row represents an email with details to be formatted into a text file.
+     output_dir : str
+         The path to the directory where the email text files will be saved. Each file is named using the 'docID'
+         field from the DataFrame and saved with a '.txt' extension.
 
-    Returns
-    -------
-    None
-        This function does not return any value. It writes files directly to the filesystem.
+     Returns
+     -------
+     None
+         This function does not return any value. It writes files directly to the filesystem.
 
-    Examples
-    --------
-    Suppose `df_emails` is your DataFrame containing the email data, and '/path/to/output' is the directory where you want to save the emails:
+     Examples
+     --------
+     Suppose `df_emails` is your DataFrame containing the email data, and '/path/to/output' is the directory where you want to save the emails:
 
-    >>> format_and_save_emails(df_emails, '/path/to/output')
+     >>> format_and_save_emails(df_emails, '/path/to/output')
     Processed email document ID: C06245106
-    Processed email document ID: C06245079
-    Processed email document ID: C06245073
-    ...and so on for each email in the DataFrame.
+     Processed email document ID: C06245079
+     Processed email document ID: C06245073
+     ...and so on for each email in the DataFrame.
 
-    Notes
-    -----
-    Ensure that the `output_dir` directory exists and is writable. This function will overwrite existing files without warning.
+     Notes
+     -----
+     Ensure that the `output_dir` directory exists and is writable. This function will overwrite existing files without warning.
     """
     for index, row in df.iterrows():
         email_text = generate_email_text(
@@ -240,7 +260,7 @@ def read_text_file(file_path: str, word_wrap_limit=100) -> list:
 
     # Read and return the contents of the file
     with open(file_path, "r", encoding=encoding) as file:
-        text_file_contents = file.readlines() 
+        text_file_contents = file.readlines()
 
     return text_file_contents
 
@@ -364,33 +384,34 @@ def add_unwanted_text(file_path: str, new_text: str) -> None:
 
 def delete_unwanted_text(file_path: str, text_to_delete: str) -> None:
     """
-    Deletes an unwanted text string from a JSON file. If the file does not exist or is empty,
-    it notifies the user. It also handles the removal operation safely by checking the presence
-    of the text to delete.
+     Deletes an unwanted text string from a JSON file. If the file does not exist or is empty,
+     it notifies the user. It also handles the removal operation safely by checking the presence
+     of the text to delete.
 
-    Parameters
-    ----------
+     Parameters
+     ----------
     file_path : str
-        Path to the JSON file storing unwanted texts.
-    text_to_delete : str
-        Text string to delete from the file.
+         Path to the JSON file storing unwanted texts.
+     text_to_delete : str
+         Text string to delete from the file.
 
-    Returns
-    -------
-    None
+     Returns
+     -------
+     None
 
-    Examples
-    --------
-    >>> delete_unwanted_text("path/to/unwanted_texts.json", "Example unwanted text")
-    Text removed successfully.
+     Examples
+     --------
+     >>> delete_unwanted_text("path/to/unwanted_texts.json", "Example unwanted text")
+     Text removed successfully.
 
-    Notes
-    -----
-    The function first checks if the JSON file exists. If not, it notifies the user and returns without
-    modifying anything. If the file exists but contains errors (e.g., it's corrupted), the user is informed
-    of the issue. If the specified text to delete is found in the list of unwanted texts, it is removed
-    and the updated list is saved back to the JSON file. If the text is not found, a notification is printed.
+     Notes
+     -----
+     The function first checks if the JSON file exists. If not, it notifies the user and returns without
+     modifying anything. If the file exists but contains errors (e.g., it's corrupted), the user is informed
+     of the issue. If the specified text to delete is found in the list of unwanted texts, it is removed
+     and the updated list is saved back to the JSON file. If the text is not found, a notification is printed.
     """
+
     # Check if the file exists before attempting to open it
     if not os.path.exists(file_path):
         print("JSON file does not exist.")
@@ -453,17 +474,18 @@ def load_unwanted_text(file_path: str) -> list:
         print("JSON file containing unwanted texts is empty or corrupted.")
         return []
 
+
 def clean_email_body(email_body: str, unwanted_texts_file_path: str) -> str:
     """
     Cleans the email body by removing all unwanted text phrases defined in a JSON file.
-    
+
     Parameters:
     ----------
     email_body : str
         The original body of the email which may contain unwanted phrases.
     unwanted_texts_file_path : str
         Path to the JSON file that contains a list of unwanted text strings.
-    
+
     Returns:
     -------
     str
@@ -471,27 +493,28 @@ def clean_email_body(email_body: str, unwanted_texts_file_path: str) -> str:
     """
     # Load the list of unwanted texts from the specified JSON file
     unwanted_texts = load_unwanted_text(unwanted_texts_file_path)
-    
+
     # Remove each unwanted phrase from the email body
     cleaned_body = email_body
     for unwanted_text in unwanted_texts:
         cleaned_body = cleaned_body.replace(unwanted_text, "")
-    
+
     return cleaned_body
+
 
 def preprocess_text(text: str, unwanted_texts_file_path: str) -> str:
     """
     Cleans and standardizes text by performing several preprocessing steps. This includes
     converting text to lowercase, removing specified unwanted phrases loaded from a JSON file,
     stripping out non-alphanumeric characters, removing stop words, and lemmatizing the remaining words.
-    
+
     Parameters:
     ----------
     text : str
         The original text that needs to be preprocessed.
     unwanted_texts_file_path : str
         Path to the JSON file containing unwanted phrases to remove from the text.
-    
+
     Returns:
     -------
     str
@@ -499,71 +522,104 @@ def preprocess_text(text: str, unwanted_texts_file_path: str) -> str:
     """
     # Remove unwanted phrases from text
     text = clean_email_body(text, unwanted_texts_file_path)
-    
+
     # Convert text to lowercase to standardize it
     text = text.lower()
-    
+
     # Remove non-alphanumeric characters
     text = re.sub(r"[^a-zA-Z\s]", "", text)
-    
+
     # Tokenize the text
     tokens = word_tokenize(text)
-    
+
     # Load English stopwords
     stop_words = set(stopwords.words("english"))
-    
+
     # Filter out stopwords, non-alphabetic tokens, and single-character tokens
-    tokens = [word for word in tokens if word.isalpha() and word not in stop_words and len(word) > 1]
-    
+    tokens = [
+        word
+        for word in tokens
+        if word.isalpha() and word not in stop_words and len(word) > 1
+    ]
+
     # Initialize the NLTK lemmatizer
     lemmatizer = WordNetLemmatizer()
-    
+
     # Lemmatize words
     tokens = [lemmatizer.lemmatize(word) for word in tokens]
-    
+
     # Join words back into a single string
     preprocessed_text = " ".join(tokens)
-    
+
     return preprocessed_text
 
 
-def email_viewer(doc_id, data_path, unwanted_text_file_path):
+def email_viewer(doc_id: str, data_path: str, unwanted_text_file_path: str) -> str:
     """
-    Displays an email text comparison in a formatted table including original, cleaned, and preprocessed versions.
+    Displays an email text comparison in a formatted HTML table, including the original email with highlighted unwanted text,
+    the cleaned email text with unwanted text removed, and the preprocessed text for modeling.
 
-    Parameters:
-    - doc_id (str): Document ID for the email.
-    - data_path (str): Path to the directory containing the email files.
-    - unwanted_text_file_path (str): Path to the JSON file containing unwanted texts.
+    Parameters
+    ----------
+    doc_id : str
+        Document ID for the email, which corresponds to the filename without the '.txt' extension.
+    data_path : str
+        Path to the directory containing the email files. Each file should be a text file (.txt) named by its document ID.
+    unwanted_text_file_path : str
+        Path to the JSON file containing a list of strings that are considered unwanted for text analysis.
+        These strings will be highlighted in the original email and removed in the cleaned version.
 
-    This function reads the email from a file, parses it, cleans it of unwanted texts, preprocesses it for modeling,
-    and then displays all versions side by side for comparison.
+    Returns
+    -------
+    str
+        A string containing HTML content that represents a table with three columns: 'Original Email (Highlighted Unwanted Text)',
+        'Removed Unwanted Text', and 'Normalized Text'. Each cell contains respective content styled and formatted for clear presentation.
+
+    Raises
+    ------
+    Exception
+        Catches and prints exceptions related to file handling or processing errors.
+
+    Examples
+    --------
+    >>> email_viewer('sample_doc_id', '/path/to/email/directory', '/path/to/unwanted_texts.json')
+
+    Notes
+    -----
+    This function reads the specified email file based on the document ID, processes it to highlight and remove unwanted texts,
+    and then applies text preprocessing techniques like tokenization and lemmatization. The results are formatted into an HTML table
+    for visual comparison in a Jupyter Notebook or other environments that support HTML rendering.
     """
+
     # Construct full path to the email file
     text_file_path = os.path.join(data_path, f"{doc_id}.txt")
 
     try:
         # Retrieve and parse the original email text
         text_file_contents = read_text_file(text_file_path, word_wrap_limit=50)
-        email_recipient, email_from, email_date, email_subject, email_body = parse_email_text_file_components(text_file_contents)
+        email_recipient, email_from, email_date, email_subject, email_body = (
+            parse_email_text_file_components(text_file_contents)
+        )
         reconstructed_email = f"To: {email_recipient}\nFrom: {email_from}\nSent: {email_date}\n\nSubject: {email_subject}\n\n{email_body}"
-        reconstructed_email = ''.join(reconstructed_email)
+        reconstructed_email = "".join(reconstructed_email)
 
         # Load unwanted texts for highlighting
         unwanted_texts = load_unwanted_text(unwanted_text_file_path)
-        
+
         # Highlight unwanted text in orange
         highlighted_email_body = reconstructed_email
         for phrase in unwanted_texts:
-            highlighted_email_body = highlighted_email_body.replace(phrase, f"<mark style='background-color: orange;'>{phrase}</mark>")
+            highlighted_email_body = highlighted_email_body.replace(
+                phrase, f"<mark style='background-color: orange;'>{phrase}</mark>"
+            )
 
-        # Remove unwanted text to prepare a cleaned email. 
+        # Remove unwanted text to prepare a cleaned email.
         cleaned_email = clean_email_body(reconstructed_email, unwanted_text_file_path)
-        cleaned_email = ''.join(cleaned_email)
+        cleaned_email = "".join(cleaned_email)
 
         cleaned_email_body = clean_email_body(email_body, unwanted_text_file_path)
         normalized_text = preprocess_text(cleaned_email_body, unwanted_text_file_path)
-        normalized_text = ''.join(normalized_text)
+        normalized_text = "".join(normalized_text)
 
         # Create HTML content for display with customizable font size and type
         comparison_html = f"""
@@ -598,11 +654,11 @@ def email_viewer(doc_id, data_path, unwanted_text_file_path):
 
 def email_viewer_widget(processed_files_directory, unwanted_text_file_path):
     """
-    Creates an interactive Jupyter Notebook widget for viewing and managing email documents. 
-    It allows users to navigate through email documents stored in a specified directory, 
+    Creates an interactive Jupyter Notebook widget for viewing and managing email documents.
+    It allows users to navigate through email documents stored in a specified directory,
     display them with unwanted texts highlighted, and interactively manage unwanted texts using a JSON file.
 
-    The widget includes navigation buttons to move between emails, a text box to directly jump to a specific email by document ID, 
+    The widget includes navigation buttons to move between emails, a text box to directly jump to a specific email by document ID,
     and buttons for adding or deleting text strings to/from an unwanted text list.
 
     Parameters:
@@ -637,21 +693,27 @@ def email_viewer_widget(processed_files_directory, unwanted_text_file_path):
     Ensure that both the `processed_files_directory` and `unwanted_text_file_path` are correctly specified and accessible.
     This widget is designed to facilitate the review and cleaning process of email texts for further analysis or modeling.
     """
-   
-    files = sorted([f for f in os.listdir(processed_files_directory) if f.endswith('.txt')])
+
+    files = sorted(
+        [f for f in os.listdir(processed_files_directory) if f.endswith(".txt")]
+    )
     if not files:
         print("No text files found in the directory.")
         return
 
-    output_area = Output(layout={'border': '1px solid black', 'width': '100%', 'height': '500px'})
-    doc_id_input = Text(placeholder='Enter Document ID', description='Go to ID:')
-    text_to_manage = Text(placeholder='Enter text to add/delete', description='Manage Text:')
-    go_button = Button(description='Go')
-    prev_button = Button(description='Previous')
-    next_button = Button(description='Next')
-    add_text_button = Button(description='Add Text')
-    delete_text_button = Button(description='Delete Text')
-    refresh_button = Button(description='Refresh')
+    output_area = Output(
+        layout={"border": "1px solid black", "width": "100%", "height": "500px"}
+    )
+    doc_id_input = Text(placeholder="Enter Document ID", description="Go to ID:")
+    text_to_manage = Text(
+        placeholder="Enter text to add/delete", description="Manage Text:"
+    )
+    go_button = Button(description="Go")
+    prev_button = Button(description="Previous")
+    next_button = Button(description="Next")
+    add_text_button = Button(description="Add Text")
+    delete_text_button = Button(description="Delete Text")
+    refresh_button = Button(description="Refresh")
     navigation_info = Label()
     current_doc_label = Label()
 
@@ -659,7 +721,9 @@ def email_viewer_widget(processed_files_directory, unwanted_text_file_path):
         nonlocal current_index  # Ensure current_index can be modified
         doc_id = files[index][:-4]  # Remove '.txt' extension
         current_doc_label.value = f"Viewing: {doc_id}"
-        comparison_html = email_viewer(doc_id, processed_files_directory, unwanted_text_file_path)
+        comparison_html = email_viewer(
+            doc_id, processed_files_directory, unwanted_text_file_path
+        )
         with output_area:
             clear_output(wait=True)
             display(HTML(comparison_html))
@@ -707,53 +771,58 @@ def email_viewer_widget(processed_files_directory, unwanted_text_file_path):
 
     # Layouts
     navigation_buttons = HBox([prev_button, navigation_info, next_button])
-    text_management_buttons = HBox([add_text_button, delete_text_button, refresh_button, text_to_manage])
+    text_management_buttons = HBox(
+        [add_text_button, delete_text_button, refresh_button, text_to_manage]
+    )
     search_box = HBox([doc_id_input, go_button])
     doc_info = HBox([current_doc_label])
 
     left_box = VBox([search_box, navigation_buttons, doc_info])
     right_box = VBox([text_management_buttons])
-    top_row = HBox([left_box, right_box], layout=Layout(justify_content='space-between'))
+    top_row = HBox(
+        [left_box, right_box], layout=Layout(justify_content="space-between")
+    )
     interface = VBox([top_row, output_area])
 
     return interface
 
+
 def parse_date_day_time(date_str):
     """
-    Parses a string representing a date and time, returning the day of the week, date, and time in a standardized format.
+     Parses a string representing a date and time, returning the day of the week, date, and time in a standardized format.
 
-    This function is designed to handle multiple date formats by checking each format defined in `date_formats`. It uses
-    the `datetime.strptime` method to try parsing the date string according to each format until successful. If none of
-    the formats match, or the date string is a known placeholder for missing data, it defaults to returning "Unknown" for
-    each part of the date.
+     This function is designed to handle multiple date formats by checking each format defined in `date_formats`. It uses
+     the `datetime.strptime` method to try parsing the date string according to each format until successful. If none of
+     the formats match, or the date string is a known placeholder for missing data, it defaults to returning "Unknown" for
+     each part of the date.
 
-    Parameters
-    ----------
-    date_str : str
-        The date string to parse. This can be in various formats or a known placeholder indicating missing data.
+     Parameters
+     ----------
+     date_str : str
+         The date string to parse. This can be in various formats or a known placeholder indicating missing data.
 
-    Returns
-    -------
-    tuple
-        A tuple containing three strings: (date, time, day_of_week). If parsing fails or the input is a known placeholder,
-        these will return as "Unknown".
+     Returns
+     -------
+     tuple
+         A tuple containing three strings: (date, time, day_of_week). If parsing fails or the input is a known placeholder,
+         these will return as "Unknown".
 
     Examples
-    --------
-    >>> parse_date_day_time("Monday, January 01, 2020 02:30 PM")
-    ('January 01, 2020', '14:30', 'Monday')
+     --------
+     >>> parse_date_day_time("Monday, January 01, 2020 02:30 PM")
+     ('January 01, 2020', '14:30', 'Monday')
 
-    >>> parse_date_day_time("2020-01-01")
-    ('January 01, 2020', 'Unknown', 'Unknown')
+     >>> parse_date_day_time("2020-01-01")
+     ('January 01, 2020', 'Unknown', 'Unknown')
 
-    >>> parse_date_day_time("Unknown Date")
-    ('Unknown', 'Unknown', 'Unknown')
+     >>> parse_date_day_time("Unknown Date")
+     ('Unknown', 'Unknown', 'Unknown')
 
-    Notes
-    -----
-    The function can handle custom formats by modifying the `date_formats` list. It uses Python's datetime library for
-    parsing and formatting. If new formats are expected, they should be added to the `date_formats` list to ensure
-    proper parsing.
+     Notes
+     -----
+     The function can handle custom formats by modifying the `date_formats` list. It uses Python's datetime library for
+     parsing and formatting. If new formats are expected, they should be added to the `date_formats` list to ensure
+     proper parsing.
     """
     # Define your date formats
     date_formats = [
@@ -786,14 +855,52 @@ def parse_date_day_time(date_str):
 
     return date, time, day_of_week
 
-def process_emails_in_directory(data_path, unwanted_text_file_path):
+
+def process_emails_in_directory(
+    data_path: str, unwanted_text_file_path: str
+) -> pd.DataFrame:
     """
     Processes all email .txt files in the specified directory,
     extracting and preprocessing relevant components, and returns a DataFrame.
 
-    :param data_path: Path to the directory containing email .txt files
-    :return: DataFrame with processed email data
+    Parameters
+    ----------
+    data_path : str
+        Path to the directory containing email .txt files.
+    unwanted_text_file_path : str
+        Path to the JSON file containing unwanted text phrases that should be removed
+        during the preprocessing of emails.
+
+    Returns
+    -------
+    pandas.DataFrame
+        A DataFrame containing the following columns: 'doc_id', 'date', 'time', 'day_of_week',
+        'to_line', 'from_line', 'subj_line', 'email_body', 'processed_text', and 'file_path'.
+        Each row in the DataFrame represents an email with its respective details and processed text.
+
+    Examples
+    --------
+    >>> data_path = './data/emails/'
+    >>> unwanted_text_file_path = './data/unwanted_texts.json'
+    >>> emails_df = process_emails_in_directory(data_path, unwanted_text_file_path)
+    >>> print(emails_df.head())
+
+    Notes
+    -----
+    This function loops through each .txt file in the specified directory and performs the following:
+    - Reads the content of the file.
+    - Parses the email components such as recipient, sender, date, subject, and body.
+    - Processes the email body by removing unwanted texts and applying text normalization and cleaning.
+    - Collects all relevant information into a DataFrame for further analysis or processing.
+
+    The 'preprocess_text' function referenced in this code should handle the removal of unwanted texts,
+    tokenization, removal of stop words, and any other text normalization required.
+
+    Ensure that the `data_path` and `unwanted_text_file_path` are correctly set to point to valid directories
+    and files on your system. The function uses `os.listdir` to iterate through the files, so make sure the
+    path does not contain subdirectories with non-email files.
     """
+
     email_data = []
 
     # Loop through each file in the directory
@@ -808,7 +915,9 @@ def process_emails_in_directory(data_path, unwanted_text_file_path):
 
         # Extract from_line, sent_line, subject_line, body
         text_file_contents = read_text_file(text_file_path)
-        email_recipient, email_from, email_date, email_subject, email_body = parse_email_text_file_components(text_file_contents)
+        email_recipient, email_from, email_date, email_subject, email_body = (
+            parse_email_text_file_components(text_file_contents)
+        )
 
         # Extract date, time, day_of_week from sent_line
         date, time, day_of_week = parse_date_day_time(date_str=email_date)
@@ -846,8 +955,8 @@ def process_emails_in_directory(data_path, unwanted_text_file_path):
             "to_line",
             "from_line",
             "subj_line",
-            "body",
-            "processed_body_text",
+            "email_body",
+            "processed_text",
             "file_path",
         ],
     )
