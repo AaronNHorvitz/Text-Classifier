@@ -94,6 +94,36 @@ unwanted_texts = [
     "Internal Revenue Service",
 ]
 
+def prepare_corpus_and_dictionary(
+    texts: List[List[str]], 
+    no_below: int = 10, 
+    no_above: float = 0.5
+) -> Tuple[Dictionary, List[List[Tuple[int, int]]]]:
+    """
+    Prepares a dictionary and corpus from the provided texts for use in topic modeling,
+    with options to filter tokens by document frequency.
+
+    Parameters
+    ----------
+    texts : list of list of str
+        A list where each element is a list of tokens (words) from a single document.
+    no_below : int
+        Minimum number of documents a token must appear in to be kept.
+    no_above : float
+        Maximum proportion of documents a token can appear in to be kept.
+
+    Returns
+    -------
+    tuple
+        A tuple containing:
+        - Dictionary: A Gensim Dictionary object of the unique tokens in the texts.
+        - list: A list of bag-of-words (BoW) tuples for each document in the texts.
+    """
+    dictionary = Dictionary(texts)
+    dictionary.filter_extremes(no_below=no_below, no_above=no_above)
+    corpus = [dictionary.doc2bow(text) for text in texts]
+    return dictionary, corpus
+
 
 def view_file(text_file_path):
     """
@@ -870,41 +900,6 @@ def prepare_texts(df: pd.DataFrame, column_name: str) -> List[List[str]]:
     return [doc.split() for doc in df[column_name]]
 
 
-def create_dictionary_and_corpus(
-    texts: List[List[str]], no_below: int = 10, no_above: float = 0.9
-) -> Tuple[Dictionary, List[Tuple[int, int]]]:
-    """
-    Creates a Gensim dictionary and Bag of Words (BoW) corpus from tokenized texts and applies frequency filters.
-
-    Parameters:
-    ----------
-    texts : List[List[str]]
-        List of tokenized texts where each text is a list of tokens.
-    no_below : int
-        Minimum document frequency for tokens. Tokens appearing in fewer than 'no_below' documents are removed.
-    no_above : float
-        Maximum document frequency, as a fraction of the total corpus size, for tokens. Tokens appearing in more than
-        'no_above' fraction of the documents are removed.
-
-    Returns:
-    -------
-    Tuple[Dictionary, List[Tuple[int, int]]]
-        A tuple where the first element is a Gensim dictionary of the processed corpus, and the second element is
-        a list of BoW representations for each document.
-
-    Example:
-    --------
-    >>> texts = [['hello', 'world'], ['text', 'data', 'mining']]
-    >>> dictionary, corpus = create_dictionary_and_corpus(texts, no_below=1, no_above=0.5)
-    >>> print(list(corpus))
-    [[(0, 1), (1, 1)], [(2, 1), (3, 1), (4, 1)]]
-    """
-    dictionary = Dictionary(texts)
-    dictionary.filter_extremes(no_below=no_below, no_above=no_above)
-    corpus = [dictionary.doc2bow(text) for text in texts]
-    return dictionary, corpus
-
-
 def interactive_email_viewer(data_path: str):
     """
     Creates an interactive viewer to navigate and display emails from a specified directory. The viewer includes
@@ -1169,34 +1164,6 @@ def get_top_topics_per_document(
     return top_topics
 
 
-def prepare_corpus_and_dictionary(texts: list) -> tuple:
-    """
-    Prepares a dictionary and corpus from the provided texts for use in topic modeling.
-
-    Parameters
-    ----------
-    texts : list of list of str
-        A list where each element is a list of tokens (words) from a single document.
-
-    Returns
-    -------
-    tuple
-        A tuple containing:
-        - Dictionary: A Gensim Dictionary object of the unique tokens in the texts.
-        - list: A list of bag-of-words (BoW) tuples for each document in the texts.
-
-    Examples
-    --------
-    >>> texts = [["hello", "world"], ["hello", "gensim"]]
-    >>> dictionary, corpus = prepare_corpus_and_dictionary(texts)
-    >>> print(dictionary.token2id)
-    >>> print(corpus)
-    """
-    dictionary = Dictionary(texts)
-    corpus = [dictionary.doc2bow(text) for text in texts]
-    return dictionary, corpus
-
-
 def create_emails_with_topics_dataframe(
     doc_ids: list, emails_df: pd.DataFrame, top_topics_str: list
 ) -> pd.DataFrame:
@@ -1248,7 +1215,7 @@ def train_lda_model(
     chunksize: int = 2000,
     passes: int = 10,
     alpha: str = "symmetric",
-    workers: int = None,
+    workers: int = 8,
 ) -> LdaMulticore:
     """
     Trains an LDA (Latent Dirichlet Allocation) model using multiple cores and displays training progress.
@@ -1270,7 +1237,7 @@ def train_lda_model(
     alpha : str, optional
         Hyperparameter affecting the sparsity/thickness of the topics. Default is 'symmetric'.
     workers : int, optional
-        The number of worker processes to be used for parallelization. If None, all available cores will be used.
+        The number of worker processes to be used for parallelization. Default is 8, and the maximum allowed is 8.
 
     Returns
     -------
@@ -1290,6 +1257,10 @@ def train_lda_model(
     This function initializes the LDA model with one pass to ensure the model's proper setup and then manually
     updates the model in a loop for the remaining number of passes, showing a tqdm progress bar for visibility.
     """
+    if workers > 8:
+        workers = 8
+        print('The maximum number of workers allowed is 8. Setting workers to 8.')
+
     lda_model = LdaMulticore(
         corpus=corpus,
         id2word=dictionary,
@@ -1374,7 +1345,7 @@ def train_models_and_find_optimal(
     start: int = 2,
     limit: int = 22,
     step: int = 4,
-    workers: int = 4,
+    workers: int = 8,
 ) -> Tuple[LdaMulticore, int, float]:
     """
     Trains multiple LDA models with varying numbers of topics to find the optimal model based on coherence scores.
@@ -1394,7 +1365,7 @@ def train_models_and_find_optimal(
     step : int, optional
         Step size to iterate through the number of topics, by default 4.
     workers : int, optional
-        Number of worker processes to train the LDA models, by default 4.
+        Number of worker processes to train the LDA models, by default 8.
 
     Returns
     -------
@@ -1464,7 +1435,7 @@ def perform_lda_topic_modelling(
     chunksize: int = 2000,
     passes: int = 10,
     alpha: str = "symmetric",
-    workers: int = 4,
+    workers: int = 8,
 ) -> Tuple[pd.DataFrame, LdaModel]:
     """
     Performs Latent Dirichlet Allocation (LDA) topic modeling on a collection of emails to identify prevalent topics
@@ -1481,13 +1452,13 @@ def perform_lda_topic_modelling(
         The number of distinct topics to identify in the LDA model.
     random_state : int, default 100
         Seed for the random number generator for reproducibility.
-    chunksize : int, default 2000
+    chunksize : int, default 2000 
         Number of documents to consider at once in the training algorithm.
     passes : int, default 10
         Number of training passes through the corpus.
     alpha : {'symmetric', 'asymmetric', 'auto'} or list, default 'symmetric'
         Hyperparameter affecting document-topic density. Can be specified as a list for asymmetric priors.
-    workers : int, default 4
+    workers : int, default 8
         Number of worker processes to use for parallelization. If None, uses all available cores minus one.
 
     Returns:
@@ -1514,10 +1485,9 @@ def perform_lda_topic_modelling(
     """
     # Prepare texts and document IDs
     texts = [doc.split() for doc in emails_df[processed_text_col]]
-
-    # Create dictionary and corpus
-    dictionary = Dictionary(texts)
-    corpus = [dictionary.doc2bow(text) for text in texts]
+    
+    # Create dictionary and corpus using the new unified function
+    dictionary, corpus = prepare_corpus_and_dictionary(texts, no_below, no_above)
 
     # Optionally apply TF-IDF transformation
     corpus_tfidf = TfidfModel(corpus)[corpus]
@@ -1547,7 +1517,7 @@ def perform_lda_topic_modelling(
     enriched_emails_df = emails_df.copy()
     enriched_emails_df["top_topics"] = top_topics_str
 
-    return enriched_emails_df, lda_model_tfidf, corpus, dictionary, corpus_tfidf
+    return enriched_emails_df, lda_model_tfidf
 
 
 def get_top_topics_str_for_each_document(
