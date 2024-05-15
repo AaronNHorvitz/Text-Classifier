@@ -95,8 +95,6 @@ unwanted_texts = [
 ]
 
 
-
-
 def view_file(text_file_path):
     """
     Read and return the content of a text file, automatically detecting and applying the correct text encoding.
@@ -138,7 +136,9 @@ def view_file(text_file_path):
         return file.read()
 
 
-def text_pruner(data_path: str, unwanted_texts_filename: str = "unwanted_texts.json") -> VBox:
+def text_pruner(
+    data_path: str, unwanted_texts_filename: str = "unwanted_texts.json"
+) -> VBox:
     """
     Initialize an interactive text pruning interface for cleaning up email data from a specified directory.
 
@@ -1178,36 +1178,6 @@ def create_emails_with_topics_dataframe(
     )
     return df_emails_with_topics
 
-def prepare_corpus_and_dictionary(
-    texts: List[List[str]], 
-    no_below: int = 5,  # Good starting point for moderate-sized corpora
-    no_above: float = 0.5  # Exclude words appearing in more than 50% of the documents
-) -> Tuple[Dictionary, List[List[Tuple[int, int]]]]:
-    """
-    Prepares a dictionary and corpus from the provided texts for use in topic modeling,
-    with options to filter tokens by document frequency.
-
-    Parameters
-    ----------
-    texts : list of list of str
-        A list where each element is a list of tokens (words) from a single document.
-    no_below : int
-        Minimum number of documents a token must appear in to be kept.
-    no_above : float
-        Maximum proportion of documents a token can appear in to be kept.
-
-    Returns
-    -------
-    tuple
-        A tuple containing:
-        - Dictionary: A Gensim Dictionary object of the unique tokens in the texts.
-        - list: A list of bag-of-words (BoW) tuples for each document in the texts.
-    """
-    dictionary = Dictionary(texts)
-    dictionary.filter_extremes(no_below=no_below, no_above=no_above)
-    corpus = [dictionary.doc2bow(text) for text in texts]
-    return dictionary, corpus
-
 
 def train_lda_model(
     corpus: list,
@@ -1261,7 +1231,7 @@ def train_lda_model(
     """
     if workers > 8:
         workers = 8
-        print('The maximum number of workers allowed is 8. Setting workers to 8.')
+        print("The maximum number of workers allowed is 8. Setting workers to 8.")
 
     lda_model = LdaMulticore(
         corpus=corpus,
@@ -1280,6 +1250,57 @@ def train_lda_model(
             lda_model.update(corpus)  # Update the model in subsequent passes.
 
     return lda_model
+
+
+def prepare_corpus_and_dictionary(
+    emails_df: pd.DataFrame,
+    processed_text_col: str = "processed_text",
+    no_below: int = 5,  # Good starting point for moderate-sized corpora
+    no_above: float = 0.5,  # Exclude words appearing in more than 50% of the documents
+) -> Tuple[Dictionary, List[List[Tuple[int, int]]]]:
+    """
+    Prepares a dictionary and corpus from the provided DataFrame column for use in topic modeling,
+    with options to filter tokens by document frequency.
+
+    Parameters
+    ----------
+    emails_df : pd.DataFrame
+        DataFrame containing the emails.
+    processed_text_col : str
+        Column name in `emails_df` which contains preprocessed text for topic modeling.
+    no_below : int
+        Minimum number of documents a token must appear in to be kept.
+    no_above : float
+        Maximum proportion of documents a token can appear in to be kept.
+
+    Returns
+    -------
+    tuple
+        A tuple containing:
+        - Dictionary: A Gensim Dictionary object of the unique tokens in the texts.
+        - list: A list of bag-of-words (BoW) tuples for each document in the texts.
+
+    Raises
+    ------
+    ValueError
+        If `processed_text_col` is not a column in `emails_df`.
+    """
+    if processed_text_col not in emails_df.columns:
+        raise ValueError(
+            f"Column {processed_text_col} does not exist in the DataFrame."
+        )
+
+    # Prepare texts and document IDs
+    texts = [doc.split() for doc in emails_df[processed_text_col]]
+
+    # Create a Gensim Dictionary object
+    dictionary = Dictionary(texts)
+    dictionary.filter_extremes(no_below=no_below, no_above=no_above)
+
+    # Create a bag-of-words corpus
+    corpus = [dictionary.doc2bow(text) for text in texts]
+
+    return dictionary, corpus
 
 
 def display_topic_words(lda_model: LdaModel, num_words: int = 10) -> pd.DataFrame:
@@ -1350,7 +1371,7 @@ def perform_lda_topic_modelling(
     alpha: str = "symmetric",
     workers: int = 8,
     no_below: int = 5,  # Default setting for minimum document frequency
-    no_above: float = 0.5  # Default setting for maximum document proportion
+    no_above: float = 0.5,  # Default setting for maximum document proportion
 ) -> Tuple[pd.DataFrame, LdaModel]:
     """
     Performs Latent Dirichlet Allocation (LDA) topic modeling on a collection of emails to identify prevalent topics
@@ -1367,7 +1388,7 @@ def perform_lda_topic_modelling(
         The number of distinct topics to identify in the LDA model.
     random_state : int, default 100
         Seed for the random number generator for reproducibility.
-    chunksize : int, default 2000 
+    chunksize : int, default 2000
         Number of documents to consider at once in the training algorithm.
     passes : int, default 10
         Number of training passes through the corpus.
@@ -1404,11 +1425,11 @@ def perform_lda_topic_modelling(
     or topics. It's particularly useful in exploratory data analysis and natural language processing applications where
     the themes of documents need to be understood quickly.
     """
-    # Prepare texts and document IDs
-    texts = [doc.split() for doc in emails_df[processed_text_col]]
 
     # Create dictionary and corpus using the new unified function
-    dictionary, corpus = prepare_corpus_and_dictionary(texts, no_above, no_below)
+    dictionary, corpus = prepare_corpus_and_dictionary(
+        emails_df, processed_text_col, no_below, no_above
+    )
 
     # Optionally apply TF-IDF transformation
     corpus_tfidf = TfidfModel(corpus)[corpus]
@@ -1528,7 +1549,6 @@ def train_models_and_find_optimal(
     plt.show()
 
     return best_model, best_num_topics, best_coherence
-
 
 
 def get_top_topics_str_for_each_document(
