@@ -23,7 +23,7 @@ Description: This utilities file is part of the Topic Miner project, designed fo
              - generate_email_text: Formats email data into a structured text format.
              - format_and_save_emails: Saves formatted emails back into the filesystem.
              - read_text_file: Reads a .txt file while handling different encodings.
-             - parse_email_text_file_components: Extracts components from email text.
+             - parse_top_email_from_chain: Extracts components from top email in text.
              - add_unwanted_text, delete_unwanted_text: Manage a list of unwanted texts for cleaning.
              - load_unwanted_text: Loads the list of unwanted texts from a JSON file.
              - clean_email_body: Cleans the email body by removing unwanted texts.
@@ -264,73 +264,130 @@ def read_text_file(file_path: str, word_wrap_limit=100) -> list:
 
     return text_file_contents
 
-
-def parse_email_text_file_components(text_file_contents: list) -> tuple:
+def parse_top_email_from_chain(text_file_contents: list) -> tuple:
     """
-    Parse the components of an email from a list of lines of the email text.
+    Parses the top email from a chain in a list of lines from an Outlook formatted email text file.
 
     Parameters
     ----------
     text_file_contents : list of str
-        Lines from a text file containing an email. Each line should correspond to one line of the text file.
+        Lines from a text file containing an email chain. Each line corresponds to one line of the text file.
 
     Returns
     -------
     tuple
-        Contains 'To', 'From', 'Sent date', 'Subject', and 'Body' of the email as strings.
-        Each component is extracted based on its prefix and the body is collected after an empty line.
-
-    Examples
-    --------
-    >>> email_lines = [
-        "To: Example Recipient",
-        "From: Example Sender",
-        "Sent: January 01, 2020",
-        "Subject: Example Subject",
-        "",
-        "This is the first line of the email body.",
-        "This is the second line of the email body."
-    ]
-    >>> recipient, sender, date, subject, body = parse_email_text_file_components(email_lines)
-    >>> print(recipient)
-    'Example Recipient'
-    >>> print(body)
-    'This is the first line of the email body.\nThis is the second line of the email body.'
+        Contains 'To', 'From', 'Cc', 'Sent date', 'Subject', and 'Body' of the top email as strings.
+        Each component is extracted based on Outlook format patterns.
 
     Notes
     -----
-    This function assumes a specific format of the email text, where headers are provided
-    with 'To:', 'From:', 'Sent:', and 'Subject:' prefixes, followed by an empty line before
-    the body of the email starts.
+    This function assumes a specific format where the most recent email appears first and is followed
+    by previous emails, each introduced by a line stating "On [date] [sender] wrote:".
     """
     # Initialize default values for email components
     email_recipient = "Unknown Recipient"
-    email_from = "Unknown Sender"
+    email_sender = "Unknown Sender"
+    email_cc = "No CC"
+    email_bcc = "No BCC"
     email_date = "Unknown Date"
     email_subject = "No Subject"
+    email_attachments = "No Attachments"
     email_body = []
 
-    # Flag to indicate start of body
-    body_start_found = False
+    # Regex to detect start of an old email in the chain
+    old_email_start = re.compile(r'^On .* wrote:$')
 
+    # Start processing the first email
     for line in text_file_contents:
         stripped_line = line.strip()
-        if stripped_line.startswith("To:"):
-            email_recipient = stripped_line.replace("To:", "").strip()
+        if old_email_start.match(stripped_line):
+            break  # Stop reading when an old email reply starts
         elif stripped_line.startswith("From:"):
-            email_from = stripped_line.replace("From:", "").strip()
+            email_sender = stripped_line.replace("From:", "").strip()
         elif stripped_line.startswith("Sent:"):
             email_date = stripped_line.replace("Sent:", "").strip()
+        elif stripped_line.startswith("To:"):
+            email_recipient = stripped_line.replace("To:", "").strip()
+        elif stripped_line.startswith("Cc:"):
+            email_cc = stripped_line.replace("Cc:", "").strip()
+        elif stripped_line.startswith("Bcc:"):
+            email_bcc = stripped_line.replace("Bcc:", "").strip()
         elif stripped_line.startswith("Subject:"):
             email_subject = stripped_line.replace("Subject:", "").strip()
-        elif stripped_line == "":
-            body_start_found = True  # Empty line indicates the start of the body
-        elif body_start_found:
-            email_body.append(stripped_line)  # Append line to body
+        elif stripped_line.startswith("Attachments:"):
+            email_attachments = stripped_line.replace("Attachments:", "").strip()
+        elif stripped_line:
+            email_body.append(stripped_line)  # Collecting body text
 
     email_body = "\n".join(email_body)  # Join all body lines into a single string
+    return email_recipient, email_sender, email_cc, email_bcc, email_date, email_subject, email_attachments, email_body 
 
-    return email_recipient, email_from, email_date, email_subject, email_body
+# def parse_email_text_file_components(text_file_contents: list) -> tuple:
+#     """
+#     Parse the components of an email from a list of lines of the email text.
+
+#     Parameters
+#     ----------
+#     text_file_contents : list of str
+#         Lines from a text file containing an email. Each line should correspond to one line of the text file.
+
+#     Returns
+#     -------
+#     tuple
+#         Contains 'To', 'From', 'Sent date', 'Subject', and 'Body' of the email as strings.
+#         Each component is extracted based on its prefix and the body is collected after an empty line.
+
+#     Examples
+#     --------
+#     >>> email_lines = [
+#         "To: Example Recipient",
+#         "From: Example Sender",
+#         "Sent: January 01, 2020",
+#         "Subject: Example Subject",
+#         "",
+#         "This is the first line of the email body.",
+#         "This is the second line of the email body."
+#     ]
+#     >>> recipient, sender, date, subject, body = parse_email_text_file_components(email_lines)
+#     >>> print(recipient)
+#     'Example Recipient'
+#     >>> print(body)
+#     'This is the first line of the email body.\nThis is the second line of the email body.'
+
+#     Notes
+#     -----
+#     This function assumes a specific format of the email text, where headers are provided
+#     with 'To:', 'From:', 'Sent:', and 'Subject:' prefixes, followed by an empty line before
+#     the body of the email starts.
+#     """
+#     # Initialize default values for email components
+#     email_recipient = "Unknown Recipient"
+#     email_from = "Unknown Sender"
+#     email_date = "Unknown Date"
+#     email_subject = "No Subject"
+#     email_body = []
+
+#     # Flag to indicate start of body
+#     body_start_found = False
+
+#     for line in text_file_contents:
+#         stripped_line = line.strip()
+#         if stripped_line.startswith("To:"):
+#             email_recipient = stripped_line.replace("To:", "").strip()
+#         elif stripped_line.startswith("From:"):
+#             email_from = stripped_line.replace("From:", "").strip()
+#         elif stripped_line.startswith("Sent:"):
+#             email_date = stripped_line.replace("Sent:", "").strip()
+#         elif stripped_line.startswith("Subject:"):
+#             email_subject = stripped_line.replace("Subject:", "").strip()
+#         elif stripped_line == "":
+#             body_start_found = True  # Empty line indicates the start of the body
+#         elif body_start_found:
+#             email_body.append(stripped_line)  # Append line to body
+
+#     email_body = "\n".join(email_body)  # Join all body lines into a single string
+
+#     return email_recipient, email_from, email_date, email_subject, email_body
 
 
 def add_unwanted_text(file_path: str, new_text: str) -> None:
@@ -521,7 +578,7 @@ def preprocess_text(text: str, unwanted_texts_file_path: str) -> str:
         The cleaned and processed text as a single string, with words normalized to their base form and separated by spaces.
     """
     # Remove unwanted phrases from text
-    text = clean_email_body(text, unwanted_texts_file_path)
+    text =  clean_email_body(text, unwanted_texts_file_path)
 
     # Convert text to lowercase to standardize it
     text = text.lower()
@@ -598,7 +655,7 @@ def email_viewer(doc_id: str, data_path: str, unwanted_text_file_path: str) -> s
         # Retrieve and parse the original email text
         text_file_contents = read_text_file(text_file_path, word_wrap_limit=50)
         email_recipient, email_from, email_date, email_subject, email_body = (
-            parse_email_text_file_components(text_file_contents)
+            parse_top_email_from_chain(text_file_contents)
         )
         reconstructed_email = f"To: {email_recipient}\nFrom: {email_from}\nSent: {email_date}\n\nSubject: {email_subject}\n\n{email_body}"
         reconstructed_email = "".join(reconstructed_email)
@@ -907,16 +964,16 @@ def process_emails_in_directory(
     for filename in tqdm(os.listdir(data_path)):
 
         # Construct a file path to each .txt file in the data directory
-        text_file_path = os.path.join(data_path, filename)
+        file_path = os.path.join(data_path, filename)
 
         # Ensure the file is a .txt file
-        if not text_file_path.endswith(".txt"):
+        if not file_path.endswith(".txt"):
             continue
 
         # Extract from_line, sent_line, subject_line, body
-        text_file_contents = read_text_file(text_file_path)
-        email_recipient, email_from, email_date, email_subject, email_body = (
-            parse_email_text_file_components(text_file_contents)
+        file_contents = read_text_file(file_path)
+        email_recipient, email_sender, email_cc, email_bcc, email_date, email_subject, email_attachments, email_body = (
+            parse_top_email_from_chain(file_contents)
         )
 
         # Extract date, time, day_of_week from sent_line
@@ -926,7 +983,7 @@ def process_emails_in_directory(
         doc_id = filename.strip(".txt")
 
         # Apply the preprocessing function to the 'Email Text' column
-        processed_body_text = preprocess_text(email_body, unwanted_text_file_path)
+        processed_text = preprocess_text(email_body, unwanted_text_file_path)
 
         # Append the extracted email components to a list
         email_data.append(
@@ -936,11 +993,14 @@ def process_emails_in_directory(
                 time,
                 day_of_week,
                 email_recipient,
-                email_from,
+                email_sender,
+                email_cc, 
+                email_bcc, 
                 email_subject,
+                email_attachments,
                 email_body,
-                processed_body_text,
-                text_file_path,
+                processed_text,
+                file_path,
             ]
         )
 
@@ -952,9 +1012,12 @@ def process_emails_in_directory(
             "date",
             "time",
             "day_of_week",
-            "to_line",
-            "from_line",
-            "subj_line",
+            "email_recipient",
+            "email_sender",
+            "email_cc",
+            "email_bcc",
+            "email_subject",
+            "email_attachments",
             "email_body",
             "processed_text",
             "file_path",
