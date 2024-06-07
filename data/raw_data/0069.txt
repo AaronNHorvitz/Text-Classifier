@@ -1,0 +1,31 @@
+From: Kevin Lopez <k.lopez@datatech.com>
+Sent: Friday, November 7, 2025 9:30 AM
+To: Development Team <development@datatech.com>
+Subject: Upcoming Workshop: Advanced Techniques in Data Analysis
+Categories: Training
+
+Hello Team,
+
+I am excited to announce that we will be hosting a software training workshop focused on Advanced Techniques in Data Analysis. This workshop is designed to enhance our capabilities in using the latest tools and methodologies in our projects.
+
+**Workshop Details:**
+- **Date:** Wednesday, November 12, 2025
+- **Time:** 10:00 AM to 4:00 PM
+- **Location:** Training Room 3, Datatech Office
+
+The workshop will cover:
+- Advanced statistical methods
+- Machine learning applications in data analysis
+- Hands-on training with our new data analysis software suite
+
+This is a fantastic opportunity for all of us to enhance our skills and stay ahead in the rapidly evolving field of data technology. Lunch and refreshments will be provided.
+
+Please RSVP by Monday, November 10, to ensure we have the necessary materials prepared for everyone.
+
+Looking forward to a productive session with all of you!
+
+Best,
+Kevin Lopez
+Lead Data Scientist
+DataTech | "Analyzing Today’s Data for Tomorrow’s Solutions"
+Phone: +1 234-567-8901

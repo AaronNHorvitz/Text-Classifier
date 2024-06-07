@@ -1,0 +1,31 @@
+From:    Emily Turner <emily.turner@businessdomain.com>
+Sent:    Monday, June 2, 2024 8:47 AM
+To:      IT Support <itsupport@businessdomain.com>
+Cc:      John Doe <john.doe@businessdomain.com>; Customer Relations <cust.relations@businessdomain.com>
+Subject: Urgent: Repeated Login Failures Reported by Multiple Users
+
+Hi Team,
+
+We have received multiple reports this morning from users experiencing login failures despite correct credentials being entered. This issue seems to be escalating and affecting more of our customers.
+
+Can we have an immediate check on the server logs and possibly escalate this to the network team if necessary? We need a swift resolution to avoid further customer dissatisfaction.
+
+Thanks,
+Emily
+
+--- On Mon, 6/2/24, John Doe <john.doe@businessdomain.com> wrote:
+
+From: John Doe <john.doe@businessdomain.com>
+Subject: Re: Login Issue Alert
+To: IT Support <itsupport@businessdomain.com>
+Sent: Sunday, June 1, 2024 5:34 PM
+
+I've noticed some irregularities in login attempts which seem to be unusually high. It might be related to the issue Emily reported. Has anyone else noticed this? Could this be a DDOS attack?
+
+Regards,
+John
+
+
+
+
+

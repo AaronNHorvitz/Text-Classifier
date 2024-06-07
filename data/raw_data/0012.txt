@@ -1,0 +1,17 @@
+From:    Project Manager <pm@enterprise.com>
+Sent:    Saturday, June 7, 2024 9:00 AM
+To:      Project Team <project.team@enterprise.com>
+Cc:      Stakeholders <stakeholders@enterprise.com>
+Subject: Reminder: Project Alpha Deadline Approaching
+
+Dear Team,
+
+This is a gentle reminder that the deadline for Project Alpha is approaching on June 15, 2024. Please ensure that all deliverables are on track and any pending items are addressed by the end of next week.
+
+Please see the attached project timeline and outstanding tasks list for reference.
+
+Best regards,
+[Project Manager's Name]
+Project Manager
+
+--- On Sat, 6/7/24, Team Member

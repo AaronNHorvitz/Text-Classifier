@@ -1,0 +1,25 @@
+From: Jacob Turner <j.turner@techsolutions.com>
+Sent: Friday, October 24, 2025 8:30 AM
+To: All Employees <all@techsolutions.com>
+Subject: Scheduled System Upgrade and Downtime Notification
+Categories: IT Updates
+
+Dear Team,
+
+This is to inform you that we will be conducting a scheduled upgrade to our core IT systems this coming weekend. This upgrade is critical for enhancing our network's security and improving the overall performance of our IT infrastructure.
+
+**Downtime Schedule:**
+- **Start:** Saturday, October 25, 2025, at 10:00 PM
+- **End:** Sunday, October 26, 2025, at 6:00 AM
+
+During this period, access to company emails, the internal portal, and other network services will be unavailable. Please ensure that you save all necessary work and log off the system before the downtime begins.
+
+We apologize for any inconvenience this may cause and thank you for your cooperation and understanding. Should you have any concerns or need assistance in managing your work around this downtime, please do not hesitate to contact the IT Helpdesk.
+
+Thank you for your attention to this matter and for your continued cooperation.
+
+Best regards,
+Jacob Turner
+Head of IT
+Tech Solutions | "Innovating Your Workday"
+Phone: +1 567-890-1234

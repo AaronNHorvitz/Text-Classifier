@@ -1,0 +1,27 @@
+From: Samantha Reed <samantha.reed@enterprisecorp.com>
+Sent: Thursday, February 20, 2025 3:45 PM
+To: IT Department <itdept@enterprisecorp.com>
+Cc: Corporate Security <security@enterprisecorp.com>
+Subject: Urgent: Security Breach Detected
+Attachments: Incident_Report_2025-02-20.pdf
+Categories: Security Alerts
+
+Team,
+
+We have detected a security breach involving unauthorized access to our internal network. Attached is the incident report with preliminary findings. Immediate action is required to mitigate any further risks.
+
+Regards,
+Samantha Reed
+
+--- On Thu, Feb 20, 2025 at 4:15 PM, Mark Thompson <mark.thompson@enterprisecorp.com> wrote:
+From: Mark Thompson <mark.thompson@enterprisecorp.com>
+Subject: RE: Urgent: Security Breach Detected
+To: Samantha Reed <samantha.reed@enterprisecorp.com>
+Cc: IT Department <itdept@enterprisecorp.com>, Corporate Security <security@enterprisecorp.com>
+Sent: Thursday, February 20, 2025 4:15 PM
+
+Samantha,
+
+This is critical. I am assembling a response team now. We'll need to convene with Corporate Security ASAP to discuss the containment strategy.
+
+Mark

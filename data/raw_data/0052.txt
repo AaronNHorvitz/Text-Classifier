@@ -1,0 +1,30 @@
+From: Janet Lee <j.lee@techsolutions.com>
+Sent: Thursday, October 2, 2025 2:30 PM
+To: IT Department <itdept@techsolutions.com>
+Cc: Management Team <management@techsolutions.com>
+Subject: Scheduled IT System Upgrade Next Week
+Categories: IT Management, System Updates
+
+Dear Team,
+
+We are scheduled to undergo a system upgrade next week, starting Monday, October 6. This upgrade is critical for enhancing our network security and operational efficiency.
+
+Please ensure all your work is saved and systems are ready for the upgrade by the end of this week. For any technical preparations or concerns, refer to the attached guidelines.
+
+Thanks,
+Janet Lee
+Chief Information Officer
+
+--- On Thu, Oct 2, 2025 at 3:00 PM, Carl Simmons <c.simmons@techsolutions.com> replied:
+
+From: Carl Simmons <c.simmons@techsolutions.com>
+To: Janet Lee <j.lee@techsolutions.com>
+Cc: IT Department <itdept@techsolutions.com>; Management Team <management@techsolutions.com>
+Subject: Re: Scheduled IT System Upgrade Next Week
+
+Hi Janet,
+
+All systems in my area have been prepped for the upgrade. I also scheduled a brief session to go over the new security protocols with my team tomorrow.
+
+Best regards,
+Carl

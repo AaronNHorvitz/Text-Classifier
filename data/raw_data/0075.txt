@@ -1,0 +1,25 @@
+From: Simon Fletcher <s.fletcher@techsolutions.com>
+Sent: Monday, December 11, 2025 9:00 AM
+To: IT Support Team <support@techsolutions.com>
+Subject: New Software Upgrade Instructions
+Attachments: Software_Upgrade_Guide_2025.pdf
+Categories: IT Support
+
+Hello Team,
+
+We are rolling out an upgrade to our core operating software next week. Attached you will find the Software Upgrade Guide, which includes detailed instructions on the upgrade process, troubleshooting tips, and FAQs.
+
+It is imperative that everyone familiarizes themselves with the guide before the upgrade to ensure a smooth transition. There will be a mandatory session to discuss the upgrade process and address any questions you may have.
+
+**Mandatory Session:**
+- **Date:** Friday, December 15, 2025
+- **Time:** 2:00 PM
+- **Location:** Tech Lab 3
+
+Thank you for ensuring you are prepared for this important upgrade.
+
+Best regards,
+Simon Fletcher
+Head of IT Support
+Tech Solutions Ltd. | "Solutions that Empower"
+Phone: +1 901-234-5678

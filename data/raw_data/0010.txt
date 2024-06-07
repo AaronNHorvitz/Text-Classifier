@@ -1,0 +1,27 @@
+From:    IT Department <it.notifications@techfirm.com>
+Sent:    Thursday, June 5, 2024 8:00 AM
+To:      All Employees <allemployees@techfirm.com>
+Subject: Scheduled Upgrade to CRM Software on June 10, 2024
+
+Dear Team,
+
+Please be informed that there will be a scheduled upgrade to our CRM software system next week on June 10, 2024. The system will be unavailable from 1 AM to 4 AM during the upgrade.
+
+Ensure all your work is saved and logged out of the system before the upgrade begins to prevent any data loss.
+
+Thank you for your cooperation.
+
+Best,
+IT Department
+
+--- On Thu, 6/5/24, Jane Doe <jane.doe@techfirm.com> replied:
+
+From: Jane Doe <jane.doe@techfirm.com>
+Subject: Re: Scheduled Upgrade to CRM Software on June 10, 2024
+To: IT Department <it.notifications@techfirm.com>
+Sent: Thursday, June 5, 2024 8:15 AM
+
+Thank you for the update. Will there be any training provided on the new features of the CRM post-upgrade?
+
+Regards,
+Jane

@@ -1,0 +1,14 @@
+From: David Choi <david.choi@businessdomain.com>
+Sent: Wednesday, July 16, 2024 2:45 PM
+To: Finance Department <finance@businessdomain.com>
+Cc: External Auditors <auditors@auditfirm.com>
+Subject: Urgent: Q3 Financial Audit Documents
+Attachments: Q3_Financials.xlsx
+Categories: Finance
+
+Team,
+
+Please review the attached Q3 financials ahead of our audit next week. We need to ensure all entries are accurate and backed by appropriate documentation. External auditors are cc’d here for their preliminary assessments.
+
+Regards,
+David

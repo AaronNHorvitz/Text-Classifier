@@ -1,0 +1,12 @@
+From:    Alice Johnson <alice.johnson@example.com>
+Sent:    Wednesday, May 28, 2024 11:00 AM
+To:      Finance Department <finance@businessdomain.com>
+Cc:      Customer Service <service@businessdomain.com>
+Subject: Query on Payment Terms and Discount Application Time
+
+Hi,
+
+I recently placed an order with the expectation of a 15% first-time user discount. I completed the transaction but did not see the discount applied. Can you confirm the payment terms and how long it typically takes for such discounts to reflect on an invoice?
+
+Thank you,
+Alice
