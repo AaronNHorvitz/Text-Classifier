@@ -293,6 +293,7 @@ def parse_top_email_from_chain(text_file_contents: list) -> tuple:
     email_date = "Unknown Date"
     email_subject = "No Subject"
     email_attachments = "No Attachments"
+    email_categories = "No Categories"
     email_body = []
 
     # Regex to detect start of an old email in the chain
@@ -317,6 +318,8 @@ def parse_top_email_from_chain(text_file_contents: list) -> tuple:
             email_subject = stripped_line.replace("Subject:", "").strip()
         elif stripped_line.startswith("Attachments:"):
             email_attachments = stripped_line.replace("Attachments:", "").strip()
+        elif stripped_line.startswith("Categories:"):
+            email_categories = stripped_line.replace("Categories:", "").strip()
         elif stripped_line:
             email_body.append(stripped_line)  # Collecting body text
 
@@ -329,6 +332,7 @@ def parse_top_email_from_chain(text_file_contents: list) -> tuple:
         email_date,
         email_subject,
         email_attachments,
+        email_categories,
         email_body,
     )
 
@@ -923,6 +927,7 @@ def process_emails_in_directory(
             email_date,
             email_subject,
             email_attachments,
+            email_categories,
             email_body,
         ) = parse_top_email_from_chain(file_contents)
 
@@ -948,6 +953,7 @@ def process_emails_in_directory(
                 email_bcc,
                 email_subject,
                 email_attachments,
+                email_categories,
                 email_body,
                 processed_text,
                 file_path,
@@ -968,6 +974,7 @@ def process_emails_in_directory(
             "email_bcc",
             "email_subject",
             "email_attachments",
+            "email_categories",
             "email_body",
             "processed_text",
             "file_path",
