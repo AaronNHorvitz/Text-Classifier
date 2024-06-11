@@ -1,20 +1,26 @@
 import pandas as pd
 import numpy as np
 
-# Machine Learning and topic modeling
+from tqdm import tqdm
+
 from gensim.corpora import Dictionary
 from gensim.models import CoherenceModel, LdaModel, LdaMulticore, TfidfModel, Doc2Vec
 from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 from sklearn.cluster import KMeans
 from sklearn.metrics.pairwise import cosine_similarity
+from typing import Tuple, List
+from topicminer.utils import prepare_corpus_and_dictionary, create_tfidf_corpus
 
 def train_lda_model(
-    corpus: list,
-    gensim_dictionary: Dictionary,
+    emails_df: pd.DataFrame,
+    processed_text_col: str = "processed_text",
     num_topics: int = 10,
     workers: int = 8,
     chunksize: int = 2000,
     passes=1,
+    no_below: int = 5,
+    no_above: float = 0.5,
+    use_tfidf=True,
     batch=False,
     alpha: str = "auto",
     eta=None,
@@ -91,6 +97,15 @@ def train_lda_model(
     if workers > 8:
         workers = 8
         print("The maximum number of workers allowed is 8. Setting workers to 8.")
+    
+    # Create dictionary and corpus
+    dictionary, corpus = prepare_corpus_and_dictionary(
+        emails_df, processed_text_col, no_below, no_above
+    )
+
+    # Apply TF-IDF transformation
+    if use_tfidf:
+        corpus = create_tfidf_corpus(corpus)
 
     lda_model = LdaMulticore(
         corpus=corpus,
@@ -120,7 +135,6 @@ def train_lda_model(
             lda_model.update(corpus)  # Update the model in subsequent passes.
 
     return lda_model
-
 
 def perform_lda_topic_modelling(
     emails_df: pd.DataFrame,
@@ -187,13 +201,13 @@ def perform_lda_topic_modelling(
     the themes of documents need to be understood quickly.
     """
 
-    # Create dictionary and corpus using the new unified function
+    # Create dictionary and corpus
     dictionary, corpus = prepare_corpus_and_dictionary(
         emails_df, processed_text_col, no_below, no_above
     )
 
     # Apply TF-IDF transformation
-    corpus_tfidf = TfidfModel(corpus)[corpus]
+    corpus_tfidf = create_tfidf_corpus(corpus)
 
     # Train the LDA model
     lda_model_tfidf = train_lda_model(

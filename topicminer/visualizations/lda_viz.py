@@ -31,9 +31,9 @@ utilities.
 import pandas as pd
 
 # Machine learning and topic modeling
-from gensim.corpora import Dictionary
 import pyLDAvis.gensim_models as gensimvis
 from topicminer.utils import prepare_corpus_and_dictionary
+from gensim.models import LdaModel 
 
 
 def make_lda_viz(

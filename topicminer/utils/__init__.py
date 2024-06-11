@@ -45,3 +45,7 @@ from .widgets import (
     email_viewer,
     email_viewer_widget,
 )
+
+from .statistical_transforms import(
+    create_tfidf_corpus
+)
