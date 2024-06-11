@@ -35,6 +35,7 @@ from gensim.corpora import Dictionary
 import pyLDAvis.gensim_models as gensimvis
 from topicminer.utils import prepare_corpus_and_dictionary
 
+
 def make_lda_viz(
         df_emails: pd.DataFrame, lda_model_tfidf, processed_text_col: str = "processed_text"
         ):

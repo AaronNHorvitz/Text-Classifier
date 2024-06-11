@@ -20,9 +20,9 @@ TopicMiner/
 │	│
 │	├── visualizations/
 │	│   ├── __init__.py
-│	│   ├── lda_visualization.py
-│	│   ├── embeddings_visualization.py
-│	│   └── reports_generation.py
+│	│   ├── lda_viz.py
+│	│   ├── embeddings_viz.py
+│	│   └── reports_viz.py
 │	│
 │   ├── utils/
 │	│   ├── __init__.py

@@ -54,7 +54,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk import data
 
-from utils.email_processing import clean_text_email_body
+from topicminer.utils import clean_text_email_body
 
 # data.path.append('/projects/merc_text_analytics/nltk_data') # Add the path to the NLTK data directory if the data is not found in local
 data.path.append("./topicminoer/data/nltk_data")
