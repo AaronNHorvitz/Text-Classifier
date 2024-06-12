@@ -297,6 +297,8 @@ def clean_text_email_body(email_body: str, unwanted_texts: list) -> str:
 
         # Remove the unwanted text from the email body
         cleaned_body = cleaned_body.replace(unwanted_text, "")
+    
+    
 
     return cleaned_body
 

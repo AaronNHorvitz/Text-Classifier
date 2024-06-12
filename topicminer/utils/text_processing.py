@@ -39,7 +39,6 @@ Notes:
 ------
 Ensure that the NLTK data path is correctly set if using NLTK resources for tokenization and lemmatization. This module assumes all text inputs are in English and makes use of English-specific processing such as stop word removal.
 """
-
 # Standard library imports
 import re
 
@@ -47,14 +46,13 @@ import re
 import chardet
 import numpy as np
 import pandas as pd
-
-# Natural Language Processing tools from NLTK
-from nltk.tokenize import word_tokenize
+from nltk import data
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-from nltk import data
+from nltk.tokenize import word_tokenize
 
-from topicminer.utils import clean_text_email_body
+# Local application imports
+from topicminer.utils import clean_text_email_body, load_unwanted_email_text
 
 # data.path.append('/projects/merc_text_analytics/nltk_data') # Add the path to the NLTK data directory if the data is not found in local
 data.path.append("./topicminoer/data/nltk_data")
@@ -119,9 +117,6 @@ def preprocess_text(text: str, unwanted_texts_file_path: str) -> str:
 
     # Remove unwanted phrases from text
     text = clean_text_email_body(text, unwanted_texts)
-
-    # Convert text to lowercase to standardize it
-    text = text.lower()
 
     # Remove non-alphanumeric characters
     text = re.sub(r"[^a-zA-Z\s]", "", text)
