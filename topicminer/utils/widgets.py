@@ -110,7 +110,7 @@ def email_viewer(doc_id: str, data_path: str, unwanted_text_file_path: str) -> s
         reconstructed_email = "".join(reconstructed_email)
 
         # Load unwanted texts for highlighting
-        unwanted_texts = load_unwanted_email_text(unwanted_text_file_path)
+        unwanted_texts = load_unwanted_email_text()
 
         # Highlight unwanted text in orange
         highlighted_email_body = reconstructed_email
@@ -361,6 +361,9 @@ def interactive_email_viewer_widget(data_path: str):
         to_line, from_line, sent_line, subject_line, body = parse_email_components(
             file_path
         )
+
+        # Load unwanted texts and preprocess the email body
+        unwanted_texts = load_unwanted_email_text()
         processed_text = preprocess_text(body, unwanted_texts)
 
         with output:

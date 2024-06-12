@@ -227,16 +227,16 @@ def delete_unwanted_email_text(file_path: str, text_to_delete: str) -> None:
     else:
         print("Text not found in the file.")
 
-
-def load_unwanted_email_text(file_path: str) -> list:
+def load_unwanted_email_text(file_path: str = './data/unwanted_texts/unwanted_texts.json') -> list:
     """
-    Reads all unwanted text strings from a JSON file and returns them as a list. If the file does not exist or is empty,
+    Reads all unwanted text strings from a JSON file and returns them as a list. If the file does not exist,
+    it creates an empty file at the default path and notifies the user, returning an empty list. If the file is empty or corrupted,
     it notifies the user and returns an empty list.
 
     Parameters
     ----------
-    file_path : str
-        Path to the JSON file storing unwanted texts.
+    file_path : str, optional
+        Path to the JSON file storing unwanted texts. Defaults to './data/unwanted_texts/unwanted_texts.json'.
 
     Returns
     -------
@@ -245,19 +245,24 @@ def load_unwanted_email_text(file_path: str) -> list:
 
     Examples
     --------
-    >>> load_unwanted_texts("path/to/unwanted_texts.json")
+    >>> load_unwanted_texts()  # Using default path
+    []
+    >>> load_unwanted_texts("./custom_path/to/unwanted_texts.json")
     ['Example unwanted text', 'Another unwanted phrase']
 
     Notes
     -----
-    The function checks if the JSON file exists at the specified path. If not, it returns an empty list and notifies
-    the user of the missing file. If the file is found but cannot be read properly due to corruption or being empty,
-    it also returns an empty list and notifies the user. This function is typically used to load unwanted texts for
-    preprocessing text data, where these phrases are to be removed.
+    The function ensures that the directory for the file exists, creating it if necessary. It uses a relative path by default,
+    which assumes the function is called from the root of the project directory.
     """
+    # Ensure the directory exists (if not, create it)
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+
     # Check if the file exists
     if not os.path.exists(file_path):
-        print("JSON file does not exist.")
+        print("JSON file does not exist. Creating an empty file.")
+        with open(file_path, "w") as file:
+            json.dump([], file)  # Create an empty JSON array
         return []
 
     try:
