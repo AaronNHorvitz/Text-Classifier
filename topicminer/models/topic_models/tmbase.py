@@ -81,19 +81,6 @@ from ipywidgets import Button, HBox, VBox, Output, Layout, Text, Label
 from tqdm import tqdm
 from typing import Tuple, List
 
-unwanted_texts = [
-    "This mailbox does not process replies. Do not reply to this message.",
-    "This mailbox does not process replies. Do not reply to this message.",
-    "Visit the IT Advisory Site for all advisories issued. If you have any feedback on this communication, please contact us at IT.Communications@irs.gov",
-    "visit the it advisory site for all advisories issued. if you have any feedback on this \ncommunication, please contact us at it.communications@irs.gov.",
-    "NOTE: Visit the IT Advisory Site for all advisories issued. If you have any feedback on this communication, please contact us at IT.Communications@irs.gov.",
-    "IT.Communications@irs.gov",
-    "866-743-5748",
-    "option 2",
-    "IRS",
-    "Internal Revenue Service",
-]
-
 
 def view_file(text_file_path):
     """
