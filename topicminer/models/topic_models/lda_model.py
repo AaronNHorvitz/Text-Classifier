@@ -1,13 +1,16 @@
+# Standard library imports
+from typing import List, Tuple
 
-import pandas as pd
+# Third-party library imports
 import numpy as np
-
+import pandas as pd
+from gensim.corpora import Dictionary
+from gensim.models import CoherenceModel, LdaMulticore
 from tqdm import tqdm
+import matplotlib.pyplot as plt
 
-from gensim.models import LdaMulticore
-from typing import Tuple, List
-
-from topicminer.utils import prepare_corpus_and_dictionary, create_tfidf_corpus
+# Local application imports
+from topicminer.utils import create_tfidf_corpus, prepare_corpus_and_dictionary
 
 
 def train_lda_model(
@@ -202,3 +205,92 @@ def enrich_dataframe(
     topic_df = topic_df.copy()
     topic_df[column_name] = topics
     return topic_df
+
+
+def train_models_and_find_optimal(
+    dictionary: Dictionary,
+    corpus: List[List[tuple]],
+    texts: List[List[str]],
+    start: int = 2,
+    limit: int = 22,
+    step: int = 4,
+    workers: int = 8,
+) -> Tuple[LdaMulticore, int, float]:
+    """
+    Trains multiple LDA models with varying numbers of topics to find the optimal model based on coherence scores.
+
+    Parameters
+    ----------
+    dictionary : Dictionary
+        Gensim dictionary object of the corpus.
+    corpus : List[List[tuple]]
+        List of documents represented as bag-of-words.
+    texts : List[List[str]]
+        Tokenized texts used for coherence score calculation.
+    start : int, optional
+        Starting number of topics, by default 2.
+    limit : int, optional
+        The maximum number of topics to test, by default 22.
+    step : int, optional
+        Step size to iterate through the number of topics, by default 4.
+    workers : int, optional
+        Number of worker processes to train the LDA models, by default 8.
+
+    Returns
+    -------
+    Tuple[LdaMulticore, int, float]
+        A tuple containing the best LDA model, the optimal number of topics,
+        and the highest coherence score achieved.
+
+    Examples
+    --------
+    >>> dictionary = Dictionary(texts)
+    >>> corpus = [dictionary.doc2bow(text) for text in texts]
+    >>> lda_model, num_topics, coherence = train_models_and_find_optimal(
+            dictionary, corpus, texts, start=2, limit=20, step=2, workers=4)
+    >>> print("Best model has", num_topics, "topics with coherence score of", coherence)
+
+    Notes
+    -----
+    This function iterates through different numbers of topics, training an LDA model for each configuration
+    and calculating its coherence. The highest coherence score determines the best model, which is returned
+    along with its number of topics and coherence value. A plot is also displayed to visually inspect coherence
+    trends across different topic counts.
+    """
+    coherence_values = []
+    model_list = []
+    for num_topics in tqdm(range(start, limit, step), desc="Training LDA Models"):
+        model = LdaMulticore(
+            corpus=corpus,
+            num_topics=num_topics,
+            id2word=dictionary,
+            random_state=100,
+            chunksize=2000,
+            passes=10,
+            alpha="asymmetric",
+            workers=workers,
+        )
+        model_list.append((num_topics, model))
+        coherencemodel = CoherenceModel(
+            model=model, texts=texts, dictionary=dictionary, coherence="c_v"
+        )
+        coherence_values.append((num_topics, coherencemodel.get_coherence()))
+
+    # Find the model with the highest coherence
+    best_num_topics, best_coherence = max(coherence_values, key=lambda x: x[1])
+    best_model = [
+        model for num_topics, model in model_list if num_topics == best_num_topics
+    ][0]
+
+    # Plot coherence scores
+    x = [num_topics for num_topics, _ in coherence_values]
+    y = [coherence for _, coherence in coherence_values]
+    plt.plot(x, y)
+    plt.xlabel("Number of Topics")
+    plt.ylabel("Coherence score")
+    plt.scatter(best_num_topics, best_coherence, color="red")  # Mark the best model
+    plt.legend(["Coherence Values", "Best Model"], loc="best")
+    plt.title("Coherence Scores by Number of Topics")
+    plt.show()
+
+    return best_model, best_num_topics, best_coherence

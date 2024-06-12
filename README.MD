@@ -12,7 +12,7 @@ TopicMiner/
 │	│   ├── __init__.py
 │	│   ├── topic_models/
 │	│   │   ├── __init__.py
-│	│   │   ├── word_2_vec_k_means.py
+│	│   │   ├── doc_2_vec_k_means.py
 │	│   │   └── lda_model.py
 │	│   └── classification_models/
 │	│       ├── __init__.py

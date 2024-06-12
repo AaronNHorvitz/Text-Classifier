@@ -12,5 +12,5 @@ from .lda_model import (
     train_lda_model,
     extract_topics,
     enrich_dataframe,
+    train_models_and_find_optimal,
 )
-
