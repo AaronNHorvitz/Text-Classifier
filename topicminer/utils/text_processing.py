@@ -115,11 +115,8 @@ def preprocess_text(text: str, unwanted_texts_file_path: str) -> str:
     # Load the list of unwanted texts from the specified JSON file
     unwanted_texts = load_unwanted_email_text(unwanted_texts_file_path)
 
-    # Remove unwanted phrases from text
+    # Remove unwanted phrases from text and remove unwanted white spaces and symbols
     text = clean_text_email_body(text, unwanted_texts)
-
-    # Remove non-alphanumeric characters
-    text = re.sub(r"[^a-zA-Z\s]", "", text)
 
     # Tokenize the text
     tokens = word_tokenize(text)
@@ -134,10 +131,8 @@ def preprocess_text(text: str, unwanted_texts_file_path: str) -> str:
         if word.isalpha() and word not in stop_words and len(word) > 1
     ]
 
-    # Initialize the NLTK lemmatizer
+    # Initialize the NLTK lemmatizer and lemmatize the words. 
     lemmatizer = WordNetLemmatizer()
-
-    # Lemmatize words
     tokens = [lemmatizer.lemmatize(word) for word in tokens]
 
     # Join words back into a single string

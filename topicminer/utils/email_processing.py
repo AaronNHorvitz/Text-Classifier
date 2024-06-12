@@ -286,19 +286,19 @@ def clean_text_email_body(email_body: str, unwanted_texts: list) -> str:
         The cleaned email body with all unwanted texts removed.
     """
 
+    # Remove each unwanted phrase from the email body
+    cleaned_body = email_body.lower()
 
     # Remove each unwanted phrase from the email body
-    cleaned_body = email_body
     for unwanted_text in unwanted_texts:
+        cleaned_body = cleaned_body.replace(unwanted_text.lower(), "")
 
-        # Standardize the text to lower case
-        unwanted_text = unwanted_text.lower()
-        cleaned_body = cleaned_body.lower()
-
-        # Remove the unwanted text from the email body
-        cleaned_body = cleaned_body.replace(unwanted_text, "")
+        # Remove unwanted symbols except for alphanumeric and spaces, handle new lines and carriage returns
+        pattern = r"[^\w\s]|[\r\n]"
+        cleaned_body = re.sub(pattern, lambda x: ' ' if x.group(0) in '\n\r' else '', cleaned_body, flags=re.UNICODE)
     
-    
+        # Collapse multiple whitespaces into a single space and trim leading/trailing spaces
+        cleaned_body = re.sub(r'\s+', ' ', cleaned_body).strip()
 
     return cleaned_body
 
