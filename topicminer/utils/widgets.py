@@ -296,7 +296,7 @@ def processed_email_viewer_widget(
 
     return interface
 
-def interactive_email_viewer_widget(data_path: str =  str = './data/raw_data/'):
+def interactive_email_viewer_widget(data_path: str = './data/raw_data/'):
     """
     Creates an interactive viewer to navigate and display emails from a specified directory. The viewer includes
     navigation buttons to move between emails, and a text input to jump directly to an email by its document ID.
