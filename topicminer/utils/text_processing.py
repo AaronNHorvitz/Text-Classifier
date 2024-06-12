@@ -114,8 +114,11 @@ def preprocess_text(text: str, unwanted_texts_file_path: str) -> str:
     str
         The cleaned and processed text as a single string, with words normalized to their base form and separated by spaces.
     """
+    # Load the list of unwanted texts from the specified JSON file
+    unwanted_texts = load_unwanted_email_text(unwanted_texts_file_path)
+
     # Remove unwanted phrases from text
-    text = clean_text_email_body(text, unwanted_texts_file_path)
+    text = clean_text_email_body(text, unwanted_texts)
 
     # Convert text to lowercase to standardize it
     text = text.lower()

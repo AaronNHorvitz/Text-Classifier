@@ -269,7 +269,7 @@ def load_unwanted_email_text(file_path: str) -> list:
         return []
 
 
-def clean_text_email_body(email_body: str, unwanted_texts_file_path: str) -> str:
+def clean_text_email_body(email_body: str, unwanted_texts: list) -> str:
     """
     Cleans the email body by removing all unwanted text phrases defined in a JSON file.
 
@@ -277,20 +277,25 @@ def clean_text_email_body(email_body: str, unwanted_texts_file_path: str) -> str
     ----------
     email_body : str
         The original body of the email which may contain unwanted phrases.
-    unwanted_texts_file_path : str
-        Path to the JSON file that contains a list of unwanted text strings.
+    unwanted_texts : list
+        List of unwanted text strings.
 
     Returns:
     -------
     str
         The cleaned email body with all unwanted texts removed.
     """
-    # Load the list of unwanted texts from the specified JSON file
-    unwanted_texts = load_unwanted_email_text(unwanted_texts_file_path)
+
 
     # Remove each unwanted phrase from the email body
     cleaned_body = email_body
     for unwanted_text in unwanted_texts:
+
+        # Standardize the text to lower case
+        unwanted_text = unwanted_text.lower()
+        cleaned_body = cleaned_body.lower()
+
+        # Remove the unwanted text from the email body
         cleaned_body = cleaned_body.replace(unwanted_text, "")
 
     return cleaned_body
