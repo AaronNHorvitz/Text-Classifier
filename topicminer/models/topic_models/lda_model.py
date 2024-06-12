@@ -1,15 +1,14 @@
+
 import pandas as pd
 import numpy as np
 
 from tqdm import tqdm
 
-from gensim.corpora import Dictionary
-from gensim.models import CoherenceModel, LdaModel, LdaMulticore, TfidfModel, Doc2Vec
-from gensim.models.doc2vec import Doc2Vec, TaggedDocument
-from sklearn.cluster import KMeans
-from sklearn.metrics.pairwise import cosine_similarity
+from gensim.models import LdaMulticore
 from typing import Tuple, List
+
 from topicminer.utils import prepare_corpus_and_dictionary, create_tfidf_corpus
+
 
 def train_lda_model(
     emails_df: pd.DataFrame,
@@ -17,69 +16,75 @@ def train_lda_model(
     num_topics: int = 10,
     workers: int = 8,
     chunksize: int = 2000,
-    passes=1,
+    passes: int = 1,
     no_below: int = 5,
     no_above: float = 0.5,
-    use_tfidf=True,
-    batch=False,
+    use_tfidf: bool = True,
+    batch: bool = False,
     alpha: str = "auto",
     eta=None,
-    decay=0.5,
-    offset=1,
-    eval_every=10,
-    iterations=50,
-    gamma_threshold=0.001,
+    decay: float = 0.5,
+    offset: float = 1,
+    eval_every: int = 10,
+    iterations: int = 50,
+    gamma_threshold: float = 0.001,
     random_state: int = 100,
-    minimum_probability=0.01,
-    minimum_phi_value=0.01,
-    per_word_topics=False,
-    dtype=np.float32
+    minimum_probability: float = 0.01,
+    minimum_phi_value: float = 0.01,
+    per_word_topics: bool = False,
+    dtype: type = np.float32,
 ) -> LdaMulticore:
     """
     Trains an LDA (Latent Dirichlet Allocation) model using the Gensim library with support for multicore processing.
-    This function sets up and runs the LDA model training using the provided corpus and dictionary. It can be configured
-    with a number of parameters to optimize the training according to specific needs.
+    It prepares the corpus and optionally applies TF-IDF transformation before training the model. This function is configured
+    with several parameters to customize the training process according to specific needs.
 
     Parameters:
     ----------
-    corpus : list
-        A list of bag-of-words (word_id, word_frequency) tuples representing the corpus.
-    gensim_dictionary : Dictionary
-        A Gensim Dictionary object mapping IDs to words, which will be used during training to map word IDs to words.
-    num_topics : int, optional
-        The number of latent topics to extract from the corpus. Default is 10.
-    workers : int, optional
-        The number of worker processes to use for parallelization. If more than 8, it will be set to 8. Default is 8.
-    chunksize : int, optional
-        The number of documents to process at a time in the training algorithm. Default is 2000.
-    passes : int, optional
-        The number of passes over the corpus during training. Default is 1.
-    batch : bool, optional
-        Whether to use all documents in each training chunk. Default is False.
-    alpha : str, optional
-        The hyperparameter affecting the sparsity/thickness of the topics. Default is 'auto'.
+    emails_df : pd.DataFrame
+        DataFrame containing the emails with a column of preprocessed text.
+    processed_text_col : str
+        Name of the column in `emails_df` that contains preprocessed text for topic modeling.
+    num_topics : int
+        The number of latent topics to extract from the corpus.
+    workers : int
+        The number of worker processes to use for parallelization. Capped at 8.
+    chunksize : int
+        The number of documents to process at a time in the training algorithm.
+    passes : int
+        The number of full passes over the corpus during training.
+    no_below : int
+        Minimum number of documents a token must appear in to be included in the corpus.
+    no_above : float
+        Maximum proportion of documents a token can appear in to be included in the corpus.
+    use_tfidf : bool
+        Flag to determine if TF-IDF transformation should be applied to the corpus before training.
+    batch : bool
+        Whether to use all documents in each training chunk.
+    alpha : str
+        The hyperparameter affecting the sparsity/thickness of the topics.
     eta : optional
-        The eta hyperparameter, affects topic-word density. The default is None, which sets it to 1/num_topics.
-    decay : float, optional
-        Affects learning rate over time. Default is 0.5.
-    offset : float, optional
-        Hyperparameter that downweights early iterations. Default is 1.
-    eval_every : int, optional
-        Determines how often the model parameters should be updated. Default is 10.
-    iterations : int, optional
-        Maximum number of iterations over each document. Default is 50.
-    gamma_threshold : float, optional
-        Convergence threshold for gamma updates. Default is 0.001.
-    random_state : int, optional
-        Random state for reproducibility. Default is 100.
-    minimum_probability : float, optional
-        Topics with a probability lower than this threshold will be filtered out. Default is 0.01.
-    minimum_phi_value : float, optional
-        Topics with a phi value lower than this threshold will be filtered out. Default is 0.01.
-    per_word_topics : bool, optional
-        If True, the model also computes a list of topics for each word. Default is False.
-    dtype : data-type, optional
-        The data type to use in the computation (default is np.float32).
+        The eta hyperparameter, affecting topic-word density.
+    decay : float
+        Factor for learning rate decay.
+    offset : float
+        Hyperparameter that offsets early iterations.
+    eval_every : int
+        The interval at which the model parameters should be updated.
+    iterations : int
+        Maximum number of iterations over each document.
+    gamma_threshold : float
+        Convergence threshold for gamma updates.
+    random_state : int
+        Seed for random number generation for reproducibility.
+    minimum_probability : float
+        Minimum probability cutoff to consider a topic in a document.
+    minimum_phi_value : float
+        Minimum probability cutoff to consider a word in a topic.
+    per_word_topics : bool
+        If True, computes a list of topics for each word.
+    dtype : type
+        Data type to use during calculations.
 
     Returns:
     -------
@@ -88,29 +93,23 @@ def train_lda_model(
 
     Examples:
     --------
-    >>> from gensim.corpora import Dictionary
-    >>> from gensim.models import LdaMulticore
-    >>> dictionary = Dictionary(documents)
-    >>> corpus = [dictionary.doc2bow(text) for text in documents]
-    >>> lda_model = train_lda_model(corpus, dictionary, num_topics=5, passes=15, workers=4)
+    >>> lda_model = train_lda_model(emails_df, 'processed_text', num_topics=5, passes=15, workers=4)
     """
     if workers > 8:
         workers = 8
         print("The maximum number of workers allowed is 8. Setting workers to 8.")
-    
-    # Create dictionary and corpus
+
     dictionary, corpus = prepare_corpus_and_dictionary(
         emails_df, processed_text_col, no_below, no_above
     )
 
-    # Apply TF-IDF transformation
     if use_tfidf:
         corpus = create_tfidf_corpus(corpus)
 
     lda_model = LdaMulticore(
         corpus=corpus,
         num_topics=num_topics,
-        id2word=gensim_dictionary,
+        id2word=dictionary,
         workers=workers,
         chunksize=chunksize,
         passes=passes,
@@ -126,113 +125,80 @@ def train_lda_model(
         minimum_probability=minimum_probability,
         minimum_phi_value=minimum_phi_value,
         per_word_topics=per_word_topics,
-        dtype=dtype
-        )
+        dtype=dtype,
+    )
 
-    # tqdm progress bar for the remaining passes, if more than one pass is required.
     if passes > 1:
         for pass_idx in tqdm(range(1, passes), desc="Training LDA Model"):
-            lda_model.update(corpus)  # Update the model in subsequent passes.
+            lda_model.update(corpus)
 
     return lda_model
 
-def perform_lda_topic_modelling(
-    emails_df: pd.DataFrame,
-    processed_text_col: str = "processed_text",
-    num_topics: int = 10,
-    random_state: int = 100,
-    chunksize: int = 2000,
-    passes: int = 10,
-    alpha: str = "symmetric",
-    workers: int = 8,
-    no_below: int = 5,  # Default setting for minimum document frequency
-    no_above: float = 0.5,  # Default setting for maximum document proportion
-) -> Tuple[pd.DataFrame, LdaModel]:
+
+def extract_topics(lda_model: LdaMulticore, corpus: List[List[tuple]]) -> List[str]:
     """
-    Performs Latent Dirichlet Allocation (LDA) topic modeling on a collection of emails to identify prevalent topics
-    within the corpus. This function enriches the input DataFrame by appending a column that lists the most significant
-    topics in each document, based on their contribution weights.
+    Extracts and formats the dominant topics and their corresponding probabilities from the LDA model for each document in the corpus.
 
     Parameters:
     ----------
-    emails_df : pandas.DataFrame
-        DataFrame containing the emails, with at least one column of preprocessed text.
-    processed_text_col : str, default 'processed_text'
-        Name of the column in `emails_df` that contains preprocessed text for topic modeling.
-    num_topics : int, default 10
-        The number of distinct topics to identify in the LDA model.
-    random_state : int, default 100
-        Seed for the random number generator for reproducibility.
-    chunksize : int, default 2000
-        Number of documents to consider at once in the training algorithm.
-    passes : int, default 10
-        Number of training passes through the corpus.
-    alpha : {'symmetric', 'asymmetric', 'auto'} or list, default 'symmetric'
-        Hyperparameter affecting document-topic density. Can be specified as a list for asymmetric priors.
-    workers : int, default 8
-        Number of worker processes to use for parallelization. If None, uses all available cores minus one.
-    no_below : int, default 5
-        Minimum number of documents a token must appear in to be kept. This helps to remove rare words which may have
-        less significance in topic modeling.
-    no_above : float, default 0.5
-        Maximum proportion of documents a token can appear in to be kept. This helps to remove too common words which
-        may dominate the topic but have little informative value.
+    lda_model : LdaModel or LdaMulticore
+        The trained LDA model from which to extract topics.
+    corpus : list
+        A list of documents represented as bag-of-words. Each document is a list of (word_id, word_frequency) tuples.
+    num_topics : int, optional
+        The number of topics to retrieve for each document. Default is 10.
 
     Returns:
     -------
-    tuple
-        A tuple containing:
-        - DataFrame: The input DataFrame enriched with a new column 'top_topics' that lists the dominant topics and their
-          weights for each document.
-        - model: The trained LdaModel, which can be used for further analysis or visualization of topics.
+    list of str
+        A list where each element is a formatted string representing the dominant topics and their probabilities for each document.
 
     Examples:
     --------
-    >>> emails_df = pd.DataFrame({
-            'processed_text': ["text about health", "text about finance"]
-        })
-    >>> enriched_df, lda_model = perform_lda_topic_modelling(emails_df)
-    >>> print(enriched_df['top_topics'].head())
-
-    Notes:
-    -----
-    This function is crucial for understanding large collections of text by breaking them down into manageable themes
-    or topics. It's particularly useful in exploratory data analysis and natural language processing applications where
-    the themes of documents need to be understood quickly.
+    >>> lda_model = train_lda_model(corpus, dictionary, num_topics=5)
+    >>> topics = extract_topics(lda_model, corpus)
+    >>> print(topics[0])  # Outputs formatted topics for the first document in the corpus.
     """
-
-    # Create dictionary and corpus
-    dictionary, corpus = prepare_corpus_and_dictionary(
-        emails_df, processed_text_col, no_below, no_above
-    )
-
-    # Apply TF-IDF transformation
-    corpus_tfidf = create_tfidf_corpus(corpus)
-
-    # Train the LDA model
-    lda_model_tfidf = train_lda_model(
-        corpus_tfidf,
-        dictionary,
-        num_topics=num_topics,
-        random_state=random_state,
-        chunksize=chunksize,
-        passes=passes,
-        alpha=alpha,
-        workers=workers,
-    )
-
-    # Extract top topics for each document
     top_topics_per_document = [
-        lda_model_tfidf.get_document_topics(item) for item in corpus_tfidf
+        lda_model.get_document_topics(item, minimum_probability=0) for item in corpus
     ]
-    top_topics_str = [
-        "; ".join([f"Topic {topic_num}: {prob:.2f}" for topic_num, prob in doc])
+
+    formatted_topics_str = [
+        "; ".join(
+            [f"Topic {topic_num}: {prob:.2f}" for topic_num, prob in doc if prob > 0.01]
+        )
         for doc in top_topics_per_document
     ]
+    return formatted_topics_str
 
-    # Enrich DataFrame with top topics
-    enriched_emails_df = emails_df.copy()
-    enriched_emails_df["top_topics"] = top_topics_str
 
-    return enriched_emails_df, lda_model_tfidf
+def enrich_dataframe(
+    topic_df: pd.DataFrame, topics: List[str], column_name: str = "top_topics"
+) -> pd.DataFrame:
+    """
+    Adds a new column to the provided DataFrame with extracted topics for each document.
 
+    Parameters:
+    ----------
+    topic_df : pandas.DataFrame
+        DataFrame containing the data where the new column will be added. This DataFrame should have a structure compatible with the topics being appended.
+    topics : list of str
+        A list of strings where each string contains formatted topics extracted from each document.
+    column_name : str, optional
+        The name of the new column to be added to the DataFrame which will contain the topics. Default is 'top_topics'.
+
+    Returns:
+    -------
+    pandas.DataFrame
+        The DataFrame with an additional column containing the formatted topics for each document.
+
+    Examples:
+    --------
+    >>> topic_df = pd.DataFrame({'email_content': ['text about health', 'text about finance']})
+    >>> topics = ['Topic 1: 0.70; Topic 2: 0.30', 'Topic 1: 0.50; Topic 2: 0.50']
+    >>> enriched_df = enrich_dataframe(topic_df, topics)
+    >>> print(enriched_df.head())
+    """
+    topic_df = topic_df.copy()
+    topic_df[column_name] = topics
+    return topic_df
