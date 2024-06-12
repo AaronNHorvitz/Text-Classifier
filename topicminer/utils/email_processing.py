@@ -126,35 +126,26 @@ Subject: {email_subject}
     """
     return email_str.strip()
 
-
-def add_unwanted_email_text(file_path: str, new_text: str) -> None:
+def add_unwanted_email_text(new_text: str, file_path: str = './data/unwanted_texts/unwanted_texts.json') -> None:
     """
     Adds a new unwanted text string to a JSON file. If the file does not exist, this function
     creates a new one with the given text. It also ensures that duplicates are not added.
 
-    Parameters
+    Parameters:
     ----------
-    file_path : str
-        Path to the JSON file storing unwanted texts.
     new_text : str
         New text string to add to the file.
+    file_path : str, optional
+        Path to the JSON file storing unwanted texts. Default is './data/unwanted_texts/unwanted_texts.json'.
 
-    Returns
+    Returns:
     -------
     None
 
-    Examples
+    Examples:
     --------
-    >>> add_unwanted_text("path/to/unwanted_texts.json", "Example unwanted text")
+    >>> add_unwanted_email_text(new_text="Example unwanted text")
     Text added successfully.
-
-    Notes
-    -----
-    If the JSON file does not exist at the specified `file_path`, the function will create
-    the file and initialize it with the `new_text` as the first entry. If the JSON file
-    exists but is corrupted or empty, the function initializes a new list. This function
-    ensures that the directory for the specified path exists before attempting to write
-    to the file.
     """
     # Ensure the directory exists
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
@@ -176,34 +167,27 @@ def add_unwanted_email_text(file_path: str, new_text: str) -> None:
     print("Text added successfully.")
 
 
-def delete_unwanted_email_text(file_path: str, text_to_delete: str) -> None:
+def delete_unwanted_email_text(text_to_delete: str, file_path: str = './data/unwanted_texts/unwanted_texts.json') -> None:
     """
-     Deletes an unwanted text string from a JSON file. If the file does not exist or is empty,
-     it notifies the user. It also handles the removal operation safely by checking the presence
-     of the text to delete.
+    Deletes an unwanted text string from a JSON file. If the file does not exist or is empty,
+    it notifies the user. It also handles the removal operation safely by checking the presence
+    of the text to delete.
 
-     Parameters
-     ----------
-    file_path : str
-         Path to the JSON file storing unwanted texts.
-     text_to_delete : str
-         Text string to delete from the file.
+    Parameters:
+    ----------
+    text_to_delete : str
+        Text string to delete from the file.
+    file_path : str, optional
+        Path to the JSON file storing unwanted texts. Default is './data/unwanted_texts/unwanted_texts.json'.
 
-     Returns
-     -------
-     None
+    Returns:
+    -------
+    None
 
-     Examples
-     --------
-     >>> delete_unwanted_text("path/to/unwanted_texts.json", "Example unwanted text")
-     Text removed successfully.
-
-     Notes
-     -----
-     The function first checks if the JSON file exists. If not, it notifies the user and returns without
-     modifying anything. If the file exists but contains errors (e.g., it's corrupted), the user is informed
-     of the issue. If the specified text to delete is found in the list of unwanted texts, it is removed
-     and the updated list is saved back to the JSON file. If the text is not found, a notification is printed.
+    Examples:
+    --------
+    >>> delete_unwanted_email_text(text_to_delete="Example unwanted text")
+    Text removed successfully.
     """
 
     # Check if the file exists before attempting to open it
@@ -226,6 +210,7 @@ def delete_unwanted_email_text(file_path: str, text_to_delete: str) -> None:
         print("Text removed successfully.")
     else:
         print("Text not found in the file.")
+        
 
 def load_unwanted_email_text(file_path: str = './data/unwanted_texts/unwanted_texts.json') -> list:
     """
