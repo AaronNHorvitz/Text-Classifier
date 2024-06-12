@@ -60,7 +60,7 @@ from topicminer.utils import (read_text_file, preprocess_text, parse_top_email_f
 # Add the path to the NLTK data directory if the data is not found locally
 data.path.append("./topicminer/data/nltk_data")
 
-def email_viewer(doc_id: str, data_path: str, unwanted_text_file_path: str) -> str:
+def email_viewer(doc_id: str, data_path: str, unwanted_texts: list) -> str:
     """
     Displays an email text comparison in a formatted HTML table, including the original email with highlighted unwanted text,
     the cleaned email text with unwanted text removed, and the preprocessed text for modeling.
@@ -71,8 +71,8 @@ def email_viewer(doc_id: str, data_path: str, unwanted_text_file_path: str) -> s
         Document ID for the email, which corresponds to the filename without the '.txt' extension.
     data_path : str
         Path to the directory containing the email files. Each file should be a text file (.txt) named by its document ID.
-    unwanted_text_file_path : str
-        Path to the JSON file containing a list of strings that are considered unwanted for text analysis.
+    unwanted_texts : list
+        List of unwanted text strings.
         These strings will be highlighted in the original email and removed in the cleaned version.
 
     Returns
@@ -120,11 +120,11 @@ def email_viewer(doc_id: str, data_path: str, unwanted_text_file_path: str) -> s
             )
 
         # Remove unwanted text to prepare a cleaned email.
-        cleaned_email = clean_text_email_body(reconstructed_email, unwanted_text_file_path)
+        cleaned_email = clean_text_email_body(reconstructed_email, unwanted_texts)
         cleaned_email = "".join(cleaned_email)
 
-        cleaned_email_body = clean_text_email_body(email_body, unwanted_text_file_path)
-        normalized_text = preprocess_text(cleaned_email_body, unwanted_text_file_path)
+        cleaned_email_body = clean_text_email_body(email_body, unwanted_texts)
+        normalized_text = preprocess_text(cleaned_email_body)
         normalized_text = "".join(normalized_text)
 
         # Create HTML content for display with customizable font size and type
@@ -158,7 +158,10 @@ def email_viewer(doc_id: str, data_path: str, unwanted_text_file_path: str) -> s
         print(f"An error occurred: {str(e)}")
 
 
-def email_viewer_widget(processed_files_directory, unwanted_text_file_path):
+def processed_email_viewer_widget(
+        processed_files_directory: str = './data/raw_data/processed_emails.csv', 
+        unwanted_text_file_path: str = './data/unwanted_texts/unwanted_texts.json'
+        ):
     """
     Creates an interactive Jupyter Notebook widget for viewing and managing email documents.
     It allows users to navigate through email documents stored in a specified directory,
@@ -228,7 +231,8 @@ def email_viewer_widget(processed_files_directory, unwanted_text_file_path):
         doc_id = files[index][:-4]  # Remove '.txt' extension
         current_doc_label.value = f"Viewing: {doc_id}"
         comparison_html = email_viewer(
-            doc_id, processed_files_directory, unwanted_text_file_path
+            doc_id, processed_files_directory, 
+            unwanted_texts=load_unwanted_email_text(unwanted_text_file_path)
         )
         with output_area:
             clear_output(wait=True)
@@ -292,7 +296,7 @@ def email_viewer_widget(processed_files_directory, unwanted_text_file_path):
 
     return interface
 
-def interactive_email_viewer_widget(data_path: str):
+def interactive_email_viewer_widget(data_path: str =  str = './data/raw_data/'):
     """
     Creates an interactive viewer to navigate and display emails from a specified directory. The viewer includes
     navigation buttons to move between emails, and a text input to jump directly to an email by its document ID.
@@ -364,7 +368,7 @@ def interactive_email_viewer_widget(data_path: str):
 
         # Load unwanted texts and preprocess the email body
         unwanted_texts = load_unwanted_email_text()
-        processed_text = preprocess_text(body, unwanted_texts)
+        processed_text = preprocess_text(body)
 
         with output:
             display(

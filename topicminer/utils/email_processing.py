@@ -406,9 +406,7 @@ def parse_top_email_from_chain(text_file_contents: list) -> tuple:
         email_body,
     )
 
-def process_emails_in_directory(
-    data_path: str, unwanted_text_file_path: str
-) -> pd.DataFrame:
+def process_emails_in_directory(data_path: str) -> pd.DataFrame:
     """
     Processes all email .txt files in the specified directory,
     extracting and preprocessing relevant components, and returns a DataFrame.
@@ -484,7 +482,7 @@ def process_emails_in_directory(
         doc_id = filename.strip(".txt")
 
         # Apply the preprocessing function to the 'Email Text' column
-        processed_text = preprocess_text(email_body, unwanted_text_file_path)
+        processed_text = preprocess_text(email_body)
 
         # Append the extracted email components to a list
         email_data.append(
