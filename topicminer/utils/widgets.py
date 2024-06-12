@@ -59,8 +59,12 @@ from topicminer.utils import (read_text_file, preprocess_text, parse_top_email_f
 
 # Add the path to the NLTK data directory if the data is not found locally
 data.path.append("./topicminer/data/nltk_data")
-
-def email_viewer(doc_id: str, data_path: str, unwanted_texts: list) -> str:
+                                              
+def email_viewer(
+        doc_id: str, 
+        data_path: str, 
+        unwanted_text_filepath: str = './data/unwanted_texts/unwanted_texts.json'
+        ) -> str:
     """
     Displays an email text comparison in a formatted HTML table, including the original email with highlighted unwanted text,
     the cleaned email text with unwanted text removed, and the preprocessed text for modeling.
@@ -71,9 +75,8 @@ def email_viewer(doc_id: str, data_path: str, unwanted_texts: list) -> str:
         Document ID for the email, which corresponds to the filename without the '.txt' extension.
     data_path : str
         Path to the directory containing the email files. Each file should be a text file (.txt) named by its document ID.
-    unwanted_texts : list
-        List of unwanted text strings.
-        These strings will be highlighted in the original email and removed in the cleaned version.
+    unwanted_text_filepath : str
+        Path to the JSON file containing a list of unwanted text strings to be highlighted and removed from the email content.
 
     Returns
     -------
@@ -100,6 +103,9 @@ def email_viewer(doc_id: str, data_path: str, unwanted_texts: list) -> str:
     # Construct full path to the email file
     text_file_path = os.path.join(data_path, f"{doc_id}.txt")
 
+    # Load unwanted texts for highlighting
+    unwanted_texts = load_unwanted_email_text(unwanted_text_filepath)
+    
     try:
         # Retrieve and parse the original email text
         text_file_contents = read_text_file(text_file_path, word_wrap_limit=50)
@@ -108,9 +114,6 @@ def email_viewer(doc_id: str, data_path: str, unwanted_texts: list) -> str:
         )
         reconstructed_email = f"To: {email_recipient}\nFrom: {email_from}\nSent: {email_date}\n\nSubject: {email_subject}\n\n{email_body}"
         reconstructed_email = "".join(reconstructed_email)
-
-        # Load unwanted texts for highlighting
-        unwanted_texts = load_unwanted_email_text()
 
         # Highlight unwanted text in orange
         highlighted_email_body = reconstructed_email
@@ -232,7 +235,7 @@ def processed_email_viewer_widget(
         current_doc_label.value = f"Viewing: {doc_id}"
         comparison_html = email_viewer(
             doc_id, processed_files_directory, 
-            unwanted_texts=load_unwanted_email_text(unwanted_text_file_path)
+            unwanted_texts=load_unwanted_email_text(file_path=unwanted_text_file_path)
         )
         with output_area:
             clear_output(wait=True)
@@ -296,7 +299,10 @@ def processed_email_viewer_widget(
 
     return interface
 
-def interactive_email_viewer_widget(data_path: str = './data/raw_data/'):
+def interactive_email_viewer_widget(
+        data_path: str = './data/raw_data/',
+        unwanted_text_file_path: str = './data/unwanted_texts/unwanted_texts.json',
+        ):
     """
     Creates an interactive viewer to navigate and display emails from a specified directory. The viewer includes
     navigation buttons to move between emails, and a text input to jump directly to an email by its document ID.
@@ -367,7 +373,7 @@ def interactive_email_viewer_widget(data_path: str = './data/raw_data/'):
         )
 
         # Load unwanted texts and preprocess the email body
-        unwanted_texts = load_unwanted_email_text()
+        unwanted_texts = load_unwanted_email_text(unwanted_text_file_path)
         processed_text = preprocess_text(body)
 
         with output:

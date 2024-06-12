@@ -94,7 +94,10 @@ def read_text_file(file_path: str, word_wrap_limit=100) -> list:
     return text_file_contents
 
 
-def preprocess_text(text: str) -> str:
+def preprocess_text(
+        text: str,
+        unwanted_text_file_path="topicminer/data/unwanted_texts.json",
+        ) -> str:
     """
     Cleans and standardizes text by performing several preprocessing steps. This includes
     converting text to lowercase, removing specified unwanted phrases loaded from a JSON file,
@@ -113,7 +116,7 @@ def preprocess_text(text: str) -> str:
         The cleaned and processed text as a single string, with words normalized to their base form and separated by spaces.
     """
     # Load the list of unwanted texts from the specified JSON file
-    unwanted_texts = load_unwanted_email_text()
+    unwanted_texts = load_unwanted_email_text(unwanted_text_file_path)
 
     # Remove unwanted phrases from text and remove unwanted white spaces and symbols
     text = clean_email_body_text(text, unwanted_texts)

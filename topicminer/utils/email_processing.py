@@ -212,7 +212,7 @@ def delete_unwanted_email_text(text_to_delete: str, file_path: str = './data/unw
         print("Text not found in the file.")
         
 
-def load_unwanted_email_text(file_path: str = './data/unwanted_texts/unwanted_texts.json') -> list:
+def load_unwanted_email_text(unwanted_text_file_path: str = './data/unwanted_texts/unwanted_texts.json') -> list:
     """
     Reads all unwanted text strings from a JSON file and returns them as a list. If the file does not exist,
     it creates an empty file at the default path and notifies the user, returning an empty list. If the file is empty or corrupted,
@@ -241,17 +241,17 @@ def load_unwanted_email_text(file_path: str = './data/unwanted_texts/unwanted_te
     which assumes the function is called from the root of the project directory.
     """
     # Ensure the directory exists (if not, create it)
-    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    os.makedirs(os.path.dirname(unwanted_text_file_path), exist_ok=True)
 
     # Check if the file exists
-    if not os.path.exists(file_path):
+    if not os.path.exists(unwanted_text_file_path):
         print("JSON file does not exist. Creating an empty file.")
-        with open(file_path, "w") as file:
+        with open(unwanted_text_file_path, "w") as file:
             json.dump([], file)  # Create an empty JSON array
         return []
 
     try:
-        with open(file_path, "r") as file:
+        with open(unwanted_text_file_path, "r") as file:
             unwanted_texts = json.load(file)
             return unwanted_texts
     except json.JSONDecodeError:
