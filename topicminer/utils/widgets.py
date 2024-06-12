@@ -54,7 +54,7 @@ from nltk import data
 
 # Local imports from the TopicMiner project
 from topicminer.utils import (read_text_file, preprocess_text, parse_top_email_from_chain, 
-                              load_unwanted_email_text, clean_text_email_body, 
+                              load_unwanted_email_text, clean_email_body_text, 
                               add_unwanted_email_text, delete_unwanted_email_text)
 
 # Add the path to the NLTK data directory if the data is not found locally
@@ -120,10 +120,10 @@ def email_viewer(doc_id: str, data_path: str, unwanted_texts: list) -> str:
             )
 
         # Remove unwanted text to prepare a cleaned email.
-        cleaned_email = clean_text_email_body(reconstructed_email, unwanted_texts)
+        cleaned_email = clean_email_body_text(reconstructed_email, unwanted_texts)
         cleaned_email = "".join(cleaned_email)
 
-        cleaned_email_body = clean_text_email_body(email_body, unwanted_texts)
+        cleaned_email_body = clean_email_body_text(email_body, unwanted_texts)
         normalized_text = preprocess_text(cleaned_email_body)
         normalized_text = "".join(normalized_text)
 

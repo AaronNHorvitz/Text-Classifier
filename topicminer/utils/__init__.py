@@ -22,7 +22,7 @@ from .text_processing import (
 from .email_processing import (
     parse_top_email_from_chain,
     load_unwanted_email_text,
-    clean_text_email_body,
+    clean_email_body_text,
     add_unwanted_email_text,
     delete_unwanted_email_text,
 )

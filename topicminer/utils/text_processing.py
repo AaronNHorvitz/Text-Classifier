@@ -52,7 +52,7 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 
 # Local application imports
-from topicminer.utils import clean_text_email_body, load_unwanted_email_text
+from topicminer.utils import clean_email_body_text, load_unwanted_email_text
 
 # data.path.append('/projects/merc_text_analytics/nltk_data') # Add the path to the NLTK data directory if the data is not found in local
 data.path.append("./topicminoer/data/nltk_data")
@@ -116,7 +116,7 @@ def preprocess_text(text: str) -> str:
     unwanted_texts = load_unwanted_email_text()
 
     # Remove unwanted phrases from text and remove unwanted white spaces and symbols
-    text = clean_text_email_body(text, unwanted_texts)
+    text = clean_email_body_text(text, unwanted_texts)
 
     # Tokenize the text
     tokens = word_tokenize(text)
