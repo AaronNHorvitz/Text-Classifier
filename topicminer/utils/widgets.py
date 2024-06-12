@@ -292,3 +292,130 @@ def email_viewer_widget(processed_files_directory, unwanted_text_file_path):
 
     return interface
 
+def interactive_email_viewer_widget(data_path: str):
+    """
+    Creates an interactive viewer to navigate and display emails from a specified directory. The viewer includes
+    navigation buttons to move between emails, and a text input to jump directly to an email by its document ID.
+    Emails are displayed in a side-by-side format showing both the original and processed versions.
+
+    Parameters:
+    ----------
+    data_path : str
+        Path to the directory containing email text files. Each file should be a '.txt' file representing an email.
+
+    Returns:
+    -------
+    VBox
+        An ipywidgets VBox object containing the navigation controls and the email display area. This can be used
+        within a Jupyter Notebook to interactively browse through email documents.
+
+    Example:
+    --------
+    >>> interactive_viewer = interactive_email_viewer('./emails')
+    >>> display(interactive_viewer)
+
+    Notes:
+    -----
+    The function assumes that each email file is named using a unique identifier (doc ID) and ends with the '.txt'
+    extension. It uses ipywidgets for interactivity, allowing users to browse through emails using "Previous" and
+    "Next" buttons or by entering a specific document ID. The email content is displayed with both its original
+    and processed text side by side for comparison.
+
+    Functions used within:
+    - `view_file(file_path)` should return the raw text content of the file.
+    - `parse_email_components(file_path)` should parse and return components like to, from, sent date, subject,
+      and body from the email content.
+    - `preprocess_text(text, unwanted_texts)` should process the text by removing or altering unwanted elements
+      to prepare it for further analysis or display.
+    """
+    files = sorted([f for f in os.listdir(data_path) if f.endswith(".txt")])
+    index = [0]  # Mutable object to keep track of the index in a closure
+
+    # Widgets
+    output = Output(layout={"border": "1px solid black", "width": "100%"})
+    btn_prev = Button(
+        description="Previous", layout=Layout(width="100px", height="30px")
+    )
+    btn_next = Button(description="Next", layout=Layout(width="100px", height="30px"))
+    doc_id_input = Text(
+        description="Go to ID:",
+        placeholder="Enter Document ID",
+        layout=Layout(width="200px"),
+    )
+    btn_go = Button(description="Go", layout=Layout(width="80px", height="30px"))
+    lbl_position = Label()
+    lbl_doc_id = Label()
+
+    def update_labels():
+        """Updates the labels showing the current position and document ID in the list."""
+        lbl_position.value = f"Document {index[0] + 1} of {len(files)}"
+        lbl_doc_id.value = (
+            f"Doc ID: {files[index[0]][:-4]}"  # Remove '.txt' extension for display
+        )
+
+    def show_email(idx: int):
+        """Displays the email content based on the current index."""
+        output.clear_output()
+        file_path = os.path.join(data_path, files[idx])
+        original_text = view_file(file_path)
+        to_line, from_line, sent_line, subject_line, body = parse_email_components(
+            file_path
+        )
+        processed_text = preprocess_text(body, unwanted_texts)
+
+        with output:
+            display(
+                HTML(
+                    f"""
+            <style>
+                .email-view {{ width: 49%; overflow-wrap: break-word; white-space: pre-wrap; }}
+                table {{ width: 100%; table-layout: fixed; }}
+                td {{ vertical-align: top; }}
+            </style>
+            <table>
+                <tr>
+                    <td class="email-view"><b>Original Email:</b><br>{original_text}</td>
+                    <td class="email-view"><b>Processed Email:</b><br>{'From: ' + from_line}<br>{'Sent: ' + sent_line}<br>
+                    {'Subject: ' + subject_line}<br><br>{processed_text}</td>
+                </tr>
+            </table>
+            """
+                )
+            )
+        update_labels()
+
+    def on_prev_clicked(b):
+        if index[0] > 0:
+            index[0] -= 1
+            show_email(index[0])
+
+    def on_next_clicked(b):
+        if index[0] < len(files) - 1:
+            index[0] += 1
+            show_email(index[0])
+
+    def on_go_clicked(b):
+        try:
+            target_id = doc_id_input.value.strip() + ".txt"
+            target_index = files.index(target_id)
+            index[0] = target_index
+            show_email(index[0])
+        except ValueError:
+            output.clear_output()
+            with output:
+                print("Document ID not found!")
+
+    # Button click events
+    btn_prev.on_click(on_prev_clicked)
+    btn_next.on_click(on_next_clicked)
+    btn_go.on_click(on_go_clicked)
+
+    # Initial display
+    show_email(index[0])
+
+    # Layout buttons and output
+    navigation = HBox(
+        [btn_prev, lbl_position, lbl_doc_id, btn_next, doc_id_input, btn_go]
+    )
+    return VBox([navigation, output])
+
