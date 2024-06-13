@@ -82,9 +82,6 @@ from tqdm import tqdm
 from typing import Tuple, List
 
 
-
-
-
 def text_pruner(
     data_path: str, unwanted_texts_filename: str = "unwanted_texts.json"
 ) -> VBox:

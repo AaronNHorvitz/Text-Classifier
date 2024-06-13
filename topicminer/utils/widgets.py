@@ -53,18 +53,26 @@ from ipywidgets import Button, HBox, VBox, Output, Layout, Text, Label
 from nltk import data
 
 # Local imports from the TopicMiner project
-from topicminer.utils import (read_text_file, preprocess_text, parse_top_email_from_chain, 
-                              load_unwanted_email_text, clean_email_body_text, 
-                              add_unwanted_email_text, delete_unwanted_email_text, view_file)
+from topicminer.utils import (
+    read_text_file,
+    preprocess_text,
+    parse_top_email_from_chain,
+    load_unwanted_email_text,
+    clean_email_body_text,
+    add_unwanted_email_text,
+    delete_unwanted_email_text,
+    view_file,
+)
 
 # Add the path to the NLTK data directory if the data is not found locally
 data.path.append("./topicminer/data/nltk_data")
-                                              
+
+
 def email_viewer(
-        doc_id: str, 
-        data_path: str, 
-        unwanted_text_filepath: str = './data/unwanted_texts/unwanted_texts.json'
-        ) -> str:
+    doc_id: str,
+    data_path: str,
+    unwanted_text_filepath: str = "./data/unwanted_texts/unwanted_texts.json",
+) -> str:
     """
     Displays an email text comparison in a formatted HTML table, including the original email with highlighted unwanted text,
     the cleaned email text with unwanted text removed, and the preprocessed text for modeling.
@@ -105,7 +113,7 @@ def email_viewer(
 
     # Load unwanted texts for highlighting
     unwanted_texts = load_unwanted_email_text(unwanted_text_filepath)
-    
+
     try:
         # Retrieve and parse the original email text
         text_file_contents = read_text_file(text_file_path, word_wrap_limit=50)
@@ -162,9 +170,9 @@ def email_viewer(
 
 
 def processed_email_viewer_widget(
-        processed_files_directory: str = './data/raw_data/processed_emails.csv', 
-        unwanted_text_file_path: str = './data/unwanted_texts/unwanted_texts.json'
-        ):
+    processed_files_directory: str = "./data/raw_data/processed_emails.csv",
+    unwanted_text_file_path: str = "./data/unwanted_texts/unwanted_texts.json",
+):
     """
     Creates an interactive Jupyter Notebook widget for viewing and managing email documents.
     It allows users to navigate through email documents stored in a specified directory,
@@ -234,8 +242,9 @@ def processed_email_viewer_widget(
         doc_id = files[index][:-4]  # Remove '.txt' extension
         current_doc_label.value = f"Viewing: {doc_id}"
         comparison_html = email_viewer(
-            doc_id, processed_files_directory, 
-            unwanted_texts=load_unwanted_email_text(file_path=unwanted_text_file_path)
+            doc_id,
+            processed_files_directory,
+            unwanted_texts=load_unwanted_email_text(file_path=unwanted_text_file_path),
         )
         with output_area:
             clear_output(wait=True)
@@ -299,10 +308,11 @@ def processed_email_viewer_widget(
 
     return interface
 
+
 def interactive_email_viewer_widget(
-        data_path: str = './data/raw_data/',
-        unwanted_text_file_path: str = './data/unwanted_texts/unwanted_texts.json',
-        ):
+    data_path: str = "./data/raw_data/",
+    unwanted_text_file_path: str = "./data/unwanted_texts/unwanted_texts.json",
+):
     """
     Creates an interactive viewer to navigate and display emails from a specified directory. The viewer includes
     navigation buttons to move between emails, and a text input to jump directly to an email by its document ID.
@@ -366,14 +376,25 @@ def interactive_email_viewer_widget(
     def show_email(idx: int):
         """Displays the email content based on the current index."""
         output.clear_output()
+
+        # Read the text file contents and parse the email components
         file_path = os.path.join(data_path, files[idx])
-        original_text = view_file(file_path)
-        to_line, from_line, sent_line, subject_line, body = parse_email_components(
-            file_path
-        )
+        # original_text = view_file(file_path)
+        original_text = read_text_file(file_path)
+        (
+            email_recipient,
+            email_sender,
+            email_cc,
+            email_bcc,
+            email_date,
+            email_subject,
+            email_attachments,
+            email_categories,
+            email_body,
+        ) = parse_top_email_from_chain(original_text)
 
         # Load unwanted texts and preprocess the email body
-        processed_text = preprocess_text(body)
+        processed_text = preprocess_text(email_body)
 
         with output:
             display(
@@ -387,8 +408,16 @@ def interactive_email_viewer_widget(
             <table>
                 <tr>
                     <td class="email-view"><b>Original Email:</b><br>{original_text}</td>
-                    <td class="email-view"><b>Processed Email:</b><br>{'From: ' + from_line}<br>{'Sent: ' + sent_line}<br>
-                    {'Subject: ' + subject_line}<br><br>{processed_text}</td>
+                    <td class="email-view"><b>Processed Email:</b>
+                    <br>{'From: ' + email_sender}
+                    <br>{'Sent: ' + email_date}
+                    <br>{'To: ' + email_recipient}
+                    <br>{'CC: ' + email_cc}
+                    <br>{'BCC: ' + email_bcc}
+                    <br>{'Subject: ' + email_subject}
+                    <br>{'Attachments: ' + email_attachments}
+                    <br><br>{'Categories: ' + email_categories}
+                    <br><br>{processed_text}</td>
                 </tr>
             </table>
             """
@@ -430,4 +459,3 @@ def interactive_email_viewer_widget(
         [btn_prev, lbl_position, lbl_doc_id, btn_next, doc_id_input, btn_go]
     )
     return VBox([navigation, output])
-
