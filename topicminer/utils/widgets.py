@@ -373,7 +373,6 @@ def interactive_email_viewer_widget(
         )
 
         # Load unwanted texts and preprocess the email body
-        unwanted_texts = load_unwanted_email_text(unwanted_text_file_path)
         processed_text = preprocess_text(body)
 
         with output:
