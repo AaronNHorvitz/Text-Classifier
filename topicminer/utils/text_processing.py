@@ -143,4 +143,46 @@ def preprocess_text(
 
     return preprocessed_text
 
+def view_file(text_file_path):
+    """
+    Read and return the content of a text file, automatically detecting and applying the correct text encoding.
+
+    The function opens a file in binary mode to first read raw data for encoding detection via the `chardet` library.
+    It then reopens the file with the detected encoding to read and return the text content. This ensures that the file
+    is read correctly according to its character encoding, which is crucial for accurately processing text data in various
+    formats and encodings.
+
+    Parameters
+    ----------
+    text_file_path : str
+        The file path for the text file to be read.
+
+    Returns
+    -------
+    str
+        The content of the file as a string.
+
+    Examples
+    --------
+    >>> text_content = view_file('example.txt')
+    >>> print(text_content)
+
+    Notes
+    -----
+    The function uses the `chardet` library to detect encoding, which can handle a variety of text encodings but
+    may not always be 100% accurate for every file type or content.
+    """
+    # Uncover file encoding
+    with open(text_file_path, "rb") as file:
+        raw_data = file.read()
+
+        # Use chardet library to detect encoding in the text file
+        encoding = chardet.detect(raw_data)["encoding"]
+
+    # Read and print file
+    with open(text_file_path, "r", encoding=encoding) as file:
+        return file.read()
+    
+    
+
 

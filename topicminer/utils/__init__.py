@@ -17,6 +17,7 @@ from .utils import (
 from .text_processing import (
     read_text_file,
     preprocess_text,
+    view_file 
 )
 
 from .email_processing import (
