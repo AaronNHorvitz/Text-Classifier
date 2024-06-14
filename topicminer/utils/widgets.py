@@ -459,3 +459,125 @@ def interactive_email_viewer_widget(
         [btn_prev, lbl_position, lbl_doc_id, btn_next, doc_id_input, btn_go]
     )
     return VBox([navigation, output])
+
+def interactive_email_and_terms_viewer(df_emails: pd.DataFrame, data_path: str) -> VBox:
+    """
+    Creates an interactive viewer in a Jupyter Notebook to display emails alongside their associated key terms.
+    This viewer allows navigation through a list of emails stored as .txt files in a specified directory,
+    which are indexed and linked to their metadata stored in a DataFrame. It also allows direct navigation to any
+    email by entering its document ID.
+
+    Parameters:
+    ----------
+    df_emails : pd.DataFrame
+        A DataFrame containing the emails' metadata. It must include at least two columns: 'doc_id' and 'key_terms',
+        where 'doc_id' corresponds to the filename of the email file (minus the .txt extension) and 'key_terms'
+        contains the associated key terms or categories.
+    data_path : str
+        The path to the directory where the email .txt files are stored. Each file should be named with a 'doc_id' from
+        the DataFrame and a .txt extension.
+
+    Returns:
+    -------
+    VBox
+        A VBox widget that contains navigation controls and displays the content of the emails and their associated
+        key terms. This widget can be displayed in a Jupyter Notebook environment.
+
+    Examples:
+    --------
+    >>> df_emails = pd.DataFrame({
+        'doc_id': ['email1', 'email2'],
+        'key_terms': ['term1, term2', 'term3, term4']
+    })
+    >>> data_path = '/path/to/emails'
+    >>> email_viewer = interactive_email_and_terms_viewer(df_emails, data_path)
+    >>> display(email_viewer)
+
+    Notes:
+    -----
+    The viewer includes 'Previous' and 'Next' buttons to navigate through the emails, a 'Go' button to jump to a
+    specific email, and a display area that shows the content of the current email and its key terms side by side.
+    It is ideal for exploring datasets of emails where understanding the context and content is crucial.
+    """
+    files = df_emails["doc_id"].apply(lambda x: f"{x}.txt").tolist()
+
+    index = [0]  # Mutable object to keep track of the index in a closure
+
+    # Widgets
+    output = Output(layout={"border": "1px solid black", "width": "100%"})
+    btn_prev = Button(
+        description="Previous", layout=Layout(width="100px", height="30px")
+    )
+    btn_next = Button(description="Next", layout=Layout(width="100px", height="30px"))
+    doc_id_input = Text(
+        description="Go to ID:",
+        placeholder="Enter Document ID",
+        layout=Layout(width="200px"),
+    )
+
+    btn_go = Button(description="Go", layout=Layout(width="80px", height="30px"))
+    lbl_position = Label()
+    lbl_doc_id = Label()
+
+    def update_labels():
+        lbl_position.value = f"Document {index[0] + 1} of {len(files)}"
+        lbl_doc_id.value = (
+            f"Doc ID: {files[index[0]][:-4]}"  # Remove '.txt' extension for display
+        )
+
+    def show_email(idx):
+        output.clear_output()
+        file_path = os.path.join(data_path, files[idx])
+        doc_id = files[idx][:-4]
+        email_row = df_emails[df_emails["doc_id"] == doc_id].iloc[0]
+        original_text = view_file(file_path)
+        key_terms = email_row["key_terms"]
+
+        with output:
+            display(
+                HTML(
+                    f"""
+            <style>
+                .email-view {{ width: 49%; overflow-wrap: break-word; white-space: pre-wrap; }}
+                table {{ width: 100%; table-layout: fixed; }}
+                td {{ vertical-align: top; }}
+            </style>
+            <table>
+                <tr>
+                    <td class="email-view"><b>Original Email:</b><br>{original_text}</td>
+                    <td class="email-view"><b>Key Terms for Category:</b><br>{key_terms}</td>
+                </tr>
+            </table>
+            """
+                )
+            )
+        update_labels()
+
+    btn_prev.on_click(lambda b: navigate(-1))
+    btn_next.on_click(lambda b: navigate(1))
+    btn_go.on_click(go_to_doc)
+
+    def navigate(direction):
+
+        new_index = max(0, min(len(files) - 1, index[0] + direction))
+        if new_index != index[0]:
+            index[0] = new_index
+            show_email(index[0])
+
+    def go_to_doc(b):
+        try:
+            target_id = doc_id_input.value.strip() + ".txt"
+            target_index = files.index(target_id)
+            index[0] = target_index
+            show_email(index[0])
+
+        except ValueError:
+            output.clear_output()
+            with output:
+                print("Document ID not found!")
+
+    show_email(index[0])
+    navigation = HBox(
+        [btn_prev, lbl_position, lbl_doc_id, btn_next, doc_id_input, btn_go]
+    )
+    return VBox([navigation, output])

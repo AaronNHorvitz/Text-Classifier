@@ -10,3 +10,5 @@ Available Functions:
 """
 
 from .lda_viz import make_lda_viz
+from .tables import display_categories_and_terms
+
