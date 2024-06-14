@@ -514,9 +514,6 @@ def create_emails_with_topics_dataframe(
     return df_emails_with_topics
 
 
-
-
-
 def get_top_topics_str_for_each_document(
     lda_model: LdaModel, corpus: List[List[tuple]], top_n: int = 10
 ) -> List[str]:

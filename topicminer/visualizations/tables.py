@@ -1,5 +1,15 @@
 import pandas as pd
 
+# Set default display settings for pandas DataFrames
+def set_display_settings():
+    pd.options.display.max_rows = 100
+    pd.options.display.max_columns = 100
+    pd.set_option('max_colwidth', 1000)
+    pd.options.display.width = 1000
+
+# Call the function to apply settings immediately when the module is imported
+set_display_settings()
+
 def display_categories_and_terms(df: pd.DataFrame) -> pd.DataFrame:
     """
     Displays a summary of categories and their associated key terms from a DataFrame containing
