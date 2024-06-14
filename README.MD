@@ -16,7 +16,7 @@ TopicMiner/
 │	│   │   └── lda_model.py
 │	│   └── classification_models/
 │	│       ├── __init__.py
-│	│       └── bert_classifier.py
+│	│       └── xgboost_model.py
 │	│
 │	├── visualizations/
 │	│   ├── __init__.py
