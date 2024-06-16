@@ -14,3 +14,11 @@ from .lda_model import (
     enrich_dataframe,
     train_models_and_find_optimal,
 )
+
+from .doc2vec_kmeans import (
+    train_doc2vec_model,
+    infer_doc2vec_vector,
+    categorize_documents
+)
+
+
