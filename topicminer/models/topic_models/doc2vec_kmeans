@@ -1,5 +1,13 @@
+import numpy as  np
+import pandas as pd
 
 
+from sklearn.cluster import KMeans
+from sklearn.metrics.pairwise import cosine_similarity
+
+
+from gensim.models.doc2vec import Doc2Vec, TaggedDocument
+from typing import List
 
 def train_doc2vec_model(
     tokenized_docs: List[List[str]],
