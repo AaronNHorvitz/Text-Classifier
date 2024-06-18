@@ -8,6 +8,7 @@ TopicMiner is a comprehensive text analytics toolkit designed to process and ana
 TopicMiner/
 │
 ├── topicminer/
+├── __init__.py
 │	├── models/
 │	│   ├── __init__.py
 │	│   ├── topic_models/
@@ -15,14 +16,12 @@ TopicMiner/
 │	│   │   ├── doc2vec_kmeans.py
 │	│   │   └── lda_model.py
 │	│   └── classification_models/
-│	│       ├── __init__.py
-│	│       └── xgboost_model.py
+│	│       ├── __init__.py     
 │	│
 │	├── visualizations/
 │	│   ├── __init__.py
 │	│   ├── lda_viz.py
-│	│   ├── embeddings_viz.py
-│	│   └── reports_viz.py
+│	│   └── tables.py
 │	│
 │   ├── utils/
 │	│   ├── __init__.py

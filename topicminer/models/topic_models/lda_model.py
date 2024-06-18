@@ -10,7 +10,8 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 
 # Local application imports
-from topicminer.utils import create_tfidf_corpus, prepare_corpus_and_dictionary
+#from topicminer import create_tfidf_corpus, prepare_corpus_and_dictionary
+from topicminer.utils.statistical_transforms import create_tfidf_corpus, prepare_corpus_and_dictionary
 
 
 def train_lda_model(

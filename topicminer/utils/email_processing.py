@@ -55,7 +55,7 @@ import textwrap
 import pandas as pd
 from tqdm import tqdm
 
-from topicminer.utils import convert_date_format, parse_date_day_time, read_text_file, preprocess_text
+from topicminer.utils.text_processing import convert_date_format, parse_date_day_time, read_text_file, preprocess_text
 
 def generate_email_text(
     email_date: str,

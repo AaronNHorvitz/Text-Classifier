@@ -39,23 +39,32 @@ Notes:
 ------
 Ensure that the NLTK data path is correctly set if using NLTK resources for tokenization and lemmatization. This module assumes all text inputs are in English and makes use of English-specific processing such as stop word removal.
 """
+
+# # Append appropriate pathways to sys
+# import sys
+# import os
+
+# src_path = os.path.dirname(os.getcwd()) # Find home directory
+# path_to_append = os.path.join(src_path, 'utils') # Append utils
+# sys.path.append(path_to_append)
+# sys.path.append(src_path)
+
 # Standard library imports
-import re
+from datetime import datetime
 
 # Third-party library imports
-import chardet
-import numpy as np
 import pandas as pd
-from nltk import data
+import numpy as np
+import chardet
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 
 # Local application imports
-from topicminer.utils import clean_email_body_text, load_unwanted_email_text
+from topicminer.utils.email_processing import clean_email_body_text, load_unwanted_email_text
 
 # data.path.append('/projects/merc_text_analytics/nltk_data') # Add the path to the NLTK data directory if the data is not found in local
-data.path.append("./topicminoer/data/nltk_data")
+#data.path.append("./topicminoer/data/nltk_data")
 
 def read_text_file(file_path: str, word_wrap_limit=100) -> list:
     """
@@ -183,6 +192,113 @@ def view_file(text_file_path):
     with open(text_file_path, "r", encoding=encoding) as file:
         return file.read()
     
-    
 
+def convert_date_format(date_str: str) -> str:
+    """
+    Convert a date string from 'YYYY-MM-DD' format to 'Month DD, YYYY' format.
 
+    This function takes a date string in the ISO 8601 date format (YYYY-MM-DD) and converts
+    it to a more readable string format that includes the full month name, the day, and the year.
+
+    Parameters:
+    ----------
+    date_str : str
+        A string representing the date in 'YYYY-MM-DD' format. This should be a valid date string
+        that conforms to the ISO 8601 date format.
+
+    Returns:
+    -------
+    str
+        A string representing the date in 'Month DD, YYYY' format. If `date_str` is NaN or an invalid
+        date, the function will return NaN.
+
+    Examples:
+    --------
+    >>> convert_date_format('2011-01-13')
+    'January 13, 2011'
+
+    Notes
+    -----
+    The function uses the `pandas.isna()` function to check for NaN values and `datetime.strptime` from
+    Python's datetime module to parse and format the date. If an invalid date is provided that doesn't match
+    the 'YYYY-MM-DD' format, it will raise a ValueError.
+    """
+    # Check if the date string is NaN
+    if pd.isna(date_str):
+        return np.nan
+
+    # Parse the date string into a datetime object
+    date_obj = datetime.strptime(date_str, "%Y-%m-%d")
+
+    # Format the datetime object into the desired string format
+    new_date_str = date_obj.strftime("%B %d, %Y")
+
+    return new_date_str
+
+def parse_date_day_time(date_str):
+    """
+     Parses a string representing a date and time, returning the day of the week, date, and time in a standardized format.
+
+     This function is designed to handle multiple date formats by checking each format defined in `date_formats`. It uses
+     the `datetime.strptime` method to try parsing the date string according to each format until successful. If none of
+     the formats match, or the date string is a known placeholder for missing data, it defaults to returning "Unknown" for
+     each part of the date.
+
+     Parameters
+     ----------
+     date_str : str
+         The date string to parse. This can be in various formats or a known placeholder indicating missing data.
+
+     Returns
+     -------
+     tuple
+         A tuple containing three strings: (date, time, day_of_week). If parsing fails or the input is a known placeholder,
+         these will return as "Unknown".
+
+    Examples
+     --------
+     >>> parse_date_day_time("Monday, January 01, 2020 02:30 PM")
+     ('January 01, 2020', '14:30', 'Monday')
+
+     >>> parse_date_day_time("2020-01-01")
+     ('January 01, 2020', 'Unknown', 'Unknown')
+
+     >>> parse_date_day_time("Unknown Date")
+     ('Unknown', 'Unknown', 'Unknown')
+
+     Notes
+     -----
+     The function can handle custom formats by modifying the `date_formats` list. It uses Python's datetime library for
+     parsing and formatting. If new formats are expected, they should be added to the `date_formats` list to ensure
+     proper parsing.
+    """
+    # Define your date formats
+    date_formats = [
+        "%A, %B %d, %Y %I:%M %p",  # Original format
+        "%Y-%m-%d",  # New expected format
+    ]
+
+    # Placeholder for unknown date
+    unknown_placeholder = "Unknown Date"
+
+    # Initialize default values for date, time, and day_of_week
+    date = "Unknown"
+    time = "Unknown"
+    day_of_week = "Unknown"
+
+    if date_str == unknown_placeholder or not date_str:
+        return date, time, day_of_week
+
+    for format in date_formats:
+        try:
+            # Attempt to parse the date
+            date_obj = datetime.strptime(date_str, format)
+            date = date_obj.strftime("%B %d, %Y")
+            time = date_obj.strftime("%H:%M")  # 24 hour clock
+            day_of_week = date_obj.strftime("%A")
+            break  # Break the loop if the date is successfully parsed
+        except ValueError:
+            # If parsing fails, try the next format
+            continue
+
+    return date, time, day_of_week

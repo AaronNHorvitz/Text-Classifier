@@ -53,16 +53,16 @@ from ipywidgets import Button, HBox, VBox, Output, Layout, Text, Label
 from nltk import data
 
 # Local imports from the TopicMiner project
-from topicminer.utils import (
+from topicminer.utils.email_processing import (
     read_text_file,
     preprocess_text,
     parse_top_email_from_chain,
     load_unwanted_email_text,
     clean_email_body_text,
     add_unwanted_email_text,
-    delete_unwanted_email_text,
-    view_file,
+    delete_unwanted_email_text
 )
+from topicminer.utils.text_processing import view_file
 
 # Add the path to the NLTK data directory if the data is not found locally
 data.path.append("./topicminer/data/nltk_data")
