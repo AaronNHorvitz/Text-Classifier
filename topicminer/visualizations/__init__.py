@@ -9,6 +9,7 @@ Available Functions:
 - make_lda_viz: Renders an interactive LDA topic model visualization using pyLDAvis.
 """
 
+# topicminer/visualizations/__init__.py
 from .lda_viz import *
 from .tables import *
 

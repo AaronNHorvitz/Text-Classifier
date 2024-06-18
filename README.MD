@@ -29,7 +29,7 @@ TopicMiner/
 │  ├── utils/
 │	│   ├── __init__.py
 │	│   ├── email_processing.py
-│	│   ├── statistical_transformations.py
+│	│   ├── statistical_transforms.py
 │	│   ├── text_processing.py
 │	│   └── widgets.py
 │  │
