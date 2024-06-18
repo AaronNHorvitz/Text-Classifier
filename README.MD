@@ -4,51 +4,48 @@ TopicMiner is a comprehensive text analytics toolkit designed to process and ana
 
 ## Project Structure
 ```
-
 TopicMiner/
 │
 ├── topicminer/
-├── __init__.py
+│	│	
+│	├── __init__.py
+│	│   
 │	├── models/
 │	│   ├── __init__.py
+│	│   │ 
 │	│   ├── topic_models/
 │	│   │   ├── __init__.py
 │	│   │   ├── doc2vec_kmeans.py
 │	│   │   └── lda_model.py
+│	│   │ 
 │	│   └── classification_models/
-│	│       ├── __init__.py     
+│	│        └── __init__.py     
 │	│
 │	├── visualizations/
 │	│   ├── __init__.py
 │	│   ├── lda_viz.py
 │	│   └── tables.py
 │	│
-│   ├── utils/
+│  ├── utils/
 │	│   ├── __init__.py
-│	│   ├── email_etl.py
+│	│   ├── email_processing.py
+│	│   ├── statistical_transformations.py
 │	│   ├── text_processing.py
 │	│   └── widgets.py
-│   │
-│   ├── config/
-│   │   ├── __init__.py
-│   │   └── settings.py
+│  │
+│  └── config/
+│      └── __init__.py
 │
 ├── tests/
 │   ├── __init__.py
 │   ├── models/
-│   │   ├── __init__.py
-│   │   ├── test_lda_model.py
-│   │   └── test_word_2_vec_k_means.py
+│   │   └── __init__.py
 │   │
 │   ├── visualizations/
-│   │   ├── __init__.py
-│   │   ├── test_lda_visualization.py
-│   │   └── test_embeddings_visualization.py
+│   │   └── __init__.py
+│   │  
 │   └── utils/
-│       ├── __init__.py
-│       ├── test_email_etl.py
-│       ├── test_text_processing.py
-│       └── test_widgets.py
+│       └── __init__.py
 │
 ├── data/
 │   ├── raw_data/
