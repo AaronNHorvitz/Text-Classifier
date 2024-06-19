@@ -500,6 +500,47 @@ def read_text_file(file_path: str, word_wrap_limit=100) -> list:
     return text_file_contents
 
 
+def verify_and_make_unwanted_texts_filepath(unwanted_texts_filepath: str = None):
+    if unwanted_texts_filepath is None:
+        src_path = os.path.dirname(os.getcwd())
+        unwanted_texts_filepath = os.path.join(src_path, 'data/unwanted_texts/unwanted_texts.json')
+    
+    os.makedirs(os.path.dirname(unwanted_texts_filepath), exist_ok=True)
+    if not os.path.exists(unwanted_texts_filepath):
+        print("JSON file does not exist. Creating an empty file with the correct structure.")
+        with open(unwanted_texts_filepath, "w") as file:
+            json.dump({"unwanted_texts": []}, file)  # Proper initialization
+
+    return unwanted_texts_filepath
+
+    
+def load_unwanted_email_text(unwanted_texts_filepath: str = None):
+    unwanted_texts_filepath = verify_and_make_unwanted_texts_filepath(unwanted_texts_filepath)
+    print(f"Loading from: {unwanted_texts_filepath}")  # Debugging the file path
+    try:
+        with open(unwanted_texts_filepath, 'r') as file:
+            data = json.load(file)
+            print(data)  # Print the data to verify its structure
+        if "unwanted_texts" in data:
+            return set(data["unwanted_texts"])
+        else:
+            raise ValueError(f"JSON file at {unwanted_texts_filepath} is missing the 'unwanted_texts' key.")
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"Error reading JSON file: {e}")
+        return set()
+    except ValueError as ve:
+        print(ve)
+        return set()
+    
+def save_unwanted_texts(unwanted_texts_filepath, texts):
+    """ Save the unwanted texts to a JSON file, ensuring data is converted from a set to a list. """
+    try:
+        with open(unwanted_texts_filepath, "w") as file:
+            json.dump({"unwanted_texts": list(texts)}, file)
+        print(f"Saved {len(texts)} texts to {unwanted_texts_filepath}")
+    except Exception as e:
+        print(f"Error saving texts: {e}")
+
 def preprocess_text(
         text: str,
         unwanted_text_filepath="topicminer/data/unwanted_texts.json",
@@ -548,6 +589,9 @@ def preprocess_text(
     preprocessed_text = " ".join(tokens)
 
     return preprocessed_text.lower()
+
+
+
 
 def view_file(text_file_path):
     """

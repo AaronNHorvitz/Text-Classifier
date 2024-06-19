@@ -70,11 +70,12 @@ from topicminer.utils.email_text_processing import (
     read_text_file,
     preprocess_text,
     parse_top_email_from_chain,
-    load_unwanted_email_text,
     clean_email_body_text,
     add_unwanted_email_text,
     delete_unwanted_email_text,
     verify_and_make_unwanted_texts_filepath,
+    load_unwanted_email_text,
+    save_unwanted_texts,
     view_file
 )
 
@@ -478,67 +479,6 @@ def interactive_email_viewer_widget(
         [btn_prev, lbl_position, lbl_doc_id, btn_next, doc_id_input, btn_go]
     )
     return VBox([navigation, output])
-
-
-def verify_and_make_unwanted_texts_filepath(unwanted_texts_filepath: str = None):
-
-    # Establish unwanted_text_path if none is provided
-    if unwanted_texts_filepath is None:
-        src_path = os.path.dirname(os.getcwd())
-        unwanted_texts_filepath = os.path.join(src_path, 'data/unwanted_texts/unwanted_texts.json')
-    
-    # Ensure the directory exists (if not, create it)
-    file_path_direc = os.path.dirname(unwanted_texts_filepath)
-    os.makedirs(file_path_direc, exist_ok=True)
-
-    # Check if the file exists
-    if not os.path.exists(unwanted_texts_filepath):
-        print("JSON file does not exist. Creating an empty file.")
-        with open(unwanted_texts_filepath, "w") as file:
-            json.dump([], file)  # Create an empty JSON array
-    
-    return unwanted_texts_filepath
-
-
-def load_unwanted_email_text(unwanted_texts_filepath: str = None) -> set:
-
-    unwanted_texts_filepath = verify_and_make_unwanted_texts_filepath(unwanted_texts_filepath)
-
-    try:
-        with open(unwanted_texts_filepath, "r") as file:
-            unwanted_texts = json.load(file)
-            return set(data.get("unwanted_texts", []))
-    except (FileNotFoundError, json.JSONDecodeError):
-        print("JSON file containing unwanted texts is empty or corrupted.")
-        return ()
-    
-def load_unwanted_email_text(unwanted_texts_filepath: str = None):
-    """Load unwanted texts from a JSON file, ensuring it returns a set."""
-    unwanted_texts_filepath = verify_and_make_unwanted_texts_filepath(unwanted_texts_filepath)
-    
-    try:
-        with open(unwanted_texts_filepath, 'r') as file:
-            data = json.load(file)
-        # Ensure data is a dictionary and has the key 'unwanted_texts'
-        if isinstance(data, dict) and "unwanted_texts" in data:
-            return set(data["unwanted_texts"])
-        else:
-            raise ValueError("JSON structure is incorrect or missing 'unwanted_texts' key.")
-    except (FileNotFoundError, json.JSONDecodeError):
-        print("Failed to load or file not found, creating new set.")
-        return set()
-    except ValueError as ve:
-        print(ve)
-        return set()
-
-def save_unwanted_texts(unwanted_texts_filepath, texts):
-    """ Save the unwanted texts to a JSON file, ensuring data is converted from a set to a list. """
-    try:
-        with open(unwanted_texts_filepath, "w") as file:
-            json.dump({"unwanted_texts": list(texts)}, file)
-        print(f"Saved {len(texts)} texts to {unwanted_texts_filepath}")
-    except Exception as e:
-        print(f"Error saving texts: {e}")
 
     
 def text_pruner(
