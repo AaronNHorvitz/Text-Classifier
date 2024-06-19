@@ -1,3 +1,8 @@
+#TODO: resolve unwanted_texts_filepath function issue for import into current funcitons and widgets.py 
+# 
+# 
+# 
+#  
 """
 -------------------------------------------------------------------------------
 File: widgets.py
@@ -40,8 +45,16 @@ Notes:
 Ensure that the NLTK data path is correctly set if using NLTK resources. These widgets rely on the interactive capabilities of IPython and Jupyter environments; therefore, they are not suitable for execution in non-interactive Python script environments.
 """
 
+from pathlib import Path
+from ipywidgets import Button, Text, VBox, HBox, Output, Label, HTML
+import json
+import os
+
+
+
 # Standard library imports
 import os
+import json
 
 # Third-party library imports
 import numpy as np
@@ -53,16 +66,17 @@ from ipywidgets import Button, HBox, VBox, Output, Layout, Text, Label
 from nltk import data
 
 # Local imports from the TopicMiner project
-from topicminer.utils.email_processing import (
+from topicminer.utils.email_text_processing import (
     read_text_file,
     preprocess_text,
     parse_top_email_from_chain,
     load_unwanted_email_text,
     clean_email_body_text,
     add_unwanted_email_text,
-    delete_unwanted_email_text
+    delete_unwanted_email_text,
+    verify_and_make_unwanted_texts_filepath,
+    view_file
 )
-from topicminer.utils.text_processing import view_file
 
 # Add the path to the NLTK data directory if the data is not found locally
 data.path.append("./topicminer/data/nltk_data")
@@ -112,7 +126,7 @@ def email_viewer(
     text_file_path = os.path.join(data_path, f"{doc_id}.txt")
 
     # Load unwanted texts for highlighting
-    unwanted_texts = load_unwanted_email_text(unwanted_text_filepath)
+    unwanted_texts, unwanted_texts_filepath = load_unwanted_email_text(unwanted_text_filepath)
 
     try:
         # Retrieve and parse the original email text
@@ -310,7 +324,7 @@ def processed_email_viewer_widget(
 
 
 def interactive_email_viewer_widget(
-    data_path: str = "./data/raw_data/",
+    data_path: str = None,
     unwanted_text_file_path: str = "./data/unwanted_texts/unwanted_texts.json",
 ):
     """
@@ -348,6 +362,11 @@ def interactive_email_viewer_widget(
     - `preprocess_text(text, unwanted_texts)` should process the text by removing or altering unwanted elements
       to prepare it for further analysis or display.
     """
+    # Establish data path if none is provided
+    if data_path is None:
+        src_path = os.path.dirname(os.getcwd())
+        data_path = os.path.join(src_path, 'data/raw_data')
+
     files = sorted([f for f in os.listdir(data_path) if f.endswith(".txt")])
     index = [0]  # Mutable object to keep track of the index in a closure
 
@@ -460,124 +479,215 @@ def interactive_email_viewer_widget(
     )
     return VBox([navigation, output])
 
-def interactive_email_and_terms_viewer(df_emails: pd.DataFrame, data_path: str) -> VBox:
+
+def verify_and_make_unwanted_texts_filepath(unwanted_texts_filepath: str = None):
+
+    # Establish unwanted_text_path if none is provided
+    if unwanted_texts_filepath is None:
+        src_path = os.path.dirname(os.getcwd())
+        unwanted_texts_filepath = os.path.join(src_path, 'data/unwanted_texts/unwanted_texts.json')
+    
+    # Ensure the directory exists (if not, create it)
+    file_path_direc = os.path.dirname(unwanted_texts_filepath)
+    os.makedirs(file_path_direc, exist_ok=True)
+
+    # Check if the file exists
+    if not os.path.exists(unwanted_texts_filepath):
+        print("JSON file does not exist. Creating an empty file.")
+        with open(unwanted_texts_filepath, "w") as file:
+            json.dump([], file)  # Create an empty JSON array
+    
+    return unwanted_texts_filepath
+
+
+def load_unwanted_email_text(unwanted_texts_filepath: str = None) -> set:
+
+    unwanted_texts_filepath = verify_and_make_unwanted_texts_filepath(unwanted_texts_filepath)
+
+    try:
+        with open(unwanted_texts_filepath, "r") as file:
+            unwanted_texts = json.load(file)
+            return set(data.get("unwanted_texts", []))
+    except (FileNotFoundError, json.JSONDecodeError):
+        print("JSON file containing unwanted texts is empty or corrupted.")
+        return ()
+    
+def load_unwanted_email_text(unwanted_texts_filepath: str = None):
+    """Load unwanted texts from a JSON file, ensuring it returns a set."""
+    unwanted_texts_filepath = verify_and_make_unwanted_texts_filepath(unwanted_texts_filepath)
+    
+    try:
+        with open(unwanted_texts_filepath, 'r') as file:
+            data = json.load(file)
+        # Ensure data is a dictionary and has the key 'unwanted_texts'
+        if isinstance(data, dict) and "unwanted_texts" in data:
+            return set(data["unwanted_texts"])
+        else:
+            raise ValueError("JSON structure is incorrect or missing 'unwanted_texts' key.")
+    except (FileNotFoundError, json.JSONDecodeError):
+        print("Failed to load or file not found, creating new set.")
+        return set()
+    except ValueError as ve:
+        print(ve)
+        return set()
+
+def save_unwanted_texts(unwanted_texts_filepath, texts):
+    """ Save the unwanted texts to a JSON file, ensuring data is converted from a set to a list. """
+    try:
+        with open(unwanted_texts_filepath, "w") as file:
+            json.dump({"unwanted_texts": list(texts)}, file)
+        print(f"Saved {len(texts)} texts to {unwanted_texts_filepath}")
+    except Exception as e:
+        print(f"Error saving texts: {e}")
+
+    
+def text_pruner(
+    data_path: str = None,
+    unwanted_texts_filepath: str = None
+) -> VBox:
     """
-    Creates an interactive viewer in a Jupyter Notebook to display emails alongside their associated key terms.
-    This viewer allows navigation through a list of emails stored as .txt files in a specified directory,
-    which are indexed and linked to their metadata stored in a DataFrame. It also allows direct navigation to any
-    email by entering its document ID.
+    Initialize an interactive text pruning interface for cleaning up email data from a specified directory.
 
-    Parameters:
+    The function loads a list of unwanted text phrases from a JSON file and provides an interactive Jupyter
+    widget interface. Users can navigate through text files, add or remove unwanted text phrases, and visually
+    compare the original, cleaned, and processed versions of each text file.
+
+    Parameters
     ----------
-    df_emails : pd.DataFrame
-        A DataFrame containing the emails' metadata. It must include at least two columns: 'doc_id' and 'key_terms',
-        where 'doc_id' corresponds to the filename of the email file (minus the .txt extension) and 'key_terms'
-        contains the associated key terms or categories.
-    data_path : str
-        The path to the directory where the email .txt files are stored. Each file should be named with a 'doc_id' from
-        the DataFrame and a .txt extension.
+    data_path : str or os.PathLike
+        The path to the directory containing the text files to be processed.
+    unwanted_texts_filename : str, default 'unwanted_texts.json'
+        The filename of the JSON file containing a list of unwanted text phrases.
 
-    Returns:
+    Returns
     -------
     VBox
-        A VBox widget that contains navigation controls and displays the content of the emails and their associated
-        key terms. This widget can be displayed in a Jupyter Notebook environment.
+        An ipywidgets VBox object containing all interactive widgets for navigating and editing texts.
 
-    Examples:
+    Examples
     --------
-    >>> df_emails = pd.DataFrame({
-        'doc_id': ['email1', 'email2'],
-        'key_terms': ['term1, term2', 'term3, term4']
-    })
-    >>> data_path = '/path/to/emails'
-    >>> email_viewer = interactive_email_and_terms_viewer(df_emails, data_path)
-    >>> display(email_viewer)
+    >>> from pathlib import Path
+    >>> text_pruner_interface = text_pruner(Path("/path/to/email/directory"))
+    >>> display(text_pruner_interface)
 
-    Notes:
+    Notes
     -----
-    The viewer includes 'Previous' and 'Next' buttons to navigate through the emails, a 'Go' button to jump to a
-    specific email, and a display area that shows the content of the current email and its key terms side by side.
-    It is ideal for exploring datasets of emails where understanding the context and content is crucial.
+    The unwanted texts are initially loaded from a JSON file but can be dynamically modified through the interface.
+    Each email text file should be UTF-8 encoded and have a '.txt' extension. The comparison and editing actions
+    are immediately updated in the interface to reflect any changes.
     """
-    files = df_emails["doc_id"].apply(lambda x: f"{x}.txt").tolist()
+    unwanted_texts_filepath = verify_and_make_unwanted_texts_filepath(unwanted_texts_filepath)
+    unwanted_texts = load_unwanted_email_text(unwanted_texts_filepath)
 
-    index = [0]  # Mutable object to keep track of the index in a closure
-
-    # Widgets
+    # Establish data_path if none is provided
+    if data_path is None:
+        src_path = os.path.dirname(os.getcwd())
+        data_path = os.path.join(src_path, 'data/raw_data')
+    
+    files = sorted([f for f in os.listdir(data_path) if f.endswith(".txt")])
+    index = [0]
+    
+    # Widgets for interaction
     output = Output(layout={"border": "1px solid black", "width": "100%"})
-    btn_prev = Button(
-        description="Previous", layout=Layout(width="100px", height="30px")
-    )
-    btn_next = Button(description="Next", layout=Layout(width="100px", height="30px"))
-    doc_id_input = Text(
-        description="Go to ID:",
-        placeholder="Enter Document ID",
-        layout=Layout(width="200px"),
-    )
-
-    btn_go = Button(description="Go", layout=Layout(width="80px", height="30px"))
+    btn_prev = Button(description="Previous")
+    btn_next = Button(description="Next")
+    txt_add_unwanted = Text(placeholder="Add unwanted text")
+    btn_add = Button(description="Add")
+    txt_remove_unwanted = Text(placeholder="Remove unwanted text")
+    btn_remove = Button(description="Remove")
     lbl_position = Label()
-    lbl_doc_id = Label()
 
     def update_labels():
         lbl_position.value = f"Document {index[0] + 1} of {len(files)}"
-        lbl_doc_id.value = (
-            f"Doc ID: {files[index[0]][:-4]}"  # Remove '.txt' extension for display
-        )
 
     def show_email(idx):
         output.clear_output()
         file_path = os.path.join(data_path, files[idx])
-        doc_id = files[idx][:-4]
-        email_row = df_emails[df_emails["doc_id"] == doc_id].iloc[0]
-        original_text = view_file(file_path)
-        key_terms = email_row["key_terms"]
+        with open(file_path, "r", encoding="utf-8") as file:
+            email_content = file.read()
 
+        # Process the email content to remove unwanted texts
+        email_content_no_unwanted = email_content
+        for phrase in unwanted_texts:
+            highlighted_phrase = f"<mark style='background-color: red;'>{phrase}</mark>"
+            email_content = email_content.replace(phrase, highlighted_phrase)
+            email_content_no_unwanted = email_content_no_unwanted.replace(phrase, "")
+
+        # Simulate processing the email content
+        processed_text = preprocess_text(email_content_no_unwanted)
         with output:
             display(
                 HTML(
                     f"""
-            <style>
-                .email-view {{ width: 49%; overflow-wrap: break-word; white-space: pre-wrap; }}
-                table {{ width: 100%; table-layout: fixed; }}
-                td {{ vertical-align: top; }}
-            </style>
-            <table>
-                <tr>
-                    <td class="email-view"><b>Original Email:</b><br>{original_text}</td>
-                    <td class="email-view"><b>Key Terms for Category:</b><br>{key_terms}</td>
-                </tr>
-            </table>
-            """
+                    <style>
+                        .email-view {{
+                            width: 32%;
+                            overflow-wrap: break-word;
+                            white-space: pre-wrap;
+                            text-align: left;
+                            padding: 10px;
+                        }}
+                        table {{
+                            width: 100%;
+                            table-layout: fixed;
+                            border-collapse: collapse;
+                        }}
+                        td {{
+                            vertical-align: top;
+                            border: 1px solid #ccc;
+                        }}
+                        mark {{
+                            background-color: yellow;
+                            font-weight: bold;
+                        }}
+                    </style>
+                    <table>
+                        <tr>
+                            <td class="email-view"><b>Original Email (with highlights):</b><br>{email_content}</td>
+                            <td class="email-view"><b>Email Without Unwanted Texts:</b><br>{email_content_no_unwanted}</td>
+                            <td class="email-view"><b>Processed Email:</b><br>{processed_text}</td>
+                        </tr>
+                    </table>
+                    """
                 )
             )
         update_labels()
 
     btn_prev.on_click(lambda b: navigate(-1))
     btn_next.on_click(lambda b: navigate(1))
-    btn_go.on_click(go_to_doc)
+    btn_add.on_click(lambda b: add_text(txt_add_unwanted.value))
+    btn_remove.on_click(lambda b: remove_text(txt_remove_unwanted.value))
 
     def navigate(direction):
-
         new_index = max(0, min(len(files) - 1, index[0] + direction))
         if new_index != index[0]:
             index[0] = new_index
             show_email(index[0])
 
-    def go_to_doc(b):
-        try:
-            target_id = doc_id_input.value.strip() + ".txt"
-            target_index = files.index(target_id)
-            index[0] = target_index
+    def add_text(text):
+        if text:
+            unwanted_texts.add(text)
+            save_unwanted_texts(unwanted_texts_filepath, unwanted_texts)
+            txt_add_unwanted.value = ""
             show_email(index[0])
 
-        except ValueError:
-            output.clear_output()
-            with output:
-                print("Document ID not found!")
+    def remove_text(text):
+        if text in unwanted_texts:
+            unwanted_texts.remove(text)
+            save_unwanted_texts(unwanted_texts_filepath, unwanted_texts)
+            txt_remove_unwanted.value = ""
+            show_email(index[0])
 
     show_email(index[0])
-    navigation = HBox(
-        [btn_prev, lbl_position, lbl_doc_id, btn_next, doc_id_input, btn_go]
+    controls = HBox(
+        [
+            btn_prev,
+            lbl_position,
+            btn_next,
+            txt_add_unwanted,
+            btn_add,
+            txt_remove_unwanted,
+            btn_remove,
+        ]
     )
-    return VBox([navigation, output])
+    return VBox([controls, output])

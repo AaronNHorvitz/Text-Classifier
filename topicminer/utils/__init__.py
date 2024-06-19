@@ -8,8 +8,7 @@ common functions used across various parts of the project. The utilities include
 email handling, and interactive widgets, making them essential for processing and analyzing email data efficiently.
 """
 # topicminer/utils/__init__.py
-from .email_processing import *
-from .text_processing import *
+from .email_text_processing import *
 from .widgets import *
 from .statistical_transforms import *
 
