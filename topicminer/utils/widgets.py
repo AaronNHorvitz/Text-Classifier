@@ -73,14 +73,18 @@ from topicminer.utils.email_text_processing import (
     clean_email_body_text,
     add_unwanted_email_text,
     delete_unwanted_email_text,
-    verify_and_make_unwanted_texts_filepath,
     load_unwanted_email_text,
-    save_unwanted_texts,
-    view_file
+    save_unwanted_texts
 )
 
 # Add the path to the NLTK data directory if the data is not found locally
 data.path.append("./topicminer/data/nltk_data")
+
+from ..config import UNWANTED_TEXTS_FILE, RAW_DATA_DIR
+
+# Use the imported path in your module
+with open(UNWANTED_TEXTS_FILE, 'r') as file:
+    data = json.load(file)
 
 
 def email_viewer(
@@ -481,10 +485,7 @@ def interactive_email_viewer_widget(
     return VBox([navigation, output])
 
     
-def text_pruner(
-    data_path: str = None,
-    unwanted_texts_filepath: str = None
-) -> VBox:
+def text_pruner() -> VBox:
     """
     Initialize an interactive text pruning interface for cleaning up email data from a specified directory.
 
@@ -516,15 +517,14 @@ def text_pruner(
     Each email text file should be UTF-8 encoded and have a '.txt' extension. The comparison and editing actions
     are immediately updated in the interface to reflect any changes.
     """
-    unwanted_texts_filepath = verify_and_make_unwanted_texts_filepath(unwanted_texts_filepath)
-    unwanted_texts = load_unwanted_email_text(unwanted_texts_filepath)
+    unwanted_texts = load_unwanted_email_text()
 
     # Establish data_path if none is provided
     if data_path is None:
         src_path = os.path.dirname(os.getcwd())
         data_path = os.path.join(src_path, 'data/raw_data')
     
-    files = sorted([f for f in os.listdir(data_path) if f.endswith(".txt")])
+    files = sorted([f for f in os.listdir(RAW_DATA_DIR) if f.endswith(".txt")])
     index = [0]
     
     # Widgets for interaction
@@ -542,14 +542,14 @@ def text_pruner(
 
     def show_email(idx):
         output.clear_output()
-        file_path = os.path.join(data_path, files[idx])
+        file_path = os.path.join(RAW_DATA_DIR, files[idx])
         with open(file_path, "r", encoding="utf-8") as file:
             email_content = file.read()
 
         # Process the email content to remove unwanted texts
         email_content_no_unwanted = email_content
         for phrase in unwanted_texts:
-            highlighted_phrase = f"<mark style='background-color: red;'>{phrase}</mark>"
+            highlighted_phrase = f"<mark style='backgzround-color: red;'>{phrase}</mark>"
             email_content = email_content.replace(phrase, highlighted_phrase)
             email_content_no_unwanted = email_content_no_unwanted.replace(phrase, "")
 
@@ -607,14 +607,14 @@ def text_pruner(
     def add_text(text):
         if text:
             unwanted_texts.add(text)
-            save_unwanted_texts(unwanted_texts_filepath, unwanted_texts)
+            save_unwanted_texts(UNWANTED_TEXTS_FILE, unwanted_texts)
             txt_add_unwanted.value = ""
             show_email(index[0])
 
     def remove_text(text):
         if text in unwanted_texts:
             unwanted_texts.remove(text)
-            save_unwanted_texts(unwanted_texts_filepath, unwanted_texts)
+            save_unwanted_texts(UNWANTED_TEXTS_FILE, unwanted_texts)
             txt_remove_unwanted.value = ""
             show_email(index[0])
 

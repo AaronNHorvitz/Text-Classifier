@@ -72,6 +72,7 @@ data.path.append("./topicminoer/data/nltk_data")
 # Utilities for progress tracking
 from tqdm import tqdm
 
+from ..config import RAW_DATA_DIR, UNWANTED_TEXTS_FILE
 
 def generate_email_text(
     email_date: str,
@@ -500,31 +501,31 @@ def read_text_file(file_path: str, word_wrap_limit=100) -> list:
     return text_file_contents
 
 
-def verify_and_make_unwanted_texts_filepath(unwanted_texts_filepath: str = None):
-    if unwanted_texts_filepath is None:
-        src_path = os.path.dirname(os.getcwd())
-        unwanted_texts_filepath = os.path.join(src_path, 'data/unwanted_texts/unwanted_texts.json')
+# def verify_and_make_unwanted_texts_filepath(unwanted_texts_filepath: str = None):
+#     if unwanted_texts_filepath is None:
+#         src_path = os.path.dirname(os.getcwd())
+#         unwanted_texts_filepath = os.path.join(src_path, 'data/unwanted_texts/unwanted_texts.json')
     
-    os.makedirs(os.path.dirname(unwanted_texts_filepath), exist_ok=True)
-    if not os.path.exists(unwanted_texts_filepath):
-        print("JSON file does not exist. Creating an empty file with the correct structure.")
-        with open(unwanted_texts_filepath, "w") as file:
-            json.dump({"unwanted_texts": []}, file)  # Proper initialization
+#     os.makedirs(os.path.dirname(unwanted_texts_filepath), exist_ok=True)
+#     if not os.path.exists(unwanted_texts_filepath):
+#         print("JSON file does not exist. Creating an empty file with the correct structure.")
+#         with open(unwanted_texts_filepath, "w") as file:
+#             json.dump({"unwanted_texts": []}, file)  # Proper initialization
 
-    return unwanted_texts_filepath
+#     return unwanted_texts_filepath
 
     
-def load_unwanted_email_text(unwanted_texts_filepath: str = None):
-    unwanted_texts_filepath = verify_and_make_unwanted_texts_filepath(unwanted_texts_filepath)
-    print(f"Loading from: {unwanted_texts_filepath}")  # Debugging the file path
+def load_unwanted_email_text():
+
+    print(f"Loading from: {UNWANTED_TEXTS_FILE}")  # Debugging the file path
     try:
-        with open(unwanted_texts_filepath, 'r') as file:
+        with open(UNWANTED_TEXTS_FILE, 'r') as file:
             data = json.load(file)
             print(data)  # Print the data to verify its structure
         if "unwanted_texts" in data:
             return set(data["unwanted_texts"])
         else:
-            raise ValueError(f"JSON file at {unwanted_texts_filepath} is missing the 'unwanted_texts' key.")
+            raise ValueError(f"JSON file at {UNWANTED_TEXTS_FILE} is missing the 'unwanted_texts' key.")
     except (FileNotFoundError, json.JSONDecodeError) as e:
         print(f"Error reading JSON file: {e}")
         return set()

@@ -33,7 +33,8 @@ TopicMiner/
 │	│   └── widgets.py
 │  │
 │  └── config/
-│      └── __init__.py
+│      ├── __init__.py
+│	    └── config.py
 │
 ├── tests/
 │   ├── __init__.py
@@ -52,6 +53,8 @@ TopicMiner/
 │   └── processed_data/
 │
 ├── notebooks/
+│   └── tutorials
+│        └── 001_tutorial_text_pruning_and_processing
 │
 ├── sandbox/
 │
