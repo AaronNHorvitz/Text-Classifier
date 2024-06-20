@@ -53,8 +53,7 @@ TopicMiner/
 │   └── processed_data/
 │
 ├── notebooks/
-│   └── tutorials
-│        └── 001_tutorial_text_pruning_and_processing
+│   └── 001_tutorial_text_pruning_and_processing
 │
 ├── sandbox/
 │

@@ -1,7 +1,7 @@
 import os
 
 # Absolute path to the directory containing the config.py file
-BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+BASE_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 
 # Path definitions for various resources
 DATA_DIR = os.path.join(BASE_DIR, 'data')
@@ -20,3 +20,4 @@ os.makedirs(LOG_DIR, exist_ok=True)
 
 # If needed, additional configurations such as database settings,
 # API keys, or environment-specific configurations can be added here
+
