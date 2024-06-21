@@ -74,7 +74,7 @@ data.path.append("./topicminoer/data/nltk_data")
 # Utilities for progress tracking
 from tqdm import tqdm
 
-from ..config import RAW_DATA_DIR, UNWANTED_TEXTS_FILE, PROCESSED_DATA_DIR
+from ..config import RAW_DATA_DIR, UNWANTED_TEXTS_FILE, PROCESSED_DATA_DIR_DATAFRAME
 
 def generate_email_text(
     email_date: str,
@@ -644,7 +644,7 @@ def clean_email_body_text(email_body: str, unwanted_texts: list) -> str:
 
 #######################################################################################################
 
-def process_emails_to_dataframe(save_df = True) -> pd.DataFrame:
+def process_emails_to_csv(save_df = True) -> pd.DataFrame:
 
     """
     Process all email .txt files in the specified directory, extracting and preprocessing relevant components,
@@ -730,5 +730,5 @@ def process_emails_to_dataframe(save_df = True) -> pd.DataFrame:
     )
     # Save to a dataframe if able to. 
     if save_df:
-        df_emails.to_csv(os.path.join(PROCESSED_DATA_DIR, 'df_emails.csv'))
+        df_emails.to_csv(os.path.join(PROCESSED_DATA_DIR_DATAFRAME, 'df_emails.csv'))
     return df_emails
