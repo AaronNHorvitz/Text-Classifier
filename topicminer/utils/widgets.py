@@ -486,43 +486,8 @@ def interactive_email_viewer_widget(
 
     
 def text_pruner() -> VBox:
-    """
-    Initialize an interactive text pruning interface for cleaning up email data from a specified directory.
 
-    The function loads a list of unwanted text phrases from a JSON file and provides an interactive Jupyter
-    widget interface. Users can navigate through text files, add or remove unwanted text phrases, and visually
-    compare the original, cleaned, and processed versions of each text file.
-
-    Parameters
-    ----------
-    data_path : str or os.PathLike
-        The path to the directory containing the text files to be processed.
-    unwanted_texts_filename : str, default 'unwanted_texts.json'
-        The filename of the JSON file containing a list of unwanted text phrases.
-
-    Returns
-    -------
-    VBox
-        An ipywidgets VBox object containing all interactive widgets for navigating and editing texts.
-
-    Examples
-    --------
-    >>> from pathlib import Path
-    >>> text_pruner_interface = text_pruner(Path("/path/to/email/directory"))
-    >>> display(text_pruner_interface)
-
-    Notes
-    -----
-    The unwanted texts are initially loaded from a JSON file but can be dynamically modified through the interface.
-    Each email text file should be UTF-8 encoded and have a '.txt' extension. The comparison and editing actions
-    are immediately updated in the interface to reflect any changes.
-    """
     unwanted_texts = load_unwanted_email_text()
-
-    # Establish data_path if none is provided
-    if data_path is None:
-        src_path = os.path.dirname(os.getcwd())
-        data_path = os.path.join(src_path, 'data/raw_data')
     
     files = sorted([f for f in os.listdir(RAW_DATA_DIR) if f.endswith(".txt")])
     index = [0]

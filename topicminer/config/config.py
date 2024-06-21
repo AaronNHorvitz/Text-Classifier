@@ -1,7 +1,7 @@
 import os
 
-# Absolute path to the directory containing the config.py file
-BASE_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
+# Absolute path to the root of the project (one level up from the directory containing the config.py file)
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 
 # Path definitions for various resources
 DATA_DIR = os.path.join(BASE_DIR, 'data')
@@ -17,7 +17,4 @@ LOG_FILE = os.path.join(LOG_DIR, 'topicminer.log')
 os.makedirs(RAW_DATA_DIR, exist_ok=True)
 os.makedirs(PROCESSED_DATA_DIR, exist_ok=True)
 os.makedirs(LOG_DIR, exist_ok=True)
-
-# If needed, additional configurations such as database settings,
-# API keys, or environment-specific configurations can be added here
 

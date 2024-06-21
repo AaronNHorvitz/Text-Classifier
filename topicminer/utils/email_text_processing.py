@@ -544,7 +544,7 @@ def save_unwanted_texts(unwanted_texts_filepath, texts):
 
 def preprocess_text(
         text: str,
-        unwanted_text_filepath="topicminer/data/unwanted_texts.json",
+        unwanted_text_filepath=UNWANTED_TEXTS_FILE,
         ) -> str:
     """
     Cleans and standardizes text by performing several preprocessing steps. This includes
@@ -564,7 +564,7 @@ def preprocess_text(
         The cleaned and processed text as a single string, with words normalized to their base form and separated by spaces.
     """
     # Load the list of unwanted texts from the specified JSON file
-    unwanted_texts = load_unwanted_email_text(unwanted_text_filepath)
+    unwanted_texts = load_unwanted_email_text()
 
     # Remove unwanted phrases from text and remove unwanted white spaces and symbols
     text = clean_email_body_text(text, unwanted_texts)
