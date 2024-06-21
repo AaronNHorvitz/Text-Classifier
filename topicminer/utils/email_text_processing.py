@@ -56,6 +56,7 @@ import os
 import re
 import json
 import textwrap
+import logging
 from datetime import datetime
 
 # Data processing and mathematical operations
@@ -788,55 +789,93 @@ def append_to_json(data):
 
     Parameters
     ----------
-    data : list
+    data : list 
         List of dictionaries, each dictionary containing data from one email.
     """
-    file_path = os.path.join(PROCESSED_DATA_DIR_JSON, "processed_emails.json")
+    file_path = os.path.join(PROCESSED_DATA_DIR_JSON, 'processed_emails.json')
+    try:
+        with open(file_path, 'a') as file:
+            for item in data:
+                json.dump(item, file)
+                file.write('\n')
+        logging.info(f'Successfully appended {len(data)} records to {file_path}')
+    except Exception as e:
+        logging.error(f'Failed to append data to {file_path}: {e}')
 
-    with open(file_path, "a") as file:
-        for item in data:
-            json.dump(item, file)
-            file.write("\n")
-
-
+    
 def process_emails_to_json(chunk_size: int = 100):
     """
-    Processes emails from text files and appends them to a JSON file in chunks.
+    Processes emails from text files stored in a specified directory, extracts relevant data, 
+    and serializes them into JSON format in chunks. Each processed email's data is appended 
+    to a JSON file. If the file does not exist, it is created. 
 
     Parameters
     ----------
     chunk_size : int, optional
-        Number of emails to process per chunk (default is 100).
+        Number of email files to process before appending their data as a batch to the JSON file.
+        The default value is 100, which helps manage memory usage and ensures data is not lost
+        in case of a failure, by periodically saving it.
+
+    Processes
+    ---------
+    1. Iterates over every text file in a predefined directory that stores raw email data.
+    2. Reads and parses each file to extract email metadata and body.
+    3. Processes the email body to clean and prepare text for further analysis or machine learning modeling.
+    4. Constructs a dictionary for each email with all relevant data fields.
+    5. Accumulates processed emails into a list.
+    6. Appends the accumulated list to a JSON file every `chunk_size` emails or after the last email is processed.
+       This step involves checking if the JSON file exists, creating it if it doesn't, or appending to it if it does.
+    7. Logs each step's success or failure, including any file-specific errors, which aids in debugging and maintenance.
+
+    Outputs
+    -------
+    None directly returned by the function, but data is written to a JSON file in the specified directory.
+    This function is typically used when batch processing is required, and direct interaction or immediate
+    response from the function is not necessary.
+
+    Example
+    -------
+    >>> process_emails_to_json(chunk_size=100)  # Process and append every 100 emails to the JSON file.
+
+    Notes
+    -----
+    - This function is designed to be run as part of a larger batch processing or ETL pipeline.
+    - It uses global path configurations from a config file to manage directory paths and logging.
+    - Proper error handling and logging are implemented to ensure any issues during processing are recorded,
+      making it easier to monitor and troubleshoot.
     """
-    files = [f for f in os.listdir(RAW_DATA_DIR) if f.endswith(".txt")]
+    files = [f for f in os.listdir(RAW_DATA_DIR) if f.endswith('.txt')]
     email_data = []
 
     for i, filename in enumerate(tqdm(files), 1):
-        file_path = os.path.join(RAW_DATA_DIR, filename)
+        try:
+            file_path = os.path.join(RAW_DATA_DIR, filename)
+            file_contents = read_text_file(file_path)
+            email_parts = parse_top_email_from_chain(file_contents)
+            processed_text = preprocess_text(email_parts['email_body'])
+            
+            email_data.append(
+                {
+                    "doc_id": filename.strip(".txt"),
+                    "date": email_parts["date"],
+                    "time": email_parts["time"],
+                    "day_of_week": email_parts["day_of_week"],
+                    "email_recipient": email_parts["email_recipient"],
+                    "email_sender": email_parts["email_sender"],
+                    "email_cc": email_parts["email_cc"],
+                    "email_bcc": email_parts["email_bcc"],
+                    "email_subject": email_parts["email_subject"],
+                    "email_attachments": email_parts["email_attachments"],
+                    "email_categories": email_parts["email_categories"],
+                    "email_body": email_parts["email_body"],
+                    "processed_text": processed_text,
+                    "file_path": file_path,
+                }
+            )
 
-        file_contents = read_text_file(file_path)
-        email_parts = parse_top_email_from_chain(file_contents)
-        processed_text = preprocess_text(email_parts["email_body"])
+            if i % chunk_size == 0 or i == len(files):
+                append_to_json(email_data)
+                email_data = []  # Clear the list after saving to JSON
 
-        email_data.append(
-            {
-                "doc_id": filename.strip(".txt"),
-                "date": email_parts["date"],
-                "time": email_parts["time"],
-                "day_of_week": email_parts["day_of_week"],
-                "email_recipient": email_parts["email_recipient"],
-                "email_sender": email_parts["email_sender"],
-                "email_cc": email_parts["email_cc"],
-                "email_bcc": email_parts["email_bcc"],
-                "email_subject": email_parts["email_subject"],
-                "email_attachments": email_parts["email_attachments"],
-                "email_categories": email_parts["email_categories"],
-                "email_body": email_parts["email_body"],
-                "processed_text": processed_text,
-                "file_path": file_path,
-            }
-        )
-
-        if i % chunk_size == 0 or i == len(files):
-            append_to_json(email_data)
-            email_data = []  # Clear the list after saving to JSON
+        except Exception as e:
+            logging.error(f'Error processing file {filename}: {e}')
