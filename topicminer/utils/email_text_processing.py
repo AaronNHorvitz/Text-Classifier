@@ -645,7 +645,7 @@ def clean_email_body_text(email_body: str, unwanted_texts: list) -> str:
 #######################################################################################################
 
 
-def process_emails_in_directory(save_df = True) -> pd.DataFrame:
+def process_emails_to_dataframe(save_df = True) -> pd.DataFrame:
     """
     Processes all email .txt files in the specified directory,
     extracting and preprocessing relevant components, and returns a DataFrame.
@@ -703,15 +703,8 @@ def process_emails_in_directory(save_df = True) -> pd.DataFrame:
         # Extract from_line, sent_line, subject_line, body
         file_contents = read_text_file(file_path)
         (
-            email_recipient,
-            email_sender,
-            email_cc,
-            email_bcc,
-            email_date,
-            email_subject,
-            email_attachments,
-            email_categories,
-            email_body,
+            email_recipient, email_sender, email_cc, email_bcc,email_date, 
+            email_subject, email_attachments, email_categories, email_body
         ) = parse_top_email_from_chain(file_contents)
 
         # Extract date, time, day_of_week from sent_line
@@ -726,20 +719,8 @@ def process_emails_in_directory(save_df = True) -> pd.DataFrame:
         # Append the extracted email components to a list
         email_data.append(
             [
-                doc_id,
-                date,
-                time,
-                day_of_week,
-                email_recipient,
-                email_sender,
-                email_cc,
-                email_bcc,
-                email_subject,
-                email_attachments,
-                email_categories,
-                email_body,
-                processed_text,
-                file_path,
+                doc_id, date,time, day_of_week, email_recipient, email_sender, email_cc, email_bcc,
+                email_subject, email_attachments, email_categories, email_body, processed_text, file_path
             ]
         )
 
@@ -747,23 +728,11 @@ def process_emails_in_directory(save_df = True) -> pd.DataFrame:
     df_emails = pd.DataFrame(
         email_data,
         columns=[
-            "doc_id",
-            "date",
-            "time",
-            "day_of_week",
-            "email_recipient",
-            "email_sender",
-            "email_cc",
-            "email_bcc",
-            "email_subject",
-            "email_attachments",
-            "email_categories",
-            "email_body",
-            "processed_text",
-            "file_path",
+            "doc_id", "date", "time", "day_of_week", "email_recipient", "email_sender", "email_cc", "email_bcc", 
+            "email_subject", "email_attachments", "email_categories", "email_body", "processed_text", "file_path"
         ],
     )
-
+    # Save to a dataframe if able to. 
     if save_df:
         df_emails.to_csv(os.path.join(PROCESSED_DATA_DIR, 'df_emails.csv'))
     return df_emails
