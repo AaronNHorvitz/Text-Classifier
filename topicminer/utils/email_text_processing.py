@@ -644,33 +644,24 @@ def clean_email_body_text(email_body: str, unwanted_texts: list) -> str:
 
 #######################################################################################################
 
-
 def process_emails_to_dataframe(save_df = True) -> pd.DataFrame:
+
     """
-    Processes all email .txt files in the specified directory,
-    extracting and preprocessing relevant components, and returns a DataFrame.
+    Process all email .txt files in the specified directory, extracting and preprocessing relevant components,
+    and optionally save the results to a DataFrame saved as a CSV file.
 
     Parameters
     ----------
-    data_path : str
-        Path to the directory containing email .txt files.
-    unwanted_text_file_path : str
-        Path to the JSON file containing unwanted text phrases that should be removed
-        during the preprocessing of emails.
+    save_df : bool, optional
+        Flag to determine whether to save the DataFrame to a CSV file, by default True.
 
     Returns
     -------
-    pandas.DataFrame
+    DataFrame
         A DataFrame containing the following columns: 'doc_id', 'date', 'time', 'day_of_week',
-        'to_line', 'from_line', 'subj_line', 'email_body', 'processed_text', and 'file_path'.
+        'email_recipient', 'email_sender', 'email_cc', 'email_bcc', 'email_subject',
+        'email_attachments', 'email_categories', 'email_body', 'processed_text', 'file_path'.
         Each row in the DataFrame represents an email with its respective details and processed text.
-
-    Examples
-    --------
-    >>> data_path = './data/emails/'
-    >>> unwanted_text_file_path = './data/unwanted_texts.json'
-    >>> emails_df = process_emails_in_directory(data_path, unwanted_text_file_path)
-    >>> print(emails_df.head())
 
     Notes
     -----
@@ -680,14 +671,19 @@ def process_emails_to_dataframe(save_df = True) -> pd.DataFrame:
     - Processes the email body by removing unwanted texts and applying text normalization and cleaning.
     - Collects all relevant information into a DataFrame for further analysis or processing.
 
-    The 'preprocess_text' function referenced in this code should handle the removal of unwanted texts,
-    tokenization, removal of stop words, and any other text normalization required.
+    Examples
+    --------
+    >>> emails_df = process_emails_to_dataframe()
+    >>> print(emails_df.head())
 
-    Ensure that the `data_path` and `unwanted_text_file_path` are correctly set to point to valid directories
-    and files on your system. The function uses `os.listdir` to iterate through the files, so make sure the
+    Ensure that the `RAW_DATA_DIR` and `PROCESSED_DATA_DIR` are correctly set to point to valid directories
+    on your system. The function uses `os.listdir` to iterate through the files, so make sure the
     path does not contain subdirectories with non-email files.
-    """
 
+    The 'preprocess_text' function referenced should handle the removal of unwanted texts, tokenization,
+    removal of stop words, and any other text normalization required.
+    """
+ 
     email_data = []
 
     # Loop through each file in the directory
