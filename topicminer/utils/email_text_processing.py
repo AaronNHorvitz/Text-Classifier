@@ -1,4 +1,4 @@
-#TODO: Update email processing functions to include Dask and batch processing for larger loads. 
+# TODO: Update email processing functions to include Dask and batch processing for larger loads.
 
 """
 -------------------------------------------------------------------------------
@@ -75,11 +75,12 @@ data.path.append("./topicminoer/data/nltk_data")
 from tqdm import tqdm
 
 from ..config import (
-    RAW_DATA_DIR, 
-    UNWANTED_TEXTS_FILE, 
-    PROCESSED_DATA_DIR_CSV, 
-    PROCESSED_DATA_DIR_JSON
-    ) 
+    RAW_DATA_DIR,
+    UNWANTED_TEXTS_FILE,
+    PROCESSED_DATA_DIR_CSV,
+    PROCESSED_DATA_DIR_JSON,
+)
+
 
 def generate_email_text(
     email_date: str,
@@ -150,7 +151,10 @@ Subject: {email_subject}
     """
     return email_str.strip()
 
-def add_unwanted_email_text(new_text: str, file_path: str = './data/unwanted_texts/unwanted_texts.json') -> None:
+
+def add_unwanted_email_text(
+    new_text: str, file_path: str = "./data/unwanted_texts/unwanted_texts.json"
+) -> None:
     """
     Adds a new unwanted text string to a JSON file. If the file does not exist, this function
     creates a new one with the given text. It also ensures that duplicates are not added.
@@ -191,7 +195,9 @@ def add_unwanted_email_text(new_text: str, file_path: str = './data/unwanted_tex
     print("Text added successfully.")
 
 
-def delete_unwanted_email_text(text_to_delete: str, file_path: str = './data/unwanted_texts/unwanted_texts.json') -> None:
+def delete_unwanted_email_text(
+    text_to_delete: str, file_path: str = "./data/unwanted_texts/unwanted_texts.json"
+) -> None:
     """
     Deletes an unwanted text string from a JSON file. If the file does not exist or is empty,
     it notifies the user. It also handles the removal operation safely by checking the presence
@@ -234,7 +240,7 @@ def delete_unwanted_email_text(text_to_delete: str, file_path: str = './data/unw
         print("Text removed successfully.")
     else:
         print("Text not found in the file.")
-        
+
 
 def format_and_save_emails(df: pd.DataFrame, output_dir: str):
     """
@@ -350,6 +356,7 @@ def parse_top_email_from_chain(text_file_contents: list) -> tuple:
         email_body,
     )
 
+
 def read_text_file(file_path: str, word_wrap_limit=100) -> list:
     """
     Read a text file and return its contents as a list of lines, automatically handling encoding detection.
@@ -386,25 +393,28 @@ def read_text_file(file_path: str, word_wrap_limit=100) -> list:
 
     return text_file_contents
 
-    
+
 def load_unwanted_email_text():
 
     try:
-        with open(UNWANTED_TEXTS_FILE, 'r') as file:
+        with open(UNWANTED_TEXTS_FILE, "r") as file:
             data = json.load(file)
         if "unwanted_texts" in data:
             return set(data["unwanted_texts"])
         else:
-            raise ValueError(f"JSON file at {UNWANTED_TEXTS_FILE} is missing the 'unwanted_texts' key.")
+            raise ValueError(
+                f"JSON file at {UNWANTED_TEXTS_FILE} is missing the 'unwanted_texts' key."
+            )
     except (FileNotFoundError, json.JSONDecodeError) as e:
         print(f"Error reading JSON file: {e}")
         return set()
     except ValueError as ve:
         print(ve)
         return set()
-    
+
+
 def save_unwanted_texts(unwanted_texts_filepath, texts):
-    """ Save the unwanted texts to a JSON file, ensuring data is converted from a set to a list. """
+    """Save the unwanted texts to a JSON file, ensuring data is converted from a set to a list."""
     try:
         with open(unwanted_texts_filepath, "w") as file:
             json.dump({"unwanted_texts": list(texts)}, file)
@@ -412,10 +422,11 @@ def save_unwanted_texts(unwanted_texts_filepath, texts):
     except Exception as e:
         print(f"Error saving texts: {e}")
 
+
 def preprocess_text(
-        text: str,
-        unwanted_text_filepath=UNWANTED_TEXTS_FILE,
-        ) -> str:
+    text: str,
+    unwanted_text_filepath=UNWANTED_TEXTS_FILE,
+) -> str:
     """
     Cleans and standardizes text by performing several preprocessing steps. This includes
     converting text to lowercase, removing specified unwanted phrases loaded from a JSON file,
@@ -452,7 +463,7 @@ def preprocess_text(
         if word.isalpha() and word not in stop_words and len(word) > 1
     ]
 
-    # Initialize the NLTK lemmatizer and lemmatize the words. 
+    # Initialize the NLTK lemmatizer and lemmatize the words.
     lemmatizer = WordNetLemmatizer()
     tokens = [lemmatizer.lemmatize(word) for word in tokens]
 
@@ -460,8 +471,6 @@ def preprocess_text(
     preprocessed_text = " ".join(tokens)
 
     return preprocessed_text.lower()
-
-
 
 
 def view_file(text_file_path):
@@ -503,7 +512,7 @@ def view_file(text_file_path):
     # Read and print file
     with open(text_file_path, "r", encoding=encoding) as file:
         return file.read()
-    
+
 
 def convert_date_format(date_str: str) -> str:
     """
@@ -546,6 +555,7 @@ def convert_date_format(date_str: str) -> str:
     new_date_str = date_obj.strftime("%B %d, %Y")
 
     return new_date_str
+
 
 def parse_date_day_time(date_str):
     """
@@ -615,6 +625,7 @@ def parse_date_day_time(date_str):
 
     return date, time, day_of_week
 
+
 def clean_email_body_text(email_body: str, unwanted_texts: list) -> str:
     """
     Cleans the email body by selectively removing unwanted text phrases and preserving essential formatting.
@@ -635,18 +646,20 @@ def clean_email_body_text(email_body: str, unwanted_texts: list) -> str:
     # Case insensitive removal of each unwanted phrase from the email body
     cleaned_body = email_body
     for unwanted_text in unwanted_texts:
-        cleaned_body = re.sub(re.escape(unwanted_text), '', cleaned_body, flags=re.IGNORECASE)
+        cleaned_body = re.sub(
+            re.escape(unwanted_text), "", cleaned_body, flags=re.IGNORECASE
+        )
 
     # Replace multiple whitespace characters with a single space and preserve line breaks
-    cleaned_body = re.sub(r'[^\S]+', ' ', cleaned_body)
+    cleaned_body = re.sub(r"[^\S]+", " ", cleaned_body)
 
     # Trim spaces at the beginning and end of each line
-    cleaned_body = re.sub(r'(?m)^\s+|\s+$', '', cleaned_body)
+    cleaned_body = re.sub(r"(?m)^\s+|\s+$", "", cleaned_body)
 
     return cleaned_body
 
-def process_emails_to_csv(save_df = True, return_df = True) -> pd.DataFrame:
 
+def process_emails_to_csv(save_df=True, return_df=True) -> pd.DataFrame:
     """
     Process all email .txt files in the specified directory, extracting and preprocessing relevant components,
     and optionally save the results to a DataFrame saved as a CSV file.
@@ -684,7 +697,7 @@ def process_emails_to_csv(save_df = True, return_df = True) -> pd.DataFrame:
     The 'preprocess_text' function referenced should handle the removal of unwanted texts, tokenization,
     removal of stop words, and any other text normalization required.
     """
- 
+
     email_data = []
 
     # Loop through each file in the directory
@@ -700,8 +713,15 @@ def process_emails_to_csv(save_df = True, return_df = True) -> pd.DataFrame:
         # Extract from_line, sent_line, subject_line, body
         file_contents = read_text_file(file_path)
         (
-            email_recipient, email_sender, email_cc, email_bcc,email_date, 
-            email_subject, email_attachments, email_categories, email_body
+            email_recipient,
+            email_sender,
+            email_cc,
+            email_bcc,
+            email_date,
+            email_subject,
+            email_attachments,
+            email_categories,
+            email_body,
         ) = parse_top_email_from_chain(file_contents)
 
         # Extract date, time, day_of_week from sent_line
@@ -716,8 +736,20 @@ def process_emails_to_csv(save_df = True, return_df = True) -> pd.DataFrame:
         # Append the extracted email components to a list
         email_data.append(
             [
-                doc_id, date,time, day_of_week, email_recipient, email_sender, email_cc, email_bcc,
-                email_subject, email_attachments, email_categories, email_body, processed_text, file_path
+                doc_id,
+                date,
+                time,
+                day_of_week,
+                email_recipient,
+                email_sender,
+                email_cc,
+                email_bcc,
+                email_subject,
+                email_attachments,
+                email_categories,
+                email_body,
+                processed_text,
+                file_path,
             ]
         )
 
@@ -725,15 +757,27 @@ def process_emails_to_csv(save_df = True, return_df = True) -> pd.DataFrame:
     df_emails = pd.DataFrame(
         email_data,
         columns=[
-            "doc_id", "date", "time", "day_of_week", "email_recipient", "email_sender", "email_cc", "email_bcc", 
-            "email_subject", "email_attachments", "email_categories", "email_body", "processed_text", "file_path"
+            "doc_id",
+            "date",
+            "time",
+            "day_of_week",
+            "email_recipient",
+            "email_sender",
+            "email_cc",
+            "email_bcc",
+            "email_subject",
+            "email_attachments",
+            "email_categories",
+            "email_body",
+            "processed_text",
+            "file_path",
         ],
     )
-    # Save to a dataframe if true. 
+    # Save to a dataframe if true.
     if save_df:
-        df_emails.to_csv(os.path.join(PROCESSED_DATA_DIR_CSV, 'processed_emails.csv'))
-    
-    # Return a datfarme true. 
+        df_emails.to_csv(os.path.join(PROCESSED_DATA_DIR_CSV, "processed_emails.csv"))
+
+    # Return a datfarme true.
     if return_df:
         return df_emails
 
@@ -747,12 +791,13 @@ def append_to_json(data):
     data : list
         List of dictionaries, each dictionary containing data from one email.
     """
-    file_path = os.path.join(PROCESSED_DATA_DIR_JSON, 'processed_emails.json')
+    file_path = os.path.join(PROCESSED_DATA_DIR_JSON, "processed_emails.json")
 
-    with open(file_path, 'a') as file:
+    with open(file_path, "a") as file:
         for item in data:
             json.dump(item, file)
-            file.write('\n')
+            file.write("\n")
+
 
 def process_emails_to_json(chunk_size: int = 100):
     """
@@ -763,7 +808,7 @@ def process_emails_to_json(chunk_size: int = 100):
     chunk_size : int, optional
         Number of emails to process per chunk (default is 100).
     """
-    files = [f for f in os.listdir(RAW_DATA_DIR) if f.endswith('.txt')]
+    files = [f for f in os.listdir(RAW_DATA_DIR) if f.endswith(".txt")]
     email_data = []
 
     for i, filename in enumerate(tqdm(files), 1):
@@ -771,24 +816,26 @@ def process_emails_to_json(chunk_size: int = 100):
 
         file_contents = read_text_file(file_path)
         email_parts = parse_top_email_from_chain(file_contents)
-        processed_text = preprocess_text(email_parts['email_body'])
+        processed_text = preprocess_text(email_parts["email_body"])
 
-        email_data.append({
-            "doc_id": filename.strip(".txt"),
-            "date": email_parts['date'],
-            "time": email_parts['time'],
-            "day_of_week": email_parts['day_of_week'],
-            "email_recipient": email_parts['email_recipient'],
-            "email_sender": email_parts['email_sender'],
-            "email_cc": email_parts['email_cc'],
-            "email_bcc": email_parts['email_bcc'],
-            "email_subject": email_parts['email_subject'],
-            "email_attachments": email_parts['email_attachments'],
-            "email_categories": email_parts['email_categories'],
-            "email_body": email_parts['email_body'],
-            "processed_text": processed_text,
-            "file_path": file_path
-        })
+        email_data.append(
+            {
+                "doc_id": filename.strip(".txt"),
+                "date": email_parts["date"],
+                "time": email_parts["time"],
+                "day_of_week": email_parts["day_of_week"],
+                "email_recipient": email_parts["email_recipient"],
+                "email_sender": email_parts["email_sender"],
+                "email_cc": email_parts["email_cc"],
+                "email_bcc": email_parts["email_bcc"],
+                "email_subject": email_parts["email_subject"],
+                "email_attachments": email_parts["email_attachments"],
+                "email_categories": email_parts["email_categories"],
+                "email_body": email_parts["email_body"],
+                "processed_text": processed_text,
+                "file_path": file_path,
+            }
+        )
 
         if i % chunk_size == 0 or i == len(files):
             append_to_json(email_data)
