@@ -3,7 +3,7 @@
 # 
 # 
 #  
-"""
+""" 
 -------------------------------------------------------------------------------
 File: widgets.py
 Author: Aaron Noah Horvitz
@@ -506,7 +506,6 @@ def text_pruner() -> VBox:
         lbl_position.value = f"Document {index[0] + 1} of {len(files)}"
             
     def show_email(idx):
-        print("show_email called for index:", idx)  # Debug statement to see how often this is called
         output.clear_output(wait=True)  # Using wait=True to clear output just before displaying new content
         file_path = os.path.join(RAW_DATA_DIR, files[idx])
         with open(file_path, "r", encoding="utf-8") as file:

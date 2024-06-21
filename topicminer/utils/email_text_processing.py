@@ -1,3 +1,5 @@
+#TODO: Update email processing functions to include Dask and batch processing for larger loads. 
+
 """
 -------------------------------------------------------------------------------
 File: email_processing.py
@@ -343,127 +345,6 @@ def parse_top_email_from_chain(text_file_contents: list) -> tuple:
         email_body,
     )
 
-def process_emails_in_directory(data_path: str) -> pd.DataFrame:
-    """
-    Processes all email .txt files in the specified directory,
-    extracting and preprocessing relevant components, and returns a DataFrame.
-
-    Parameters
-    ----------
-    data_path : str
-        Path to the directory containing email .txt files.
-    unwanted_text_file_path : str
-        Path to the JSON file containing unwanted text phrases that should be removed
-        during the preprocessing of emails.
-
-    Returns
-    -------
-    pandas.DataFrame
-        A DataFrame containing the following columns: 'doc_id', 'date', 'time', 'day_of_week',
-        'to_line', 'from_line', 'subj_line', 'email_body', 'processed_text', and 'file_path'.
-        Each row in the DataFrame represents an email with its respective details and processed text.
-
-    Examples
-    --------
-    >>> data_path = './data/emails/'
-    >>> unwanted_text_file_path = './data/unwanted_texts.json'
-    >>> emails_df = process_emails_in_directory(data_path, unwanted_text_file_path)
-    >>> print(emails_df.head())
-
-    Notes
-    -----
-    This function loops through each .txt file in the specified directory and performs the following:
-    - Reads the content of the file.
-    - Parses the email components such as recipient, sender, date, subject, and body.
-    - Processes the email body by removing unwanted texts and applying text normalization and cleaning.
-    - Collects all relevant information into a DataFrame for further analysis or processing.
-
-    The 'preprocess_text' function referenced in this code should handle the removal of unwanted texts,
-    tokenization, removal of stop words, and any other text normalization required.
-
-    Ensure that the `data_path` and `unwanted_text_file_path` are correctly set to point to valid directories
-    and files on your system. The function uses `os.listdir` to iterate through the files, so make sure the
-    path does not contain subdirectories with non-email files.
-    """
-
-    email_data = []
-
-    # Loop through each file in the directory
-    for filename in tqdm(os.listdir(data_path)):
-
-        # Construct a file path to each .txt file in the data directory
-        file_path = os.path.join(data_path, filename)
-
-        # Ensure the file is a .txt file
-        if not file_path.endswith(".txt"):
-            continue
-
-        # Extract from_line, sent_line, subject_line, body
-        file_contents = read_text_file(file_path)
-        (
-            email_recipient,
-            email_sender,
-            email_cc,
-            email_bcc,
-            email_date,
-            email_subject,
-            email_attachments,
-            email_categories,
-            email_body,
-        ) = parse_top_email_from_chain(file_contents)
-
-        # Extract date, time, day_of_week from sent_line
-        date, time, day_of_week = parse_date_day_time(date_str=email_date)
-
-        # Recreate Document ID
-        doc_id = filename.strip(".txt")
-
-        # Apply the preprocessing function to the 'Email Text' column
-        processed_text = preprocess_text(email_body)
-
-        # Append the extracted email components to a list
-        email_data.append(
-            [
-                doc_id,
-                date,
-                time,
-                day_of_week,
-                email_recipient,
-                email_sender,
-                email_cc,
-                email_bcc,
-                email_subject,
-                email_attachments,
-                email_categories,
-                email_body,
-                processed_text,
-                file_path,
-            ]
-        )
-
-    # Create a DataFrame
-    df_emails = pd.DataFrame(
-        email_data,
-        columns=[
-            "doc_id",
-            "date",
-            "time",
-            "day_of_week",
-            "email_recipient",
-            "email_sender",
-            "email_cc",
-            "email_bcc",
-            "email_subject",
-            "email_attachments",
-            "email_categories",
-            "email_body",
-            "processed_text",
-            "file_path",
-        ],
-    )
-    return df_emails
-
-
 def read_text_file(file_path: str, word_wrap_limit=100) -> list:
     """
     Read a text file and return its contents as a list of lines, automatically handling encoding detection.
@@ -500,28 +381,12 @@ def read_text_file(file_path: str, word_wrap_limit=100) -> list:
 
     return text_file_contents
 
-
-# def verify_and_make_unwanted_texts_filepath(unwanted_texts_filepath: str = None):
-#     if unwanted_texts_filepath is None:
-#         src_path = os.path.dirname(os.getcwd())
-#         unwanted_texts_filepath = os.path.join(src_path, 'data/unwanted_texts/unwanted_texts.json')
-    
-#     os.makedirs(os.path.dirname(unwanted_texts_filepath), exist_ok=True)
-#     if not os.path.exists(unwanted_texts_filepath):
-#         print("JSON file does not exist. Creating an empty file with the correct structure.")
-#         with open(unwanted_texts_filepath, "w") as file:
-#             json.dump({"unwanted_texts": []}, file)  # Proper initialization
-
-#     return unwanted_texts_filepath
-
     
 def load_unwanted_email_text():
 
-    print(f"Loading from: {UNWANTED_TEXTS_FILE}")  # Debugging the file path
     try:
         with open(UNWANTED_TEXTS_FILE, 'r') as file:
             data = json.load(file)
-            print(data)  # Print the data to verify its structure
         if "unwanted_texts" in data:
             return set(data["unwanted_texts"])
         else:
@@ -777,6 +642,125 @@ def clean_email_body_text(email_body: str, unwanted_texts: list) -> str:
 
 
 
+#######################################################################################################
 
 
+def process_emails_in_directory() -> pd.DataFrame:
+    """
+    Processes all email .txt files in the specified directory,
+    extracting and preprocessing relevant components, and returns a DataFrame.
 
+    Parameters
+    ----------
+    data_path : str
+        Path to the directory containing email .txt files.
+    unwanted_text_file_path : str
+        Path to the JSON file containing unwanted text phrases that should be removed
+        during the preprocessing of emails.
+
+    Returns
+    -------
+    pandas.DataFrame
+        A DataFrame containing the following columns: 'doc_id', 'date', 'time', 'day_of_week',
+        'to_line', 'from_line', 'subj_line', 'email_body', 'processed_text', and 'file_path'.
+        Each row in the DataFrame represents an email with its respective details and processed text.
+
+    Examples
+    --------
+    >>> data_path = './data/emails/'
+    >>> unwanted_text_file_path = './data/unwanted_texts.json'
+    >>> emails_df = process_emails_in_directory(data_path, unwanted_text_file_path)
+    >>> print(emails_df.head())
+
+    Notes
+    -----
+    This function loops through each .txt file in the specified directory and performs the following:
+    - Reads the content of the file.
+    - Parses the email components such as recipient, sender, date, subject, and body.
+    - Processes the email body by removing unwanted texts and applying text normalization and cleaning.
+    - Collects all relevant information into a DataFrame for further analysis or processing.
+
+    The 'preprocess_text' function referenced in this code should handle the removal of unwanted texts,
+    tokenization, removal of stop words, and any other text normalization required.
+
+    Ensure that the `data_path` and `unwanted_text_file_path` are correctly set to point to valid directories
+    and files on your system. The function uses `os.listdir` to iterate through the files, so make sure the
+    path does not contain subdirectories with non-email files.
+    """
+
+    email_data = []
+
+    # Loop through each file in the directory
+    for filename in tqdm(os.listdir(RAW_DATA_DIR)):
+
+        # Construct a file path to each .txt file in the data directory
+        file_path = os.path.join(RAW_DATA_DIR, filename)
+
+        # Ensure the file is a .txt file
+        if not file_path.endswith(".txt"):
+            continue
+
+        # Extract from_line, sent_line, subject_line, body
+        file_contents = read_text_file(file_path)
+        (
+            email_recipient,
+            email_sender,
+            email_cc,
+            email_bcc,
+            email_date,
+            email_subject,
+            email_attachments,
+            email_categories,
+            email_body,
+        ) = parse_top_email_from_chain(file_contents)
+
+        # Extract date, time, day_of_week from sent_line
+        date, time, day_of_week = parse_date_day_time(date_str=email_date)
+
+        # Recreate Document ID
+        doc_id = filename.strip(".txt")
+
+        # Apply the preprocessing function to the 'Email Text' column
+        processed_text = preprocess_text(email_body)
+
+        # Append the extracted email components to a list
+        email_data.append(
+            [
+                doc_id,
+                date,
+                time,
+                day_of_week,
+                email_recipient,
+                email_sender,
+                email_cc,
+                email_bcc,
+                email_subject,
+                email_attachments,
+                email_categories,
+                email_body,
+                processed_text,
+                file_path,
+            ]
+        )
+
+    # Create a DataFrame
+    df_emails = pd.DataFrame(
+        email_data,
+        columns=[
+            "doc_id",
+            "date",
+            "time",
+            "day_of_week",
+            "email_recipient",
+            "email_sender",
+            "email_cc",
+            "email_bcc",
+            "email_subject",
+            "email_attachments",
+            "email_categories",
+            "email_body",
+            "processed_text",
+            "file_path",
+        ],
+    )
+    return df_emails
