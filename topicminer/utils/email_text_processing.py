@@ -74,7 +74,12 @@ data.path.append("./topicminoer/data/nltk_data")
 # Utilities for progress tracking
 from tqdm import tqdm
 
-from ..config import RAW_DATA_DIR, UNWANTED_TEXTS_FILE, PROCESSED_DATA_DIR_DATAFRAME
+from ..config import (
+    RAW_DATA_DIR, 
+    UNWANTED_TEXTS_FILE, 
+    PROCESSED_DATA_DIR_CSV, 
+    PROCESSED_DATA_DIR_JSON
+    ) 
 
 def generate_email_text(
     email_date: str,
@@ -640,11 +645,7 @@ def clean_email_body_text(email_body: str, unwanted_texts: list) -> str:
 
     return cleaned_body
 
-
-
-#######################################################################################################
-
-def process_emails_to_csv(save_df = True) -> pd.DataFrame:
+def process_emails_to_csv(save_df = True, return_df = True) -> pd.DataFrame:
 
     """
     Process all email .txt files in the specified directory, extracting and preprocessing relevant components,
@@ -728,7 +729,67 @@ def process_emails_to_csv(save_df = True) -> pd.DataFrame:
             "email_subject", "email_attachments", "email_categories", "email_body", "processed_text", "file_path"
         ],
     )
-    # Save to a dataframe if able to. 
+    # Save to a dataframe if true. 
     if save_df:
-        df_emails.to_csv(os.path.join(PROCESSED_DATA_DIR_DATAFRAME, 'df_emails.csv'))
-    return df_emails
+        df_emails.to_csv(os.path.join(PROCESSED_DATA_DIR_CSV, 'processed_emails.csv'))
+    
+    # Return a datfarme true. 
+    if return_df:
+        return df_emails
+
+
+def append_to_json(data):
+    """
+    Appends data to a JSON file in a newline-delimited format, creating the file if it does not exist.
+
+    Parameters
+    ----------
+    data : list
+        List of dictionaries, each dictionary containing data from one email.
+    """
+    file_path = os.path.join(PROCESSED_DATA_DIR_JSON, 'processed_emails.json')
+
+    with open(file_path, 'a') as file:
+        for item in data:
+            json.dump(item, file)
+            file.write('\n')
+
+def process_emails_to_json(chunk_size: int = 100):
+    """
+    Processes emails from text files and appends them to a JSON file in chunks.
+
+    Parameters
+    ----------
+    chunk_size : int, optional
+        Number of emails to process per chunk (default is 100).
+    """
+    files = [f for f in os.listdir(RAW_DATA_DIR) if f.endswith('.txt')]
+    email_data = []
+
+    for i, filename in enumerate(tqdm(files), 1):
+        file_path = os.path.join(RAW_DATA_DIR, filename)
+
+        file_contents = read_text_file(file_path)
+        email_parts = parse_top_email_from_chain(file_contents)
+        processed_text = preprocess_text(email_parts['email_body'])
+
+        email_data.append({
+            "doc_id": filename.strip(".txt"),
+            "date": email_parts['date'],
+            "time": email_parts['time'],
+            "day_of_week": email_parts['day_of_week'],
+            "email_recipient": email_parts['email_recipient'],
+            "email_sender": email_parts['email_sender'],
+            "email_cc": email_parts['email_cc'],
+            "email_bcc": email_parts['email_bcc'],
+            "email_subject": email_parts['email_subject'],
+            "email_attachments": email_parts['email_attachments'],
+            "email_categories": email_parts['email_categories'],
+            "email_body": email_parts['email_body'],
+            "processed_text": processed_text,
+            "file_path": file_path
+        })
+
+        if i % chunk_size == 0 or i == len(files):
+            append_to_json(email_data)
+            email_data = []  # Clear the list after saving to JSON
