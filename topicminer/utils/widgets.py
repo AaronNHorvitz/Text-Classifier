@@ -1,5 +1,5 @@
 #TODO: resolve unwanted_texts_filepath function issue for import into current funcitons and widgets.py 
-# 
+#TODO: fix text_pruner so it doesn't show multiple emails.
 # 
 # 
 #  
@@ -504,9 +504,10 @@ def text_pruner() -> VBox:
 
     def update_labels():
         lbl_position.value = f"Document {index[0] + 1} of {len(files)}"
-
+            
     def show_email(idx):
-        output.clear_output()
+        print("show_email called for index:", idx)  # Debug statement to see how often this is called
+        output.clear_output(wait=True)  # Using wait=True to clear output just before displaying new content
         file_path = os.path.join(RAW_DATA_DIR, files[idx])
         with open(file_path, "r", encoding="utf-8") as file:
             email_content = file.read()
@@ -514,7 +515,7 @@ def text_pruner() -> VBox:
         # Process the email content to remove unwanted texts
         email_content_no_unwanted = email_content
         for phrase in unwanted_texts:
-            highlighted_phrase = f"<mark style='backgzround-color: red;'>{phrase}</mark>"
+            highlighted_phrase = f"<mark style='background-color: red;'>{phrase}</mark>"  # Corrected typo 'backgzround-color'
             email_content = email_content.replace(phrase, highlighted_phrase)
             email_content_no_unwanted = email_content_no_unwanted.replace(phrase, "")
 
@@ -557,6 +558,9 @@ def text_pruner() -> VBox:
                 )
             )
         update_labels()
+
+    # Initialize the view
+    show_email(index[0])
 
     btn_prev.on_click(lambda b: navigate(-1))
     btn_next.on_click(lambda b: navigate(1))
