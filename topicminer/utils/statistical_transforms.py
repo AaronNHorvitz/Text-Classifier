@@ -1,4 +1,5 @@
-# text_transformations.py
+
+#topicminer/utils/statistical_transformation.py
 
 import pandas as pd
 from typing import Tuple, List
@@ -6,6 +7,15 @@ from typing import Tuple, List
 # Machine Learning and topic modeling
 from gensim.corpora import Dictionary
 from gensim.models import TfidfModel
+from topicminer.utils.email_text_processing import read_json_to_dataframe
+
+# Local configuration and settings
+from ..config import (
+    PROCESSED_TEXT_COL, 
+    TOKEN_FILTER_NO_BELOW, 
+    TOKEN_FILTER_NO_ABOVE
+    )
+
 
 def create_tfidf_corpus(corpus):
     """
@@ -28,27 +38,11 @@ def create_tfidf_corpus(corpus):
     corpus_tfidf = tfidf_model[corpus]  
     return corpus_tfidf
 
-
-def prepare_corpus_and_dictionary(
-    emails_df: pd.DataFrame,
-    processed_text_col: str = "processed_text",
-    no_below: int = 5,  # Good starting point for moderate-sized corpora
-    no_above: float = 0.5,  # Exclude words appearing in more than 50% of the documents
-) -> Tuple[Dictionary, List[List[Tuple[int, int]]]]:
+Is it inneficient to bring in the entire dataframe? Or should I bring in the processed text columm only?
+def prepare_corpus_and_dictionary() -> Tuple[Dictionary, List[List[Tuple[int, int]]]]:
     """
     Prepares a dictionary and corpus from the provided DataFrame column for use in topic modeling,
     with options to filter tokens by document frequency.
-
-    Parameters
-    ----------
-    emails_df : pd.DataFrame
-        DataFrame containing the emails.
-    processed_text_col : str
-        Column name in `emails_df` which contains preprocessed text for topic modeling.
-    no_below : int
-        Minimum number of documents a token must appear in to be kept.
-    no_above : float
-        Maximum proportion of documents a token can appear in to be kept.
 
     Returns
     -------
@@ -62,17 +56,20 @@ def prepare_corpus_and_dictionary(
     ValueError
         If `processed_text_col` is not a column in `emails_df`.
     """
-    if processed_text_col not in emails_df.columns:
+
+    emails_df = read_json_to_dataframe()
+
+    if PROCESSED_TEXT_COL not in emails_df.columns:
         raise ValueError(
-            f"Column {processed_text_col} does not exist in the DataFrame."
+            f"Column {PROCESSED_TEXT_COL} does not exist in the DataFrame. Please change the reference in the config.py file."
         )
 
-    # Prepare texts and document IDs
-    texts = [doc.split() for doc in emails_df[processed_text_col]]
+    # Prepare texts
+    texts = [doc.split() for doc in emails_df[PROCESSED_TEXT_COL]]
 
     # Create a Gensim Dictionary object
     dictionary = Dictionary(texts)
-    dictionary.filter_extremes(no_below=no_below, no_above=no_above)
+    dictionary.filter_extremes(no_below=TOKEN_FILTER_NO_BELOW, no_above=TOKEN_FILTER_NO_ABOVE)
 
     # Create a bag-of-words corpus
     corpus = [dictionary.doc2bow(text) for text in texts]

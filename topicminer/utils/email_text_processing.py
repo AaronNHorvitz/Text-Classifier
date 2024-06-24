@@ -951,14 +951,14 @@ def read_emails_and_analyze():
     emails_with_multiple_recipients = (df_emails['recipient_count'] > 1).sum()
     print(f"Emails with Multiple Recipients: {emails_with_multiple_recipients}")
 
-def read_json_to_dataframe():
+def read_json_to_dataframe(columns=None):
     """
-    Reads a JSON file and converts it into a pandas DataFrame.
+    Reads a JSON file and converts it into a pandas DataFrame, loading only specified columns if provided.
 
     Parameters
     ----------
-    json_file_path : str
-        The file path to the JSON file to be read.
+    columns : list of str, optional
+        Specific columns to load from the JSON file.
 
     Returns
     -------
@@ -968,15 +968,17 @@ def read_json_to_dataframe():
 
     json_file_path = os.path.join(PROCESSED_DATA_DIR_JSON, "processed_emails.json")
 
-    # Ensure the file exists
     if not os.path.exists(json_file_path):
         raise FileNotFoundError(f"No file found at {json_file_path}")
 
-    # Load JSON data from the file
     with open(json_file_path, 'r') as file:
-        data = json.load(file)
+        if columns:
+            # Load only the necessary columns
+            data = json.load(file)
+            if isinstance(data, list):  # Assuming the JSON structure is a list of dicts
+                data = [{col: doc[col] for col in columns if col in doc} for doc in data]
+        else:
+            data = json.load(file)
 
-    # Convert data to DataFrame
     df = pd.DataFrame(data)
-
     return df

@@ -38,3 +38,7 @@ logging.getLogger('').addHandler(console_handler)
 
 # Default column name for processed text in the data
 PROCESSED_TEXT_COL = "processed_text"
+
+# Configuration for topic modeling filtering
+TOKEN_FILTER_NO_BELOW = 20  # Tokens must appear in at least this many documents
+TOKEN_FILTER_NO_ABOVE = 0.1  # Tokens must appear in no more than 10% of documents

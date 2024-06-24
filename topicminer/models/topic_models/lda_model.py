@@ -15,14 +15,12 @@ from topicminer.utils.statistical_transforms import create_tfidf_corpus, prepare
 
 
 def train_lda_model(
-    emails_df: pd.DataFrame,
-    processed_text_col: str = "processed_text",
     num_topics: int = 10,
     workers: int = 8,
     chunksize: int = 2000,
     passes: int = 1,
-    no_below: int = 5,
-    no_above: float = 0.5,
+    num_below: int = 5,
+    num_above: float = 0.5,
     use_tfidf: bool = True,
     batch: bool = False,
     alpha: str = "auto",
@@ -103,9 +101,7 @@ def train_lda_model(
         workers = 8
         print("The maximum number of workers allowed is 8. Setting workers to 8.")
 
-    dictionary, corpus = prepare_corpus_and_dictionary(
-        emails_df, processed_text_col, no_below, no_above
-    )
+    dictionary, corpus = prepare_corpus_and_dictionary(num_below, num_above)
 
     if use_tfidf:
         corpus = create_tfidf_corpus(corpus)
