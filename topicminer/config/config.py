@@ -3,17 +3,15 @@ import logging
 
 # Absolute path to the root of the project (one level up from the directory containing the config.py file)
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
-LOG_DIR = os.path.join(BASE_DIR, 'logs')
-LOG_FILE = os.path.join(LOG_DIR, 'topicminer.log')
 
 # Path definitions for various resources
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 RAW_DATA_DIR = os.path.join(DATA_DIR, 'raw_data')
 PROCESSED_DATA_DIR_CSV = os.path.join(DATA_DIR, 'processed_data', 'csv_format')
-PROCESSED_DATA_DIR_JSON = os.path.join(DATA_DIR, 'processed_data','json_format')
+PROCESSED_DATA_DIR_JSON = os.path.join(DATA_DIR, 'processed_data', 'json_format')
 UNWANTED_TEXTS_FILE = os.path.join(DATA_DIR, 'unwanted_texts', 'unwanted_texts.json')
 
-# Example configuration for logging
+# Logging configuration
 LOG_DIR = os.path.join(BASE_DIR, 'logs')
 LOG_FILE = os.path.join(LOG_DIR, 'topicminer.log')
 
@@ -37,3 +35,6 @@ console_handler.setLevel(logging.INFO)
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 console_handler.setFormatter(formatter)
 logging.getLogger('').addHandler(console_handler)
+
+# Default column name for processed text in the data
+PROCESSED_TEXT_COL = "processed_text"

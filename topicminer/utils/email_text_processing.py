@@ -79,6 +79,7 @@ from ..config import (
     UNWANTED_TEXTS_FILE,
     PROCESSED_DATA_DIR_CSV,
     PROCESSED_DATA_DIR_JSON,
+    PROCESSED_TEXT_COL,
 )
 
 # nltk.data.path.append('/projects/merc_text_analytics/nltk_data') # Add the path to the NLTK data directory if the data is not found in local
@@ -782,7 +783,7 @@ def process_emails_to_csv(save_df=True, return_df=True) -> pd.DataFrame:
             "email_attachments",
             "email_categories",
             "email_body",
-            "processed_text",
+            PROCESSED_TEXT_COL,
             "file_path",
         ],
     )
@@ -874,7 +875,7 @@ def process_emails_to_json(chunk_size: int = 100, analyze_emails=True):
             "email_attachments": email_parts[6],
             "email_categories": email_parts[7],
             "email_body": email_parts[8],
-            "processed_text": processed_text,
+            PROCESSED_TEXT_COL: processed_text,
             "file_path": file_path,
         }
 
