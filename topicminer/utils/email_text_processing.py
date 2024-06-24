@@ -49,28 +49,40 @@ To process emails in a directory and load their cleaned data into a DataFrame:
 -------------------------------------------------------------------------------
 """
 
-
 # Standard library imports
-import chardet
+import json
+import logging
 import os
 import re
-import json
-import textwrap
-import logging
+from collections import Counter
 from datetime import datetime
+from hashlib import sha256
+import chardet
+import textwrap
 
 # Data processing and mathematical operations
 import numpy as np
 import pandas as pd
 
 # Natural Language Processing (NLP) tools
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
-from nltk import data
 
-# data.path.append('/projects/merc_text_analytics/nltk_data') # Add the path to the NLTK data directory if the data is not found in local
-data.path.append("./topicminoer/data/nltk_data")
+# Utilities for progress tracking
+from tqdm import tqdm
+
+# Local configuration and settings
+from ..config import (
+    RAW_DATA_DIR,
+    UNWANTED_TEXTS_FILE,
+    PROCESSED_DATA_DIR_CSV,
+    PROCESSED_DATA_DIR_JSON,
+)
+
+# nltk.data.path.append('/projects/merc_text_analytics/nltk_data') # Add the path to the NLTK data directory if the data is not found in local
+nltk.data.path.append("./topicminoer/data/nltk_data")
 
 # Utilities for progress tracking
 from tqdm import tqdm
@@ -781,7 +793,33 @@ def process_emails_to_csv(save_df=True, return_df=True) -> pd.DataFrame:
     # Return a datfarme true.
     if return_df:
         return df_emails
+    
 
+
+
+def generate_doc_id(email_parts):
+    """
+    Generates a unique identifier for an email based on its content.
+    """
+    unique_string = f"{email_parts[0]}-{email_parts[1]}-{email_parts[4]}-{email_parts[5]}"
+    return sha256(unique_string.encode()).hexdigest()
+
+def load_existing_ids(file_path):
+    """
+    Loads existing document identifiers from a file.
+    """
+    if os.path.exists(file_path):
+        with open(file_path, "r") as file:
+            return set(json.load(file))
+    else:
+        return set()
+
+def save_doc_ids(ids, file_path):
+    """
+    Saves the set of document identifiers to a file.
+    """
+    with open(file_path, "w") as file:
+        json.dump(list(ids), file)
 
 def append_to_json(email_data, file_path):
     """
@@ -796,15 +834,19 @@ def append_to_json(email_data, file_path):
                 file.write(",\n")
                 json.dump(data, file, indent=4)
 
-
-def process_emails_to_json(chunk_size: int = 100):
+def process_emails_to_json(chunk_size: int = 100, analyze_emails=True):
     """
     Processes emails from text files stored in a specified directory, extracts relevant data,
-    and serializes them into JSON format in chunks.
+    and serializes them into JSON format in chunks. Avoids adding duplicates by maintaining a set
+    of unique email identifiers.
     """
     files = [f for f in os.listdir(RAW_DATA_DIR) if f.endswith(".txt")]
     email_data = []
     json_file_path = os.path.join(PROCESSED_DATA_DIR_JSON, "processed_emails.json")
+    ids_file_path = os.path.join(PROCESSED_DATA_DIR_JSON, "email_ids.json")
+    
+    existing_ids = load_existing_ids(ids_file_path)
+    new_ids = set()
 
     for i, filename in enumerate(tqdm(files), 1):
         file_path = os.path.join(RAW_DATA_DIR, filename)
@@ -813,18 +855,17 @@ def process_emails_to_json(chunk_size: int = 100):
 
         file_contents = read_text_file(file_path)
         email_parts = parse_top_email_from_chain(file_contents)
+        doc_id = generate_doc_id(email_parts)
 
-        # Assuming email_parts is a tuple in the order of:
-        # recipient, sender, cc, bcc, date, subject, attachments, categories, body
-        processed_text = preprocess_text(
-            email_parts[8]
-        )  # Accessing the body part directly
+        if doc_id in existing_ids:
+            continue
+
+        new_ids.add(doc_id)
+        processed_text = preprocess_text(email_parts[8])
 
         email_dict = {
-            "doc_id": filename.strip(".txt"),
-            "date": email_parts[4],  # Accessing the date part
-            "time": "",  # Placeholder if time needs to be extracted separately
-            "day_of_week": "",  # Placeholder if day needs to be extracted separately
+            "doc_id": doc_id,
+            "date": email_parts[4],
             "email_recipient": email_parts[0],
             "email_sender": email_parts[1],
             "email_cc": email_parts[2],
@@ -846,3 +887,95 @@ def process_emails_to_json(chunk_size: int = 100):
 
     if email_data:  # Ensure any remaining data is also saved
         append_to_json(email_data, json_file_path)
+
+    # Update the list of document IDs
+    existing_ids.update(new_ids)
+    save_doc_ids(existing_ids, ids_file_path)
+
+    # If analyze emails
+    if analyze_emails:
+        read_emails_and_analyze()
+    
+def read_emails_and_analyze():
+    """
+    Reads emails from a JSON file, converts to a DataFrame, computes and prints summary statistics.
+
+    Parameters
+    ----------
+    json_file_path : str
+        The file path to the JSON file containing the email data.
+    """
+
+    json_file_path = os.path.join(PROCESSED_DATA_DIR_JSON, "processed_emails.json")
+
+    # Load data
+    with open(json_file_path, 'r') as file:
+        emails = json.load(file)
+
+    # Convert to DataFrame
+    df_emails = pd.DataFrame(emails)
+
+    # Print basic statistics
+    print("Email Analysis Report:")
+    print("======================")
+    print(f"Total Emails: {len(df_emails)}")
+    print(f"Unique Senders: {df_emails['email_sender'].nunique()}")
+    print(f"Unique Recipients: {df_emails['email_recipient'].nunique()}")
+
+    # Category analysis
+    if 'email_categories' in df_emails.columns:
+        # Split categories into lists
+        df_emails['email_categories'] = df_emails['email_categories'].apply(lambda x: x.split(', ') if isinstance(x, str) else [])
+        all_categories = [cat for sublist in df_emails['email_categories'] for cat in sublist]
+        category_counts = Counter(all_categories)
+        print(f"Unique Categories: {len(category_counts)}")
+        print("Category Counts:")
+        for category, count in category_counts.items():
+            print(f"  {category}: {count}")
+
+        # Emails with more than one category
+        df_emails['category_count'] = df_emails['email_categories'].apply(len)
+        multi_cat_count = sum(df_emails['category_count'] > 1)
+        print(f"Emails with Multiple Categories: {multi_cat_count}")
+
+    # Attachment analysis
+    df_emails['attachment_count'] = df_emails['email_attachments'].apply(lambda x: 0 if x == 'No Attachments' else len(x.split(', ')))
+    emails_with_attachments = (df_emails['attachment_count'] > 0).sum()
+    emails_with_multiple_attachments = (df_emails['attachment_count'] > 1).sum()
+    print(f"Emails with Attachments: {emails_with_attachments}")
+    print(f"Emails with Multiple Attachments: {emails_with_multiple_attachments}")
+
+    # Recipient analysis
+    df_emails['recipient_count'] = df_emails['email_recipient'].apply(lambda x: len(x.split(', ')))
+    emails_with_multiple_recipients = (df_emails['recipient_count'] > 1).sum()
+    print(f"Emails with Multiple Recipients: {emails_with_multiple_recipients}")
+
+def read_json_to_dataframe():
+    """
+    Reads a JSON file and converts it into a pandas DataFrame.
+
+    Parameters
+    ----------
+    json_file_path : str
+        The file path to the JSON file to be read.
+
+    Returns
+    -------
+    df : pandas.DataFrame
+        DataFrame containing the data from the JSON file.
+    """
+
+    json_file_path = os.path.join(PROCESSED_DATA_DIR_JSON, "processed_emails.json")
+
+    # Ensure the file exists
+    if not os.path.exists(json_file_path):
+        raise FileNotFoundError(f"No file found at {json_file_path}")
+
+    # Load JSON data from the file
+    with open(json_file_path, 'r') as file:
+        data = json.load(file)
+
+    # Convert data to DataFrame
+    df = pd.DataFrame(data)
+
+    return df
