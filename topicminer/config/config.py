@@ -1,4 +1,3 @@
-This is how it's set up in the config.py file.
 import os
 import logging
 
