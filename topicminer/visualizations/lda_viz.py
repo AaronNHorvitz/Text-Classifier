@@ -29,14 +29,18 @@ utilities.
 
 # Standard library imports
 import pandas as pd
+import warnings 
 
 # Machine learning and topic modeling
+import pyLDAvis
+from IPython.display import display as ipydisplay
+from ipywidgets import Output
 import pyLDAvis.gensim_models as gensimvis
 from topicminer.utils import prepare_corpus_and_dictionary
 from gensim.models import LdaModel 
 
 
-def make_lda_viz( 
+def display_lda( 
         lda_model_tfidf,
         ):
     """
@@ -72,12 +76,14 @@ def make_lda_viz(
     # Prepare the dictionary and corpus from the DataFrame using the specified utility function
     dictionary, corpus = prepare_corpus_and_dictionary()
 
-    # Create pyLDAvis object for display
-    lda_visualization = gensimvis.prepare(
-        lda_model_tfidf, corpus, dictionary, sort_topics=False
-        )
+    # Suppress specific or all warnings within this context
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        lda_visualization = gensimvis.prepare(lda_model_tfidf, corpus, dictionary, sort_topics=False)
 
-    return lda_visualization
+    return pyLDAvis.display(lda_visualization)
+    #return lda_visualization
+
 
 def display_topic_words(lda_model: LdaModel, num_words: int = 10) -> pd.DataFrame:
     """

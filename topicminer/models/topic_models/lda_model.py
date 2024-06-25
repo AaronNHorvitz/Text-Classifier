@@ -9,6 +9,8 @@ from gensim.models import CoherenceModel, LdaMulticore
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 
+import warnings
+
 # Local application imports
 #from topicminer import create_tfidf_corpus, prepare_corpus_and_dictionary
 from topicminer.utils.statistical_transforms import create_tfidf_corpus, prepare_corpus_and_dictionary
@@ -87,40 +89,44 @@ def train_lda_model(
     --------
     >>> lda_model = train_lda_model(emails_df, 'processed_text', num_topics=5, passes=15, workers=4)
     """
-    if workers > 8:
-        workers = 8
-        print("The maximum number of workers allowed is 8. Setting workers to 8.")
+    # Suppress specific or all warnings within this context
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
 
-    dictionary, corpus = prepare_corpus_and_dictionary()
+        if workers > 8:
+            workers = 8
+            print("The maximum number of workers allowed is 8. Setting workers to 8.")
 
-    if use_tfidf:
-        corpus = create_tfidf_corpus(corpus)
+        dictionary, corpus = prepare_corpus_and_dictionary()
 
-    lda_model = LdaMulticore(
-        corpus=corpus,
-        num_topics=num_topics,
-        id2word=dictionary,
-        workers=workers,
-        chunksize=chunksize,
-        passes=passes,
-        batch=batch,
-        alpha=alpha,
-        eta=eta,
-        decay=decay,
-        offset=offset,
-        eval_every=eval_every,
-        iterations=iterations,
-        gamma_threshold=gamma_threshold,
-        random_state=random_state,
-        minimum_probability=minimum_probability,
-        minimum_phi_value=minimum_phi_value,
-        per_word_topics=per_word_topics,
-        dtype=dtype,
-    )
+        if use_tfidf:
+            corpus = create_tfidf_corpus(corpus)
 
-    if passes > 1:
-        for pass_idx in tqdm(range(1, passes), desc="Training LDA Model"):
-            lda_model.update(corpus)
+        lda_model = LdaMulticore(
+            corpus=corpus,
+            num_topics=num_topics,
+            id2word=dictionary,
+            workers=workers,
+            chunksize=chunksize,
+            passes=passes,
+            batch=batch,
+            alpha=alpha,
+            eta=eta,
+            decay=decay,
+            offset=offset,
+            eval_every=eval_every,
+            iterations=iterations,
+            gamma_threshold=gamma_threshold,
+            random_state=random_state,
+            minimum_probability=minimum_probability,
+            minimum_phi_value=minimum_phi_value,
+            per_word_topics=per_word_topics,
+            dtype=dtype,
+        )
+
+        if passes > 1:
+            for pass_idx in tqdm(range(1, passes), desc="Training LDA Model"):
+                lda_model.update(corpus)
 
     return lda_model
 
