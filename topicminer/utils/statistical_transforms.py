@@ -66,7 +66,6 @@ def prepare_corpus_and_dictionary() -> Tuple[Dictionary, List[List[Tuple[int, in
     # Prepare texts
     texts = [doc.split() for doc in emails_df[PROCESSED_TEXT_COL]]
 
-    print(texts)
     # Create a Gensim Dictionary object
     dictionary = Dictionary(texts)
     dictionary.filter_extremes(no_below=TOKEN_FILTER_NO_BELOW, no_above=TOKEN_FILTER_NO_ABOVE)

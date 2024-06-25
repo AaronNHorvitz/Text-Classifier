@@ -92,7 +92,7 @@ def train_lda_model(
         print("The maximum number of workers allowed is 8. Setting workers to 8.")
 
     dictionary, corpus = prepare_corpus_and_dictionary()
-    print(corpus)
+
     if use_tfidf:
         corpus = create_tfidf_corpus(corpus)
 
