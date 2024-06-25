@@ -298,6 +298,23 @@ def format_and_save_emails(df: pd.DataFrame, output_dir: str):
             file.write(email_text)
         print(f"Processed email document ID: {row['docID']}")
 
+def strip_top_email(email_text_file_contents):
+    """
+    Strips out the original email from an email chain.
+    """
+    # Regex to detect start of an old email in the chain, more robust to handle variations
+    #old_email_start = re.compile(r"(^On .*(wrote|said):\s*$)|(^>\s*From:.*)", re.IGNORECASE)
+    old_email_start = re.compile(r"^On .* wrote:$")
+
+    first_email_in_chain = []
+    for line in email_text_file_contents:
+        stripped_line = line.strip()
+        if old_email_start.match(stripped_line):
+            break  # Stop reading when an old email reply starts
+        elif stripped_line:  # Only add non-empty lines
+            first_email_in_chain.append(stripped_line)
+
+    return first_email_in_chain
 
 def parse_top_email_from_chain(text_file_contents: list) -> tuple:
     """
@@ -439,7 +456,6 @@ def save_unwanted_texts(unwanted_texts_filepath, texts):
 
 def preprocess_text(
     text: str,
-    unwanted_text_filepath=UNWANTED_TEXTS_FILE,
 ) -> str:
     """
     Cleans and standardizes text by performing several preprocessing steps. This includes
@@ -794,9 +810,6 @@ def process_emails_to_csv(save_df=True, return_df=True) -> pd.DataFrame:
     # Return a datfarme true.
     if return_df:
         return df_emails
-    
-
-
 
 def generate_doc_id(email_parts):
     """
@@ -805,15 +818,22 @@ def generate_doc_id(email_parts):
     unique_string = f"{email_parts[0]}-{email_parts[1]}-{email_parts[4]}-{email_parts[5]}"
     return sha256(unique_string.encode()).hexdigest()
 
-def load_existing_ids(file_path):
+def load_existing_ids(filepath):
     """
-    Loads existing document identifiers from a file.
+    Loads existing document IDs from a JSON file.
+
+    Parameters:
+    filepath : str
+        The path to the JSON file containing the IDs.
+    
+    Returns:
+    set
+        A set of IDs.
     """
-    if os.path.exists(file_path):
-        with open(file_path, "r") as file:
+    if os.path.exists(filepath):
+        with open(filepath, 'r') as file:
             return set(json.load(file))
-    else:
-        return set()
+    return set()
 
 def save_doc_ids(ids, file_path):
     """
@@ -822,18 +842,29 @@ def save_doc_ids(ids, file_path):
     with open(file_path, "w") as file:
         json.dump(list(ids), file)
 
-def append_to_json(email_data, file_path):
-    """
-    Appends data to a JSON file, creating the file if it does not exist.
-    """
-    if not os.path.exists(file_path):
-        with open(file_path, "w") as file:
-            json.dump(email_data, file, indent=4)
+def append_to_json(new_data, file_path):
+    """Appends data to a JSON file and ensures that the file remains valid JSON."""
+    if not os.path.isfile(file_path):
+        # File does not exist, write the new data as the initial array
+        with open(file_path, 'w') as file:
+            json.dump(new_data, file, indent=4)
     else:
-        with open(file_path, "a") as file:
-            for data in email_data:
-                file.write(",\n")
-                json.dump(data, file, indent=4)
+        # File exists, append new data into the existing array
+        with open(file_path, 'r+') as file:
+            file.seek(0, os.SEEK_END)
+            position = file.tell() - 1
+            while position > 0:
+                file.seek(position)
+                if file.read(1) == ']':
+                    file.seek(position)
+                    # Check if it's the start of the file or not to determine if a comma is needed
+                    if position != 1:  # Not at the start, so we need a comma
+                        file.write(',\n' + json.dumps(new_data, indent=4)[1:-1])
+                    else:  # At the start, no comma needed
+                        file.write(json.dumps(new_data, indent=4)[1:-1])
+                    file.write('\n]')
+                    break
+                position -= 1
 
 def process_emails_to_json(chunk_size: int = 100, analyze_emails=True):
     """

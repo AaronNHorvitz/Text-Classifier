@@ -19,11 +19,9 @@ def train_lda_model(
     workers: int = 8,
     chunksize: int = 2000,
     passes: int = 1,
-    num_below: int = 5,
-    num_above: float = 0.5,
     use_tfidf: bool = True,
     batch: bool = False,
-    alpha: str = "auto",
+    alpha: str =  "symmetric",
     eta=None,
     decay: float = 0.5,
     offset: float = 1,
@@ -43,10 +41,6 @@ def train_lda_model(
 
     Parameters:
     ----------
-    emails_df : pd.DataFrame
-        DataFrame containing the emails with a column of preprocessed text.
-    processed_text_col : str
-        Name of the column in `emails_df` that contains preprocessed text for topic modeling.
     num_topics : int
         The number of latent topics to extract from the corpus.
     workers : int
@@ -55,10 +49,6 @@ def train_lda_model(
         The number of documents to process at a time in the training algorithm.
     passes : int
         The number of full passes over the corpus during training.
-    no_below : int
-        Minimum number of documents a token must appear in to be included in the corpus.
-    no_above : float
-        Maximum proportion of documents a token can appear in to be included in the corpus.
     use_tfidf : bool
         Flag to determine if TF-IDF transformation should be applied to the corpus before training.
     batch : bool
@@ -101,8 +91,8 @@ def train_lda_model(
         workers = 8
         print("The maximum number of workers allowed is 8. Setting workers to 8.")
 
-    dictionary, corpus = prepare_corpus_and_dictionary(num_below, num_above)
-
+    dictionary, corpus = prepare_corpus_and_dictionary()
+    print(corpus)
     if use_tfidf:
         corpus = create_tfidf_corpus(corpus)
 

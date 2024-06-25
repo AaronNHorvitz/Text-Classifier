@@ -38,8 +38,6 @@ from gensim.models import LdaModel
 
 def make_lda_viz( 
         lda_model_tfidf,
-        num_above,
-        num_below 
         ):
     """
     Produces the pyLDAvis visualization in a Jupyter Notebook, facilitating the exploration
@@ -72,7 +70,7 @@ def make_lda_viz(
     preprocessed text data.
     """
     # Prepare the dictionary and corpus from the DataFrame using the specified utility function
-    dictionary, corpus = prepare_corpus_and_dictionary(num_above, num_below)
+    dictionary, corpus = prepare_corpus_and_dictionary()
 
     # Create pyLDAvis object for display
     lda_visualization = gensimvis.prepare(

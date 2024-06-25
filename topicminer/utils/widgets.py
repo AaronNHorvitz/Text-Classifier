@@ -74,7 +74,8 @@ from topicminer.utils.email_text_processing import (
     add_unwanted_email_text,
     delete_unwanted_email_text,
     load_unwanted_email_text,
-    save_unwanted_texts
+    save_unwanted_texts,
+    strip_top_email
 )
 
 # Add the path to the NLTK data directory if the data is not found locally
@@ -82,9 +83,9 @@ data.path.append("./topicminer/data/nltk_data")
 
 from ..config import UNWANTED_TEXTS_FILE, RAW_DATA_DIR
 
-# Use the imported path in your module
-with open(UNWANTED_TEXTS_FILE, 'r') as file:
-    data = json.load(file)
+# # Use the imported path in your module
+# with open(UNWANTED_TEXTS_FILE, 'r') as file:
+#     data = json.load(file)
 
 
 def email_viewer(
@@ -518,8 +519,12 @@ def text_pruner() -> VBox:
             email_content = email_content.replace(phrase, highlighted_phrase)
             email_content_no_unwanted = email_content_no_unwanted.replace(phrase, "")
 
+        # # Strip top email
+        # email_content_no_unwanted = strip_top_email(email_content_no_unwanted)
+        
         # Simulate processing the email content
         processed_text = preprocess_text(email_content_no_unwanted)
+
         with output:
             display(
                 HTML(

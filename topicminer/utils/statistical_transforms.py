@@ -38,7 +38,6 @@ def create_tfidf_corpus(corpus):
     corpus_tfidf = tfidf_model[corpus]  
     return corpus_tfidf
 
-Is it inneficient to bring in the entire dataframe? Or should I bring in the processed text columm only?
 def prepare_corpus_and_dictionary() -> Tuple[Dictionary, List[List[Tuple[int, int]]]]:
     """
     Prepares a dictionary and corpus from the provided DataFrame column for use in topic modeling,
@@ -57,7 +56,7 @@ def prepare_corpus_and_dictionary() -> Tuple[Dictionary, List[List[Tuple[int, in
         If `processed_text_col` is not a column in `emails_df`.
     """
 
-    emails_df = read_json_to_dataframe()
+    emails_df = read_json_to_dataframe(columns=[PROCESSED_TEXT_COL])
 
     if PROCESSED_TEXT_COL not in emails_df.columns:
         raise ValueError(
@@ -67,6 +66,7 @@ def prepare_corpus_and_dictionary() -> Tuple[Dictionary, List[List[Tuple[int, in
     # Prepare texts
     texts = [doc.split() for doc in emails_df[PROCESSED_TEXT_COL]]
 
+    print(texts)
     # Create a Gensim Dictionary object
     dictionary = Dictionary(texts)
     dictionary.filter_extremes(no_below=TOKEN_FILTER_NO_BELOW, no_above=TOKEN_FILTER_NO_ABOVE)

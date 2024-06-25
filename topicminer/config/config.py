@@ -1,3 +1,4 @@
+This is how it's set up in the config.py file.
 import os
 import logging
 
@@ -31,7 +32,7 @@ logging.basicConfig(
 
 # To allow logging to console as well
 console_handler = logging.StreamHandler()
-console_handler.setLevel(logging.INFO)
+console_handler.setLevel(logging.CRITICAL)  # No logs will appear in the notebook unless critical
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 console_handler.setFormatter(formatter)
 logging.getLogger('').addHandler(console_handler)
@@ -40,5 +41,32 @@ logging.getLogger('').addHandler(console_handler)
 PROCESSED_TEXT_COL = "processed_text"
 
 # Configuration for topic modeling filtering
-TOKEN_FILTER_NO_BELOW = 20  # Tokens must appear in at least this many documents
-TOKEN_FILTER_NO_ABOVE = 0.1  # Tokens must appear in no more than 10% of documents
+TOKEN_FILTER_NO_BELOW = 2  # Tokens must appear in at least this many documents
+TOKEN_FILTER_NO_ABOVE = 0.5  # Tokens must appear in no more than 10% of documents
+
+# Configuration guidance for TOKEN_FILTER_NO_BELOW and TOKEN_FILTER_NO_ABOVE
+# These parameters control the filtering of tokens in the dictionary creation process based on their document frequency.
+# Adjust these settings based on the number of documents in your corpus to improve model relevance and performance.
+
+# Small datasets (e.g., hundreds of documents):
+# - TOKEN_FILTER_NO_BELOW = 2  # Keep tokens that appear in at least 2 documents
+# - TOKEN_FILTER_NO_ABOVE = 0.5  # Keep tokens that appear in no more than 50% of the documents
+
+# Medium datasets (e.g., thousands of documents):
+# - TOKEN_FILTER_NO_BELOW = 5  # Keep tokens that appear in at least 5 documents
+# - TOKEN_FILTER_NO_ABOVE = 0.3  # Keep tokens that appear in no more than 30% of the documents
+
+# Large datasets (e.g., tens of thousands of documents):
+# - TOKEN_FILTER_NO_BELOW = 20  # Keep tokens that appear in at least 20 documents
+# - TOKEN_FILTER_NO_ABOVE = 0.1  # Keep tokens that appear in no more than 10% of the documents
+
+# Very large datasets (e.g., hundreds of thousands of documents):
+# - TOKEN_FILTER_NO_BELOW = 50  # Keep tokens that appear in at least 50 documents
+# - TOKEN_FILTER_NO_ABOVE = 0.05  # Keep tokens that appear in no more than 5% of the documents
+
+# These thresholds are initially set for a dataset size of approximately 10K-100K documents.
+# TOKEN_FILTER_NO_BELOW = 20  # Example setting
+# TOKEN_FILTER_NO_ABOVE = 0.1  # Example setting
+
+# Adjust the above values according to the specific characteristics and requirements of your dataset.
+
