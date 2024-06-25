@@ -99,7 +99,6 @@ data/
 *.db
 *.h5
 *.nc
-*.txt
 
 # Ignore all log files
 *.log
