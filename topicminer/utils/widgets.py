@@ -491,6 +491,7 @@ def text_pruner() -> VBox:
     unwanted_texts = load_unwanted_email_text()
     
     files = sorted([f for f in os.listdir(RAW_DATA_DIR) if f.endswith(".txt")])
+    print(files)
     index = [0]
     
     # Widgets for interaction

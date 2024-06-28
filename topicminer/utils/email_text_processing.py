@@ -954,33 +954,33 @@ def read_emails_and_analyze():
     print(f"Unique Senders: {df_emails['email_sender'].nunique()}")
     print(f"Unique Recipients: {df_emails['email_recipient'].nunique()}")
 
-    # Category analysis
-    if 'email_categories' in df_emails.columns:
-        # Split categories into lists
-        df_emails['email_categories'] = df_emails['email_categories'].apply(lambda x: x.split(', ') if isinstance(x, str) else [])
-        all_categories = [cat for sublist in df_emails['email_categories'] for cat in sublist]
-        category_counts = Counter(all_categories)
-        print(f"Unique Categories: {len(category_counts)}")
-        print("Category Counts:")
-        for category, count in category_counts.items():
-            print(f"  {category}: {count}")
-
-        # Emails with more than one category
-        df_emails['category_count'] = df_emails['email_categories'].apply(len)
-        multi_cat_count = sum(df_emails['category_count'] > 1)
-        print(f"Emails with Multiple Categories: {multi_cat_count}")
-
     # Attachment analysis
-    df_emails['attachment_count'] = df_emails['email_attachments'].apply(lambda x: 0 if x == 'No Attachments' else len(x.split(', ')))
+    df_emails['attachment_count'] = df_emails['email_attachments'].apply(lambda x: 0 if x == 'No Attachments' else len(x.split('; ')))
     emails_with_attachments = (df_emails['attachment_count'] > 0).sum()
     emails_with_multiple_attachments = (df_emails['attachment_count'] > 1).sum()
     print(f"Emails with Attachments: {emails_with_attachments}")
     print(f"Emails with Multiple Attachments: {emails_with_multiple_attachments}")
 
     # Recipient analysis
-    df_emails['recipient_count'] = df_emails['email_recipient'].apply(lambda x: len(x.split(', ')))
+    df_emails['recipient_count'] = df_emails['email_recipient'].apply(lambda x: len(x.split('; ')))
     emails_with_multiple_recipients = (df_emails['recipient_count'] > 1).sum()
     print(f"Emails with Multiple Recipients: {emails_with_multiple_recipients}")
+
+    # Category analysis
+    if 'email_categories' in df_emails.columns:
+        # Split categories into lists
+        df_emails['email_categories'] = df_emails['email_categories'].apply(lambda x: x.split('; ') if isinstance(x, str) else [])
+        all_categories = [cat for sublist in df_emails['email_categories'] for cat in sublist]
+        category_counts = Counter(all_categories)
+
+        # Emails with more than one category
+        df_emails['category_count'] = df_emails['email_categories'].apply(len)
+        multi_cat_count = sum(df_emails['category_count'] > 1)
+        print(f"Emails with Multiple Categories: {multi_cat_count}")
+        print(f"Unique Categories: {len(category_counts)}")
+        print("Category Counts:")
+        for category, count in category_counts.items():
+            print(f"  {category}: {count}")
 
 def read_json_to_dataframe(columns=None):
     """

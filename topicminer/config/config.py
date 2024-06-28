@@ -5,7 +5,12 @@ import logging
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 
 # Path definitions for various resources
-DATA_DIR = os.path.join(BASE_DIR, 'data')
+#DATA_DIR = os.path.join(BASE_DIR, 'data')
+#RAW_DATA_DIR = os.path.join(DATA_DIR, 'raw_data')
+#PROCESSED_DATA_DIR_CSV = os.path.join(DATA_DIR, 'processed_data', 'csv_format')
+#PROCESSED_DATA_DIR_JSON = os.path.join(DATA_DIR, 'processed_data', 'json_format')
+
+DATA_DIR = os.path.join(BASE_DIR, 'data', 'fake_data')
 RAW_DATA_DIR = os.path.join(DATA_DIR, 'raw_data')
 PROCESSED_DATA_DIR_CSV = os.path.join(DATA_DIR, 'processed_data', 'csv_format')
 PROCESSED_DATA_DIR_JSON = os.path.join(DATA_DIR, 'processed_data', 'json_format')
@@ -36,8 +41,9 @@ formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 console_handler.setFormatter(formatter)
 logging.getLogger('').addHandler(console_handler)
 
-# Default column name for processed text in the data
+# Default column name for processed text and categories in the data
 PROCESSED_TEXT_COL = "processed_text"
+CATEGORIES_COL = 'email_categories'
 
 # Configuration for topic modeling filtering
 TOKEN_FILTER_NO_BELOW = 2  # Tokens must appear in at least this many documents
