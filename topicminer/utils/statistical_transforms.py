@@ -2,6 +2,7 @@
 #topicminer/utils/statistical_transformation.py
 
 import pandas as pd
+import warnings
 from typing import Tuple, List
 
 # Machine Learning and topic modeling
@@ -9,13 +10,18 @@ from gensim.corpora import Dictionary
 from gensim.models import TfidfModel
 from topicminer.utils.email_text_processing import read_json_to_dataframe
 
+
 from sklearn.utils import resample
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
 
 from imblearn.over_sampling import SMOTE, ADASYN
 from sklearn.utils import resample
 import numpy as np
+
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.model_selection import train_test_split
 
 
 # Local configuration and settings
@@ -26,6 +32,8 @@ from ..config import (
     CATEGORIES_COL
     )
 
+def suppress_warnings():
+    warnings.filterwarnings('ignore', category=UserWarning, module='sklearn')
 
 def create_tfidf_corpus(corpus):
     """
@@ -85,64 +93,53 @@ def prepare_corpus_and_dictionary() -> Tuple[Dictionary, List[List[Tuple[int, in
 
     return dictionary, corpus
 
-def upsample_classes(X, y, method='duplicate'):
+def encode_labels(y):
     """
-    Upsamples the minority classes in a dataset using the specified method to help balance the class distribution.
-    
-    Parameters:
-        X (numpy.ndarray): Feature matrix containing the independent variables.
-        y (numpy.ndarray): Target vector containing class labels.
-        method (str): The method to use for upsampling. Options include:
-            - 'duplicate': Duplicates existing samples in the minority classes until all classes have the same number of samples. 
-              This method increases the number of samples by copying existing instances, which can lead to overfitting as it does not introduce any new information.
-            - 'smote': Synthetic Minority Over-sampling Technique. Generates synthetic samples rather than duplicating existing ones. 
-              This method uses k-nearest neighbors to create new, synthetic samples that are similar but not identical to existing samples, potentially adding more diversity and reducing the risk of overfitting.
-            - 'adasyn': Adaptive Synthetic Sampling Approach. Similar to SMOTE but with a focus on generating samples next to the original samples that are wrongly classified using a k-nearest neighbors classifier. 
-              This method aims to adaptively generate minority data points according to their distribution: more synthetic data is generated for minority class samples that are harder to learn.
+    Encodes string class labels to integers.
+    """
+    encoder = LabelEncoder()
+    return encoder.fit_transform(y)
 
-    Returns:
-        tuple: A tuple containing:
-            - X_resampled (numpy.ndarray): The resampled feature matrix after applying the upsampling.
-            - y_resampled (numpy.ndarray): The resampled target vector after applying the upsampling.
-    
-    Example Usage:
-        >>> X_resampled, y_resampled = upsample_classes(X_train, y_train, method='smote')
-        This will balance the classes in the training data using the SMOTE method.
+
+def upsample_classes(X, y, method=None):
     """
-    # Check the method specified for upsampling and execute accordingly
+    Upsamples the minority classes in a dataset using the specified method.
+    """
+    suppress_warnings()  # Suppress warnings within this function
+
+    # Ensure y is properly encoded as integers
+    if isinstance(y[0], str):
+        y = encode_labels(y)
+
     if method == 'duplicate':
-        # Convert feature matrix X and target vector y into a DataFrame
         df = pd.DataFrame(X)
         df['target'] = y
-        
-        # Find the largest class size
         max_size = df['target'].value_counts().max()
-        
-        # Upsample each class to the size of the largest class using resampling
         upsampled_data = [resample(group, replace=True, n_samples=max_size, random_state=42)
-                        for _, group in df.groupby('target')]
-        
-        # Concatenate upsampled data and shuffle
+                          for _, group in df.groupby('target')]
         upsampled_df = pd.concat(upsampled_data).sample(frac=1, random_state=42).reset_index(drop=True)
-        
-        # Extract features and targets from the upsampled DataFrame
         X_resampled = upsampled_df.drop('target', axis=1).values
         y_resampled = upsampled_df['target'].values
-
-    elif method == 'smote':
-        # Initialize and apply SMOTE to generate synthetic samples
-        smote = SMOTE(random_state=42)
-        X_resampled, y_resampled = smote.fit_resample(X, y)
-
-    elif method == 'adasyn':
-        # Initialize and apply ADASYN to generate synthetic samples focusing on hard samples
-        adasyn = ADASYN(random_state=42)
-        X_resampled, y_resampled = adasyn.fit_resample(X, y)
+    else:
+        # Initialize resampler based on the method
+        resampler = SMOTE(random_state=42) if method == 'smote' else ADASYN(random_state=42)
+        try:
+            X_resampled, y_resampled = resampler.fit_resample(X, y)
+        except ValueError as e:
+            # If initial resampling fails, dynamically adjust parameters
+            min_class_size = np.bincount(y).min()
+            for n_neighbors in range(1, max(2, min_class_size)):
+                try:
+                    resampler.set_params(**{'n_neighbors': n_neighbors})
+                    X_resampled, y_resampled = resampler.fit_resample(X, y)
+                    break
+                except ValueError:
+                    continue
+            else:
+                # If all else fails, revert to duplication
+                return upsample_classes(X, y, method='duplicate')
 
     return X_resampled, y_resampled
-
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.model_selection import train_test_split
 
 def train_test_split_utility(test_size=0.33, upsampling_method=None):
     """
@@ -170,7 +167,7 @@ def train_test_split_utility(test_size=0.33, upsampling_method=None):
     >>> X_train_bal, X_test, y_train_bal, y_test = train_test_split_utility(test_size=0.25, upsampling_method='smote')
     This splits the data, applies TF-IDF, and optionally balances the training set using SMOTE.
     """
-    
+
     # Load and prepare data
     emails_df = read_json_to_dataframe(columns=[PROCESSED_TEXT_COL, CATEGORIES_COL])
     
@@ -179,6 +176,11 @@ def train_test_split_utility(test_size=0.33, upsampling_method=None):
     features = tfidf.fit_transform(emails_df[PROCESSED_TEXT_COL]).toarray()
     labels = emails_df[CATEGORIES_COL]
     
+    if encode_labels:
+        # Encode labels if required
+        label_encoder = LabelEncoder()
+        labels = label_encoder.fit_transform(labels)
+
     # Split the data into training and testing sets
     X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=test_size, random_state=42)
     
