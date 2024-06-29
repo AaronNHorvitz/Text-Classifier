@@ -45,6 +45,9 @@ logging.getLogger('').addHandler(console_handler)
 PROCESSED_TEXT_COL = "processed_text"
 CATEGORIES_COL = 'email_categories'
 
+# Default model traiing params
+TEST_SIZE=0.33
+
 # Configuration for topic modeling filtering
 TOKEN_FILTER_NO_BELOW = 2  # Tokens must appear in at least this many documents
 TOKEN_FILTER_NO_ABOVE = 0.5  # Tokens must appear in no more than 10% of documents

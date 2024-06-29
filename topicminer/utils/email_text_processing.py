@@ -298,23 +298,23 @@ def format_and_save_emails(df: pd.DataFrame, output_dir: str):
             file.write(email_text)
         print(f"Processed email document ID: {row['docID']}")
 
-def strip_top_email(email_text_file_contents):
-    """
-    Strips out the original email from an email chain.
-    """
-    # Regex to detect start of an old email in the chain, more robust to handle variations
-    #old_email_start = re.compile(r"(^On .*(wrote|said):\s*$)|(^>\s*From:.*)", re.IGNORECASE)
-    old_email_start = re.compile(r"^On .* wrote:$")
+# def strip_top_email(email_contents):
+#     """
+#     Strips out the original email from an email chain.
+#     """
+#     # Regex to detect start of an old email in the chain, more robust to handle variations
+#     #old_email_start = re.compile(r"(^On .*(wrote|said):\s*$)|(^>\s*From:.*)", re.IGNORECASE)
+#     old_email_start = re.compile(r"^On .* wrote:$")
 
-    first_email_in_chain = []
-    for line in email_text_file_contents:
-        stripped_line = line.strip()
-        if old_email_start.match(stripped_line):
-            break  # Stop reading when an old email reply starts
-        elif stripped_line:  # Only add non-empty lines
-            first_email_in_chain.append(stripped_line)
+#     first_email_in_chain = []
+#     for line in email_text_file_contents:
+#         stripped_line = line.strip()
+#         if old_email_start.match(stripped_line):
+#             break  # Stop reading when an old email reply starts
+#         elif stripped_line:  # Only add non-empty lines
+#             first_email_in_chain.append(stripped_line)
 
-    return first_email_in_chain
+#     return first_email_in_chain
 
 def parse_top_email_from_chain(text_file_contents: list) -> tuple:
     """
@@ -334,7 +334,7 @@ def parse_top_email_from_chain(text_file_contents: list) -> tuple:
     Notes
     -----
     This function assumes a specific format where the most recent email appears first and is followed
-    by previous emails, each introduced by a line stating "On [date] [sender] wrote:".
+    by previous emails. A new email is indicated by a new "From:" line after the first.
     """
     # Initialize default values for email components
     email_recipient = "Unknown Recipient"
@@ -347,16 +347,17 @@ def parse_top_email_from_chain(text_file_contents: list) -> tuple:
     email_categories = "No Categories"
     email_body = []
 
-    # Regex to detect start of an old email in the chain
-    old_email_start = re.compile(r"^On .* wrote:$")
+    first_from_found = False  # Flag to detect the first 'From:'
 
     # Start processing the first email
     for line in text_file_contents:
         stripped_line = line.strip()
-        if old_email_start.match(stripped_line):
-            break  # Stop reading when an old email reply starts
-        elif stripped_line.startswith("From:"):
-            email_sender = stripped_line.replace("From:", "").strip()
+        if stripped_line.startswith("From:"):
+            if first_from_found:
+                break  # Stop reading when a new email start is detected
+            else:
+                email_sender = stripped_line.replace("From:", "").strip()
+                first_from_found = True
         elif stripped_line.startswith("Sent:"):
             email_date = stripped_line.replace("Sent:", "").strip()
         elif stripped_line.startswith("To:"):
@@ -872,13 +873,22 @@ def process_emails_to_json(chunk_size: int = 100, analyze_emails=True):
     and serializes them into JSON format in chunks. Avoids adding duplicates by maintaining a set
     of unique email identifiers.
     """
-    files = [f for f in os.listdir(RAW_DATA_DIR) if f.endswith(".txt")]
-    email_data = []
+    # Establish file paths
     json_file_path = os.path.join(PROCESSED_DATA_DIR_JSON, "processed_emails.json")
     ids_file_path = os.path.join(PROCESSED_DATA_DIR_JSON, "email_ids.json")
+
+    # Create a list of text files
+    files = [f for f in os.listdir(RAW_DATA_DIR) if f.endswith(".txt")]
     
+    # Establish email data list
+    email_data = []
+
+    # Load email id's
     existing_ids = load_existing_ids(ids_file_path)
     new_ids = set()
+
+    # Load unwanted texts
+    unwanted_texts = load_unwanted_email_text()
 
     for i, filename in enumerate(tqdm(files), 1):
         file_path = os.path.join(RAW_DATA_DIR, filename)
@@ -893,7 +903,22 @@ def process_emails_to_json(chunk_size: int = 100, analyze_emails=True):
             continue
 
         new_ids.add(doc_id)
-        processed_text = preprocess_text(email_parts[8])
+
+        # Combine subject line with email body
+        subject_body_content = "{}\n{}".format(email_parts[5], email_parts[8])
+
+        # Process the email content to remove unwanted texts
+        screened_email_content = subject_body_content
+        for phrase in unwanted_texts:
+            screened_email_content = screened_email_content.replace(phrase, "")
+
+        # Processs screened text into tokens
+        processed_text = preprocess_text(screened_email_content)
+
+        # Extract additional text statistics
+        word_count = len(email_parts[8].split())  
+        character_count = len(email_parts[8])
+        token_count =  len(processed_text.split())
 
         email_dict = {
             "doc_id": doc_id,
@@ -907,7 +932,10 @@ def process_emails_to_json(chunk_size: int = 100, analyze_emails=True):
             "email_categories": email_parts[7],
             "email_body": email_parts[8],
             PROCESSED_TEXT_COL: processed_text,
-            "file_path": file_path,
+            "word_count": word_count,
+            "character_count": character_count,
+            "token_count": token_count,
+            "file_path": file_path
         }
 
         email_data.append(email_dict)
@@ -948,8 +976,8 @@ def read_emails_and_analyze():
     df_emails = pd.DataFrame(emails)
 
     # Print basic statistics
-    print("Email Analysis Report:")
-    print("======================")
+    print("     Email Analysis Report")
+    print("===============================")
     print(f"Total Emails: {len(df_emails)}")
     print(f"Unique Senders: {df_emails['email_sender'].nunique()}")
     print(f"Unique Recipients: {df_emails['email_recipient'].nunique()}")
@@ -958,15 +986,33 @@ def read_emails_and_analyze():
     df_emails['attachment_count'] = df_emails['email_attachments'].apply(lambda x: 0 if x == 'No Attachments' else len(x.split('; ')))
     emails_with_attachments = (df_emails['attachment_count'] > 0).sum()
     emails_with_multiple_attachments = (df_emails['attachment_count'] > 1).sum()
+    print("\nAttachment Analysis:")
+    print("======================")
     print(f"Emails with Attachments: {emails_with_attachments}")
     print(f"Emails with Multiple Attachments: {emails_with_multiple_attachments}")
 
     # Recipient analysis
+    print("\nRecipient Analysis:")
+    print("=====================")
     df_emails['recipient_count'] = df_emails['email_recipient'].apply(lambda x: len(x.split('; ')))
     emails_with_multiple_recipients = (df_emails['recipient_count'] > 1).sum()
+    avg_recipient_count = round(df_emails['recipient_count'].mean(),2)
     print(f"Emails with Multiple Recipients: {emails_with_multiple_recipients}")
+    print(f"Avg Recipient Count: {avg_recipient_count}")
 
+    # Word Counts
+    print("\nAdditional Statistics:")
+    print("========================")
+    avg_word_count = round(df_emails['word_count'].mean(),2)
+    avg_character_count = round(df_emails['character_count'].mean(),2)
+    avg_token_count = round(df_emails['token_count'].mean(),2)
+    print(f"Avg Word Count: {avg_word_count}")
+    print(f"Avg Character Count: {avg_character_count}")
+    print(f"Avg Token Count: {avg_token_count}")
+    
     # Category analysis
+    print("\nCategory Analysis:")
+    print("========================")
     if 'email_categories' in df_emails.columns:
         # Split categories into lists
         df_emails['email_categories'] = df_emails['email_categories'].apply(lambda x: x.split('; ') if isinstance(x, str) else [])
@@ -979,6 +1025,7 @@ def read_emails_and_analyze():
         print(f"Emails with Multiple Categories: {multi_cat_count}")
         print(f"Unique Categories: {len(category_counts)}")
         print("Category Counts:")
+        print("---------------")
         for category, count in category_counts.items():
             print(f"  {category}: {count}")
 

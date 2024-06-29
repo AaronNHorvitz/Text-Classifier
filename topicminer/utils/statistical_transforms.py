@@ -29,7 +29,8 @@ from ..config import (
     PROCESSED_TEXT_COL, 
     TOKEN_FILTER_NO_BELOW, 
     TOKEN_FILTER_NO_ABOVE,
-    CATEGORIES_COL
+    CATEGORIES_COL,
+    TEST_SIZE
     )
 
 def suppress_warnings():
@@ -141,58 +142,82 @@ def upsample_classes(X, y, method=None):
 
     return X_resampled, y_resampled
 
-def train_test_split_utility(test_size=0.33, upsampling_method=None):
-    """
-    Splits the dataset into training and testing sets, applies TF-IDF vectorization to the text data, 
-    and optionally balances the training set using a specified upsampling method.
+# def train_test_split_utility(upsampling_method=None):
+#     """
+#     Splits the dataset into training and testing sets, applies TF-IDF vectorization to the text data, 
+#     and optionally balances the training set using a specified upsampling method.
 
-    Parameters:
-    ----------
-    test_size (float): The proportion of the dataset to include in the test split. Default is 0.33.
-    upsampling_method (str or None): The method to use for balancing the training set. Options are 'duplicate', 'smote', 'adasyn', or None. If None, no upsampling is applied. Detailed methods:
-        - 'duplicate': Simple duplication of existing samples to balance class distributions.
-        - 'smote': Synthetic Minority Over-sampling Technique, which synthetically generates new samples based on existing minority samples.
-        - 'adasyn': Adaptive Synthetic Sampling, which generates new samples with a focus on samples that are harder to classify.
+#     Parameters:
+#     ----------
+#     test_size (float): The proportion of the dataset to include in the test split. Default is 0.33.
+#     upsampling_method (str or None): The method to use for balancing the training set. Options are 'duplicate', 'smote', 'adasyn', or None. If None, no upsampling is applied. Detailed methods:
+#         - 'duplicate': Simple duplication of existing samples to balance class distributions.
+#         - 'smote': Synthetic Minority Over-sampling Technique, which synthetically generates new samples based on existing minority samples.
+#         - 'adasyn': Adaptive Synthetic Sampling, which generates new samples with a focus on samples that are harder to classify.
 
-    Returns:
-    -------
-    tuple: A tuple containing:
-        - X_train_bal (numpy.ndarray): The balanced training feature array after vectorization and optional upsampling.
-        - X_test (numpy.ndarray): The testing feature array after vectorization.
-        - y_train_bal (numpy.ndarray): The balanced training target array after optional upsampling.
-        - y_test (numpy.ndarray): The testing target array.
+#     Returns:
+#     -------
+#     tuple: A tuple containing:
+#         - X_train_bal (numpy.ndarray): The balanced training feature array after vectorization and optional upsampling.
+#         - X_test (numpy.ndarray): The testing feature array after vectorization.
+#         - y_train_bal (numpy.ndarray): The balanced training target array after optional upsampling.
+#         - y_test (numpy.ndarray): The testing target array.
     
-    Example Usage:
-    -------------
-    >>> X_train_bal, X_test, y_train_bal, y_test = train_test_split_utility(test_size=0.25, upsampling_method='smote')
-    This splits the data, applies TF-IDF, and optionally balances the training set using SMOTE.
-    """
+#     Example Usage:
+#     -------------
+#     >>> X_train_bal, X_test, y_train_bal, y_test = train_test_split_utility(test_size=0.25, upsampling_method='smote')
+#     This splits the data, applies TF-IDF, and optionally balances the training set using SMOTE.
+#     """
 
+#     # Load and prepare data
+#     emails_df = read_json_to_dataframe(columns=[PROCESSED_TEXT_COL, CATEGORIES_COL])
+
+#     # Apply TF-IDF vectorization to the email text
+#     tfidf = TfidfVectorizer(stop_words='english', max_features=1000)
+#     features = tfidf.fit_transform(emails_df[PROCESSED_TEXT_COL]).toarray()
+#     labels = emails_df[CATEGORIES_COL]
+    
+#     # Check if labels are not numeric and need encoding
+#     if not issubclass(labels.dtype.type, np.integer):
+#         labels = encode_labels(labels)  
+
+#     # Split the data into training and testing sets
+#     X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=TEST_SIZE, random_state=42)
+    
+#      # Initialize balanced data as original data by default
+#     X_train_bal, y_train_bal = X_train, y_train
+
+#     # Check if upsampling is requested
+#     if upsampling_method:
+#         # Balance the classes in the training set using the specified method
+#         X_train_bal, y_train_bal = upsample_classes(X_train, y_train, method=upsampling_method)
+
+#     return X_train_bal, X_test, y_train_bal, y_test
+
+from sklearn.utils import check_random_state
+
+def train_test_split_utility(test_size=0.33, upsampling_method=None, random_state=42):
+    random_state = check_random_state(random_state)
+    
     # Load and prepare data
     emails_df = read_json_to_dataframe(columns=[PROCESSED_TEXT_COL, CATEGORIES_COL])
-    
-    # Apply TF-IDF vectorization to the email text
     tfidf = TfidfVectorizer(stop_words='english', max_features=1000)
     features = tfidf.fit_transform(emails_df[PROCESSED_TEXT_COL]).toarray()
     labels = emails_df[CATEGORIES_COL]
-    
-    if encode_labels:
-        # Encode labels if required
-        label_encoder = LabelEncoder()
-        labels = label_encoder.fit_transform(labels)
 
-    # Split the data into training and testing sets
-    X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=test_size, random_state=42)
-    
-    # Initialize balanced data as original data by default
+    if not issubclass(labels.dtype.type, np.integer):
+        labels = encode_labels(labels)
+
+    X_train, X_test, y_train, y_test = train_test_split(
+        features, labels, test_size=test_size, random_state=random_state)
+
+    # Print data shape for debugging
+    print(f"Shapes - X_train: {X_train.shape}, X_test: {X_test.shape}, y_train: {y_train.shape}, y_test: {y_test.shape}")
+
     X_train_bal, y_train_bal = X_train, y_train
-
-    # Check if upsampling is requested
     if upsampling_method:
-        # Balance the classes in the training set using the specified method
-        X_train_bal, y_train_bal = upsample_classes(X_train, y_train, method=upsampling_method)
+        X_train_bal, y_train_bal = upsample_classes(X_train, y_train, method=upsampling_method, random_state=random_state)
 
     return X_train_bal, X_test, y_train_bal, y_test
-
 
 

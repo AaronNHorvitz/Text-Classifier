@@ -74,8 +74,7 @@ from topicminer.utils.email_text_processing import (
     add_unwanted_email_text,
     delete_unwanted_email_text,
     load_unwanted_email_text,
-    save_unwanted_texts,
-    strip_top_email
+    save_unwanted_texts
 )
 
 # Add the path to the NLTK data directory if the data is not found locally
@@ -484,14 +483,14 @@ def interactive_email_viewer_widget(
         [btn_prev, lbl_position, lbl_doc_id, btn_next, doc_id_input, btn_go]
     )
     return VBox([navigation, output])
-
-    
+  
 def text_pruner() -> VBox:
 
+    # Load unwanted texts
     unwanted_texts = load_unwanted_email_text()
     
+    # Read in file .txt file names
     files = sorted([f for f in os.listdir(RAW_DATA_DIR) if f.endswith(".txt")])
-    print(files)
     index = [0]
     
     # Widgets for interaction
@@ -510,21 +509,37 @@ def text_pruner() -> VBox:
     def show_email(idx):
         output.clear_output(wait=True)  # Using wait=True to clear output just before displaying new content
         file_path = os.path.join(RAW_DATA_DIR, files[idx])
+
         with open(file_path, "r", encoding="utf-8") as file:
             email_content = file.read()
 
         # Process the email content to remove unwanted texts
-        email_content_no_unwanted = email_content
+        screened_email_content = email_content
         for phrase in unwanted_texts:
             highlighted_phrase = f"<mark style='background-color: red;'>{phrase}</mark>"  # Corrected typo 'backgzround-color'
             email_content = email_content.replace(phrase, highlighted_phrase)
-            email_content_no_unwanted = email_content_no_unwanted.replace(phrase, "")
+            screened_email_content = screened_email_content.replace(phrase, "")
 
-        # # Strip top email
-        # email_content_no_unwanted = strip_top_email(email_content_no_unwanted)
-        
+        #Strip and parse the top email into its components
+        (
+            email_recipient,
+            email_sender,
+            email_cc,
+            email_bcc,
+            email_date,
+            email_subject,
+            email_attachments,
+            email_categories,
+            email_body
+        ) = parse_top_email_from_chain(
+            screened_email_content.splitlines() # Function requires a list
+            )
+
+        # Combine subject line with email body
+        parsed_and_screened_email_content = "{}\n{}".format(email_subject, email_body)
+
         # Simulate processing the email content
-        processed_text = preprocess_text(email_content_no_unwanted)
+        processed_text = preprocess_text(parsed_and_screened_email_content)
 
         with output:
             display(
@@ -555,7 +570,7 @@ def text_pruner() -> VBox:
                     <table>
                         <tr>
                             <td class="email-view"><b>Original Email (with highlights):</b><br>{email_content}</td>
-                            <td class="email-view"><b>Email Without Unwanted Texts:</b><br>{email_content_no_unwanted}</td>
+                            <td class="email-view"><b>Email Without Unwanted Texts:</b><br>{screened_email_content}</td>
                             <td class="email-view"><b>Processed Email:</b><br>{processed_text}</td>
                         </tr>
                     </table>
