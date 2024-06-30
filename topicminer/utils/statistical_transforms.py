@@ -18,6 +18,7 @@ Dependencies:
 - scikit-learn: For machine learning model preparation and evaluation.
 - imbalanced-learn: For dealing with imbalanced data via resampling methods.
 - Gensim: For text processing and topic modeling.
+- Scipy: For data manipulation
 
 Example:
     >>> from topicminer.utils import statistical_transforms as st
@@ -38,6 +39,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.utils import check_random_state, resample
 from sklearn.preprocessing import LabelEncoder
+from scipy.sparse import hstack
 
 # Machine Learning: Imbalanced data handling
 from imblearn.over_sampling import SMOTE, ADASYN
