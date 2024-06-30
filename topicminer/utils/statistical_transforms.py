@@ -1,40 +1,99 @@
 # topicminer/utils/statistical_transformation.py
+"""
+This module (`statistical_transforms.py`) provides various statistical and machine learning utility functions for handling and transforming data. It includes functionality for data preprocessing, text analysis, feature extraction, data resampling, and model preparation. It is designed to facilitate the preprocessing and handling of text data for applications in topic mining and classification.
 
-import pandas as pd
+Functions:
+- `suppress_warnings()`: Suppresses various warnings during runtime to clean up output.
+- `create_tfidf_corpus()`: Transforms text data into a TF-IDF weighted vector format.
+- `prepare_corpus_and_dictionary()`: Prepares a Gensim dictionary and corpus from textual data for topic modeling.
+- `encode_labels()`: Converts categorical string labels into integers.
+- `upsample_classes()`: Balances class distribution in a dataset via various resampling techniques.
+- `train_test_split_utility()`: Splits the dataset into training and testing sets and optionally applies upsampling.
+
+This module makes extensive use of libraries such as pandas, NumPy, scikit-learn, imbalanced-learn, and Gensim to perform data handling, machine learning preprocessing, and text processing tasks.
+
+Dependencies:
+- pandas: For data manipulation and analysis.
+- numpy: For numerical operations on array-based data.
+- scikit-learn: For machine learning model preparation and evaluation.
+- imbalanced-learn: For dealing with imbalanced data via resampling methods.
+- Gensim: For text processing and topic modeling.
+
+Example:
+    >>> from topicminer.utils import statistical_transforms as st
+    >>> df = st.read_json_to_dataframe('email_data.json')
+    >>> X_train, X_test, y_train, y_test = st.train_test_split_utility(upsampling_method='smote')
+    >>> print(f"Training data shape: {X_train.shape}, Test data shape: {X_test.shape}")
+"""
+# Standard library imports
 import warnings
 from typing import Tuple, List
 
-# Machine Learning and topic modeling
-from gensim.corpora import Dictionary
-from gensim.models import TfidfModel
-from topicminer.utils.email_text_processing import read_json_to_dataframe
-
-
-from sklearn.utils import resample
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
-
-from imblearn.over_sampling import SMOTE, ADASYN
-from sklearn.utils import resample
+# Data handling
+import pandas as pd
 import numpy as np
 
+# Machine Learning: General
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
-from sklearn.utils import check_random_state
+from sklearn.utils import check_random_state, resample
+from sklearn.preprocessing import LabelEncoder
 
-# Local configuration and settings
+# Machine Learning: Imbalanced data handling
+from imblearn.over_sampling import SMOTE, ADASYN
+
+# Text processing and topic modeling
+from gensim.corpora import Dictionary
+from gensim.models import TfidfModel
+
+# Local utilities and configurations
+from topicminer.utils.email_text_processing import read_json_to_dataframe
 from ..config import (
     PROCESSED_TEXT_COL,
     TOKEN_FILTER_NO_BELOW,
     TOKEN_FILTER_NO_ABOVE,
     CATEGORIES_COL,
     TEST_SIZE,
+    RANDOM_STATE,
+    WORD_COUNT_COL,
+    CHARACTER_COUNT_COL,
+    TOKEN_COUNT_COL,
 )
 
 
 def suppress_warnings():
+    """
+    Suppresses specific warnings in Python scripts, particularly from the sklearn module.
+
+    This function is useful for hiding warnings that are not critical and might clutter the output,
+    especially when using sklearn for training machine learning models where some warnings
+    about convergence or deprecations may not be immediately actionable.
+
+    Parameters
+    ----------
+    None
+
+    Returns
+    -------
+    None
+
+    Examples
+    --------
+    To use this function, simply call it before running the portion of your code where warnings are expected:
+
+    >>> suppress_warnings()
+    >>> # Your code here where warnings are expected
+
+    This function cat be placed at the start of any script or before any specific operations where warnings might be
+    distracting or irrelevant to the current analysis. This ensures that the output remains clean and focused on the
+    essential information.
+    """
     warnings.filterwarnings("ignore", category=UserWarning, module="sklearn")
+    warnings.filterwarnings("ignore", category=FutureWarning, module="sklearn")
+    warnings.filterwarnings("ignore", category=DeprecationWarning, module="sklearn")
+
+    # Suppress all other warnings
+    warnings.filterwarnings("ignore")
 
 
 def create_tfidf_corpus(corpus):
@@ -109,33 +168,51 @@ def encode_labels(y):
 
 def upsample_classes(X, y, method=None):
     """
-    Upsamples the minority classes in a dataset to balance the class distribution using the specified method.
+    Upsample minority classes in a dataset to address class imbalance using the specified method.
 
-    Parameters:
+    Parameters
     ----------
-        X (numpy.ndarray): The feature matrix where each row represents a sample.
-        y (numpy.ndarray or list): The target array or list where each element corresponds to the class of the samples in X.
-        method (str, optional): The method to use for upsampling. Options include:
-            - 'duplicate': Duplicates existing samples in the minority classes until all classes have the same number of samples.
-            - 'smote': Synthetic Minority Over-sampling Technique. Generates synthetic samples rather than duplicating existing ones.
-            - 'adasyn': Adaptive Synthetic Sampling Approach. Similar to SMOTE but focuses more on generating samples near the decision boundary.
-            If None is provided, the function will default to 'duplicate' if upsampling is needed due to a failure in advanced methods like SMOTE or ADASYN.
+    X : array-like, shape (n_samples, n_features)
+        Feature matrix where n_samples is the number of samples and n_features is the number of features.
+    y : array-like, shape (n_samples,)
+        Target vector containing class labels for each sample.
+    method : str, optional
+        The method used for upsampling. Options include:
+        - "duplicate": Duplicates existing samples to balance class distributions.
+        - "smote": Synthetic Minority Over-sampling Technique; generates synthetic samples.
+        - "adasyn": Adaptive Synthetic Sampling; similar to SMOTE but with a focus on harder samples.
+        By default, None, which will use "duplicate" if no method is specified.
 
-    Returns:
+    Returns
     -------
-        tuple: A tuple containing:
-            - X_resampled (numpy.ndarray): The resampled feature matrix after applying the upsampling.
-            - y_resampled (numpy.ndarray): The resampled target array after applying the upsampling.
+    X_resampled : ndarray, shape (n_resampled_samples, n_features)
+        The resampled feature matrix.
+    y_resampled : ndarray, shape (n_resampled_samples,)
+        The resampled target vector.
 
-    Raises:
+    Raises
     ------
-        ValueError: If resampling with SMOTE or ADASYN fails due to configuration issues, such as not having enough neighbors.
+    ValueError
+        If resampling with SMOTE or ADASYN fails due to insufficient neighbors.
 
-    Notes:
+    Notes
     -----
-        This function suppresses warnings internally to avoid clutter during processing.
-        It also ensures that the target labels 'y' are properly encoded as integers if they are initially in string format.
+    This function first checks if the target data `y` needs to be encoded from strings to integers,
+    performs the encoding if necessary, and then applies the chosen resampling method.
+    If the chosen method fails due to parameter issues (e.g., not enough neighbors for SMOTE),
+    it attempts to adjust the parameters or reverts to duplicating samples.
+
+    Examples
+    --------
+    >>> from sklearn.datasets import make_classification
+    >>> X, y = make_classification(n_classes=2, class_sep=2, weights=[0.1, 0.9],
+    ... n_informative=3, n_redundant=1, flip_y=0, n_features=20, n_clusters_per_class=1,
+    ... n_samples=100, random_state=42)
+    >>> X_resampled, y_resampled = upsample_classes(X, y, method='smote')
+    >>> print(np.bincount(y_resampled))
+    array([90, 90])
     """
+
     suppress_warnings()  # Suppress warnings within this function
 
     # Ensure y is properly encoded as integers
@@ -181,57 +258,82 @@ def upsample_classes(X, y, method=None):
     return X_resampled, y_resampled
 
 
-def train_test_split_utility(test_size=0.33, upsampling_method=None, random_state=42):
+def train_test_split_utility(upsampling_method=None):
     """
-    Splits the dataset into training and testing sets, vectorizes the text data using TF-IDF,
-    and optionally balances the training set using a specified upsampling method.
+    Splits the dataset into training and testing sets and optionally applies upsampling to address class imbalance.
 
-    Parameters:
+    This function integrates text features with additional numerical features extracted from emails, such as word count,
+    character count, and token count, creating a comprehensive feature set for model training.
+
+    Parameters
     ----------
-        test_size (float): The proportion of the dataset to include in the test split. Default is 0.33.
-        upsampling_method (str, optional): The method to use for balancing the training set.
-            Options are 'duplicate', 'smote', 'adasyn', or None. If None, no upsampling is applied.
-        random_state (int, RandomState instance or None): Controls the randomness of the training and testing data split.
-            Pass an int for reproducible output across multiple function calls.
+    upsampling_method : str, optional
+        The method used for upsampling the minority class in the training dataset. Options include:
+        - 'duplicate': Duplicates samples in minority classes.
+        - 'smote': Synthetic Minority Over-sampling Technique.
+        - 'adasyn': Adaptive Synthetic Sampling Approach.
+        If None, no upsampling is applied. Default is None.
 
-    Returns:
+    Returns
     -------
-        tuple: A tuple containing:
-            - X_train_bal (numpy.ndarray): The balanced (if upsampling_method is specified) training feature array.
-            - X_test (numpy.ndarray): The testing feature array.
-            - y_train_bal (numpy.ndarray): The balanced (if upsampling_method is specified) training target array.
-            - y_test (numpy.ndarray): The testing target array.
+    tuple
+        A tuple of four elements containing:
+        - X_train_bal (ndarray): The feature matrix for the training data after optional upsampling.
+        - X_test (ndarray): The feature matrix for the testing data.
+        - y_train_bal (ndarray): The target vector for the training data after optional upsampling.
+        - y_test (ndarray): The target vector for the testing data.
 
-    Raises:
-    ------
-        ValueError: If the 'upsampling_method' is not one of the expected options.
-
-    Notes:
+    Notes
     -----
-        The function first loads and preprocesses the email data from a predefined JSON data structure into feature
-        vectors using TF-IDF vectorization. It then splits these features into training and testing sets.
-        If an upsampling method is specified, it applies the selected method to balance class distribution in the training set.
+    The function reads data from a predefined source which is assumed to include specific columns for text and labels, along with
+    additional numeric features. It combines text features processed through TF-IDF vectorization with these numeric features
+    to form the final feature set used for model training and testing.
+
+    Examples
+    --------
+    >>> X_train_bal, X_test, y_train_bal, y_test = train_test_split_utility(upsampling_method='smote')
+    >>> print(f"Training features shape: {X_train_bal.shape}")
+    >>> print(f"Test features shape: {X_test.shape}")
     """
-    random_state = check_random_state(random_state)
-
     # Load and prepare data
-    emails_df = read_json_to_dataframe(columns=[PROCESSED_TEXT_COL, CATEGORIES_COL])
-    tfidf = TfidfVectorizer(stop_words="english", max_features=1000)
-    features = tfidf.fit_transform(emails_df[PROCESSED_TEXT_COL]).toarray()
-    labels = emails_df[CATEGORIES_COL]
+    emails_df = read_json_to_dataframe(
+        columns=[
+            PROCESSED_TEXT_COL,
+            CATEGORIES_COL,
+            WORD_COUNT_COL,
+            CHARACTER_COUNT_COL,
+            TOKEN_COUNT_COL,
+        ]
+    )
 
+    # Create initial TF-IDF matrix
+    tfidf = TfidfVectorizer(stop_words="english", max_features=1000)
+    tfidf_features = tfidf.fit_transform(emails_df[PROCESSED_TEXT_COL])
+
+    # Extract additional features
+    additional_features = emails_df[
+        ["word_count", "character_count", "token_count"]
+    ].values
+
+    # Combine TF-IDF features with additional features
+    features = hstack([tfidf_features, additional_features]).toarray()
+
+    # Obtain and encode labels
+    labels = emails_df[CATEGORIES_COL]
     if not issubclass(labels.dtype.type, np.integer):
         labels = encode_labels(labels)
 
+    # Split the data
+    random_state = check_random_state(RANDOM_STATE)
     X_train, X_test, y_train, y_test = train_test_split(
-        features, labels, test_size=test_size, random_state=random_state
+        features, labels, test_size=TEST_SIZE, random_state=random_state
     )
 
-    # Print data shape for debugging
     print(
         f"Shapes - X_train: {X_train.shape}, X_test: {X_test.shape}, y_train: {y_train.shape}, y_test: {y_test.shape}"
     )
 
+    # Upsample Data
     X_train_bal, y_train_bal = X_train, y_train
     if upsampling_method:
         X_train_bal, y_train_bal = upsample_classes(

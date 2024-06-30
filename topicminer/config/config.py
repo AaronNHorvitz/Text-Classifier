@@ -4,13 +4,8 @@ import logging
 # Absolute path to the root of the project (one level up from the directory containing the config.py file)
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 
-# Path definitions for various resources
-#DATA_DIR = os.path.join(BASE_DIR, 'data')
-#RAW_DATA_DIR = os.path.join(DATA_DIR, 'raw_data')
-#PROCESSED_DATA_DIR_CSV = os.path.join(DATA_DIR, 'processed_data', 'csv_format')
-#PROCESSED_DATA_DIR_JSON = os.path.join(DATA_DIR, 'processed_data', 'json_format')
-
-DATA_DIR = os.path.join(BASE_DIR, 'data', 'fake_data')
+#Path definitions for various resources
+DATA_DIR = os.path.join(BASE_DIR, 'data')
 RAW_DATA_DIR = os.path.join(DATA_DIR, 'raw_data')
 PROCESSED_DATA_DIR_CSV = os.path.join(DATA_DIR, 'processed_data', 'csv_format')
 PROCESSED_DATA_DIR_JSON = os.path.join(DATA_DIR, 'processed_data', 'json_format')
@@ -44,9 +39,15 @@ logging.getLogger('').addHandler(console_handler)
 # Default column name for processed text and categories in the data
 PROCESSED_TEXT_COL = "processed_text"
 CATEGORIES_COL = 'email_categories'
+WORD_COUNT_COL = 'word_count'
+CHARACTER_COUNT_COL = 'character_count'
+TOKEN_COUNT_COL = 'token_count'
+
 
 # Default model traiing params
 TEST_SIZE=0.33
+RANDOM_STATE=42
+
 
 # Configuration for topic modeling filtering
 TOKEN_FILTER_NO_BELOW = 2  # Tokens must appear in at least this many documents
