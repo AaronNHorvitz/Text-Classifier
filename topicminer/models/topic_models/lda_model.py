@@ -1,3 +1,37 @@
+"""
+Module: random_forest.py
+
+Provides a suite of functions and a class for training and evaluating Random Forest classifiers,
+optimized through Bayesian optimization, with utilities for handling label encoding and data preparation.
+
+The module includes the following main components:
+- `AutoLabelEncoder`: A class to handle automatic conversion between categorical and numerical labels.
+- `rf_cv`: Function to perform cross-validation for a RandomForestClassifier.
+- `optimize_rf`: Function to optimize hyperparameters for RandomForestClassifier using Bayesian optimization.
+- `train_rf_classifier`: Function to train a RandomForestClassifier with specified parameters.
+- `score_rf_classifier`: Function to evaluate a RandomForestClassifier on training and test datasets.
+
+Dependencies:
+- Standard libraries: os, sys, json
+- Data manipulation: numpy, pandas
+- Machine Learning: scikit-learn
+- Visualization: matplotlib
+- Custom utilities: Local modules for text processing and statistical transforms
+
+Examples and detailed function/method descriptions are provided within the module to facilitate its use in
+training, optimizing, and deploying RandomForest models for classification tasks, particularly on text data.
+
+Warnings:
+- The module suppresses sklearn-related UserWarning by default to improve readability of the output.
+
+Author:
+- [Your Name]
+
+Notes:
+- The module assumes access to properly formatted configuration settings and utility functions for text and data processing.
+
+"""
+
 # Standard library imports
 from typing import List, Tuple
 
@@ -298,9 +332,55 @@ def train_models_and_find_optimal(
     plt.title("Coherence Scores by Number of Topics")
     plt.show()
 
-    return best_model, best_num_topics, best_coherence
-
 def add_lda_embedings():
+    """
+    Adds LDA topic modeling embeddings to each email entry in a JSON file.
+
+    This function loads a pre-trained LDA model and a corpus dictionary, processes each email's text to
+    create a bag-of-words representation, and then uses the LDA model to compute topic probabilities
+    for the email. These probabilities are then added to the email entries in the JSON file as new data.
+
+    Steps involved:
+    - Load the trained LDA model.
+    - Prepare the corpus and dictionary.
+    - Open and load the JSON file containing emails.
+    - For each email, transform the processed text into a bag-of-words vector.
+    - Compute the LDA topic probabilities for the vector.
+    - Append the LDA topic probabilities back to the corresponding email entry.
+    - Save the updated JSON data back to the file.
+
+    Parameters
+    ----------
+    None
+
+    Returns
+    -------
+    None
+
+    Raises
+    ------
+    FileNotFoundError
+        If the JSON file cannot be found at the specified path.
+    ValueError
+        If the JSON data is malformed or if LDA model fails on data transformation.
+
+    Notes
+    -----
+    The function assumes that the LDA model and dictionary have been set up with appropriate settings
+    (e.g., number of topics, iterations, and passes) before this function is called.
+
+    The `PROCESSED_EMAILS_JSON_FILE` must be a valid JSON file path that the program has read/write
+    access to, and `PROCESSED_TEXT_COL` must be a valid key in the JSON structure that contains the
+    processed text of the emails.
+
+    Example
+    -------
+    Assuming you have a JSON file 'emails.json' with preprocessed email data and a trained LDA model:
+
+    ```python
+    add_lda_embeddings()
+    ```
+    """
 
     lda_model_tfidf = train_lda_model(passes=10, num_topics=5, iterations=100)
     dictionary, corpus = prepare_corpus_and_dictionary()
