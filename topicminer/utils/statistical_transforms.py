@@ -119,7 +119,6 @@ def create_tfidf_corpus(corpus):
     corpus_tfidf = tfidf_model[corpus]
     return corpus_tfidf
 
-
 def prepare_corpus_and_dictionary() -> Tuple[Dictionary, List[List[Tuple[int, int]]]]:
     """
     Prepares a dictionary and corpus from the provided DataFrame column for use in topic modeling,
@@ -159,14 +158,12 @@ def prepare_corpus_and_dictionary() -> Tuple[Dictionary, List[List[Tuple[int, in
 
     return dictionary, corpus
 
-
 def encode_labels(y):
     """
     Encodes string class labels to integers.
     """
     encoder = LabelEncoder()
     return encoder.fit_transform(y)
-
 
 def upsample_classes(X, y, method=None):
     """
@@ -258,93 +255,47 @@ def upsample_classes(X, y, method=None):
                 return upsample_classes(X, y, method="duplicate")
 
     return X_resampled, y_resampled
-
-
-# def train_test_split_utility(upsampling_method=None):
-#     """
-#     Splits the dataset into training and testing sets and optionally applies upsampling to address class imbalance.
-
-#     This function integrates text features with additional numerical features extracted from emails, such as word count,
-#     character count, and token count, creating a comprehensive feature set for model training.
-
-#     Parameters
-#     ----------
-#     upsampling_method : str, optional
-#         The method used for upsampling the minority class in the training dataset. Options include:
-#         - 'duplicate': Duplicates samples in minority classes.
-#         - 'smote': Synthetic Minority Over-sampling Technique.
-#         - 'adasyn': Adaptive Synthetic Sampling Approach.
-#         If None, no upsampling is applied. Default is None.
-
-#     Returns
-#     -------
-#     tuple
-#         A tuple of four elements containing:
-#         - X_train_bal (ndarray): The feature matrix for the training data after optional upsampling.
-#         - X_test (ndarray): The feature matrix for the testing data.
-#         - y_train_bal (ndarray): The target vector for the training data after optional upsampling.
-#         - y_test (ndarray): The target vector for the testing data.
-
-#     Notes
-#     -----
-#     The function reads data from a predefined source which is assumed to include specific columns for text and labels, along with
-#     additional numeric features. It combines text features processed through TF-IDF vectorization with these numeric features
-#     to form the final feature set used for model training and testing.
-
-#     Examples
-#     --------
-#     >>> X_train_bal, X_test, y_train_bal, y_test = train_test_split_utility(upsampling_method='smote')
-#     >>> print(f"Training features shape: {X_train_bal.shape}")
-#     >>> print(f"Test features shape: {X_test.shape}")
-#     """
-#     # Load and prepare data
-#     emails_df = read_json_to_dataframe(
-#         columns=[
-#             PROCESSED_TEXT_COL,
-#             CATEGORIES_COL,
-#             WORD_COUNT_COL,
-#             CHARACTER_COUNT_COL,
-#             TOKEN_COUNT_COL,
-#         ]
-#     )
-
-#     # Create initial TF-IDF matrix
-#     tfidf = TfidfVectorizer(stop_words="english", max_features=1000)
-#     tfidf_features = tfidf.fit_transform(emails_df[PROCESSED_TEXT_COL])
-
-#     # Extract additional features
-#     additional_features = emails_df[
-#         ["word_count", "character_count", "token_count"]
-#     ].values
-
-#     # Combine TF-IDF features with additional features
-#     features = hstack([tfidf_features, additional_features]).toarray()
-
-#     # Obtain and encode labels
-#     labels = emails_df[CATEGORIES_COL]
-#     if not issubclass(labels.dtype.type, np.integer):
-#         labels = encode_labels(labels)
-
-#     # Split the data
-#     random_state = check_random_state(RANDOM_STATE)
-#     X_train, X_test, y_train, y_test = train_test_split(
-#         features, labels, test_size=TEST_SIZE, random_state=random_state
-#     )
-
-#     print(
-#         f"Shapes - X_train: {X_train.shape}, X_test: {X_test.shape}, y_train: {y_train.shape}, y_test: {y_test.shape}"
-#     )
-
-#     # Upsample Data
-#     X_train_bal, y_train_bal = X_train, y_train
-#     if upsampling_method:
-#         X_train_bal, y_train_bal = upsample_classes(
-#             X_train, y_train, method=upsampling_method
-#         )
-
-#     return X_train_bal, X_test, y_train_bal, y_test
-
+    
 def train_test_split_utility(upsampling_method=None, use_lda_features=False):
+    """
+    Prepares and splits the email dataset into training and testing sets, optionally including LDA features and upsampling.
+
+    This function loads the email data, creates feature matrices using TF-IDF and optional LDA topic probabilities,
+    encodes categorical labels, and then splits the data into training and testing sets. It supports upsampling of the
+    training data to address class imbalance.
+
+    Parameters
+    ----------
+    upsampling_method : str, optional
+        The method to use for upsampling to address class imbalance in the training data. Supported methods are defined
+        in the `upsample_classes` function. If None, no upsampling is performed. Default is None.
+    use_lda_features : bool, optional
+        If True, LDA topic probabilities are included as features in the model training. Default is False.
+
+    Returns
+    -------
+    tuple
+        A tuple containing:
+        - X_train_bal (np.array): Balanced training features.
+        - X_test (np.array): Testing features.
+        - y_train_bal (np.array): Balanced training labels.
+        - y_test (np.array): Testing labels.
+
+    Notes
+    -----
+    The function reads data from a preprocessed JSON file using `read_json_to_dataframe` which must contain specific
+    columns like 'processed_text', 'categories', 'word_count', 'character_count', 'token_count', and 'lda_topics' if
+    LDA features are used.
+
+    Examples
+    --------
+    >>> X_train, X_test, y_train, y_test = train_test_split_utility(upsampling_method='SMOTE', use_lda_features=True)
+    >>> print(f"Training features shape: {X_train.shape}, Testing features shape: {X_test.shape}")
+    >>> print(f"Training labels shape: {y_train.shape}, Testing labels shape: {y_test.shape}")
+
+    This utility function assumes that certain global configuration variables such as `TEST_SIZE` and `RANDOM_STATE`
+    are predefined.
+    """
     # Load and prepare data
     emails_df = read_json_to_dataframe(
         columns=[
