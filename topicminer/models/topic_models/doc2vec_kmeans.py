@@ -1,184 +1,120 @@
-import numpy as  np
 import pandas as pd
-
-
+import numpy as np
+from IPython.display import display
+from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 from sklearn.cluster import KMeans
 from sklearn.metrics.pairwise import cosine_similarity
 
+from topicminer.config import PROCESSED_TEXT_COL
 
-from gensim.models.doc2vec import Doc2Vec, TaggedDocument
-from typing import List
+class Doc2Vec_KMeans_Cat:
+    def __init__(self, vector_size=100, window=5, min_count=5, workers=16, epochs=10, n_clusters=10, num_unique_terms=10):
+        from topicminer import read_json_to_dataframe
+        if workers > 16:
+            print("Workers can be no higher than 16. Resetting to 16.")
+            workers = 16
+        self.vector_size = vector_size
+        self.window = window    
+        self.min_count = min_count                              
+        self.epochs = epochs
+        self.workers = workers
+        self.n_clusters = n_clusters
+        self.num_unique_terms = num_unique_terms
+        self.model = None               
+        self.kmeans = None
 
-def train_doc2vec_model(
-    tokenized_docs: List[List[str]],
-    vector_size: int = 100,
-    window: int = 5,
-    min_count: int = 5,
-    epochs: int = 40,
-    workers: int = 4,
-) -> Doc2Vec:
-    """
-    Trains a Doc2Vec model on a given corpus of tokenized documents. Doc2Vec is an unsupervised algorithm to generate
-    vector representations for documents, which can be used for various applications such as similarity search or
-    document clustering.
+        # Load and store tokenized documents at initialization
+        self.documents = read_json_to_dataframe(columns=[PROCESSED_TEXT_COL])[PROCESSED_TEXT_COL].to_list()
+        self.tagged_documents = [TaggedDocument(words=doc.split(), tags=[i]) for i, doc in enumerate(self.documents)]
 
-    Parameters:
-    ----------
-    tokenized_docs : List[List[str]]
-        A list of tokenized documents, where each document is represented as a list of words.
-    vector_size : int, optional
-        The dimensionality of the document vectors (default is 100).
-    window : int, optional
-        The maximum distance between the current and predicted word within a sentence (default is 5).
-    min_count : int, optional
-        Ignores all words with total frequency lower than this (default is 5).
-    epochs : int, optional
-        Number of iterations (epochs) over the corpus (default is 40).
-    workers : int, optional
-        The number of worker threads to train the model, which speeds up training on multicore machines (default is 4).
+    def train_doc2vec(self):
+        self.model = Doc2Vec(self.tagged_documents, vector_size=self.vector_size, window=self.window,
+                             min_count=self.min_count, workers=self.workers, epochs=self.epochs)
 
-    Returns:
-    -------
-    gensim.models.doc2vec.Doc2Vec
-        The trained Doc2Vec model.
+    def categorize_documents(self):
+        # Train Doc2Vec if not already trained
+        if self.model is None:
+            self.train_doc2vec()
 
-    Example:
-    --------
-    >>> tokenized_docs = [['hello', 'world'], ['example', 'text']]
-    >>> model = train_doc2vec_model(tokenized_docs)
-    """
-    tagged_data = [
-        TaggedDocument(words=doc, tags=[str(i)]) for i, doc in enumerate(tokenized_docs)
-    ]
-    model = Doc2Vec(
-        vector_size=vector_size,
-        window=window,
-        min_count=min_count,
-        workers=workers,
-        epochs=epochs,
-    )
-    model.build_vocab(tagged_data)
+        # Create document vectors
+        doc_vectors = np.array([self.model.dv[i] for i in range(len(self.tagged_documents))])
+    
+        # Cluster document vectors
+        self.kmeans = KMeans(n_clusters=self.n_clusters, random_state=0).fit(doc_vectors)
+    
+        # Extract top terms
+        key_terms = self.extract_key_terms(doc_vectors)
+    
+        # Organize data into a DataFrame for better manipulation and display
+        emails_df = pd.DataFrame({
+            'Email': self.documents,
+            'Cluster': self.kmeans.labels_
+        })
+        
+        return emails_df, key_terms
 
-    # Train model
-    model.train(tagged_data, total_examples=model.corpus_count, epochs=model.epochs)
-    return model
+    def extract_key_terms(self, doc_vectors):
+        centroids = self.kmeans.cluster_centers_
+        terms = {}
+        for i in range(self.n_clusters):
+            centroid = centroids[i]
+            cos_similarities = cosine_similarity([centroid], doc_vectors)
+            top_docs_indices = np.argsort(cos_similarities[0])[-3:]
+            cluster_terms = []
+            for idx in top_docs_indices:
+                cluster_terms.extend(self.documents[idx].split())
+            unique_terms = list(set(cluster_terms))
+            terms[i] = unique_terms[:self.num_unique_terms] if len(unique_terms) >= self.num_unique_terms else unique_terms
+        return terms
+    
+    def show_topics(self):
+        emails_df, key_terms = self.categorize_documents()
+        labels_df = pd.DataFrame.from_dict(key_terms, orient='index')
+        labels_df.index.name = 'Cluster'
+        labels_df.columns = [f'Key Term[{i}]' for i in range(labels_df.shape[1])]
+        return labels_df
+    
+    def group_emails_by_cluster(self):
+        emails_df, key_terms = self.categorize_documents()
+        
+        # Ensure the DataFrame is correctly formed
+        summary_df = pd.DataFrame.from_dict(key_terms, orient='index')
+        # Adjusting columns dynamically based on the actual number of key terms per cluster
+        summary_df.columns = [f'Key Term {i}' for i in range(summary_df.shape[1])]
+        summary_df.index.name = 'Cluster'
+        
+        # Display summary DataFrame
+        print("Summary of Clusters and Key Terms:")
+        display(summary_df)
+        
+        # Display emails grouped by Cluster
+        for cluster in sorted(emails_df['Cluster'].unique()):
+            print(f"\nCluster {cluster} Emails:")
+            display(emails_df[emails_df['Cluster'] == cluster][['Email']])
+            print("\n")
 
+    def show_clusters_with_emails(self):
+        from topicminer import read_json_to_dataframe
 
-def infer_doc2vec_vector(
-    model: Doc2Vec, tokenized_doc: List[str], epochs: int = 40
-) -> np.ndarray:
-    """
-    Infers a vector for a single document using a pre-trained Doc2Vec model, which is useful for obtaining document
-    representations for new or unseen data.
+        emails_df = read_json_to_dataframe()[['email_subject','email_body','email_categories']]
+        clusters = self.categorize_documents()[0]['Cluster']
+        emails_df['Cluster'] = clusters
 
-    Parameters:
-    ----------
-    model : gensim.models.doc2vec.Doc2Vec
-        The trained Doc2Vec model from which to infer the document vector.
-    tokenized_doc : List[str]
-        The tokenized document (a list of words) for which the vector will be inferred.
-    epochs : int, optional
-        The number of epochs to use for inference (default is 40).
+        # Obtain key terms and add them to the dataframe
+        tokens_df, key_terms = self.categorize_documents()
 
-    Returns:
-    -------
-    numpy.ndarray
-        The inferred document vector.
+        # Transforms the key terms from individual terms in colums to rows of lists and feed them back into the dataframe.
+        key_terms = pd.DataFrame(key_terms)
+        dict = {}
+        for i,row in key_terms.iterrows():
+            row_ = row.to_list()
+            row_str = ', '.join(row_)
+            row_ = [row_str]
+            dict[i] = row_
+        # Put key terms into a dataframe. 
+        key_terms = pd.DataFrame(dict).T
 
-    Example:
-    --------
-    >>> model = train_doc2vec_model([['hello', 'world'], ['example', 'text']])
-    >>> vector = infer_doc2vec_vector(model, ['hello', 'example'])
-    """
-    return model.infer_vector(tokenized_doc, epochs=epochs)
-
-
-def categorize_documents(
-    df: pd.DataFrame,
-    processed_text_col: str = "processed_text",
-    vector_size: int = 100,
-    min_count: int = 5,
-    epochs: int = 40,
-    n_clusters: int = 5,
-) -> pd.DataFrame:
-    """
-    Categorizes documents into clusters based on the semantic content of their processed text using Doc2Vec embeddings
-    followed by KMeans clustering. This function aims to group documents that share similar themes and extracts key terms
-    that describe these clusters, facilitating an easier understanding of the thematic structure within a large text corpus.
-
-    Parameters:
-    ----------
-    df : pd.DataFrame
-        DataFrame containing the documents to be categorized.
-    processed_text_col : str, optional
-        The name of the column in 'df' that contains the preprocessed text.
-    vector_size : int, optional
-        The dimensionality of the Doc2Vec embeddings.
-    min_count : int, optional
-        The minimum count of words required for them to be considered by the Doc2Vec model.
-    epochs : int, optional
-        The number of training epochs for the Doc2Vec model.
-    n_clusters : int, optional
-        The number of clusters to form with KMeans clustering.
-
-    Returns:
-    -------
-    pd.DataFrame
-        A DataFrame that includes the original documents along with their assigned cluster category and key terms
-        representative of each category.
-
-    Steps:
-    1. Train a Doc2Vec model using the preprocessed text to create vector representations for each document.
-    2. Apply KMeans clustering to these vectors to form specified number of clusters.
-    3. Identify documents closest to each cluster centroid using cosine similarity.
-    4. Extract frequent and unique key terms from top documents within each cluster to serve as descriptors.
-    5. Append the cluster labels and key terms to the original DataFrame and return this enhanced DataFrame.
-
-    Note:
-    -----
-    This method effectively turns the unstructured text data into structured form, enabling further analytical and
-    machine learning applications. The function depends on the Gensim library for Doc2Vec and scikit-learn for KMeans.
-    """
-
-    # Train Doc2Vec model
-    tokenized_docs = [doc.split() for doc in df[processed_text_col]]
-    d2v_model = train_doc2vec_model(
-        tokenized_docs,
-        vector_size=vector_size,
-        min_count=min_count,
-        epochs=epochs,
-        workers=4,
-    )
-
-    # Infer vectors for all documents
-    vectors = np.array([d2v_model.infer_vector(doc) for doc in tokenized_docs])
-
-    # Cluster document vectors
-    kmeans = KMeans(n_clusters=n_clusters, random_state=0).fit(vectors)
-    df["category"] = kmeans.labels_
-
-    # Calculate cluster centroids
-    centroids = kmeans.cluster_centers_
-
-    # Extract top terms for each cluster
-    terms = {i: [] for i in range(n_clusters)}
-    for i, centroid in enumerate(centroids):
-        cos_similarities = cosine_similarity(centroid.reshape(1, -1), vectors)
-        top_docs_indices = cos_similarities.argsort()[0][
-            -3:
-        ]  # Top 3 docs for this cluster
-        for idx in top_docs_indices:
-            terms[i].extend(tokenized_docs[idx])
-
-    # Identify unique, frequent terms for each cluster
-    for cluster, tokens in terms.items():
-        unique_tokens, counts = np.unique(tokens, return_counts=True)
-        sorted_indices = counts.argsort()[::-1][:5]  # Top 5 terms
-        terms[cluster] = unique_tokens[sorted_indices]
-
-    # Create final DataFrame
-    final_df = df.copy()
-    final_df["key_terms"] = final_df["category"].apply(lambda x: ", ".join(terms[x]))
-
-    return final_df
-
+        # Add key terms to the emails dataframe.
+        emails_df = pd.merge(emails_df, key_terms, left_on='Cluster', right_index=True)
+        emails_df.rename(columns={0:'Key Terms'}, inplace=True)
+        return emails_df

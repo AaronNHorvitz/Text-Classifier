@@ -111,7 +111,7 @@ class Word2Vec_KMeans_Cat:
             display(emails_df[emails_df['Cluster'] == cluster][['Email']])
             print("\n")
 
-    def show_clusters_with_emails(self, num_emails=10):
+    def show_clusters_with_emails(self):
         from topicminer import read_json_to_dataframe
 
         emails_df = read_json_to_dataframe()[['email_subject','email_body','email_categories']]
@@ -132,7 +132,10 @@ class Word2Vec_KMeans_Cat:
         # Put key terms into a dataframe. 
         key_terms = pd.DataFrame(dict).T
 
-            # Add key terms to the emails dataframe.
+        # Add key terms to the emails dataframe.
+        emails_df = pd.merge(emails_df, key_terms, left_on='Cluster', right_index=True)
+        emails_df.rename(columns={0:'Key Terms'}, inplace=True)
+        return emails_df
 
     def document_vector(self, doc):
         """Averaging word vectors in a document."""
