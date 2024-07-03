@@ -1,14 +1,51 @@
-import pandas as pd
-import numpy as np
+# Standard library imports
 import json
-from IPython.display import display
 import logging
+
+# Third-party library imports
+import numpy as np
+import pandas as pd
+from IPython.display import display
 from tqdm import tqdm
 
-
+# Local application/library specific imports
 from topicminer.config import PROCESSED_TEXT_COL, PROCESSED_EMAILS_JSON_FILE 
-
+    
 class Word2Vec_KMeans_Cat:
+    """
+    Integrates Word2Vec and KMeans clustering to categorize and analyze text data.
+
+    This class provides functionality to train a Word2Vec model on tokenized text data, 
+    use the resulting word vectors to form document vectors, and cluster these vectors
+    using KMeans. It allows for exploration of key terms within clusters and 
+    grouping similar documents.
+
+    Parameters
+    ----------
+    vector_size : int
+        Dimensionality of the word vectors.
+    window : int
+        Maximum distance between the current and predicted word within a sentence.
+    min_count : int
+        Ignores all words with total frequency lower than this.
+    workers : int
+        Number of worker threads to train the model.
+    epochs : int
+        Number of iterations (epochs) over the corpus.
+    n_clusters : int
+        Number of clusters to form.
+    num_unique_terms : int
+        Number of unique terms to retrieve per cluster.
+
+    Attributes
+    ----------
+    model : gensim.models.Word2Vec
+        The trained Word2Vec model.
+    kmeans : sklearn.cluster.KMeans
+        The KMeans clustering model.
+    tokenized_docs : list of str
+        List of tokenized documents used for training and clustering.
+    """
     def __init__(self, vector_size=100, window=5, min_count=5, workers=16, epochs=10, n_clusters=10, num_unique_terms=10):
         from topicminer import read_json_to_dataframe
         if workers > 8:
@@ -26,14 +63,27 @@ class Word2Vec_KMeans_Cat:
 
         # Load and store tokenized documents at initialization
         self.tokenized_docs = read_json_to_dataframe(columns=[PROCESSED_TEXT_COL])[PROCESSED_TEXT_COL].to_list()
-
+    
     def train_word2vec(self):
+        """Trains the Word2Vec model on the tokenized documents."""
         from gensim.models import Word2Vec
         self.model = Word2Vec(self.tokenized_docs, vector_size=self.vector_size, window=self.window,
                               min_count=self.min_count, workers=self.workers, epochs=self.epochs)
 
     def document_vector(self, doc):                     
-        """Averaging word vectors in a document."""
+        """
+        Calculates the average word vector for a given document.
+
+        Parameters
+        ----------
+        doc : list of str
+            A tokenized document.
+
+        Returns
+        -------
+        numpy.ndarray
+            The averaged word vector of the document.
+        """
         words = [word for word in doc if word in self.model.wv.index_to_key]
         if words:
             return np.mean(self.model.wv[words], axis=0)
@@ -41,6 +91,14 @@ class Word2Vec_KMeans_Cat:
             return np.zeros(self.vector_size)
 
     def categorize_documents(self):
+        """
+        Categorizes documents into clusters using the trained Word2Vec and KMeans models.
+
+        Returns
+        -------
+        tuple
+            A tuple containing a DataFrame of documents and their assigned clusters, and a dictionary of key terms per cluster.
+        """
         # Train Word2Vec if not already trained
         if self.model is None:
            self.train_word2vec()
@@ -71,6 +129,14 @@ class Word2Vec_KMeans_Cat:
         return emails_df, key_terms
 
     def extract_key_terms(self):
+        """
+        Extracts the key terms from clusters based on their centroids.
+
+        Returns
+        -------
+        dict
+            A dictionary where keys are cluster indices and values are lists of key terms.
+        """
         from sklearn.metrics.pairwise import cosine_similarity
         centroids = self.kmeans.cluster_centers_
         terms = {}
@@ -86,6 +152,14 @@ class Word2Vec_KMeans_Cat:
         return terms
     
     def show_topics(self):
+        """
+        Displays the key terms for each cluster.
+
+        Returns
+        -------
+        pandas.DataFrame
+            A DataFrame displaying clusters and their key terms.
+        """
         emails_df, key_terms = self.categorize_documents()
         labels_df = pd.DataFrame.from_dict(key_terms, orient='index')
         labels_df.index.name = 'Cluster'
@@ -93,6 +167,13 @@ class Word2Vec_KMeans_Cat:
         return labels_df
 
     def group_emails_by_cluster(self):
+        """
+        Groups emails by their cluster assignments and displays them along with key terms.
+
+        Displays
+        -------
+        Summary DataFrame and grouped emails by their clusters.
+        """
         emails_df, key_terms = self.categorize_documents()
         
         # Ensure the DataFrame is correctly formed
@@ -112,6 +193,14 @@ class Word2Vec_KMeans_Cat:
             print("\n")
 
     def show_clusters_with_emails(self):
+        """
+        Retrieves emails and their associated clusters and key terms from the database, then displays them.
+
+        Returns
+        -------
+        pandas.DataFrame
+            A DataFrame containing emails and their clusters along with associated key terms.
+        """
         from topicminer import read_json_to_dataframe
 
         emails_df = read_json_to_dataframe()[['email_subject','email_body','email_categories']]
@@ -138,7 +227,19 @@ class Word2Vec_KMeans_Cat:
         return emails_df
 
     def document_vector(self, doc):
-        """Averaging word vectors in a document."""
+        """
+        Averages word vectors in a document to create a document vector.
+
+        Parameters
+        ----------
+        doc : str
+            The document to vectorize, assumed to be pre-tokenized.
+
+        Returns
+        -------
+        numpy.ndarray
+            The document vector of the given text.
+        """
         words = [word for word in doc if word in self.model.wv.index_to_key]
         if words:
             # Ensure the vector is of type float64
