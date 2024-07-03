@@ -1,8 +1,4 @@
-#TODO: resolve unwanted_texts_filepath function issue for import into current funcitons and widgets.py 
-#TODO: fix text_pruner so it doesn't show multiple emails.
-# 
-# 
-#  
+ #topicminer/utils/widgets.py  
 """ 
 -------------------------------------------------------------------------------
 File: widgets.py
@@ -483,8 +479,40 @@ def interactive_email_viewer_widget(
         [btn_prev, lbl_position, lbl_doc_id, btn_next, doc_id_input, btn_go]
     )
     return VBox([navigation, output])
-  
+
 def text_pruner() -> VBox:
+    """
+    Provides an interactive tool for reviewing and editing email content by navigating through emails,
+    highlighting unwanted texts, and allowing additions or removals to the list of unwanted texts.
+
+    This function sets up a widget-based GUI using IPython widgets. It allows the user to view the original
+    email text with unwanted phrases highlighted, the email with these phrases removed, and the processed
+    email text after further cleaning and preprocessing steps.
+
+    Returns
+    -------
+    VBox
+        An IPython widget container with navigation buttons, input fields for managing unwanted texts, and
+        a display area for email contents.
+
+    Examples
+    --------
+    >>> widget = text_pruner()
+    Display the widget in an IPython notebook to interact with the email text pruning tool.
+
+    Notes
+    -----
+    The function reads emails from text files in a specified directory (`RAW_DATA_DIR`) and maintains a
+    set of unwanted text phrases that it uses to screen and clean the email content. It features previous/next
+    buttons to navigate through emails, and add/remove buttons to manage the list of unwanted phrases.
+
+    Unwanted phrases are highlighted in the email view, and users can directly add new phrases to be
+    considered unwanted or remove existing ones from the list. The changes affect the display in real-time
+    and update the unwanted texts file (`UNWANTED_TEXTS_FILE`).
+
+    The function also integrates with other utility functions like `parse_top_email_from_chain` for
+    extracting email components and `preprocess_text` for text normalization and cleaning.
+    """
 
     # Load unwanted texts
     unwanted_texts = load_unwanted_email_text()
