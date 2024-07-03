@@ -1,3 +1,25 @@
+#topicminer/models/topic_models/word2vec_kmeans.py
+"""
+This module, word2vec_kmeans.py, integrates Word2Vec embedding with KMeans clustering to categorize text documents.
+The Word2Vec_KMeans_Cat class within facilitates the embedding of text data into vector space using Word2Vec and 
+clusters these embeddings to identify and analyze similar groups of texts. This approach is particularly useful for 
+uncovering thematic structures in large text corpora, enabling a nuanced exploration of text data based on content similarity.
+
+Classes:
+- Word2Vec_KMeans_Cat: Combines Word2Vec embeddings with KMeans clustering for text categorization.
+
+Typical usage example:
+- Train Word2Vec model on preprocessed text data.
+- Apply KMeans clustering to categorize documents into similar groups.
+- Analyze and visualize the results to gain insights into text data structure.
+
+Dependencies:
+- numpy for numerical operations.
+- pandas for data handling.
+- gensim for Word2Vec modeling.
+- scikit-learn for KMeans clustering.
+- tqdm for progress tracking during operations.
+"""
 # Standard library imports
 import json
 import logging
