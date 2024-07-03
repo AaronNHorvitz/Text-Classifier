@@ -82,5 +82,3 @@ TOKEN_FILTER_NO_ABOVE = 0.5  # Tokens must appear in no more than 10% of documen
 # TOKEN_FILTER_NO_BELOW = 20  # Example setting
 # TOKEN_FILTER_NO_ABOVE = 0.1  # Example setting
 
-# Adjust the above values according to the specific characteristics and requirements of your dataset.
-
