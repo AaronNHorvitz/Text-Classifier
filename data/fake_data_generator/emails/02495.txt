@@ -1,0 +1,23 @@
+
+From:    Barry Shields
+Sent:    Tuesday, April 12, 1983 12:24 PM
+To:      Debbie Malinowski
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Concerns
+
+
+Dear Debbie,
+
+It is with some trepidation that I am compelled to address certain quality assurance concerns that have arisen in our department. As you are aware, the recent software rollout has revealed several critical defects that necessitate immediate attention. In light of this development, I must stress the importance of prioritizing these issues to ensure compliance with industry standards and regulatory requirements.
+
+I would appreciate it if you could provide a comprehensive update on the current status of our QA efforts and any proposed remediation strategies.
+
+Sincerely,
+
+Barry Shields
+Senior Counsel
++1 512-555-0166
+Cardiff Electric, Legal Department
+

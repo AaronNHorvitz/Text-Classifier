@@ -1,0 +1,37 @@
+
+From:    Malcolm Levitan
+Sent:    Friday, April 22, 1983 10:52 AM
+To:      Barry Shields
+
+Categories: Quality Assurance
+
+Subject:    QA Testing and Bug Tracking
+
+
+Dear Barry,
+
+I hope this email finds you well. I wanted to follow up on our previous discussions regarding quality assurance testing for our software development projects. As you know, I've been working on implementing a bug tracking system using Perl and DBI, and I believe it would be beneficial to integrate it with our QA process.
+
+To streamline the testing process, I suggest we utilize the "Test-Driven Development" (TDD) approach, which involves writing test cases before writing the actual code. This methodology has proven to be effective in reducing bugs and improving overall software quality. For instance, in my previous project, using TDD reduced the number of defects by 30%.
+
+Here's a sample Perl script that demonstrates how we can use DBI to connect to our database and perform queries:
+```perl
+use DBI;
+my $dbh = DBI->connect("dbi:SQLite:qa_database.db", "username", "password");
+my $sth = $dbh->prepare("SELECT * FROM test_cases WHERE status='open'");
+$sth->execute();
+while(my @row = $sth->fetchrow_array()) {
+    print "@row\n";
+}
+```
+This script can be modified to include additional functionality, such as inserting new test cases or updating the test case status.
+
+I would appreciate your feedback on this proposal and any suggestions you may have for improving our QA process. Please let me know if you are available to discuss further.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+

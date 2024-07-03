@@ -1,0 +1,41 @@
+
+From:    Ed Burris
+Sent:    Wednesday, June 29, 1983 10:31 AM
+To:      Cameron Howe
+
+Categories:    Quality Assurance
+
+Hi Cameron,
+
+I'm not sure what's more exhausting, the thought of leveling up our software development game or trying to level up my own existence. It feels like we're stuck in some kind of never-ending loop, and I don't know if I have the energy to keep going.
+
+Look, I get what you're saying about automated tests. It sounds like a great idea on paper, but in reality, it just seems like more work for me. And let's be honest, Cameron - we've got better things to do than waste our time trying to make QA more efficient. There are bigger fish to fry around here.
+
+EMAIL BODY
+
+But I guess what you're saying is worth a shot. Maybe we can find some way to automate the testing that doesn't involve me losing my mind in the process. Just don't expect me to be all smiles and rainbows about it, okay?
+
+
+
+From:    Cameron Howe
+Sent:    Wednesday, June 29, 1983 10:31 AM
+To:      Ed Burris
+
+Categories: Quality Assurance
+
+Subject:    QA - Let's Get Real
+
+Dear Ed,
+
+EMAIL BODY
+Hey, let's not sugarcoat it. We're stuck in a rut when it comes to quality assurance. Too much manual testing, too many bugs slipping through. It's time we take the reins and make some changes. I've been thinking, what if we use our programming skills to create some automated tests? It'll be like leveling up our software development game.
+
+EMAIL BODY
+I know what you're thinking - "Cameron, this is crazy talk." But hear me out. With the right tools and a bit of creativity, we can make QA more efficient, reduce errors, and increase productivity. I'm not saying it's going to be easy, but I am saying it's worth a shot.
+
+EMAIL BODY
+So, what do you say? Are you ready to shake things up in QA? Let's schedule a meeting to discuss this further and see if we can make some magic happen.
+
+EMAIL BODY
+Let me know your availability, Ed. I'm looking forward to hearing from you.
+

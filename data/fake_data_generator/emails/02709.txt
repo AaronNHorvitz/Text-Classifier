@@ -1,0 +1,28 @@
+
+From:    Gordon Clark
+Sent:    Thursday, April 21, 1983 10:05 AM
+To:      Ed Burris; Yo-Yo Engberk; Larry Goins
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Dear Ed, Yo-Yo, Larry,
+
+I'm writing to document the recent system outage that occurred yesterday evening. As Chief Engineer, I've been tasked with investigating the cause and implementing a solution to prevent future outages.
+
+From my preliminary analysis, it appears that the issue was related to an unexpected software glitch in the mainframe's buffer memory. Further investigation is needed to confirm this hypothesis, but I believe we can rule out hardware failure as the primary culprit.
+
+In terms of a fix, I've outlined a few possible approaches:
+
+1. Patch the software immediately to correct the buffer memory issue.
+2. Implement additional error-checking code to prevent similar glitches in the future.
+3. Conduct a thorough review of our testing procedures to ensure that these types of errors don't go unnoticed.
+
+I'd like to schedule a meeting with all three of you to discuss this further and get your input on the best course of action.
+
+Gordon Clark
+Chief Engineer, Cardiff Electric - Engineering
++1 512-555-0198
+

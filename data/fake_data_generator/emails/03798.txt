@@ -1,0 +1,40 @@
+
+From:    Cameron Howe
+Sent:    Tuesday, June 07, 1983 01:04 PM
+To:      Ed Burris; Yo-Yo Engberk
+
+Categories:    Research Collaboration
+
+Hi Yo-Yo,
+
+I'm writing to you with my eyes half-closed and a cup of coffee that's been sitting here for too long. Research collaboration is what's got me stressed right now, not because I don't think it's important, but because I'm starting to feel like we're just spinning our wheels without any concrete results.
+
+EMAIL BODY
+
+Look, I get it - we're trying to push the boundaries of what's possible, and that takes time. But when you're up all night trying to debug code and your boss is breathing down your neck for a solution, it gets hard to see the forest through the trees.
+
+EMAIL SIGNATURE
+Very truly yours,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric, Software Development
+
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, June 07, 1983 01:04 PM
+To:      Cameron Howe; Ed Burris
+
+Categories: Research Collaboration
+
+Subject: Research Collaboration
+
+Dear Cameron and Ed,
+
+ EMAIL BODY
+
+Hey guys, just wanted to drop you both a line about those research collaboration ideas we've been bouncing around. I have to admit, my curiosity is piqued (and maybe a little jealous) - I didn't realize we were so close to cracking the code on this thing! Can't wait to see what we come up with.
+
+EMAIL SIGNATURE
+Yo-Yo Engberk
++1 512-555-0142
+Programmer, Cardiff Electric, Software Development

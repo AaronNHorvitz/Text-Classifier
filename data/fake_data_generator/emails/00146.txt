@@ -1,0 +1,17 @@
+
+From:    Yo-Yo Engberk
+Sent:    Monday, January 10, 1983 12:38 PM
+To:      Cameron Howe
+
+Categories: Quality Assurance
+
+Subject:    QA's in a Jam
+
+Dear Cameron,
+
+EMAIL START
+
+I'm starting to feel like QA's stuck in a never-ending loop - we're just not catching any errors, no matter how many times we iterate! It's like trying to debug a black box (which I guess is what we're dealing with, right?). 
+
+Seriously though, I need your help. We've got some critical bugs to squash and I don't know where to start. Can you come take a look at our test suite and give me some pointers?
+

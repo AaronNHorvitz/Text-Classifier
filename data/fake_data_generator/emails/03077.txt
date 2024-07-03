@@ -1,0 +1,34 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, May 04, 1983 01:12 PM
+To:      Joe MacMillan; Barry Shields
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Dear Joe and Barry,
+
+I've been reviewing the project logs and I have some concerns regarding the implementation of the new protocol. Specifically, I'm seeing inconsistencies in the packet handling that may be causing errors. The code snippet below illustrates the issue:
+
+
+if (packet_type == PT_REQUEST) {
+    // handle request
+} else if (packet_type == PT_RESPONSE) {
+    // handle response
+} else {
+    // error handling?
+}
+
+As you can see, the logic is not being executed as intended.
+
+I'd like to schedule a meeting to discuss this further and come up with a solution. Please let me know your availability.
+
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182

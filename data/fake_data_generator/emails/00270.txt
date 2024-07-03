@@ -1,0 +1,62 @@
+
+From:    Barry Shields
+Sent:    Monday, January 17, 1983 11:29 AM
+To:      Barry Shields
+
+Categories:    Quality Assurance
+
+Dear Yo-Yo,
+
+I'm still trying to wrap my head around why we can't just, as you put it, "make things up as we go along." It seems like the only thing that keeps us from being completely incompetent is our ability to wing it. And don't even get me started on how many times I've had to cover for your lack of attention to detail.
+
+Look, quality assurance may not be the most exciting thing in the world, but trust me when I say it's crucial. You can't just keep writing code like you're playing a game of "make-it-up-as-you-go-along" and expect things to work out okay. There are consequences for our actions, and if we don't start taking this stuff seriously, we'll be the ones who end up getting carpal tunnel from pressing the space bar too many times.
+
+Very truly yours,
+
+
+
+From:    Yo-Yo Engberk
+Sent:    Monday, January 17, 1983 11:29 AM
+To:      Barry Shields
+
+Categories:    Quality Assurance
+
+Hi Barry,
+
+Oh boy, quality assurance? Really? Can't we just make sure our software doesn't crash every five minutes and call it a day? Do we need to get all fancy with procedures and standards? I mean, come on, what's next? Are you gonna start telling me how many times I can press the space bar in a row without getting carpal tunnel?
+
+Listen, Barry, I know you're trying to keep us out of trouble, but honestly, sometimes I feel like we're just making things up as we go along. And if that's not quality assurance, then what is? Can't we just wing it and see what happens? It's worked so far, hasn't it?
+
+Very truly yours,
+Yo-Yo Engberk
+Programmer
++1 512-555-0142
+Cardiff Electric
+Software Development
+
+
+From:    Barry Shields
+Sent:    Monday, January 17, 1983 11:29 AM
+To:      Yo-Yo Engberk
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Procedures
+
+
+Dear Yo-Yo,
+
+I am writing to bring to your attention the necessity of adhering to our company's established quality assurance procedures. As Senior Counsel in the Legal department, it is my duty to ensure that all aspects of our operations comply with applicable laws and regulations.
+
+In light of recent events, I must emphasize the importance of maintaining a high level of quality control in all areas of Cardiff Electric's business practices. Any deviation from these standards may have significant legal and reputational implications.
+
+I request your immediate attention to this matter, as it is imperative that we work together to maintain the integrity and trustworthiness of our products and services.
+
+Sincerely,
+
+Barry Shields
+Senior Counsel
++1 512-555-0166
+Cardiff Electric
+Legal Department
+

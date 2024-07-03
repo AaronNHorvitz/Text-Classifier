@@ -1,0 +1,35 @@
+
+From:    John Bosworth
+Sent:    Thursday, June 16, 1983 11:11 AM
+To:      Barry Shields; Joe MacMillan; Ed Burris; Yo-Yo Engberk
+
+Categories:    Quality Assurance
+
+Hi Yo-Yo,
+
+I'm feeling pretty disappointed to be honest. It seems like every time we try to do something new, someone else gets all the credit. First it was Cameron, then Joe, and now you're saying Joe's "Quality First" initiative is getting all the attention? I don't know if you've noticed, but my department, Sales, doesn't always get the recognition we deserve either.
+
+Look, I'm not trying to knock down your enthusiasm for quality assurance, but let's be real - we're a sales team. We're here to make deals and bring in revenue. If Joe's initiative means more business for Cardiff Electric, then I suppose that's a good thing. But let's not pretend like it's going to magically fix all our problems.
+
+
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, June 16, 1983 11:11 AM
+To:      Barry Shields; John Bosworth; Joe MacMillan; Ed Burris
+
+Categories: Quality Assurance
+
+Subject: 
+
+Hey Guys,
+
+I'm feeling a little green-eyed monster in my belly (you know, the one that loves bugs and QA) - our new friend Joe is getting all the attention with his fancy " Quality First" initiative. Don't get me wrong, I love a good bug hunt as much as the next programmer, but can we please give some love to the QA crew too? We're the ones who make sure the code doesn't bite!
+
+Let's grab some coffee and discuss how we can shine our own light on this project.
+
+Cheers,
+Yo-Yo Engberk
+Programmer
++1 512-555-0142
+Cardiff Electric
+Software Development

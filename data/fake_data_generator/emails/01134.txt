@@ -1,0 +1,51 @@
+
+From:    Cameron Howe
+Sent:    Tuesday, February 15, 1983 09:27 AM
+To:      Cameron Howe
+
+Categories:    Technical Support
+
+Hi Donna,
+
+I'm relieved that someone as expert as you is taking a look at those logs. I was starting to think I was going crazy trying to figure out what's causing this glitch. Beta testing can be such a thrill-ride, but when things go awry, it's enough to drive me to distraction.
+
+Let me know what you find and I'll be happy to provide any additional information or assistance you need to get to the bottom of this thing.
+
+Very truly yours,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development
+
+
+From:    Donna Clark
+Sent:    Tuesday, February 15, 1983 09:27 AM
+To:      Cameron Howe
+
+Categories:    Technical Support
+
+Dear Cameron,
+
+I'm not thrilled about dealing with technical issues, but I'll take a look at those logs. Ambivalence is my middle name when it comes to beta testing. The thrill of the unknown is tempered by the fear of things going awry.
+
+Let me know what you've got and I'll try to spot any wonky results that might be causing the glitch.
+
+
+
+From:    Cameron Howe
+Sent:    Tuesday, February 15, 1983 09:27 AM
+To:      Donna Clark
+
+Categories: Technical Support
+
+Subject: 
+
+Donna Clark,
+
+Hey Donna,
+
+I've got a problem to solve and I need your expertise. Our latest beta test has some wonky results and I'm stumped. Can you take a look at the logs and see if you spot anything that's causing the glitch? It's driving me crazy!
+
+Let's get this sorted.
+

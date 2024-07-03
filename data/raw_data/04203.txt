@@ -1,0 +1,21 @@
+
+From:    Yo-Yo Engberk
+Sent:    Monday, June 20, 1983 01:43 PM
+To:      Cameron Howe; Barry Shields; John Bosworth
+
+Categories: Internal Announcement
+
+Subject: Internal Announcement
+
+Dear Cameron, Barry, John,
+
+I'm writing to burst your bubbles - our latest coding adventure has hit a snag. I was stoked to be working on that new algorithm, but it seems we've got a bug that's bigger than our code editor. I know, I know, it's like finding out the secret password is actually just "qwerty".
+
+On a more serious note, I wanted to keep you all in the loop about this issue. We'll need to get together soon to discuss how to tackle this beast. Let me know when you're free, and we'll schedule a meeting.
+
+Take care,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142

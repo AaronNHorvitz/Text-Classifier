@@ -1,0 +1,26 @@
+
+From:    Yo-Yo Engberk
+Sent:    Monday, March 28, 1983 11:16 AM
+To:      Larry Goins
+
+Categories: Compliance
+
+Subject: Compliance Conundrum
+
+Dear Larry,
+
+EMAIL BODY
+I'm hoping to ping you about that compliance thing we were discussing last week. I know, I know - "compliance" sounds like a party pooper, but hear me out. I've been thinking (okay, obsessing) about how we can make our software more... compliant-ish without losing our geek cred. Any thoughts? Maybe over coffee?
+
+EMAIL BODY
+P.S. Did you know that compliance is just like debugging - except instead of finding bugs, you're finding loopholes?
+
+EMAIL BODY
+P.P.S. I'm really sorry to bother you with this (again). I promise not to make any more "bug"-related puns.
+
+EMAIL SIGNATURE
+Yo-Yo Engberk
++1 512-555-0142
+Programmer
+Cardiff Electric, Software Development
+

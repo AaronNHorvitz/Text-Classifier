@@ -1,0 +1,26 @@
+
+From:    Yo-Yo Engberk
+Sent:    Wednesday, June 29, 1983 03:51 PM
+To:      Ed Burris; Malcolm Levitan; Debbie Malinowski; Donna Clark; Cameron Howe
+
+Categories: Internal Announcement
+
+Subject:    The End of an Era
+
+
+Dear All,
+
+I'm writing to you from a place of grief and mourning. It's hard to believe, but our beloved dBASE III project has come to an end. I know, I know - it's like losing a favorite coding partner (RIP).
+
+All good things must come to an end, right? But this one's got me feeling a little down in the dumps. Who will we turn to for our next fix of database-y goodness now?
+
+On a more serious note, I'll be wrapping up my tasks on dBASE III over the next few days and making sure everything is tidy before moving on to the next project.
+
+If you have any questions or concerns, please don't hesitate to reach out. I'm always here to help (or at least offer some half-baked advice).
+
+Best,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142

@@ -1,0 +1,26 @@
+
+From:    Larry Goins
+Sent:    Monday, May 02, 1983 02:01 PM
+To:      John Bosworth; Malcolm Levitan; Donna Clark; Ed Burris
+
+Categories: Technical Support
+
+Subject:    Resolving Issues with IBM PC Compatibility
+
+
+Hi John, Malcolm, Donna, and Ed,
+
+I wanted to follow up on our recent discussions regarding compatibility issues between our Cardiff Electric systems and IBM PCs. As you know, we've been working hard to resolve these problems and ensure seamless integration. I'm pleased to report that we've made significant progress in this area.
+
+In troubleshooting potential issues, I recommend checking the following: first, verify that all necessary drivers are installed; next, confirm that the correct serial port settings are being used; finally, review the system configuration files for any discrepancies. By addressing these factors, you should be able to resolve most compatibility problems.
+
+I appreciate your diligence in reporting these issues and your willingness to work together as a team. If you have any further questions or concerns, please don't hesitate to reach out.
+
+Best regards,
+
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric
+Technical Support
+

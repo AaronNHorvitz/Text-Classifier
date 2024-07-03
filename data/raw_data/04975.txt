@@ -1,0 +1,24 @@
+
+From:    Gordon Clark
+Sent:    Wednesday, July 27, 1983 12:49 PM
+To:      John Bosworth; Joe MacMillan; Cameron Howe
+
+Categories: Research Collaboration
+
+Subject:    Research Collaboration
+
+Dear John,
+Hi Joe,
+Hello Cameron,
+
+I'm writing to propose an urgent collaboration on several research fronts. Our team at Cardiff Electric has been struggling to make progress on the PC clone project, and I believe that pooling our resources with yours could yield significant breakthroughs. Specifically, I'd like to explore ways to optimize our processor architecture, improve storage capacity, and enhance graphics capabilities.
+
+As you know, time is of the essence - we're facing increasing pressure from IBM and Apple. I'm willing to share our current research findings and work together to develop innovative solutions that can give us a competitive edge.
+
+Please let me know if this proposal resonates with you, and we can schedule a meeting to discuss further.
+
+Best regards,
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Engineering Department
+Cardiff Electric

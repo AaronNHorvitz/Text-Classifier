@@ -1,0 +1,22 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, April 06, 1983 02:35 PM
+To:      Joe MacMillan
+
+Categories: Quality Assurance
+
+Subject: QA and the art of seduction
+
+
+Dear Joe,
+
+You know how sometimes the best way to get something right is to throw out the rulebook? That's what I'm proposing for our QA process. Let's not just test the software, let's make it an experience. Like a romantic evening out, we'll create a sensory overload that leaves no stone unturned.
+
+Think about it - when was the last time you really tested something that mattered? When did you last take a risk and see what happened? That's what I'm talking about. Let's not just check boxes, let's create a thrill ride of quality assurance.
+
+
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric
+Software Development
+

@@ -1,0 +1,21 @@
+
+From:    Larry Goins
+Sent:    Wednesday, July 13, 1983 11:30 AM
+To:      Malcolm Levitan; Joe MacMillan; Donna Clark; Gordon Clark
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Hi Malcolm, Joe, Donna, and Gordon,
+
+I'm writing to provide an update on our current project. As you know, we're working diligently to troubleshoot the issues with the PC-IX prototype. I've been able to isolate some of the problems and have identified potential solutions. However, I must admit that I'm feeling a bit...restless...watching others take the lead while I'm stuck on this end, trying to keep everything running smoothly.
+
+In any case, my findings indicate that we may need to adjust our approach to dealing with the 8086's cache management issues. I've outlined some potential workarounds and testing strategies in the attached document (see below for details). Please review and let me know if you have any questions or concerns.
+
+Best,
+Larry Goins
+Support Technician, Technical Support
+Cardiff Electric
++1 512-555-0144

@@ -1,0 +1,21 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, January 19, 1983 10:51 AM
+To:      Larry Goins; Ed Burris; Barry Shields; Debbie Malinowski
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance - A Reality Check
+
+Dear Team,
+
+I'm writing to hit the pause button and ask some tough questions about our QA process. As we're pushing the boundaries of what's possible with our software, I think it's essential that we double-check ourselves before we launch.
+
+In my opinion, we've been relying too heavily on manual testing and not enough on automation. It's like trying to build a spaceship without a simulator - we're just guessing when things will go wrong. I know some of you might be thinking "Cameron, this is overkill," but trust me, it'll pay off in the long run.
+
+I'd love to hear your thoughts and ideas on how we can improve our QA process. Let's make sure we're not just building a product, but a reliable one that will stand the test of time.
+
+Best,
+Cameron Howe
+Lead Software Developer, Cardiff Electric - Software Development
++1 512-555-0147

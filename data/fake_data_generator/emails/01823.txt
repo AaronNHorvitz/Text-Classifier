@@ -1,0 +1,72 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, March 14, 1983 09:06 AM
+To:      Ed Burris; Cameron Howe; Gordon Clark; Malcolm Levitan
+
+Categories:    Quality Assurance
+
+Dear Donna,
+
+I'm thrilled to hear that my proposal has sparked some enthusiasm in you. You're right, formalizing our testing procedures is long overdue. I've been feeling a sense of passion about this topic lately - perhaps it's the prospect of finally getting a handle on these pesky bugs that have been plaguing us.
+
+Your concerns about scope are well-founded, and I'm glad you brought them up. I was thinking along similar lines when I drafted my initial proposal. I envision our testing framework being comprehensive and covering all aspects of our development process. It's not just about throwing Band-Aids on problems; it's about building a robust foundation that ensures the quality of our products.
+
+I'd be more than happy to schedule a meeting with you and the team to discuss this further. In fact, I think it would be beneficial for us to have a thorough discussion about what we're trying to achieve with this initiative and how we can work together to make it happen.
+
+Let me know when you're available, and I'll make sure to clear my schedule accordingly.
+
+
+
+From:    Donna Clark
+Sent:    Monday, March 14, 1983 09:06 AM
+To:      Ed Burris; Cameron Howe; Gordon Clark; Malcolm Levitan
+
+Categories:    Quality Assurance
+
+Dear Malcolm,
+
+I'm grateful for your initiative to formalize our testing procedures. It's long overdue, if you ask me. As Director of Operations, I've seen firsthand the importance of quality assurance in software development.
+
+Your proposal to implement JUnit and Selenium for unit tests and integration tests, respectively, is a step in the right direction. However, I do have some concerns about the scope of this initiative. We need to ensure that it's not just a Band-Aid solution, but rather a comprehensive approach that covers all aspects of our development process.
+
+I'd like to schedule a meeting with you and the rest of the team to discuss this proposal in more detail. Let's work together to create a testing framework that truly adds value to our products.
+
+Cheers!
+
+Donna Clark
+Director of Operations
+Cardiff Electric, Operations
++1 512-555-0156
+
+
+From:    Malcolm Levitan
+Sent:    Monday, March 14, 1983 09:06 AM
+To:      Ed Burris; Cameron Howe; Gordon Clark; Donna Clark
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Feedback
+
+
+Dear Ed, Cameron, Gordon, and Donna,
+
+I've been reviewing our QA processes in Software Development, and I must say I'm underwhelmed. As you know, I've spent considerable time debugging issues in our codebase. It's become clear that we need to formalize our testing procedures to prevent similar problems from arising.
+
+To this end, I propose we implement a more rigorous testing cycle using JUnit for unit tests and Selenium for integration tests. This will enable us to catch errors earlier in the development process. I've included a basic outline of the proposed testing framework below:
+
+```java
+public class TestExample {
+    @Test
+    public void testMethod() {
+        // Testing code here...
+    }
+}
+```
+
+Please let me know your thoughts on this proposal.
+
+Best regards,
+Malcolm Levitan
+Programmer
++1 512-555-0182
+Cardiff Electric, Software Development

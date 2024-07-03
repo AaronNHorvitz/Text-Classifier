@@ -1,0 +1,134 @@
+
+From:    Malcolm Levitan
+Sent:    Friday, July 29, 1983 10:43 AM
+To:      Malcolm Levitan
+
+Categories:    Apology
+
+Dear Joe,
+
+I'm writing to apologize again, not just because I fell short of delivering what we agreed upon, but because I know how frustrating it must be to deal with me. I'm like a broken record, stuck on repeat, apologizing for my mistakes without doing anything about them. But I'm trying to change that.
+
+When things go wrong, I get defensive and make excuses, just like I did this time around. But deep down, I know that's not the answer. The truth is, Joe, I need your help. I need someone to show me that I'm not alone in this mess, that we're both in this together.
+
+I know I've let you down before, and I don't want that to happen again. So please, give me another chance. Let's try to have a more constructive conversation about this instead of just throwing around insults.
+
+
+
+From:    Malcolm Levitan
+Sent:    Friday, July 29, 1983 10:43 AM
+To:      Malcolm Levitan
+
+Categories:    Apology
+
+Dear Joe,
+
+I'm writing to apologize again for not delivering what we agreed upon. I know I've let you down before, and I don't want that to happen again. It's like I'm stuck in a cycle of failure, and I'm not sure how to break free.
+
+When things go wrong, I tend to get defensive and make excuses. But deep down, I know that's just a way for me to avoid taking responsibility for my mistakes. And that's exactly what happened this time. Instead of owning up to the fact that I fell short, I tried to spin it as if I was doing my best with limited resources.
+
+But the truth is, Joe, I'm not even sure what I'm good at anymore. Maybe it's because I've been feeling so vulnerable lately. You know how things are going with Cardiff Electric? It feels like we're just treading water, waiting for something to go wrong. And when that happens, I don't know how to react.
+
+I guess what I'm trying to say is that I need your help. I need someone to show me that I'm not alone in this mess. Maybe together, we can figure out a way to get out of this hole and start moving forward again.
+
+Please, Joe, give me another chance. Let's try to have a more constructive conversation about this instead of just throwing around insults.
+
+Very truly yours,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182
+
+
+From:    Malcolm Levitan
+Sent:    Friday, July 29, 1983 10:43 AM
+To:      Malcolm Levitan
+
+Categories:    Apology
+
+Dear Barry and Joe,
+
+I'm disappointed to hear that my apology didn't quite land as intended. I understand why you might view my half-baked code snippets as a sad attempt at covering my own behind, but I assure you it's not that simple.
+
+Look, I know I've fallen short of delivering what we agreed upon, and for that, I apologize sincerely. But let me ask you, have either of you ever taken the time to truly understand where I'm coming from? I'm not just some slacker who expects everyone else to pick up the slack. I'm a programmer trying to do my best with limited resources and a lot of pressure.
+
+And as for the documentation, I'll admit it's not perfect. But it's a start, right? And I'm committed to getting it done by tomorrow.
+
+I hope we can have a more constructive conversation about this instead of just throwing around insults.
+
+Very truly yours,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182
+
+
+From:    Joe MacMillan
+Sent:    Friday, July 29, 1983 10:43 AM
+To:      Malcolm Levitan
+
+Categories:    Apology
+
+Dear Barry,
+
+I just read Malcolm's apology and I'm still trying to process what I'm reading. You're telling me that he fell short of delivering what we agreed upon? That's an understatement. The guy is a walking disaster waiting to happen.
+
+And don't even get me started on his so-called "documentation". I mean, seriously? A few lines of code with some half-baked comments? That's not documentation, Barry. That's just a sad attempt at covering his own behind.
+
+You know what really gets my blood boiling? It's the fact that Malcolm thinks he can just apologize and expect everything to be okay again. Newsflash, Malcolm: your word is worth less than nothing around here. You've got 24 hours to get this done? Ha! You'll be lucky if you can deliver anything remotely decent in that amount of time.
+
+I'm still trying to figure out how we let this guy get away with so much for so long. I swear, it's like he has some kind of magical power that makes everyone else forget what a complete and utter disaster he is.
+
+Anyway, I'll leave you to deal with Malcolm's empty promises. Just don't expect me to be impressed when (not if) he fails to deliver again.
+
+
+
+From:    Barry Shields
+Sent:    Friday, July 29, 1983 10:43 AM
+To:      Joe MacMillan; Malcolm Levitan
+
+Categories:    Apology
+
+Hey Malcolm,
+
+Listen up, because I'm only going to say this once. Your apology is a joke. You're telling me that you fell short of delivering what we agreed upon? That's rich coming from the guy who's always slacking off and expecting everyone else to pick up the slack.
+
+You know as well as I do that documentation is a necessary evil in our line of work. It's not just about being thorough; it's about covering your own behind when things go sideways. And let me tell you, things have gone sideways more times than I can count thanks to your lack of attention to detail.
+
+I don't want to hear your excuses or see your half-baked code snippets. What I want is for you to get your act together and deliver what we agreed upon. Tomorrow? Are you kidding me? You're going to make some empty promises and then blow it off like it's nothing?
+
+You've got 24 hours to get this done, Malcolm. And if it's not done to my satisfaction, there will be hell to pay.
+
+
+
+From:    Malcolm Levitan
+Sent:    Friday, July 29, 1983 10:43 AM
+To:      Barry Shields; Joe MacMillan
+
+Categories: Apology
+
+Subject: Apology for Incomplete Documentation
+
+
+Dear Barry and Joe,
+
+I've been meaning to circle back to the documentation on our latest software iteration. Unfortunately, I fell short of delivering the comprehensive package we agreed upon. I know how important thoroughness is in our line of work, and I apologize for any inconvenience this may have caused.
+
+In hindsight, I should have prioritized documentation alongside coding. The snippet below illustrates the issue:
+
+```python
+if (user_input == "exit"):
+    sys.exit()
+else:
+    try:
+        # code logic here
+    except Exception as e:
+        print(f"Error: {e}")
+```
+
+This piece of code is a great example of how a small oversight can lead to unforeseen consequences. I'm committed to rectifying this situation and will provide the complete documentation package by EOD tomorrow.
+
+Please let me know if you have any questions or concerns.
+
+Sincerely,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182

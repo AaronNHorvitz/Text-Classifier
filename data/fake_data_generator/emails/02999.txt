@@ -1,0 +1,21 @@
+
+From:    Gordon Clark
+Sent:    Monday, May 02, 1983 02:21 PM
+To:      Yo-Yo Engberk; Donna Clark
+
+Categories: Technical Support
+
+Subject: Technical Support Request - Error 47
+
+     Hi Yo-Yo,
+
+I'm writing to report an issue with the 16-bit CPU emulator we've been developing. The error code is 47, and it's causing a hard lock on the system. I've tried tracing the problem back to its origin, but I haven't been able to pinpoint the exact cause yet.
+
+The symptoms are as follows: when running the emulator, the system will freeze at approximately 2:45 AM, with an error message reading "Invalid opcode." If you could look into this ASAP, that would be great. I'm getting a bit desperate here and I don't want to have to rewrite the entire module from scratch.
+
+Best,
+Gordon Clark
+Chief Engineer, Engineering Department
+Cardiff Electric
++1 512-555-0198
+

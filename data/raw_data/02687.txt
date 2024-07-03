@@ -1,0 +1,18 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, April 21, 1983 03:04 PM
+To:      Larry Goins
+
+Categories: Personal Update
+
+Subject: A Confessional from Cardiff Electric
+
+
+Dear Larry,
+
+Uh-oh, I'm having one of those "I've made a mistake" moments. I think I might have gotten in over my head with that new compiler code. It's like trying to debug a cat - it just won't cooperate! I'm starting to feel like I'm stuck in an infinite loop.
+
+On the bright side, I did manage to squeeze in some personal time yesterday and finally finished that retro video game I've been playing (Pac-Man, anyone?). It was oddly therapeutic. Maybe I should start a support group for fellow coders who need to unwind with some pixelated goodness?
+
+Anyway, I just wanted to keep you posted on my current state of affairs. If you have any words of wisdom or can spare some debugging tips, I'm all ears (or in this case, all pixels).
+

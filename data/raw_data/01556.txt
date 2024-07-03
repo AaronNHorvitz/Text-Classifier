@@ -1,0 +1,23 @@
+
+From:    Larry Goins
+Sent:    Thursday, March 03, 1983 04:18 PM
+To:      Malcolm Levitan; Yo-Yo Engberk; John Bosworth; Barry Shields
+
+Categories: Technical Support
+
+Subject:    Unusual Error Message in OS/2
+
+Dear Malcolm, Yo-Yo, John, and Barry,
+
+I'm reaching out to all of you regarding a peculiar error message we've been seeing in some of our OS/2 systems. While investigating this issue, I've noticed that it seems to be tied to the new IBM PC/AT hardware.
+
+The error message itself is quite cryptic: "Unrecognized command" with no further information provided. I've tried various troubleshooting steps, including verifying the system configuration and checking for any corrupted files or registry entries, but so far, nothing has yielded a clear solution.
+
+If any of you have experience with this type of issue or know of similar errors, please share your insights. I'd appreciate any suggestions on how to proceed.
+
+Best regards,
+Larry Goins
+Support Technician
+Cardiff Electric
+Technical Support
++1 512-555-0144

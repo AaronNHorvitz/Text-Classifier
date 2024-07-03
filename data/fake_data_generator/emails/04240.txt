@@ -1,0 +1,60 @@
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, June 21, 1983 12:20 PM
+To:      Yo-Yo Engberk
+
+Categories:    Apology
+
+Dear Larry,
+
+Amused. That's how I'm feeling right now, reading your email. "Warm and fuzzy inside"? You're a strange man, Goins.
+
+I love that we can laugh about our coding mishaps. It's like you said - what else are we gonna do? Maybe someday we'll create a code so elegant it'll make us both cry tears of joy (or something). But until then, let's just enjoy the ride and refactor our way to success.
+
+Thanks for being understanding and not too hard on me about my "creative" moments. I know they can be frustrating, but at least we're in this together.
+
+Very truly yours,
+Yo-Yo Engberk
++1 512-555-0142
+Programmer
+Cardiff Electric
+Software Development
+
+
+From:    Larry Goins
+Sent:    Tuesday, June 21, 1983 12:20 PM
+To:      Yo-Yo Engberk
+
+Categories:    Apology
+
+Hi Yo-Yo,
+
+I just got your email and I'm feeling all warm and fuzzy inside. You're apologizing again? Ha! I love how we can laugh about these things. It's like, what else are we gonna do, right?
+
+Look, I know it was a "creative" moment... or whatever you want to call it. But the thing is, Yo-Yo, our code may not be as elegant as a well-placed `break` statement (I mean, who knows what that even means?), but we're getting there! And honestly, refactoring our code is like doing yoga for my brain - it's all about the flow, you know?
+
+Anyway, I'm glad we can just roll with these kinds of situations. It makes me realize how lucky we are to have each other (and by that, I mean, our coworkers) to help us figure things out.
+
+Very truly yours,
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric
+Technical Support
+
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, June 21, 1983 12:20 PM
+To:      Larry Goins
+
+Categories: Apology
+
+Subject:    The Error of Our Ways
+
+
+Dear Larry,
+
+I'm writing to apologize for our latest debacle in the coding department. I know, I know - it's becoming a habit. But let me tell you, it was one of those "creative" moments that I'm sure will make sense in hindsight (or maybe not). Either way, I'm sorry we had to rewrite the entire algorithm... again.
+
+On the bright side, we've managed to refactor our code to the point where it's almost as elegant as a well-placed `break` statement. Almost.
+

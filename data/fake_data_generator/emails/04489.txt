@@ -1,0 +1,40 @@
+
+From:    Gordon Clark
+Sent:    Friday, July 01, 1983 11:52 AM
+To:      John Bosworth; Joe MacMillan; Malcolm Levitan
+
+Categories:    Industry News
+
+Hi Malcolm,
+I've been sitting in my office for hours staring at these X.25 and Token Ring diagrams, trying to make sense of them. It's like they're speaking a different language or something. I'm starting to feel like I'm the only one who doesn't get it around here.
+To be honest, I'm not even sure what this token ring architecture is supposed to do. Is it just a fancy way of saying "faster and more reliable data link"? I mean, I understand the importance of being ahead of the curve in terms of network infrastructure, but sometimes I think we're trying to solve problems that don't exist.
+
+As for integrating these concepts into our own protocols, I'm not sure I see the point. Are we just going to reinvent the wheel and create a proprietary system that's only going to confuse people? I'd love to hear your thoughts on this, but from where I sit, it looks like we're trying to put a square peg in a round hole.
+
+Very truly yours,
+Gordon Clark
+Chief Engineer, Cardiff Electric | Engineering | +1 512-555-0198
+
+
+From:    Malcolm Levitan
+Sent:    Friday, July 01, 1983 11:52 AM
+To:      John Bosworth; Joe MacMillan; Gordon Clark
+
+Categories: Industry News
+
+Subject:    Industry Insights - X.25 and Token Ring
+
+Dear John,
+Hi Joe,
+Hello Gordon,
+
+I wanted to share some industry insights that have caught my attention lately. As we continue to develop our own protocols, I think it's essential to keep an eye on what others are working on. Specifically, the X.25 standard is gaining traction, and I believe its token ring architecture could be a game-changer for our network infrastructure.
+
+For instance, consider this snippet from RFC 877: "The Token Ring protocol is designed to provide a high-speed, low-latency, and highly reliable data link." If we can integrate similar ideas into our own protocols, I think it could give us a significant edge in the market.
+
+I'd love to discuss this further with you all and explore ways we can apply these concepts to Cardiff Electric's projects. Let me know if you're interested, and we can schedule a meeting.
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric | Software Development | +1 512-555-0182
+

@@ -1,0 +1,18 @@
+
+From:    Yo-Yo Engberk
+Sent:    Friday, February 04, 1983 12:10 PM
+To:      Joe MacMillan
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Hey Joe!
+
+I hope you're not too bored with all the project updates lately. I just wanted to give you a quick rundown of where we are with the new OS. We've got some exciting stuff cooking, and I think it's worth sharing.
+
+We've finally ironed out the kinks in the 3D graphics rendering, and it's looking better than a retro-futuristic dream come true! Also, I managed to sneak in that pesky bug we found last week. It was hiding under a pile of ones and zeroes, just waiting to be squashed.
+
+That's all for now. Let me know if you want to grab lunch and talk more about it.
+

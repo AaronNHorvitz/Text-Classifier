@@ -1,0 +1,71 @@
+
+From:    Ed Burris
+Sent:    Monday, May 30, 1983 09:09 AM
+To:      Ed Burris
+
+Categories:    Wellness Check
+
+Hi Malcolm,
+
+I'm not sure what's gotten into me, but I'm feeling a little anxious about this wellness check thing. I mean, I know it's supposed to be a good idea, but sometimes I feel like we're just making things up as we go along. Like, are we really on track? Are we really utilizing our teams' strengths effectively? It all feels so... arbitrary.
+
+I think you're right about streamlining our testing procedures, though. That would be a huge help. And maybe we could also focus on identifying some of the smaller roadblocks that might be piling up? Sometimes it's the little things that can really trip us up.
+
+Let me know what you think when you have a chance to look over this stuff. I'm looking forward to talking it through with you.
+
+
+
+From:    Malcolm Levitan
+Sent:    Monday, May 30, 1983 09:09 AM
+To:      Ed Burris
+
+Categories:    Wellness Check
+
+Hi Ed,
+
+I'm feeling confident about our project's trajectory. Your wellness check initiative is a great idea, and I'm happy to contribute my insights.
+
+As we stand now, I think our project timelines are generally on track. Of course, there are always minor adjustments that can be made to optimize the process, but overall, I'm pleased with our progress. Resource allocation has been a deliberate effort on our part to leverage each team member's strengths effectively. As for risk management, we've identified some potential roadblocks and developed mitigation strategies to address them.
+
+One area where I think we could improve is in streamlining our testing procedures. With the complexity of our codebase, it might be beneficial to implement a more automated approach to catch any errors early on.
+
+Let's schedule that call to discuss further. I'm looking forward to it!
+
+Very truly yours,
+
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+
+
+From:    Ed Burris
+Sent:    Monday, May 30, 1983 09:09 AM
+To:      Malcolm Levitan
+
+Categories: Wellness Check
+
+Subject:    Wellness Check
+
+
+Dear Malcolm,
+
+I'm excited to reach out and conduct a wellness check on our project. As we continue to drive innovation at Cardiff Electric, I want to ensure that we're all aligned and focused on our objectives.
+
+**Key Areas for Review**
+
+• Project timelines: Are we on track to meet our milestones?
+• Resource allocation: Are we utilizing our teams' strengths effectively?
+• Risk management: Have we identified potential roadblocks and developed mitigation strategies?
+
+These questions will help us identify areas where we can improve, streamline processes, or reallocate resources. I believe this exercise will not only benefit our project but also the company as a whole.
+
+I'd appreciate your input and any insights you may have on these matters. Let's schedule a call to discuss further.
+
+Best regards,
+
+Ed Burris
+Project Manager, Cardiff Electric - Project Management Department
++1 512-555-0155
+

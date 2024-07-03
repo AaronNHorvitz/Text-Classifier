@@ -1,0 +1,19 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, February 10, 1983 11:39 AM
+To:      Barry Shields; Joe MacMillan; Ed Burris; Gordon Clark
+
+Categories: Personal Update
+
+Subject:    Fuming about the new compiler
+
+Dear Guys,
+
+I'm writing to vent about the new compiler. I mean, seriously? It's like they took all our hard work and replaced it with a bunch of overpriced, underperforming nonsense. I know we're trying to innovate and all, but can't we at least make sure it doesn't crash every five minutes?
+
+I'm starting to think I should just start coding in Pascal again.
+
+Cheers,
+Yo-Yo Engberk
+Programmer, Software Development, Cardiff Electric
++1 512-555-0142

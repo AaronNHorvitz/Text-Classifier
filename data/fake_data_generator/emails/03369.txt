@@ -1,0 +1,24 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, May 18, 1983 03:09 PM
+To:      Larry Goins; Ed Burris; John Bosworth; Yo-Yo Engberk
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Blues
+
+
+Hi Larry, Ed, John, and Yo-Yo,
+
+I'm writing to you all because I just can't shake this feeling that our QA process is stuck in a rut. Don't get me wrong, we're crushing it on the surface level, but deep down, I think we're missing something. It's like we're trying to fit a square peg into a round hole and pretending it's okay.
+
+I know we're all busy, but can we please take a step back and assess how our testing is really going? Are we just checking boxes or are we actually ensuring the quality of our code?
+
+I'm not asking for much, just some honest discussion about where we can improve. And maybe, just maybe, we'll find that sweet spot where art and science meet.
+
+
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric
+Software Development
+

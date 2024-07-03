@@ -1,0 +1,23 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, June 29, 1983 12:31 PM
+To:      Barry Shields; Ed Burris; Joe MacMillan
+
+Categories: Project Update
+
+Subject: Project Update
+
+Dear Guys,
+
+Nostalgia alert - I'm feeling like it's 1982 all over again, and we're stuck in a vortex of ones and zeros. Seriously though, it's been a while since our last project update, and I wanted to check in.
+
+The code is moving along, albeit at a glacial pace. We've hit some snags with the IBM compatibility issues, but Ed's on top of it like a hawk (or a bloodhound). Joe's been breathing down my neck about timelines, so let's try to stay ahead of that curve. Barry, your expertise on the hardware side has been invaluable - thanks for keeping us grounded.
+
+That's all for now. Let me know if you have any questions or concerns. I'm looking forward to catching up with you all soon.
+
+Cameron Howe
+Lead Software Developer
+Cardiff Electric
+Software Development
++1 512-555-0147
+

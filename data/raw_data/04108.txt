@@ -1,0 +1,81 @@
+
+From:    Gordon Clark
+Sent:    Thursday, June 16, 1983 10:19 AM
+To:      John Bosworth; Malcolm Levitan
+
+Categories:    Compliance
+
+Dear Malcolm,
+
+Oh boy, oh boy. You're telling me we need to create a compliance category? That's rich. What's next? Are we going to start tracking our cat's litter box habits too? I mean, seriously, what's the point of all this?
+
+I skimmed through your attachment (just kidding, you didn't send one), and it looks like some fancy code with no actual meaning or substance behind it. You're really trying to make us think that we need a whole new category just for regulatory stuff? Please.
+
+What I don't get is why we even care about compliance. We're not selling software to the government, are we? What's the point of all this? It seems like you're just trying to add another layer of unnecessary complexity to our already- Byzantine development process.
+
+I'm with Cameron on this one - what's the big deal? Can't we just wing it and hope for the best? 
+
+Very truly yours,
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Cardiff Electric
+Engineering
+
+
+From:    Cameron Howe
+Sent:    Thursday, June 16, 1983 10:19 AM
+To:      Gordon Clark; John Bosworth; Malcolm Levitan
+
+Categories:    Compliance
+
+Hi Malcolm,
+
+What's going on here? You're telling me that we've made "significant progress" in defining a compliance category? That sounds like just another bunch of bureaucratic nonsense to me. I mean, what even is this compliance thing supposed to be about anyway?
+
+I skimmed through the attachment (just kidding, you didn't send one), and it looks like some fancy code with no actual meaning or substance behind it. You're really trying to make us think that we need a whole new category just for regulatory stuff? Please.
+
+What I don't get is why we even care about compliance. We're not selling software to the government, are we? What's the point of all this? It seems like you're just trying to add another layer of unnecessary complexity to our already- Byzantine development process.
+
+I'm not buying it, Malcolm. You can't fool me with your fancy category definitions and buzzwords.
+
+Very truly yours,
+
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric
+Software Developmen
+
+From:    Malcolm Levitan
+Sent:    Thursday, June 16, 1983 10:19 AM
+To:      Cameron Howe; Gordon Clark; John Bosworth
+
+Categories: Compliance
+
+Subject: Compliance Review: Category Definition
+
+Dear Cameron, Gordon, John,
+
+I am pleased to report that our team has made significant progress in defining the compliance category for Cardiff Electric's software development projects. After conducting a thorough review of relevant documentation and industry standards, I have compiled a comprehensive outline of the category's parameters.
+
+The proposed category definition is as follows:
+```python
+compliance_category = {
+    'description': 'Category for regulatory compliance-related projects',
+    'subcategories': [
+        {'name': 'SOX', 'description': 'Sarbanes-Oxley Act compliance'},
+        {'name': 'HIPAA', 'description': 'Health Insurance Portability and Accountability Act compliance'}
+    ]
+}
+```
+This definition will ensure that our team's software development projects adhere to relevant regulatory requirements, thereby minimizing the risk of non-compliance. I believe this category will be instrumental in streamlining our project management process.
+
+Please review the attached document for further details on the category's implementation plan.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+

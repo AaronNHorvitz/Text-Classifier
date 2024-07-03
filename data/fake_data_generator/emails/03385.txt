@@ -1,0 +1,28 @@
+
+From:    Larry Goins
+Sent:    Wednesday, May 18, 1983 04:30 PM
+To:      Barry Shields; Malcolm Levitan; John Bosworth; Ed Burris
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Review
+
+Dear Barry, Malcolm, John, and Ed,
+
+I've been reviewing some of our recent QA tests and noticed a few inconsistencies in our testing procedures. As a support technician, I'm concerned that these discrepancies might be causing issues with our product's reliability.
+
+In particular, I've found instances where the system is not properly handling certain error scenarios. I've outlined the steps to reproduce the issue below:
+
+1. Initiate the testing sequence
+2. Trigger the specified error condition
+3. Observe the system's response
+
+I recommend we re-run these tests with the corrected procedures and verify that our product is functioning as intended.
+
+Please let me know if you have any questions or concerns. I'm happy to discuss this further.
+
+Best regards,
+Larry Goins
++1 512-555-0144
+Support Technician, Technical Support Department
+Cardiff Electric

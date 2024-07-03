@@ -1,0 +1,23 @@
+
+From:    Cameron Howe
+Sent:    Monday, April 25, 1983 02:17 PM
+To:      Debbie Malinowski; Malcolm Levitan; Ed Burris; Larry Goins
+
+Categories: Project Update
+
+Subject: Project Update
+
+Hello Debbie, Malcolm, Ed, and Larry,
+
+I've got some juicy updates from the trenches. We're making progress on the BIOS project, but let's just say it's been a wild ride. I've attached a few notes that might give you a better idea of what we're dealing with.
+
+The good news is that our new scheduler is giving us some much-needed breathing room. The bad news is that it's also revealed some... interesting quirks in the codebase. Long story short, we need to schedule an emergency meeting to discuss the implications and come up with a plan B (or C, or D...).
+
+Let me know when you're free, and we'll set something up.
+
+Best,
+Cameron Howe
+Lead Software Developer
+Cardiff Electric
+Software Development
++1 512-555-0147

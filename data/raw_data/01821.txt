@@ -1,0 +1,23 @@
+
+From:    Yo-Yo Engberk
+Sent:    Monday, March 14, 1983 02:49 PM
+To:      Larry Goins; Cameron Howe; John Bosworth; Gordon Clark
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Hi All,
+
+It's time to reboot (heh) our thinking about system outages. We've had a few too many in recent weeks, and I think we can all agree that's not exactly what we signed up for when we started this project. So, let's get together and brainstorm some ways to prevent these pesky errors from bringing us down.
+
+I'm thinking it might be helpful to implement some sort of error-tracking system (because, you know, hindsight is always 20/20). What do you all think?
+
+Looking forward to hearing your thoughts on this!
+
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142

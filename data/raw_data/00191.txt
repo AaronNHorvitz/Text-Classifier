@@ -1,0 +1,38 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, January 12, 1983 03:30 PM
+To:      John Bosworth; Larry Goins
+
+Categories: Industry News
+
+Subject:    Industry News - Possible Patent Infringement
+
+
+Dear John and Larry,
+
+I've been monitoring recent developments in the industry, and a particular announcement from Xerox PARC has caught my attention. They've released a new font rendering algorithm that seems to be eerily similar to our own proprietary technology.
+
+Here's an example of the code snippet:
+
+```c
+// Xerox PARC's implementation
+int glyph_metrics(int font_id) {
+    // ...
+}
+
+// Our implementation ( Cardiff Electric )
+int glyph_metrics(int font_id) {
+    // ...
+}
+```
+
+As you can see, there are striking similarities between the two implementations. I'm not saying that they're identical, but it's definitely worth investigating further.
+
+I'd appreciate any insight or expertise you might have on this matter. If we do indeed find evidence of patent infringement, we'll need to take swift action to protect our intellectual property.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182

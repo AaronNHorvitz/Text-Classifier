@@ -1,0 +1,64 @@
+
+From:    Larry Goins
+Sent:    Monday, January 24, 1983 09:32 AM
+To:      Cameron Howe; Malcolm Levitan
+
+Categories:    Thank You
+
+Dear Debbie,
+
+I just wanted to take a moment and express my genuine admiration for all that you've been doing lately. Your dedication to keeping our team's spirits high, despite the chaos we often find ourselves in, is truly inspiring.
+
+In particular, I want to thank you for your gracious acknowledgement of our contributions to the Novell NetWare 2.1 implementation project. It's always a pleasure to work on projects that have a tangible impact, and knowing that our efforts are valued makes all the difference.
+
+I must say, I'm particularly proud of my own role in the project – who knew that someone like me could be so instrumental in configuring those NetWare servers? (laughs) But seriously, it was a real team effort, and I think we should all take pride in what we've accomplished.
+
+Thanks again for your leadership and for creating an environment where we can thrive. You're doing a fantastic job as secretary, and I'm grateful to have you on our team!
+
+
+
+From:    Debbie Malinowski
+Sent:    Monday, January 24, 1983 09:32 AM
+To:      Cameron Howe; Larry Goins; Malcolm Levitan
+
+Categories:    Thank You
+
+Hi Malcolm,
+
+I'm not sure what's more exhausting, trying to fix code or pretending to be grateful when people ask us to. But thank you anyway.
+
+You're welcome, I guess. Cameron was thrilled to help with that socket library thingy, and Larry was happy to spew forth his NetWare wisdom. Me? I just tried not to get too bored while reviewing your changes.
+
+Thanks again for the opportunity to contribute to this thrilling project. Can we just move on to the next one already?
+
+Very truly yours,
+Debbie Malinowski
+Secretary
+Administration, Cardiff Electric
++1 512-555-0133
+
+
+From:    Malcolm Levitan
+Sent:    Monday, January 24, 1983 09:32 AM
+To:      Cameron Howe; Larry Goins; Debbie Malinowski
+
+Categories: Thank You
+
+Subject: Thank You for Assistance
+
+
+Dear Cameron, Larry, and Debbie,
+
+I am compelled to express my gratitude for the time and effort each of you has invested in addressing my queries regarding the Novell NetWare 2.1 implementation. Your collective expertise has been invaluable in resolving the issues I encountered while attempting to integrate the file system with our existing infrastructure.
+
+Specifically, Cameron's insights on modifying the NCP protocol to accommodate our proprietary socket library were instrumental in overcoming a particularly stubborn hurdle. Larry's guidance on configuring the NetWare servers for optimal performance was also crucial in ensuring seamless integration. Debbie's patience and thoroughness in reviewing the code changes I proposed have been a welcome respite from the usual frustrations associated with debugging.
+
+In conclusion, your collective efforts have not only salvaged my sanity but have also allowed us to successfully deploy the new file system. I am deeply grateful for your contributions and look forward to our continued collaboration.
+
+Sincerely,
+Malcolm Levitan
+Programmer
++1 512-555-0182
+Cardiff Electric
+Software Development
+

@@ -1,0 +1,29 @@
+
+From:    Malcolm Levitan
+Sent:    Thursday, June 23, 1983 10:08 AM
+To:      John Bosworth; Larry Goins; Debbie Malinowski; Barry Shields
+
+Categories: Technical Support
+
+Subject:    Technical Support Issue - Category Errors
+
+
+Dear John, Larry, Debbie, and Barry,
+
+I'm writing to bring to your attention a technical support issue that has been worrying me. Our recent updates to the category system have introduced some inconsistencies in the way errors are being handled. Specifically, I've noticed that the 'Halt' error is not being properly propagated through the category hierarchy.
+
+Here's an example of the issue:
+```sql
+SELECT * FROM categories WHERE parent_id = 123 AND error_type = 'Halt';
+```
+This query returns a null result set, even though there are valid records in the categories table. I've tried debugging this issue using SQL Server Profiler, but so far, I haven't been able to pinpoint the root cause.
+
+I'd appreciate any guidance or insight you can provide on how to resolve this issue. If possible, please let me know if anyone has encountered similar problems in the past.
+
+Best regards,
+
+Malcolm Levitan
+Programmer, Cardiff Electric
+Software Development Department
++1 512-555-0182
+

@@ -1,0 +1,51 @@
+
+From:    Yo-Yo Engberk
+Sent:    Wednesday, April 27, 1983 03:51 PM
+To:      Ed Burris; Gordon Clark; Yo-Yo Engberk
+
+Categories:    Internal Announcement
+
+Dear Barry,
+
+I'm at my wit's end. Despair has taken over, and I'm not sure how much more of this I can take. Our cat is stuck in a tree, our coffee machine is on the fritz, and to top it off, I just spent three hours debugging this stupid code only to realize I wrote "var x = 5" instead of "x = 5". You know what they say: when life gives you lemons, make a bug report.
+
+As for the internal announcement, I'm feeling like I've lost my last marble. My mind is going blank, and I need your help to get it together. Can we grab some virtual coffee (or actual coffee, if you're in the area) to discuss?
+
+
+
+From:    Barry Shields
+Sent:    Wednesday, April 27, 1983 03:51 PM
+To:      Ed Burris; Gordon Clark; Yo-Yo Engberk
+
+Categories:    Internal Announcement
+
+Hi Yo-Yo,
+
+I'm feeling pretty motivated today, thanks for asking. The thought of debugging code all day has been replaced with visions of a successful internal announcement. Let's grab that virtual coffee and get down to business. I'm ready to bring my A-game (or at least my B+ game) to the table.
+
+What's the plan? What do we need to discuss for this announcement? Give me the lowdown, and let's make it happen.
+
+Very truly yours,
+Barry Shields
+Senior Counsel, Cardiff Electric, Legal
++1 512-555-0166
+
+
+From:    Yo-Yo Engberk
+Sent:    Wednesday, April 27, 1983 03:51 PM
+To:      Ed Burris; Barry Shields; Gordon Clark
+
+Categories: Internal Announcement
+
+Subject: 
+
+Dear Ed, Barry, and Gordon,
+
+I'm at my wit's end over here. Our cat is stuck in a tree, our coffee machine is on the fritz, and to top it off, I just spent three hours debugging this stupid code only to realize I wrote "var x = 5" instead of "x = 5". You know what they say: when life gives you lemons, make a bug report.
+
+Anyway, I need your collective genius on something. We have an internal announcement deadline looming, and my mind is going blank. Can we grab some virtual coffee (or actual coffee, if you're in the area) to discuss?
+
+Cheers,
+Yo-Yo Engberk
+Programmer, Cardiff Electric, Software Development
++1 512-555-0142

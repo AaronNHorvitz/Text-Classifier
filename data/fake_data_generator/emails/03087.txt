@@ -1,0 +1,22 @@
+
+From:    Malcolm Levitan
+Sent:    Thursday, May 05, 1983 11:36 AM
+To:      Debbie Malinowski
+
+Categories: Quality Assurance
+
+Subject:    QA Process Review Request
+
+
+Dear Debbie,
+
+I'm writing to request a review of our current QA process in Software Development. As you know, our recent regression testing has uncovered some inconsistencies that have raised my suspicions about the overall quality control.
+
+Specifically, I've noticed that the automated test scripts are not properly handling edge cases, which may be causing false negatives in our build validation. I'd like to propose a revised QA process that incorporates more rigorous testing and code review protocols.
+
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric - Software Development
++1 512-555-0182

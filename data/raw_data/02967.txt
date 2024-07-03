@@ -1,0 +1,23 @@
+
+From:    Yo-Yo Engberk
+Sent:    Friday, April 29, 1983 11:54 AM
+To:      Ed Burris; Debbie Malinowski; Joe MacMillan
+
+Categories: Technical Support
+
+Subject: 
+
+Glitches and Gripes
+
+Hi Ed, Debbie, Joe,
+
+I'm writing to vent about some techie troubles we've been having in the Software Development department. It seems like our Technical Support category is getting a bit glitchy (pun intended). I know we're all trying to catch fire with these new projects, but it's getting frustrating dealing with the same old issues over and over again.
+
+I'm hoping someone can help me debug this problem or at least offer some words of wisdom. I feel like I'm stuck in an infinite loop!
+
+Best,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142

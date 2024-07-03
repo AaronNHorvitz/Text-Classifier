@@ -1,0 +1,23 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, July 07, 1983 01:16 PM
+To:      Larry Goins; John Bosworth
+
+Categories: Industry News
+
+Subject:    Industry News: The Future is Now!
+
+Dear Larry and John,
+
+I hope this email finds you both coding like crazy! I just had to share some exciting news from the industry. Have you heard about the new IBM PC? It's a game-changer, folks! With its 640K of RAM (who knew that was even possible?) and 3.5-inch floppy drives, it's going to revolutionize the way we work. I mean, can you imagine having an entire megabyte of storage space at your fingertips?
+
+But seriously, this new PC is a big deal for us in software development. I think we should start exploring ways to optimize our code for the new architecture. What do you think? Should we get a team together to brainstorm some ideas?
+
+Talk to you soon!
+
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142
+

@@ -1,0 +1,23 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, July 06, 1983 02:13 PM
+To:      Joe MacMillan; Ed Burris; Debbie Malinowski; Larry Goins; Yo-Yo Engberk
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Process Discrepancies
+
+Dear All,
+
+EMAIL START
+
+
+The recent changes to our QA process have left me concerned about the thoroughness of our testing. Specifically, I've noticed that some critical paths are no longer being verified properly. As you know, I'm the one who implemented the original QA scripts, and I've taken great care to ensure they cover all possible scenarios. However, upon reviewing the recent test runs, I've found several instances where errors were not caught due to these discrepancies.
+
+
+I'd appreciate it if someone could take a look at this and get back to me with an explanation for what's going on. I'm not looking to assign blame, but rather understand how we can get our QA process back on track.
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182

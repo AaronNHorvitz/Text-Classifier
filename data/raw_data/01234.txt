@@ -1,0 +1,80 @@
+
+From:    Malcolm Levitan
+Sent:    Thursday, February 17, 1983 10:25 AM
+To:      Malcolm Levitan
+
+Categories:    Industry News
+
+Hi John,
+
+I'm glad we're on the same page about the potential implications of the PC-IX system. It's great to see Cardiff Electric Sales taking a proactive approach to staying ahead of the curve. I think our concerns about updating driver software are well-founded, and it's essential we work together to minimize disruptions.
+
+As you know, I've been pouring over the specs for the new interrupt handling mechanism, and I'm convinced that it will require significant updates to our existing codebase. I'd love to schedule a call with your team to discuss this further and explore ways we can collaborate to ensure a smooth transition.
+
+Let me know when you're available, and we'll set something up.
+
+Very truly yours,
+
+
+
+From:    Malcolm Levitan
+Sent:    Thursday, February 17, 1983 10:25 AM
+To:      Malcolm Levitan
+
+Categories:    Industry News
+
+Dear John,
+
+I'm feeling utterly devastated today. Your mention of the PC-IX system has me questioning everything I thought I knew about our industry. I've been pouring over the specs, trying to make sense of it all, and I just can't help but wonder what kind of disruptions we're looking at.
+
+Look, I get it - updating our driver software is a necessity. But how do you propose we minimize the impact on our existing product lines? That's the million-dollar question for me right now.
+
+I'd love to schedule that call with your team to discuss this further. Maybe there are some insights or strategies that Cardiff Electric Sales has developed that could help us navigate this mess. Let me know when you're free, and we can set something up.
+
+
+
+From:    John Bosworth
+Sent:    Thursday, February 17, 1983 10:25 AM
+To:      Malcolm Levitan
+
+Categories:    Industry News
+
+Hi Malcolm,
+
+I'm grateful to hear that you're taking a close look at the PC-IX system. I've been following it as well, and while I agree that the new architecture does show promise, I'm also concerned about the potential implications for our existing codebase.
+
+I think your assessment of the need for significant updates to our driver software is spot on. We do have a lot invested in developing robust drivers for PC-IX, and we can't afford to disrupt our product lines unnecessarily.
+
+As you know, my team at Cardiff Electric Sales has been working closely with the developers at Cardiff Electric Software Development to ensure that our sales strategy stays ahead of the curve. I think it would be beneficial to schedule a call to discuss your concerns in more detail and explore ways we can work together to minimize any disruptions.
+
+Let me know when you're available, and we'll set something up.
+
+
+
+From:    Malcolm Levitan
+Sent:    Thursday, February 17, 1983 10:25 AM
+To:      John Bosworth
+
+Categories: Industry News
+
+Subject:    Industry Insights: PC-IX System
+
+Dear John,
+
+EMAIL BODY
+
+
+I've been following the recent developments in the PC-IX system and wanted to share some observations. While the new architecture does show promise, I'm concerned about the implications for our existing codebase. Specifically, the introduction of a new interrupt handling mechanism will require significant updates to our driver software.
+
+As you know, we've invested considerable time and resources into developing robust drivers for PC-IX. Given the complexity of this change, I believe it's essential we take a measured approach to ensure minimal disruption to our existing product lines.
+
+I'd appreciate any insights or guidance you may have on this matter. Perhaps we could schedule a call to discuss further?
+
+Best regards,
+
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+

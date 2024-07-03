@@ -1,0 +1,27 @@
+
+From:    Malcolm Levitan
+Sent:    Thursday, July 14, 1983 03:27 PM
+To:      Cameron Howe; Debbie Malinowski
+
+Categories: Industry News
+
+Subject:    Industry News - IBM PC/AT Architecture Analysis
+
+
+Dear Cameron and Debbie,
+
+I'm thrilled to share my findings on the IBM PC/AT architecture, which has significant implications for our work in software development. After conducting a thorough analysis of the published specifications, I've identified several key takeaways:
+
+The PC/AT's x86-16 processor is an optimized version of the 8088 processor used in previous IBM PCs. This means we can leverage existing codebases with minimal modifications.
+
+The use of a single-level memory architecture simplifies memory management and reduces overhead.
+
+I've also noticed that the PC/AT's BIOS contains a more extensive set of APIs, which could streamline our development process.
+
+These findings have important implications for our project timelines and resource allocation. I recommend we schedule a meeting to discuss how these changes impact our strategy moving forward.
+
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric - Software Development
++1 512-555-0182

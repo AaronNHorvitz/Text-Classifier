@@ -1,0 +1,48 @@
+
+From:    Larry Goins
+Sent:    Wednesday, June 15, 1983 04:01 PM
+To:      Barry Shields
+
+Categories:    System Outage
+
+Hi Barry,
+
+I'm not sure what kind of system outage is bad enough to warrant a separate category, but I'll play along. So, an emergency meeting with stakeholders, you say? Sounds like a whole lot of people getting together to make excuses and point fingers. I mean, really, who's behind this system failure? Is it the IT guys? The programmers? Or maybe it's just plain old human error?
+
+Look, Barry, I'm happy to help fix whatever is broken, but I think we should focus on finding the root cause of this problem before we start calling in the whole cavalry. Just my two cents.
+
+Very truly yours,
+
+Larry Goins
+Support Technician
+Cardiff Electric
+Technical Support
+
+
+From:    Barry Shields
+Sent:    Wednesday, June 15, 1983 04:01 PM
+To:      Larry Goins
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Dear Larry,
+
+I am compelled to report that a system outage has occurred, necessitating immediate attention from your department. The particulars of the incident are as follows: [insert details here]. In light of this development, I recommend a thorough investigation into the root cause of the malfunction.
+
+In my expert opinion, it is essential that we take swift action to rectify this issue and prevent any future occurrences. I propose that we schedule an emergency meeting with relevant stakeholders to discuss a comprehensive plan of action.
+
+Please confirm your availability at your earliest convenience.
+
+
+Sincerely,
+
+Barry Shields
+Senior Counsel
++1 512-555-0166
+Cardiff Electric
+Legal Department
+
+

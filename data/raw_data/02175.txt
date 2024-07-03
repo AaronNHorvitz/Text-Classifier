@@ -1,0 +1,21 @@
+
+From:    Malcolm Levitan
+Sent:    Friday, April 01, 1983 01:05 PM
+To:      Ed Burris
+
+Categories: Vacation Notice
+
+Subject:    Vacation Notice
+
+Dear Ed,
+
+EMAIL BODY
+I'm pleased to notify you that I will be taking a brief vacation from August 15th to August 22nd. As per company policy, I've made sure to schedule my leave during a non-critical phase of our project timeline. During this period, I'll be unavailable for any urgent matters, but I've arranged for coverage with the team.
+
+In terms of code, I've taken care of updating our ticket system and ensuring that all outstanding tasks are delegated or completed before my departure. You can refer to my latest commit on Git: `git log -1 | grep "Vacation Notice"`
+
+I've also made sure to complete all necessary documentation and handovers with the team.
+
+EMAIL BODY
+In case of any emergencies, please reach out to our team lead, Joe McMillan. His contact information is available in our company directory.
+

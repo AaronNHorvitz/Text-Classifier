@@ -1,0 +1,29 @@
+
+From:    Malcolm Levitan
+Sent:    Thursday, May 05, 1983 10:55 AM
+To:      John Bosworth
+
+Categories: Compliance
+
+Subject: Compliance and JSON Data Serialization
+
+
+Dear John,
+
+I've been reviewing our project's compliance requirements and noticed that we're still using XML to serialize data. As you know, I'm a fan of JSON, and I think it would be more efficient for us to switch to a JSON-based approach.
+
+For example, take the following code snippet:
+```json
+{
+  "name": "John Doe",
+  "age": 30,
+  " occupation": "Software Developer"
+}
+```
+This would be easier to work with than XML. I've already started looking into the necessary modifications for our project. Would you like me to send over some preliminary code?
+
+Best regards,
+
+Malcolm Levitan
+Programmer, Cardiff Electric
++1 512-555-0182

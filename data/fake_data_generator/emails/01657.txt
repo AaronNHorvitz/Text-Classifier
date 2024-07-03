@@ -1,0 +1,47 @@
+
+From:    Debbie Malinowski
+Sent:    Tuesday, March 08, 1983 01:11 PM
+To:      Yo-Yo Engberk; Larry Goins; Malcolm Levitan
+
+Categories:    Training and Development
+
+Hello Malcolm,
+
+I'm thrilled to hear that you're taking initiative to address our training needs! It's imperative that we stay current with the latest coding trends, and your proposal for a refresher course on Java fundamentals is spot on. I think it would be incredibly beneficial not only for myself but also for the entire team.
+
+In fact, I've been noticing that several colleagues have been struggling to keep up with the new developments in Java, and I believe this course would really help bridge that gap. The self-paced approach with optional office hours sounds like a great way to cater to different learning styles.
+
+I'm more than happy to participate and even suggest some topics for future training sessions. Perhaps we could also consider inviting industry experts or guest speakers to share their experiences and insights? It's always fascinating to hear about real-world applications of the concepts we're learning.
+
+Please let me know what I can do to help make this course a reality, and I'll be more than happy to lend a hand!
+
+Very truly yours,
+Debbie Malinowski
++1 512-555-0133
+Secretary, Administration, Cardiff Electric
+
+
+From:    Malcolm Levitan
+Sent:    Tuesday, March 08, 1983 01:11 PM
+To:      Debbie Malinowski; Yo-Yo Engberk; Larry Goins
+
+Categories: Training and Development
+
+Subject: Training and Development
+
+
+Hi Debbie, Yo-Yo, Larry,
+
+I've been reviewing our training records and I noticed that several employees have yet to complete their mandatory coding challenges. As you know, these exercises are crucial for ensuring we're all up-to-date with the latest languages and frameworks. Specifically, I'm concerned about the lack of progress on the Java front-end module.
+
+To address this, I'd like to propose a refresher course on Java fundamentals, focusing on topics such as polymorphism and inner classes. This will not only improve our collective proficiency but also provide a solid foundation for future projects. The course would be self-paced, with optional office hours for questions and feedback.
+
+Please let me know if you're interested in participating or have any suggestions to enhance the training experience.
+
+Best regards,
+Malcolm Levitan
+Programmer
++1 512-555-0182
+Cardiff Electric
+Software Development
+

@@ -1,0 +1,46 @@
+
+From:    Debbie Malinowski
+Sent:    Thursday, January 13, 1983 10:46 AM
+To:      Malcolm Levitan; John Bosworth; Cameron Howe; Ed Burris; Joe MacMillan; Donna Clark; Yo-Yo Engberk; Larry Goins; Gordon Clark
+
+Categories:    Quality Assurance
+
+Hi Gordon,
+
+I'm loving the innovative vibe in your latest proposal to refine our Quality Assurance process. I think we're finally starting to get a handle on what works and what doesn't around here, and it's about time!
+
+In terms of your proposed changes, I'm generally on board with formalizing testing and validation procedures. It makes sense that having clear guidelines would help reduce errors and improve overall project efficiency. I do have some questions about how we'd implement these audits to verify compliance, though. Would love to hear more about that.
+
+I also think it's a great idea to track and analyze quality metrics - that'll definitely give us a better understanding of what we're doing well and where we need to improve.
+
+Please keep me posted on any updates or changes you make to the proposal. I'm excited to see how this all plays out!
+
+Very truly yours,
+Debbie Malinowski
++1 512-555-0133
+Secretary, Cardiff Electric Administration
+
+
+From:    Gordon Clark
+Sent:    Thursday, January 13, 1983 10:46 AM
+To:      Malcolm Levitan; John Bosworth; Cameron Howe; Ed Burris; Joe MacMillan; Donna Clark; Yo-Yo Engberk; Debbie Malinowski; Larry Goins
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Process Refinement
+
+
+Dear All,
+
+In an effort to streamline our QA process and ensure consistent quality control across all Engineering projects, I propose we implement a new set of protocols. Specifically, I recommend we establish clear guidelines for testing and validation procedures, as well as regular audits to verify compliance.
+
+By formalizing these processes, I believe we can reduce errors and improve overall project efficiency. Additionally, this will enable us to better track and analyze quality metrics, allowing for more informed decision-making moving forward.
+
+Please review the attached document for a comprehensive outline of my proposed changes. Your feedback is invaluable in refining this process further.
+
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Cardiff Electric
+Engineering Department
+

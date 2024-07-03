@@ -1,0 +1,22 @@
+
+From:    Gordon Clark
+Sent:    Monday, May 16, 1983 01:29 PM
+To:      Debbie Malinowski; Larry Goins; Barry Shields; Joe MacMillan; Malcolm Levitan; Ed Burris
+
+Categories: Reminder
+
+Subject:    Reminder: Upcoming Deadline for IBM PC Clone Development
+
+
+Dear Team,
+
+I'm writing to remind everyone that our deadline for completing the IBM PC clone development project is fast approaching. As you know, we've made significant progress in recent weeks, but there's still much work to be done.
+
+In particular, I'd like to emphasize the importance of ensuring that our code is thoroughly tested and debugged before presenting it to the executive team. Let's not forget the scrutiny they'll bring to bear on our work - we must be prepared to demonstrate the quality and reliability of our product.
+
+
+Best regards,
+Gordon Clark
+Chief Engineer, Cardiff Electric
+Engineering Department
++1 512-555-0198

@@ -1,0 +1,45 @@
+
+From:    Ed Burris
+Sent:    Wednesday, May 18, 1983 10:18 AM
+To:      Larry Goins; Malcolm Levitan; Joe MacMillan; Donna Clark; Debbie Malinowski; Cameron Howe
+
+Categories:    System Outage
+
+Hi Cameron,
+
+I don't know what's going on, but my whole world feels like it's spinning out of control. The system being down is just the tip of the iceberg. I've got a meeting with the team to discuss the latest changes in the manufacturing process, and I'm not even sure if our computers will be up by then.
+
+It's like you said - this is no minor glitch. This is a catastrophe waiting to happen. And you know what? I'm already overwhelmed. We're trying to get the new chip out the door, and now we've got this mess on our hands. I don't know how much more of this I can take.
+
+Very truly yours,
+Ed Burris
++1 512-555-0155
+Project Manager
+Cardiff Electric
+Project Management
+
+
+From:    Cameron Howe
+Sent:    Wednesday, May 18, 1983 10:18 AM
+To:      Larry Goins; Ed Burris; Malcolm Levitan; Joe MacMillan; Donna Clark; Debbie Malinowski
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Hey Guys,
+
+Listen, we've got a real problem on our hands. The whole system is down, and I'm not just talking about Cardiff Electric. I mean, have you checked your own personal computers? I can guarantee they're all screaming at each other like the ones in the lab. It's like someone pulled the plug on the entire damn thing.
+
+Now, I know what you're thinking: "Cameron, it's just a minor glitch." But trust me, this is no minor glitch. This is the kind of problem that'll have us all scrambling to put out fires for weeks. And let me tell you, nobody's got time for that.
+
+
+Signoff:
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development
+
+

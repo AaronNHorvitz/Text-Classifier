@@ -1,0 +1,32 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, February 08, 1983 02:16 PM
+To:      Cameron Howe; Yo-Yo Engberk
+
+Categories:    System Outage
+
+Dear Yo-Yo,
+
+I'm disappointed to hear about another system outage. It seems like we're having one of those weeks where everything that can go wrong does. I'm starting to think that our mainframe is just as reliable as a used car salesman.
+
+Seriously, though, what's the status on finding the root cause? Have you talked to anyone in IT yet or are you still trying to troubleshoot it yourself?
+
+
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, February 08, 1983 02:16 PM
+To:      Cameron Howe; Malcolm Levitan
+
+Categories: System Outage
+
+Subject:    System Outage
+
+Dear Cameron and Malcolm,
+
+EMAIL START
+
+
+Oh, the joy of writing an email about a system outage... Can't say I'm thrilled to be reporting another hiccup in our lovely Cardiff Electric systems. But, I suppose it's better than having to do actual work (just kidding, sorta).
+
+Seriously though, we've had a few reports of our mainframe going dark on us. Not sure what's causing the issue yet, but I'm on it like a code monkey on a caffeine high.
+

@@ -1,0 +1,54 @@
+
+From:    Gordon Clark
+Sent:    Thursday, May 05, 1983 12:03 PM
+To:      Gordon Clark
+
+Categories:    Thank You
+
+Dear Ed,
+
+I'm astonished by your vitriolic tone. Can't you see that I'm trying to make amends here? You're still stuck on my perceived betrayal, while I've been busy fixing the mess we got ourselves into. Newsflash: it's not about personal vendettas; it's about getting the job done.
+
+I'll have you know that my "harebrained scheme" - as you so eloquently put it - was a stroke of genius. And if it weren't for me, we'd still be struggling to get anything off the ground. You can try to spin this however you like, but at the end of the day, I'm the one who brought home the bacon.
+
+Now that we've got the emulator working, let's focus on moving forward. There are bigger fish to fry than rehashing old grudges.
+
+Very truly yours,
+
+Gordon Clark
+Chief Engineer, Cardiff Electric
+Engineering
++1 512-555-0198
+
+
+From:    Ed Burris
+Sent:    Thursday, May 05, 1983 12:03 PM
+To:      Gordon Clark
+
+Categories:    Thank You
+
+Dear Gordon,
+
+I'm not sure what to say. You're thanking me? For what, exactly? You're the one who got us into this mess in the first place with your harebrained scheme to emulate an Altair 8800. And now you're thanking me for helping you clean up after yourself?
+
+Look, I don't know about you, but I'm still trying to process the fact that you stabbed me in the back and betrayed my trust. You said you had my back, Gordon. You said we were a team. But it seems like all along, you were just using me to get what you wanted.
+
+So, no, Gordon. I won't be thanking you anytime soon. In fact, I'm still trying to figure out how I can recover from the damage you've done.
+
+
+
+From:    Gordon Clark
+Sent:    Thursday, May 05, 1983 12:03 PM
+To:      Ed Burris
+
+Categories: Thank You
+
+Subject: Thank You
+
+
+Dear Ed,
+
+I'm compelled to acknowledge my gratitude for your recent assistance. Despite my initial reluctance, your input has proven instrumental in resolving the issues with the Altair 8800 emulator. I must admit, I've been carrying a sense of guilt regarding this project's outcome, and your contributions have significantly alleviated that burden.
+
+Please be assured that I will ensure our team's understanding of the implications and potential improvements to the emulator's architecture.
+

@@ -1,0 +1,22 @@
+
+From:    Gordon Clark
+Sent:    Wednesday, March 16, 1983 01:35 PM
+To:      Donna Clark; Cameron Howe; Joe MacMillan; Barry Shields; Malcolm Levitan
+
+Categories: System Outage
+
+Subject:    System Outage
+
+Dear All,
+
+EMAIL BODY
+The system outage yesterday evening was caused by a faulty motherboard component. I've run diagnostics and can confirm that the issue has been isolated to this specific part. We'll need to replace it before we can guarantee reliable operation. I've begun researching replacement options and will present my findings at our next meeting.
+
+In related news, I've taken the liberty of updating our inventory management software to reflect the current state of our spare parts. This should help us avoid similar issues in the future.
+
+EMAIL SIGNATURE
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Cardiff Electric
+Engineering Department
+

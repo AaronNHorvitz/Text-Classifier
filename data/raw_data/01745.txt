@@ -1,0 +1,23 @@
+
+From:    Cameron Howe
+Sent:    Friday, March 11, 1983 09:47 AM
+To:      Ed Burris; Debbie Malinowski; Larry Goins
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Hi Ed, Debbie, and Larry,
+
+System's gone dark, and we're not just talking about a minor reboot. This thing is down like a Dallas Cowboys' quarterback after a hit from Reggie White. I've been digging through logs, and it looks like our beloved mainframe has decided to take an extended nap.
+
+Now, I know what you're thinking: "Cameron, how did this happen?" Well, let's just say I found a few... creative solutions we implemented earlier today. I won't go into details (yet), but suffice it to say that our system is now as useful as a broken calculator.
+
+So, what do we do? Do we try to wake the beast or call in the experts?
+
+Best,
+Cameron Howe
+Lead Software Developer
+Cardiff Electric
++1 512-555-0147

@@ -1,0 +1,17 @@
+
+From:    Gordon Clark
+Sent:    Thursday, July 07, 1983 02:47 PM
+To:      Larry Goins
+
+Categories: Supplier Relations
+
+Subject:    Supplier Relations: High-Speed Interface Specifications
+
+Dear Larry,
+
+I've been pouring over the latest supplier proposals, and I'm compelled to express my concerns regarding the high-speed interface specifications. It's imperative that we establish a clear set of guidelines for component integration, lest we invite chaos into our systems.
+
+The current proposals from Intel and Texas Instruments are woefully inadequate. Their reluctance to adopt the new 8-bit protocol is not only shortsighted but also jeopardizes the entire project. I implore you to reconsider our options and explore more innovative solutions.
+
+In my opinion, the answer lies in reworking the existing architecture to accommodate the new protocol. It's a risk, I admit, but one that could yield exponential gains in efficiency and reliability. I'd be happy to discuss this further with you.
+

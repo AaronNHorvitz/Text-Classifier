@@ -1,0 +1,41 @@
+
+From:    Ed Burris
+Sent:    Thursday, May 26, 1983 11:15 AM
+To:      Larry Goins
+
+Categories:    Reminder
+
+Hi Larry,
+
+Thanks for the reminder. I'm not really sure what's going on, but I'll go through the motions. Running diagnostics is about as exciting as watching paint dry, but I guess it's better than nothing.
+
+I appreciate your help with this, even if I don't really understand why we're still talking about it. It feels like we've been stuck in some kind of bureaucratic loop for weeks now.
+
+Very truly yours,
+
+
+From:    Larry Goins
+Sent:    Thursday, May 26, 1983 11:15 AM
+To:      Ed Burris
+
+Categories: Reminder
+
+Subject: Reminder
+
+
+Hi Ed,
+
+I'm following up on our previous discussions regarding the issues with the 3160 series mainframe. As a reminder, we had identified a possible firmware update that could resolve the errors you've been experiencing.
+
+To troubleshoot further, I recommend running the diagnostic tests outlined in Section 3.4 of the user manual (PDF page 17). If these steps don't yield any results, please let me know and we can schedule a remote session to investigate further.
+
+As always, if you have any questions or concerns, feel free to reach out.
+
+Best regards,
+
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric
+Technical Support
+

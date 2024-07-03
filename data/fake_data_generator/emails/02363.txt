@@ -1,0 +1,23 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, April 07, 1983 10:38 AM
+To:      Gordon Clark; Donna Clark; Larry Goins; Barry Shields; Cameron Howe
+
+Categories: Apology
+
+Subject:    Oops, Sorry About That!
+
+Dear Team,
+
+EMAIL START
+
+I'm writing to apologize for the minor hiccup I caused in our code last night. It seems my experiment with a new algorithm got a bit too creative and ended up causing a temporary crash. Please know it was entirely unintentional, and I'm already working on a fix.
+
+Let's just say I learned my lesson: "garbage in, garbage out"... or should I say, "code in, code out"?
+
+Cheers,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142

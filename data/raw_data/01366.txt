@@ -1,0 +1,46 @@
+
+From:    Gordon Clark
+Sent:    Wednesday, February 23, 1983 11:02 AM
+To:      Donna Clark; Malcolm Levitan; Yo-Yo Engberk
+
+Categories:    Apology
+
+Dear Yo-Yo,
+
+I just got your email and I'm feeling joyful about the apology. It's always great to see someone taking responsibility for their actions, even if they're just coding catastrophes. And hey, debugging that BIOS issue is definitely a small victory - I'm sure it was a real challenge to get to the bottom of it.
+
+In all seriousness though, your apology is much appreciated. We've all been there at some point or another, and it's never easy to admit when we're wrong. So thank you for being honest and taking ownership of your mistakes.
+
+Here's to looking forward to the next time we can all catch up in person!
+
+Very truly yours,
+Gordon Clark
+Chief Engineer, Cardiff Electric, Engineering
++1 512-555-0198
+
+
+From:    Yo-Yo Engberk
+Sent:    Wednesday, February 23, 1983 11:02 AM
+To:      Donna Clark; Gordon Clark; Malcolm Levitan
+
+Categories: Apology
+
+Subject: 
+
+Apologies all around!
+
+Hi Donna, Gordon, Malcolm,
+
+I'm feeling a little wistful as I write this. It's been a while since we've all caught up (except for our daily dose of COBOL woes, of course). Anyhoo, I wanted to reach out and apologize for any inconvenience my coding catastrophes may have caused.
+
+On the bright side, I did manage to debug that pesky BIOS issue we were stumped on. It's a small victory, but someone's gotta keep the mainframe humming!
+
+Anyway, hope this finds you all well and not too tired of dealing with me (just kidding... or am I?).
+
+Best,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142
+

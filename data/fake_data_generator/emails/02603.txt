@@ -1,0 +1,25 @@
+
+From:    Larry Goins
+Sent:    Friday, April 15, 1983 12:49 PM
+To:      Yo-Yo Engberk
+
+Categories: Industry News
+
+Subject: Industry News: Changes in PC-AT Architecture
+
+Dear Yo-Yo,
+
+I'm writing to bring some news that's got me feeling a bit down, to be honest. It seems that IBM has announced changes to the PC-AT architecture, and it's going to have significant implications for our industry.
+
+The new design prioritizes speed over compatibility, which means we'll see more fragmentation in the market. I'm worried about what this means for Cardiff Electric and our customers. Have you heard anything about this? I'd love to get your thoughts on how we can adapt to these changes.
+
+I've also been going through some of the new documentation from IBM, and I wanted to pass along a few tips for troubleshooting PC-AT compatibility issues. If you're interested, let me know and I can send over the notes.
+
+Please take care,
+
+Larry Goins
+Support Technician
+Cardiff Electric
+Technical Support
++1 512-555-0144
+

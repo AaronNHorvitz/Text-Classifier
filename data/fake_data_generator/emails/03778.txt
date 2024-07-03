@@ -1,0 +1,106 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, June 06, 1983 09:58 AM
+To:      Malcolm Levitan
+
+Categories:    Personal Update
+
+Dear Donna and Larry,
+
+I'm thrilled to hear that my update has lifted your spirits, Donna. And don't worry, Larry, I know exactly how you feel. Sometimes it feels like we're stuck in Phase Zero, doesn't it? But the important thing is that we're not giving up.
+
+As for my project, I'm excited to share with you both that I've completed 75% of Phase One. The code snippets I included should give you a good idea of what's going on. I'd love to get your feedback and make sure everything is in order before moving forward.
+
+Larry, I think an email review would be perfect for this. No need to schedule a meeting when we can just exchange emails back and forth. Plus, it'll give us a chance to digest the information at our own pace.
+
+Donna, I agree with you that an email review would work well. Just send me your thoughts and any feedback you might have, and we can go from there.
+
+Let's keep moving forward together! We're not just programmers; we're a team.
+
+Very truly yours,
+
+Malcolm Levitan
+Programmer, Cardiff Electric
++1 512-555-0182
+
+
+From:    Donna Clark
+Sent:    Monday, June 06, 1983 09:58 AM
+To:      Malcolm Levitan
+
+Categories:    Personal Update
+
+Dear Malcolm,
+
+I'm thrilled to hear that you're making progress on the project. 75% of Phase One done? That's amazing, Malcolm! You're a rockstar.
+
+I have to admit, when I read Larry's email earlier today, I was feeling a bit down in the dumps myself. It's easy to get caught up in our own struggles and forget that we're all in this together. But your update has really lifted my spirits.
+
+As for reviewing your code, I think an email review would be perfect. No need to schedule a meeting when we can just exchange emails back and forth. Plus, it'll give me a chance to digest the information at my own pace.
+
+The snippets you included look great! I'll definitely take a closer look and provide any feedback I might have. Let's make sure we catch any potential errors early on and keep moving forward.
+
+
+
+From:    Larry Goins
+Sent:    Monday, June 06, 1983 09:58 AM
+To:      Donna Clark; Malcolm Levitan
+
+Categories:    Personal Update
+
+Hi Malcolm,
+
+I'm feeling pretty disappointed. You're doing better than me in every way. I mean, 75% of Phase One done? That's like a whole different person. Me, on the other hand, is still stuck in Phase Zero.
+
+Don't get me wrong, I'm glad you're making progress and all that jazz. It's just...I don't know, it feels like no matter how hard I try, I'm not getting anywhere. Maybe I should just give up and become a professional armchair philosopher like my old buddy, Grayson.
+
+Anyway, enough about me. You want to review the code in person or via email? Honestly, I think we're both too tired for a meeting right now. Just send it over and I'll take a look when I'm feeling more...human.
+
+Very truly yours,
+Larry Goins
+Support Technician, Cardiff Electric
++1 512-555-0144
+
+
+From:    Malcolm Levitan
+Sent:    Monday, June 06, 1983 09:58 AM
+To:      Donna Clark; Larry Goins
+
+Categories: Personal Update
+
+Subject: 
+
+Personal Update
+
+Dear Donna,
+Hi Larry,
+
+I wanted to provide a brief update on my progress with the project. As of today, I have completed 75% of the coding required for Phase One. The latest iteration of the code (commit #3456) has resolved the issues we discussed during our meeting last week.
+
+In terms of timeline, I am confident that I will meet the deadline for this phase. However, I would like to request a brief review of my work before proceeding to Phase Two. This will ensure that the foundation is solid and allow us to catch any potential errors early on.
+
+I have included a few code snippets from the latest commit below:
+
+```
+public class User {
+    private String username;
+    private int balance;
+
+    public User(String username, int balance) {
+        this.username = username;
+        this.balance = balance;
+    }
+
+    public void deposit(int amount) {
+        balance += amount;
+    }
+}
+```
+
+Please let me know if you would like to review the code in person or via email.
+
+Best regards,
+
+Malcolm Levitan
+Programmer, Cardiff Electric
++1 512-555-0182

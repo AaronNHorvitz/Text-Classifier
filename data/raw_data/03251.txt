@@ -1,0 +1,59 @@
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, May 10, 1983 11:10 AM
+To:      Barry Shields; Debbie Malinowski; Gordon Clark; Ed Burris; Malcolm Levitan
+
+Categories:    Supplier Relations
+
+Hi Malcolm,
+
+Thanks for reaching out and sharing those code snippets. I've taken a look at the data, and I think we're good to go. The inventory levels do seem to be in order. I'm not seeing any stockouts or issues with the shipment dates.
+
+I did notice that you used printf() instead of print(). Just a minor thing, but thought I'd mention it. Maybe we should standardize on one or the other?
+
+Let me know if you have any other questions or concerns. I'm always happy to help with supplier relations and inventory management.
+
+Very truly yours,
+Yo-Yo Engberk
++1 512-555-0142
+Programmer
+Cardiff Electric
+Software Development
+
+
+From:    Malcolm Levitan
+Sent:    Tuesday, May 10, 1983 11:10 AM
+To:      Barry Shields; Debbie Malinowski; Gordon Clark; Ed Burris; Yo-Yo Engberk
+
+Categories: Supplier Relations
+
+Subject: Supplier Relations - Inventory Management Query
+
+
+Hello,
+
+I'm writing to clarify some details regarding our current supplier relations. As part of my ongoing review of our inventory management process, I've been analyzing the data and noticed a discrepancy between the expected and actual shipment dates for our latest batch of 80386 CPU's from Intel.
+
+After running some code snippets (see below) to reconcile the data, I'm confident that we can optimize our ordering process by adjusting the lead times. This should result in a more accurate forecast of inventory levels and prevent stockouts.
+
+Here are the relevant code snippets:
+
+```c
+int expectedShipmentDate = 19830515;
+int actualShipmentDate = 19830420;
+
+if (actualShipmentDate < expectedShipmentDate) {
+    printf("Stockout detected!\n");
+} else {
+    printf("Inventory levels look good.\n");
+}
+```
+
+I'd appreciate it if you could review the data and let me know your thoughts on this matter. If necessary, we can schedule a meeting to discuss further.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182

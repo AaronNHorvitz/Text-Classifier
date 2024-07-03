@@ -1,0 +1,26 @@
+
+From:    Cameron Howe
+Sent:    Sunday, May 01, 1983 12:08 PM
+To:      John Bosworth; Larry Goins; Barry Shields; Debbie Malinowski; Yo-Yo Engberk
+
+Categories: System Outage
+
+Subject: System Outage - The Plot Thickens
+
+
+Hello John, Larry, Barry, Debbie, and Yo-Yo,
+
+We're experiencing a minor system outage, but I like to think of it as an opportunity for our systems to get their bearings. Seriously though, it's causing some issues with data processing and we're working on identifying the root cause. I've got my team on it and we'll have this resolved ASAP.
+
+Keep in mind that our system logs are currently wonky, so any data discrepancies should be treated with a grain of salt (or several).
+
+Looking forward to getting this sorted out and back to business as usual.
+
+Best,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development
+
+

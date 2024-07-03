@@ -1,0 +1,65 @@
+
+From:    Gordon Clark
+Sent:    Friday, March 25, 1983 03:44 PM
+To:      Yo-Yo Engberk; Malcolm Levitan
+
+Categories:    Supplier Relations
+
+Dear Joe,
+
+I'm not surprised to see Malcolm's enthusiasm waning. He always gets too caught up in the details. But, as he says, our suppliers are only as good as their word. And if they can't even get their timestamp formatting straight... well, you know.
+
+As for the discrepancies Malcolm mentioned, I agree that Vendor X and Y need attention. But let's not forget that these suppliers are just a means to an end. What matters most is that we're getting what we need to move forward with Cardiff Electric.
+
+I'll make sure to follow up with Malcolm on this, but in the meantime, can you give me some insight into what kind of lead times we're looking at for the new components? I want to make sure our schedules are aligned.
+
+
+
+From:    Joe MacMillan
+Sent:    Friday, March 25, 1983 03:44 PM
+To:      Yo-Yo Engberk; Gordon Clark; Malcolm Levitan
+
+Categories:    Supplier Relations
+
+Hi Malcolm,
+
+I don't have time to wade through your code snippets and supplier relations data. What I need to know is how these "vendors" are going to get me what I want, when I want it. Can you tell me that? Because right now, all I see is a bunch of numbers and formatting issues. Get to the point, Malcolm.
+
+As for the discrepancies you mentioned, let's just say I'm not surprised. Vendors, like people, are only as good as their word. And if they can't even get their timestamp formatting straight, what makes me think they'll deliver on anything else?
+
+Look, Malcolm, I appreciate your enthusiasm, but let's keep things in perspective. This isn't a game of supplier relations checkers. We're talking about the future of Cardiff Electric here.
+
+
+
+From:    Malcolm Levitan
+Sent:    Friday, March 25, 1983 03:44 PM
+To:      Yo-Yo Engberk; Gordon Clark; Joe MacMillan
+
+Categories: Supplier Relations
+
+Subject:    Supplier Relations Feedback
+
+
+Dear Yo-Yo, Gordon, and Joe,
+
+I've been reviewing our supplier relations data and I'm pleased to report that our current vendors are performing well. The recent updates to their firmware have improved communication latency by approximately 30% (see code snippet below).
+
+```sql
+SELECT * FROM suppliers WHERE performance > 0.7;
+```
+
+However, I did notice a few discrepancies in the data that requires further investigation. I've outlined the affected vendors and the corresponding errors below:
+
+* Vendor X: Inconsistent timestamp formatting (UTC vs. CST) affecting synchronization.
+* Vendor Y: Missing documentation for their API v2 update.
+
+I'm happy to provide more detailed analysis or assist with rectifying these issues, as needed.
+
+Best regards,
+
+Malcolm Levitan
+Programmer
++1 512-555-0182
+Cardiff Electric
+Software Development
+

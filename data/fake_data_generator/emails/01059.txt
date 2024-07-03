@@ -1,0 +1,18 @@
+
+From:    Cameron Howe
+Sent:    Monday, February 14, 1983 11:12 AM
+To:      Ed Burris
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Dear Ed,
+
+I'm writing to you from the trenches of our latest system outage. It's like Groundhog Day up in here, but instead of Bill Murray, it's just me, reliving the same damn bugs over and over.
+
+Our systems are down, and I'm starting to think we're not alone in this struggle. I mean, who else is still using COBOL? Have you seen our error logs? It's like a war zone up there.
+
+I'm trying to figure out what's going on, but it's like searching for a needle in a haystack blindfolded while being attacked by bees.
+

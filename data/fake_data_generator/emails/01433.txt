@@ -1,0 +1,25 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, February 28, 1983 12:12 PM
+To:      Debbie Malinowski; Gordon Clark; Joe MacMillan; John Bosworth; Larry Goins
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Dear Team,
+
+I'm writing to express my frustration regarding the current state of our project. Despite my repeated warnings, we're still experiencing issues with the caching mechanism in our new operating system. Specifically, the hash table collisions are causing unacceptable performance degradation.
+
+As you know, I provided a patch (https://github.com/CardiffElectric/OS/pull/12) addressing this issue two weeks ago. To date, I have not received any feedback or updates on whether it has been reviewed or implemented. In my opinion, this is unacceptable given the critical nature of this problem.
+
+I expect a response and an update on the status of my patch by EOD tomorrow. If I do not receive a satisfactory answer, I will be forced to escalate this issue further.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+

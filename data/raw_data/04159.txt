@@ -1,0 +1,32 @@
+
+From:    Malcolm Levitan
+Sent:    Saturday, June 18, 1983 10:31 AM
+To:      Barry Shields; Joe MacMillan; Donna Clark; Debbie Malinowski; Larry Goins; Gordon Clark; Cameron Howe; John Bosworth; Ed Burris
+
+Categories: Supplier Relations
+
+Subject:    Supplier Relations: Clarification on Component Sourcing
+
+
+Dear Barry Shields,
+
+I'm writing to request some clarification on our supplier relations for the new project. As you know, we've been experiencing issues with component sourcing and I'd like to get your input on the best approach.
+
+In particular, I was wondering if we could consider using the new USB 1.0 specification for the peripheral devices. The code snippet below illustrates the benefits:
+
+```python
+import usb
+device = usb.find_open_device()
+print(device)
+```
+
+I've been reviewing the specifications and it seems that this would simplify our manufacturing process and reduce costs.
+
+If you're available, I'd appreciate a call to discuss further. Please let me know your availability.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182

@@ -1,0 +1,63 @@
+
+From:    Debbie Malinowski
+Sent:    Thursday, June 02, 1983 04:49 PM
+To:      Cameron Howe; Joe MacMillan; Malcolm Levitan
+
+Categories:    Quality Assurance
+
+Hi Malcolm,
+
+I must say, reading your proposal about automated testing framework brought back some fond memories. I remember when we first started using those old mainframes at Cardiff Electric, quality assurance was a manual nightmare. It's amazing how far we've come! Your idea sounds like just the thing to take our QA process to the next level.
+
+I love that you're thinking ahead and considering the benefits of reduced testing efforts, improved test coverage, and faster feedback loops for developers. It makes perfect sense to utilize Python's unittest module with Jenkins for automation. I'm sure Joe will be thrilled to hear about this initiative.
+
+Let's move forward with implementing your proposed framework. You'd make a great lead on this project, Malcolm. Your attention to detail and analytical skills would serve us well in ensuring the success of this endeavor.
+
+Very truly yours,
+Debbie Malinowski
+Secretary
+Cardiff Electric
+Administration
++1 512-555-0133
+
+
+From:    Malcolm Levitan
+Sent:    Thursday, June 02, 1983 04:49 PM
+To:      Cameron Howe; Joe MacMillan; Debbie Malinowski
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance: Automated Testing Framework
+
+
+Dear Cameron, Joe, Debbie,
+
+I'm writing to propose an idea for implementing an automated testing framework within our QA process. As we continue to develop new software features, it's essential that we maintain a high level of quality control to ensure seamless integration with existing systems.
+
+To this end, I've been exploring the possibility of utilizing Python's unittest module in conjunction with Jenkins to automate test execution and reporting. The potential benefits include:
+
+* Reduced manual testing efforts
+* Improved test coverage and accuracy
+* Faster feedback loops for developers
+
+Here's a basic outline of what the framework could look like:
+```python
+import unittest
+
+class MyTestCase(unittest.TestCase):
+    def test_my_function(self):
+        # Test code goes here
+        self.assertEqual(result, expected_result)
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
+Please let me know if this is something we can move forward with and if so, I'd be happy to take the lead on implementing it.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182

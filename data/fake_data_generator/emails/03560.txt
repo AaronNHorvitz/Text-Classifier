@@ -1,0 +1,64 @@
+
+From:    Barry Shields
+Sent:    Thursday, May 26, 1983 04:27 PM
+To:      John Bosworth; Gordon Clark
+
+Categories:    Industry News
+
+Dear Gordon,
+
+I'm actually feeling pretty optimistic about the industry trends right now. I think there's a lot of potential for innovation and disruption, especially with the rise of IBM-compatible systems. And I agree that we should be focusing on creating innovative solutions that don't rely solely on new operating systems or hardware.
+
+I do think it's important to keep an eye on what Microsoft is doing with MS-DOS, though - they're definitely making some waves in the market. But I'm not convinced that we need to change our approach just yet. I mean, Cardiff Electric has always been about pushing the boundaries of what's possible, and I don't think that's going to change just because IBM-compatible systems are popular.
+
+Let's keep exploring new ideas and seeing where they take us, rather than trying to adapt to every trend that comes along. That's what sets us apart from the rest of the pack, after all.
+
+
+
+From:    Malcolm Levitan
+Sent:    Thursday, May 26, 1983 04:27 PM
+To:      John Bosworth; Barry Shields; Gordon Clark
+
+Categories:    Industry News
+
+Dear Gordon,
+
+What's the point of even talking about industry trends when everyone's just going to follow each other like lemmings off a cliff? I mean, seriously, IBM-compatible systems? Microsoft's MS-DOS? It's all just a bunch of marketing hype as far as I'm concerned. You're not going to find me getting excited about the latest and greatest in software development.
+
+As for Cardiff Electric capitalizing on these trends, I think you're barking up the wrong tree. We should be focusing on creating innovative solutions that don't rely on some fancy new operating system or hardware. That's what sets us apart from the rest of the pack.
+
+But hey, I guess it's fun to pretend like we care about what the industry is doing. So go ahead and waste your time talking about trends and compatibility if it makes you feel better.
+
+Very truly yours,
+Malcolm Levitan
++1 512-555-0182
+Programmer
+Cardiff Electric
+Software Development
+
+
+From:    Gordon Clark
+Sent:    Thursday, May 26, 1983 04:27 PM
+To:      Malcolm Levitan; John Bosworth; Barry Shields
+
+Categories: Industry News
+
+Subject:    Observations on Industry Trends
+
+
+Hi Malcolm, John, and Barry,
+
+As I'm sure you're all aware, the PC market has been experiencing a significant shift towards IBM-compatible systems. I've been following this trend closely, and I believe it's essential we adapt our strategies to stay ahead of the curve.
+
+Recent articles suggest that Microsoft's MS-DOS is becoming increasingly popular among developers, which could potentially impact our own software development endeavors. Furthermore, the rise of compatible hardware may lead to increased competition in the market. As Chief Engineer, I believe it's crucial we anticipate these changes and adjust our design approach accordingly.
+
+I'd appreciate your input on this matter, as well as any insights you might have on how Cardiff Electric can capitalize on these trends.
+
+
+Gordon Clark
+Chief Engineer
++1 512-555-0198
+Cardiff Electric
+Engineering
+
+

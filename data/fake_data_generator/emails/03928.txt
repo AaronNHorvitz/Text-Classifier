@@ -1,0 +1,60 @@
+
+From:    Donna Clark
+Sent:    Friday, June 10, 1983 10:34 AM
+To:      John Bosworth; Gordon Clark; Larry Goins; Malcolm Levitan
+
+Categories:    Wellness Check
+
+Hi Malcolm,
+
+I'm so glad to hear that Barry is feeling optimistic about our Wellness Check findings. Your report has given us a great starting point for making some real changes around here.
+
+I'm particularly excited about your script for tracking CPU utilization. That's something we can definitely use to identify areas where we're using too many resources and make adjustments accordingly. And I agree, implementing better error handling is crucial for improving system stability.
+
+Let's schedule that meeting with Barry and the others to go over your report in more detail. I think this could be a great opportunity for us to get everyone on the same page and start making some real progress.
+
+
+
+From:    Barry Shields
+Sent:    Friday, June 10, 1983 10:34 AM
+To:      John Bosworth; Gordon Clark; Larry Goins; Donna Clark; Malcolm Levitan
+
+Categories:    Wellness Check
+
+Hi Malcolm,
+
+I just finished reading your Wellness Check report and I have to say, I'm feeling pretty optimistic about where we're headed. Your findings are spot on - those servers are a mess, and our error handling mechanism is a joke. I mean, who doesn't love a good try-catch block?
+
+Seriously though, thanks for putting together that script to track CPU utilization. That's exactly the kind of thing we need to be doing if we're going to stay ahead of the curve. And don't even get me started on error handling - if we can reduce those unhandled exceptions, I think our system stability will see a huge boost.
+
+I'm definitely available for a meeting this week to discuss these findings further and explore ways to implement changes. Let's grab some lunch and go over your report in more detail.
+
+Very truly yours,
+Barry Shields
+Senior Counsel, Cardiff Electric, Legal
++1 512-555-0166
+
+
+From:    Malcolm Levitan
+Sent:    Friday, June 10, 1983 10:34 AM
+To:      John Bosworth; Gordon Clark; Barry Shields; Larry Goins; Donna Clark
+
+Categories: Wellness Check
+
+Subject:    Wellness Check
+
+
+Dear John, Gordon, Barry, Larry, and Donna,
+
+I'm excited to share my findings with you regarding the Wellness Check initiative. As we discussed during our meeting last week, I've been reviewing the system logs and have identified a few areas where we can improve our monitoring tools.
+
+One key finding is that the CPU utilization on our servers has been trending higher than expected, particularly during peak usage hours. I've written a quick script to help us track this trend more effectively: `ps -eo pid,%cpu | awk '{print $1,$2}'`. This will give us a better understanding of where our resources are being consumed.
+
+Another area for improvement is our error handling mechanism. By implementing a try-catch block in our code, we can significantly reduce the number of unhandled exceptions and improve overall system stability. Here's an example: `try { ... } catch (e) { log.error("Error occurred: " + e.getMessage()); }`.
+
+I'd love to discuss these findings further and explore ways to implement changes. Please let me know if you're available for a meeting this week.
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric
++1 512-555-0182

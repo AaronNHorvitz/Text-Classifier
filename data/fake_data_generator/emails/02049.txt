@@ -1,0 +1,68 @@
+
+From:    Malcolm Levitan
+Sent:    Sunday, March 27, 1983 11:52 AM
+To:      Larry Goins
+
+Categories:    Quality Assurance
+
+Dear Joe,
+
+I must admit, I'm feeling a mix of emotions as I read through Larry's email. Regret is definitely one of them. I regret that we've allowed our Quality Assurance processes to get so out of whack. And I regret that it's taken this long for us to start taking concrete steps to address the issue.
+
+You're right, Joe - it's high time we took a hard look at how we're doing things and made some changes. But I'm not just talking about tweaking our processes; I'm talking about fundamentally changing the way we approach quality assurance. We need to stop treating QA as an afterthought and start seeing it as a critical component of our overall product development strategy.
+
+I agree that inadequate testing and poor documentation are major contributors to our problems, but I think there's more to it than just those two issues. I believe we need to take a step back and re-evaluate how we're defining quality in the first place. Are we prioritizing the right metrics? Are we measuring the right things?
+
+I'd like to propose that we schedule a meeting with Larry, you, and anyone else involved in QA to start brainstorming some solutions. Let's not just focus on patching up our current processes; let's use this as an opportunity to create something truly innovative.
+
+
+
+From:    Joe MacMillan
+Sent:    Sunday, March 27, 1983 11:52 AM
+To:      Malcolm Levitan; Larry Goins
+
+Categories:    Quality Assurance
+
+Hi Larry,
+
+I gotta say, I'm surprised to hear that our Quality Assurance processes are causing more headaches than they're solving. As someone who's always looking to improve the product and drive growth, this is a major concern for me.
+
+You make some excellent points about inadequate testing and poor documentation being major contributors to the issues we've seen. I think it's high time we took a hard look at how we're doing things and made some changes to ensure our customers are getting the best possible experience.
+
+I'd like to set up a meeting with you, Malcolm, and anyone else who's involved in QA to discuss this further. Let's get together and brainstorm some ways to revamp our processes and make sure we're not just catching fish with a broken net anymore.
+
+Let me know when you're free, and we'll schedule something that works for everyone.
+
+Very truly yours,
+Joe MacMillan
++1 512-555-0132
+Senior Product Manager
+Cardiff Electric
+Product Management
+
+
+From:    Larry Goins
+Sent:    Sunday, March 27, 1983 11:52 AM
+To:      Joe MacMillan; Malcolm Levitan
+
+Categories: Quality Assurance
+
+Subject: 
+
+Quality Assurance Concerns - A Plea for Help
+
+Dear Joe and Malcolm,
+
+I'm writing to express my frustration and concern about our Quality Assurance processes. As a Support Technician, I've seen firsthand how these procedures have failed us time and again. It's like trying to catch fish with a broken net.
+
+In the past few weeks alone, we've had multiple instances where critical bugs slipped through the cracks, causing unnecessary downtime for our customers. The root cause analysis has shown that inadequate testing and poor documentation are major contributors to these issues. I've tried to bring this to the attention of our QA team, but my suggestions have fallen on deaf ears.
+
+I'm begging you both - please take a closer look at what's going wrong and make some meaningful changes. Our customers deserve better, and so do we as an organization. It's not just about meeting metrics; it's about doing what's right.
+
+Please, let's work together to revamp our QA processes before things get any worse.
+
+Best regards,
+Larry Goins
+Support Technician
++1 512-555-0144
+Cardiff Electric - Technical Support

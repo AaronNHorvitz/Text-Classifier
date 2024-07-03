@@ -1,0 +1,16 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, June 16, 1983 10:08 AM
+To:      Joe MacMillan
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Hi Joe,
+
+I'm sending out my daily dose of code-ine updates on our project. It's been a wild ride, and I'm not sure if we're making progress or just burning more bytes. The good news is that we've finally got the compiler to spit out some assembly code - it's like watching a toddler learn to walk! Slowly but surely.
+
+On a more serious note, I did manage to squash that pesky bug you pointed out earlier. The team's been doing great work, and I'm excited to see what they come up with next.
+

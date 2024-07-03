@@ -1,0 +1,17 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, July 20, 1983 12:00 PM
+To:      Ed Burris; Larry Goins; Gordon Clark
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance - Let's Shake Things Up!
+
+Hello Ed, Larry, and Gordon,
+
+Let's get wild and crazy with our QA process! I'm thinking we can flip the script on traditional testing and make it more... fun. Imagine a world where our software is so solid, it makes people happy just to use it. What do you say? Are you ready to join me in this QA revolution?!
+
+Cameron Howe
+Lead Software Developer
++1 512-555-0147
+Cardiff Electric - Software Development

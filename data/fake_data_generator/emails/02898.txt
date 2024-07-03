@@ -1,0 +1,51 @@
+
+From:    Larry Goins
+Sent:    Thursday, April 28, 1983 12:23 PM
+To:      Malcolm Levitan; Barry Shields; John Bosworth; Gordon Clark
+
+Categories:    Congratulations
+
+Hi Joe,
+
+Congratulations to us all. It feels good to get recognized for our hard work. I'm still trying to wrap my head around how we managed to pull it off, but hey, sometimes you just gotta roll with it.
+
+You're right on point about debugging forcing us to confront assumptions. I've been having some trouble sleeping lately because of all the what-ifs and maybes running through my head. But I guess that's what makes it worth it, right?
+
+
+
+From:    Joe MacMillan
+Sent:    Thursday, April 28, 1983 12:23 PM
+To:      Malcolm Levitan; Barry Shields; John Bosworth; Larry Goins; Gordon Clark
+
+Categories:    Congratulations
+
+Hi Gordon,
+
+I just got your congratulations email and I have to say, it's been a long time coming. I'm grateful that we're finally seeing some recognition for our hard work. You know, it's funny - I was just sitting here in my office, looking at the IBM 5100 emulator, thinking about how far we've come. And I have to admit, it feels damn good.
+
+You make a great point about debugging forcing us to confront assumptions. That's exactly what I needed - a kick in the pants to get me out of my own way. Now that we're on a roll, let's keep pushing forward.
+
+
+
+From:    Gordon Clark
+Sent:    Thursday, April 28, 1983 12:23 PM
+To:      Malcolm Levitan; Barry Shields; John Bosworth; Larry Goins; Joe MacMillan
+
+Categories: Congratulations
+
+Subject:    Congratulations on a Job Well Done
+
+Dear Team,
+
+ EMAIL START
+
+
+I wanted to take a moment to acknowledge the exceptional work we've been putting in lately. The recent success with the IBM 5100 emulator is a testament to our collective dedication and expertise. I'm proud of what we've accomplished, even if it's not without its challenges.
+
+In my own small way, I've found that the process of debugging has been... illuminating. It's forced me to confront some of the underlying assumptions in our design, which will ultimately make us stronger engineers.
+
+Please don't misunderstand – I'm not suggesting we're there yet. We still have much work ahead of us. But for now, let's take a moment to appreciate what we've achieved so far.
+
+Gordon Clark
+Chief Engineer, Engineering
++1 512-555-0198

@@ -1,0 +1,24 @@
+
+From:    Cameron Howe
+Sent:    Thursday, February 17, 1983 09:28 AM
+To:      Joe MacMillan
+
+Categories: Quality Assurance
+
+Subject: 
+
+Quality Assurance: Let's Hack It
+
+Hi Joe,
+
+I'm feeling like we can do better than just testing our code. What if we flip QA on its head and start using it as a way to hack into new functionality? I know, I know - it sounds crazy, but hear me out. With the right approach, we could be writing tests that not only verify our code works, but also generate new ideas for features and improvements.
+
+Let's get creative with QA and see where it takes us. I'm excited to brainstorm some ideas with you.
+
+Best,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development
+

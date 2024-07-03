@@ -1,0 +1,25 @@
+
+From:    Gordon Clark
+Sent:    Monday, March 28, 1983 09:28 AM
+To:      Joe MacMillan; Barry Shields
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance: Observations and Recommendations
+
+
+Dear Joe,
+
+I'm writing to discuss my observations from the latest quality assurance testing. As you know, I've been working on optimizing the 386-based workstation for Cardiff Electric. Despite some initial teething issues, I believe we're making progress.
+
+However, I did notice a few... anomalies during testing. Specifically, the CPU utilization seems to be spiking unexpectedly during certain tasks. I'm not sure what's causing it, but I suspect it might be related to the new firmware update. I've taken some notes and would like to discuss them further with you and Barry.
+
+I'll send over my analysis and recommendations separately.
+
+
+Best,
+Gordon Clark
+Chief Engineer
+Cardiff Electric
+Engineering Department
++1 512-555-0198

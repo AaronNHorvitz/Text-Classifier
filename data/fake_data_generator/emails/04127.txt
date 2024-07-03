@@ -1,0 +1,32 @@
+
+From:    Malcolm Levitan
+Sent:    Friday, June 17, 1983 04:08 PM
+To:      Ed Burris
+
+Categories: System Outage
+
+Subject:    System Outage Investigation
+
+
+Dear Ed,
+
+I've been working on identifying the root cause of our system outage yesterday. After reviewing the logs and running some diagnostic tests, I'm confident that we've isolated the issue to a corrupted index in the database layer.
+
+Here's the relevant code snippet:
+```sql
+SELECT * FROM customers WHERE id = 123;
+```
+If you recall, during the outage, this query was causing the system to become unresponsive. By re-indexing the affected table and updating the query to use an efficient join, we should be able to prevent similar outages in the future.
+
+I've outlined my findings below:
+
+* Corrupted index in database layer caused system to become unresponsive
+* Re-indexing the affected table resolved the issue
+
+Please let me know if you have any questions or would like more details. I'm happy to walk you through the process and provide any necessary documentation.
+
+Best regards,
+
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182

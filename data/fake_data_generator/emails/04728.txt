@@ -1,0 +1,59 @@
+
+From:    Joe MacMillan
+Sent:    Wednesday, July 13, 1983 10:56 AM
+To:      Cameron Howe; Larry Goins; John Bosworth; Ed Burris
+
+Categories:    Quality Assurance
+
+Dear Ed,
+
+Quality Assurance. Yeah, that's a thing we need to do. Look, I'm not going to sugarcoat it - I'm feeling pretty detached right now. The excitement of being a Senior Product Manager for Cardiff Electric has worn off, and all I can think about is how much more profitable it would be if we just made the computers do what everyone wants them to do without all this fuss.
+
+But hey, since you brought it up, I suppose it's good that someone is thinking about testing and tracking. Just don't expect me to get too worked up about it. Conducting thorough testing by end-of-week? Please, Ed. You know as well as I do that's just a pipe dream. And implementing a bug tracking system? That sounds like a whole lot of unnecessary overhead.
+
+As for regular QA meetings with the development team, sure, why not? Just make sure you don't schedule them during my golf game on Friday.
+
+
+Very truly yours,
+
+Joe MacMillan
++1 512-555-0132
+Senior Product Manager, Cardiff Electric
+Product Managemen
+
+From:    Donna Clark
+Sent:    Wednesday, July 13, 1983 10:56 AM
+To:      Cameron Howe; Larry Goins; Joe MacMillan; John Bosworth; Ed Burris
+
+Categories:    Quality Assurance
+
+Hi Ed,
+
+I'm not even going to pretend that I'm feeling particularly optimistic about our Quality Assurance efforts. Between trying to keep the lights on in Dallas and dealing with Joe's constant meddling, my stress levels are already through the roof. But, I suppose it's good that you're at least acknowledging the need for some kind of testing and tracking. 
+
+As much as it pains me to say this, I think your objectives are a good starting point. Conducting thorough testing by end-of-week might be a challenge, but we can make do. And implementing a bug tracking system will definitely help us keep our sanity. As for regular QA meetings with the development team, I'll make sure that happens - even if it kills me.
+
+
+
+From:    Ed Burris
+Sent:    Wednesday, July 13, 1983 10:56 AM
+To:      Donna Clark; Cameron Howe; Larry Goins; Joe MacMillan; John Bosworth
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance - Next Steps
+
+Dear All,
+
+EMAIL START
+
+
+I'm pleased to provide an update on our Quality Assurance efforts. As we move forward, I'd like to outline some key objectives and tasks:
+
+
+• Conduct thorough testing of all software components by end-of-week
+• Implement a comprehensive bug tracking system
+• Schedule regular QA meetings with the development team
+
+These initiatives will ensure we maintain the highest standards for our product.
+

@@ -1,0 +1,68 @@
+
+From:    Larry Goins
+Sent:    Wednesday, January 05, 1983 11:33 AM
+To:      Malcolm Levitan; Larry Goins
+
+Categories:    Project Update
+
+Dear Joe,
+
+I'm thrilled to hear that our technical support team was able to resolve the connectivity issues and get your project back on track. I must say, I'm a bit surprised by your tone in your email. While I understand that frustration can be high when dealing with technical difficulties, I hope you can appreciate the hard work and dedication of our team.
+
+In all seriousness, I'd like to highlight the importance of proper troubleshooting and diagnostic tests. Our team's experience with faulty patch cables has taught us a valuable lesson about the importance of attention to detail and thorough testing.
+
+If you have any further questions or concerns, please don't hesitate to reach out. We're always here to lend a helping hand.
+
+Very truly yours,
+
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric
+Technical Support
+
+
+From:    Joe MacMillan
+Sent:    Wednesday, January 05, 1983 11:33 AM
+To:      Malcolm Levitan; Larry Goins
+
+Categories:    Project Update
+
+Hi Larry,
+
+You're kidding me, right? A faulty patch cable was the problem all along? You're telling me that Cardiff Electric's top-notch technical support team spent how many man-hours and resources to find out that some knucklehead just needed to swap out a piece of wire?
+
+I'm trying to keep my cool here, but it's really hard not to feel betrayed. We trusted your team with our project, and this is what we get? A bunch of bureaucratic nonsense about patch cables and diagnostic tests? Give me a break.
+
+You know as well as I do that there are bigger issues at play here. Issues like the fact that Cardiff Electric can't even get its own technology right. And you're just now getting around to telling us about it?
+
+Look, Larry, I'm not asking for much. Just some straight-up honesty would be nice. You know what they say: "the cover-up is always worse than the crime." Well, I think we've seen enough of that kind of nonsense.
+
+
+
+From:    Larry Goins
+Sent:    Wednesday, January 05, 1983 11:33 AM
+To:      Joe MacMillan; Malcolm Levitan
+
+Categories: Project Update
+
+Subject: Project Update
+
+Dear Joe and Malcolm,
+
+I'm thrilled to share our latest project updates from Technical Support at Cardiff Electric. We've made significant progress in resolving those pesky connectivity issues, and I'm excited to report that we're back on track.
+
+Our team worked tirelessly to troubleshoot the root cause of the problem, which turned out to be a faulty patch cable. Once replaced, our testing revealed a marked improvement in data transfer rates. I've included some detailed troubleshooting steps below for your reference:
+
+1. Check the patch cables for any signs of physical damage or corrosion.
+2. Run a diagnostic test on the network interface card (NIC) using the built-in tool provided by the manufacturer.
+3. Verify that the correct IP address is assigned and that there are no DNS resolution issues.
+
+I'm confident that these steps will help you replicate our success. If you have any further questions or concerns, please don't hesitate to reach out. I'm always here to lend a hand.
+
+Best regards,
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric
+Technical Suppor

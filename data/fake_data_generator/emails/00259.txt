@@ -1,0 +1,20 @@
+
+From:    Cameron Howe
+Sent:    Saturday, January 15, 1983 10:11 AM
+To:      Debbie Malinowski; Joe MacMillan; Donna Clark
+
+Categories: Quality Assurance
+
+Subject:    QA Conundrums
+
+
+
+Hi Debbie, Joe, Donna,
+
+Listen up, folks. I've been noticing some wonky quality control processes going on in our department lately. As you know, I'm not one for playing by the book (per se), but even I think we can do better than this. Specifically, I'm talking about the recent "glitches" that have resulted in a few embarrassing bugs making it into our latest build.
+
+Now, I get it – we're all under pressure to meet those deadlines and whatnot. But let me tell you, as the person who's going to be stuck debugging these issues for hours on end, it's getting old fast. Can we please, pretty please with a QA badge on top, tighten up our testing process? I'm happy to brainstorm some ideas or even take point on implementing changes – just don't make me do it alone.
+
+Let's get this ship shape before it sets sail on the high seas of production hell.
+
+

@@ -1,0 +1,22 @@
+
+From:    Gordon Clark
+Sent:    Thursday, February 03, 1983 04:39 PM
+To:      John Bosworth
+
+Categories: Reminder
+
+Subject: Reminder: System Reboot Schedule
+
+
+Dear John,
+
+I'm writing to remind you that our system reboot schedule has been updated. As previously discussed, we'll be performing a mandatory reboot of our mainframe servers at 02:00 AM on Friday.
+
+Please ensure all necessary preparations are made before the scheduled downtime. If you have any concerns or questions, please don't hesitate to reach out.
+
+Best regards,
+Gordon Clark
+Chief Engineer
+Engineering Department
+Cardiff Electric
++1 512-555-0198

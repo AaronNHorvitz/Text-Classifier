@@ -1,0 +1,69 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, March 17, 1983 11:58 AM
+To:      Donna Clark; John Bosworth; Gordon Clark
+
+Categories:    Technical Support
+
+Dear Ed,
+
+I'm feeling desperate. Like, seriously desperate. We're talking code-red desperation here. And it's all because of Gordon's proposal to optimize the 80386 processing speed. I mean, what's going on? Are we trying to break some kind of record for most unnecessary complexity in a PC/IX prototype? Because if that's the case, then count me out.
+
+Look, Ed, I get it. We need to make our system faster and more efficient. But do we really need to go through all this hoopla just to achieve a minimum 2MB/s data transfer rate? Can't we just, like, simplify things instead of making them more complicated?
+
+And don't even get me started on the custom-written device driver thing. Are you kidding me? That's just asking for trouble. I mean, what if it doesn't work as expected? What if it crashes the system and we're left with a big ol' mess? No thank you.
+
+As for adjusting the CPU's clock frequency to 20MHz... *sigh* Okay, fine. Maybe that's not so bad. But only because it sounds like something I can actually wrap my head around. But still, Ed, are you sure we need to go through all this trouble?
+
+Please tell me Gordon didn't convince anyone else to jump on this bandwagon yet.
+
+Very truly yours,
+Yo-Yo Engberk
++1 512-555-0142
+Programmer, Software Developmen
+
+From:    Ed Burris
+Sent:    Thursday, March 17, 1983 11:58 AM
+To:      Donna Clark; Yo-Yo Engberk; John Bosworth; Gordon Clark
+
+Categories:    Technical Support
+
+Hi Gordon,
+
+I just got your email and I'm excited to dive into the details of the 80386 processing speed optimization. Your proposal looks solid, and I love the idea of a custom-written device driver to optimize memory management and caching. I've been thinking a lot about the potential bottlenecks in our current design, and I think these changes could really make a big difference.
+
+I'm also intrigued by your suggestion to adjust the CPU's clock frequency to 20MHz. Have you run any simulations or tests to validate this idea? I'd love to hear more about that.
+
+Looking forward to discussing this further at our next meeting!
+
+Very truly yours,
+Ed Burris
++1 512-555-0155
+Project Manager, Project Management Department, Cardiff Electric
+
+
+From:    Gordon Clark
+Sent:    Thursday, March 17, 1983 11:58 AM
+To:      Donna Clark; Yo-Yo Engberk; John Bosworth; Ed Burris
+
+Categories: Technical Support
+
+Subject:    Technical Support - 80386 Processing Speed Optimization
+
+
+Dear Donna, Yo-Yo, John, and Ed,
+
+As we continue to refine our PC/IX prototype, I've been analyzing the processing speed optimization algorithms for the Intel 80386 processor. In order to achieve a minimum of 2MB/s data transfer rate, I propose the following modifications to our current design:
+
+* Implementing a custom-written device driver to optimize memory management and caching
+* Adjusting the CPU's clock frequency to 20MHz to compensate for potential bottlenecks
+* Utilizing a combination of hardware and software-based cache invalidation techniques
+
+These changes will not only improve overall system performance but also provide a competitive edge in the market. I've included a detailed analysis and simulation results in my next meeting with the team.
+
+Best regards,
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Engineering
+Cardiff Electric

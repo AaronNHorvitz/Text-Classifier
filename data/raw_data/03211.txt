@@ -1,0 +1,46 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, May 09, 1983 12:23 PM
+To:      John Bosworth; Barry Shields; Joe MacMillan
+
+Categories: Technical Support
+
+Subject: 
+
+Fault Tolerance in the new 286 Emulator
+
+
+Dear John, Barry, and Joe,
+
+I've been reviewing the code and I'm concerned about the fault tolerance in our new 286 emulator. As you know, we're aiming for a high-availability target, but the current implementation has some critical flaws. Specifically, if the emulator crashes, it can take down the entire system.
+
+Here's an example of what I mean:
+```c
+if (emulator_state == CRASHED) {
+    // Do nothing; just wait for the system to reboot
+}
+```
+This is not acceptable. We need a more robust approach, perhaps using a watchdog timer or redundant emulator instances.
+
+I'd appreciate any thoughts you have on this matter. I've included some sample code below that demonstrates one possible solution:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int emulator_state = RUNNING;
+    while (emulator_state == RUNNING) {
+        // Run the emulator
+    }
+    if (emulator_state != CRASHED) {
+        printf("Emulator crashed unexpectedly!\n");
+    }
+    return 0;
+}
+```
+Please let me know your thoughts.
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
+Phone: +1 512-555-0182

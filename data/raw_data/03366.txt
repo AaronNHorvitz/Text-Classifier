@@ -1,0 +1,28 @@
+
+From:    Larry Goins
+Sent:    Wednesday, May 18, 1983 11:25 AM
+To:      Ed Burris
+
+Categories: Industry News
+
+Subject: Industry News - IBM PC-AT Announcement
+
+Dear Ed,
+
+EMAIL BODY
+
+I wanted to bring to your attention the recent announcement from IBM regarding the new PC-AT platform. As you may know, this marks a significant shift in the industry towards more affordable and accessible personal computers. I've included some key points below:
+
+* The PC-AT will be priced at around $1,000, making it more competitive with other offerings on the market.
+* It features an Intel 8088 processor and can run MS-DOS out of the box.
+* The announcement has sparked a lot of interest among developers and users alike.
+
+As we continue to navigate the ever-changing landscape of personal computing, I thought you might find this information useful. If you have any questions or would like more details, please don't hesitate to reach out.
+
+EMAIL SIGNATURE
+
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric
+Technical Support

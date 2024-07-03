@@ -1,0 +1,24 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, January 05, 1983 02:34 PM
+To:      Donna Clark; Joe MacMillan
+
+Categories: Wellness Check
+
+Subject:    Wellness Check
+
+
+Hi Donna, Joe,
+
+I'm doing some preventative maintenance on our codebase and wanted to touch base about a few things. Have we started implementing those error handling scripts yet? I feel like we're due for another crash-and-burn moment if we don't get that sorted.
+
+Also, has anyone seen the new issue tracker software that just came out? I'm thinking it might be a game-changer for our project management. What do you think?
+
+Let me know your thoughts,
+
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric
+Software Development
+
+

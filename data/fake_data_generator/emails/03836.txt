@@ -1,0 +1,52 @@
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, June 07, 1983 04:15 PM
+To:      Ed Burris; Debbie Malinowski; John Bosworth; Gordon Clark; Cameron Howe; Malcolm Levitan; Barry Shields; Joe MacMillan; Yo-Yo Engberk
+
+Categories:    Quality Assurance
+
+Dear Donna,
+
+I'm glad to hear that our QA meeting left a lasting impression - and not just because of the caffeine buzz. I get what you mean about the bugs, though. It's like we're trying to break some kind of record for most errors in a single day. Still, I think it's an opportunity to reflect on how we can improve our testing process.
+
+I'm not looking to reinvent the wheel here, but maybe we can find ways to make our testing more efficient without sacrificing quality. What do you say? Want to grab lunch and discuss?
+
+Best,
+Yo-Yo Engberk
+
+
+From:    Donna Clark
+Sent:    Tuesday, June 07, 1983 04:15 PM
+To:      Ed Burris; Debbie Malinowski; John Bosworth; Gordon Clark; Cameron Howe; Malcolm Levitan; Barry Shields; Joe MacMillan; Yo-Yo Engberk
+
+Categories:    Quality Assurance
+
+Dear Yo-Yo,
+
+I'm writing to express my utter frustration and annoyance at the QA meeting. I don't know what kind of witchcraft you're using, but I've never seen so many bugs in one place. It's like a plague on our coding. And to top it off, you want to talk about "shaking things up" and making our testing process more efficient? Are you kidding me? Have you even looked at the state of our code lately?
+
+I'm all for innovation, but let's not pretend that we're some kind of avant-garde coding pioneers. We're Cardiff Electric, Yo-Yo! We make computers. Not art.
+
+Very truly yours,
+
+Donna Clark
++1 512-555-0156 | Director of Operations | Cardiff Electric | Operations
+
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, June 07, 1983 04:15 PM
+To:      Ed Burris; Debbie Malinowski; John Bosworth; Gordon Clark; Cameron Howe; Malcolm Levitan; Donna Clark; Barry Shields; Joe MacMillan
+
+Categories: Quality Assurance
+
+Subject: 
+
+What the Quality Assurance?
+
+Hi Team,
+
+I'm still reeling from our latest QA meeting - who knew we could pack so many bugs into a single day? Seriously though, I've got some thoughts on how to shake things up and make our testing process more efficient. Would love to hear your take on it.
+
+Best,
+Yo-Yo Engberk
+Programmer | +1 512-555-0142 | Cardiff Electric | Software Development

@@ -1,0 +1,57 @@
+
+From:    Debbie Malinowski
+Sent:    Wednesday, April 13, 1983 10:16 AM
+To:      Malcolm Levitan
+
+Categories:    Research Collaboration
+
+Hi Malcolm,
+
+I'm not sure what's wrong with me lately. Everything seems so empty and meaningless. Even research collaborations that could potentially lead to something amazing feel hollow.
+
+Look, I'll be honest with you - your proposal doesn't exactly thrill me either. I mean, compression algorithms are important, but they're not going to change the world or anything. And LZ77? It's just a bunch of code. It's not like it's some groundbreaking discovery or anything.
+
+But hey, if you want to waste your time exploring how to apply it to your precious product, be my guest. I'll even humor you and have a call next week to go over the details. Maybe we can find some way to make it interesting, who knows?
+
+
+
+From:    Malcolm Levitan
+Sent:    Wednesday, April 13, 1983 10:16 AM
+To:      Debbie Malinowski
+
+Categories: Research Collaboration
+
+Subject:    
+Research Collaboration Proposal
+
+
+Dear Debbie,
+
+I'm writing to propose a research collaboration between Cardiff Electric's Software Development department and your team. As we've discussed previously, I believe our expertise in PC DOS compatibility could greatly benefit from your insights on data compression algorithms.
+
+In particular, I'd like to explore the possibility of applying LZ77 compression to our forthcoming product, which would significantly reduce file sizes and improve user experience. I've attached a brief code snippet demonstrating how this might work:
+
+`sub compress_data(data_block as byte) as byte
+    dim i, j as integer
+    dim compressed_data as byte
+
+    for i = 0 to len(data_block) - 1
+        j = 0
+        while j <= i and data_block(i - j + 1) = data_block(i)
+            j += 1
+        end if
+
+        compressed_data = concat(compressed_data, chr(0)) ' literal byte
+        compressed_data = concat(compressed_data, chr(j)) ' length of repeated sequence
+    next
+
+    return compressed_data
+end sub`
+
+
+As you can see, this is just a starting point, and I'd love to discuss the details further with you. Please let me know if you're available for a call next week.
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development department
+Phone: +1 512-555-0182

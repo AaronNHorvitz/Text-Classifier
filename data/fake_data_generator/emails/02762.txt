@@ -1,0 +1,46 @@
+
+From:    Yo-Yo Engberk
+Sent:    Saturday, April 23, 1983 02:13 PM
+To:      Joe MacMillan; Donna Clark; Gordon Clark
+
+Categories:    Product Recall
+
+Dear Gordon,
+
+You're kidding me, right? A product recall? That's just great. Just when we were starting to make some progress, you come along and tell us that our hard work is all for naught because of a few minor issues with the timing and voltage requirements.
+
+I mean, what's the point of even having a quality control process if we're just going to go ahead and release faulty products anyway? It's like saying "Hey, let's just give up now and start over from scratch." No thanks. I'm not about to waste my time on some half-baked solution that's just going to end up causing more problems down the line.
+
+And what's with this "thorough testing" nonsense? You think we don't have better things to do than spend hours re-testing every single unit that comes back in? Give me a break. We've got real work to do, not just sit around babysitting defective products all day.
+
+Very truly yours,
+
+Yo-Yo Engberk
++1 512-555-0142
+Programmer
+Software Development
+Cardiff Electric
+
+
+From:    Gordon Clark
+Sent:    Saturday, April 23, 1983 02:13 PM
+To:      Joe MacMillan; Yo-Yo Engberk; Donna Clark
+
+Categories: Product Recall
+
+Subject: Product Recall: Technical Analysis and Recommendations
+
+
+Hello Joe, Yo-Yo, Donna,
+
+As you are aware, we've had some issues with the latest batch of PC-IX clones. After conducting a thorough investigation, I've identified several key areas where the hardware and firmware have deviated from our original specifications. Specifically, I've found inconsistencies in the timing and voltage requirements for the CPU and GPU. These deviations have led to reduced performance and increased instability.
+
+To rectify this issue, I recommend we implement a product recall and re-design the affected components to meet the original specs. This will ensure that all future units meet our quality control standards. Additionally, I propose we conduct thorough testing on each returned unit to verify their compliance with our specifications before releasing them back into production.
+
+Please let me know your thoughts on this matter.
+
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Engineering Department
+Cardiff Electric

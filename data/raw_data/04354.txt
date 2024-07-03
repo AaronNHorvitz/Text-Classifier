@@ -1,0 +1,23 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, June 29, 1983 03:18 PM
+To:      Barry Shields; Ed Burris; Larry Goins; Malcolm Levitan
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance - A Plea for Sanity
+
+
+Dear All,
+
+I'm writing this email with a heavy heart. It pains me to say that QA has become a never-ending nightmare. We're talking days spent re-testing the same code, only to have it break again because some genius decided to "improve" things without consulting the rest of us.
+
+I'm not asking for much. Just a little common sense and communication would go a long way in making our lives easier.
+
+
+Sincerely,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric
+Software Development
+

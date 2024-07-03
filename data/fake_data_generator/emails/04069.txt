@@ -1,0 +1,51 @@
+
+From:    Debbie Malinowski
+Sent:    Tuesday, June 14, 1983 01:50 PM
+To:      Joe MacMillan; Gordon Clark; Barry Shields; Donna Clark; Malcolm Levitan
+
+Categories:    Vacation Notice
+
+Hi Malcolm,
+
+Are you kidding me? You're taking a vacation and leaving us in the lurch? What about all the projects we have pending? What about the deadlines that are already tight?
+
+I know you think you're some kind of hotshot programmer, but let me tell you, your ego is going to be the death of this company. You can't just drop everything and take a vacation whenever you feel like it. We have work to do, Malcolm. Important work.
+
+And what's with all the fuss about code reviews and outstanding tasks? Can't you see that we're already drowning in paperwork? Do you know how many man-hours we'll waste trying to figure out your little "arrangements" for while you're away?
+
+Look, I don't care if you're the king of Cardiff Electric. You're still just a programmer, and programmers are supposed to do their jobs, not take extended vacations.
+
+Very truly yours,
+Debbie Malinowski
+Secretary
+Administration
+Cardiff Electric
++1 512-555-0133
+
+
+From:    Malcolm Levitan
+Sent:    Tuesday, June 14, 1983 01:50 PM
+To:      Joe MacMillan; Gordon Clark; Debbie Malinowski; Barry Shields; Donna Clark
+
+Categories: Vacation Notice
+
+Subject: Vacation Notice
+
+
+Dear Joe, Gordon, Debbie, Barry, and Donna,
+
+I'm writing to inform you that I'll be taking a short vacation from June 15th to June 22nd. During my absence, I've made arrangements for code reviews and ensured that all outstanding tasks are either completed or delegated to the team.
+
+As per our internal documentation (see SVN log for commit #12345), I've also documented the necessary steps for resolving any potential issues that may arise while I'm away. The relevant scripts have been updated to reflect these changes, and a backup of our database has been scheduled for automatic execution every 12 hours.
+
+I appreciate your understanding and will be available by email if anything urgent arises during my vacation. Please don't hesitate to reach out should you require any assistance.
+
+
+Best regards,
+
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+

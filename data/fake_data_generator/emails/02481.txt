@@ -1,0 +1,25 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, April 11, 1983 09:23 AM
+To:      Ed Burris; Debbie Malinowski; Larry Goins; Gordon Clark; Cameron Howe; Barry Shields; Yo-Yo Engberk; Donna Clark; John Bosworth
+
+Categories: Industry News
+
+Subject: Industry News: New Developments in PC Networking
+
+
+Dear All,
+
+I wanted to share some exciting news regarding recent advancements in PC networking. As we continue to develop our own proprietary protocols, it's essential to stay informed about industry trends and innovations.
+
+In particular, I'd like to highlight the work of Charles Bachman on his "Network Structure" paper. His suggestions for a hierarchical approach to network architecture could greatly enhance the scalability and efficiency of our own systems.
+
+Additionally, I've been monitoring the progress of the IBM PC Network implementation. Their use of token ring topology and 3270 protocol shows promising results.
+
+These developments further emphasize the importance of staying current with industry advancements. I encourage each of you to explore these topics further and share any insights or questions you may have.
+
+Best regards,
+Malcolm Levitan
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0182

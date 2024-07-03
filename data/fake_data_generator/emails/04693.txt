@@ -1,0 +1,92 @@
+
+From:    Debbie Malinowski
+Sent:    Tuesday, July 12, 1983 10:22 AM
+To:      Gordon Clark; Malcolm Levitan
+
+Categories:    Apology
+
+Dear Malcolm,
+
+I'm not sure what to say. Your apology sounds like just another corporate buzzword to me. It's all about "acknowledging our own shortcomings" and making amends, but it doesn't change the fact that we're still stuck with this buggy code.
+
+I know you're trying to spin things as a team effort, but let's be real - we're not all in this together. We're just cogs in the machine, trying to keep up with the demands of the company. And sometimes, it feels like those demands are more about making excuses than actually fixing the problems.
+
+I don't know if you'll ever understand what I'm saying, Malcolm. But for now, I think I'll just focus on getting my work done and trying not to get too caught up in all this corporate nonsense.
+
+Very truly yours,
+
+Debbie Malinowski
+Secretary, Cardiff Electric - Administration
++1 512-555-0133
+
+
+From:    Malcolm Levitan
+Sent:    Tuesday, July 12, 1983 10:22 AM
+To:      Debbie Malinowski; Gordon Clark; Malcolm Levitan
+
+Categories:    Apology
+
+Hi Larry,
+I'm feeling grateful that we're having this conversation. You see, an apology isn't just about saying sorry; it's about acknowledging our own shortcomings and making amends. And let me tell you, I've been doing some serious soul-searching lately.
+
+Now, I know what you're thinking: "Malcolm, stop with the corporate jargon already!" But hear me out. You see, I'm not just apologizing for the delay; I'm acknowledging that we're in this together. We're all part of the Cardiff Electric family, and our success (or failure) is tied to each other's.
+
+And you know what? That snippet of code I sent you? It's not just some arcane language; it's a representation of our collective struggle to make sense of this crazy world. And that's something to be grateful for, don't you think?
+
+So no, Larry, my apology isn't just about fixing the bugs (although that is important too); it's about recognizing our own flaws and working together to overcome them.
+
+Very truly yours,
+
+
+From:    Larry Goins
+Sent:    Tuesday, July 12, 1983 10:22 AM
+To:      Debbie Malinowski; Gordon Clark; Malcolm Levitan
+
+Categories:    Apology
+
+Dear Malcolm,
+
+I'm not sure what to make of your apology. It seems like a bunch of corporate nonsense to me. You're saying that the bugs in our code are more complex than we thought, but what's new about that? We've been dealing with complexity for years.
+
+And then you start talking about some snippet of code like it's going to help us understand the problem. Newsflash, Malcolm: nobody understands that crap. It's a mess, and you're just trying to spin it as something we should be grateful for.
+
+Look, I don't care if you're working closely with Gordon or not. What I do care about is getting our code fixed so people can stop complaining about how broken everything is. So maybe instead of apologizing, you could actually fix the problem?
+
+Very truly yours,
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric - Technical Support
+
+
+From:    Malcolm Levitan
+Sent:    Tuesday, July 12, 1983 10:22 AM
+To:      Larry Goins; Debbie Malinowski; Gordon Clark
+
+Categories: Apology
+
+Subject: Apology for Delay in Bug Fixing
+
+
+Dear Larry, Debbie, Gordon,
+
+I'm writing to apologize for the delay in addressing the bugs in our code. As you know, I've been working diligently to resolve these issues and ensure a stable product. Unfortunately, my recent testing revealed additional complexity in the problem space, which has slowed down my progress.
+
+To illustrate, consider the following snippet of code:
+
+```c
+if (condition1 && condition2) {
+    // do something
+} else if (!condition3) {
+    // do something else
+}
+```
+
+As you can see, this simple conditional statement is just one example of the intricate logic that needs to be untangled. I'm working closely with Gordon to implement a more robust testing framework, which should help us identify and fix these issues more efficiently.
+
+In the meantime, please accept my sincerest apologies for any inconvenience this may have caused. If you have any questions or concerns, please don't hesitate to reach out to me directly.
+
+Sincerely,
+Malcolm Levitan
+Programmer, Cardiff Electric - Software Development
++1 512-555-0182

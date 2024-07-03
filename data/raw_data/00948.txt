@@ -1,0 +1,22 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, February 09, 1983 10:47 AM
+To:      Ed Burris; Joe MacMillan; Cameron Howe
+
+Categories: Supplier Relations
+
+Subject: Supplier Relations - Update on New Parts
+
+Dear Ed, Joe, and Cameron,
+
+I've been working closely with our procurement team to ensure a seamless integration of the new components from our supplier. As we discussed during the meeting last week, I wanted to provide an update on the status of these parts.
+
+Our testing has revealed a slight discrepancy in the component specifications provided by the supplier. Specifically, the resistance values in the datasheet don't quite match up with our internal calculations (see attached code snippet for reference). I've spoken with the supplier, and they're willing to accommodate our requirements. However, we'll need to review and confirm the updated specs before moving forward.
+
+I believe this update is crucial in ensuring the quality of our final product. I'd appreciate any feedback or concerns you may have on this matter.
+
+Best regards,
+Malcolm Levitan
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0182

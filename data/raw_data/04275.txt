@@ -1,0 +1,34 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, June 21, 1983 10:11 AM
+To:      Larry Goins
+
+Categories: Project Update
+
+Subject: Project Update
+
+Dear Larry,
+
+I've been reviewing the project's latest code commits and I wanted to touch base with you regarding some minor issues I found. Specifically, I noticed that the "if" statement in the login function could be optimized using a more efficient algorithm.
+
+For example:
+```python
+if (user_input == "correct_password"):
+    // perform action
+else:
+    // handle incorrect password
+```
+Could be rewritten as:
+```python
+user_input == "correct_password" ? 
+  // perform action : 
+  // handle incorrect password;
+```
+This should improve performance and reduce the risk of bugs. I'd like to discuss this further with you, perhaps over a call?
+
+Best,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182

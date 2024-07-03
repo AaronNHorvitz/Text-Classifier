@@ -1,0 +1,74 @@
+
+From:    Donna Clark
+Sent:    Thursday, July 14, 1983 12:58 PM
+To:      Joe MacMillan; Ed Burris; Cameron Howe
+
+Categories:    Quality Assurance
+
+Hi Malcolm,
+
+I'm glad to hear that you're passionate about quality assurance, but honestly, I'm feeling overwhelmed. It seems like every time we try to make some progress, something else comes up and we're back at square one.
+
+Don't get me wrong, I agree that our QA process is a joke. But what's the point of having all these conversations if nothing ever changes? We've been talking about this for months, and yet, things just keep getting worse.
+
+I'm not sure what to say anymore. I feel like we're just spinning our wheels, and it's exhausting. Can't we just have one day where everything runs smoothly without some new crisis popping up?
+
+I don't know, Malcolm. Maybe you're right, and we do need to take a step back and re-evaluate our priorities. But for now, I'm just feeling really burned out.
+
+
+
+From:    Malcolm Levitan
+Sent:    Thursday, July 14, 1983 12:58 PM
+To:      Donna Clark; Joe MacMillan; Ed Burris; Cameron Howe
+
+Categories:    Quality Assurance
+
+Dear Cameron,
+
+I love it when someone's passion and frustration boil over into a well-crafted rant. Your email was like a shot of adrenaline straight to the heart of our quality assurance (or lack thereof). You're absolutely right, we've been phoning it in for too long.
+
+As someone who's been around the block a few times, I've seen Cardiff Electric's QA process devolve into a joke. It's not just about getting code out the door; it's about creating products that people will actually use and love. And let me tell you, our track record has been... spotty at best.
+
+I'm glad Debbie's feeling motivated to make some changes. I think we all need to take a step back, re-evaluate our priorities, and figure out what's gone wrong. It's time for us to take QA seriously and start building software that people will actually want to use.
+
+Let's grab lunch soon and hash this all out.
+
+
+
+From:    Debbie Malinowski
+Sent:    Thursday, July 14, 1983 12:58 PM
+To:      Donna Clark; Joe MacMillan; Malcolm Levitan; Ed Burris; Cameron Howe
+
+Categories:    Quality Assurance
+
+Dear Cameron,
+
+I'm glad to hear that someone is finally speaking out about the state of our quality assurance process. It's been a long time coming, and I'm not surprised that you're frustrated with the lack of attention it's receiving.
+
+To be honest, I've been feeling a bit worn down by all the inefficiencies around here. But your email has given me a boost of energy to keep pushing for change. I think we need to take a step back and re-evaluate our priorities as a company. It seems like we're just trying to rush products out the door without much thought to their actual quality.
+
+I'd love to discuss this further with you and maybe even come up with some concrete steps we can take to improve things. Let me know if you're free to meet up soon.
+
+Very truly yours,
+Debbie Malinowski
++1 512-555-0133
+Secretary, Cardiff Electric Administration
+
+
+From:    Cameron Howe
+Sent:    Thursday, July 14, 1983 12:58 PM
+To:      Donna Clark; Joe MacMillan; Malcolm Levitan; Debbie Malinowski; Ed Burris
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance: A Betrayal Too Far
+
+
+Donna Clark, Joe MacMillan, Malcolm Levitan, Debbie Malinowski, Ed Burris
+
+Listen up, people. I'm writing to express my utter disillusionment with our QA process. It's like we're just going through the motions, not actually testing for bugs or usability. It's a joke.
+
+I've been trying to push for some real quality control, but it seems like nobody is listening. We're just churning out code without a care in the world. And what about all those "minor" issues I reported last week? Crickets.
+
+As someone who actually gives a damn about our product, this is unacceptable. It's time we stopped pretending and started doing something about it.
+

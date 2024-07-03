@@ -1,0 +1,35 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, May 10, 1983 03:39 PM
+To:      Larry Goins
+
+Categories: Compliance
+
+Subject: Compliance - Audit Log Requirements
+
+Dear Larry,
+
+ EMAIL BODY
+
+I'm writing to clarify some requirements regarding audit logs in our compliance report. As we discussed during the meeting, I've been reviewing the code and noticed that we're missing some critical log entries for user authentication.
+
+According to Section 3.4 of the PCI-DSS standard, we need to maintain a detailed record of all access attempts. To ensure compliance, I've added the following code snippet to our audit logging module:
+
+```sql
+INSERT INTO audit_log (timestamp, username, action)
+VALUES (NOW(), USER(), 'logged in');
+```
+
+This will log every user login attempt with the current timestamp, username, and 'logged in' as the action. I'll make sure to update the documentation accordingly.
+
+Please review this change and let me know if you have any questions or concerns.
+
+EMAIL BODY END
+
+EMAIL SIGNATURE
+Malcolm Levitan
++1 512-555-0182
+Programmer
+Cardiff Electric
+Software Development
+

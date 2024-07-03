@@ -1,0 +1,57 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, January 12, 1983 03:32 PM
+To:      Ed Burris; Yo-Yo Engberk
+
+Categories: Personal Milestone
+
+Subject:    Personal Milestone
+
+
+Hello Ed and Yo-Yo,
+
+I wanted to share a minor personal milestone I reached today. After weeks of tweaking, I finally got my implementation of the Knuth-Morris-Pratt algorithm working correctly in our project's search module. The code snippet is below for your reference:
+
+```python
+def kmp_search(pattern):
+    l = len(pattern)
+    next_array = [0] * (l + 1)
+    j = 2
+    while j <= l:
+        if pattern[j - 1] == pattern[0]:
+            next_array[j] = 1
+        else:
+            next_array[j] = next_array[j - 1]
+        j += 1
+    return next_array
+
+
+def search(text, pattern):
+    n = len(text)
+    l = len(pattern)
+    next_array = kmp_search(pattern)
+    i = j = 0
+    while i < n:
+        if text[i] == pattern[j]:
+            if j == l - 1:
+                return i - j
+            i += 1
+            j += 1
+        elif j > 0:
+            j = next_array[j]
+        else:
+            i += 1
+    return -1
+
+
+print(search("hello world", "world"))
+```
+
+This achievement, though small, fills me with a sense of accomplishment and motivates me to tackle more challenging problems. I hope you both are doing well.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182

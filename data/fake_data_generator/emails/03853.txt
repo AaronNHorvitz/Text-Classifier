@@ -1,0 +1,27 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, June 08, 1983 04:21 PM
+To:      Joe MacMillan; Donna Clark
+
+Categories: Wellness Check
+
+Subject:    Wellness Check
+
+
+Dear Joe and Donna,
+
+I've been tracking our team's progress on the Wellness Check project, and I'm starting to feel a bit... anxious. As you know, I've implemented several checks for redundant data storage, but it seems like every time we think we're making progress, another issue arises.
+
+To mitigate this, I propose we re-run the integrity tests on the database schema to ensure we're not missing any critical paths. I've included a snippet of the revised SQL query below:
+
+```sql
+SELECT * FROM nodes WHERE parent_id IS NULL;
+```
+
+This should help us identify and resolve any potential issues before moving forward.
+
+Best,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182
+

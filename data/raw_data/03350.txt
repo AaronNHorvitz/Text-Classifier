@@ -1,0 +1,23 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, May 17, 1983 11:52 AM
+To:      Donna Clark; Joe MacMillan; Debbie Malinowski; John Bosworth; Yo-Yo Engberk
+
+Categories: Industry News
+
+Subject:    Industry News - A Nostalgic Look at PC Magazines
+
+
+Hello all,
+
+I hope this email finds you well. As I was flipping through an old copy of Byte magazine, I couldn't help but feel a sense of nostalgia wash over me. It's amazing how far we've come since the early days of personal computing. The first issue of Byte dates back to 1975! Who would have thought that we'd be where we are today?
+
+In this vein, I wanted to share some industry news that caught my attention. According to an article in PC Magazine (June 1983), Apple is releasing its new Lisa computer, touting it as a "revolutionary" device with a graphical user interface. Meanwhile, IBM has announced plans for an upcoming PC/AT model, which promises improved performance and expanded storage capabilities.
+
+I thought these developments worth sharing, especially given our current work on the 386 project. It's fascinating to see how the industry is evolving, even if it can be a bit overwhelming at times!
+
+Best regards,
+Malcolm Levitan
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0182

@@ -1,0 +1,72 @@
+
+From:    Cameron Howe
+Sent:    Thursday, March 03, 1983 11:03 AM
+To:      John Bosworth; Donna Clark; Ed Burris
+
+Categories:    Quality Assurance
+
+Dear Debbie,
+
+I don't know how to begin. The quality assurance metrics are a disaster. Defects everywhere, and no one seems to care. It's like we're just churning out garbage, not even bothering to check if it works.
+
+You think you can fix this by "identifying the primary source of the problem" or "developing a plan to rectify the issue"? Please. We've been trying that for months. It doesn't matter what we do; our product is broken, and no one wants to admit it.
+
+I'm supposed to be working on some new features, but what's the point? The manufacturing process changes might be related to the problem, or maybe they're just another symptom of a much deeper issue. I don't know, and neither does anyone else.
+
+You want us to "drop everything" and work on this? Are you kidding me? We've been dropping everything for months, and look where it's gotten us.
+
+Very truly yours,
+
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Software Development
+Cardiff Electric
+
+
+From:    Debbie Malinowski
+Sent:    Thursday, March 03, 1983 11:03 AM
+To:      John Bosworth; Donna Clark; Cameron Howe; Ed Burris
+
+Categories:    Quality Assurance
+
+Hi Ed,
+I'm not surprised by the latest quality assurance metrics. We've been hearing rumors about defects in our product line, and now we know why. It's time to get to the bottom of this problem and fix it. I'm more than happy to join forces with you and the team to identify the primary source of the issue, develop a plan to rectify it, and implement quality control measures to prevent future defects.
+
+I agree that our manufacturing process changes might be related to the problem, but we need to dig deeper to confirm our suspicions. I'm confident that together, we can turn things around and get our product back on track.
+
+Let's prioritize this and make it happen by end-of-quarter. I'll start working on some ideas for additional quality control measures in the meantime.
+
+Very truly yours,
+Debbie Malinowski
++1 512-555-0133
+Secretary
+Cardiff Electric
+Administration
+
+
+From:    Ed Burris
+Sent:    Thursday, March 03, 1983 11:03 AM
+To:      Debbie Malinowski; John Bosworth; Donna Clark; Cameron Howe
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Update
+
+Dear Team,
+
+I'm writing to you today with a heavy heart. Our latest quality assurance metrics are not looking good, and I need your immediate attention on this matter.
+
+• We're experiencing an unacceptable number of defects in our current product line.
+• The root cause is still unclear, but I suspect it's related to the recent changes we made to the manufacturing process.
+
+I've outlined some key objectives for us to focus on:
+
+1. Identify the primary source of the problem
+2. Develop a plan to rectify the issue by end-of-quarter
+3. Implement additional quality control measures to prevent future defects
+
+John, Donna, Cameron - I need you all to drop everything and work with me to get to the bottom of this. Debbie, please join us as well, as your expertise in QA will be invaluable.
+
+Let's prioritize getting our product back on track. We can't afford to lose any more ground in this market.
+

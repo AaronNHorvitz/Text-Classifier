@@ -1,0 +1,25 @@
+
+From:    Ed Burris
+Sent:    Wednesday, January 05, 1983 12:48 PM
+To:      Malcolm Levitan; Joe MacMillan
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Dear Joe and Malcolm,
+
+I'm writing to provide an update on our project's progress. Unfortunately, it's not a rosy one. The latest metrics indicate we're still lagging behind schedule, and I'm at a loss as to why. Here are some key points that highlight the issues:
+
+• Our coding team is struggling to meet deadlines, resulting in missed milestones.
+• The QA process has become increasingly bottlenecked, causing delays in testing.
+• Despite my repeated requests for updates, we've yet to receive comprehensive project reports from your teams.
+
+I expect a marked improvement by our next check-in. I'll be monitoring progress closely and will not hesitate to make adjustments if necessary. Let's schedule a call to discuss further.
+
+Best regards,
+Ed Burris
++1 512-555-0155
+Project Manager, Project Management
+Cardiff Electric

@@ -1,0 +1,15 @@
+
+From:    Gordon Clark
+Sent:    Tuesday, June 21, 1983 04:10 PM
+To:      John Bosworth; Barry Shields; Cameron Howe; Joe MacMillan; Yo-Yo Engberk; Ed Burris; Donna Clark; Malcolm Levitan
+
+Categories: Expense Report
+
+Subject:    Expense Report - Request for Clarification
+
+Dear All,
+
+I am writing to request clarification on the expense report procedures. As Chief Engineer, I have been tasked with reviewing and approving the reports from the Engineering department. However, I find myself struggling to reconcile the discrepancies between the reported expenses and the actual costs incurred.
+
+In particular, I am having trouble understanding the accounting treatment of certain expenses related to the 80386 project. Could someone please provide me with a detailed breakdown of how these expenses are being recorded?
+

@@ -1,0 +1,20 @@
+
+From:    Cameron Howe
+Sent:    Tuesday, April 26, 1983 10:06 AM
+To:      Joe MacMillan
+
+Categories: System Outage
+
+Subject:    System Outage: Rebel Alert
+
+
+Joe,
+
+Listen up, because I'm only saying this once. Our system is down, and I don't just mean the server. I mean the whole damn thing. It's like we're trying to reinvent the wheel or something.
+
+I've been digging through the logs, and it looks like someone (cough, cough, not me) messed up the config file again. Now we're stuck in some kind of digital purgatory, wondering when our souls will be released back into the world.
+
+
+Anyway, I'm on it. Like a rebel without a cause, minus the whole "cause" part. Expect a patch by end of day, or my name's not Cameron Howe.
+
+

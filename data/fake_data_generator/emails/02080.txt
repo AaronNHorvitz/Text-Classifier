@@ -1,0 +1,23 @@
+
+From:    Gordon Clark
+Sent:    Monday, March 28, 1983 02:14 PM
+To:      Joe MacMillan; Debbie Malinowski; Yo-Yo Engberk; John Bosworth; Cameron Howe
+
+Categories: Reminder
+
+Subject:    Reminder: Critical Path Forwarding in 86K Turbo Pascal
+
+
+Dear All,
+
+I've been going over our project plans and I'm convinced that we're on the cusp of something groundbreaking. The more I think about it, the more I believe we can push the envelope further still. But to do so, we need to focus on the foundation: getting those 86K machines humming in Turbo Pascal.
+
+As you know, I've been experimenting with some novel approaches to optimize performance and reduce latency. I'd like to propose a meeting next week to discuss these ideas further and get everyone aligned on our strategy moving forward.
+
+
+Best regards,
+Gordon Clark
+Chief Engineer
+Cardiff Electric
+Engineering Department
+Phone: +1 512-555-0198

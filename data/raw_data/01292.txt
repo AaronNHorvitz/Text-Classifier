@@ -1,0 +1,19 @@
+
+From:    Gordon Clark
+Sent:    Monday, February 21, 1983 12:08 PM
+To:      Ed Burris; Debbie Malinowski
+
+Categories: Project Update
+
+Subject: Project Update
+
+Dear Ed and Debbie,
+
+EMAIL BODY
+I'm writing to provide an update on our project's current status. As you know, I've been working tirelessly to optimize the GORDON-1 code for the new Intel 8086 processor. Unfortunately, I've hit a roadblock with regards to the memory allocation issue. Despite my best efforts, I haven't been able to resolve it without introducing significant overhead.
+
+I'm feeling... uncertain about the project's timeline and whether we can meet our deadlines. I'd appreciate any guidance or insight you can offer on how to move forward.
+
+EMAIL BODY
+Please let me know your availability for a meeting to discuss this further.
+

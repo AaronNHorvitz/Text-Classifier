@@ -1,0 +1,22 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, July 06, 1983 04:24 PM
+To:      Gordon Clark; John Bosworth; Yo-Yo Engberk; Donna Clark
+
+Categories: Apology
+
+Subject: Apology for Delayed Response
+
+
+Dear Gordon, John, Yo-Yo, and Donna,
+
+I am pleased to report that our team has finally resolved the issue with the faulty UART driver. I took a step back, re-examined the code, and implemented a corrected implementation of the DMA transfer protocol (see attached snippet). This should resolve the erratic behavior we've been experiencing.
+
+Please let me know if you have any further questions or concerns.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric - Software Development
++1 512-555-0182
+

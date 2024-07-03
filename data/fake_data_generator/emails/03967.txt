@@ -1,0 +1,58 @@
+
+From:    Cameron Howe
+Sent:    Monday, June 13, 1983 09:08 AM
+To:      Yo-Yo Engberk; Larry Goins; Barry Shields; Malcolm Levitan
+
+Categories:    Personal Milestone
+
+Dear Malcolm,
+
+Ha! A thousand lines of code in C++? That's impressive. I'm not surprised, though - you've always been a stickler for detail and a perfectionist when it comes to your work.
+
+I have to admit, I'm feeling pretty amused about the whole thing. It's like, yeah, we're all just trying to make this crazy project work, but sometimes you need to stop and smell the roses (or in this case, the 1000th line of code). It's a milestone, for crying out loud! You should be celebrating!
+
+And hey, speaking of celebrating, I'm stoked that you're making progress on the new PC prototype. When do we get to see it in action?
+
+
+
+From:    Joe MacMillan
+Sent:    Monday, June 13, 1983 09:08 AM
+To:      Cameron Howe; Yo-Yo Engberk; Larry Goins; Barry Shields; Malcolm Levitan
+
+Categories:    Personal Milestone
+
+Hi Malcolm,
+
+I just read your email, and I've got to say, I'm impressed. A thousand lines of code written in C++? That's dedication. And it's not just about the numbers; it's about the sense of accomplishment that comes with creating something from scratch.
+
+As someone who's been around the block a few times, I know what it takes to make something work. It's not just about writing code; it's about understanding the problems you're trying to solve and finding creative solutions. And sometimes, that means pushing through the tough stuff and persevering.
+
+So, congratulations on reaching this milestone. You should be proud of yourself. Now, let's talk about that new PC prototype. I'm interested in reviewing your latest modifications and seeing how we can work together to get it off the ground.
+
+
+
+From:    Malcolm Levitan
+Sent:    Monday, June 13, 1983 09:08 AM
+To:      Joe MacMillan; Cameron Howe; Yo-Yo Engberk; Larry Goins; Barry Shields
+
+Categories: Personal Milestone
+
+Subject:    Personal Milestone Notification
+
+
+Dear Team,
+
+I'm struggling to find the words to express my sentiments, but I'll try to be concise. Today marks a personal milestone for me - 1000th line of code written in C++. It's not about the numbers; it's about the sense of accomplishment and the knowledge that each line was carefully crafted.
+
+In a way, it feels like a small victory, considering the challenges we're facing with the new PC prototype. I'm still refining the error-handling mechanisms to ensure seamless data transfer between the Intel 8088 CPU and the IBM PC's BIOS. If anyone is interested in reviewing my latest modifications, please let me know.
+
+I'll continue to push forward, driven by the desire to see our project succeed.
+
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+

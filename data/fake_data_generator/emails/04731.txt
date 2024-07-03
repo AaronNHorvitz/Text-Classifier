@@ -1,0 +1,32 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, July 13, 1983 02:15 PM
+To:      Ed Burris; Barry Shields
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Dear Ed and Barry,
+
+I'm writing to provide a project update as requested. To be honest, I'm not thrilled about where we are with this project. The latest beta release is still experiencing issues with the file compression algorithm, and our testing has revealed several critical bugs. I've attached the revised code snippet below for your review:
+
+```cpp
+if (file_size > 1024) {
+    // re-encode file in chunks to avoid buffer overflow
+    char *chunk = new char[file_size / 1024];
+    ...
+}
+```
+
+I understand that we need to push forward, but I'm genuinely concerned about the impact these issues will have on our deadline. I'd appreciate any guidance or suggestions you can offer to help us get back on track.
+
+Best regards,
+
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+

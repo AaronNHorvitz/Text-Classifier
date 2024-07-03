@@ -1,0 +1,33 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, July 11, 1983 02:13 PM
+To:      Cameron Howe; Larry Goins; Barry Shields; Donna Clark; Joe MacMillan
+
+Categories: Technical Support
+
+Subject:    Technical Support Request: Unresolved Issue in 3.0 Beta
+
+Dear Team,
+
+EMAIL BODY
+
+I'm writing to request technical support regarding an unresolved issue in the 3.0 beta release. Specifically, I've identified a bug that causes the application to crash when attempting to execute the 'find_all' function on a dataset with over 5000 records. The error message is:
+
+"Error: array index out of bounds"
+
+I've verified that this issue does not occur in earlier versions of the software (2.5 and below). I've also tried debugging by inserting print statements at key points, but the problem persists.
+
+To reproduce the issue, follow these steps:
+
+1. Launch 3.0 beta
+2. Load dataset "sample_data.txt"
+3. Attempt to execute 'find_all' function
+
+Please let me know if anyone has experienced this issue or can provide insight on how to resolve it.
+
+EMAIL SIGNATURE
+
+Malcolm Levitan
++1 512-555-0182
+Programmer, Software Development
+Cardiff Electric

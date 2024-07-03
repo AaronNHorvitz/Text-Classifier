@@ -1,0 +1,22 @@
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, January 18, 1983 09:38 AM
+To:      John Bosworth; Donna Clark
+
+Categories: Research Collaboration
+
+Subject:    Research Collaboration - Let's Code Like Crazy!
+
+
+Hi John and Donna,
+
+I'm feeling like a byte-sized genius today, and that's no bug! I've been brainstorming some ideas for our research collaboration, and I think we could make some real progress if we put our heads together. Specifically, I was thinking about applying some of the concepts from fractal geometry to optimize our compression algorithms. It's like finding a hidden pattern in a Mandelbrot set - exciting stuff!
+
+Let me know when you're free to chat more about this. I'd love to hear your thoughts and start coding up some prototypes.
+
+Best,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142

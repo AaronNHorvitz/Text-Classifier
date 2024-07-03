@@ -1,0 +1,18 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, July 20, 1983 11:09 AM
+To:      Ed Burris
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Hi Ed,
+
+The code is flowing like magic and we're crushing our deadlines. I've got a working prototype of the new compression algorithm and it's looking sweet. I'm excited to share the results with you and get your feedback. We're on track to deliver this thing and I think it's going to be a game-changer.
+
+Cameron Howe
+Lead Software Developer, Software Development
+Cardiff Electric
++1 512-555-0147

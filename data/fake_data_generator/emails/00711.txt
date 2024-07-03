@@ -1,0 +1,23 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, February 02, 1983 11:25 AM
+To:      Yo-Yo Engberk; Ed Burris; Barry Shields; John Bosworth; Larry Goins
+
+Categories: Technical Support
+
+Subject: Technical Support
+
+
+Hey gang,
+
+Listen, I know we're all slammed, but I wanted to flag some weirdness with our new server config. It's been running hot for days, and I'm worried we might be looking at a thermal meltdown if we don't adjust the cooling system ASAP.
+
+I've tried tweaking the fans, but it seems like the heat sink is doing its best to roast us alive. Has anyone else noticed this?
+
+Oh, and can someone please remind me why we're using that ancient IDE anyway? It's giving me hives just thinking about it.
+
+
+Cheers,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer | Cardiff Electric | Software Development

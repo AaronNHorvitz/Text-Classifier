@@ -1,0 +1,30 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, April 12, 1983 04:35 PM
+To:      Barry Shields
+
+Categories: Industry News
+
+Subject:    Industry News: PC Magazine's Latest Review
+
+
+Hello Barry,
+
+I wanted to follow up on the recent review by PC Magazine of the IBM PC/AT. As you know, we've been following their coverage closely and I believe it's essential that we stay informed about industry trends and competitor activity.
+
+In their latest issue, they highlight the improved performance and compatibility of the AT over its predecessors. While this isn't particularly groundbreaking news, it does reinforce the importance of our own efforts to optimize Cardiff Electric software for this platform.
+
+I've included a relevant snippet from the review below:
+
+"The IBM PC/AT's 6.37 MHz clock speed provides a noticeable boost in performance... The new graphics capabilities are also impressive."
+
+This, combined with the recent success of our own Cardiff Electric Software Development team, has got me thinking about potential opportunities to leverage this momentum and further solidify our position in the market.
+
+I'd love to discuss this further with you and explore ideas for how we can capitalize on these developments. Perhaps we could schedule a meeting or brainstorming session?
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric, Software Development
++1 512-555-0182
+

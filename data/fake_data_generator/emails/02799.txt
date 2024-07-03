@@ -1,0 +1,25 @@
+
+From:    Cameron Howe
+Sent:    Monday, April 25, 1983 04:30 PM
+To:      Ed Burris; Donna Clark; Yo-Yo Engberk; Debbie Malinowski
+
+Categories: Quality Assurance
+
+Subject:    QA Discrepancies
+
+
+Dear Ed, Donna, Yo-Yo, and Debbie,
+
+You've got to be kidding me. I'm still trying to wrap my head around what's going on with the QA process. It's like you all are speaking a different language or something.
+
+I've been pouring over the reports and it looks like we're missing some serious checks on our code. How did this even happen? Did everyone just forget to do their job or what?
+
+Look, I get that things can slip through the cracks sometimes, but this is ridiculous. We're talking about potentially catastrophic bugs here.
+
+I expect a full report on how you're going to rectify this situation by EOD today. No excuses. This isn't a game, people.
+
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development

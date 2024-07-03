@@ -1,0 +1,22 @@
+
+From:    Gordon Clark
+Sent:    Thursday, April 07, 1983 04:08 PM
+To:      Ed Burris
+
+Categories: Reminder
+
+Subject:     Reminder
+
+
+Dear Ed,
+
+I'm writing to remind you that the code review for the new 8-bit processor architecture is still pending. As Chief Engineer, I expect a thorough and timely review of all engineering projects, including this one.
+
+In light of recent... developments, I've re-examined the schematics and noticed several critical flaws in your design. I'll need you to revise and resubmit by EOD Friday.
+
+Please confirm receipt and indicate when I can expect an updated submission.
+
+Gordon Clark
+Chief Engineer, Engineering
+Cardiff Electric
++1 512-555-0198

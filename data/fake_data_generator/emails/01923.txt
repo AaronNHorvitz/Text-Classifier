@@ -1,0 +1,24 @@
+
+From:    Yo-Yo Engberk
+Sent:    Monday, March 21, 1983 01:39 PM
+To:      Larry Goins; Malcolm Levitan
+
+Categories: Quality Assurance
+
+Subject: The QA Saga Continues...
+
+Dear Larry and Malcolm,
+
+EMAIL BODY
+Hey, guys! So, I'm writing to express my utter frustration with our current QA process. It's like trying to debug a cat - you can't even get it to sit still long enough to figure out what's going on! Seriously though, we're losing valuable development time due to unnecessary rework and manual testing. Can we please, for the love of all things digital, automate this thing already?!
+
+EMAIL BODY (CONT.)
+And don't even get me started on those pesky test cases... I mean, come on! We're trying to revolutionize computing here, not create a bureaucratic nightmare!
+
+EMAIL SIGNATURE
+Yo-Yo Engberk
+Programmer
++1 512-555-0142
+Cardiff Electric
+Software Development
+

@@ -1,0 +1,17 @@
+
+From:    Yo-Yo Engberk
+Sent:    Wednesday, January 26, 1983 09:04 AM
+To:      Joe MacMillan; Debbie Malinowski; Malcolm Levitan; Gordon Clark
+
+Categories: Personal Milestone
+
+Subject:    Time to Level Up!
+
+Dear All,
+
+I hope this email finds you well. Or at least not too exhausted from trying to debug Gordon's code (just kidding, sort of). Anyway, I wanted to share a personal milestone with everyone - I finally finished my own coding project, and it's actually kind of cool! It's a little chatbot that can order pizza for me (priorities, people!). 
+
+Don't worry, it's not going to take over the world... or Gordon's job. But it did give me a chance to practice some new skills and experiment with some fun AI stuff.
+
+Enough about my nerdiness - let me know if you want to chat more about it or if there's anything I can help with around here. Otherwise, keep on keeping on and remember: when life gives you lemons, make a lemony algorithm!
+

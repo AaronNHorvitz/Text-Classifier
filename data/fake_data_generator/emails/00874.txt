@@ -1,0 +1,22 @@
+
+From:    Cameron Howe
+Sent:    Tuesday, February 08, 1983 12:24 PM
+To:      Gordon Clark; Ed Burris
+
+Categories: Technical Support
+
+Subject: Technical Support for Cardiff Electric
+
+
+Dear Gordon and Ed,
+
+I'm reaching out from the Software Development department at Cardiff Electric. We've got a few pesky bugs to squash, and I think I can help you guys out. I've been going over some code and I think I found the source of the issue - it's a weird interaction between the UI framework and our custom widget library.
+
+Let me know if you're free to chat about it today or tomorrow. I'm happy to walk you through what I've got so far.
+
+Cheers,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric
+Software Development department
+

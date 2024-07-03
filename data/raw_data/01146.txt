@@ -1,0 +1,24 @@
+
+From:    Larry Goins
+Sent:    Tuesday, February 15, 1983 04:21 PM
+To:      Joe MacMillan; Ed Burris; Cameron Howe; Barry Shields; Debbie Malinowski
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Issues with New Firmware
+
+
+Dear Team,
+
+I'm writing to follow up on some issues we're experiencing with the new firmware roll-out. As a Support Technician, I've been digging into the problems and wanted to share my findings. Unfortunately, it seems that the QA process didn't quite catch all the bugs this time around.
+
+The main issue is with the serial communication module - it's causing some of our systems to crash when trying to connect. I've tried troubleshooting by checking the hardware configuration and firmware versions, but so far, no luck. I'm going to keep digging, but I thought it was important to bring this to everyone's attention.
+
+If anyone has any insights or ideas on how to fix this, please let me know. I'd appreciate any help or guidance we can get.
+
+Best regards,
+Larry Goins
+Support Technician
+Cardiff Electric
+Technical Support
++1 512-555-0144

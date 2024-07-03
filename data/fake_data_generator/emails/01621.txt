@@ -1,0 +1,20 @@
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, March 08, 1983 03:14 PM
+To:      Malcolm Levitan
+
+Categories: Personal Milestone
+
+Subject:    A Milestone to Remember
+
+Dear Malcolm,
+
+EMAIL START of my coding career was just celebrated (pun intended), and I'm still buzzing from the excitement! I wanted to share my personal milestone with you - I've finally mastered the art of debugging, and it feels like a major victory!
+
+The best part? It's not just about writing clever code; it's also about understanding what makes our users tick. And let me tell you, it's been eye-opening (and sometimes hilarious) to see how people interact with our software.
+
+So, next time we're on the same floor at Cardiff Electric, I'll buy you a coffee and regale you with war stories from the trenches of Software Development.
+
+Best,
+Yo-Yo Engberk
+Programmer, Cardiff Electric | Software Development | +1 512-555-0142

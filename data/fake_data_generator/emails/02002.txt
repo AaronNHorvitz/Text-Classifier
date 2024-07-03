@@ -1,0 +1,42 @@
+
+From:    Ed Burris
+Sent:    Wednesday, March 23, 1983 04:56 PM
+To:      Barry Shields; Yo-Yo Engberk; Donna Clark; Larry Goins
+
+Categories: Quality Assurance
+
+Subject:    Quality Assurance - Project Prioritization and Task Allocation
+
+
+Dear All,
+
+I'm writing to outline our Quality Assurance strategy for the next quarter. As we move forward, it's essential that we focus on high-impact tasks that drive results. Below are some key objectives and priorities:
+
+
+• Review and refine existing test protocols
+• Identify and prioritize critical components for testing
+• Develop a comprehensive quality assurance plan
+
+I've outlined these objectives in more detail below:
+
+o Component 1: Test Protocol Refining (Deadline: March 15th)
+	+ Conduct a thorough review of current tests to identify areas for improvement
+	+ Develop and implement refined protocols to ensure accuracy and efficiency
+
+o Component 2: Critical Components Prioritization (Deadline: April 10th)
+	+ Analyze project components to determine which ones require the most rigorous testing
+	+ Establish clear priorities based on component criticality and testing requirements
+
+o Component 3: Quality Assurance Plan Development (Deadline: May 1st)
+	+ Develop a comprehensive quality assurance plan that incorporates refined protocols and prioritized components
+	+ Ensure the plan is aligned with project objectives and timelines
+
+
+Let's work together to achieve these goals. If you have any questions or concerns, please don't hesitate to reach out.
+
+Best regards,
+
+Ed Burris
+Project Manager, Cardiff Electric
+Phone: +1 512-555-0155
+

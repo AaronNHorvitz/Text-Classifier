@@ -1,0 +1,44 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, June 07, 1983 02:04 PM
+To:      Gordon Clark
+
+Categories: Reminder
+
+Subject: Reminder: Bignum Update
+
+
+Dear Gordon,
+
+I hope this email finds you well. I wanted to follow up on our previous discussion regarding the Bignum update in our codebase. As we previously agreed, I've made the necessary changes to implement the modified binary search algorithm.
+
+To recap, here's the relevant code snippet:
+
+```cpp
+int find(int target) {
+    int low = 0;
+    int high = array_size - 1;
+
+    while (high >= low) {
+        int mid = (low + high) / 2;
+        if (array[mid] == target)
+            return mid;
+        else if (array[mid] < target)
+            low = mid + 1;
+        else
+            high = mid - 1;
+    }
+    return -1; // not found
+}
+```
+
+As per our discussion, I've also updated the documentation to reflect the changes. If you have any questions or concerns, please don't hesitate to reach out.
+
+Best regards,
+
+Malcolm Levitan
+Programmer
++1 512-555-0182
+Cardiff Electric
+Software Development
+

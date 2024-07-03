@@ -1,0 +1,47 @@
+
+From:    Gordon Clark
+Sent:    Friday, May 06, 1983 04:07 PM
+To:      John Bosworth; Cameron Howe; Larry Goins
+
+Categories:    Industry News
+
+Hi Larry,
+
+I just had to respond immediately when I saw the latest industry developments. Your insight is always spot on, but I think we should take a closer look at what's happening with those new IBM PC-ATs and Apple Lisa II systems.
+
+It's no surprise that MS-DOS is getting some serious attention from IBM - they're always looking for ways to solidify their position in the market. But what really caught my eye was the rumors about the Apple Lisa II's GUI being more intuitive than anything we've seen before. That has huge implications for our own product lines, don't you think?
+
+I'm already thinking about how we can incorporate some of these innovations into our own projects. I'd love to hear your thoughts on the matter.
+
+Very truly yours,
+Gordon Clark
++1 512-555-0198
+Chief Engineer
+Engineering
+Cardiff Electric
+
+
+From:    Larry Goins
+Sent:    Friday, May 06, 1983 04:07 PM
+To:      John Bosworth; Gordon Clark; Cameron Howe
+
+Categories: Industry News
+
+Subject: Important Update on Industry News
+
+Dear John, Gordon, and Cameron,
+
+EMAIL BODY
+
+I wanted to touch base with everyone about some recent developments in the industry. As you know, we're always looking for ways to stay ahead of the curve, and I think it's essential that we're aware of what's happening elsewhere.
+
+I've been following some reports on the IBM PC-AT and Apple Lisa II, and I think they have some interesting implications for our own product lines. Specifically, the IBM PC-AT's focus on MS-DOS is something we should be keeping an eye on - it could potentially shake things up in the market.
+
+In terms of next steps, I recommend we keep a close eye on these developments and consider how they might impact our own projects. If anyone has any thoughts or insights, please don't hesitate to reach out.
+
+EMAIL BODY END
+
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric - Technical Support

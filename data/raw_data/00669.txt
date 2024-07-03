@@ -1,0 +1,33 @@
+
+From:    Ed Burris
+Sent:    Tuesday, February 01, 1983 09:22 AM
+To:      Malcolm Levitan
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Guidelines
+
+
+Dear Malcolm,
+
+I'm writing to outline our approach to quality assurance for the new project. As we discussed earlier, it's crucial that we have a robust process in place to ensure timely delivery and minimal defects.
+
+Here are the key objectives:
+
+• Define clear acceptance criteria
+• Establish a testing framework
+• Identify potential risks and mitigate them proactively
+
+To achieve these goals, I propose the following tasks:
+
+• Conduct a thorough review of existing QA processes
+• Develop a customized test plan for our project
+• Schedule regular status updates to track progress
+
+I'm torn between moving forward with a more incremental approach versus implementing a comprehensive overhaul. Your input on this would be invaluable.
+
+Best regards,
+Ed Burris
++1 512-555-0155
+Project Manager, Cardiff Electric
+Project Management Department

@@ -1,0 +1,51 @@
+
+From:    Joe MacMillan
+Sent:    Wednesday, February 16, 1983 02:03 PM
+To:      Malcolm Levitan
+
+Categories:    Training and Development
+
+Hi Malcolm,
+
+I'm thrilled to hear that we're taking initiative in training and development for our new hires. It's crucial that we set them up for success, and I think your approach is spot on. Those tutorials and workshops will definitely provide a solid foundation for our team members.
+
+As someone who's always looking to improve, I have to say that I'm particularly excited about the online resources you're exploring. Code Complete is an excellent book series - I've read it myself, and I've seen firsthand how much it can help developers refine their skills.
+
+One thing I do think we could do better is incorporate more real-world projects into our training program. Sometimes, abstract concepts just don't stick until you see them in action. Maybe we could have our new hires work on small projects that apply what they're learning? That way, they'll get to see the practical applications of their skills.
+
+Overall, though, I think your efforts are going in the right direction. Keep up the good work!
+
+Very truly yours,
+Joe MacMillan
+Senior Product Manager
+Cardiff Electric
+Product Management
++1 512-555-0132
+
+
+From:    Malcolm Levitan
+Sent:    Wednesday, February 16, 1983 02:03 PM
+To:      Joe MacMillan
+
+Categories: Training and Development
+
+Subject:    Training and Development for New Hires
+
+
+Dear Joe,
+
+I hope this email finds you well. As we continue to onboard new team members in Software Development, I wanted to touch base with you regarding training and development initiatives. Our department has been working on a comprehensive program to ensure that all new hires are properly equipped to contribute to our projects.
+
+To date, we've developed a series of tutorials and workshops focused on key programming languages such as C++ and Pascal. We're also exploring online resources like the Code Complete book series by Steve McConnell. I believe these materials will provide a solid foundation for our team members to learn from.
+
+If you have any feedback or suggestions on how we can improve our training program, please don't hesitate to reach out. Your input would be invaluable in shaping the direction of our initiatives.
+
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+
+

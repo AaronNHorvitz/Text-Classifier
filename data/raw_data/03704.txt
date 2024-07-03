@@ -1,0 +1,21 @@
+
+From:    Gordon Clark
+Sent:    Tuesday, May 31, 1983 09:19 AM
+To:      Donna Clark; Yo-Yo Engberk; John Bosworth; Debbie Malinowski
+
+Categories: Reminder
+
+Subject: Reminder: System Integration
+
+
+Dear Donna, Yo-Yo, John, and Debbie,
+
+I'm writing to remind everyone that our system integration tests are long overdue. I've spent countless hours optimizing the code, but without proper testing, we're just patching holes rather than fixing the root causes. The last thing we need is another costly rework.
+
+The current state of the project is unacceptable. We can't keep pushing back deadlines and pretending it's business as usual. It's time to take a step back, assess our priorities, and make some tough decisions.
+
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Cardiff Electric
+Engineering Department

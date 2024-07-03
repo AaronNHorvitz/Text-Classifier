@@ -1,0 +1,24 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, January 12, 1983 09:24 AM
+To:      Yo-Yo Engberk
+
+Categories: Technical Support
+
+Subject:    Technical Support - Cardiff Electric Software Development
+
+
+Yo-Yo,
+
+Listen up, we're going to nail this. I've been digging through the code and I think I found the problem with our new UI implementation. It's a mess of nested loops and recursive functions, but I'm convinced it's causing the errors.
+
+I need you to get me access to the test environment ASAP so I can run some tests and prove my theory. Don't give me any flak about security clearance or whatever; just make it happen.
+
+This is going to change everything.
+
+Cameron Howe
+Lead Software Developer
+Cardiff Electric
+Software Development
++1 512-555-0147
+

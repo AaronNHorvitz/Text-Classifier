@@ -1,0 +1,42 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, May 31, 1983 01:24 PM
+To:      Cameron Howe
+
+Categories:    System Outage
+
+Hi Cameron,
+
+You're telling me our system's down? That's no surprise. It's like trying to predict when a tornado will hit - it's only a matter of time before something goes haywire around here. I'm just glad you found the problem and have a patch ready. Let's not waste any more time on this nonsense.
+
+What's the plan for deploying the fix? Do we need to schedule some downtime or can we squeeze it in during a quiet hour?
+
+Very truly yours,
+Malcolm Levitan
++1 512-555-0182
+Programmer, Cardiff Electric, Software Development
+
+
+From:    Cameron Howe
+Sent:    Tuesday, May 31, 1983 01:24 PM
+To:      Malcolm Levitan
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Malcolm,
+
+Listen up. We've got a problem. Our system's down and I'm not just talking about the usual Monday morning lag. This is a full-on outage, and we need to move fast to get it back online.
+
+I've been digging around in the code and I think I found the culprit - some wonky logic in one of our server scripts. I've got a patch ready to go, but I need your okay to deploy it.
+
+Let me know what you think, and let's get this show back on the road.
+
+
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric
+Software Development
+

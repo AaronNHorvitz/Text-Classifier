@@ -1,0 +1,60 @@
+
+From:    Larry Goins
+Sent:    Thursday, April 28, 1983 11:51 AM
+To:      Larry Goins
+
+Categories:    Reminder
+
+Dear Yo-Yo,
+
+What's eating at you? You're thanking me left and right, but I'm the one who should be getting all worked up. Why do you think you deserve special treatment just because you can't figure out how to use a computer? You're always asking for help, and yet you never have anything good to say about my expertise. It's like you're taking me for granted or something.
+
+Anyway, back to the reminder: I hope you take care of that 8086 issue. Don't come crying to me when it's still not working because you decided to ignore my advice again.
+
+Very truly yours,
+Larry Goins
+Support Technician
+Cardiff Electric | Technical Support
++1 512-555-0144
+
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, April 28, 1983 11:51 AM
+To:      Larry Goins
+
+Categories:    Reminder
+
+Hi Larry,
+
+Ah, thank goodness for reminders like yours! You're a lifesaver, my friend. I was starting to think I'd have to resort to using a ZX Spectrum or something (shudder). Your troubleshooting steps are spot on, and I've already tried restarting the system and checking for loose screws. I'm pretty sure it's not the hardware that's the issue, but who knows? Maybe I'll just give in and upgrade... Nah, I won't. I'll figure this out myself.
+
+Thanks again for your help! You're a true friend to the computer-challenged (like me).
+
+Very truly yours,
+Yo-Yo Engberk
+Programmer
+Software Development
+Cardiff Electric
++1 512-555-0142
+
+
+From:    Larry Goins
+Sent:    Thursday, April 28, 1983 11:51 AM
+To:      Yo-Yo Engberk
+
+Categories: Reminder
+
+Subject: Reminder
+
+Hello Yo-Yo,
+
+I wanted to follow up on our previous conversations regarding the issues you were experiencing with your 8086 computer. As a friendly reminder, I've included some troubleshooting steps and technical advice below.
+
+If you're still experiencing problems, please don't hesitate to reach out. We're here to help! To troubleshoot, try restarting the system, ensuring all cables are securely connected, and checking for any loose screws or faulty components. If these steps don't resolve the issue, it may be worth considering upgrading your hardware.
+
+Best,
+Larry Goins
+Support Technician
+Cardiff Electric | Technical Support
++1 512-555-0144
+

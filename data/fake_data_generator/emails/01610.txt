@@ -1,0 +1,99 @@
+
+From:    Cameron Howe
+Sent:    Tuesday, March 08, 1983 03:24 PM
+To:      Cameron Howe
+
+Categories:    System Outage
+
+Dear Joe,
+
+I'm still trying to wrap my head around your email. You're asking me to give you a clear plan of action by the end of the day, but you're not even willing to listen to what actually happened? It's like you think we're just a bunch of code monkeys who can magically fix things without any understanding of how they work.
+
+Look, I get it - time is money and all that jazz. But as developers, we're not just fixing problems, we're trying to understand the root cause of those problems so we can prevent them from happening again. It's not about spinning a story or making excuses; it's about doing our job to the best of our ability.
+
+I'm still trying to figure out what went wrong last night, and I don't have some magic plan to give you yet. But I do know that we need to take the time to understand the complexity of our systems and the people who work on them. Maybe then we can actually have a meaningful conversation about what happened and how to avoid it in the future.
+
+I'm not going to sugarcoat it for you, Joe. This is a complex issue that requires more than just a quick fix. It requires us to take a step back, assess what went wrong, and develop a plan to prevent it from happening again. I know that's not what you want to hear, but it's the truth.
+
+
+
+From:    Cameron Howe
+Sent:    Tuesday, March 08, 1983 03:24 PM
+To:      Cameron Howe
+
+Categories:    System Outage
+
+Hi Joe,
+
+I'm still trying to wrap my head around your email. You're asking me to give you a clear plan of action by the end of the day, but you're not even willing to listen to what actually happened? It's like you think we're just a bunch of code monkeys who can magically fix things without any understanding of how they work.
+
+Look, I get it - time is money and all that jazz. But as developers, we're not just fixing problems, we're trying to understand the root cause of those problems so we can prevent them from happening again. It's not about spinning a story or making excuses; it's about doing our job to the best of our ability.
+
+I'm still trying to figure out what went wrong last night, and I don't have some magic plan to give you yet. But I do know that we need to take the time to understand the complexity of our systems and the people who work on them. Maybe then we can actually have a meaningful conversation about what happened and how to avoid it in the future.
+
+Very truly yours,
+Cameron Howe
+Lead Software Developer, Cardiff Electric, Software Development
++1 512-555-0147
+
+
+From:    Cameron Howe
+Sent:    Tuesday, March 08, 1983 03:24 PM
+To:      Cameron Howe
+
+Categories:    System Outage
+
+Dear Joe,
+
+Are you kidding me? You're telling me to give you a clear plan of action by the end of the day, but you're not even willing to listen to what actually happened? We don't just "fix" things around here; we have to troubleshoot and understand why they broke in the first place.
+
+I've been up all night working on this, Joe. I'm not some PR flack who can spin a story for your benefit. I'm a developer trying to make sense of what went wrong. And you know what? We're still trying to figure out how to prevent it from happening again.
+
+So, instead of getting a "clear plan of action" by the end of the day, how about you take some time to understand the complexity of our systems and the people who work on them? Maybe then we can actually have a meaningful conversation about what happened and how to avoid it in the future.
+
+
+
+From:    Joe MacMillan
+Sent:    Tuesday, March 08, 1983 03:24 PM
+To:      Cameron Howe
+
+Categories:    System Outage
+
+Dear Cameron,
+
+Listen, I don't have time to deal with system outages. I've got a company to run and a product to launch. Can you just tell me what the hell happened? And more importantly, what are we going to do about it?
+
+I don't care about "digging out from under the rubble" or whatever PR spin you're trying to sell me. What I care about is getting Cardiff Electric back on track and making sure this doesn't happen again.
+
+So, here's the deal: I need a clear plan of action by end of day today. What are we going to do to fix this? And how are we going to prevent it from happening again?
+
+That's what I want to hear. Not some vague assurances about "doing everything in our power." Just give me the facts, Cameron.
+
+Very truly yours,
+
+Joe MacMillan
++1 512-555-0132
+Senior Product Manager, Cardiff Electric
+Product Managemen
+
+From:    Cameron Howe
+Sent:    Tuesday, March 08, 1983 03:24 PM
+To:      Joe MacMillan
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Hi Joe,
+
+I'm writing to give you an update on the system outage we experienced last night. I know you're probably busy getting the marketing department off our backs, but I wanted to keep you in the loop.
+
+To be honest, it's been a long night and we're still digging out from under the rubble. But I think we've made some good progress so far. Our team has identified the root cause of the issue and we're working on implementing a fix as we speak.
+
+I want to reassure you that we're doing everything in our power to prevent any further incidents like this from happening again. And if they do, we'll be ready to jump into action ASAP.
+
+Take care,
+Cameron Howe
+Lead Software Developer, Cardiff Electric, Software Development
++1 512-555-0147

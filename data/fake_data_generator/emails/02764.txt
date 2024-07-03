@@ -1,0 +1,26 @@
+
+From:    Larry Goins
+Sent:    Sunday, April 24, 1983 11:59 AM
+To:      Barry Shields; Yo-Yo Engberk
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Hi Barry and Yo-Yo,
+
+I'm reaching out because we're running into some technical issues on the project, and I need to bring you up to speed. To be honest, I'm getting a little desperate - we're way behind schedule, and I don't know how much longer I can keep patching things together.
+
+The problem is that our latest code update seems to have introduced a weird interaction with the 8086 processor. It's causing some of our test runs to crash, which means we can't proceed with the project as planned. I've tried troubleshooting and even consulted some online forums, but I haven't been able to find a solution yet.
+
+I was hoping you could take a look at the code and see if you can spot what's going on. In the meantime, I'll keep trying to debug and will let you know as soon as I have any breakthroughs.
+
+Thanks in advance for your help - I really appreciate it.
+
+Best,
+Larry Goins
+Support Technician
++1 512-555-0144
+Cardiff Electric
+Technical Support

@@ -1,0 +1,21 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, June 16, 1983 11:11 AM
+To:      Malcolm Levitan; Donna Clark; Ed Burris; Barry Shields; Debbie Malinowski
+
+Categories: Vacation Notice
+
+Subject: Vacation Notice
+
+Dear Team,
+
+I'm writing to give you all a heads up that I'll be taking some time off soon. Don't worry, it's not because I've been debugging my sanity (although, let's be real, sometimes it feels like that). I just need a brief reboot and some quality time with my loved ones.
+
+Don't worry about the codebase while I'm away; I've got Ed to keep an eye on things. He's a great pair of eyes (and a whole lot more) when it comes to keeping our project running smoothly.
+
+Thanks for being such a fantastic team! You're all the bytes to my bit, the 1s and 0s to my code.
+
+Yo-Yo Engberk
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0142

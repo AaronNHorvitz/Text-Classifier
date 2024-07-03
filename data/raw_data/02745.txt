@@ -1,0 +1,25 @@
+
+From:    Gordon Clark
+Sent:    Friday, April 22, 1983 04:49 PM
+To:      Yo-Yo Engberk
+
+Categories: Product Recall
+
+Subject:    Product Recall Notification
+
+
+Dear Yo-Yo,
+
+I'm writing to inform you that we've identified a critical issue with our latest prototype, and I strongly recommend we initiate an immediate product recall. Upon closer inspection, I discovered a faulty capacitor that could potentially cause catastrophic system failure.
+
+The technical specifications are as follows: the affected part is the 4700uF/25V ceramic capacitor located on the primary board. Our testing indicates that it has a defect in the manufacturing process, which makes it prone to sudden and unpredictable failure.
+
+I've developed a detailed plan for recall and replacement, which I'd be happy to discuss with you further. My proposal includes a phased rollout to minimize disruptions and ensure a seamless transition.
+
+Please let me know if you're available to discuss this matter further. I'm eager to find a solution that meets our high standards for quality and customer satisfaction.
+
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Cardiff Electric
+Engineering Department

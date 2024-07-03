@@ -1,0 +1,36 @@
+
+From:    John Bosworth
+Sent:    Tuesday, January 25, 1983 02:14 PM
+To:      Cameron Howe
+
+Categories:    Compliance
+
+Hi Cameron,
+
+Listen, compliance is like trying to tame a wild mustang - it's a damn challenge. But I'm not one to shy away from a fight. I've been thinking about our code and I think we can find some creative ways to make it compliant without sacrificing too much functionality.
+
+Let's grab lunch and discuss our plan of attack. I've got some ideas brewing and I'd love to bounce them off you.
+
+
+
+From:    Cameron Howe
+Sent:    Tuesday, January 25, 1983 02:14 PM
+To:      John Bosworth
+
+Categories: Compliance
+
+Subject: Compliance Conundrum
+
+
+Dear John,
+
+Hey, let's cut to the chase - we're way behind schedule on that compliance thing. I'm talking about getting our code audited and certified. It's like trying to cram a square peg into a round hole, but I know you get what I mean.
+
+I've been digging through the specs, and I think I can find some creative solutions (read: workarounds) to get us compliant without sacrificing too much functionality. Want to grab lunch and discuss?
+
+Best,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development

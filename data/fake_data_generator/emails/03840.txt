@@ -1,0 +1,23 @@
+
+From:    Cameron Howe
+Sent:    Tuesday, June 07, 1983 09:56 AM
+To:      Malcolm Levitan
+
+Categories: Technical Support
+
+Subject: 
+
+Unconventional Technical Support Request
+
+Hello Malcolm,
+
+I'm writing to request some creative problem-solving from the Cardiff Electric technical support team. Our team has been experiencing some weird bugs in our code, and we're stumped. I was hoping someone with a fresh perspective could help us out.
+
+It's like this - sometimes our app just decides it doesn't want to work anymore, and we can't figure out why. We've tried the usual suspects (rebooting, recompiling, etc.), but nothing seems to be working.
+
+I'm hoping you might have some unconventional ideas that could help us get past this hurdle. If so, I'd love to hear them.
+
+Best,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric, Software Development

@@ -1,0 +1,26 @@
+
+From:    Larry Goins
+Sent:    Monday, May 09, 1983 11:52 AM
+To:      Yo-Yo Engberk; Joe MacMillan; Gordon Clark; Donna Clark
+
+Categories: Compliance
+
+Subject: Compliance - PC-DOS Compatibility Issue
+
+
+Hi Yo-Yo, Joe, Gordon, and Donna,
+
+I'm following up on our previous discussions regarding compliance with industry standards. Specifically, we've encountered an issue with our latest batch of IBM-compatible PCs running PC-DOS 1.1. Upon further investigation, it appears that the system is not compatible with certain DOS applications due to a minor bug in the ROM BIOS.
+
+To resolve this, I recommend updating the ROM BIOS to the latest version (available on our internal server) and re-testing the affected systems. Additionally, please ensure that any new PC-DOS installations are performed using the updated BIOS image.
+
+If you have any questions or concerns regarding this process, please don't hesitate to reach out. I'm more than happy to assist you in getting your systems up-to-date and compliant with industry standards.
+
+Best regards,
+
+Larry Goins
+Support Technician
+Cardiff Electric
+Technical Support
++1 512-555-0144
+

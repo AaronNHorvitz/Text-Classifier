@@ -1,0 +1,25 @@
+
+From:    Malcolm Levitan
+Sent:    Thursday, January 06, 1983 10:00 AM
+To:      Cameron Howe; Barry Shields; Ed Burris; Yo-Yo Engberk
+
+Categories: Industry News
+
+Subject: 
+
+Greetings,
+
+I'm writing to share some exciting industry news that I think is relevant to our current projects. Last week, I came across an article discussing the potential impact of IBM's PC/AT on the market. Specifically, the piece highlighted the increased adoption rate among small businesses and home users.
+
+Here are a few key points:
+
+* "The PC/AT's ability to run MS-DOS out of the box has significantly reduced the barrier to entry for new users." (Source: Computerworld, 1/13/1983)
+* According to CompuServe, the number of PC/AT units sold in Q4 '82 surpassed expectations.
+
+As we continue to develop Cardiff Electric's own operating system, I think it's essential to stay informed about market trends and competitor activity. This news could have implications for our strategy moving forward.
+
+Best regards,
+
+Malcolm Levitan
+Programmer, +1 512-555-0182
+Cardiff Electric, Software Development

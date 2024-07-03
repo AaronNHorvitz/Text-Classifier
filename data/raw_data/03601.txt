@@ -1,0 +1,35 @@
+
+From:    Malcolm Levitan
+Sent:    Friday, May 27, 1983 02:55 PM
+To:      Donna Clark
+
+Categories: Quality Assurance
+
+Subject: 
+
+Quality Assurance Feedback Request
+
+Dear Donna,
+
+I'm writing to request your assistance in reviewing the current QA process for our software development projects. As you know, I've been tracking the defects and errors in our codebase, and I'm concerned that we're not catching all the issues before release.
+
+To give you a better idea of what I mean, here's an example of a recent defect I found:
+```c
+if (user_input == 1) {
+    // do something
+} else if (user_input > 1) {
+    // do another thing
+}
+```
+
+However, this code doesn't account for the case where `user_input` is less than 0. We've seen issues arise when this condition isn't properly handled.
+
+I'd appreciate it if you could review our QA process and provide feedback on how we can improve our testing procedures to catch these types of errors earlier in the development cycle.
+
+Please let me know if you're available to discuss this further.
+
+Best regards,
+Malcolm Levitan
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0182

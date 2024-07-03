@@ -1,0 +1,26 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, July 27, 1983 04:19 PM
+To:      Larry Goins; Ed Burris; Joe MacMillan
+
+Categories: Product Launch
+
+Subject:    Product Launch: Technical Concerns
+
+
+Dear Larry, Ed, and Joe,
+
+As we approach the product launch deadline, I'm finding myself increasingly concerned about the technical feasibility of our plans. Specifically, I've been reviewing the code snippets for the new BIOS implementation, and I think we need to revisit some of the assumptions made in the original design documents.
+
+For instance, the use of recursive function calls in the interrupt handler may not be the most efficient approach. In fact, it could lead to stack overflows under heavy load conditions. I've attached a revised implementation that uses an iterative approach instead.
+
+
+As we discussed earlier, I'm worried about the impact of these technical issues on our ability to meet the product launch timeline. I'd appreciate any insight or guidance you can offer on how to address these concerns.
+
+Best regards,
+
+Malcolm Levitan
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0182
+

@@ -1,0 +1,22 @@
+
+From:    Cameron Howe
+Sent:    Tuesday, February 01, 1983 03:28 PM
+To:      John Bosworth; Debbie Malinowski; Joe MacMillan; Ed Burris; Malcolm Levitan; Larry Goins; Yo-Yo Engberk
+
+Categories: Quality Assurance
+
+Subject:    QA: Time to Rethink the Way We Do Things
+
+
+Hi all,
+
+I'm excited to share some thoughts on our Quality Assurance processes. As we continue to push the boundaries of what's possible with our new software, I think it's time for us to rethink our approach to QA. Instead of just testing for bugs and errors, let's focus on building in quality from the ground up. This means working closely with dev teams to ensure that our software is not only functional but also elegant and user-friendly.
+
+I know this might seem like a radical departure from our current methods, but I truly believe it's the key to unlocking our full potential as a team. Who's willing to join me on this journey?
+
+Cheers,
+Cameron Howe
+Lead Software Developer
+Cardiff Electric
+Software Development
++1 512-555-0147

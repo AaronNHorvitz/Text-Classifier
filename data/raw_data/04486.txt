@@ -1,0 +1,25 @@
+
+From:    Larry Goins
+Sent:    Friday, July 01, 1983 03:36 PM
+To:      Ed Burris; Barry Shields; Joe MacMillan; Gordon Clark
+
+Categories: Apology
+
+Subject:    Re: Error Codes on TX-11 Systems
+
+
+Dear Ed, Barry, Joe, and Gordon,
+
+I'm writing to apologize for the inconvenience caused by the recent errors we've seen on the TX-11 systems. As you know, I've been working tirelessly to troubleshoot the issue and provide a solution.
+
+In my investigation, I found that the root cause of the problem is related to an outdated firmware version. To resolve this, please follow these steps: 1) power down the system; 2) update the firmware using the latest package from our FTP site; 3) restart the system and re-run the diagnostic test.
+
+I understand this may have caused some frustration, and I'm committed to ensuring that our systems are running smoothly. If you experience any further issues or have questions, please don't hesitate to reach out.
+
+
+Sincerely,
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric
+Technical Support

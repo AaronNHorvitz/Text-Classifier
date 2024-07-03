@@ -1,0 +1,22 @@
+
+From:    Larry Goins
+Sent:    Thursday, February 10, 1983 02:33 PM
+To:      Cameron Howe
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Concerns
+
+Dear Cameron,
+
+I'm reaching out to address some concerns regarding our current QA process. As you know, we're working towards a tighter integration with the new 80186 chip, and I'm worried that our current testing protocols might not be sufficient.
+
+In my experience, it's crucial to simulate real-world scenarios during testing to ensure we catch any potential issues before deployment. However, I've noticed that some of our test cases seem to be focusing more on theoretical possibilities rather than practical applications. I'd love to discuss this further with you and explore ways to improve our QA process.
+
+Please let me know if you're available to chat about this soon.
+
+Best regards,
+Larry Goins
+Support Technician
++1 512-555-0144
+Cardiff Electric - Technical Support

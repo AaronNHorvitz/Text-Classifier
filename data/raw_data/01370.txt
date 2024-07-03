@@ -1,0 +1,21 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, February 23, 1983 09:15 AM
+To:      Barry Shields; Debbie Malinowski; John Bosworth; Joe MacMillan
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Hi all,
+
+System down, and I'm not just talking about our usual Monday morning slump. We've got a serious issue on our hands - the entire system is out. I know, I know, it's not exactly the most thrilling news, but someone's gotta tell it like it is.
+
+So here's the deal: I've been digging around and it looks like one of our databases got corrupted during that last software update. I'm still trying to figure out how it happened (long story), but for now, we're stuck with a big fat nothing. No data, no access - nada.
+
+Let me know if you have any ideas on how to get us back up and running. I'm all ears.
+
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric, Software Development

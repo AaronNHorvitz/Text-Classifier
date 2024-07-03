@@ -1,0 +1,23 @@
+
+From:    Cameron Howe
+Sent:    Friday, June 10, 1983 10:53 AM
+To:      Malcolm Levitan; Yo-Yo Engberk
+
+Categories: Thank You
+
+Subject: 
+
+Dear Malcolm and Yo-Yo,
+
+EMAIL START is just going to have to suffice as my calm and collected opening because, honestly, I'm running on fumes over here. The project deadline is breathing down my neck, and I'm still trying to wrap my head around the new database schema.
+
+Just wanted to say thanks for all your help so far. It's been a lifesaver having you both on this project. I know it's not always easy being the "cool kids" who have to hold our hands through this mess, but seriously, we couldn't do it without you.
+
+Take care, and try not to think too badly of me when you see how much code I've got left to write at 2 am.
+
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development
+

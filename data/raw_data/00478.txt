@@ -1,0 +1,21 @@
+
+From:    Gordon Clark
+Sent:    Tuesday, January 25, 1983 04:23 PM
+To:      Cameron Howe; Debbie Malinowski; Yo-Yo Engberk
+
+Categories: Research Collaboration
+
+Subject: Research Collaboration
+
+
+Dear Cameron, Debbie, and Yo-Yo,
+
+I'm writing to propose a collaborative research effort in the Engineering department. As you know, our team has been exploring new approaches to processing data streams for Cardiff Electric's next generation of personal computers. I believe that by pooling our expertise and resources, we can achieve more than we could individually.
+
+Specifically, I'd like to propose an examination of novel compression algorithms for real-time data transmission. This could have significant implications for the development of efficient and reliable systems. I've attached a rough outline of my ideas; please let me know if you're interested in discussing further.
+
+Best regards,
+Gordon Clark
+Chief Engineer, Engineering
+Cardiff Electric
++1 512-555-0198

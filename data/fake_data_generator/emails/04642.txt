@@ -1,0 +1,46 @@
+
+From:    Barry Shields
+Sent:    Friday, July 08, 1983 01:30 PM
+To:      Gordon Clark; Larry Goins; John Bosworth; Ed Burris; Malcolm Levitan
+
+Categories:    Supplier Relations
+
+Hi Malcolm,
+
+I'm loving what I'm reading. You're actually digging into the code? That's like finding a needle in a haystack, man. I mean, I've seen some clever stuff in my time, but this takes the cake. Admiring it, Malcolm, admiring it.
+
+Now, about supplier relations... I think we should create a new script. I mean, why fix something that ain't broke? Plus, having two scripts means we can keep the old one as a reference or something. And let's be honest, creating a new script is like solving a puzzle - it's fun! 
+
+So yeah, count me in for a call tomorrow. I'm stoked to discuss further.
+
+
+
+From:    Malcolm Levitan
+Sent:    Friday, July 08, 1983 01:30 PM
+To:      Barry Shields; Gordon Clark; Larry Goins; John Bosworth; Ed Burris
+
+Categories: Supplier Relations
+
+Subject: 
+
+Supplier Relations: Query on Invoice Processing
+
+Dear Gordon, Barry, Larry, John, and Ed,
+
+I'm writing to clarify a few points regarding our supplier relations. As you know, we've been experiencing some issues with invoice processing for our recent procurement orders. I've been digging into the code (see snippet below) and believe I may have identified the root cause.
+
+`if (invoice_total > 5000) {
+    // trigger additional audit checks
+}`
+
+The issue seems to be related to an outdated conditional statement in our invoicing script. I've proposed a fix to the team, but I'd like to get your input before moving forward. Specifically, I'm seeking clarification on whether we should update the existing script or create a new one.
+
+Your insights would be greatly appreciated. Please let me know if you're available for a brief call tomorrow to discuss further.
+
+Best regards,
+
+Malcolm Levitan
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0182
+

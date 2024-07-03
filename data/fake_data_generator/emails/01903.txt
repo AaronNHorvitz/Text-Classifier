@@ -1,0 +1,25 @@
+
+From:    Gordon Clark
+Sent:    Thursday, March 17, 1983 11:42 AM
+To:      Yo-Yo Engberk
+
+Categories: Compliance
+
+Subject: Compliance: Technical Audit Findings
+
+Dear Yo-Yo,
+
+I've been going over the compliance reports and I'm concerned about some discrepancies. The audit revealed a few areas where we can improve our documentation and ensure regulatory adherence.
+
+Specifically, I noticed that our system's logging protocol doesn't meet the recommended standards for data retention. I think it would be prudent to update our software to comply with industry best practices. Additionally, our records on employee training and certification require more detailed tracking.
+
+I'd like to discuss these findings further and explore potential solutions. Perhaps we can set up a meeting to review the audit report in greater detail?
+
+Please let me know your availability, and I'll schedule a time that works for you.
+
+Best regards,
+Gordon Clark
+Chief Engineer, Cardiff Electric
+Engineering Department
++1 512-555-0198
+

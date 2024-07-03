@@ -1,0 +1,24 @@
+
+From:    Cameron Howe
+Sent:    Thursday, May 05, 1983 12:16 PM
+To:      Yo-Yo Engberk
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance: Let's Shake Things Up!
+
+Dear Yo-Yo,
+
+EMAIL BODY
+Listen, I know we're not exactly swimming in QA folk around here, but I think it's time we get creative. We're building a company that's going to change the world (or at least our little corner of it), and that means taking some risks. So, let's make some noise and start pushing those bugs like they owed us money.
+
+EMAIL BODY
+I'm not saying we need to go crazy, but I am saying we should be having more fun. And maybe, just maybe, that's what we need to get these QA tests passing like they're supposed to. You game?
+
+EMAIL SIGNATURE
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development
+

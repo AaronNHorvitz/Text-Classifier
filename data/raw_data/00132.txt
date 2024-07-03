@@ -1,0 +1,39 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, January 10, 1983 01:56 PM
+To:      Cameron Howe; Ed Burris; Yo-Yo Engberk
+
+Categories:    Internal Announcement
+
+Dear Yo-Yo,
+
+I'm still trying to wrap my head around how we managed to get into that Hackathon competition. It's like we're trying to make up for lost time or something.
+
+Listen, I know you're excited about this and all, but I just can't help feeling a little guilty about it. I mean, what if we don't come in first? What if we mess up the whole thing?
+
+Look, I trust your judgment on this one. Just please, for my sake, make sure we don't get too cocky. We're Cardiff Electric, after all. We can't afford to look like a bunch of amateurs.
+
+
+
+From:    Yo-Yo Engberk
+Sent:    Monday, January 10, 1983 01:56 PM
+To:      Cameron Howe; Malcolm Levitan; Ed Burris
+
+Categories: Internal Announcement
+
+Subject:    Internal Announcement
+
+
+Hello Cameron, Malcolm, and Ed,
+
+I'm thrilled to announce that our coding ninja skills have earned us a spot in the upcoming Hackathon competition! Who knew all those late nights spent debugging would pay off?
+
+I'll be leading the team's efforts (read: doing most of the heavy lifting), but I couldn't do it without your collective genius. Let's make Cardiff Electric proud and show those other companies who's boss!
+
+Looking forward to our brainstorming session next week.
+
+Best,
+Yo-Yo Engberk
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0142

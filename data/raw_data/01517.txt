@@ -1,0 +1,21 @@
+
+From:    Gordon Clark
+Sent:    Wednesday, March 02, 1983 04:46 PM
+To:      Malcolm Levitan; Ed Burris; Barry Shields; John Bosworth; Yo-Yo Engberk
+
+Categories: System Outage
+
+Subject: System Outage
+
+Dear Team,
+
+EMAIL START
+
+
+
+I am compelled to report that our system has succumbed to an unforeseen and inexplicable failure. As Chief Engineer, I take responsibility for investigating the root cause of this anomaly. Preliminary analysis suggests a rogue code injection may be at play.
+
+
+
+Further investigation is required to determine the extent of the damage and identify potential avenues for recovery.
+

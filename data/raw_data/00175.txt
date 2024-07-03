@@ -1,0 +1,23 @@
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, January 11, 1983 09:57 AM
+To:      Debbie Malinowski; Joe MacMillan
+
+Categories: Quality Assurance
+
+Subject:    QA Conundrum
+
+
+Hi Debbie and Joe,
+
+I'm writing to you both from my cave of despair (just kidding, it's just the office) with a Quality Assurance conundrum that's been keeping me up at night. We've got some wonky code, and I'm not sure where the bugs are hiding. It's like trying to find a specific byte in a sea of 1s and 0s - daunting, right?
+
+Anyways, I was thinking we could have a QA jam session (okay, maybe not that extreme) to go over some test cases and see if we can squash these pesky errors once and for all. What do you say? Are you game?
+
+Best,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142
+

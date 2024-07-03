@@ -1,0 +1,79 @@
+
+From:    Larry Goins
+Sent:    Friday, May 13, 1983 11:23 AM
+To:      Larry Goins
+
+Categories:    Technical Support
+
+Dear Ed,
+
+I'm glad to hear that we're making progress on that PC-1 mainframe. I'm always up for a challenge, and figuring out what's going on with that system is definitely one. A faulty memory module, huh? Well, I reckon that's a good place to start. And hey, running a diagnostic test (S.T.E.P., you called it) will be a great way to get started.
+
+As for scheduling a remote session tomorrow at 2 PM CST, I'm game. But let me warn you, Ed, I've got some innovative ideas about how we're gonna tackle this issue. So, be prepared to think outside the box (or in this case, the PC-1 mainframe).
+
+I'm looking forward to talking with you then.
+
+Very truly yours,
+
+Larry Goins
+Support Technician
+Cardiff Electric
+Technical Support
++1 512-555-0144
+
+
+From:    Larry Goins
+Sent:    Friday, May 13, 1983 11:23 AM
+To:      Larry Goins
+
+Categories:    Technical Support
+
+Hi Ed,
+I'm not sure what's more frustrating, having to deal with another one of these technical issues or knowing that you're probably going to tell me it's something I did wrong. Look, I know we've been working on this PC-1 mainframe for a while now, and I appreciate your expertise in getting us this far. But can't we just get it done already? Do we really need to run some fancy diagnostic test or schedule another meeting to talk about how to fix the problem?
+
+I'm available tomorrow at 2 PM CST if that's what you want. Just don't expect me to be all smiles and sunshine about it.
+
+
+
+From:    Ed Burris
+Sent:    Friday, May 13, 1983 11:23 AM
+To:      Larry Goins
+
+Categories:    Technical Support
+
+Hi Larry,
+
+I'm glad we're finally making some progress on that PC-1 mainframe. A faulty memory module, huh? Well, I reckon that's a good place to start. I'll make sure to run that diagnostic test (S.T.E.P., you called it) and see what kind of trouble I can stir up.
+
+As for scheduling a remote session tomorrow at 2 PM CST, I'm game. But let me warn you, Larry, I've got some innovative ideas about how we're gonna tackle this issue. So, be prepared to think outside the box (or in this case, the PC-1 mainframe).
+
+Look forward to talking with you then.
+
+Very truly yours,
+
+
+From:    Larry Goins
+Sent:    Friday, May 13, 1983 11:23 AM
+To:      Ed Burris
+
+Categories: Technical Support
+
+Subject: Re: Technical Support - Issue with PC-1 Mainframe
+
+
+Hello Ed,
+
+I hope this email finds you well. I wanted to follow up on our previous conversations regarding the technical issues you've been experiencing with the PC-1 mainframe. As we discussed, it appears that the problem is related to a faulty memory module.
+
+To troubleshoot and resolve this issue, I recommend running a diagnostic test on the system using the built-in self-test feature (S.T.E.P.). This will help identify any issues with the hardware. If you're not familiar with the process, please let me know and I can walk you through it step by step.
+
+Additionally, I would like to schedule a remote session to assist you in resolving this issue further. Would you be available for a call tomorrow at 2 PM CST?
+
+Please don't hesitate to reach out if you have any questions or concerns.
+
+Best regards,
+Larry Goins
+Support Technician
+Cardiff Electric
+Technical Support
++1 512-555-0144

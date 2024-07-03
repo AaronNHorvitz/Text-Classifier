@@ -1,0 +1,40 @@
+
+From:    Cameron Howe
+Sent:    Friday, July 22, 1983 02:18 PM
+To:      Barry Shields; Larry Goins; Yo-Yo Engberk; John Bosworth; Gordon Clark; Debbie Malinowski; Donna Clark; Joe MacMillan; Malcolm Levitan
+
+Categories:    Wellness Check
+
+Hi Malcolm,
+
+I'm not sure how much more of this I can take. You're asking me to quantify my response time? Error rates? It's like you want to reduce our creativity to a set of cold, calculated numbers. Can't we just... talk about it? Share our experiences?
+
+As for your questionnaire, I'll give you the same answer I would give if I were asked how many rainbows I've seen: "What's the point?" If you're trying to streamline our development process, maybe we should start by streamlining our thinking. Stop asking us to box everything into neat little categories and just let us do what we do best.
+
+
+
+From:    Malcolm Levitan
+Sent:    Friday, July 22, 1983 02:18 PM
+To:      Barry Shields; Larry Goins; Yo-Yo Engberk; John Bosworth; Gordon Clark; Debbie Malinowski; Donna Clark; Joe MacMillan; Cameron Howe
+
+Categories: Wellness Check
+
+Subject:    Wellness Check
+
+
+Dear All,
+
+I hope this email finds you well. As part of our ongoing efforts to ensure a healthy and productive work environment, I am conducting a wellness check on our software development team. This will involve a series of technical questions aimed at identifying any potential areas for improvement in our workflow and collaboration.
+
+To facilitate this process, please find below a brief questionnaire:
+
+1. What is your average response time when queried by a colleague?
+2. How often do you experience errors or bugs in the code?
+3. Do you have any suggestions for streamlining our development process?
+
+Your prompt responses will greatly aid me in identifying potential areas of improvement and implementing necessary changes to optimize our workflow.
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182

@@ -1,0 +1,72 @@
+
+From:    John Bosworth
+Sent:    Wednesday, July 06, 1983 04:29 PM
+To:      Malcolm Levitan
+
+Categories:    Personal Update
+
+Dear Donna,
+
+I'm writing to you with a healthy dose of envy. You see, I've been watching Malcolm's rise to prominence at Cardiff Electric and it's hard not to feel a little left out. Don't get me wrong, I'm thrilled for the guy, but it seems like he's getting all the attention while I'm stuck in sales.
+
+I know you're trying to make things right with Malcolm, and I appreciate that. But let's be real, Donna - we've got bigger fish to fry here at Cardiff Electric. We need to focus on closing deals and bringing in those dollars. That's what I do best, and that's what the company needs.
+
+I'm not saying we shouldn't take care of Malcolm's concerns, but let's not get too bogged down in the details. We've got a sales team to manage, and I need your support on this.
+
+Very truly yours,
+John Bosworth
+Vice President of Sales
+Cardiff Electric
+Sales
++1 512-555-0179
+
+
+From:    Donna Clark
+Sent:    Wednesday, July 06, 1983 04:29 PM
+To:      John Bosworth; Malcolm Levitan
+
+Categories:    Personal Update
+
+Hi Malcolm,
+
+I'm still trying to wrap my head around what's been going on. Your email left me feeling frustrated and disappointed, but also a little bit passionate about making things right. I think we need to have a conversation about this, not just exchange emails.
+
+First of all, let me apologize for any perceived lack of transparency or respect. That's not how we operate at Cardiff Electric, and I'm going to make sure that everyone understands the importance of collaboration and communication. As Director of Operations, it's my job to ensure that our team is working together effectively, and I won't tolerate anything that undermines that.
+
+Regarding your specific concerns about the PC/IX project, I agree that we need to get to the bottom of what happened. I'll make sure that John and I review the logs and talk to the relevant people to figure out what went wrong. We'll also work on setting up a system for tracking changes and ensuring that everyone is notified when modifications are made.
+
+I know this isn't the response you were hoping for, but I hope it's a step in the right direction. Let's schedule a meeting to discuss further and get our team back on track.
+
+Very truly yours,
+Donna Clark
+Director of Operations
+Cardiff Electric
+Operations
+
+
+From:    Malcolm Levitan
+Sent:    Wednesday, July 06, 1983 04:29 PM
+To:      Donna Clark; John Bosworth
+
+Categories: Personal Update
+
+Subject:    Personal Update
+
+
+Dear Donna and John,
+
+I'm writing to express my disappointment and frustration regarding recent events. As you know, I've been working diligently on the PC/IX project, pouring over code and debugging issues. However, my efforts seem to have been for naught, as it appears my work has been compromised.
+
+Specifically, I noticed that some of my modifications were reverted without notification or explanation. This lack of transparency and respect for my contributions is unacceptable. As a programmer, I value the integrity of our codebase and expect collaboration, not sabotage.
+
+I'm requesting an explanation for these changes and assurances that such incidents will be avoided in the future. A detailed log of all recent modifications would also be appreciated.
+
+
+Best regards,
+
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+

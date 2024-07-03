@@ -1,0 +1,60 @@
+
+From:    Joe MacMillan
+Sent:    Thursday, February 10, 1983 02:55 PM
+To:      Gordon Clark; Larry Goins; Malcolm Levitan
+
+Categories:    Congratulations
+
+Hi Malcolm,
+
+Congratulations to us all, I suppose. I mean, who doesn't love a good 15% boost in cache efficiency? It's not like we're curing cancer or anything, but hey, it's something.
+
+I'm just glad this project is finally wrapping up so I can get back to more important things... like plotting the downfall of Cardiff Electric. Just kidding (or am I?). Seriously though, it's been a long and grueling process, and I think we're all due for a little R&R.
+
+Very truly yours,
+Joe MacMillan
+
+
+From:    John Bosworth
+Sent:    Thursday, February 10, 1983 02:55 PM
+To:      Gordon Clark; Joe MacMillan; Larry Goins; Malcolm Levitan
+
+Categories:    Congratulations
+
+Hi Malcolm,
+
+I'm not sure what's going to be more exhausting, implementing this new compiler optimization or dealing with the fallout of having actually done so. But I suppose it's nice to know that we've managed to squeeze out a few more cycles of whatever-it-is-we're-optimizing.
+
+Look, Malcolm, don't get me wrong - I'm happy to have been a part of this project and all, but can we please just take a moment to revel in the sheer, unadulterated madness of what we've accomplished? I mean, who needs personal fulfillment or job satisfaction when you can have a 15% boost in cache efficiency?
+
+Very truly yours,
+John Bosworth
+
+
+From:    Malcolm Levitan
+Sent:    Thursday, February 10, 1983 02:55 PM
+To:      Gordon Clark; John Bosworth; Joe MacMillan; Larry Goins
+
+Categories: Congratulations
+
+Subject: 
+
+Congratulations to our team on a job well done in implementing the new compiler optimization.
+
+Dear Gordon, John, Joe, and Larry,
+
+As we near the completion of the project, I wanted to take a moment to acknowledge the significant effort each of you has put in. The revised algorithm has shown promising results, and I'm pleased with the progress we've made.
+
+The following changes were implemented:
+
+* `if (optimize) { ... }` was replaced with `if (!optimize) { ... }`
+* Loop unrolling improved by 20%
+* Cache efficiency increased by 15%
+
+These optimizations have yielded a notable boost in performance. I'm confident that our work will have a lasting impact on the project's overall success.
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric
+Software Development
++1 512-555-0182

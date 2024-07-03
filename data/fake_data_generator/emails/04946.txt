@@ -1,0 +1,55 @@
+
+From:    Yo-Yo Engberk
+Sent:    Monday, July 25, 1983 11:50 AM
+To:      Yo-Yo Engberk
+
+Categories:    System Outage
+
+Dear Joe,
+
+I'm not sure how to put this, but... our system's down. And I don't just mean a little glitch. It's like the whole thing has crashed and burned. I know we're trying to troubleshoot, but it feels like we're just spinning our wheels. I'm still trying to wrap my head around what happened. Did we push too hard? Did we overlook something?
+
+I'm feeling pretty lost right now, to be honest. Like, how do you even begin to fix this kind of problem? It's not just a matter of plugging in some new code or whatever. This is like... the foundation of everything we've built.
+
+So, yeah. That's where I am. Just trying to make sense of all this and figure out what to do next.
+
+Very truly yours,
+Yo-Yo Engberk
+Programmer | Cardiff Electric
+Software Development | +1 512-555-0142
+
+
+From:    Joe MacMillan
+Sent:    Monday, July 25, 1983 11:50 AM
+To:      Yo-Yo Engberk
+
+Categories:    System Outage
+
+Hi Yo-Yo,
+
+I'm not surprised to hear that our system's gone down. It's like trying to build a house of cards and then wondering why it keeps collapsing. We've been pushing the limits, and I guess we finally hit a wall. Or rather, a bug.
+
+Let me put my thinking cap on and see if I can come up with a solution. In the meantime, can you tell me what's happening from your end? Any error messages or clues that might help us pinpoint the problem?
+
+I'm feeling motivated to get this sorted out, so let's get cracking! We'll get our system back online in no time.
+
+
+
+From:    Yo-Yo Engberk
+Sent:    Monday, July 25, 1983 11:50 AM
+To:      Joe MacMillan
+
+Categories: System Outage
+
+Subject: System Outage: We're "Crashing" Like It's 1983!
+
+Dear Joe,
+
+Oh, boy, have we got a bug to squash! Our system's gone down for the count (or at least that's what it feels like). I'm Yo-Yo Engberk from Software Development at Cardiff Electric, and I'm here to help you " reboot" our situation. Seriously though, can you please let me know what's going on? We're trying to troubleshoot, but our efforts are being foiled by... well, a system that won't boot
+
+Looking forward to getting this sorted out with your help!
+
+Best,
+Yo-Yo Engberk
+Programmer | Cardiff Electric
+Software Development | +1 512-555-0142

@@ -1,0 +1,24 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, March 03, 1983 10:56 AM
+To:      Barry Shields; Debbie Malinowski; Gordon Clark; Ed Burris; Malcolm Levitan; Joe MacMillan; Larry Goins; Donna Clark; John Bosworth; Cameron Howe
+
+Categories: Training and Development
+
+Subject:    Training and Development - A Jealous Programmer's Rant
+
+Hey gang,
+
+I'm feeling a little green with envy as I write this. Why, you ask? Because I just learned about this awesome training program for "junior" developers at Cardiff Electric (yeah, I know, I'm not junior anymore, but a girl can dream, right?). It seems like they're getting all the goodies - mentorship, project leadership, and even a fancy title! Meanwhile, us "old timers" are stuck in our usual routine.
+
+Now, I know what you're thinking: "Yo-Yo, why don't you just go sign up?" Well, let's just say I have my reasons (mainly because I'm already knee-deep in projects and don't want to rock the boat). BUT, I do think it's worth exploring for those who are interested.
+
+So, if anyone has any experience with this training program or knows someone who does, please share your war stories. And if you're feeling brave enough to take on a "junior" developer under your wing, that'd be awesome too!
+
+Cheers,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142
+

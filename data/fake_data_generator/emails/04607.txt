@@ -1,0 +1,20 @@
+
+From:    Yo-Yo Engberk
+Sent:    Friday, July 08, 1983 11:13 AM
+To:      Ed Burris
+
+Categories: Apology
+
+Subject: Oops, Sorry About That!
+
+
+Dear Ed,
+
+I'm reaching out to apologize (again) for the whole "accidentally deleting the database" fiasco. I know, I know - it's a rookie mistake, but hey, we all make 'em, right? I've got my fingers crossed that our data isn't actually gone-gone-gone this time.
+
+I promise to double-check my code (and triple-check it, and quadruple-check it...) before hitting the "delete" key again. In the meantime, can you please tell me what kind of backup magic we can conjure up to get our data back?
+
+Cheers,
+Yo-Yo Engberk
+Programmer | Cardiff Electric | Software Development
++1 512-555-0142

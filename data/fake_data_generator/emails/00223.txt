@@ -1,0 +1,30 @@
+
+From:    Malcolm Levitan
+Sent:    Thursday, January 13, 1983 10:51 AM
+To:      Debbie Malinowski; Barry Shields
+
+Categories: Training and Development
+
+Subject:    Training and Development for Software Development Department
+
+
+Hello Debbie and Barry,
+
+I've been thinking about our department's training needs, and I wanted to propose some ideas for improving our skills in certain areas. Specifically, I think we could benefit from more advanced courses on algorithm optimization and data structures. In the past, I've found that working through examples like this one:
+
+    if (x > 5) {
+        y = x * 2;
+    } else {
+        y = x + 1;
+    }
+
+has helped me to solidify my understanding of conditional statements.
+
+I believe that investing time in these areas will not only enhance our individual skills but also improve the overall efficiency and quality of our work. If you're interested, I'd be happy to help organize a training session or even lead one myself.
+
+Best regards,
+Malcolm Levitan
+Programmer
++1 512-555-0182
+Cardiff Electric
+Software Development

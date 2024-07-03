@@ -1,0 +1,24 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, May 26, 1983 12:47 PM
+To:      Cameron Howe
+
+Categories: Internal Announcement
+
+Subject: 
+Newbie Alert: We're Booting Up the New Dev Environment!
+
+Hi Cameron,
+
+I hope this email finds you coding like a boss! I wanted to send out an internal announcement about the new development environment we're setting up. As you know, our team has been working tirelessly to create a more efficient and fun (yes, fun!) way to work on projects.
+
+The new dev env is all about collaboration, flexibility, and, of course, coffee breaks! We'll be hosting some training sessions soon to get everyone up to speed. If you're interested in attending, just let me know and I'll put your name on the list.
+
+Looking forward to seeing you at the next code sprint!
+
+Best,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142

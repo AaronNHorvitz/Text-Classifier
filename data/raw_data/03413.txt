@@ -1,0 +1,63 @@
+
+From:    Donna Clark
+Sent:    Wednesday, May 18, 1983 02:50 PM
+To:      Malcolm Levitan
+
+Categories:    Technical Support
+
+Hi Malcolm,
+
+I'm writing to you today as someone who is more than a little frustrated. You see, Barry and I are already dealing with a mess of epic proportions thanks to Grayson's latest antics, and then you go and drop this category classification bomb on us? Can't we just focus on fixing the problems we have before we start trying to reorganize everything?
+
+And let me get this straight - instead of actually fixing the categories, we're going to have to waste our time reviewing a revised version of the document? It's like you're asking us to put out one fire by pouring gasoline on another.
+
+I'm not sure what kind of "additional training" you have in mind for our support team, but I can tell you that it won't do them any good if they're still trying to troubleshoot with a system that's as broken as ours. And don't even get me started on the response time and accuracy - when everything is falling apart around us, precision is the last thing we need.
+
+So, here's what I'm saying: instead of worrying about reorganizing our categories, why don't we just focus on getting our current problems solved? We can worry about the rest later. Okay?
+
+
+
+From:    Barry Shields
+Sent:    Wednesday, May 18, 1983 02:50 PM
+To:      Donna Clark; Malcolm Levitan
+
+Categories:    Technical Support
+
+Hi Malcolm,
+
+Look, I don't know how much more of this stress I can take. First, we've got the whole mess with Grayson and his latest scheme to screw us over, and now you're piling on with a request for me to review some category classification system? Can't you see I'm up to my neck in trouble here?
+
+I mean, seriously, Malcolm, what's the point of reorganizing our categories if we can't even get the ones we have straightened out first? And don't even get me started on the "additional training" for our support team. You know as well as I do that those guys are about as sharp as a box of rocks.
+
+I'll tell you what, Malcolm - how about this? Instead of trying to fix the categories, why don't we just focus on getting our current problems solved? We can worry about reorganizing later when things aren't so crazy. Okay?
+
+Very truly yours,
+Barry Shields
+Senior Counsel, Cardiff Electric, Legal
++1 512-555-0166
+
+
+From:    Malcolm Levitan
+Sent:    Wednesday, May 18, 1983 02:50 PM
+To:      Donna Clark; Barry Shields
+
+Categories: Technical Support
+
+Subject: Technical Support Request - Category Classification
+
+
+Dear Donna and Barry,
+
+I've been reviewing our category classification system for technical support, and I've identified a few discrepancies that need attention. Specifically, I noticed that we have some inconsistencies in how we're categorizing certain types of issues. As you know, precision is key when it comes to troubleshooting.
+
+In the interest of improving our overall response time and accuracy, I'd like to propose a slight adjustment to our category schema. I've attached a revised version of the categories document for your review.
+
+I understand that this may require some additional training for our support team, but I believe the benefits will be worth it in the long run. If you have any questions or concerns, please don't hesitate to reach out.
+
+Best regards,
+
+Malcolm Levitan
+Programmer
++1 512-555-0182
+Cardiff Electric
+Software Development

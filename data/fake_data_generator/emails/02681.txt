@@ -1,0 +1,15 @@
+
+From:    Cameron Howe
+Sent:    Thursday, April 21, 1983 04:31 PM
+To:      Yo-Yo Engberk; Joe MacMillan; Donna Clark; Debbie Malinowski; Larry Goins; Malcolm Levitan
+
+Categories: Technical Support
+
+Subject: 
+
+Hello all,
+
+I've got some juicy bug reports pouring in from our beta testers and I need your expertise to squash them ASAP. Specifically, I'm seeing some weird errors popping up when users try to run the simulator on 8088 hardware. Anyone have experience with that sort of thing? 
+
+Let's get this party started!
+

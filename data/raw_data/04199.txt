@@ -1,0 +1,21 @@
+
+From:    Gordon Clark
+Sent:    Monday, June 20, 1983 10:52 AM
+To:      Barry Shields; Cameron Howe; Donna Clark; Ed Burris; Debbie Malinowski
+
+Categories: Wellness Check
+
+Subject:    Wellness Check
+
+Dear All,
+
+I'm compelled to reach out and perform a wellness check on our systems. A series of minor glitches has been plaguing me, and I believe a thorough examination will alleviate any potential issues before they escalate.
+
+In particular, I'd like to focus on the recently installed IBM PC/XT cluster. While it's performed admirably thus far, I've noticed some aberrant behavior in the system logs that warrants investigation.
+
+Please find attached a list of specific areas I'd like us to review and report back with findings.
+
+Gordon Clark
+Chief Engineer, Engineering
+Cardiff Electric
++1 512-555-0198

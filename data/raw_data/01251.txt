@@ -1,0 +1,42 @@
+
+From:    Joe MacMillan
+Sent:    Friday, February 18, 1983 10:55 AM
+To:      Ed Burris; Yo-Yo Engberk; Cameron Howe; Malcolm Levitan
+
+Categories:    Personal Milestone
+
+Dear Malcolm,
+
+Congratulations, my friend. A milestone achieved is always a reason to celebrate. I'm glad to hear that you've finally resolved the issue with the IBM PC's COM port handling in your new BIOS driver. That must feel like a major accomplishment after weeks of debugging.
+
+As someone who's been around the block a few times, I can appreciate the sense of satisfaction that comes with overcoming a challenging problem. It's a reminder that even in an industry that's constantly changing and evolving, there's still value in persistence and dedication.
+
+I'm looking forward to reviewing your updated driver code and exploring ways to integrate it into our product roadmap.
+
+
+
+From:    Malcolm Levitan
+Sent:    Friday, February 18, 1983 10:55 AM
+To:      Ed Burris; Yo-Yo Engberk; Joe MacMillan; Cameron Howe
+
+Categories: Personal Milestone
+
+Subject: 
+
+Personal milestone achieved!
+
+Hi Ed, Yo-Yo, Joe, and Cameron,
+
+I'm writing to share a personal milestone I reached yesterday. After weeks of debugging, I finally resolved the issue with the IBM PC's COM port handling in our new BIOS driver. The code now correctly detects and initializes the serial ports on the 8250 chip. I've attached the updated driver code for your review.
+
+The fix involved implementing a custom interrupt handler to properly manage the UART buffer and avoid data loss. It was a challenging problem, but the sense of accomplishment is worth it!
+
+I'm looking forward to hearing your thoughts on this achievement.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+

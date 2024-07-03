@@ -1,0 +1,22 @@
+
+From:    Gordon Clark
+Sent:    Friday, April 22, 1983 02:21 PM
+To:      Yo-Yo Engberk
+
+Categories: Reminder
+
+Subject: Reminder: Engineering Schedule Adjustments
+
+    Dear Yo-Yo,
+
+I'm writing to remind you that our engineering schedule requires a minor adjustment. As you know, we're facing some unforeseen delays with the new motherboard design. I've recalculated the timeline and identified a few areas where we can make up for lost time.
+
+In particular, I'd like to move forward the deadline for the PCB layout revisions. This will allow us to optimize our manufacturing process and avoid potential bottlenecks further down the line. I've attached the revised schedule to this email for your reference.
+
+Please let me know if you have any questions or concerns regarding these changes. As always, I appreciate your diligence in keeping our project on track.
+
+Best regards,
+Gordon Clark
+Chief Engineer, Cardiff Electric
+Engineering Department
++1 512-555-0198

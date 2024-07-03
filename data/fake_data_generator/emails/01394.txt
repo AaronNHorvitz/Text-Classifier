@@ -1,0 +1,15 @@
+
+From:    Cameron Howe
+Sent:    Thursday, February 24, 1983 09:52 AM
+To:      Joe MacMillan
+
+Categories: Reminder
+
+Subject:    Time's a-Wastin'
+
+Dear Joe,
+
+You know how sometimes the code writes itself and the world makes sense? Yeah, that's not happening right now. I'm stuck in a loop and I need your help to break free.
+
+I've been re-reading our project specs and I think we can optimize the algorithm by 30% if we just... you know, take a chance. What do you say?
+

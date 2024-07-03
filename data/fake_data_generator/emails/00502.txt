@@ -1,0 +1,26 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, January 26, 1983 04:35 PM
+To:      Barry Shields; John Bosworth; Debbie Malinowski; Malcolm Levitan; Joe MacMillan
+
+Categories: Quality Assurance
+
+Subject: 
+
+Quality Control Crisis
+
+
+Hi all,
+
+I'm writing to express my utter bewilderment at the current state of quality assurance in our department. It's like trying to herd cats while blindfolded - a noble effort, but ultimately doomed to fail. I mean, come on, guys! We're Cardiff Electric, for crying out loud! Can't we do better than this?
+
+I'm not asking for much - just some semblance of control over the chaos that is our QA process. Is it too much to ask for a few decent test cases, or maybe some actual documentation of what's working and what's not? I didn't think so.
+
+Anyway, I hope you're all doing well. If not, well... that's your problem.
+
+
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development

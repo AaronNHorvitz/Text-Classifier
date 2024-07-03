@@ -1,0 +1,67 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, January 25, 1983 01:48 PM
+To:      Barry Shields; Gordon Clark
+
+Categories:    Quality Assurance
+
+Hi Yo-Yo,
+
+I'm sitting here in my office, staring at these old IBM Selectric typewriters we use around here. You know what they remind me of? My childhood. I had one just like this when I was a kid, and it sparked my interest in computers. It's funny how life comes full circle.
+
+Anyway, back to your email. I understand where you're coming from. Quality assurance is crucial, but I think Gordon's proposal might be the best way to go. I mean, let's face it, we're not exactly the most organized company when it comes to QA protocols. A little structure never hurt anyone, right?
+
+As for your concerns about the people involved in testing, I agree that they do deserve consideration. But maybe we can find a way to make the process more enjoyable for them? You know, like a game or something. That's what I think, anyway.
+
+Let me know if you want to grab lunch and discuss this further. My treat!
+
+Very truly yours,
+Malcolm Levitan
++1 512-555-0182
+Programmer, Cardiff Electric, Software Development
+
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, January 25, 1983 01:48 PM
+To:      Barry Shields; Malcolm Levitan; Gordon Clark
+
+Categories:    Quality Assurance
+
+Hi Gordon,
+
+I'm feeling a little left out here. It seems like everyone else is getting all the attention, and I'm just stuck in my own little world of coding and quality control. Don't get me wrong, I love what I do, but sometimes it feels like no one really cares about the nitty-gritty details that make our software tick.
+
+Speaking of which, I have to say I'm a bit disappointed in your proposal for improving our QA protocols. It seems like you're just focusing on the big picture, without really considering the day-to-day realities of what we do here. I mean, sure, having a robust QA process is important, but what about the people who are actually doing the testing? Don't they deserve some consideration too?
+
+I think we need to take a step back and look at this whole situation from the ground up. We need to start thinking about how our processes affect our people, not just our products.
+
+Very truly yours,
+
+Yo-Yo Engberk
++1 512-555-0142
+Programmer, Cardiff Electric, Software Development
+
+
+From:    Gordon Clark
+Sent:    Tuesday, January 25, 1983 01:48 PM
+To:      Barry Shields; Yo-Yo Engberk; Malcolm Levitan
+
+Categories: Quality Assurance
+
+Subject:    Quality Assurance Protocols
+
+
+Dear Barry, Yo-Yo, and Malcolm,
+
+I've been reviewing our QA procedures and I'm concerned about the lack of rigor in our testing protocols. Specifically, I believe we're not adequately addressing potential failure modes in our new hardware designs. This is a critical issue that must be addressed to ensure the integrity of our products.
+
+As you know, my team has been working tirelessly to develop these new designs, and it's essential that we have a robust QA process in place to validate their performance. I propose we schedule a meeting to discuss this further and outline specific actions to improve our QA protocols.
+
+Please let me know your availability for the next week.
+
+Best regards,
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Engineering
+Cardiff Electric
+

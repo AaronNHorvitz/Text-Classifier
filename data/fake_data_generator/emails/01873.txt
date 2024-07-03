@@ -1,0 +1,36 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, March 16, 1983 03:21 PM
+To:      Joe MacMillan
+
+Categories: Research Collaboration
+
+Subject: Research Collaboration
+
+
+Dear Joe,
+
+I'm excited to propose a research collaboration between our teams at Cardiff Electric. As you know, I've been exploring ways to optimize our 8086 assembly code for the TurboBoard project. After conducting experiments with the Intel compiler and experimenting with register allocation, I believe we can achieve significant performance gains.
+
+Here's an example of the modified code snippet:
+
+```c
+void main() {
+    int x = 0;
+    while (x < 100) {
+        // optimized loop
+        x++;
+    }
+}
+```
+
+By applying these techniques to our existing codebase, I'm confident we can shave off precious milliseconds from our execution times.
+
+Please let me know if you're interested in discussing this further. I'd be happy to set up a meeting or provide additional information on the proposed approach.
+
+Best regards,
+
+Malcolm Levitan
+Programmer
++1 512-555-0182
+Cardiff Electric, Software Development

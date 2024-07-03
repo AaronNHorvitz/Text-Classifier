@@ -1,0 +1,61 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, March 17, 1983 04:12 PM
+To:      Yo-Yo Engberk
+
+Categories:    Reminder
+
+Dear Ed,
+
+Ugh, reminder. Yeah, I know we're supposed to be all excited about code review, but honestly, I'm just feeling kind of... meh. Maybe it's because your enthusiasm is rubbing off on me or maybe it's because I've been staring at the same line of code for hours, but either way, I'm not exactly jumping with joy.
+
+And don't even get me started on hitting that 640K barrier. Like, what's the point? It's just a number, right?
+
+Anyway, see you Friday, I guess.
+
+Very truly yours,
+Yo-Yo Engberk
+Programmer, Cardiff Electric
+Software Development
++1 512-555-0142
+
+
+From:    Ed Burris
+Sent:    Thursday, March 17, 1983 04:12 PM
+To:      Yo-Yo Engberk
+
+Categories:    Reminder
+
+Hi Yo-Yo,
+
+I'm feeling pretty zealous about our code review meeting on Friday. Can't wait to show off my latest masterpiece. I mean, it's not just about showing off - it's about making sure our code is truly awesome. And if anyone can appreciate that, it's you.
+
+Speaking of which, don't worry about the 640K barrier. We'll hit it and then some. We're not just coding for the sake of coding; we're changing the game. Or at least, that's what I keep telling myself.
+
+See you Friday!
+
+Very truly yours,
+Ed Burris
+
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, March 17, 1983 04:12 PM
+To:      Ed Burris
+
+Categories: Reminder
+
+Subject:    Reminder: Don't Forget Your Code is Awesome
+
+
+Dear Ed,
+
+Hey, genius! Just wanted to drop you a quick reminder that our code review meeting is coming up on Friday. Make sure you bring your A-game (and some of those sweet coding skills). I've been reviewing the latest iterations and let's just say... I'm impressed!
+
+Also, don't forget to save those bytes; we're getting close to hitting the 640K barrier
+
+Looking forward to seeing you then!
+
+Yo-Yo Engberk
+Programmer, Cardiff Electric
+Software Development
++1 512-555-0142

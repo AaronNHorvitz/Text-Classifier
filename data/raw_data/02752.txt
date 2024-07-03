@@ -1,0 +1,31 @@
+
+From:    Ed Burris
+Sent:    Friday, April 22, 1983 11:18 AM
+To:      Cameron Howe; Yo-Yo Engberk; Debbie Malinowski; Gordon Clark; Malcolm Levitan
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance for Cardiff Electric Project
+
+
+Hi Cameron, Yo-Yo, Debbie, Gordon, and Malcolm,
+
+I'm writing to outline our quality assurance strategy for the project. As we move forward, it's crucial that we ensure the highest level of quality in our deliverables. To achieve this, I've outlined the key objectives below:
+
+• Conduct regular testing and debugging sessions to identify and address issues promptly
+• Implement a rigorous testing framework to validate system performance and functionality
+• Establish clear documentation guidelines for all project components
+
+To support these objectives, I'll be working closely with each of you to:
+
+• Define and prioritize quality assurance tasks
+• Develop test plans and procedures
+• Conduct regular status updates and reviews
+
+Let's schedule a meeting to discuss the details and ensure we're aligned on our quality assurance approach. I expect each of you to review and provide feedback on this strategy by the end of the week.
+
+Best regards,
+Ed Burris
+Project Manager, Cardiff Electric, Project Management Department
++1 512-555-0155
+

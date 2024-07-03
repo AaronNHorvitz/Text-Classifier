@@ -1,0 +1,30 @@
+
+From:    Joe MacMillan
+Sent:    Thursday, July 14, 1983 10:25 AM
+To:      Gordon Clark; Donna Clark; Malcolm Levitan
+
+Categories:    Thank You
+
+Hi Malcolm,
+
+Thanks for the kind words. To be honest, I'm still trying to process everything that's been going on. It feels like the whole world has turned upside down. But despite all the chaos, it's nice to know that we can count on each other.
+
+Look, I know we haven't always seen eye-to-eye, but when it counts, you and the team have consistently come through for me. And for that, I'm grateful. We may not always agree on the best way forward, but at the end of the day, we're all in this together.
+
+
+
+From:    Malcolm Levitan
+Sent:    Thursday, July 14, 1983 10:25 AM
+To:      Joe MacMillan; Gordon Clark; Donna Clark
+
+Categories: Thank You
+
+Subject:    Thank You for Your Support
+
+
+Dear Joe, Gordon, and Donna,
+
+I wanted to take a moment to express my gratitude for your assistance in addressing the recent issues with our IBM PC emulator. Your expertise was instrumental in resolving the problems, and I'm thrilled to report that our development environment is now running smoothly.
+
+The patch we implemented to fix the interrupt handling issue was particularly clever, Gordon. Your work on optimizing the disk I/O routines has also significantly improved overall system performance. Well done, team!
+

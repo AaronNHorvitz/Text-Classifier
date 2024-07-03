@@ -1,0 +1,25 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, February 28, 1983 10:05 AM
+To:      Ed Burris
+
+Categories: Research Collaboration
+
+Subject: Research Collaboration
+
+Dear Ed,
+
+EMAIL BODY
+I'm writing to discuss the research collaboration we've been exploring. As you know, I've been pouring over the documentation and running simulations to optimize our approach. Unfortunately, my recent attempts at implementing the modified TCP/IP protocol have hit a snag. The issue lies in the packet segmentation algorithm; it's not handling edge cases as expected.
+
+I've attached a snippet of the revised code for your review. Perhaps we can schedule a call to walk through this further and identify the root cause of the problem.
+
+EMAIL BODY
+Please let me know if you're available to discuss this further.
+
+EMAIL SIGNATURE
+Malcolm Levitan
++1 512-555-0182
+Programmer, Cardiff Electric
+Software Development
+

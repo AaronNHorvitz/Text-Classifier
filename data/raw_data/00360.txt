@@ -1,0 +1,24 @@
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, January 18, 1983 04:26 PM
+To:      John Bosworth; Donna Clark
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Hello John and Donna,
+
+I'm writing from the trenches of Cardiff Electric, where I've been buried under a sea of code and coffee. It's like trying to debug a cat - you never know when it'll jump out and give you a good scare!
+
+On the project front, we're making slow but steady progress on the new OS. I've managed to tame some of the more unruly bugs, but there are still a few gremlins lurking in the shadows.
+
+I'm starting to feel like the Lone Ranger (minus the horse, plus a lot more code) - it'd be great to get some feedback and guidance from you both. Let's schedule a call soon to discuss the project roadmap and any burning questions you may have?
+
+Until then, keep on coding!
+
+Yo-Yo Engberk
+Programmer, Cardiff Electric
++1 512-555-0142
+

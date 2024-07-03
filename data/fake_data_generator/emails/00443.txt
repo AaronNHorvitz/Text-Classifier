@@ -1,0 +1,20 @@
+
+From:    Cameron Howe
+Sent:    Tuesday, January 25, 1983 09:16 AM
+To:      Larry Goins; Joe MacMillan; Malcolm Levitan
+
+Categories: Project Update
+
+Subject: Project Update
+
+ Hello Larry, Joe, and Malcolm,
+
+Let's get to it. We've got a new version of the IBM clone ready to go, and I'm stoked about the improvements we made. The team worked tirelessly (well, most of them) to squash those pesky bugs, and I think you'll be impressed with the results.
+
+I'll be demoing it at the meeting tomorrow, so come prepared to give me your thoughts (and probably some criticism). Looking forward to seeing you all there!
+
+Best,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric, Software Development
+

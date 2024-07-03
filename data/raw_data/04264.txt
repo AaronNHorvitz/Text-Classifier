@@ -1,0 +1,29 @@
+
+From:    Larry Goins
+Sent:    Tuesday, June 21, 1983 03:59 PM
+To:      Donna Clark; Cameron Howe; Barry Shields; Gordon Clark
+
+Categories: Industry News
+
+Subject: Industry News - IBM PC/AT and 80286 Processor
+
+Dear Donna, Cameron, Barry, and Gordon,
+
+I wanted to share some exciting news from the world of personal computers. As you may know, IBM has recently released their new PC/AT, which features an 80286 processor. This new processor offers improved performance and memory handling capabilities.
+
+If you're looking to upgrade your current system or considering a new build, I highly recommend checking out the specifications of this new processor. It's definitely worth exploring, especially if you're working with larger datasets or complex applications.
+
+For those who may be interested in diving deeper into the technical aspects, I've included some key points below:
+
+* The 80286 processor offers improved memory handling capabilities, allowing for larger RAM configurations.
+* This new processor also supports virtual 8086 mode, which enables better multitasking and compatibility with older software.
+
+If you have any questions or would like to discuss further, please don't hesitate to reach out. I'm always here to help.
+
+Best regards,
+
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric
+Technical Support

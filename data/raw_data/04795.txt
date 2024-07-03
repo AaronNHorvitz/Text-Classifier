@@ -1,0 +1,50 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, July 14, 1983 04:09 PM
+To:      Larry Goins; John Bosworth; Malcolm Levitan; Debbie Malinowski; Ed Burris
+
+Categories:    Apology
+
+Hi Ed,
+
+I'm feeling grateful today, and I'm glad we're having a conversation about apologies. Sometimes, people just need to apologize and move forward. That being said, I do appreciate your apology for the delay in our project timeline.
+
+Regarding the issues you've listed, I think it's essential that we tackle them head-on. Missing documentation is a huge problem, as it can lead to misunderstandings and delays down the line. Incomplete testing is another concern, as it can cause bugs to go undetected until they're released to the public. And unresolved dependencies can cause our project to stagnate.
+
+To get our project back on track, I propose that we prioritize these issues and tackle them one by one. We should also establish a system for tracking dependencies and testing to ensure that everything is working smoothly.
+
+Very truly yours,
+Yo-Yo Engberk
++1 512-555-0142
+Programmer, Cardiff Electric, Software Development
+
+
+From:    Ed Burris
+Sent:    Thursday, July 14, 1983 04:09 PM
+To:      Larry Goins; John Bosworth; Yo-Yo Engberk; Malcolm Levitan; Debbie Malinowski
+
+Categories: Apology
+
+Subject: 
+
+Apology and Request for Urgent Meeting
+
+
+Dear Team,
+
+I'm writing to express my deepest regret for the delay in our project timeline. As we all know, time is of the essence, and I apologize for any inconvenience this may have caused.
+
+* Briefly summarize key issues:
+	+ Missing documentation
+	+ Incomplete testing
+	+ Unresolved dependencies
+
+To rectify this situation, I request an urgent meeting with each of you to discuss a revised plan and necessary adjustments. Your prompt attention is crucial in getting our project back on track.
+
+
+Sincerely,
+Ed Burris
+Project Manager
+Cardiff Electric
+Project Management
++1 512-555-0155

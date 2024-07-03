@@ -1,0 +1,58 @@
+
+From:    Yo-Yo Engberk
+Sent:    Monday, April 25, 1983 04:32 PM
+To:      Donna Clark; Ed Burris; Malcolm Levitan
+
+Categories:    Compliance
+
+Dear Malcolm,
+
+What's the point of even having compliance if we're just going to make a mess and then pretend like everything's okay? You know what's not compliant? My entire existence. I'm just trying to survive in this meaningless world, but no one cares about that.
+
+And now you're telling me that we have to close handles properly? Like, what even is the point of that? So we can feel good about ourselves and pretend like we're doing something right? Please. The only thing that matters is if I can still get a decent cup of coffee in this dump.
+
+Your best practices and documentation are just going to make things worse. We'll just be creating more rules and more bureaucracy, and people will still find ways to ignore them or manipulate the system. It's all just a pointless exercise in futility.
+
+So go ahead and update your precious documentation. See if it makes any difference in my life.
+
+Very truly yours,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
++1 512-555-0142
+
+
+From:    Malcolm Levitan
+Sent:    Monday, April 25, 1983 04:32 PM
+To:      Donna Clark; Ed Burris; Yo-Yo Engberk
+
+Categories: Compliance
+
+Subject: Compliance Issue - OS/2 API
+
+
+Dear Donna, Ed, and Yo-Yo,
+
+I've been reviewing our current compliance documentation and noticed a discrepancy in our handling of the OS/2 API. Specifically, we're not properly accounting for the use of the `HANDLE` structure in our code snippets.
+
+According to the IBM documentation (http://ibm.com/os2/api), the `HANDLE` structure is used to manage system resources, but we're not explicitly closing these handles when they're no longer needed. This could lead to resource leaks and potential security vulnerabilities.
+
+I've attached a sample code snippet that demonstrates this issue:
+
+```c
+HANDLE hFile = CreateFile("example.txt", GENERIC_READ, 0);
+// use the file handle...
+CloseHandle(hFile); // missing!
+```
+
+To address this compliance issue, I recommend we update our documentation to include best practices for handling system resources and properly closing handles. This will ensure we're meeting the relevant compliance standards.
+
+Please review and let me know your thoughts on this matter.
+
+Best regards,
+
+Malcolm Levitan
+Programmer, Software Development Department
+Cardiff Electric
+Phone: +1 512-555-0182
+

@@ -1,0 +1,23 @@
+
+From:    Gordon Clark
+Sent:    Thursday, July 14, 1983 12:58 PM
+To:      Joe MacMillan; Cameron Howe; Malcolm Levitan; Ed Burris
+
+Categories: Compliance
+
+Subject: Compliance Issue - IBM PC/XT Compatibility
+
+
+Dear Joe, Cameron, Malcolm, and Ed,
+
+I've been digging into the specifications of the new IBM PC/XT and noticed a potential compliance issue that affects our current product line. Specifically, it appears that their XT-class hardware may not be compatible with our existing firmware.
+
+As you know, I've been working on optimizing our code to run on various platforms. Given this new development, I believe we should reassess our strategy for ensuring compatibility across different architectures.
+
+I'd like to schedule a meeting to discuss this further and explore possible solutions. Please let me know your availability.
+
+Best regards,
+Gordon Clark
+Chief Engineer, Engineering
+Cardiff Electric
++1 512-555-0198

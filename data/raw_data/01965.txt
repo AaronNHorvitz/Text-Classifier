@@ -1,0 +1,22 @@
+
+From:    Gordon Clark
+Sent:    Wednesday, March 23, 1983 02:49 PM
+To:      Joe MacMillan; Cameron Howe; Barry Shields
+
+Categories: Industry News
+
+Subject: Re: Industry News - IBM PC Clone Development
+
+
+Hi Joe, Cameron, Barry,
+
+I've been following the developments in the IBM PC clone market and I'm excited to share my thoughts with you. As you know, our team at Cardiff Electric has been working on a revolutionary new design for a personal computer that can potentially compete with the IBM PC. In light of this, I wanted to bring up some key points from the latest industry reports.
+
+The 8088 processor is gaining traction as the go-to choice for clone manufacturers. I believe we should consider incorporating this chip into our design to stay competitive. Additionally, the new EGA graphics card from CGA seems like a game-changer in terms of display capabilities. I think we could use it to great effect in our own design.
+
+I'd love to hear your thoughts on these developments and discuss how we can integrate them into our project.
+
+Gordon Clark
+Chief Engineer, Engineering Department
+Cardiff Electric
++1 512-555-0198

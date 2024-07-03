@@ -1,0 +1,23 @@
+
+From:    Malcolm Levitan
+Sent:    Sunday, March 27, 1983 03:09 PM
+To:      Joe MacMillan; Donna Clark; Cameron Howe; John Bosworth
+
+Categories: Supplier Relations
+
+Subject: Supplier Relations: IBM PC/XT Compatibility
+
+Dear Team,
+
+EMAIL BODY
+
+I've been reviewing our supplier relations and wanted to touch base with everyone regarding our compatibility efforts with the IBM PC/XT. As you know, we're looking to integrate their hardware with our software. I've found some inconsistencies in the documentation that need clarification before we can move forward.
+
+For example, the IBM API for the 8088 processor has an inconsistency in the BIOS call for disk formatting (0x12h vs. 0x13h). This needs to be resolved ASAP. I've attached a code snippet demonstrating the issue: `if (bios_call(0x12h) != 0x00) { ... }`.
+
+I'd appreciate any feedback or insights you may have on this matter. Donna, do you know if IBM has an official stance on this compatibility issue? Cameron, have you come across any similar issues in your work with the XT?
+
+Best,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182

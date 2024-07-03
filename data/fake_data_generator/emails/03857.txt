@@ -1,0 +1,26 @@
+
+From:    Gordon Clark
+Sent:    Wednesday, June 08, 1983 03:16 PM
+To:      Yo-Yo Engberk; Donna Clark; Debbie Malinowski
+
+Categories: Apology
+
+Subject: 
+
+Apology for the recent errors in the code
+
+
+Dear Yo-Yo, Donna, and Debbie,
+
+I've taken the liberty of re-examining our team's work on the 80186 project. Upon closer inspection, I've identified a series of minor flaws that caused the code to malfunction. Please accept my apologies for any inconvenience this may have caused.
+
+As Chief Engineer, it's my duty to ensure the quality of our work. In this case, I fell short of that standard. To correct these errors and prevent similar mistakes in the future, I propose we implement a more rigorous testing protocol.
+
+
+Best regards,
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Engineering
+Cardiff Electric
+
+

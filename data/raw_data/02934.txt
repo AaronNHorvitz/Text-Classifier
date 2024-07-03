@@ -1,0 +1,17 @@
+
+From:    Yo-Yo Engberk
+Sent:    Friday, April 29, 1983 12:13 PM
+To:      Barry Shields; John Bosworth
+
+Categories: Training and Development
+
+Subject: Help Me, Obi-Wan Kenobi!
+
+Dear Barry and John,
+
+I'm at my wit's end over here in Software Development. We're staring down the barrel of a deadline and I've got more bugs than a Texas ranch in July. I'm desperate for some quality training and development time to get our code off life support.
+
+Can we get some TLC (Tender Loving Coding) going on? Maybe a refresher course on 8085 assembly or some Python bootcamp action?
+
+I'm not asking for the moon, guys. Just a little R&D love would go a long way in getting me out of this coding quagmire.
+

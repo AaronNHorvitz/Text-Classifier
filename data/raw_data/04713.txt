@@ -1,0 +1,23 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, July 13, 1983 02:31 PM
+To:      Debbie Malinowski; Ed Burris; Larry Goins
+
+Categories: Training and Development
+
+Subject: Training and Development - A Wake-Up Call
+
+Dear Debbie, Ed, Larry,
+
+I'm writing to blow the whistle on our training program. It's been a snooze fest since I got here. I mean, I get it, we're trying to standardize things, but come on! We're Cardiff Electric, not some stodgy old mainframe company. Our software devs should be pushing boundaries, not just following procedures.
+
+I'm proposing we shake things up and bring in some outside expertise. Maybe a hackathon or two? I know it's unconventional, but think about the ideas that could flow from that. And who knows, maybe we'll even discover some new talent among our ranks.
+
+Let me know what you think.
+
+Cameron Howe
+Lead Software Developer
+Cardiff Electric
+Software Development
++1 512-555-0147
+

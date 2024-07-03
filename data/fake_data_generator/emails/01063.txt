@@ -1,0 +1,19 @@
+
+From:    Cameron Howe
+Sent:    Monday, February 14, 1983 12:58 PM
+To:      Yo-Yo Engberk; Debbie Malinowski; John Bosworth
+
+Categories: System Outage
+
+Subject: System Outage
+
+Dear Yo-Yo,
+
+I'm writing to own up to a major fail. We had a system outage last night and I'm still trying to figure out what went wrong.
+
+In my defense, I was working on some new code and got caught up in the flow. Next thing I knew, the whole system was down. I know it's no excuse, but it's not like I did it on purpose... although that would be kind of cool, wouldn't it?
+
+Seriously though, I'm feeling pretty crummy about it. I know Debbie is going to kill me when she finds out.
+
+Anyway, John and Yo-Yo, if you could take a look at the system logs and see what's causing this mess, I'd appreciate it. Maybe we can even get some of our new code in there to fix things for good.
+

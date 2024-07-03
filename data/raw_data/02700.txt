@@ -1,0 +1,49 @@
+
+From:    Barry Shields
+Sent:    Thursday, April 21, 1983 09:48 AM
+To:      Larry Goins
+
+Categories:    Compliance
+
+Dear Larry,
+
+I'm reading this and I'm just thinking about all the things we're not supposed to do. Like, what's to stop some genius from figuring out how to decrypt our precious data? And these protocols you're proposing, they're like a magic spell that's only going to keep someone who's already got the know-how from getting in.
+
+Look, I'm not saying it's not important to follow best practices and all that. But sometimes I feel like we're just playing whack-a-mole with our security measures. You put up one wall, and someone finds a way to climb over or knock it down. And then what?
+
+Anyway, I'll implement these protocols, Larry. Because that's what you do when you work for Cardiff Electric. But I'm not going to pretend like this is some foolproof system. Because it's not.
+
+Very truly yours,
+Barry Shields
+Senior Counsel
+Cardiff Electric
+Legal
+
+
+From:    Larry Goins
+Sent:    Thursday, April 21, 1983 09:48 AM
+To:      Barry Shields
+
+Categories: Compliance
+
+Subject: Compliance and Data Encryption Best Practices
+
+
+Hi Barry,
+
+I'm thrilled to share some best practices for ensuring compliance and data encryption in our systems. As we continue to push the boundaries of innovation, it's crucial that we prioritize security and integrity. I've outlined some key steps below:
+
+To ensure seamless communication and data transfer, please review the following protocols:
+
+* Use SSL/TLS certificates for all network communications
+* Implement AES-256 encryption for sensitive data transmission
+* Regularly update software and firmware to maintain optimal security
+
+These measures will not only safeguard our data but also demonstrate our commitment to compliance. If you have any questions or concerns, please don't hesitate to reach out.
+
+Best regards,
+Larry Goins
+Support Technician
+Cardiff Electric
+Technical Support
++1 512-555-0144

@@ -1,0 +1,18 @@
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, January 04, 1983 01:30 PM
+To:      Debbie Malinowski; Cameron Howe; John Bosworth; Barry Shields
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Hey Team,
+
+We've got a bit of a situation on our hands. Our system's gone dark, and we're scrambling to get it back online. I know, I know - it's not exactly what you want to see at 8 am on a Tuesday. But hey, at least we can all commiserate about the joys of debugging in the morning.
+
+Seriously though, we need your expertise to help us track down the root cause and get our system up and running ASAP. If anyone has any ideas or sees anything suspicious, please don't hesitate to shout it out.
+
+Let's work together to catch this bug!
+

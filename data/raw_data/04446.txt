@@ -1,0 +1,51 @@
+
+From:    Cameron Howe
+Sent:    Thursday, June 30, 1983 02:46 PM
+To:      Cameron Howe
+
+Categories:    Reminder
+
+Dear Malcolm,
+
+Ugh, you're feeling like the king of the world? That just makes me want to crawl back into bed and hide. I'm still trying to wrap my head around all the reminders we have to get this new prototype done on time. And now you're telling me we need to implement those tweaks too? Please tell me you're joking.
+
+
+
+From:    Malcolm Levitan
+Sent:    Thursday, June 30, 1983 02:46 PM
+To:      Cameron Howe
+
+Categories:    Reminder
+
+Hi Cameron,
+
+I'm feeling like the king of the world right now - that code bug was driving me crazy! But, of course, my excitement is tempered by the knowledge that we still have to get this new prototype done and out the door. I've been thinking about the tweaks you mentioned in your email, and I think we should go ahead and implement them. It's better to be safe than sorry, after all.
+
+Let me know if you agree or if you have any other ideas on how to make this thing rock solid.
+
+Very truly yours,
+Malcolm Levitan
+
+
+From:    Cameron Howe
+Sent:    Thursday, June 30, 1983 02:46 PM
+To:      Malcolm Levitan
+
+Categories: Reminder
+
+Subject: Reminder
+
+
+Hello Malcolm,
+
+I'm feeling like I just won the lottery after finally wrapping up that pesky code bug. Just wanted to drop you a line and confirm we're good to go on the new prototype by EOD Friday. I've been burning the midnight oil (or at least, trying to) to get this done ahead of schedule.
+
+Let me know if anything's changed or if there are any last-minute tweaks needed.
+
+Best,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development
+

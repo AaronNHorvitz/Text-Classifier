@@ -1,0 +1,25 @@
+
+From:    Gordon Clark
+Sent:    Thursday, March 24, 1983 03:07 PM
+To:      Larry Goins; Ed Burris; Donna Clark
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Dear Larry, Ed, and Donna,
+
+I'm writing to provide an update on our current project status. As of today, we've made significant progress on the new IBM-compatible PC prototype. Our team has successfully implemented the modified 8088 chip, and initial testing indicates a 10% increase in processing speed.
+
+I'm optimistic that this development will give us a competitive edge in the market. However, I still have concerns about the thermal management system, which is affecting overall performance. I propose we schedule a meeting to discuss potential solutions and allocate additional resources to address this issue.
+
+Please let me know your availability for a conference call later this week.
+
+Best regards,
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Engineering Department
+Cardiff Electric
+

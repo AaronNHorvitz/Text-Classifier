@@ -1,0 +1,44 @@
+
+From:    Yo-Yo Engberk
+Sent:    Monday, January 10, 1983 01:33 PM
+To:      Larry Goins; Joe MacMillan; Cameron Howe; Malcolm Levitan; Barry Shields
+
+Categories:    Internal Announcement
+
+Hi Barry,
+
+Joy is my default setting today, and I'm thrilled to hear about the new electronic filing system in the Legal Department. As a programmer, I appreciate how technology can streamline processes and make life easier. I've had some experience with similar systems at Cardiff Electric, and I'm confident that this will be a game-changer for everyone involved.
+
+I do have one question, though - what's the plan for training sessions? Will there be hands-on practice or just theoretical explanations? Either way, I'm happy to help with any technical aspects of the rollout.
+
+Very truly yours,
+Yo-Yo Engberk
+Programmer, Software Development Department, Cardiff Electric
++1 512-555-0142
+
+
+From:    Barry Shields
+Sent:    Monday, January 10, 1983 01:33 PM
+To:      Larry Goins; Joe MacMillan; Yo-Yo Engberk; Cameron Howe; Malcolm Levitan
+
+Categories: Internal Announcement
+
+Subject: Internal Announcement
+
+
+Dear Larry, Joe, Yo-Yo, Cameron, and Malcolm,
+
+As part of our ongoing efforts to streamline internal communications, I am pleased to announce that Cardiff Electric's Legal Department will be implementing a new electronic filing system. This innovative technology will enable us to efficiently manage and track all legal matters, ensuring seamless coordination with various departments.
+
+The system will be fully integrated into our existing IT infrastructure, providing a user-friendly interface for all staff members. Training sessions will be scheduled in the coming weeks to ensure a smooth transition.
+
+Please note that this new system will supersede our current paper-based filing process. All relevant documents will be migrated to the electronic platform by the end of Q2.
+
+
+Best regards,
+
+Barry Shields
+Senior Counsel, Cardiff Electric
++1 512-555-0166
+
+

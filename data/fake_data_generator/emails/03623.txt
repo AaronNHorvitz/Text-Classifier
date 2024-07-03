@@ -1,0 +1,25 @@
+
+From:    Gordon Clark
+Sent:    Monday, May 30, 1983 01:03 PM
+To:      Joe MacMillan; John Bosworth
+
+Categories: Technical Support
+
+Subject: Technical Support: Issues with PC Clone Compatibility
+
+
+Dear Joe and John,
+
+EMAIL BODY
+I've been noticing some inconsistencies in our PC clone compatibility tests. The latest batch of clones is not recognizing the proprietary Cardiff Electric controller chip. I've re-ran the simulations and triple-checked the schematics, but I'm stumped as to why this is happening.
+
+As you know, Joe, we're at a critical juncture with the Clone 1.0 project. Any setbacks could delay our timelines significantly. I've attached my notes on the issue, including some preliminary theories on what might be causing the problem.
+
+
+EMAIL SIGNATURE
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Cardiff Electric
+Engineering Department
+
+

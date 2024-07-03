@@ -1,0 +1,26 @@
+
+From:    Gordon Clark
+Sent:    Monday, January 31, 1983 03:31 PM
+To:      Larry Goins
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Dear Larry,
+
+I'm writing to provide an update on our current project. As you know, we've been working tirelessly to get the IBM PC compatible up and running. I'm pleased to report that we're making good progress, but there are still a few kinks to iron out.
+
+The main issue we're facing is with the interrupt handler. It's proving more challenging than initially thought, and I'm not satisfied with our current solution. I think we need to revisit the design and consider alternative approaches. Your insight would be invaluable in this regard.
+
+Additionally, I've been thinking about the long-term implications of this project. If successful, it could have significant repercussions for Cardiff Electric's position in the market. I'd like to discuss this further with you and explore ways we can leverage our success to drive growth and innovation within the company.
+
+Looking forward to your thoughts on these matters.
+
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Engineering
+Cardiff Electric
+

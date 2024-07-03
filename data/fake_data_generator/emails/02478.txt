@@ -1,0 +1,23 @@
+
+From:    Larry Goins
+Sent:    Monday, April 11, 1983 10:56 AM
+To:      Donna Clark; John Bosworth
+
+Categories: Industry News
+
+Subject: Industry News - Mainframe Compatibility
+
+        Hello Donna and John,
+
+I wanted to follow up on some recent industry developments that might be of interest to us here at Cardiff Electric. As you know, our team has been working hard to optimize our mainframe compatibility for various systems. In this regard, I came across an article highlighting the latest advancements in IBM's zSeries technology.
+
+According to the article, the new z14 processor offers significant improvements in memory capacity and processing speed, making it even more attractive for businesses looking to upgrade their infrastructure. As we explore options for our own mainframe compatibility, this development is certainly worth considering.
+
+If you have any questions or would like me to dig deeper into the specifics of this technology, please don't hesitate to reach out. I'm always here to help and provide guidance whenever possible.
+
+Best regards,
+Larry Goins
+Support Technician
++1 512-555-0144
+Cardiff Electric
+Technical Suppor

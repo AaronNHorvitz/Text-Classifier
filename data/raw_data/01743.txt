@@ -1,0 +1,15 @@
+
+From:    Yo-Yo Engberk
+Sent:    Friday, March 11, 1983 01:29 PM
+To:      Ed Burris; Malcolm Levitan
+
+Categories: Product Launch
+
+Subject: 
+
+Hello Ed and Malcolm,
+
+I'm writing to you from the depths of my own personal coding despair. We're mere days away from the product launch, and I still can't seem to debug this pesky error. It's like trying to catch a digital gremlin - the more I try to squash it, the more it evades me.
+
+In all seriousness, though, I do have some concerns about the UI that I'd love to discuss with you both. Maybe we can grab a virtual coffee (or in my case, a strong cup of tea) and go over some of the kinks I've found?
+

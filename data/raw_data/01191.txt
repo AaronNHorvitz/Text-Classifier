@@ -1,0 +1,21 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, February 16, 1983 01:02 PM
+To:      Ed Burris
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Hi Ed,
+
+Listen, I know we're not exactly swimming in downtime here at Cardiff Electric, but I need to get this off my chest. Our latest "improvement" has left me questioning everything about our entire system architecture. It's like we've taken a perfectly good spaceship and replaced its engines with a rusty old bike.
+
+Look, I'm not asking for much - just give me a minute to breathe before we start spinning up the hype train again.
+
+
+Cameron Howe
+Lead Software Developer
++1 512-555-0147
+Cardiff Electric | Software Development

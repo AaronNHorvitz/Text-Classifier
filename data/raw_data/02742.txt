@@ -1,0 +1,22 @@
+
+From:    Gordon Clark
+Sent:    Friday, April 22, 1983 09:44 AM
+To:      Cameron Howe; Donna Clark; Barry Shields
+
+Categories: Volunteer Opportunities
+
+Subject: Volunteer Opportunities
+
+
+Dear Cameron, Donna, and Barry,
+
+I'm writing to share some thoughts on volunteer opportunities within the Engineering department. As you know, our current project load has been... trying. I've taken a step back to assess our capabilities, and I think we can allocate some resources to give back to the community.
+
+In my mind's eye, I envision a small team taking on a manageable task, like refactoring an open-source project or assisting a local coding group with their infrastructure needs. It would be a way for us to apply our skills in a more meaningful context while also fostering camaraderie and a sense of purpose.
+
+If you're interested in exploring this idea further, please let me know. I'd be happy to discuss the details and potential implications on our workload.
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Cardiff Electric, Engineering Department
+

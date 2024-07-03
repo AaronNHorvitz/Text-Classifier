@@ -1,0 +1,23 @@
+
+From:    Cameron Howe
+Sent:    Tuesday, February 15, 1983 10:32 AM
+To:      John Bosworth; Yo-Yo Engberk; Debbie Malinowski
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance - Let's Shake Things Up
+
+
+Hello John, Yo-Yo, Debbie,
+
+I'm writing to blow up the status quo in QA. It's time we stopped playing by the book and started experimenting. I know that sounds crazy, but hear me out. We've been stuck in this cycle of testing and retesting, only to find the same old bugs again. When are we going to break free from the monotony? I propose we mix things up with some innovative approaches. Think outside the box, or better yet, blow the box to smithereens!
+
+Let's get creative with our QA process.
+
+Sincerely,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development
+

@@ -1,0 +1,23 @@
+
+From:    Cameron Howe
+Sent:    Monday, April 11, 1983 01:23 PM
+To:      Joe MacMillan
+
+Categories: Quality Assurance
+
+Subject: QA Feedback - or Else
+
+
+Dear Joe,
+
+Listen, I'm not thrilled about having to write this email. You know why. It's because we're stuck in a cycle of mediocrity, and nobody seems to care except me. Your enthusiasm for "moving forward" is starting to feel like a euphemism for "ignoring the elephant in the room."
+
+I've been looking at our QA process, and let me tell you, it's a joke. We're basically just checking boxes instead of actually testing our code. It's a wonder we haven't had more crashes than we have.
+
+I'm not asking for much - just some basic sanity checks before we ship this stuff out the door. Is that too much to ask?
+
+Cameron Howe
+Lead Software Developer, Cardiff Electric
+Software Development Department
++1 512-555-0147
+

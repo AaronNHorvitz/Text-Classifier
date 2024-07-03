@@ -1,0 +1,28 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, July 12, 1983 01:26 PM
+To:      Donna Clark; Cameron Howe
+
+Categories: Industry News
+
+Subject:    Industry News: New Developments in PC Network Architecture
+
+
+Hello Donna and Cameron,
+
+I wanted to share some recent findings on the latest developments in PC network architecture. As you know, I've been following this topic closely, and there have been some interesting breakthroughs that could potentially impact our work at Cardiff Electric.
+
+One area that caught my attention is the increasing adoption of TCP/IP as a standard protocol for networking. This could lead to more seamless communication between different systems, which would be a significant step forward in terms of scalability and reliability.
+
+I've included a snippet from an article on this topic below:
+
+`The use of TCP/IP as a standard protocol for networking will enable greater compatibility and interoperability between devices, making it easier to integrate new systems into existing networks.`
+
+As we continue to develop our own software solutions, I think it's essential that we stay up-to-date with the latest advancements in these areas.
+
+Best regards,
+
+Malcolm Levitan
+Programmer
+Cardiff Electric - Software Development
++1 512-555-0182

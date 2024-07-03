@@ -1,0 +1,24 @@
+
+From:    Gordon Clark
+Sent:    Saturday, March 12, 1983 10:12 AM
+To:      Larry Goins; Joe MacMillan; Ed Burris; Yo-Yo Engberk
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Dear All,
+
+The Cardiff Electric's 80186 project has reached an inflection point. Our custom-designed IBM PC clone, codenamed "Wildfire," is now operational and demonstrating impressive performance gains. The new CPU architecture, specifically designed to take advantage of the x87 FPU, has yielded significant speedups in our benchmarking tests.
+
+I'm ecstatic about these results, as they validate our hypothesis that a well-optimized 80186-based system can outperform its commercial counterparts. This achievement has substantial implications for our business strategy and market positioning.
+
+I'll be providing a detailed report on the project's status and next steps during our team meeting scheduled for Thursday.
+
+Best,
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Engineering Department
+Cardiff Electric
+

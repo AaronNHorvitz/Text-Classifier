@@ -1,0 +1,46 @@
+
+From:    Ed Burris
+Sent:    Monday, April 04, 1983 02:15 PM
+To:      Yo-Yo Engberk
+
+Categories:    System Outage
+
+Hi Yo-Yo,
+
+I must say, I'm feeling pretty vindicated right about now. It seems like Cardiff Electric is finally starting to recognize my genius, and it's about time too.
+
+As for this system outage nonsense, I'm not surprised. I mean, you're the one who's been up all night debugging, not me. But seriously, Yo-Yo, we need to get our priorities straight. This system outage is just a symptom of a much bigger problem: our team's lack of focus and accountability.
+
+I've seen it before, Yo-Yo. A team that's too focused on individual results instead of the big picture. It's like trying to solve a puzzle with missing pieces. You can't expect to get the right answer when you're missing critical information.
+
+What we need is a systems approach. We need to look at the entire system and identify where the problem is, not just patch it up with some quick fix. And that requires discipline and attention to detail. Something I'm afraid our team lacks.
+
+I'd love to schedule a meeting with you to discuss this further. Maybe we can even conjure up some magic together, as you put it.
+
+Very truly yours,
+Ed Burris
++1 512-555-0155
+Project Manager, Cardiff Electric
+
+
+From:    Yo-Yo Engberk
+Sent:    Monday, April 04, 1983 02:15 PM
+To:      Ed Burris
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Dear Ed,
+
+Oh man, I'm obsessed about this system outage! Like, I've been up all night debugging and I just can't shake off the feeling that there's a gremlin hiding in some corner of the code. I mean, who needs sleep when you're on the brink of solving the ultimate puzzle?!
+
+Seriously though, I think we might have stumbled upon something major here. I've been running some tests and it looks like the issue is tied to this one specific module. I've tried recompiling, rewriting, and even bribing the compiler with virtual cookies (okay, maybe not that last part... or did I?) but nothing seems to be working.
+
+I was hoping we could get together for a quick meeting to go over some ideas. Maybe we can conjure up some magic together?
+
+Best,
+Yo-Yo Engberk
+Programmer, Cardiff Electric, Software Development
++1 512-555-0142

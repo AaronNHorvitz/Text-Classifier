@@ -1,0 +1,14 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, May 05, 1983 04:36 PM
+To:      Larry Goins; Gordon Clark; Barry Shields
+
+Categories: Internal Announcement
+
+Subject:    Internal Announcement
+
+
+Yo-Yo here (don't worry, it's not as awkward as it sounds). I'm writing to announce that our team has finally figured out how to get our heads out of the 1980s and onto the latest coding trends. Okay, maybe that's a slight exaggeration, but we're getting there! Seriously though, we've made some progress on the project, and I wanted to share it with you all.
+
+Let me put it this way: we've stopped using punch cards (mostly), and our code is no longer written in crayon. Baby steps, people!
+

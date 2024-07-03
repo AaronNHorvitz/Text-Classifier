@@ -1,0 +1,23 @@
+
+From:    Larry Goins
+Sent:    Monday, June 27, 1983 01:38 PM
+To:      Gordon Clark; Malcolm Levitan
+
+Categories: Industry News
+
+Subject: Industry News - New Developments in PC Networking
+
+
+Hi Gordon and Malcolm,
+
+I'm excited to share some industry news that caught my attention. It seems that IBM has announced a new networking protocol, Token Ring, which promises faster data transfer rates and improved network reliability. As we continue to innovate at Cardiff Electric, it's essential to stay informed about the latest developments in PC networking.
+
+In related news, the OSI model is gaining traction as a standardized framework for designing and implementing computer networks. This could have significant implications for our work at Cardiff Electric, particularly when it comes to developing more robust and scalable network architectures.
+
+I'd love to hear your thoughts on these developments and how they might impact our projects moving forward.
+
+Best regards,
+Larry Goins
+Support Technician
+Cardiff Electric - Technical Support
++1 512-555-0144

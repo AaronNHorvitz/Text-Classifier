@@ -1,0 +1,41 @@
+
+From:    Joe MacMillan
+Sent:    Thursday, June 02, 1983 10:17 AM
+To:      Yo-Yo Engberk; Larry Goins
+
+Categories:    Technical Support
+
+Dear Larry,
+
+I'm not sure if I'm the right guy to be talking to about technical support, but I'll give it a shot. Your email hit me at a weird time - I was just trying to get my head around some market research we did last week and this PC-DOS thing is like a whole other language to me. But I guess that's what makes you the expert, right?
+
+So, let's get down to business. You're saying there are errors with the operating system freezing or crashing during boot-up? Yeah, that sounds about as pleasant as a root canal without anesthesia. I'll make sure to pass along your steps for troubleshooting - updating drivers, checking for corrupted files, and restarting in MS-DOS mode. If that doesn't work, I guess we're back to square one.
+
+Look, Larry, I appreciate the help, but can you tell me what kind of timeline we're looking at here? Are we talking days, weeks, or months before we get this thing sorted out?
+
+
+
+From:    Larry Goins
+Sent:    Thursday, June 02, 1983 10:17 AM
+To:      Yo-Yo Engberk; Joe MacMillan
+
+Categories: Technical Support
+
+Subject: 
+
+Hello Yo-Yo and Joe,
+
+I'm writing to provide some technical guidance regarding a recent issue we've seen in our PC-DOS software. It seems that a few of our customers have experienced errors with the operating system freezing or crashing during boot-up. I've outlined below some steps you can take to troubleshoot this issue:
+
+1. Ensure all drivers are up-to-date by running a disk check.
+2. Check for any corrupted files by running a virus scan.
+3. If the problem persists, try restarting in MS-DOS mode and then attempting to boot into PC-DOS.
+
+I hope these steps help resolve the issue. If you have any further questions or concerns, please don't hesitate to reach out.
+
+Best regards,
+Larry Goins
+Support Technician
++1 512-555-0144
+Cardiff Electric
+Technical Support

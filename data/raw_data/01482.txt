@@ -1,0 +1,32 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, March 01, 1983 01:05 PM
+To:      Larry Goins
+
+Categories: Technical Support
+
+Subject: Technical Support Request: Category Query
+
+
+Dear Larry,
+
+I'm writing to request clarification on our current technical support category structure. Specifically, I'm concerned about the inconsistencies in categorization within the "Hardware Issues" subcategory.
+
+As you know, my role as a programmer involves ensuring that our software development processes are efficient and scalable. However, when reviewing recent tickets, I noticed that some issues were incorrectly categorized under "Software Errors," which may lead to delayed resolution times.
+
+To rectify this issue, I'd like to propose the following modifications:
+
+* Create a new subcategory within "Hardware Issues" for "Peripheral Device Problems"
+* Update the existing "Hardware Issues" category to include a note on the potential overlap with "Software Errors"
+
+Please let me know if these suggestions align with your vision for our technical support infrastructure. I've included a sample query using our proprietary ticketing system:
+
+`SELECT * FROM tickets WHERE category = 'Hardware Issues' AND subcategory = 'Peripheral Device Problems';`
+
+This query would help us identify and resolve issues more effectively.
+
+Sincerely,
+Malcolm Levitan
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0182

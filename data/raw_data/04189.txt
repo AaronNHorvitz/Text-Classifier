@@ -1,0 +1,36 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, June 20, 1983 09:41 AM
+To:      Larry Goins; Debbie Malinowski; Ed Burris; Yo-Yo Engberk; Joe MacMillan
+
+Categories: Congratulations
+
+Subject: 
+
+Congratulations on our successful beta testing of the IBM PC emulator!
+
+Dear Team,
+
+I'm thrilled to report that our efforts have paid off, and we've achieved a major milestone. The emulator is functioning as expected, and I've verified the performance metrics are within acceptable limits. Here's a snippet of the code that demonstrates the key features:
+
+```sql
+CREATE TABLE users (
+    id INT PRIMARY KEY,
+    name VARCHAR(255),
+    email VARCHAR(255)
+);
+
+INSERT INTO users (id, name, email) VALUES 
+    (1, 'Malcolm Levitan', 'malcolm.levitan@cardiff.com'),
+    (2, 'Larry Goins', 'larry.goins@cardiff.com');
+```
+
+As we move forward, I'd like to schedule a meeting to discuss the next steps and address any concerns or questions you may have.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+

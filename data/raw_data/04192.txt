@@ -1,0 +1,55 @@
+
+From:    Ed Burris
+Sent:    Monday, June 20, 1983 03:20 PM
+To:      Gordon Clark; Donna Clark; Yo-Yo Engberk; Larry Goins; Joe MacMillan; Malcolm Levitan
+
+Categories:    Vacation Notice
+
+Dear Cameron,
+
+I'm glad to hear that Malcolm has finished documenting his work on the algorithm. That'll make things a lot easier when he's gone. And I'm sure you'll do a great job wrapping up any loose ends before he takes off.
+
+Speaking of which, have you given any more thought to our vacation plans? I know it's not official yet, but I was thinking we could take a few days off around August 15th. Just enough time to recharge and get back to work when Malcolm returns. What do you think?
+
+Very truly yours,
+Ed Burris
++1 512-555-0155
+Project Manager, Cardiff Electric
+
+
+From:    Cameron Howe
+Sent:    Monday, June 20, 1983 03:20 PM
+To:      Gordon Clark; Donna Clark; Yo-Yo Engberk; Larry Goins; Joe MacMillan; Ed Burris; Malcolm Levitan
+
+Categories:    Vacation Notice
+
+Hi Malcolm,
+
+I'm glad to hear you'll be taking a well-deserved break. Your new algorithm sounds promising, and I'm happy to take the reins when you're gone. I've been itching to dive deeper into the TurboLinux compiler, so this will give me a chance to explore that further.
+
+Just to confirm, have you finished documenting your work on the algorithm? If not, I can help with that before you leave.
+
+
+
+From:    Malcolm Levitan
+Sent:    Monday, June 20, 1983 03:20 PM
+To:      Gordon Clark; Donna Clark; Yo-Yo Engberk; Cameron Howe; Larry Goins; Joe MacMillan; Ed Burris
+
+Categories: Vacation Notice
+
+Subject:    Vacation Notice
+
+
+Dear Team,
+
+I'm excited to share that I'll be taking a short vacation from August 15th to August 22nd. During my absence, I've made sure to leave detailed notes on the current projects and tasks, so everyone should be able to continue without disruption.
+
+One thing I'd like to highlight is the new algorithm I've been working on for the TurboLinux compiler. It's still in its early stages, but I think it has great potential to improve our parsing efficiency by up to 30%. I'll make sure to wrap up any loose ends before I leave, and Cameron can take over once I'm gone.
+
+If anything urgent comes up while I'm away, please don't hesitate to reach out to Gordon or Donna. They'll be able to provide guidance as needed.
+
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric
++1 512-555-0182

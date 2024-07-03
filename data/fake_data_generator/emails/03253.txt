@@ -1,0 +1,42 @@
+
+From:    Gordon Clark
+Sent:    Tuesday, May 10, 1983 10:23 AM
+To:      Cameron Howe; Ed Burris; Yo-Yo Engberk; Larry Goins
+
+Categories:    Project Update
+
+Hi Larry,
+
+I just got your update and I'm feeling pretty content about where we are. Don't get me wrong, it's frustrating when things don't go as planned, but I think we're in a good spot to tackle these roadblocks. Cameron's been doing some digging on the debug commands, and Ed's been looking into the CPU architecture. We'll have to regroup soon and discuss what we've found.
+
+In the meantime, I think it's worth taking a step back and reminding ourselves why we started this project in the first place. We're not just building a system; we're building something that could change the game. So let's take a deep breath, focus on the bigger picture, and then come at these problems with fresh eyes.
+
+I'm looking forward to hearing your thoughts on this when we next meet up.
+
+Very truly yours,
+Gordon Clark
+Chief Engineer, Cardiff Electric, Engineering
++1 512-555-0198
+
+
+From:    Larry Goins
+Sent:    Tuesday, May 10, 1983 10:23 AM
+To:      Gordon Clark; Cameron Howe; Ed Burris; Yo-Yo Engberk
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Dear Gordon, Cameron, Ed, and Yo-Yo,
+
+I'm writing to provide an update on the project. To be honest, I'm struggling to put my finger on what's going wrong. We've hit a series of roadblocks, and I'm worried that we're not making progress as quickly as we should.
+
+In terms of specifics, our testing has revealed some inconsistencies in the data transfer rates. I've tried troubleshooting with Cameron's suggested debug commands, but nothing seems to be resolving the issue. Ed, your expertise on the CPU architecture would be invaluable right about now. I'm hoping you can offer some insights or suggestions for moving forward.
+
+I know we're all feeling frustrated and a bit demoralized, but I want to emphasize that we're not giving up. We'll keep working together to find a solution, and I'm confident that with persistence and collaboration, we'll get there in the end.
+
+Best regards,
+Larry Goins
+Support Technician, Cardiff Electric, Technical Support
++1 512-555-0144

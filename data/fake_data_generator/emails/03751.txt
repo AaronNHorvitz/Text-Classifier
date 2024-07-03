@@ -1,0 +1,47 @@
+
+From:    Malcolm Levitan
+Sent:    Thursday, June 02, 1983 03:24 PM
+To:      Ed Burris; Larry Goins; Donna Clark; John Bosworth; Yo-Yo Engberk; Joe MacMillan; Cameron Howe
+
+Categories:    Technical Support
+
+Hi Cameron,
+
+Oh man, I'm all in. A database-driven troubleshooting tool? That sounds like a dream come true! I've been thinking about how we can make our technical support more efficient and effective, and this idea is right up my alley. I love that you're thinking outside the box (or in this case, the manual).
+
+I'm already spinning with ideas on how to make this happen. We could have a knowledge base that's not just a repository of answers, but also a community-driven platform where our customers can help each other solve problems. And then there are all sorts of analytical and reporting tools we could build in to make it easier for us to identify trends and patterns.
+
+Let's schedule a meeting with the whole team to brainstorm and start fleshing out the details. I'm already excited about this project, and I know that together, we can create something truly innovative.
+
+Very truly yours,
+Malcolm Levitan
+
++1 512-555-0182
+Programmer
+Software Development
+Cardiff Electric
+
+
+From:    Cameron Howe
+Sent:    Thursday, June 02, 1983 03:24 PM
+To:      Malcolm Levitan; Ed Burris; Larry Goins; Donna Clark; John Bosworth; Yo-Yo Engberk; Joe MacMillan
+
+Categories: Technical Support
+
+Subject: 
+
+Malcolm Levitan, Ed Burris, Larry Goins, Donna Clark, John Bosworth, Yo-Yo Engberk, Joe MacMillan,
+
+Hey gang,
+
+Let's shake things up! I've been digging into some new ideas for our technical support category and I think we can do better than just writing down a bunch of steps. How about we create a database-driven troubleshooting tool that actually helps us solve problems instead of just documenting them? It'll be like having a superpower!
+
+I'm talking to you, Malcolm, because I know you're the resident genius on this stuff. Ed, Larry, Donna, John, Yo-Yo, and Joe - I want your brains on this too! Let's make it happen.
+
+Best,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development
+

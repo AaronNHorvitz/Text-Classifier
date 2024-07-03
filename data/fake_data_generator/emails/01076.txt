@@ -1,0 +1,26 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, February 14, 1983 04:42 PM
+To:      Cameron Howe
+
+Categories: Technical Support
+
+Subject:    Technical Support Request: Buffer Overflow Issue
+
+
+Dear Cameron,
+
+I've been attempting to isolate the root cause of a buffer overflow issue in our latest prototype, and I'm convinced that it's related to an incorrect buffer allocation. The offending code snippet is as follows:
+```c
+void my_function(char *buffer, int size) {
+    buffer[size] = '\0';
+}
+```
+As you can see, the issue arises when the `size` parameter is not validated correctly. I've been testing various scenarios and have found that the error only occurs when `size` exceeds 1024.
+
+I was wondering if you could assist me in reviewing this code and providing some insight on how to address this problem.
+
+Sincerely,
+Malcolm Levitan
+Programmer, Cardiff Electric - Software Development
++1 512-555-0182

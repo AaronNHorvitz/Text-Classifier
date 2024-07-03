@@ -1,0 +1,40 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, June 07, 1983 04:38 PM
+To:      Joe MacMillan
+
+Categories: Supplier Relations
+
+Subject:    Supplier Relations: Query on Inventory Management
+
+
+Dear Joe,
+
+I've been reviewing our supplier contracts and I wanted to touch base regarding the inventory management process. In my analysis, I noticed that we're not utilizing the available APIs for tracking and updating stock levels in a timely manner.
+
+For instance, according to our current workflow, when a shipment arrives, it's manually recorded on the spreadsheet and then updated later in the day. This can lead to discrepancies and potential delays in fulfilling orders. I've attached a simple script snippet below that demonstrates how we could integrate the API calls using Python:
+
+```
+import requests
+import json
+
+def update_inventory(item_id, quantity):
+    url = 'https://api.supplier.com/inventory/{0}'.format(item_id)
+    data = {'quantity': quantity}
+    response = requests.put(url, json=data)
+    if response.status_code == 200:
+        print('Inventory updated successfully!')
+    else:
+        print('Error updating inventory:', response.text)
+
+update_inventory(1234, 50)
+```
+
+I believe implementing this script would greatly improve our supplier relations and reduce the likelihood of errors. If you're available to discuss further, I'd be happy to walk you through the implementation.
+
+Best regards,
+Malcolm Levitan
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0182
+

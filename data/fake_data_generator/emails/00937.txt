@@ -1,0 +1,23 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, February 09, 1983 03:25 PM
+To:      Debbie Malinowski; Ed Burris
+
+Categories: Thank You
+
+Subject: 
+
+Dear Debbie and Ed,
+
+EMAIL START
+
+
+I'm writing to express my gratitude for the assistance you've provided thus far. Your input has been invaluable in debugging our firmware issues. Specifically, I'd like to highlight your insight on the 8088 microprocessor's interrupt handling mechanism (see https://www.intel.com/content/dam/www/public/us/en/documents/whitepaper/8088-microprocessor-interrupt-handling-mechanism-paper.pdf). Your expertise has allowed me to optimize our code, reducing errors and improving performance.
+
+I'm still struggling with the bitwise operations on the 6502 processor (0x40 | 0x20), but I'm confident that your guidance will help me overcome this hurdle. If you could provide any additional insights or point me in the right direction, I would greatly appreciate it.
+
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric
++1 512-555-0182

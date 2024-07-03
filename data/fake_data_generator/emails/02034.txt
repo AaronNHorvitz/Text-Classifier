@@ -1,0 +1,39 @@
+
+From:    Ed Burris
+Sent:    Friday, March 25, 1983 01:36 PM
+To:      Yo-Yo Engberk
+
+Categories: Quality Assurance
+
+Subject: 
+
+Quality Assurance Process Review
+
+Dear Yo-Yo,
+
+EMAIL BODY
+I'm writing to discuss the current state of our Quality Assurance processes. As we move forward with the new product development, it's crucial that we refine and streamline these procedures to ensure timely and cost-effective delivery.
+
+Here are some key objectives I'd like to achieve:
+
+• Conduct a thorough review of existing QA protocols
+• Identify areas for improvement and propose modifications
+• Develop a comprehensive plan for implementing changes
+
+I've outlined the tasks below:
+
+o Task 1: Review current QA documentation
+	+ Research best practices in the industry
+	+ Analyze Cardiff Electric's internal processes
+o Task 2: Conduct stakeholder interviews
+	+ Gather feedback from team members and department heads
+	+ Document pain points and areas for improvement
+
+I'd appreciate your input on this matter. Your insights will be invaluable in shaping the future of our QA process.
+
+EMAIL SIGNATURE
+Ed Burris
++1 512-555-0155
+Project Manager, Project Management
+Cardiff Electric
+

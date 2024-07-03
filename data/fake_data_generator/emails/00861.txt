@@ -1,0 +1,19 @@
+
+From:    Yo-Yo Engberk
+Sent:    Monday, February 07, 1983 03:35 PM
+To:      Cameron Howe; John Bosworth
+
+Categories: Apology
+
+Subject:    Apology Alert!
+
+Dear Cameron & John,
+
+I'm feeling like the cat that got the cream (or in our case, the bug that got squashed) because I finally fixed that pesky memory leak that was driving me bonkers! Anyway, it looks like I jumped the gun a bit on our meeting last week and things didn't quite go as planned. For that, I'm truly sorry.
+
+Let's just say I got my wires crossed (literally!) and I promise to double-check my work before we meet again. You guys are too awesome to have me mess up twice in a row!
+
+Best,
+Yo-Yo Engberk
+Programmer, Cardiff Electric, Software Development
++1 512-555-0142

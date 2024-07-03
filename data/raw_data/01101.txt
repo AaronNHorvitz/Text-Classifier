@@ -1,0 +1,24 @@
+
+From:    Cameron Howe
+Sent:    Monday, February 14, 1983 12:34 PM
+To:      Malcolm Levitan
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance: A Rebel's Cry
+
+
+Hi Malcolm,
+
+What's going down? I'm writing to express some serious frustration with our QA process. It feels like we're stuck in a never-ending loop of tedious testing, and I'm not sure how much more of this I can take. As the lead dev on this team, I feel like I should be able to push back against some of these unnecessary hurdles.
+
+I know I sound crazy, but sometimes it feels like our QA team is more focused on proving we're wrong than actually making sure our code is solid. And don't even get me started on the paperwork. Ugh.
+
+So, what's the plan? How do we shake things up and get back to building something truly innovative?
+
+Cheers,
+Cameron Howe
+Lead Software Developer
++1 512-555-0147
+Cardiff Electric
+Software Development

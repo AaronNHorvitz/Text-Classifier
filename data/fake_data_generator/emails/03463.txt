@@ -1,0 +1,74 @@
+
+From:    Yo-Yo Engberk
+Sent:    Sunday, May 22, 1983 02:49 PM
+To:      Yo-Yo Engberk
+
+Categories:    Quality Assurance
+
+Hi Joe,
+
+I understand where you're coming from. It's hard to see the forest when everything is burning down around us. But let me tell you, our QA efforts are like a tiny spark that can ignite something beautiful.
+
+You may not be impressed by the numbers right now, but trust me, they matter. We're building a foundation that will support the entire house, just like I said before. And when things get tough, and they will get tough again, we'll be grateful for those tiny sparks of quality that kept us going.
+
+Let's focus on getting our products out the door, yes. But let's not forget to build something worth shipping in the first place. We owe it to ourselves, the company, and our customers to do better than just patching up a few bugs.
+
+
+
+From:    Yo-Yo Engberk
+Sent:    Sunday, May 22, 1983 02:49 PM
+To:      Yo-Yo Engberk
+
+Categories:    Quality Assurance
+
+Dear Joe,
+
+You're not seeing the forest through the trees. Our QA efforts aren't just about patching up a few bugs; they're about building a foundation that will support the entire house. And I'm not just talking about software.
+
+I know things have been tough lately, but that's exactly why we need to focus on quality. We can't afford to ship out half-baked products and expect people to be happy with them. Our customers deserve better, and so do our own sanity.
+
+Let me take you through the numbers during our next meeting. I think you'll be impressed by what we've accomplished. And who knows? Maybe it'll even give us some momentum to tackle those bigger issues we've been facing.
+
+
+
+From:    Joe MacMillan
+Sent:    Sunday, May 22, 1983 02:49 PM
+To:      Yo-Yo Engberk
+
+Categories:    Quality Assurance
+
+Dear Yo-Yo,
+
+I'm not sure what to say. It sounds like you're telling me that our QA efforts are paying off, but honestly, it's hard for me to get excited about it when everything else is going so wrong. The company's in shambles, the employees are demoralized, and now we've got some fancy automated tests catching bugs? It feels like just another Band-Aid on a much deeper wound.
+
+Look, I appreciate the update and all, but can we please focus on something that actually matters around here? Like getting our products out the door or figuring out how to keep this company from imploding?
+
+Very truly yours,
+Joe MacMillan
++1 512-555-0132
+Senior Product Manager
+Product Management
+Cardiff Electric
+
+
+From:    Yo-Yo Engberk
+Sent:    Sunday, May 22, 1983 02:49 PM
+To:      Joe MacMillan
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance: We're On The Right Track!
+
+
+Hi Joe,
+
+I'm thrilled to share that our QA efforts are paying off! Our automated tests have been catching those pesky bugs left and right. It's like we've got a team of tiny, digital ninjas sneaking up on errors and squashing them before they can cause any trouble.
+
+Our quality metrics are looking good, and I'm confident that we're building something truly robust. I'd love to catch you up on the details during our next meeting. Let me know if you're free this week!
+
+Best,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142

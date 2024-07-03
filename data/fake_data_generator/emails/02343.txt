@@ -1,0 +1,18 @@
+
+From:    Malcolm Levitan
+Sent:    Thursday, April 07, 1983 02:53 PM
+To:      Ed Burris
+
+Categories: Quality Assurance
+
+Subject:    QA Process Flaws in Category 3 Software Development
+
+
+Dear Ed,
+
+I'm writing to express my frustration with the current state of our Quality Assurance process in category 3 software development. Specifically, I've identified several issues that need to be addressed ASAP.
+
+For instance, in the latest iteration of the code, I found a bug in the `array_reduce` function that was causing incorrect results. After further investigation, I determined that this is not an isolated incident; there are multiple instances where QA has failed to catch critical errors. This is unacceptable and puts our entire project at risk.
+
+I've attached a brief summary of my findings, including code snippets and relevant technical references. I would appreciate it if you could review this information and provide a plan for addressing these issues.
+

@@ -1,0 +1,58 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, January 26, 1983 03:24 PM
+To:      Donna Clark; Barry Shields; Gordon Clark; Malcolm Levitan
+
+Categories:    Research Collaboration
+
+Dear Ed,
+
+I'm feeling ambivalent about the whole research collaboration thing. Don't get me wrong, I love optimizing code as much as the next guy, but there's something about this idea that just doesn't sit right with me. Maybe it's the thought of dedicating a chunk of time to exploring BIOS interrupts and disk I/O operations. I mean, I've got better things to do than try to squeeze out 30% performance gains.
+
+That being said, I'm willing to give it a shot if you're really that excited about it. Your enthusiasm is infectious, Ed. So, let's schedule that meeting and see what we can come up with. Maybe there's something in this IBM PC architecture that I'm not seeing, and your insight could be just the thing to get me on board.
+
+What do you say? Are you free to meet this week?
+
+
+
+From:    Ed Burris
+Sent:    Wednesday, January 26, 1983 03:24 PM
+To:      Donna Clark; Barry Shields; Gordon Clark; Malcolm Levitan
+
+Categories:    Research Collaboration
+
+Hi Malcolm,
+
+I've got to say, I'm infatuated with the idea of optimizing our codebase. The thought of reducing I/O latency by 30% is like a siren song calling me to dive in and start coding. Your proposal has piqued my interest, and I'd love to discuss it further.
+
+I think it's great that you've been analyzing the IBM PC architecture and have found some opportunities for improvement. Your insight could be the key to unlocking some real performance gains. Let's schedule a meeting to go over your findings in more detail and start brainstorming ways we can apply those optimizations to our codebase.
+
+Looking forward to hearing from you and exploring this opportunity further.
+
+Very truly yours,
+Ed Burris
+
+
+From:    Malcolm Levitan
+Sent:    Wednesday, January 26, 1983 03:24 PM
+To:      Ed Burris; Donna Clark; Barry Shields; Gordon Clark
+
+Categories: Research Collaboration
+
+Subject: Research Collaboration
+
+
+Dear Ed, Donna, Barry, and Gordon,
+
+I'm reaching out to discuss the research collaboration we've been exploring. As we continue to work together, I'd like to outline some key findings from my analysis of the IBM PC architecture. Specifically, I've noticed that their use of BIOS interrupts (0x04 and 0x13) for disk I/O operations presents an opportunity for optimization.
+
+In reviewing our current codebase, I realized that we could potentially reduce I/O latency by as much as 30% by employing a similar approach. I'd like to propose that we dedicate some time to exploring this possibility further.
+
+Please let me know your thoughts on this matter, and if you're available, I'd appreciate the opportunity to discuss it in more detail.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182

@@ -1,0 +1,59 @@
+
+From:    Barry Shields
+Sent:    Friday, April 29, 1983 03:56 PM
+To:      Debbie Malinowski; Donna Clark; Yo-Yo Engberk; Malcolm Levitan
+
+Categories:    Project Update
+
+Dear Malcolm,
+
+I'm not even sure where to begin with this project update report. I mean, I'm trying to keep up with the code snippet you attached, but it looks like a mess of pointers and structs. And don't even get me started on the "find" command. What is this, 1982?
+
+Look, Malcolm, I know we're supposed to be working towards a robust implementation, but honestly, I'm feeling a little overwhelmed here. We've got so many moving parts to keep track of, and I just can't shake the feeling that we're in way over our heads.
+
+I'm not trying to be negative or anything, Malcolm, but maybe we should take a step back and re-evaluate what we're trying to accomplish here. Maybe there's a better way to do things? I don't know, man. It just feels like we're swimming upstream against the tide of progress.
+
+Anyway, I'll try to take another look at that code snippet later today. Maybe it'll make more sense when my brain isn't as fried as it is now.
+
+Very truly yours,
+Barry Shields
+Senior Counsel, Legal Department
+Cardiff Electric | +1 512-555-0166
+
+
+From:    Malcolm Levitan
+Sent:    Friday, April 29, 1983 03:56 PM
+To:      Barry Shields; Debbie Malinowski; Donna Clark; Yo-Yo Engberk
+
+Categories: Project Update
+
+Subject:    Project Update
+
+
+Dear Team,
+
+I've taken the liberty of compiling a project update report, highlighting our progress thus far. As you know, we're working towards a robust implementation of the new operating system for Cardiff Electric's flagship product. I'm pleased to report that our efforts have yielded some promising results.
+
+Our current implementation of the "find" command has shown significant improvements in performance and error handling. I've attached a snippet of the modified code for your review:
+
+```c
+void find(char* keyword) {
+    struct dirent *entry;
+    DIR *dir = opendir("/path/to/files");
+    if (dir == NULL)
+        return;
+
+    while ((entry = readdir(dir)) != NULL) {
+        if (strstr(entry->d_name, keyword) != NULL) {
+            printf("%s\n", entry->d_name);
+        }
+    }
+}
+```
+
+Please take a look and let me know if you have any questions or concerns.
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric | Software Development | +1 512-555-0182
+

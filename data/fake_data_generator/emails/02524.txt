@@ -1,0 +1,28 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, April 12, 1983 11:26 AM
+To:      Larry Goins
+
+Categories: Training and Development
+
+Subject: Training and Development Request
+
+
+Dear Larry,
+
+I hope this email finds you well. As we discussed during our meeting last week, I wanted to formally request training and development resources for the Software Development department. Specifically, I would like to explore opportunities for in-house coding workshops and online tutorials focused on optimizing database queries using SQL.
+
+For instance, I've been experimenting with the following query snippet:
+
+```sql
+SELECT * FROM orders 
+WHERE total_amount > (SELECT AVG(total_amount) FROM orders);
+```
+
+I believe this type of training would greatly benefit our team's productivity and efficiency. If you could provide me with some guidance on how to move forward with this request, I would greatly appreciate it.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development

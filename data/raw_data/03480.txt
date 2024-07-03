@@ -1,0 +1,22 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, May 23, 1983 02:46 PM
+To:      Cameron Howe
+
+Categories: Compliance
+
+Subject: Compliance: Validation of Cryptographic Algorithms
+
+
+Dear Cameron,
+
+I've been reviewing the compliance protocols for our cryptographic algorithms and I wanted to clarify some points regarding the validation process. Specifically, I'm concerned about the potential issues with SHA-1's reduced security in modern systems (see http://www.cryptopp.com/sha1.html). 
+
+As you know, our company is committed to adhering to industry standards for encryption and decryption. To ensure compliance, we must validate all cryptographic algorithms against widely accepted test suites, such as NIST's Suite B. I've attached a sample code snippet demonstrating the implementation of SHA-256 using OpenSSL (https://www.openssl.org/docs/apps/openssl.html). 
+
+Please review this code and provide feedback on how it can be applied to our existing infrastructure.
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182

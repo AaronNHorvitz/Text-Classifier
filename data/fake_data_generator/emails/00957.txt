@@ -1,0 +1,23 @@
+
+From:    Larry Goins
+Sent:    Wednesday, February 09, 1983 04:25 PM
+To:      Donna Clark; John Bosworth
+
+Categories: Industry News
+
+Subject: Industry News - IBM PC/AT Compatibility Issues
+
+Hi Donna and John,
+
+I'm writing to bring to your attention some pressing industry news that affects our work at Cardiff Electric. As you know, we're still struggling to get our PC clones compatible with IBM's PC/AT architecture. It seems like every week brings a new challenge, and I'm starting to feel like I'm stuck in a never-ending loop of troubleshooting.
+
+I've been digging through the documentation, and it looks like the problem lies in the BIOS settings. Specifically, it appears that we need to update our firmware to version 1.2 or higher to ensure compatibility with IBM's AT bus. Has anyone else encountered this issue? I'd love to hear your thoughts on how to tackle this problem.
+
+I'm at my wit's end here, and any guidance you can offer would be greatly appreciated.
+
+Best regards,
+Larry Goins
+Support Technician
+Cardiff Electric
+Technical Support
++1 512-555-0144

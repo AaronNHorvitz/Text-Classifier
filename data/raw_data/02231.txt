@@ -1,0 +1,77 @@
+
+From:    Larry Goins
+Sent:    Monday, April 04, 1983 11:41 AM
+To:      Gordon Clark; Donna Clark; Yo-Yo Engberk; Debbie Malinowski; Barry Shields; Joe MacMillan; Cameron Howe; Ed Burris
+
+Categories:    Quality Assurance
+
+Dear Ed,
+
+I'm feeling pretty guilty about all this Quality Assurance stuff. I mean, we're trying to make sure our software doesn't crash or burn, but at what cost? It's like we're trying to cover every possible scenario, but that just means more work for everyone.
+
+Look, I get it. You want us to have a solid plan in place before we start testing. And I agree with that. But sometimes I feel like we're overthinking things. We need to remember why we're doing this in the first place: to make some money.
+
+So yeah, let's prioritize developing a more detailed plan for addressing potential issues. But can we also make sure we're not getting too caught up in the details? Sometimes I think we forget that software is supposed to be used by real people with real problems.
+
+Let's discuss this further at our next meeting and see if we can find some common ground.
+
+
+
+From:    Ed Burris
+Sent:    Monday, April 04, 1983 11:41 AM
+To:      Larry Goins; Gordon Clark; Donna Clark; Yo-Yo Engberk; Debbie Malinowski; Barry Shields; Joe MacMillan; Cameron Howe; Ed Burris
+
+Categories:    Quality Assurance
+
+Dear John,
+
+I'm absolutely thrilled to hear that you're impressed with our proposed Quality Assurance framework! Your input is invaluable, and I'm glad we're on the same page regarding risk assessment and testing protocols. Those bi-weekly meetings will be crucial in keeping us aligned.
+
+Regarding your concern about allocating sufficient resources for QA, I completely agree. It's essential to prioritize developing a more detailed plan for addressing potential issues. In fact, I was thinking that we could even allocate some extra hours to get the team on board with this new framework.
+
+Let's definitely discuss this further at our next meeting and see how we can make it work. I'm confident that together, we'll be able to iron out any wrinkles and ensure a seamless integration with the existing infrastructure.
+
+
+
+From:    John Bosworth
+Sent:    Monday, April 04, 1983 11:41 AM
+To:      Larry Goins; Gordon Clark; Donna Clark; Yo-Yo Engberk; Debbie Malinowski; Barry Shields; Joe MacMillan; Cameron Howe; Ed Burris
+
+Categories:    Quality Assurance
+
+Hi Ed,
+
+Thanks for sharing the Quality Assurance framework. I've reviewed the document, and overall, I'm impressed with the structure you've proposed. It looks like we're on the same page regarding risk assessment and testing protocols. I particularly appreciate the emphasis on bi-weekly meetings to review progress - that's crucial in keeping us aligned.
+
+My only concern is whether we're allocating sufficient resources for QA. In my experience, the most common pitfalls are often rooted in inadequate testing or unclear communication. I think we should prioritize developing a more detailed plan for addressing these potential issues.
+
+Looking forward to hearing your thoughts on this. Let's discuss at our next meeting.
+
+
+
+From:    Ed Burris
+Sent:    Monday, April 04, 1983 11:41 AM
+To:      John Bosworth; Larry Goins; Gordon Clark; Donna Clark; Yo-Yo Engberk; Debbie Malinowski; Barry Shields; Joe MacMillan; Cameron Howe
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Framework
+
+Dear Team,
+
+EMAIL BODY
+I'm excited to share our proposed Quality Assurance framework for the project. Below are key takeaways and action items:
+
+• Review QA plan by end of week for feedback
+• Conduct risk assessment and identify potential pitfalls
+• Establish clear testing protocols for each phase
+• Schedule bi-weekly meetings to review progress
+
+As we discussed during the project kick-off, our goal is to ensure seamless integration with the existing infrastructure. I'm confident that this framework will help us achieve that.
+
+Please review the attached document and provide your input by EOD Friday. If you have any questions or concerns, don't hesitate to reach out.
+
+Best regards,
+Ed Burris
+Project Manager, Cardiff Electric, Project Management
++1 512-555-0155

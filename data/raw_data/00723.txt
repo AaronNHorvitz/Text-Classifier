@@ -1,0 +1,23 @@
+
+From:    Gordon Clark
+Sent:    Wednesday, February 02, 1983 12:16 PM
+To:      John Bosworth
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Process Improvement
+
+Dear John,
+
+I'm writing to express my disappointment with the current state of our quality assurance process. As Chief Engineer, I've been tasked with optimizing the production line, but the QA procedures we're using are hindering progress.
+
+Our testing protocols are too broad and don't account for the nuances of our proprietary hardware. This means we're wasting valuable time and resources on unnecessary rework. I've run simulations and crunched numbers - if we streamline QA, we can increase productivity by 15% without compromising quality.
+
+I propose implementing a tiered testing approach, with more focused and targeted protocols for specific modules. This will allow us to catch defects earlier in the process and reduce overall waste. I'd like to discuss this further and explore ways to integrate these changes into our existing workflow.
+
+Best regards,
+Gordon Clark
+Chief Engineer, Engineering Department
+Cardiff Electric
+Phone: +1 512-555-0198
+

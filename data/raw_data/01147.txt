@@ -1,0 +1,32 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, February 15, 1983 01:56 PM
+To:      Barry Shields
+
+Categories: Research Collaboration
+
+Subject:    
+Research Collaboration Opportunities
+
+
+Dear Barry,
+
+I've been reviewing the research papers we discussed during our meeting last week, and I'm excited to explore potential collaborations. Specifically, I'd like to discuss leveraging the 8086's x87 FPU for implementing optimized algorithms. As you know, this architecture offers significant performance gains for certain applications.
+
+I've attached a code snippet illustrating the basic idea:
+```c
+void optimize_fpu(float *arr, int len) {
+    // Use x87 FPU instructions to perform vectorized operations
+    for (int i = 0; i < len; i++) {
+        _mm_load_ps(arr + i);
+        _mm_add_ss(_mm_mul_ss(...), ...); // example operation
+        _mm_store_ss(arr + i);
+    }
+}
+```
+This could be a great opportunity to showcase Cardiff Electric's expertise in low-level optimization. What are your thoughts on this approach?
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182

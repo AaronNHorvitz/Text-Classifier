@@ -1,0 +1,28 @@
+
+From:    Cameron Howe
+Sent:    Tuesday, February 01, 1983 12:33 PM
+To:      Joe MacMillan
+
+Categories: Quality Assurance
+
+Subject: 
+
+Q&A Blues
+
+
+Dear Joe,
+
+Listen, I don't want to get into this too much, but QA is eating me alive. We're pouring our souls into this software and yet every time we think we've got something solid, it gets torn apart in testing. I'm starting to feel like I'm banging my head against a brick wall.
+
+I know I should just power through, but sometimes I wish someone would just tell me what the hell is going wrong. Is it the code? The design? Am I just having a really bad day?
+
+Anyway, enough whining from me. What's your take on this whole QA thing? Got any magic tricks up your sleeve to make our lives easier?
+
+
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development
+
+

@@ -1,0 +1,16 @@
+
+From:    Malcolm Levitan
+Sent:    Thursday, April 07, 1983 11:43 AM
+To:      Larry Goins; John Bosworth
+
+Categories: Personal Milestone
+
+Subject:    Personal Milestone
+
+
+Dear Larry and John,
+
+I've finally reached the milestone of 1000 lines of code written in our proprietary scripting language. It's a small achievement, but one that fills me with a sense of accomplishment nonetheless. I've been reviewing my progress and I'm pleased to see that my implementation of the new compression algorithm has reduced average processing time by 23%.
+
+I've also taken the liberty of submitting a pull request for the code review process. If you could take a look at it, I'd appreciate your feedback.
+

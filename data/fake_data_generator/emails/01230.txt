@@ -1,0 +1,23 @@
+
+From:    Gordon Clark
+Sent:    Thursday, February 17, 1983 10:10 AM
+To:      Ed Burris
+
+Categories: Industry News
+
+Subject: 
+
+New Developments in IBM PC Emulation
+
+Dear Ed,
+
+I'm writing to share some recent findings on IBM PC emulation. As you know, our team has been working on optimizing Cardiff Electric's proprietary 16-bit processor for compatibility with the emerging market of personal computers. I've been pouring over the latest technical papers and attending industry seminars to stay ahead of the curve.
+
+In particular, I'd like to draw your attention to the work being done at Microsoft on their MS-DOS emulator. While it's still in its infancy, the potential applications are enormous. Imagine being able to run our proprietary software on a PC, without having to rewrite the entire codebase! It's an intriguing prospect, and one that warrants further exploration.
+
+As always, I'm excited to hear your thoughts on this matter. Your insight would be invaluable in helping us determine the best course of action for Cardiff Electric.
+
+Gordon Clark
+Chief Engineer, Engineering Department
+Cardiff Electric
++1 512-555-0198

@@ -1,0 +1,39 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, February 14, 1983 04:09 PM
+To:      Debbie Malinowski; Larry Goins; Joe MacMillan; Ed Burris; Barry Shields; Gordon Clark; John Bosworth
+
+Categories: Industry News
+
+Subject:    Industry News: IBM's OS/2 Warp
+
+Dear Team,
+
+I've been following recent developments regarding IBM's OS/2 Warp, and I think it's essential we discuss its implications on our industry. Specifically, their efforts to integrate multimedia capabilities have piqued my interest.
+
+In their presentation at the recent COMDEX show, they showcased some impressive demos of video and audio playback using the new multimedia APIs. I've included a snippet from their code sample below:
+
+```cpp
+#include <os2.h>
+#include <mmr.h>
+
+int main() {
+    HMMR mmr = NULL;
+    if (MmrOpen(&mmr, 0) == MMR_ERROR) {
+        // Handle error
+    }
+    // Play some audio!
+    MmrPlay(mmr, 0);
+    return 0;
+}
+```
+
+While I understand the potential benefits of OS/2 Warp's multimedia capabilities, I'm concerned about the potential impact on our existing software stack. I'd appreciate any thoughts or insights you may have on this matter.
+
+Best regards,
+
+Malcolm Levitan
+Programmer, Software Development Department
+Cardiff Electric
++1 512-555-0182
+

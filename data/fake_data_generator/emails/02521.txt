@@ -1,0 +1,77 @@
+
+From:    John Bosworth
+Sent:    Tuesday, April 12, 1983 11:05 AM
+To:      Larry Goins
+
+Categories:    Quality Assurance
+
+Hi Larry,
+
+I'm feeling pretty ambivalent about all this quality assurance stuff. I mean, don't get me wrong, having a more comprehensive test suite is great and all that jazz. But let's not forget where we came from, you know? We're talking about Cardiff Electric here - the kings of slapdash engineering and "good enough" manufacturing.
+
+I'm just not sure how much emphasis we should be putting on this stuff. I mean, it's great to catch those motherboard connector issues before they become problems, but at what cost? Are we sacrificing too much in terms of time and resources to get that extra 0.1% of quality out of our products?
+
+I'd love to discuss this further with you and Joe. Maybe we can find some common ground on how to balance the need for quality with the realities of our business.
+
+
+
+From:    Larry Goins
+Sent:    Tuesday, April 12, 1983 11:05 AM
+To:      John Bosworth; Larry Goins
+
+Categories:    Quality Assurance
+
+Dear Joe,
+
+I gotta say, I'm disappointed. You're really pumped up about making some changes to our QA processes and catching these kinds of issues before they become problems. And yeah, having a more comprehensive test suite would've caught that faulty motherboard connector issue earlier on.
+
+But let's not get ahead of ourselves here. We've got a long way to go before we can start patting ourselves on the back. I mean, have you seen some of the stuff that comes in here? It's like they're trying to see how many ways they can break our products. And don't even get me started on the users who think they know better than us.
+
+So yeah, I'm all for refining our QA processes and implementing automated testing for specific hardware components. But let's not forget where we came from and what kind of crap we've had to deal with over the years. Let's keep it real, Joe.
+
+
+
+From:    Joe MacMillan
+Sent:    Tuesday, April 12, 1983 11:05 AM
+To:      John Bosworth; Larry Goins
+
+Categories:    Quality Assurance
+
+Hi Larry,
+
+Thanks for reaching out and providing that feedback. You're absolutely right - a more comprehensive test suite would have caught that faulty motherboard connector issue earlier on. And implementing automated testing for specific hardware components is a great way to reduce the likelihood of similar issues arising in the future.
+
+I'm really motivated to take this feedback and run with it. I think we can make some real progress by refining our QA processes and catching these kinds of issues before they become problems. I'd love to discuss this further with you and see what kind of changes we can implement.
+
+Let's schedule a call to go over the attached script and brainstorm some ways we can integrate automated testing into our workflow.
+
+Very truly yours,
+Joe MacMillan
++1 512-555-0132
+Senior Product Manager, Cardiff Electric, Product Management
+
+
+From:    Larry Goins
+Sent:    Tuesday, April 12, 1983 11:05 AM
+To:      Joe MacMillan; John Bosworth
+
+Categories: Quality Assurance
+
+Subject:    Quality Assurance Feedback
+
+
+Hi Joe and John,
+
+I hope this email finds you well. As part of our ongoing efforts to improve our product's quality, I'd like to provide some feedback on a recent issue we encountered in the Technical Support department. Our team was able to troubleshoot and resolve a peculiar problem involving a faulty motherboard connector, which led me to think about ways we can refine our QA processes.
+
+In my opinion, having a more comprehensive test suite would have caught this issue earlier on. I've attached a simple script that could be used as a starting point for developing such a test suite. Additionally, I recommend implementing automated testing for specific hardware components to reduce the likelihood of similar issues arising in the future.
+
+Let me know if you'd like to discuss this further or if there's anything else we can do to improve our QA efforts.
+
+Best regards,
+Larry Goins
+Support Technician
+Cardiff Electric
+Technical Support
++1 512-555-0144
+

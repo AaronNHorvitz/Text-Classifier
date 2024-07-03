@@ -1,0 +1,24 @@
+
+From:    Larry Goins
+Sent:    Wednesday, July 06, 1983 10:04 AM
+To:      Ed Burris
+
+Categories: Technical Support
+
+Subject: Re: Issue with 8080 System
+
+
+Dear Ed,
+
+I'm still stuck trying to troubleshoot this 8080 system issue, and I'm getting frustrated. The user is complaining about slow performance and errors, but we've run all the diagnostic tests and everything looks fine on our end. 
+
+I've tried reinitializing the system, updating the firmware, and even swapping out the ROM chips. Nothing's worked so far. It's like this thing has a mind of its own! I've been going over the user manual with a fine-tooth comb, but I'm not seeing anything that jumps out at me as the cause.
+
+If you have any ideas or want to take a stab at it, I'm all ears. I just can't seem to crack this nut.
+
+
+Best,
+Larry Goins
+Support Technician
++1 512-555-0144
+Cardiff Electric | Technical Support

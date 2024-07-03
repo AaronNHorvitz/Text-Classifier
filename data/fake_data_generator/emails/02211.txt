@@ -1,0 +1,65 @@
+
+From:    Gordon Clark
+Sent:    Monday, April 04, 1983 10:21 AM
+To:      Gordon Clark
+
+Categories:    Technical Support
+
+Dear Larry,
+
+I'm thrilled to hear that you're excited about diving into the PC-IX emulator business. I must admit, I'm feeling a sense of camaraderie with your enthusiasm - it's contagious!
+
+The sector 3, track 2 anomaly does indeed sound like a real puzzler, and I appreciate your thorough analysis of the system logs. Your hunch about a software bug rather than a faulty disk resonates deeply with me; I think we might be onto something there.
+
+Please do go ahead and run those tests - I'm eager to see what you find. If needed, I'd be happy to help bring in some heavier artillery to tackle the issue head-on. Your dedication to technical problems is truly inspiring, Larry!
+
+
+
+From:    Larry Goins
+Sent:    Monday, April 04, 1983 10:21 AM
+To:      Gordon Clark
+
+Categories:    Technical Support
+
+Hi Gordon,
+
+I'm excited to dive into this PC-IX emulator business. Anomalies are my bread and butter, and I love the smell of a good mystery in the morning. Your email just about put me over the edge - I mean that in the best possible way.
+
+The sector 3, track 2 thingy sounds like a real puzzler. I've taken a gander at the system logs you sent over, and I think we might be dealing with a software bug rather than a faulty disk. It's too early to say for sure, but my gut tells me we're looking at some kind of logic error.
+
+I'll start running some tests and see if I can replicate the issue. If not, we might need to bring in some heavier artillery - i.e., someone with a more theoretical background. But don't worry, I've got this. I'm like a dog on a scent when it comes to technical problems.
+
+I'll be in touch soon with my findings. In the meantime, keep me posted if you notice anything else funky going on.
+
+Very truly yours,
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric
+Technical Support
+
+
+From:    Gordon Clark
+Sent:    Monday, April 04, 1983 10:21 AM
+To:      Larry Goins
+
+Categories: Technical Support
+
+Subject: Technical Support - Issue with PC-IX
+
+Dear Larry,
+
+EMAIL BODY
+I've been tinkering with the PC-IX emulator and I think I've stumbled upon a fascinating anomaly. It appears that the system is experiencing a peculiar artifact when attempting to read from sector 3, track 2 of the floppy disk. The error message suggests a faulty disk, but I'm convinced it's something more... intriguing.
+
+As someone with a keen eye for detail, I thought you'd appreciate the challenge. If you're free to take a look at the data logs and run some tests, I'd greatly appreciate your insight.
+
+EMAIL BODY
+I've included the relevant system logs and debug output if you need them. Let me know what you find.
+
+EMAIL SIGNATURE
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Cardiff Electric
+Engineering Department
+

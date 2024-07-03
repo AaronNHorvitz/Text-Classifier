@@ -1,0 +1,25 @@
+
+From:    Gordon Clark
+Sent:    Thursday, May 26, 1983 11:08 AM
+To:      John Bosworth; Yo-Yo Engberk; Barry Shields; Malcolm Levitan; Cameron Howe; Debbie Malinowski; Donna Clark; Ed Burris; Larry Goins
+
+Categories: Apology
+
+Subject:    Apology - Correcting the 8085 Prototype
+
+
+Dear Colleagues,
+
+EMAIL BODY
+I am writing to express my deepest apologies for the oversight in our latest prototype of the 8085 processor. I understand that the recent changes to the instruction set architecture have caused confusion and frustration among some team members.
+
+As Chief Engineer, it is my responsibility to ensure that all designs meet the highest standards of quality and precision. In this case, I failed to double-check the updated documentation before releasing the prototype. This was an unfortunate mistake that has caused delays in our development schedule.
+
+
+EMAIL SIGNATURE
+Gordon Clark
++1 512-555-0198
+Chief Engineer
+Cardiff Electric
+Engineering
+

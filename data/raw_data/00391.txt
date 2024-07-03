@@ -1,0 +1,26 @@
+
+From:    Gordon Clark
+Sent:    Wednesday, January 19, 1983 01:29 PM
+To:      John Bosworth; Debbie Malinowski; Barry Shields
+
+Categories: Expense Report
+
+Subject:    Expense Report: Technical Details and Clarifications
+
+Dear John, Debbie, Barry,
+
+As we approach the end of Q2, I wanted to take a moment to review the expense reports for our department. In my opinion, it's essential to ensure that our financials accurately reflect the actual costs associated with our projects.
+
+To achieve this, I've prepared a detailed breakdown of the expenses incurred thus far, including allocations for personnel, equipment, and miscellaneous items. I'd like to highlight a few key points:
+
+* The new 3D modeling software we acquired last quarter has exceeded my expectations in terms of efficiency gains; however, I do believe we should revisit our pricing structure to account for the increased usage.
+* Personnel expenses have been higher than anticipated due to the need for additional support staff on the IBM PC project. I propose we reallocate some of these funds to cover the costs associated with retraining our existing team members.
+
+In light of these factors, I've attached a comprehensive report detailing all relevant financials and projections. I'm confident that this information will prove valuable in informing our budgeting decisions moving forward.
+
+Best regards,
+Gordon Clark
+Chief Engineer, Engineering Department
+Cardiff Electric
++1 512-555-0198
+

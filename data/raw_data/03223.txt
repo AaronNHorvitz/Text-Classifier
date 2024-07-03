@@ -1,0 +1,26 @@
+
+From:    Larry Goins
+Sent:    Monday, May 09, 1983 12:50 PM
+To:      Debbie Malinowski; Malcolm Levitan; Gordon Clark; Ed Burris
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Hi Debbie, Malcolm, Gordon, and Ed,
+
+I'm writing to provide an update on our project. As you know, we're working on a new operating system, and I wanted to give you all a brief overview of where we are. We've made some significant progress in the past week, and I'm happy to report that the beta testing has been going smoothly.
+
+However, I do want to mention that I've noticed some issues with the disk formatting process. It seems that the code is having trouble handling large file systems, which is causing errors. To troubleshoot this issue, please try running a fsck command on the affected partition. If the problem persists, please let me know and we can work together to resolve it.
+
+In other news, I've been reviewing our project timeline and I think we're on track to meet our deadline. However, I do want to caution that we should be prepared for some last-minute tweaks to ensure everything is working as expected.
+
+Please don't hesitate to reach out if you have any questions or concerns.
+
+
+Best,
+Larry Goins
+Support Technician
++1 512-555-0144
+Cardiff Electric - Technical Support

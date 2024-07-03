@@ -1,0 +1,22 @@
+
+From:    Gordon Clark
+Sent:    Saturday, January 29, 1983 03:23 PM
+To:      Ed Burris
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Dear Ed,
+
+The 3.5-inch floppy disk drive prototype is finally taking shape, and I'm thrilled to report that we're on track to meet our Q2 milestones. The new design iterations have yielded a significant increase in storage capacity while maintaining a compact form factor.
+
+I've also been experimenting with novel ways to improve data transfer rates, and the results are promising. If you're available, I'd love to discuss my findings in more detail over the phone.
+
+Best regards,
+Gordon Clark
+Chief Engineer, Cardiff Electric
+Engineering Department
++1 512-555-0198
+

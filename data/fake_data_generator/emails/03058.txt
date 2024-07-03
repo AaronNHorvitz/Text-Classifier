@@ -1,0 +1,29 @@
+
+From:    Larry Goins
+Sent:    Wednesday, May 04, 1983 04:16 PM
+To:      Yo-Yo Engberk
+
+Categories: Reminder
+
+Subject: Reminder - System Reboot Schedule
+
+
+Hi Yo-Yo,
+
+I wanted to follow up on our previous conversation regarding the system reboot schedule. As we previously discussed, the upcoming reboot will take place at 10 PM CST this Friday. Please ensure that all systems are shut down and powered off before then.
+
+If you have any questions or concerns about the reboot process, please don't hesitate to reach out. I've also included some troubleshooting steps below in case you experience any issues during or after the reboot:
+
+1. Check for loose connections on your workstation.
+2. Restart your computer if necessary.
+3. Contact our technical support team at +1 512-555-0144.
+
+I'm confident that this reboot will resolve the issue you're experiencing with your workstation. If you have any further questions or concerns, please don't hesitate to reach out.
+
+Best regards,
+
+Larry Goins
+Support Technician
+Cardiff Electric
+Technical Support
++1 512-555-0144

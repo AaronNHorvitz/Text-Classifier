@@ -1,0 +1,36 @@
+
+From:    Gordon Clark
+Sent:    Friday, February 04, 1983 04:11 PM
+To:      Ed Burris; Malcolm Levitan
+
+Categories: Expense Report
+
+Subject: Expense Report
+
+Dear Ed and Malcolm,
+
+The expense report for our latest prototype development has been prepared. As Chief Engineer, I have reviewed each item to ensure compliance with Cardiff Electric's accounting procedures. Below are the detailed entries:
+
+1. Component procurement:
+	* 500 units of custom-made microcontrollers @ $15.00 per unit: $7,500
+	* 300 feet of high-speed cable @ $20.00 per foot: $6,000
+
+Total component cost: $13,500
+
+2. Labor costs:
+	* 50 hours of engineering labor @ $30.00 per hour: $1,500
+	* 10 hours of testing and debugging labor @ $40.00 per hour: $400
+
+Total labor cost: $1,900
+
+3. Travel expenses:
+	* Airfare for trip to Dallas conference: $800
+	* Hotel accommodations for three nights @ $150.00 per night: $450
+
+Total travel expense: $1,250
+
+Please review and verify the accuracy of these entries before submitting the report.
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Cardiff Electric, Engineering

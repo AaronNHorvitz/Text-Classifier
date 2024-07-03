@@ -1,0 +1,83 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, May 18, 1983 12:10 PM
+To:      Malcolm Levitan
+
+Categories:    Apology
+
+Dear Yo-Yo,
+
+I'm still trying to wrap my head around how something like that could happen. Devastated doesn't even begin to describe the feeling I have right now. I mean, I know we're all supposed to be adults and stuff, but it's hard not to feel like a total idiot when you realize you've just cost the company hours of productivity.
+
+I'm glad Gordon's on board with revising the code snippet, at least. I wouldn't want him to think I was trying to pull one over on him or anything. The new code looks fine, I suppose - but honestly, Yo-Yo, I'm still trying to figure out how I managed to miss that step in the first place.
+
+Look, I know apologizing for mistakes is part of being a programmer, and I get that. But it's hard not to feel like I've let everyone down when something like this happens. I promise to be more careful in the future - not just because it's my job, but because I don't want to have to go through this again.
+
+
+
+From:    Gordon Clark
+Sent:    Wednesday, May 18, 1983 12:10 PM
+To:      Malcolm Levitan
+
+Categories:    Apology
+
+Dear Yo-Yo,
+
+I'm not sure what's more annoying, Malcolm's apology or his assumption that we're all just going to shrug off a mistake like that. You know me, Yo-Yo - I don't care about "mistakes" or "learning from them". What I care about is getting the job done right.
+
+And another thing - if Malcolm had bothered to test his code in the first place, we wouldn't be having this conversation. It's not like he's some kind of genius who can just wing it and hope for the best. Newsflash: nobody's that good.
+
+The revised code snippet looks fine, I suppose. But let's not pretend like this is all just part of the process. Malcolm's mistake has caused real problems, and we need to make sure that doesn't happen again.
+
+
+
+From:    Yo-Yo Engberk
+Sent:    Wednesday, May 18, 1983 12:10 PM
+To:      Gordon Clark; Malcolm Levitan
+
+Categories:    Apology
+
+Hey Malcolm,
+
+Thanks a ton for reaching out and apologizing for the mistake. I'm glad you took the time to revisit the code and make sure everything is shipshape. That's what I love about working with Cardiff Electric - we're all about solving problems together.
+
+The new snippet looks good, by the way. I'll make sure to test it out and give you a holler if I run into any issues. No harm done here; we've all been there, right? It's just coding, my friend!
+
+You don't have to apologize for mistakes like that - it's all part of the process. What matters is that we learn from them and move forward.
+
+Very truly yours,
+Yo-Yo Engberk
+Programmer, Cardiff Electric
++1 512-555-0142
+
+
+From:    Malcolm Levitan
+Sent:    Wednesday, May 18, 1983 12:10 PM
+To:      Yo-Yo Engberk; Gordon Clark
+
+Categories: Apology
+
+Subject: 
+
+Dear Yo-Yo and Gordon,
+
+EMAIL BODY
+I'm writing to express my sincerest apologies for the oversight in our recent meeting regarding the data compression algorithm. Upon further review, I realize that I inadvertently omitted a crucial step in the implementation process.
+
+Here's an updated version of the code snippet:
+
+```sql
+if (data_size > 1024) {
+    // Compress data using LZW algorithm
+    compressed_data = compress(data);
+} else {
+    // No compression needed for small datasets
+    compressed_data = data;
+}
+```
+
+I understand that this mistake may have caused unnecessary delays in our project timeline. Please accept my apologies for any inconvenience this has caused.
+
+EMAIL BODY (continued)
+In light of this, I've re-run the simulations and verified the results to ensure the revised implementation meets the required specifications. If you have any further questions or concerns, please don't hesitate to reach out.
+

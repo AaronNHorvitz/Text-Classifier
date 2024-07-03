@@ -1,0 +1,22 @@
+
+From:    Yo-Yo Engberk
+Sent:    Wednesday, May 04, 1983 02:16 PM
+To:      Larry Goins
+
+Categories: Reminder
+
+Subject:    Reminder: That Thing We Were Working On
+
+Hey Larry,
+
+I'm writing to remind you (and myself, honestly) that we still need to wrap up that pesky bug we found in the mainframe. It's been lingering like a digital hangover from last week's coding party.
+
+Don't worry, I'm not going to say "we're stuck" or anything dramatic like that. We just... needed a little more caffeine and some fresh air (or maybe a reboot). I think we can squash it today if we put our collective brains together.
+
+Let me know when you're ready to tackle the beast, and I'll bring my A-game (and a few extra cups of coffee).
+
+Cheers,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric - Software Development
++1 512-555-0142

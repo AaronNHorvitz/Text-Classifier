@@ -1,0 +1,24 @@
+
+From:    Larry Goins
+Sent:    Friday, June 24, 1983 04:55 PM
+To:      Donna Clark
+
+Categories: Reminder
+
+Subject: Reminder
+
+
+Hi Donna,
+
+I'm following up to make sure everything's in order after our last conversation. As a reminder, I wanted to reiterate the troubleshooting steps we discussed for resolving the issue with your ATX 286 PC.
+
+To recap, please try the following sequence: power down, unplug the power cord, hold the power button for 30 seconds to discharge any residual voltage, then plug back in and boot up. If you continue to experience issues, please feel free to reach out to me and we can go from there.
+
+I'm optimistic that this will resolve the problem, but if not, I'll be happy to dig deeper with you. Let me know how it goes!
+
+Best,
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric
+Technical Support

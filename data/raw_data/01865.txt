@@ -1,0 +1,24 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, March 16, 1983 10:57 AM
+To:      John Bosworth; Cameron Howe
+
+Categories: Industry News
+
+Subject: Industry News: IBM's PC/AT Announcement
+
+
+Hi John and Cameron,
+
+I'm writing to share my concerns regarding the recent announcement from IBM regarding their new PC/AT platform. As you know, this has significant implications for our own PC project at Cardiff Electric. Specifically, I worry about the impact on our hardware design decisions moving forward.
+
+In particular, the PC/AT's 80286 processor and expanded memory capabilities make it a formidable competitor in the market. We must consider these advancements when developing our own PC architecture to remain competitive.
+
+I would appreciate any thoughts or insights you may have on this topic.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182

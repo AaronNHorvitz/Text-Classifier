@@ -1,0 +1,23 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, March 31, 1983 01:25 PM
+To:      Joe MacMillan; Barry Shields
+
+Categories: Apology
+
+Subject: Rebooting Apologies
+
+
+Hi Joe & Barry,
+
+I'm writing to apologize (again) for that pesky bug we couldn't squash last week. I know, I know, "It's just code" and all that jazz. But let me tell you, my ego took a hit when our demo failed to impress. It's like having a pixelated face on the cover of PC Magazine.
+
+In all seriousness, I'm truly sorry for any frustration or stress I caused. If there's one thing I've learned from coding all night, it's that we're only human (well, most of us, anyway).
+
+Looking forward to getting back in the saddle and fixing those pesky bugs!
+
+Best,
+Yo-Yo Engberk
+Programmer, Cardiff Electric | Software Development
++1 512-555-0142
+

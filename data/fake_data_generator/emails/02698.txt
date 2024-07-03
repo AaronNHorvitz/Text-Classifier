@@ -1,0 +1,25 @@
+
+From:    Malcolm Levitan
+Sent:    Thursday, April 21, 1983 02:51 PM
+To:      Larry Goins
+
+Categories: Supplier Relations
+
+Subject:    Supplier Relations Query
+
+
+Dear Larry,
+
+I'm writing to clarify some supplier relations issues we're experiencing. Our current contract with Western Digital is set to expire soon, and I'd like to initiate a review of our options. Have you had any updates on their pricing for the new QIC-120 drive?
+
+Regarding our internal inventory management system, I've noticed that the CSV import function isn't properly handling null values. I've attached a patch that addresses this issue; would it be possible to integrate it into the next release? (code snippet: `if (csv_row["column_name"] == null) { csv_row["column_name"] = "N/A"; }`)
+
+I'd appreciate any insights you might have on supplier relations best practices. Our current workflow is a bit cumbersome, and I'm eager to streamline our processes.
+
+Best regards,
+Malcolm Levitan
+Programmer
++1 512-555-0182
+Cardiff Electric
+Software Development
+

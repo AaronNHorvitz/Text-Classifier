@@ -1,0 +1,25 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, June 29, 1983 12:42 PM
+To:      Yo-Yo Engberk; Barry Shields; Gordon Clark; Cameron Howe; Joe MacMillan
+
+Categories: Training and Development
+
+Subject:    Training and Development Initiative
+
+Dear colleagues,
+
+EMAIL BODY
+I'd like to propose an initiative aimed at enhancing our skills in areas relevant to our work in the Software Development department. With the increasing complexity of our projects, it's essential we stay up-to-date with the latest technologies and methodologies.
+
+I've been exploring some online courses and tutorials that focus on topics such as object-oriented programming, data structures, and algorithm design. I believe these skills will be particularly useful when working on upcoming projects, such as the ones involving the new IBM PC architecture.
+
+If you're interested in participating or have suggestions for additional training opportunities, please let me know by replying to this email. I'd be happy to share my findings and collaborate on a plan moving forward.
+
+EMAIL SIGNATURE
+Malcolm Levitan
++1 512-555-0182
+Programmer
+Cardiff Electric
+Software Development
+

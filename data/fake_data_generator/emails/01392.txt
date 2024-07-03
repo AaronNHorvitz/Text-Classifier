@@ -1,0 +1,65 @@
+
+From:    Malcolm Levitan
+Sent:    Thursday, February 24, 1983 03:56 PM
+To:      Debbie Malinowski; Yo-Yo Engberk; Joe MacMillan; Malcolm Levitan
+
+Categories:    Internal Announcement
+
+Hi Cameron,
+
+I'm thrilled to see that you're embracing the spirit of standardization in our software development processes. As someone who's always been passionate about coding, I think we can all agree that having a unified approach will not only improve efficiency but also reduce errors.
+
+I completely understand your concerns about camelCase and code reviews, but I truly believe that these guidelines will help us build more robust and maintainable software. And who knows, maybe one day we'll even have a coding style guide that's as iconic as the Dallas Cowboys' blue and white jerseys!
+
+So, while I appreciate your willingness to adapt to change, I encourage you to join me in this effort. Let's work together to make Cardiff Electric's Software Development department the most efficient and effective it can be.
+
+
+
+From:    Cameron Howe
+Sent:    Thursday, February 24, 1983 03:56 PM
+To:      Debbie Malinowski; Yo-Yo Engberk; Joe MacMillan; Malcolm Levitan
+
+Categories:    Internal Announcement
+
+Hi Malcolm,
+
+I have to say, I'm feeling pretty content about this internal announcement. It's not every day that someone tries to impose some semblance of order on our chaotic coding processes. I mean, let's be real, we're a bunch of talented but slightly unhinged software developers working in the wild west of Texas. So, I appreciate your effort to standardize things around here.
+
+That being said, I do have a few bones to pick with your proposal. First off, the naming conventions thing is a bit of a non-starter for me. I mean, who doesn't love a good camelCase every now and then? It's like the coding equivalent of a warm hug on a cold day. And as for code reviews, I'm all for 'em! In fact, I think they're essential to keeping our codebase from turning into a dumpster fire.
+
+So, while I appreciate your efforts to impose some order on our process, I think we need to find a balance between standardization and creativity. After all, we are software developers, not accountants.
+
+Very truly yours,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Software Development
+Cardiff Electric
+
+
+From:    Malcolm Levitan
+Sent:    Thursday, February 24, 1983 03:56 PM
+To:      Debbie Malinowski; Cameron Howe; Yo-Yo Engberk; Joe MacMillan
+
+Categories: Internal Announcement
+
+Subject:    Internal Announcement: New Software Development Standards
+
+
+Dear Debbie, Cameron, Yo-Yo, and Joe,
+
+As we continue to develop and refine our software solutions at Cardiff Electric, I'd like to propose a set of new standards for our Software Development department. In an effort to increase efficiency and reduce errors, I've identified several key areas that can benefit from standardized procedures.
+
+Specifically, I recommend implementing the following:
+
+* Use of consistent naming conventions for variables and functions (e.g., camelCase for JavaScript, underscore_separated for Python)
+* Adoption of a unified coding style guide (e.g., PEP 8 for Python, Google Java Style Guide for Java)
+* Mandatory code reviews for all commits to ensure adherence to these standards
+
+By establishing these guidelines, I believe we can improve the overall quality and maintainability of our software. I'd appreciate any feedback or suggestions you may have on this proposal.
+
+Best regards,
+Malcolm Levitan
+Programmer, Software Development Department
+Cardiff Electric
++1 512-555-0182

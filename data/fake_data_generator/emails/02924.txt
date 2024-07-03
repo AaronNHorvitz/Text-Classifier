@@ -1,0 +1,21 @@
+
+From:    Yo-Yo Engberk
+Sent:    Friday, April 29, 1983 03:14 PM
+To:      Larry Goins
+
+Categories: Technical Support
+
+Subject: 
+
+Bug-Squashing Emergency!
+
+Hi Larry,
+
+I'm writing to confess something mortifying - I think I just created a category of bugs that will haunt me forever: The "Cardiff Electric Can't Quite Catch On" Category . Seriously, I was trying to troubleshoot an issue and ended up creating a new one. Now, I need your expertise to help me squash it before it spreads.
+
+Can you please take a look at the code snippet I'm about to send (it's going to be a doozy)? I promise it won't infect your system with the "Cardiff Electric Can't Quite Catch On" bug (that's just my paranoia talking).
+
+Best,
+Yo-Yo Engberk
+Programmer, Cardiff Electric | Software Development
++1 512-555-0142

@@ -1,0 +1,46 @@
+
+From:    Gordon Clark
+Sent:    Tuesday, May 03, 1983 09:29 AM
+To:      Yo-Yo Engberk; Malcolm Levitan
+
+Categories:    Industry News
+
+Hi Malcolm,
+
+I just got your email about IBM's PC/AT and the rise of x86, and let me tell you, I'm amused. I mean, it's not every day that a company like IBM decides to shake things up with a new architecture. And you're right, this could have far-reaching implications for our work at Cardiff Electric.
+
+But you know what they say - "the best way to get ahead is to stay one step behind." So while I'm all for keeping up with the latest developments in the field, I think we should also be careful not to get too caught up in the hype. After all, we've seen plenty of times when new technologies promise the world but ultimately don't deliver.
+
+That being said, I do think it's worth taking a closer look at what IBM is doing with their PC/AT. Maybe there are some lessons to be learned from their approach. And who knows - maybe we'll even find some inspiration for our own projects at Cardiff Electric.
+
+Very truly yours,
+Gordon Clark
+Chief Engineer
+Cardiff Electric, Engineering
++1 512-555-0198
+
+
+From:    Malcolm Levitan
+Sent:    Tuesday, May 03, 1983 09:29 AM
+To:      Yo-Yo Engberk; Gordon Clark
+
+Categories: Industry News
+
+Subject: Industry News - IBM's PC/AT and the Rise of x86
+
+Dear Yo-Yo,
+Hello Gordon,
+
+I hope this email finds you well. I wanted to share some exciting industry news with you both. As you may know, IBM has recently released their PC/AT line, which marks a significant shift towards the adoption of the x86 architecture. This development has far-reaching implications for our work in software development.
+
+In particular, I've been studying the PC/AT's BIOS and firmware, and I'm impressed by its efficiency and scalability. The use of segmented memory models and the introduction of protected mode are game-changers for software development. I believe these advancements will have a profound impact on our industry as a whole.
+
+As we continue to develop innovative software solutions at Cardiff Electric, I think it's essential to stay ahead of the curve by keeping up with the latest developments in the field. This is especially true when it comes to x86 architecture and its applications.
+
+Best regards,
+Malcolm Levitan
+Programmer
++1 512-555-0182
+Cardiff Electric
+Software Development
+

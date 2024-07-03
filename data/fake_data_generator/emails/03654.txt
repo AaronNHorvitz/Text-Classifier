@@ -1,0 +1,28 @@
+
+From:    Gordon Clark
+Sent:    Monday, May 30, 1983 04:31 PM
+To:      Malcolm Levitan; Debbie Malinowski; Donna Clark; Larry Goins; Barry Shields
+
+Categories: Quality Assurance
+
+Subject:    Quality Assurance - Engineering Department Guidelines
+
+
+Dear All,
+
+I am compelled to reiterate and refine our existing QA protocols, given the recent... incidents. It has become clear that our current methodology is inadequate for ensuring the precision we demand from our products. I will outline a revised set of guidelines below, which I expect all engineers to adhere to.
+
+Effective immediately, all projects will require a comprehensive design review prior to implementation. This review will focus on identifying potential pitfalls and optimizing system efficiency.
+
+Furthermore, I am introducing a new tiered testing protocol, designed to simulate real-world scenarios and minimize the risk of catastrophic failure.
+
+I trust that you will take these changes seriously and collaborate in their implementation.
+
+Sincerely,
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer
+Cardiff Electric
+Engineering
+

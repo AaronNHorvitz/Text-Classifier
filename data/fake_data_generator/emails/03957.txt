@@ -1,0 +1,74 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, June 13, 1983 02:02 PM
+To:      Larry Goins; Malcolm Levitan
+
+Categories:    Internal Announcement
+
+Dear Debbie,
+
+I'm thrilled to see that my internal announcement has sparked some innovation within you. Your enthusiasm is contagious, and I'm excited to dive into the recent changes to the Intel 8086 instruction set.
+
+As we continue to push the boundaries of our operating system's compatibility layer, I agree that updating the x86 emulator and re-running compatibility tests on all supported platforms are crucial steps in ensuring a smooth transition. I've attached the relevant snippets below for your reference:
+
+```assembly
+MOV AX, 0x1234 ; Modified opcode definition
+```
+
+I'm confident that our team's expertise will allow us to tackle this challenge efficiently. If you have any questions or concerns, please don't hesitate to reach out.
+
+Very truly yours,
+Malcolm Levitan
+Programmer, Cardiff Electric Software Development
++1 512-555-0182
+
+
+From:    Debbie Malinowski
+Sent:    Monday, June 13, 1983 02:02 PM
+To:      Larry Goins; Malcolm Levitan
+
+Categories:    Internal Announcement
+
+Hello Malcolm,
+
+I'm thrilled to dive into the recent changes to the Intel 8086 instruction set. Your internal announcement has sparked a sense of innovation within me, and I'm excited to explore how we can leverage this update to improve our codebase.
+
+I've reviewed the modified opcode definition you provided, and it's clear that updating the x86 emulator is a crucial step in ensuring seamless integration with the new processor architecture. I agree that re-running compatibility tests on all supported platforms will also be essential to guarantee a smooth transition.
+
+As Secretary of Cardiff Electric Administration, I'm confident that our team's expertise will indeed allow us to tackle this challenge efficiently. If you have any questions or concerns, please don't hesitate to reach out – I'm more than happy to discuss the specifics further with you and Larry.
+
+Very truly yours,
+Debbie Malinowski
+Secretary, Cardiff Electric Administration
++1 512-555-0133
+
+
+From:    Malcolm Levitan
+Sent:    Monday, June 13, 1983 02:02 PM
+To:      Debbie Malinowski; Larry Goins
+
+Categories: Internal Announcement
+
+Subject:    Internal Announcement
+
+
+Dear Debbie and Larry,
+
+As we continue to push the boundaries of our operating system's compatibility layer, I wanted to bring to your attention a crucial aspect that requires immediate attention. The recent changes to the Intel 8086 instruction set have far-reaching implications for our codebase.
+
+To ensure seamless integration with the new processor architecture, I recommend implementing the following adjustments:
+
+* Update the x86 emulator to reflect the modified opcode definitions
+* Re-run the compatibility tests on all supported platforms
+
+Please find the relevant snippets below for your reference:
+
+
+```assembly
+MOV AX, 0x1234 ; Modified opcode definition
+```
+
+I understand that this may seem overwhelming at first glance; however, I am confident that our team's expertise will allow us to tackle this challenge efficiently.
+
+Should you have any questions or concerns, please do not hesitate to reach out. I am more than happy to discuss the specifics further.
+

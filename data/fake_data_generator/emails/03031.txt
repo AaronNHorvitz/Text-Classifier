@@ -1,0 +1,41 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, May 04, 1983 02:14 PM
+To:      Yo-Yo Engberk; Barry Shields; Malcolm Levitan
+
+Categories:    System Outage
+
+Hi Malcolm,
+
+Thanks for reaching out about the system outage. I'm glad we're taking steps to identify the root cause and prevent similar issues in the future.
+
+I agree that a more rigorous approach to QA is essential, especially given the complexity of our projects. However, I also think it's important to remember that we're all human beings working on these systems, and sometimes mistakes can happen despite our best efforts.
+
+What I'd like to propose is that we use this opportunity to review our testing procedures and see if there are any areas where we can improve. Maybe we can even implement some new tools or processes that will help us catch issues like this one before they become major problems.
+
+Let me know what you think, and I'll start looking into some potential solutions.
+
+
+
+From:    Malcolm Levitan
+Sent:    Wednesday, May 04, 1983 02:14 PM
+To:      Yo-Yo Engberk; Cameron Howe; Barry Shields
+
+Categories: System Outage
+
+Subject:    System Outage
+
+
+Dear Yo-Yo, Cameron, and Barry,
+
+I'm writing to express my frustration regarding the recent system outage. The root cause analysis indicates that the issue was due to an unhandled exception in the database query, specifically a missing 'AND' statement in the WHERE clause (see snippet below).
+
+```
+SELECT * FROM orders
+WHERE order_date > '1983-01-01'
+```
+
+This oversight has resulted in significant downtime and loss of productivity. I've reviewed the logs and identified several instances where this issue could have been caught during testing, had we employed a more rigorous approach to QA.
+
+I understand that we're all working under tight deadlines, but it's imperative that we prioritize quality control to avoid such costly mistakes in the future.
+

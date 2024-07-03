@@ -1,0 +1,25 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, February 09, 1983 01:44 PM
+To:      Yo-Yo Engberk; Barry Shields
+
+Categories: Personal Milestone
+
+Subject:    A Little Milestone
+
+
+Yo-Yo,
+Hi Barry,
+
+I just wanted to drop you a line and say that I hit a major milestone today - my 100th commit to the Cardiff Electric codebase. It feels amazing to have made it this far, and I'm really proud of what we've accomplished as a team.
+
+I know it's not all about the numbers, but for some reason having a tangible goal like this makes me feel more connected to the work. Plus, it gives me an excuse to grab a drink with the team (or at least, in my mind, it does).
+
+Anyway, just wanted to share that with you both. I'm looking forward to seeing what the rest of the year brings.
+
+Cheers,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric
+Software Development
+

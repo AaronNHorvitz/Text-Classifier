@@ -1,0 +1,35 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, January 10, 1983 11:01 AM
+To:      Donna Clark; Joe MacMillan
+
+Categories: Reminder
+
+Subject: Reminder - Category Update
+
+
+Dear Donna and Joe,
+
+I'm writing to remind you both that our category update is approaching its deadline. As discussed previously, we need to finalize the new category schema by the end of the week.
+
+To recap, I've attached the updated code snippet for your reference:
+
+
+```sql
+CREATE TABLE categories (
+  id INT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  description TEXT
+);
+```
+
+Please review and confirm that this meets our requirements. If you have any questions or concerns, don't hesitate to reach out.
+
+Best regards,
+
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+

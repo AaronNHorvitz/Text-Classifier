@@ -1,0 +1,83 @@
+
+From:    Malcolm Levitan
+Sent:    Friday, April 15, 1983 09:51 AM
+To:      Malcolm Levitan
+
+Categories:    Project Update
+
+Dear Joe,
+
+I'm thrilled to hear that my patch file and code snippet have got you thinking, even if it's not exactly what you were expecting. I've been pouring my heart and soul into this project, and it's great to see some enthusiasm - even if it's just frustration.
+
+You're right; the database query optimization is a major win. And while numbers and graphs might not mean much to everyone, they do give us a sense of progress. As for tangible results, I'm happy to provide more information or answer any specific questions you may have. Perhaps we can schedule a meeting to discuss further?
+
+
+
+From:    Malcolm Levitan
+Sent:    Friday, April 15, 1983 09:51 AM
+To:      Malcolm Levitan
+
+Categories:    Project Update
+
+Dear Joe,
+
+I'm not sure what to make of your email. It seems like you're more frustrated than impressed with my patch file and code snippet. To be honest, I'm feeling a bit lonely today and your tone isn't helping.
+
+As for your concerns about tangible results, I understand where you're coming from. But I think we've made some real progress on this project, even if it's not immediately apparent to everyone. The database query optimization has been a major win, and I think our users will appreciate the increased speed.
+
+I'm happy to provide more information or answer any specific questions you may have. Perhaps we can schedule a meeting to discuss further?
+
+
+
+From:    Joe MacMillan
+Sent:    Friday, April 15, 1983 09:51 AM
+To:      Malcolm Levitan
+
+Categories:    Project Update
+
+Hi Malcolm,
+
+I'm not impressed. What's with the patch file? Are you trying to make me work harder than necessary? And what's with the code snippet? You're a programmer, not a bloody cryptologist.
+
+As for your "success" in optimizing database queries, I don't care about average query time reductions. What I care about is whether this project is going to make us any money. So far, all I see are a bunch of numbers and graphs that mean nothing to me.
+
+Look, Malcolm, I'm not asking for much. Just give me something tangible to work with. A plan, some concrete goals. Something that shows you're not just spinning your wheels like everyone else around here.
+
+Very truly yours,
+Joe MacMillan
+Senior Product Manager
+Cardiff Electric
+Product Management
+
+
+From:    Malcolm Levitan
+Sent:    Friday, April 15, 1983 09:51 AM
+To:      Joe MacMillan
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Dear Joe,
+
+I'm writing to provide an update on our project. As per our previous discussions, we've made significant progress in implementing the new user interface. I've attached a patch file that demonstrates the changes we've made. The relevant code snippets are below:
+
+
+```sql
+UPDATE users SET role = 'admin' WHERE username = 'jmacmillan';
+```
+
+This change allows for more granular control over user permissions.
+
+Additionally, I'd like to highlight our success in optimizing the database queries. By using a combination of indexing and caching, we've achieved an average query time reduction of 30%.
+
+Please let me know if you have any questions or concerns.
+
+Best regards,
+Malcolm Levitan
+Programmer
++1 512-555-0182
+Cardiff Electric
+Software Development
+

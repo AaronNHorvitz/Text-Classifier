@@ -1,0 +1,23 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, July 14, 1983 01:55 PM
+To:      Ed Burris
+
+Categories: System Outage
+
+Subject: System Outage: Help Me, Ed!
+
+Dear Ed,
+
+I'm writing to you from the trenches of system outage hell. Our lovely Cardiff Electric mainframe has gone down, and I'm left holding the digital bag. Or should I say, the 8-track tape?
+
+In all seriousness, we need your expertise ASAP to identify the root cause and get our systems back online. Time is of the essence (or at least my sanity). Any insights you can share would be greatly appreciated.
+
+I've got a hunch it might have something to do with that pesky COMPAQ 386 upgrade... but I'm no expert (yet).
+
+Signing off from the darkness,
+Yo-Yo Engberk
+Programmer
++1 512-555-0142
+Cardiff Electric, Software Development
+

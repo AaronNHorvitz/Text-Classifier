@@ -1,0 +1,25 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, July 20, 1983 11:08 AM
+To:      Yo-Yo Engberk; Debbie Malinowski; Larry Goins; Ed Burris; Malcolm Levitan; Joe MacMillan; Gordon Clark; Barry Shields; Donna Clark; John Bosworth
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Frustrations
+
+
+
+Hello Everyone,
+
+I'm writing to express my growing frustration with our QA process. It feels like we're stuck in a loop of manual testing and bug reports, without any real progress towards improving our software quality. I've seen some innovative approaches being used elsewhere, but we seem to be stuck in the dark ages.
+
+As the lead developer on this team, I think it's time for us to rethink how we approach QA. We're not just building a product - we're building a reputation. And right now, that reputation is suffering because of our outdated testing methods.
+
+I'd love to hear your thoughts on this and discuss potential solutions. Maybe we can even schedule a meeting to brainstorm some ideas.
+
+Best,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric
+Software Development Department
+

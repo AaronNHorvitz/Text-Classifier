@@ -1,0 +1,20 @@
+
+From:    Larry Goins
+Sent:    Tuesday, May 03, 1983 11:59 AM
+To:      Barry Shields
+
+Categories: Apology
+
+Subject: 
+
+Sorry to be reaching out to you directly, Barry. I'm usually good at getting things fixed remotely, but in this case, I want to make sure you're aware of what happened.
+
+I was working on your machine yesterday and accidentally wiped the wrong directory, causing some important files to get deleted. I know how frustrating that must be for you, and I apologize deeply for my mistake.
+
+To rectify the situation, I've gone ahead and restored the most recent backup we had on file. It's not ideal, but it should get your work back in order. If you notice anything is missing or out of place, please let me know and I'll do my best to track down the issue.
+
+Please don't hesitate to reach out if you have any questions or concerns.
+
+Best regards,
+Larry Goins
+Support Technician | Cardiff Electric | Technical Support | +1 512-555-0144

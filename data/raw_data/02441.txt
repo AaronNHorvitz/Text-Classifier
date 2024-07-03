@@ -1,0 +1,47 @@
+
+From:    John Bosworth
+Sent:    Monday, April 11, 1983 09:14 AM
+To:      Larry Goins; Barry Shields; Malcolm Levitan; Gordon Clark
+
+Categories:    Quality Assurance
+
+Hi Gordon,
+
+I love seeing some structure and process around quality assurance. It's about time we got our ducks in a row, don't you think? I mean, I've seen some... interesting things come out of this place when we didn't have QA nailed down.
+
+In all seriousness, I appreciate the detailed notes you included on testing protocols, code reviews, and testing iterations. That sounds like a solid foundation for ensuring our products meet the standards we're aiming for. The 95% pass rate goal is also a great target to strive for.
+
+I do have one question: how will we be handling issues that arise during testing? Will we have a dedicated QA team or will it be more of a shared responsibility among developers and engineers?
+
+
+
+From:    Gordon Clark
+Sent:    Monday, April 11, 1983 09:14 AM
+To:      John Bosworth; Larry Goins; Barry Shields; Malcolm Levitan
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Parameters for New Projects
+
+
+Dear John, Larry, Barry, and Malcolm,
+
+I'm writing to outline the parameters we'll be using for quality assurance in our new projects. As you know, I've been tasked with implementing a more rigorous QA process, and I want to make sure everyone is on the same page.
+
+In brief, we'll be focusing on testing for reliability, scalability, and user-friendliness. We'll also be implementing regular code reviews and testing iterations to ensure our products meet these standards. I've included some detailed notes below:
+
+
+* Testing protocols will include regression tests, load tests, and UI tests.
+* Code reviews will occur weekly, with a focus on maintainability, readability, and modularity.
+* We'll aim for a 95% pass rate for all tests before considering a product ready for release.
+
+Please let me know if you have any questions or concerns. I'd like to schedule a meeting soon to discuss this further.
+
+
+Best regards,
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Engineering Department
+Cardiff Electric
+
+

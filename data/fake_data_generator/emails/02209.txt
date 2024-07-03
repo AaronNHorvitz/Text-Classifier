@@ -1,0 +1,21 @@
+
+From:    Yo-Yo Engberk
+Sent:    Monday, April 04, 1983 09:33 AM
+To:      Joe MacMillan; Gordon Clark
+
+Categories: Personal Milestone
+
+Subject: 
+
+New Horizons Ahead!
+
+Hi Joe and Gordon,
+
+EMAIL BODY
+I'm writing to share some exciting news - I just hit a major milestone in my personal coding project! It's a 3D Tetris clone, and I've finally cracked the algorithm for that pesky Z-shaped piece. I know, I know, it's not rocket science, but hey, it's a start!
+
+The real challenge now is figuring out how to monetize this beauty. Do you guys have any insights on the whole "making money off of making games" thing? Should I go the crowdfunding route or try to sell it to some indie game dev?
+
+EMAIL BODY
+Let me know what you think, and we can grab a virtual beer (or two) to celebrate my newfound coding prowess.
+

@@ -1,0 +1,21 @@
+
+From:    Gordon Clark
+Sent:    Tuesday, February 08, 1983 04:14 PM
+To:      Yo-Yo Engberk; John Bosworth; Barry Shields; Donna Clark; Malcolm Levitan; Debbie Malinowski; Cameron Howe
+
+Categories: Quality Assurance
+
+Subject:    Quality Assurance Guidelines
+
+
+Dear Colleagues,
+
+I've been pondering the QA process we're using in Engineering and I think there's room for improvement. Specifically, I'd like to propose a more rigorous testing regimen for our new products. This would involve implementing a series of standardized tests to ensure that each product meets the required specifications before it leaves the factory floor.
+
+In my mind's eye, I see a future where Cardiff Electric is synonymous with precision and reliability. It's not just about churning out widgets; it's about creating something that will withstand the test of time.
+
+Best,
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Engineering, Cardiff Electric
+

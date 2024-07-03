@@ -1,0 +1,40 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, July 13, 1983 02:08 PM
+To:      Cameron Howe; Joe MacMillan; John Bosworth; Larry Goins
+
+Categories: Compliance
+
+Subject: Compliance Review and Risk Assessment
+
+
+Dear Joe,
+
+I'm writing to request your immediate attention to a critical compliance matter. Our recent audit has revealed several gaps in our software development processes, which pose significant risks to Cardiff Electric's reputation and financial stability.
+
+Specifically, I've identified three key areas that require immediate attention:
+
+1. Inconsistent logging practices throughout the codebase (see snippet below):
+
+```java
+if(logLevel == LogLevel.INFO) {
+    System.out.println("INFO: " + message);
+} else if(logLevel == LogLevel.ERROR) {
+    System.out.println("ERROR: " + message);
+}
+```
+
+2. Lack of documentation for high-risk modules, specifically the ones utilizing external dependencies.
+
+3. Inadequate testing procedures for new feature rollouts, which may lead to unexpected errors and downtime.
+
+I've attached a detailed report outlining these findings and proposed remediation strategies. I would appreciate your prompt review and feedback on how we can work together to address these issues.
+
+Please let me know if you have any questions or concerns.
+
+Best regards,
+
+Malcolm Levitan
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0182

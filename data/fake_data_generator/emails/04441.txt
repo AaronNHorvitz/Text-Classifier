@@ -1,0 +1,18 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, June 30, 1983 03:04 PM
+To:      Debbie Malinowski
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Dear Debbie,
+
+I'm not sure what's more surprising - that we're actually making progress on this project or that I didn't trip over my own feet in the office again. Either way, I think we're due for an update.
+
+The good news is that I've managed to squish a few more bugs than expected, and our database is looking more robust by the day. The not-so-good news is that I'm starting to feel like I'm stuck in a never-ending loop of refactoring. Any advice on how to break free would be appreciated.
+
+Looking forward to discussing this further with you.
+

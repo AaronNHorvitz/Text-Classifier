@@ -1,0 +1,24 @@
+
+From:    Gordon Clark
+Sent:    Tuesday, February 22, 1983 09:13 AM
+To:      Larry Goins; Yo-Yo Engberk; Malcolm Levitan; Donna Clark
+
+Categories: Industry News
+
+Subject: Industry News: IBM's PCjr and Apple IIgs
+
+
+Dear Larry, Yo-Yo, Malcolm, Donna,
+
+I'm writing to bring attention to a few key developments in the industry that bear consideration for our own projects. As you're aware, IBM has released their PCjr, which is generating significant buzz in the market. While it's not necessarily a game-changer, it's clear they're serious about targeting the mass market.
+
+On the other hand, Apple's recent announcement of the IIgs has raised some intriguing questions about their approach to GUIs and compatibility with older systems. I think we should keep an eye on this space as it may offer opportunities for us to innovate.
+
+To be frank, I'm feeling a bit overwhelmed by the sheer volume of information out there right now, but I believe these points are worth noting. If anyone has any thoughts or insights, please share them with me.
+
+Sincerely,
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Cardiff Electric
+Engineering Department
+

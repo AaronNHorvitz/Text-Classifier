@@ -1,0 +1,16 @@
+
+From:    Cameron Howe
+Sent:    Sunday, April 03, 1983 03:30 PM
+To:      Gordon Clark
+
+Categories: Personal Milestone
+
+Subject: 
+
+One Less Hack To Go
+
+
+Dear Gordon,
+
+You're gonna love this. I just spent the last hour debugging some code and all I got was a bunch of useless errors and a headache. The perfect storm of stupid, right? It's like Cardiff Electric's entire infrastructure is one giant hack waiting to implode.
+

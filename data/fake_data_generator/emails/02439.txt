@@ -1,0 +1,149 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, April 11, 1983 10:16 AM
+To:      Malcolm Levitan
+
+Categories:    Apology
+
+Dear Debbie,
+
+I'm still fuming about that mistake in our database schema. You're telling me it was just a misplaced comma? Please. You know as well as I do that Cardiff Electric doesn't tolerate mistakes like that. And now you're asking me to apologize for the inconvenience?
+
+Let's get one thing straight, Debbie: I didn't make that mistake. I'm the one who had to fix it. So don't expect me to be all smiles and rainbows about this. It's an apology, not a participation trophy.
+
+And another thing - what's with your "oh boy, I'm mortified" nonsense? You should be ashamed of yourself for letting something like that slip through the cracks. I mean, come on. This is Cardiff Electric we're talking about here. We can't afford to have our reputation tarnished by some rookie mistake.
+
+So no, Debbie, I won't be apologizing for any inconvenience this may have caused. In fact, I think it's high time someone took responsibility around here. And that someone is you.
+
+Very truly yours,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182
+
+
+From:    Malcolm Levitan
+Sent:    Monday, April 11, 1983 10:16 AM
+To:      Malcolm Levitan
+
+Categories:    Apology
+
+Dear Debbie,
+
+I'm still fuming about that mistake in our database schema. You're telling me it was just a misplaced comma? Please. You know as well as I do that Cardiff Electric doesn't tolerate mistakes like that. And now you're asking me to apologize for the inconvenience?
+
+Let's get one thing straight, Debbie: I didn't make that mistake. I'm the one who had to fix it. So don't expect me to be all smiles and rainbows about this. It's an apology, not a participation trophy.
+
+And another thing - what's with your "oh boy, I'm mortified" nonsense? You should be ashamed of yourself for letting something like that slip through the cracks. I mean, come on. This is Cardiff Electric we're talking about here. We can't afford to have our reputation tarnished by some rookie mistake.
+
+So no, Debbie, I won't be apologizing for any inconvenience this may have caused. In fact, I think it's high time someone took responsibility around here. And that someone is you.
+
+Very truly yours,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182
+
+
+From:    Malcolm Levitan
+Sent:    Monday, April 11, 1983 10:16 AM
+To:      Malcolm Levitan
+
+Categories:    Apology
+
+Dear Debbie,
+
+I have to admit, I'm still trying to wrap my head around how such a simple mistake could cause so many problems. But I suppose that's what makes software development so fascinating - the unexpected twists and turns.
+
+In any case, I think we've established that I didn't make the mistake (although I did have to fix it). And while I appreciate your offer to apologize for the inconvenience, I don't think an apology is necessary. What's important is that we learned from this experience and move forward in a way that ensures something like this doesn't happen again.
+
+So let's just agree to put this behind us and focus on moving forward. After all, as they say, "when life gives you lemons, make lemonade." In our case, when life gives you a misplaced comma, use it as an opportunity to learn and grow.
+
+Very truly yours,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182
+
+
+From:    Malcolm Levitan
+Sent:    Monday, April 11, 1983 10:16 AM
+To:      Malcolm Levitan
+
+Categories:    Apology
+
+Hi Debbie,
+
+I'm still fuming about that mistake in our database schema. You're telling me it was just a misplaced comma? Please. You know as well as I do that Cardiff Electric doesn't tolerate mistakes like that. And now you're asking me to apologize for the inconvenience?
+
+Let's get one thing straight, Debbie: I didn't make that mistake. I'm the one who had to fix it. So don't expect me to be all smiles and rainbows about this. It's an apology, not a participation trophy.
+
+And another thing - what's with your "oh boy, I'm mortified" nonsense? You should be ashamed of yourself for letting something like that slip through the cracks. I mean, come on. This is Cardiff Electric we're talking about here. We can't afford to have our reputation tarnished by some rookie mistake.
+
+So no, Debbie, I won't be apologizing for any inconvenience this may have caused. In fact, I think it's high time someone took responsibility around here. And that someone is you.
+
+Very truly yours,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182
+
+
+From:    Malcolm Levitan
+Sent:    Monday, April 11, 1983 10:16 AM
+To:      Malcolm Levitan
+
+Categories:    Apology
+
+Dear Debbie,
+
+You're telling me. I'm still trying to wrap my head around how something as simple as a misplaced comma could cause such chaos in our database schema. And now you're saying I should just be happy that no one got hurt? Ha! You have no idea what's going through my mind right now.
+
+I mean, don't get me wrong, I appreciate your attempt to lighten the mood. But let's be real, this is serious business. Our entire project could have been compromised if we hadn't caught that error. And you know as well as I do that Cardiff Electric doesn't tolerate mistakes like that.
+
+So no, Debbie, I won't be apologizing for any inconvenience this may have caused. In fact, I think it's high time someone took responsibility around here. You're the one who was supposed to be overseeing this project, after all.
+
+Very truly yours,
+
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182
+
+
+From:    Debbie Malinowski
+Sent:    Monday, April 11, 1983 10:16 AM
+To:      Malcolm Levitan
+
+Categories:    Apology
+
+Dear Malcolm,
+
+Oh boy, I'm mortified. I had no idea about any inconsistency in our database schema. I mean, I know I didn't exactly excel in computer science, but I figured someone else would catch that mistake before it caused any real trouble. And now you're apologizing for the inconvenience? Please, don't be sorry. It's not like anyone got hurt... or did they?
+
+The corrected code snippet looks fine to me, by the way. I'll make sure to remember that misplaced comma can cause all sorts of problems.
+
+
+
+From:    Malcolm Levitan
+Sent:    Monday, April 11, 1983 10:16 AM
+To:      Debbie Malinowski
+
+Categories: Apology
+
+Subject: 
+
+A careful analysis of our previous discussions has revealed an inconsistency in our database schema. I apologize for any inconvenience this may have caused.
+
+Dear Debbie,
+
+I've re-run the query and can confirm that the issue lies with the misplaced comma in the WHERE clause. A simple correction resolves the problem.
+
+Please find the corrected code snippet below:
+
+```sql
+SELECT *
+FROM orders
+WHERE customer_id = 123, order_date > '1982-12-31'
+```
+
+To: Debbie Malinowski
+
+From: Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182

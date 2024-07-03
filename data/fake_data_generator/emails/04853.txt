@@ -1,0 +1,18 @@
+
+From:    Gordon Clark
+Sent:    Wednesday, July 20, 1983 04:03 PM
+To:      Yo-Yo Engberk; Larry Goins; Cameron Howe; Barry Shields; Malcolm Levitan; Joe MacMillan; Donna Clark; Debbie Malinowski; Ed Burris; John Bosworth
+
+Categories: Technical Support
+
+Subject:    Technical Support Request - 8080 System Configuration
+
+Dear Team,
+
+EMAIL START
+
+
+I've been experimenting with the new 8080 architecture and I'm experiencing some inconsistencies in system configuration. Specifically, I've noticed that the CPU utilization spikes when running certain code sequences. I believe it may be related to a misaligned memory mapping.
+
+I've tried reconfiguring the bus timing and adjusting the cache settings, but the issue persists. I'd like to discuss this further with the team to identify possible solutions.
+

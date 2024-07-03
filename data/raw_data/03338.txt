@@ -1,0 +1,63 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, May 16, 1983 12:05 PM
+To:      Malcolm Levitan
+
+Categories:    Industry News
+
+Hi Barry,
+
+I'm glad to hear from you. It sounds like you're feeling a bit left out of the whole "getting married, having kids, and buying houses" thing. Don't worry, my friend - I'm right there with you. As for IBM's OS/2 announcement, I think we've got some work to do before we can truly wrap our heads around it.
+
+Your thoughts on preemptive multitasking are spot on, by the way. It does seem like a promising approach, especially when combined with improved system performance. The code snippet you shared looks like a good starting point for exploring this concept further.
+
+I'd love to grab coffee and discuss IBM's OS/2 announcement in person - maybe we can even get some of our other colleagues involved. Who knows, it might just be the catalyst we need to drive innovation at Cardiff Electric.
+
+
+
+From:    Barry Shields
+Sent:    Monday, May 16, 1983 12:05 PM
+To:      Malcolm Levitan
+
+Categories:    Industry News
+
+Dear Malcolm,
+
+I'm feeling pretty lonely right now. It's like everyone around me is getting married, having kids, and buying houses. Meanwhile, I'm just over here trying to keep my sanity intact.
+
+On a more industry-related note, your thoughts on IBM's OS/2 announcement are interesting. Preemptive multitasking does sound promising, especially with the emphasis on improving system performance. The code snippet you provided looks like a good starting point for exploring this concept further.
+
+As I'm still trying to wrap my head around the implications of this announcement, I'd love to hear more about your observations and insights. Maybe we can grab coffee or something and discuss it in person?
+
+
+
+From:    Malcolm Levitan
+Sent:    Monday, May 16, 1983 12:05 PM
+To:      Barry Shields
+
+Categories: Industry News
+
+Subject:    Industry News: IBM's OS/2 Announcement
+
+Dear Barry,
+
+I'm writing to share some thoughts on IBM's recent announcement regarding their OS/2 operating system. As you know, we're always keeping an eye out for industry developments that might impact our work at Cardiff Electric.
+
+Specifically, I wanted to highlight the emphasis they've placed on preemptive multitasking - it's an approach we've been exploring in-house, and I think it has potential for improving overall system performance. The code snippet below demonstrates a basic implementation:
+
+```c
+void schedule_process(struct process *p) {
+    // ... 
+}
+```
+
+I'm still digesting the implications of this announcement, but I thought you might find some value in my observations.
+
+Please let me know if you have any thoughts or insights to share. I'd love to discuss further.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric | Software Development
++1 512-555-0182
+

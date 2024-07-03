@@ -1,0 +1,15 @@
+
+From:    Cameron Howe
+Sent:    Saturday, June 25, 1983 03:46 PM
+To:      Donna Clark; Malcolm Levitan; John Bosworth; Ed Burris; Yo-Yo Engberk
+
+Categories: Project Update
+
+Subject: Project Update
+
+Dear All,
+
+EMAIL START feels like it's been ages since we last checked in. Progress is being made, but let me tell you - it's not without its bumps. We're pushing the limits of what our software can do, and that means some exciting (and frustrating) moments along the way.
+
+I've been working closely with John on getting the new compiler up and running smoothly. Malcolm's been helping us troubleshoot some pesky errors, and Donna's been keeping everything organized (as always). Ed and Yo-Yo have been busy implementing the new UI - it's looking sharp!
+

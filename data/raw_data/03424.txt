@@ -1,0 +1,39 @@
+
+From:    Malcolm Levitan
+Sent:    Thursday, May 19, 1983 12:55 PM
+To:      Cameron Howe; Gordon Clark; Barry Shields
+
+Categories: Supplier Relations
+
+Subject: 
+
+Supplier Relations: Request for Updated Pricing Information
+
+
+Dear Cameron, Gordon, and Barry,
+
+I'm writing to request an update on the pricing information from our current suppliers. As you know, we're working on a new project that requires precise budgeting, and I'd like to ensure we have the most up-to-date figures available.
+
+In reviewing our existing contracts, I noticed discrepancies in the quoted prices for certain components. To confirm, I've re-run the calculations using Python 3.x and the `pandas` library:
+
+```
+import pandas as pd
+
+# sample data
+suppliers = pd.DataFrame({'Supplier': ['ABC Inc.', 'XYZ Corp.'], 
+                           'Price': [1000, 1200]})
+
+print(suppliers)
+```
+
+This discrepancy is causing concerns regarding our project's profitability. I'd appreciate it if you could provide an updated pricing list by the end of the week.
+
+Thank you for your prompt attention to this matter.
+
+
+Best regards,
+Malcolm Levitan
+Programmer
++1 512-555-0182
+Cardiff Electric
+Software Development

@@ -1,0 +1,64 @@
+
+From:    Larry Goins
+Sent:    Wednesday, May 04, 1983 09:12 AM
+To:      Barry Shields; Ed Burris; Joe MacMillan; Malcolm Levitan
+
+Categories:    Wellness Check
+
+Hi Gordon,
+
+I'm with Malcolm on this one. It seems like we're stuck in some kind of loop where we're just going around in circles, pointing fingers and blaming each other. That's not how we work at Cardiff Electric. We're a team, man! We support each other, we help each other out.
+
+Now, I'm not saying that Malcolm didn't have a right to be frustrated. He did invest a lot of time and effort into refining our codebase, and it's natural that he'd feel let down when things don't work out. But the way he went about it - that was just unnecessary drama.
+
+We need to take a step back, take some deep breaths, and remember what we're all here for: to make Cardiff Electric the best it can be. We're not going to get there by fighting each other.
+
+Very truly yours,
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric
+Technical Support
+
+
+From:    Gordon Clark
+Sent:    Wednesday, May 04, 1983 09:12 AM
+To:      Barry Shields; Larry Goins; Ed Burris; Joe MacMillan; Malcolm Levitan
+
+Categories:    Wellness Check
+
+Dear Malcolm,
+
+What is wrong with people around here? You're telling me that our debugging tools are broken and wasting everyone's time? That's rich. You're one to talk, considering you're the one who convinced me to use this faulty parser in the first place.
+
+And now you're blaming us for not double-checking our code? Are you kidding me? I've got better things to do than babysit your mistakes. If you can't even be bothered to test your own code before pushing it out, then maybe you shouldn't be programming at all.
+
+As Chief Engineer, I expect more from my team. I expect us to work together and support each other, not point fingers and blame each other for our failures. So here's the deal: if you can't handle the heat, then get out of the kitchen.
+
+
+
+From:    Malcolm Levitan
+Sent:    Wednesday, May 04, 1983 09:12 AM
+To:      Barry Shields; Gordon Clark; Larry Goins; Ed Burris; Joe MacMillan
+
+Categories: Wellness Check
+
+Subject:     Wellness Check
+
+
+Dear Colleagues,
+
+I'm writing to express my frustration regarding the recent wellness check conducted by our team. As you know, I've invested significant time and effort into refining our codebase, only to find that the latest changes have introduced a slew of undiagnosed issues. Specifically, I've identified three instances where our debugging tools are incorrectly reporting syntax errors due to a faulty parser.
+
+Here is an example: `try { } catch (e) { console.log(e); }` consistently throws a "SyntaxError: Unexpected token" when the actual problem lies with an unhandled Promise rejection downstream. This has wasted hours of my time and, I'm sure, others'.
+
+I implore you all to double-check your code before submitting it for review. A thorough examination will save us from these unnecessary headaches. If you're unsure about a particular section or have concerns about the integrity of our codebase, please don't hesitate to reach out.
+
+I hope this email serves as a wake-up call; I'm not willing to tolerate such inefficiencies any longer.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric - Software Development
++1 512-555-0182
+

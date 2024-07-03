@@ -1,0 +1,54 @@
+
+From:    Debbie Malinowski
+Sent:    Friday, March 25, 1983 01:04 PM
+To:      Malcolm Levitan
+
+Categories:    Quality Assurance
+
+Hi Malcolm,
+
+I love that you're thinking about how to improve our quality assurance process. It's one of those things that can make or break a project, you know? And I'm all for catching errors early on.
+
+Your proposal sounds like a great idea! I'm intrigued by the static analysis tool and how it could help us detect potential bugs. I'd love to take a closer look at the code snippet you provided - maybe we can even try implementing it in our build process.
+
+EMAIL BODY
+I do have one question, though: what kind of impact would this integration have on our overall workflow? Would it slow down the development cycle or make things more streamlined?
+
+I'm excited to hear your thoughts on this. Let me know when you're free to discuss further!
+
+
+
+From:    Malcolm Levitan
+Sent:    Friday, March 25, 1983 01:04 PM
+To:      Debbie Malinowski
+
+Categories: Quality Assurance
+
+Subject:    Quality Assurance Process Improvements
+
+Dear Debbie,
+
+EMAIL BODY
+I am writing to propose some changes to our quality assurance process, as we discussed during our meeting last week. Specifically, I believe we can improve the efficiency of our testing suite by integrating a static analysis tool into the build process.
+
+Here is an example of how this could be achieved in C++:
+```cpp
+#include <iostream>
+
+int main() {
+    // Code snippet demonstrating static analysis
+    if (some_condition) {
+        std::cout << "Warning: potential bug detected!" << std::endl;
+    }
+    return 0;
+}
+```
+This would allow us to catch errors early on in the development cycle, reducing the likelihood of bugs making it into production. I have attached a proposal document outlining the details of this implementation.
+
+EMAIL SIGNATURE
+Malcolm Levitan
++1 512-555-0182
+Programmer
+Cardiff Electric
+Software Development
+

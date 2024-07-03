@@ -1,0 +1,19 @@
+
+From:    Yo-Yo Engberk
+Sent:    Friday, April 08, 1983 03:03 PM
+To:      John Bosworth
+
+Categories: Technical Support
+
+Subject: 
+
+Bug Busters Unite!
+
+Dear John,
+
+I've been obsessing over our latest bug reports and I think we might be onto something. I've been testing a few theories and I'd love to get your take on them. It's like trying to catch a greased pig at the county fair - it's all about the right combination of moves!
+
+The main issue seems to be with our error handling code, but I'm convinced we can "catch" this bug if we work together.
+
+Let me know when you're free and we can schedule a time to discuss further. I've got some ideas cooking in my brainpan...
+

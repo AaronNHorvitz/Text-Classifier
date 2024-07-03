@@ -1,0 +1,46 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, February 21, 1983 09:30 AM
+To:      Joe MacMillan
+
+Categories: Training and Development
+
+Subject:    Training and Development - Software Development Department
+
+
+Dear Joe,
+
+I'm writing to express my frustration regarding the lack of structured training sessions in our department. As you know, we're working on a critical project for Cardiff Electric's most important client. I've been tasked with implementing a new feature that requires a solid understanding of Object-Oriented Programming (OOP) principles and design patterns.
+
+However, without proper guidance or hands-on experience, I'm finding it challenging to develop the necessary skills within the given timeframe. The lack of training opportunities is hindering my ability to deliver high-quality work, which in turn may impact the overall project's success.
+
+I've reviewed the current training materials provided by Cardiff Electric, and while they're helpful, they don't address the specific needs of our department or the project at hand. I'm proposing that we schedule regular training sessions, either in-person or online, to ensure that all team members are adequately equipped to handle the demands of this project.
+
+I've included a simple example of OOP principles in Python below:
+
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def sound(self):
+        print(f"{self.name} makes a {sound()}")
+
+class Dog(Animal):
+    def __init__(self, name):
+        super().__init__(name)
+
+    def sound(self):
+        return "bark"
+
+This example illustrates the concept of inheritance and polymorphism. I believe that exploring these concepts in more depth would significantly benefit our team's understanding of OOP principles.
+
+Please let me know if you're open to discussing this further, and we can schedule a meeting to explore the training options available to us.
+
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development Department
++1 512-555-0182
+

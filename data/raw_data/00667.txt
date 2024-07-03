@@ -1,0 +1,22 @@
+
+From:    Cameron Howe
+Sent:    Tuesday, February 01, 1983 03:03 PM
+To:      Barry Shields; Joe MacMillan; Gordon Clark
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Hi Barry, Joe, and Gordon,
+
+I'm writing to give you a sneak peek into what I've been up to. Let's just say I've been having some fun with code - the kind that makes me want to scream at the top of my lungs. I've managed to squeeze out some impressive performance numbers on our latest prototype. The benchmarks are looking good, but I'm not done yet. I can already think of a few tweaks to make it even better.
+
+I know we're all eager to get this thing out the door, but I don't want us to rush into anything that might compromise our vision. We've come too far to settle for mediocrity now. I propose we schedule another meeting to discuss my findings and brainstorm some ideas together.
+
+
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development

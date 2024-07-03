@@ -1,0 +1,20 @@
+
+From:    Yo-Yo Engberk
+Sent:    Wednesday, February 02, 1983 11:07 AM
+To:      Malcolm Levitan; Larry Goins; Donna Clark; Gordon Clark
+
+Categories: Vacation Notice
+
+Subject: Vacation Notice
+
+
+Hi all,
+
+I'm writing to let you know that I'll be taking a short trip soon. Don't worry, it's not a bug hunt (this time). I promise to return with plenty of new features and no existential crises... unless I find a nice patch of Wi-Fi.
+
+In the meantime, if anything critical comes up while I'm away, please don't hesitate to pinge me (get it? ping-ge?). Seriously though, I'll be back in the saddle soon, ready to tackle those pesky compiler errors and keep our code humming.
+
+Best,
+Yo-Yo Engberk
+Programmer, Cardiff Electric
++1 512-555-0142

@@ -1,0 +1,27 @@
+
+From:    Ed Burris
+Sent:    Tuesday, March 08, 1983 09:12 AM
+To:      Debbie Malinowski; Donna Clark; Yo-Yo Engberk; Barry Shields
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Guidelines and Objectives
+
+
+Hi Debbie, Donna, Yo-Yo, and Barry,
+
+I'm excited to share our Quality Assurance guidelines and objectives with you all. As we move forward with our project, it's essential that we establish a framework for ensuring the quality of our work. Below are the key areas we'll be focusing on:
+
+• Process compliance: We will ensure that all processes are followed correctly and consistently.
+• Testing and validation: We will conduct thorough testing and validation to guarantee the quality of our deliverables.
+• Defect prevention: We will implement measures to prevent defects from occurring in the first place.
+
+To support these efforts, I propose the following objectives:
+
+* Conduct regular audits to ensure compliance with processes and procedures.
+* Establish a reporting system for tracking and addressing defects.
+* Develop training programs for team members on quality-related topics.
+
+I believe that by working together, we can achieve our goals and deliver high-quality results. If you have any questions or concerns, please don't hesitate to reach out.
+
+

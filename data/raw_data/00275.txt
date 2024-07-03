@@ -1,0 +1,24 @@
+
+From:    Yo-Yo Engberk
+Sent:    Monday, January 17, 1983 09:42 AM
+To:      Malcolm Levitan
+
+Categories: Technical Support
+
+Subject: 
+
+ Bug Bites and Tech Troubles
+
+
+Dear Malcolm,
+
+I'm writing from the trenches of Software Development at Cardiff Electric. It's been a wild ride lately, but I think we're finally getting our bearings (or at least, my code isn't actively on fire). I've got a few tech support questions that have been lingering in the back of my mind like a debugged bug.
+
+Would you be able to help me wrangle some answers on the new database schema? It's driving me a little loopy, and I'm starting to think I need a reboot. Maybe we can swap war stories over coffee?
+
+Best,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142

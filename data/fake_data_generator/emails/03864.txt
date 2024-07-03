@@ -1,0 +1,22 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, June 08, 1983 04:35 PM
+To:      Debbie Malinowski; Larry Goins; Barry Shields; Gordon Clark
+
+Categories: Industry News
+
+Subject:    Industry News Update: PC Magazine and IBM PC/AT
+
+
+Dear Debbie, Larry, Barry, and Gordon,
+
+I've been following some interesting developments in the industry lately. In the latest issue of PC Magazine, there's an article discussing the potential impact of IBM's new PC/AT on the market. I've included a snippet from the article below:
+
+"The PC/AT's 16-bit architecture is expected to significantly improve performance and expand the machine's capabilities... This will undoubtedly give Microsoft and other software developers a boost in terms of what they can achieve with their applications."
+
+I think it's worth considering how this might affect our own projects at Cardiff Electric. Perhaps we could discuss potential opportunities or challenges that may arise from this new technology.
+
+Best regards,
+Malcolm Levitan
+Programmer, Software Development, Cardiff Electric
++1 512-555-0182

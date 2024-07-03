@@ -1,0 +1,33 @@
+
+From:    Malcolm Levitan
+Sent:    Saturday, March 05, 1983 03:56 PM
+To:      Debbie Malinowski; Barry Shields; Cameron Howe
+
+Categories: Wellness Check
+
+Subject:    Wellness Check
+
+
+Dear Debbie, Barry, and Cameron,
+
+As we near the completion of our current project, I'd like to perform a wellness check on the codebase. Specifically, I'll be reviewing the following metrics: memory usage, CPU load, and disk space allocation. My findings can be seen in the attached Python script:
+
+```
+import psutil
+memory_usage = psutil.virtual_memory().percent
+
+cpu_load = psutil.cpu_percent()
+
+disk_space_allocation = psutil.disk_usage('/').percent
+
+print(f'Memory Usage: {memory_usage}%')
+print(f'CPU Load: {cpu_load}%')
+print(f'Disk Space Allocation: {disk_space_allocation}%')
+```
+
+Please review the script and let me know if you have any questions or concerns.
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182

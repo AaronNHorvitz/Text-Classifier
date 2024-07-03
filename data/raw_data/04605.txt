@@ -1,0 +1,27 @@
+
+From:    Malcolm Levitan
+Sent:    Friday, July 08, 1983 11:39 AM
+To:      Gordon Clark; Debbie Malinowski; Ed Burris
+
+Categories: Industry News
+
+Subject:    Industry News - IBM's PC/AT Architecture
+
+
+Dear Gordon, Debbie, and Ed,
+
+I'm delighted to share some interesting news from the industry. IBM has just announced their new PC/AT architecture, which promises improved performance and compatibility with existing software. I've taken a look at the specs and noticed that they're utilizing a 6.5 MHz clock speed, which is a significant increase over the original PC's 4.77 MHz.
+
+The new architecture also includes an 80286 processor, which should provide better multitasking capabilities. I've included some key points from IBM's press release below:
+
+"The PC/AT architecture is designed to support high-performance applications and multi-user environments."
+"It features a 16-bit address bus, allowing for up to 64KB of RAM."
+
+I think this development has significant implications for our own projects at Cardiff Electric. I'd love to discuss the potential applications and implications further.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182

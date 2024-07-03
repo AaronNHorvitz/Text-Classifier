@@ -1,0 +1,34 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, June 20, 1983 11:40 AM
+To:      Yo-Yo Engberk
+
+Categories: Research Collaboration
+
+Subject: Research Collaboration
+
+
+Dear Yo-Yo,
+
+I'm writing to explore potential research collaboration opportunities between our teams at Cardiff Electric. As we continue to develop new software solutions, I believe our expertise could complement each other well.
+
+Specifically, I've been reviewing our latest project proposals and noticed some synergies with your team's work on compression algorithms. If we were able to share knowledge and resources, I think we could create something innovative.
+
+For example, in our recent implementation of the Burrows-Wheeler transformation for text compression (see code snippet below), we encountered an issue with efficient memory allocation. Your team's expertise in this area might be beneficial in addressing this challenge.
+
+`code snippet:`
+```python
+def compress_text(text):
+    ...
+    # Allocate memory block
+    mem_block = mmap.mmap(-1, len(text))
+    ...
+```
+
+I'd appreciate any thoughts you may have on this proposal. If you're interested, let's schedule a call to discuss further.
+
+Best regards,
+Malcolm Levitan
+Programmer
++1 512-555-0182
+Cardiff Electric - Software Development

@@ -1,0 +1,21 @@
+
+From:    Yo-Yo Engberk
+Sent:    Friday, March 11, 1983 11:02 AM
+To:      Gordon Clark; Ed Burris; Malcolm Levitan; Debbie Malinowski
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Dear All,
+
+I'm feeling like the cat that ate the canary (or in our case, the code) as we're dealing with a system outage. It's not exactly the kind of bug we want to squash . I know we've been working hard on those new features, but sometimes it takes a little creative problem-solving (and maybe some coffee) to get things back online.
+
+Let me know if you have any ideas or would like to collaborate on finding the solution. I'm hoping it's just a minor hiccup and not a sign of something more sinister lurking in the codebase.
+
+Best,
+Yo-Yo Engberk
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0142

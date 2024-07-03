@@ -1,0 +1,26 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, February 07, 1983 11:40 AM
+To:      Joe MacMillan
+
+Categories: System Outage
+
+Subject: System Outage - Root Cause Analysis
+
+
+Dear Joe,
+
+I've been digging into the recent system outage and I'm excited to report that I think I've identified the root cause. It appears that a faulty buffer allocation in the database layer was causing the crashes. I've attached a code snippet below for reference:
+
+```
+if (buffer_size > MAX_BUFFER_SIZE) {
+  throw new BufferOverflowException();
+}
+```
+
+After applying the fix, all tests have passed and the system has been stable for several hours. I'd be happy to provide more details or walk you through the fix if you're interested.
+
+Best,
+Malcolm Levitan
+Programmer, Software Development, Cardiff Electric
++1 512-555-0182

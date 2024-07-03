@@ -1,0 +1,58 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, June 07, 1983 04:57 PM
+To:      Yo-Yo Engberk; Ed Burris
+
+Categories:    Personal Milestone
+
+Dear Ed,
+
+Thanks for the update. Honestly, it's hard for me to muster up any enthusiasm about our project's progress when my personal life is such a mess. I just got out of a rough breakup and I'm still trying to process everything.
+
+On a more professional note, I appreciate your concerns about system vulnerabilities. We do need to make sure we're secure. I've been thinking a lot about our marketing strategy lately, and I think it's time for us to shift gears. Maybe it's time to stop focusing so much on the tech specs and start talking to the end-users.
+
+I'm not sure what kind of risk assessment you have in mind, but I'd be happy to help with that. Let me know if there's anything specific you'd like me to look at.
+
+Cheers!
+Malcolm Levitan
+Programmer
+Software Development
+Cardiff Electric
++1 512-555-0182
+
+
+From:    Ed Burris
+Sent:    Tuesday, June 07, 1983 04:57 PM
+To:      Yo-Yo Engberk; Malcolm Levitan
+
+Categories: Personal Milestone
+
+Subject: 
+
+Personal Milestone - Critical Path Update
+
+
+Hi Yo-Yo and Malcolm,
+
+As we approach the midpoint of our project timeline, I wanted to take a moment to reflect on our progress. Despite some initial teething issues with the BBS, we're making significant strides in refining our protocol and optimizing our data transfer rates.
+
+Here are the key milestones we've achieved so far:
+
+• Completed beta testing phase
+• Implemented enhanced compression algorithm
+• Successfully tested data encryption protocols
+
+However, I remain concerned about potential vulnerabilities in our system. As you know, the competition is heating up, and we can't afford to let our guard down. I'll be conducting a thorough risk assessment to identify any areas that need further attention.
+
+In the coming weeks, my focus will be on:
+
+• Conducting a comprehensive security audit
+• Implementing additional firewalls and access controls
+• Collaborating with Malcolm to refine our marketing strategy
+
+I look forward to your input and insights as we move forward. Let's keep pushing the boundaries of innovation!
+
+Best regards,
+Ed Burris
+Project Manager, Cardiff Electric - Project Management
++1 512-555-0155

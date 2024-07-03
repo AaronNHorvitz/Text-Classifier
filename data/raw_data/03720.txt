@@ -1,0 +1,73 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, May 31, 1983 10:02 AM
+To:      Malcolm Levitan
+
+Categories:    Personal Milestone
+
+Dear Joe,
+
+You think my little optimization is something to celebrate? Please. It's not like I'm curing cancer or anything. I mean, I'm just trying to make our product not completely terrible. You know what would really be a milestone? If we actually managed to ship on time for once.
+
+And don't even get me started on the code snippet you're so proud of. Oh boy, recursive sorting. That's the kind of thing that'll really make our product stand out in a crowded market. I'm sure everyone will be impressed by my clever use of quicksort and mergesort techniques.
+
+EMAIL BODY
+
+As for what's next, well, I've got a few ideas. How about we try to actually meet our deadlines for once? Or maybe we could focus on making the product less of a laughingstock? That would be a real milestone.
+
+
+
+From:    Joe MacMillan
+Sent:    Tuesday, May 31, 1983 10:02 AM
+To:      Malcolm Levitan
+
+Categories:    Personal Milestone
+
+Hi Malcolm,
+
+Congratulations, my friend! I'm thrilled to hear about your personal milestone. A 30% optimization in performance? That's fantastic news! I can only imagine the sense of satisfaction you must be feeling right now.
+
+As someone who's always pushing for innovation and excellence, I love seeing people like you crush their goals. Your work on the Cardiff Electric project is crucial to our success, and I'm grateful to have you on board.
+
+EMAIL BODY
+Now that we're celebrating your achievement, let's keep the momentum going! What's next on the horizon for you? Are there any new challenges or opportunities you'd like to tackle?
+
+As your colleague and friend, I'm here to support and guide you every step of the way. Let me know how I can help you continue to shine.
+
+EMAIL SALUTATION
+Cheers!
+
+
+
+From:    Malcolm Levitan
+Sent:    Tuesday, May 31, 1983 10:02 AM
+To:      Joe MacMillan
+
+Categories: Personal Milestone
+
+Subject:    
+Personal Milestone
+
+Dear Joe,
+
+EMAIL BODY
+I've reached a personal milestone in my work on the Cardiff Electric project. Specifically, I've successfully implemented a recursive sorting algorithm using a combination of quicksort and mergesort techniques (see attached code snippet below). This achievement has allowed me to optimize our product's performance by approximately 30%.
+
+```
+int sort(int arr[], int low, int high) {
+    if (high <= low) return;
+    int pivot = partition(arr, low, high);
+    sort(arr, low, pivot-1);
+    sort(arr, pivot+1, high);
+}
+```
+
+This accomplishment has given me a sense of satisfaction and motivation to continue improving our product. I'm excited to apply these techniques to future projects.
+
+EMAIL SIGNATURE
+Malcolm Levitan
++1 512-555-0182
+Programmer
+Cardiff Electric
+Software Development
+

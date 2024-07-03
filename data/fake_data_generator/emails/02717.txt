@@ -1,0 +1,71 @@
+
+From:    John Bosworth
+Sent:    Thursday, April 21, 1983 02:13 PM
+To:      Yo-Yo Engberk; Cameron Howe; Larry Goins
+
+Categories:    Technical Support
+
+Dear Donna,
+
+I'm writing to you from my usual spot in the dark, isolated corner of the office. It's not exactly a healthy environment, but it's where I do my best thinking. This crash issue is indeed worrying me, and I appreciate your prompt attention to it.
+
+From what Larry's told me, the steps he provided seem straightforward enough. I've tried them myself, and all I can say is that I'm as stumped as you are. Unusual filenames don't seem to be the culprit, but maybe there's something specific about those machines or users that we're not considering? That's where my mind keeps wandering.
+
+As for virus scans, I'm a bit skeptical myself. If we were dealing with malware, wouldn't it have shown up by now? It's possible that there's some sort of disk issue at play, but I'm not sure what would cause this kind of intermittent crash.
+
+I'll keep poking around and see if anything jumps out at me. In the meantime, any ideas you have or insights you can share would be greatly appreciated. Let's work together to get to the bottom of this.
+
+
+
+From:    Donna Clark
+Sent:    Thursday, April 21, 1983 02:13 PM
+To:      Yo-Yo Engberk; John Bosworth; Cameron Howe; Larry Goins
+
+Categories:    Technical Support
+
+Hi Larry,
+
+I'm worried. This crash issue is affecting our systems and I don't have a clear idea of what's going on yet. Your request for assistance in troubleshooting has me scrambling to gather more information.
+
+From my end, I've checked the disk errors and corruption, and everything seems fine. The software installation and updates are current as well. As for virus scans, we run them regularly, but I'll make sure to do an extra scan on all affected machines just in case.
+
+Your steps to reproduce the error have me stumped. I've tried creating a new file with unusual filenames, but nothing seems to trigger the crash. Maybe it's something specific to those machines or users? Can you tell me more about what kind of files are being created when this happens?
+
+I'd appreciate any additional insight you can share. Let's work together to get to the bottom of this.
+
+Very truly yours,
+Donna Clark
+Director of Operations, Cardiff Electric
+Operations
+
+
+From:    Larry Goins
+Sent:    Thursday, April 21, 1983 02:13 PM
+To:      Donna Clark; Yo-Yo Engberk; John Bosworth; Cameron Howe
+
+Categories: Technical Support
+
+Subject: Technical Support Request
+
+
+Dear Donna Clark, Yo-Yo Engberk, John Bosworth, Cameron Howe,
+
+I've received a report of an issue with our systems and would like to request your assistance in troubleshooting. It appears that the NOS 3.2 software is experiencing intermittent crashes on several machines. I've outlined the steps to reproduce the error below:
+
+1. Launch the NOS 3.2 software
+2. Navigate to the "File" menu and select "New"
+3. Attempt to create a new file with an unusual filename (e.g., containing special characters)
+4. Observe the system's behavior
+
+If you're able to reproduce the error, please let me know. I've also included some troubleshooting steps below:
+
+* Check for any disk errors or corruption
+* Verify that the software is properly installed and updated
+* Run a virus scan on all affected machines
+
+Your prompt assistance would be greatly appreciated in resolving this issue.
+
+Best regards,
+Larry Goins
+Support Technician, Cardiff Electric, Technical Support
++1 512-555-0144

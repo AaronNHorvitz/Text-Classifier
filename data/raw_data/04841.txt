@@ -1,0 +1,36 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, July 20, 1983 09:15 AM
+To:      Joe MacMillan
+
+Categories: Apology
+
+Subject: Apology for Delayed Response
+
+Dear Joe,
+
+I apologize for the delayed response to your inquiry regarding the optimization of our compression algorithm. As you know, our team has been working diligently to meet the project's tight deadlines.
+
+In hindsight, I should have provided a more detailed response earlier. To rectify this, I'd like to outline the key modifications we're implementing to improve the algorithm's performance. Specifically, we'll be applying a combination of bitwise operators (see code snippet below) and exploiting the properties of the Lempel-Ziv-Welch compression scheme.
+
+```c
+int main() {
+    uint16_t data[1024];
+    // ...
+    for (int i = 0; i < 1024; i++) {
+        if ((data[i] & 0x8000) == 0x8000)
+            data[i] = (data[i] >> 1);
+        else
+            data[i] = (data[i] << 1);
+    }
+    return 0;
+}
+```
+
+I'm confident that these enhancements will yield significant improvements in compression ratios. If you have any further questions or concerns, please don't hesitate to reach out.
+
+Sincerely,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182
+

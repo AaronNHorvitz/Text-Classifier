@@ -1,0 +1,25 @@
+
+From:    Larry Goins
+Sent:    Monday, January 24, 1983 03:15 PM
+To:      Ed Burris
+
+Categories: Technical Support
+
+Subject: 
+
+Frustrated Issue Resolution - Technical Support
+
+
+Dear Ed,
+
+I'm writing to follow up on the issue you reported regarding the malfunctioning 5160 PC. I've been dealing with a constant stream of calls and tickets all morning, and I have to say, this one's got my blood pressure up. You'd think it wouldn't be that hard to troubleshoot a simple hardware problem, but apparently, I'm wrong.
+
+To resolve your issue, please try the following steps: 1) disconnect the PC from the power source; 2) unplug any peripherals (keyboard, mouse, etc.) and leave them unplugged for at least 30 seconds; 3) plug everything back in and try booting up again. If this doesn't work, I'll need to escalate it to our team lead.
+
+I apologize if my tone comes across as short, but honestly, Ed, I'm tired of dealing with the same old problems day in and day out. I just want to get to the bottom of this already.
+
+Larry Goins
+Support Technician
+Cardiff Electric - Technical Support
++1 512-555-0144
+

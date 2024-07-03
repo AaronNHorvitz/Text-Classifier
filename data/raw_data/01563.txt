@@ -1,0 +1,25 @@
+
+From:    Cameron Howe
+Sent:    Thursday, March 03, 1983 12:52 PM
+To:      Larry Goins; Malcolm Levitan; Ed Burris
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Hi Larry, Malcolm, Ed,
+
+Okay, okay, I know what you're thinking. "Cameron, why are we getting a project update from you?" Well, let me tell you. It's because I actually did some work on this thing and I don't want to get too far ahead of myself before I have to face the music.
+
+So, here's the deal. We've got 10 days left on this project and I think we can still make it happen. I mean, I know Ed's been saying that the team is way behind schedule, but I'm a glass-half-full kind of person. I think if we put our heads together (and by "our heads" I mean mine) we can pull this off.
+
+That being said, I do need some help. Specifically, I need someone to review my code and make sure it's not going to crash the whole system when we deploy it. If anyone has a spare hour or two, that'd be great.
+
+Let me know what you think.
+
+
+Cameron Howe
+Lead Software Developer
++1 512-555-0147
+Cardiff Electric - Software Development

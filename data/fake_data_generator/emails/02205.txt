@@ -1,0 +1,35 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, April 04, 1983 02:32 PM
+To:      John Bosworth; Gordon Clark; Donna Clark
+
+Categories: Technical Support
+
+Subject:    Technical Support Request - Error Handling in Modulus Function
+
+
+Dear John,
+Hi Gordon,
+Hello Donna,
+
+I am writing to request assistance with an issue I've been experiencing while working on a recent project. Specifically, I'm having trouble debugging an error in my implementation of the modulus function in C++. The code snippet in question is as follows:
+
+
+```c
+int32_t mod(int32_t dividend, int32_t divisor) {
+    if (divisor == 0) {
+        return INT_MAX;
+    }
+    return dividend % divisor;
+}
+```
+
+As you can see, I've implemented a basic error handling mechanism to account for division by zero. However, when I run this function with certain inputs, I receive an unexpected segmentation fault. I've tried stepping through the code in a debugger and reviewing my logic, but I'm at a loss as to why this is occurring.
+
+Could you please review this code and offer any guidance on how to resolve this issue?
+
+Sincerely,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182
+

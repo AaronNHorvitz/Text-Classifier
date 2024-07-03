@@ -1,0 +1,18 @@
+
+From:    Yo-Yo Engberk
+Sent:    Friday, July 08, 1983 01:09 PM
+To:      Ed Burris; Malcolm Levitan
+
+Categories: Apology
+
+Subject:    Apology for the Minor Glitch
+
+
+Hi Ed and Malcolm,
+
+I'm writing to apologize for that tiny hiccup in our code last week. I know, I know - it was just a minor glitch, but I'm a perfectionist, and I want to make sure we're shipping top-notch software. Plus, I don't want to give our competitors any ammo to shoot at us.
+
+On a related note, have you seen the latest issue of Byte magazine? There's an article on AI that has me stoked! We should totally discuss how we can apply some of those concepts to our work here.
+
+Anyway, back to my original point - I'll make sure to double-check my code before pushing it live. Thanks for keeping me on my toes!
+

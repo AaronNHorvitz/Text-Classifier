@@ -1,0 +1,17 @@
+
+From:    Cameron Howe
+Sent:    Thursday, May 26, 1983 09:46 AM
+To:      Yo-Yo Engberk
+
+Categories: Technical Support
+
+Subject: 
+
+Hey Yo-Yo,
+
+I'm writing to you about a minor crisis in the Software Development department. It's not a total system failure or anything, but more of a... let's call it a "nuance" with our technical support.
+
+We've been getting some weird error reports from users on the demo software, and I think it's related to an old bug that I thought I had squashed. Anyway, I need your expertise to help me track down what's going on.
+
+Can we grab a call to discuss? My schedule is pretty open this week.
+

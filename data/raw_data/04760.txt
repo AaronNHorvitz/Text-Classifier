@@ -1,0 +1,58 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, July 14, 1983 01:33 PM
+To:      Gordon Clark; Malcolm Levitan
+
+Categories:    Research Collaboration
+
+Hi Malcolm,
+
+I'm thrilled to hear that your research is bearing fruit! I completely agree with you that combining L1 and L2 caches could be a game-changer. In fact, I've been exploring some ideas on how we can apply this concept to our memory management module.
+
+Let's definitely schedule some time to review the papers together and see if we can come up with some innovative solutions. I'm confident that by working together, we can optimize our module and take it to the next level.
+
+Very truly yours,
+Yo-Yo Engberk
++1 512-555-0142
+Programmer, Cardiff Electric - Software Development
+
+
+From:    Joe MacMillan
+Sent:    Thursday, July 14, 1983 01:33 PM
+To:      Yo-Yo Engberk; Gordon Clark; Malcolm Levitan
+
+Categories:    Research Collaboration
+
+Hi Malcolm,
+
+I'm glad to hear that your research is bearing fruit. The more we can optimize our memory management module, the better equipped we'll be to take on the competition. I agree with you that combining L1 and L2 caches could be a game-changer - it's all about finding ways to reduce latency and increase processing power.
+
+I'd love to discuss this further and explore how we can integrate these ideas into our project. Let's schedule some time to review the papers together and see if we can come up with some innovative solutions.
+
+Very truly yours,
+Joe MacMillan
+Senior Product Manager, Cardiff Electric - Product Management
++1 512-555-0132
+
+
+From:    Malcolm Levitan
+Sent:    Thursday, July 14, 1983 01:33 PM
+To:      Yo-Yo Engberk; Gordon Clark; Joe MacMillan
+
+Categories: Research Collaboration
+
+Subject: Research Collaboration
+
+
+Hello Gordon, Yo-Yo, and Joe,
+
+I'm thrilled to share some promising research findings that have implications for our collaboration. After reviewing the recent papers on PC architecture, I noticed a pattern in the cache hierarchy designs that could greatly enhance our memory management module (see attached code snippet).
+
+In particular, the authors' suggestion of using a combination of L1 and L2 caches to reduce memory latency aligns with our own experiments. This could potentially lead to significant performance improvements.
+
+I'd love to discuss this further and explore how we can integrate these ideas into our project. Your insights would be invaluable in refining our approach.
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric - Software Development
++1 512-555-0182

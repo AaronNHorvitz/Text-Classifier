@@ -1,0 +1,27 @@
+
+From:    Gordon Clark
+Sent:    Thursday, March 24, 1983 01:27 PM
+To:      John Bosworth; Debbie Malinowski; Yo-Yo Engberk; Ed Burris; Malcolm Levitan; Larry Goins; Donna Clark; Joe MacMillan; Barry Shields; Cameron Howe
+
+Categories: Reminder
+
+Subject: 
+
+Reminder: Next Steps on 386 Enhancement
+
+
+Dear All,
+
+I've been pondering the recent discussions regarding the 386 enhancement project, and I wanted to send a reminder about the next steps. As we previously discussed, our goal is to optimize the bus architecture for improved performance. I've attached some preliminary calculations that outline the potential gains.
+
+In my analysis, I believe we can achieve a 15% increase in processing speed by reconfiguring the memory addressing. This could be a game-changer for our product line. However, I'd like to hear your thoughts and concerns before moving forward.
+
+Please review the attached document and let me know if you have any questions or suggestions.
+
+Best regards,
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Cardiff Electric
+Engineering Department
+

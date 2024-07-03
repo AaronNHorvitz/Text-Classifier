@@ -1,0 +1,40 @@
+
+From:    Donna Clark
+Sent:    Monday, April 04, 1983 01:35 PM
+To:      Yo-Yo Engberk
+
+Categories:    Quality Assurance
+
+Hi Yo-Yo,
+
+I'm loving the metaphor about debugging a cat's whiskers - that's exactly what we need to do with our QA process! I've been thinking a lot about how we can streamline and improve our testing strategy, and I'm excited to bounce ideas off you.
+
+In my experience, consistency is key when it comes to QA. We need to make sure we're using the same criteria and standards across all our tests. Maybe we can start by identifying the areas where our test results are inconsistent and then develop a plan to address those specific issues. What do you think?
+
+Let's definitely grab that virtual coffee (or two) and discuss this further. I'm looking forward to it!
+
+Very truly yours,
+
+Donna Clark
++1 512-555-0156
+Director of Operations, Cardiff Electric, Operations
+
+
+
+From:    Yo-Yo Engberk
+Sent:    Monday, April 04, 1983 01:35 PM
+To:      Donna Clark
+
+Categories: Quality Assurance
+
+Subject:    QA Conundrum
+
+Dear Donna,
+
+I'm writing to scratch my head about our QA process. It's like trying to debug a cat's whiskers - it just won't behave! Seriously though, I've been noticing some inconsistencies in our test results and I think we need to revamp our strategy.
+
+Can we grab a virtual coffee (or two) to discuss this further? I'd love to bounce ideas off you and see if we can untangle the QA spaghetti together.
+
+Yo-Yo Engberk
+Programmer, Cardiff Electric, Software Development
++1 512-555-0142

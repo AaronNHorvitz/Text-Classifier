@@ -1,0 +1,25 @@
+
+From:    Malcolm Levitan
+Sent:    Thursday, April 07, 1983 04:46 PM
+To:      John Bosworth; Larry Goins; Donna Clark; Joe MacMillan; Barry Shields; Ed Burris; Yo-Yo Engberk; Gordon Clark
+
+Categories: Vacation Notice
+
+Subject: Vacation Notice
+
+
+Dear John,
+Hi Larry, Donna, Joe, Barry, Ed, Yo-Yo, and Gordon,
+
+I'm writing to inform you that I'll be taking a short vacation from July 15th to July 22nd. During this time, I will not be available for any urgent matters or code reviews. However, if an emergency arises, please don't hesitate to reach out.
+
+To ensure a seamless transition, I've left detailed notes and commented my code with explanations where necessary. If you have any questions or concerns, please don't hesitate to ask. I'm more than happy to help before my departure.
+
+My team will be covering for me during this period. In the unlikely event of an issue, please direct it to Gordon Clark, who has been briefed on my responsibilities.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182

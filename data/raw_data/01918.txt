@@ -1,0 +1,22 @@
+
+From:    Gordon Clark
+Sent:    Sunday, March 20, 1983 03:11 PM
+To:      Debbie Malinowski
+
+Categories: Technical Support
+
+Subject:    Technical Support - Bug Report
+
+Dear Debbie,
+
+I'm writing to report a minor bug I encountered while testing the new BIOS updates. It appears that when running the boot sequence, the system hangs for approximately 30 seconds before proceeding to normal startup.
+
+After digging through the code, I believe it's related to a timing issue with the interrupt handling routine. I've made some preliminary notes on the possible fixes, and I'd like to discuss this further with you.
+
+Please let me know if we can schedule a call to walk through my findings.
+
+Best,
+Gordon Clark
+Chief Engineer
++1 512-555-0198
+Cardiff Electric - Engineering

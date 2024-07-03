@@ -1,0 +1,79 @@
+
+From:    Ed Burris
+Sent:    Friday, April 15, 1983 12:06 PM
+To:      Yo-Yo Engberk; Ed Burris
+
+Categories:    Meeting Request
+
+Dear Donna and Malcolm,
+
+I'm disappointed that we have to go through this meeting rigmarole. Can't we just talk about these things over email or phone like normal people? I don't see why we need to waste time physically going somewhere.
+
+As for your priorities, I think you're both on the right track. Reviewing the project timeline and identifying potential roadblocks is crucial. And of course, discussing the IBM PC emulator - have you made any progress on that?
+
+Let's just get this over with already. I'm looking forward to hearing your ideas and concerns.
+
+
+
+From:    Donna Clark
+Sent:    Friday, April 15, 1983 12:06 PM
+To:      Yo-Yo Engberk; Ed Burris
+
+Categories:    Meeting Request
+
+Dear Ed,
+
+I'm not sure why we need to have an urgent meeting. It seems like a lot of unnecessary drama. Can't we just discuss these things over email or phone? I'm already feeling pretty isolated and don't really want to add to that by having to physically go somewhere.
+
+That being said, if it's really necessary, then fine. Let's at least try to focus on the actual issues rather than beating around the bush. I'd like to review the project timeline and identify potential roadblocks. And of course, we need to discuss the IBM PC emulator - have you made any progress on that?
+
+As for your priorities, let me think about those for a minute...
+
+
+
+From:    Malcolm Levitan
+Sent:    Friday, April 15, 1983 12:06 PM
+To:      Donna Clark; Yo-Yo Engberk; Ed Burris
+
+Categories:    Meeting Request
+
+Hi Ed,
+
+Thanks for reaching out to schedule an urgent meeting. I'm happy to help tackle the remaining challenges on our project. Your priorities make sense, and I've been thinking about some potential roadblocks we should discuss.
+
+Specifically, I think it would be helpful to review the project timeline in more detail, identify any dependencies that are causing delays, and brainstorm some creative solutions for overcoming those obstacles. I'm also curious to hear your thoughts on the IBM PC emulator - have you found a way to get it working smoothly?
+
+Let's work together to move this project forward. I'm looking forward to our meeting and discussing these issues further.
+
+Very truly yours,
+Malcolm Levitan
+Programmer, Software Development, Cardiff Electric
++1 512-555-0182
+
+
+From:    Ed Burris
+Sent:    Friday, April 15, 1983 12:06 PM
+To:      Donna Clark; Malcolm Levitan; Yo-Yo Engberk
+
+Categories: Meeting Request
+
+Subject: Meeting Request
+
+
+Dear Donna, Malcolm, and Yo-Yo,
+
+I'm calling an urgent meeting to discuss the status of our project. We need to align our efforts and tackle the remaining challenges before we can move forward.
+
+Here are my top priorities for this meeting:
+
+• Review the current project timeline and identify potential roadblocks
+• Discuss the recent issues with the IBM PC emulator and propose solutions
+• Finalize the testing plan for the next phase of development
+
+I expect us to come prepared with specific ideas and concerns. Let's work together to move this project forward.
+
+Best,
+Ed Burris
+Project Manager, Project Management Department
+Cardiff Electric
++1 512-555-0155

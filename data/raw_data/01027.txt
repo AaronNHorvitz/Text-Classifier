@@ -1,0 +1,21 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, February 10, 1983 11:50 AM
+To:      Barry Shields; John Bosworth; Larry Goins
+
+Categories: Technical Support
+
+Subject: Technical Support: Frustrations Abound!
+
+Dear Barry, John, and Larry,
+
+ EMAIL BODY
+I'm writing to express my growing frustration with the technical support requests we've been getting lately. It's like trying to debug a bad joke - everyone's laughing, but I'm left feeling like I'm stuck in an infinite loop! 
+
+Seriously though, can we please get some clarity on what kind of issues we're dealing with and prioritize accordingly? I've got better things to do than re-architect the wheel for every minor hiccup.
+
+EMAIL SIGNATURE
+Yo-Yo Engberk
+Programmer, Software Development, Cardiff Electric
++1 512-555-0142
+

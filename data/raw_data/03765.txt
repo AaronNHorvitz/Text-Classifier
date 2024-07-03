@@ -1,0 +1,23 @@
+
+From:    Cameron Howe
+Sent:    Monday, June 06, 1983 12:15 PM
+To:      John Bosworth; Joe MacMillan; Debbie Malinowski; Ed Burris
+
+Categories: Quality Assurance
+
+Subject: Rebooting QA
+
+Dear All,
+
+I'm writing to talk about Quality Assurance. I know, I know - it sounds like a snooze-fest, but hear me out. We've been stuck in this same ol' routine for too long. It's time to shake things up and bring some innovation to the table.
+
+Let's not just test the code, let's make it better. What if we designed our QA process around what we want to achieve, rather than just checking boxes? I know Joe's been pushing us to be more...let's say, "ambitious" with our projects. Well, this is my way of saying, "Game on!"
+
+Let's get together and brainstorm some new ideas for QA. Who knows, maybe we'll come up with something that'll make the whole company take notice.
+
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development
+

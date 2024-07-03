@@ -1,0 +1,26 @@
+
+From:    Larry Goins
+Sent:    Wednesday, May 18, 1983 09:44 AM
+To:      Malcolm Levitan
+
+Categories: Technical Support
+
+Subject: Resolving Compatibility Issues with 5160 PC
+
+
+Hi Malcolm,
+
+I hope this email finds you well. I'm Larry Goins from Cardiff Electric's Technical Support team, and I'm happy to assist you in resolving any technical issues you're experiencing.
+
+I understand that you've been having trouble getting your 5160 PC to recognize the new disk drive you installed. Don't worry, it's a common issue! After reviewing the system logs, I suspect that the problem might be due to a compatibility mismatch between the PC's BIOS and the disk drive's firmware. To troubleshoot this further, could you please try updating your PC's BIOS to the latest version? You can do this by inserting the BIOS update floppy disk and following the prompts.
+
+Additionally, make sure that the disk drive is properly configured in the system settings. If you're still experiencing issues after these steps, I'd be happy to guide you through some more advanced troubleshooting techniques or provide further assistance from our technical team.
+
+Please let me know if this helps resolve the issue. I'm here to support you every step of the way!
+
+Best regards,
+Larry Goins
+Support Technician
+Cardiff Electric
+Technical Support
++1 512-555-0144

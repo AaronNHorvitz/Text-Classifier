@@ -1,0 +1,23 @@
+
+From:    Cameron Howe
+Sent:    Thursday, January 13, 1983 12:55 PM
+To:      Joe MacMillan; John Bosworth; Gordon Clark; Ed Burris; Debbie Malinowski; Malcolm Levitan; Barry Shields; Donna Clark; Yo-Yo Engberk; Larry Goins
+
+Categories: System Outage
+
+Subject: System Outage
+
+Dear All,
+
+System outage yesterday was a wake-up call. We were down for hours, and it's unacceptable that we're still not catching these kinds of errors. It's like we're driving blindfolded through a minefield.
+
+I'm proposing we implement some serious stress testing on our systems to identify the root causes of these outages. I've started looking into some potential solutions and would love to hear your thoughts.
+
+Let's get this fixed before it kills us all (or at least our careers).
+
+Best,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric
+Software Development
+

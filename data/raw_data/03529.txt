@@ -1,0 +1,44 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, May 24, 1983 01:48 PM
+To:      Donna Clark; Larry Goins; Yo-Yo Engberk; John Bosworth; Debbie Malinowski
+
+Categories: Supplier Relations
+
+Subject: Supplier Relations: IBM PC/AT Compatibility Issue
+
+
+Dear Donna Clark,
+Hello Larry Goins,
+Yo-Yo Engberk,
+John Bosworth,
+Debbie Malinowski,
+
+I'm writing to bring to your attention a minor compatibility issue with our supplier's IBM PC/AT implementation. As you know, we're relying on their hardware for our development environment. The problem arises when attempting to execute certain system calls using the BIOS interrupts. Specifically, the `AH=0x01` interrupt is causing issues with memory allocation.
+
+I've identified the problematic code snippet:
+
+```assembly
+ mov bx, 0x0001
+ int 0x16
+```
+
+By modifying the instruction sequence to:
+
+```assembly
+ push cs
+ pop si
+ mov bx, 0x0001
+ int 0x16
+```
+
+we can successfully allocate memory. I've tested this modification on a PC/AT emulator and it resolves the issue.
+
+Please let me know if you have any questions or concerns regarding this matter. If necessary, we can schedule a meeting to discuss further.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182

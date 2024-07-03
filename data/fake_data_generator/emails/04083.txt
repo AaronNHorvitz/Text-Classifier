@@ -1,0 +1,22 @@
+
+From:    Cameron Howe
+Sent:    Thursday, June 16, 1983 01:17 PM
+To:      Larry Goins
+
+Categories: Technical Support
+
+Subject: 
+
+Dear Larry,
+
+I'm writing to you from the trenches of Technical Support. The never-ending battle against bugs and frustrated users has got me feeling like a prisoner in my own code.
+
+The new build is giving us fits - I've been staring at these error messages for hours, trying to exorcise the demons that are causing our app to crash. It's like trying to tame a wild animal. I've tried everything from rebooting the server to performing ancient rituals under the desk lamp. Nothing seems to work.
+
+I'm starting to lose my grip on reality (or at least my sense of humor). Can we please, for the love of all things good and holy, get someone else in here to help me wrangle this beast?
+
+Best,
+Cameron Howe
+Lead Software Developer
+Cardiff Electric
++1 512-555-0147

@@ -1,0 +1,36 @@
+
+From:    Joe MacMillan
+Sent:    Thursday, March 10, 1983 04:44 PM
+To:      Yo-Yo Engberk
+
+Categories:    Apology
+
+Hi Yo-Yo,
+
+I'm glad to hear that you're feeling contrite. I was starting to think we'd lost you to the abyss of coding chaos. Don't worry, these things happen - especially when you're trying to outsmart the code as much as I am.
+
+As for your suggestion to take a step back and reassess our project's scope and feasibility... (sigh) You know me well enough to know that I'm not one to shy away from a challenge. But I also recognize that sometimes it's necessary to retreat, recharge, and refocus before charging forward again. So, yes - let's grab some coffee and hash things out.
+
+Very truly yours,
+
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, March 10, 1983 04:44 PM
+To:      Joe MacMillan
+
+Categories: Apology
+
+Subject:     Oops, My Bad!
+
+Hello Joe,
+
+I'm writing to apologize for the chaos I unleashed upon our codebase yesterday. Let's just say my creative problem-solving skills got a bit...unhinged. I promise not to let the cat out of the bag (or in this case, the algorithm) again.
+
+On a more serious note, I've been thinking a lot about our project's scope and feasibility. I think we're getting ahead of ourselves, and it might be wise to take a step back and reassess. What do you say? Want to grab some coffee and hash things out?
+
+Best,
+Yo-Yo Engberk
+Programmer
++1 512-555-0142
+Cardiff Electric | Software Development
+

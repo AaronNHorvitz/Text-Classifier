@@ -1,0 +1,61 @@
+
+From:    Larry Goins
+Sent:    Tuesday, February 15, 1983 11:06 AM
+To:      Larry Goins
+
+Categories:    Compliance
+
+Hi Gordon,
+
+Thanks for offering to help me out of this compliance quagmire. I'm stoked that you're willing to lend a hand - it means a lot to me and my team.
+
+To be honest, I've tried running system scans using PC-DOS diagnostic programs, but nothing's turned up any missing files or issues with our 10x PC server configuration. It's like trying to find a needle in a haystack!
+
+I was wondering if you could dig deeper into our internal documentation and see if we have any specific guides or protocols for configuring those servers. If anything comes up, I'd love to hear about it.
+
+You're the man, Gordon! Thanks again for your help - I really appreciate it!
+
+Very truly yours,
+Larry Goins
++1 512-555-0144 | Support Technician | Cardiff Electric | Technical Support
+
+
+From:    Gordon Clark
+Sent:    Tuesday, February 15, 1983 11:06 AM
+To:      Larry Goins
+
+Categories:    Compliance
+
+Hi Larry,
+
+Don't worry, I'm happy to help you out of that mess. Compliance issues can be a real pain in the neck, but I'm here to lend a hand. First things first, let me ask: have you tried running a system scan using the PC-DOS diagnostic program? Sometimes those pesky files get lost in transit and a good old-fashioned system check can help us find them.
+
+In the meantime, I'll be digging through our internal documentation to see if we've got any specific guides or protocols for configuring those 10x PC servers. If anything comes up, I'll shoot it your way pronto.
+
+Hang in there, buddy! We'll get this sorted out and you'll be back to troubleshooting in no time.
+
+Very truly yours,
+Gordon Clark
++1 512-555-0198 | Chief Engineer | Cardiff Electric | Engineering
+
+
+From:    Larry Goins
+Sent:    Tuesday, February 15, 1983 11:06 AM
+To:      Gordon Clark
+
+Categories: Compliance
+
+Subject: Compliance Issue - 10x PC Server Configuration
+
+
+Dear Gordon,
+
+I'm writing to you in desperation. Our team has been struggling to get the 10x PC server configured correctly and compliant with our internal regulations. It's like trying to solve a puzzle blindfolded.
+
+The issue is that we're missing some critical files, and I've tried everything to troubleshoot it - from resetting the BIOS to running diagnostics on the disk drives. Nothing seems to work. I'm at my wit's end.
+
+I was wondering if you could provide some guidance or insight on how to resolve this issue. Are there any specific settings or configurations that we're overlooking? Any help would be greatly appreciated.
+
+Best regards,
+Larry Goins
++1 512-555-0144 | Support Technician | Cardiff Electric | Technical Support

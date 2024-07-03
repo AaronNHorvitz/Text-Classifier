@@ -1,0 +1,23 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, May 04, 1983 09:28 AM
+To:      Barry Shields; Malcolm Levitan; Larry Goins; Joe MacMillan; Donna Clark
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Dear team,
+
+I'm writing to tell you that our system went down again last night. It's like we're stuck in some kind of Groundhog Day, except instead of Bill Murray, it's just me and my code trying to get out of this mess.
+
+Don't get me wrong, I love a good challenge as much as the next person, but this is getting old. We need to figure out what's causing these crashes before someone (or something) gets hurt.
+
+
+Best,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development

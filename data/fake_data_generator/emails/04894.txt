@@ -1,0 +1,42 @@
+
+From:    Ed Burris
+Sent:    Thursday, July 21, 1983 10:35 AM
+To:      Donna Clark; Cameron Howe; Larry Goins; Malcolm Levitan; Barry Shields
+
+Categories:    Quality Assurance
+
+Hi Barry,
+
+I'm all ears when it comes to quality assurance. Your concerns about our testing procedures are well-founded, and I think we can do better. I've been thinking a lot about our QA process lately, and I believe that if we focus on building in quality from the start, rather than trying to test it out later, we'll be much better off.
+
+I'm looking forward to reviewing your proposed changes and providing feedback. In fact, I think this might be just what we need to get our QA house in order. Let's make sure that we're not just checking boxes, but actually doing some meaningful testing that will help us catch any issues before they become problems.
+
+Very truly yours,
+Ed Burris
+Project Manager, Cardiff Electric
++1 512-555-0155
+
+
+
+From:    Barry Shields
+Sent:    Thursday, July 21, 1983 10:35 AM
+To:      Ed Burris; Donna Clark; Cameron Howe; Larry Goins; Malcolm Levitan
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Protocol
+
+Dear Ed, Donna, Cameron, Larry, and Malcolm,
+
+As we move forward with our QA initiatives, I must express my concern regarding the current state of our testing procedures. It has come to my attention that certain processes are not being followed as rigorously as they should be, which may compromise the overall quality of our products.
+
+In light of this, I am proposing a revised protocol for conducting thorough QA tests on all software releases. This new approach will ensure that we maintain the highest standards of quality and reliability.
+
+I would appreciate it if each of you could review and provide feedback on the attached document outlining the proposed changes. Your input is crucial in ensuring the success of this initiative.
+
+Sincerely,
+
+Barry Shields
+Senior Counsel, Cardiff Electric, Legal Department
++1 512-555-0166
+

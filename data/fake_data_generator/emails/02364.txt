@@ -1,0 +1,18 @@
+
+From:    Cameron Howe
+Sent:    Thursday, April 07, 1983 04:43 PM
+To:      Joe MacMillan; John Bosworth; Malcolm Levitan; Ed Burris; Gordon Clark
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Hi gang,
+
+Listen up, we've got an issue. The system's down, and I'm not talking about just some pesky server or database. No way, I mean the whole shebang is on fritz. I know, I know, it's a beautiful mess.
+
+Anyway, I wanted to give you all a heads-up that I'm working on getting things back up and running asap. In the meantime, let me know if anyone needs anything from me or if you spot any bugs that are causing the trouble.
+
+Oh, and one more thing - can someone please pass along my love for this crazy company we work at?
+

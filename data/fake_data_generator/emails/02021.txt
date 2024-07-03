@@ -1,0 +1,77 @@
+
+From:    John Bosworth
+Sent:    Thursday, March 24, 1983 12:34 PM
+To:      Yo-Yo Engberk
+
+Categories:    Quality Assurance
+
+Dear Gordon,
+
+I'm not sure what kind of QA crisis is going on over there, but I've got a bad feeling about this. Every time I think things are finally looking up for us, some new problem crops up. And now you're telling me that Yo-Yo's got a mess on his hands? Unbelievable.
+
+Look, Gordon, I don't know what kind of magic you and Joe MacMillan are working over there, but I'm starting to feel like I'm stuck in some kind of QA nightmare. One minute everything seems fine, the next, it's all falling apart. And don't even get me started on Yo-Yo. The guy's got a knack for making things worse.
+
+I'm not trying to be the heavy here, Gordon. But someone's got to tell it like it is. We can't keep going around in circles like this. We need some real solutions, and we need them fast.
+
+Very truly yours,
+
+John Bosworth
+Vice President of Sales, Cardiff Electric, Sales +1 512-555-0179
+
+
+From:    Gordon Clark
+Sent:    Thursday, March 24, 1983 12:34 PM
+To:      John Bosworth; Yo-Yo Engberk
+
+Categories:    Quality Assurance
+
+Dear Yo-Yo,
+
+I've received your distress call and I'm on my way to assess the situation. Let me tell you, I don't take kindly to QA crises. It's like finding a bug in my own code - it makes me want to rip everything apart and start from scratch.
+
+Now, now, let's not get ahead of ourselves. We need to methodically go through each test script, identify the root cause of the problem, and then debug our way out of this mess. I'll grab a cup of coffee, put on my thinking cap, and meet you at your desk in 15 minutes.
+
+We're going to tackle this QA crisis like we would any other engineering challenge: with precision, attention to detail, and a healthy dose of skepticism. And when we're done, we'll have a rock-solid QA process that will make Cardiff Electric proud.
+
+
+
+From:    Joe MacMillan
+Sent:    Thursday, March 24, 1983 12:34 PM
+To:      Gordon Clark; John Bosworth; Yo-Yo Engberk
+
+Categories:    Quality Assurance
+
+Dear Yo-Yo,
+
+I'm reading your email and I'm feeling vulnerable. To be honest, I'm not even sure what to say. I mean, a QA crisis? That's like me having a panic attack in the middle of a meeting with my team. It's just not something I know how to deal with.
+
+But I guess that's why they pay me to think on my feet. So here's what I'm going to do: I'm going to grab some coffee, gather my thoughts, and then give you a call. We can go over the test scripts together, see if we can figure out what's causing this mess. And maybe - just maybe - we can even get our QA process running smoothly again.
+
+Look, Yo-Yo, I know things are tough right now, but we're not going to let some buggy code bring us down. We're Cardiff Electric, and we're going to make this work.
+
+Very truly yours,
+
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, March 24, 1983 12:34 PM
+To:      Gordon Clark; John Bosworth; Joe MacMillan
+
+Categories: Quality Assurance
+
+Subject: 
+
+Quality Assurance Crisis!
+
+Hi Gordon, John, and Joe,
+
+I'm writing to you all from the depths of despair. Our QA process has hit a snag, and I'm not sure how much more of this I can take. It's like trying to debug a cat that's decided to rewrite our code in iambic pentameter.
+
+Seriously though, we've got some issues with test scripts not running correctly, and I'm worried it's going to blow up in our faces if we don't get them sorted ASAP. I've tried re-running the tests, restarting the machines, and even performing an exorcism (just kidding about that last one... or am I?), but nothing seems to be working.
+
+Can someone please help me out here? I'm starting to feel like I'm trapped in a never-ending loop of "Test Script Failure: Unable to Run Due to Reason Unknown"
+
+Yo-Yo Engberk
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0142
+

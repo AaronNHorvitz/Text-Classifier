@@ -1,0 +1,35 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, January 25, 1983 04:04 PM
+To:      Cameron Howe; Gordon Clark; Debbie Malinowski; Donna Clark
+
+Categories: Training and Development
+
+Subject:    Training and Development: New Course Schedule
+
+
+Hello Cameron, Gordon, Debbie, Donna,
+
+I'm excited to share the updated training schedule for our department. As you know, we're always looking to improve our skills and stay up-to-date with industry developments. The new course offerings are designed to help us do just that.
+
+For instance, I've been going over some code snippets on object-oriented programming in Python (see below). It's really helped me streamline my workflow:
+
+```
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+person1 = Person("John", 30)
+print(person1.name)  # prints "John"
+print(person1.age)   # prints 30
+```
+
+I'll be leading a discussion on this topic in our next brown-bag session. I encourage everyone to join and share their own experiences with Python.
+
+Looking forward to seeing you all there!
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182

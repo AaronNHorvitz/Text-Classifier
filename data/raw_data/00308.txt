@@ -1,0 +1,24 @@
+
+From:    Gordon Clark
+Sent:    Monday, January 17, 1983 10:34 AM
+To:      Larry Goins; Cameron Howe; Donna Clark; Joe MacMillan
+
+Categories: Product Recall
+
+Subject: Product Recall: Analysis and Recommendations
+
+
+Hello,
+
+I've been working late nights to get a handle on the product recall situation. The preliminary findings indicate that the faulty component was a custom-made PCB from our supplier, ElectroPulse. I've reviewed their manufacturing processes and it appears they used an outdated design that doesn't meet our specifications.
+
+The affected products are limited to 500 units of the PC-Clone, which we shipped last quarter. I recommend recalling these units immediately to prevent any further issues or potential harm to customers. In my opinion, this is a high-priority issue that requires immediate attention.
+
+Please review the attached analysis for more details on the faulty component and recommended corrective actions.
+
+Best,
+Gordon Clark
+Chief Engineer
+Cardiff Electric
+Engineering Department
++1 512-555-0198

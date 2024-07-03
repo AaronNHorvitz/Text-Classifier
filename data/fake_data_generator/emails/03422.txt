@@ -1,0 +1,24 @@
+
+From:    Gordon Clark
+Sent:    Thursday, May 19, 1983 10:29 AM
+To:      Malcolm Levitan; Donna Clark
+
+Categories: Wellness Check
+
+Subject:    Wellness Check
+
+
+Dear Malcolm,
+
+I am compelled to initiate a wellness check on our department's equipment. A series of minor malfunctions has left me with an unshakeable feeling that something more significant is brewing. I've been pouring over schematics and running simulations, but I require your expertise to verify my findings.
+
+The primary concern is the instability in the 80386 processor's bus timing. If left unchecked, this could lead to catastrophic system failures. I've attempted to isolate the issue, but it requires further investigation to determine the root cause.
+
+I would appreciate any insight you can offer on this matter.
+
+
+Best regards,
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Engineering
+Cardiff Electric

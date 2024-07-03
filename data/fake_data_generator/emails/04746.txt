@@ -1,0 +1,43 @@
+
+From:    Gordon Clark
+Sent:    Wednesday, July 13, 1983 03:02 PM
+To:      Barry Shields; Yo-Yo Engberk; John Bosworth; Cameron Howe
+
+Categories:    Project Update
+
+Hi Cameron,
+
+I just wanted to jump in and say that I'm thoroughly impressed with the progress we've made. Your enthusiasm is contagious, and it's great to see everyone working together like a well-oiled machine.
+
+I've been putting in some long hours myself, trying to get the GUI just right. It's not an easy task, but I think we're getting close. And John has been doing a fantastic job of keeping everything on track, as you mentioned. I'm confident that our users are going to love the final product.
+
+I do have one question for you - what's the plan for rolling this out? Are we looking at a phased deployment or a full launch all at once?
+
+Very truly yours,
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Cardiff Electric, Engineering
+
+
+From:    Cameron Howe
+Sent:    Wednesday, July 13, 1983 03:02 PM
+To:      Barry Shields; Yo-Yo Engberk; John Bosworth; Gordon Clark
+
+Categories: Project Update
+
+Subject: Project Update
+
+Hi everyone,
+
+It's been too long since we last synced up on our project. I wanted to drop you all a line and give you an update on where things stand. We're making great progress, but there are still some bumps in the road. I've outlined the key points below:
+
+* The new compression algorithm is looking solid, and I'm optimistic it'll get us the 10% boost we need.
+* Gordon's been working tirelessly to iron out the bugs in the GUI, so our users will be happy campers.
+* John's done a fantastic job of keeping everything on track and making sure we're meeting our milestones.
+
+Let me know if you have any questions or concerns. I'm always here to chat and help out however I can.
+
+Best,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric, Software Development

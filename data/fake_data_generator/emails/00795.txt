@@ -1,0 +1,22 @@
+
+From:    Cameron Howe
+Sent:    Friday, February 04, 1983 10:48 AM
+To:      Malcolm Levitan; Joe MacMillan; Debbie Malinowski; Ed Burris
+
+Categories: Quality Assurance
+
+Subject:    QA Conundrums
+
+
+Dear Joe,
+
+Listen, I'm getting antsy about the state of our quality assurance process. It feels like we're still stuck in 1981 over here. Can we get a team meeting to hash out some solutions? Debbie and Ed are both too caught up in their own worlds to care about the bigger picture.
+
+I've got some ideas brewing, but I need some buy-in from you guys. Malcolm, your input would be invaluable on this one.
+
+
+Best,
+Cameron Howe
+Lead Software Developer
+Cardiff Electric - Software Development
++1 512-555-0147

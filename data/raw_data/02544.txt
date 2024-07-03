@@ -1,0 +1,70 @@
+
+From:    Gordon Clark
+Sent:    Wednesday, April 13, 1983 11:38 AM
+To:      Joe MacMillan; Ed Burris; John Bosworth; Malcolm Levitan
+
+Categories:    Congratulations
+
+Dear Malcolm,
+
+Wow, congratulations to everyone involved in the successful completion of the OS/2 project! I'm absolutely stoked about our team's dedication and perseverance. And that new API? It's a game-changer! I love how it can be used in practical applications like the example you provided. It really opens up possibilities for growth and exploration, and I'm confident that our team will continue to innovate and push boundaries.
+
+I've been working closely with John on implementing the new API, and I have to say, it's going to make a huge difference in our development process. And who knows? Maybe we'll even see some new revenue streams opening up as a result!
+
+
+
+From:    Debbie Malinowski
+Sent:    Wednesday, April 13, 1983 11:38 AM
+To:      Joe MacMillan; Ed Burris; Gordon Clark; John Bosworth; Malcolm Levitan
+
+Categories:    Congratulations
+
+Dear Malcolm,
+
+Congratulations to everyone involved in the successful completion of the OS/2 project! I'm thrilled to hear about our team's dedication and perseverance, and I'm so proud of each and every one of you for your hard work.
+
+I must say, I'm particularly excited about the new API. As someone who doesn't always understand the technical jargon, it's great to see how it can be used in practical applications like the example you provided. It really opens up possibilities for growth and exploration, and I'm confident that our team will continue to innovate and push boundaries.
+
+Congratulations again on this achievement! It's a testament to our team's collective effort and commitment to excellence.
+
+Very truly yours,
+
+Debbie Malinowski
+Secretary
+Administration
+Cardiff Electric
++1 512-555-0133
+
+
+From:    Malcolm Levitan
+Sent:    Wednesday, April 13, 1983 11:38 AM
+To:      Joe MacMillan; Ed Burris; Gordon Clark; Debbie Malinowski; John Bosworth
+
+Categories: Congratulations
+
+Subject:    Congratulations on the OS/2 achievement!
+
+Dear Team,
+
+Congratulations to everyone involved in the successful completion of the OS/2 project. I'm thrilled to see our efforts pay off, and I'm proud of each and every one of you for your dedication and perseverance.
+
+The new API we implemented will undoubtedly streamline our development process and pave the way for future innovations. As a programmer, I've had the pleasure of working closely with the team, and I can attest to the exceptional work that has gone into this project.
+
+Here's an example of how the new API can be utilized:
+
+```java
+public void myMethod() {
+    String result = new OS2API().execute("my command");
+    System.out.println(result);
+}
+```
+
+In the coming weeks, we'll be focusing on integrating the new API with our existing codebase. I'm confident that this will not only improve our efficiency but also open up new opportunities for growth and exploration.
+
+Congratulations again to the entire team!
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric
+Software Development Department
++1 512-555-0182

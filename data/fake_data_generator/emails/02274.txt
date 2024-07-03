@@ -1,0 +1,33 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, April 05, 1983 09:46 AM
+To:      Yo-Yo Engberk
+
+Categories: Industry News
+
+Subject:    
+Update on Industry News - IBM's PC/AT
+
+
+Dear Yo-Yo,
+
+I hope this email finds you well. As a fellow enthusiast of the industry, I wanted to share some updates on recent developments in the world of computing.
+
+As you may know, IBM has announced their new PC/AT platform. From what I've gathered, it seems they're focusing on backwards compatibility with their older systems, which could have significant implications for our own work at Cardiff Electric. I've included a snippet from the press release that caught my eye:
+
+
+"IBM's PC/AT architecture is designed to provide a high degree of compatibility with existing software and hardware, while also offering improved performance and expandability."
+
+
+This got me thinking about our own efforts to integrate new technologies into our systems. Perhaps we can draw inspiration from IBM's approach and explore ways to improve our own compatibility and scalability?
+
+Looking forward to your thoughts on this.
+
+Best regards,
+
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+

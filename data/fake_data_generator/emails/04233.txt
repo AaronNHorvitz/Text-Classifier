@@ -1,0 +1,85 @@
+
+From:    Cameron Howe
+Sent:    Tuesday, June 21, 1983 02:05 PM
+To:      Gordon Clark; Yo-Yo Engberk
+
+Categories:    Project Update
+
+Dear Yo-Yo,
+
+Are you kidding me? You think hitting roadblocks and swapping out power supplies is "part of the fun"? I'm stressed enough as it is, dealing with Gordon's antics and Ed's micromanaging. The last thing I need is to hear that we're just spinning our wheels and hoping for the best.
+
+EMAIL BODY
+Look, Yo-Yo, I get that things can go sideways, but can't you just give me a straight answer for once? What are we going to do about these BIOS updates? And what's taking so long with the IBM PCjr? It feels like we're stuck in some kind of digital quicksand.
+
+EMAIL BODY
+And another thing, what's this "digital unicorn" nonsense? You're not even trying to make sense. I just want a clear plan and some concrete steps to follow. Is that too much to ask?
+
+EMAIL SIGNATURE
+Very truly yours,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development
+
+
+From:    Malcolm Levitan
+Sent:    Tuesday, June 21, 1983 02:05 PM
+To:      Cameron Howe; Gordon Clark; Yo-Yo Engberk
+
+Categories:    Project Update
+
+Dear Yo-Yo,
+
+I'm not buying what you're selling. "Part of the fun"? You think hitting roadblocks and swapping out power supplies is fun? I didn't sign up for a game of digital whack-a-mole. What's the real holdup here?
+
+EMAIL BODY
+Look, I get that things can go sideways, but we need to stop making excuses and start making progress. When are we going to have a clear plan in place and some concrete steps to follow? It feels like we're just spinning our wheels and hoping for the best.
+
+
+
+From:    Ed Burris
+Sent:    Tuesday, June 21, 1983 02:05 PM
+To:      Malcolm Levitan; Cameron Howe; Gordon Clark; Yo-Yo Engberk
+
+Categories:    Project Update
+
+Dear Yo-Yo,
+
+Regrets only. I'm still trying to wrap my head around these project updates. It seems like we're spinning our wheels over here, and I'm not sure if we're making any real progress. The BIOS updates are a nightmare, and I'm starting to think it's just a never-ending cycle of frustration.
+
+EMAIL BODY
+Look, I get it - we're trying to tame the digital unicorn, but honestly, sometimes I feel like we're just poking at it with a stick. What's the plan moving forward? Do we have any concrete steps or milestones to aim for?
+
+EMAIL SIGN
+Very truly yours,
+Ed Burris
++1 512-555-0155
+Project Manager
+Cardiff Electric
+Project Management
+
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, June 21, 1983 02:05 PM
+To:      Ed Burris; Malcolm Levitan; Cameron Howe; Gordon Clark
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Hi Ed, Malcolm, Cameron, and Gordon,
+
+EMAIL BODY
+
+Okay, okay, I know what you're thinking... "Yo-Yo, what's the holdup?" Well, let me tell you, we've hit some roadblocks, but that's just part of the fun, right? Our beloved IBM PCjr is still kicking (literally - I had to swap out the power supply for the third time this week), and we're making progress on those pesky BIOS updates. It's like trying to tame a digital unicorn, but I'm optimistic!
+
+EMAIL SIGNATURE
+
+Yo-Yo Engberk
++1 512-555-0142
+Programmer
+Cardiff Electric
+Software Development

@@ -1,0 +1,44 @@
+
+From:    Joe MacMillan
+Sent:    Friday, June 10, 1983 10:04 AM
+To:      Malcolm Levitan; Larry Goins; Ed Burris; Barry Shields; Cameron Howe; Yo-Yo Engberk
+
+Categories:    Wellness Check
+
+Dear Yo-Yo,
+
+I'm not sure what kind of team-building activities you have planned, but I could use a break. To be honest, I feel like I'm drowning in a sea of spreadsheets and meeting requests. The last thing on my mind is "self-care". But I suppose it's better than nothing.
+
+Look, Yo-Yo, I appreciate the effort to make sure we're all not burning out, but can we please just focus on getting this project done? I don't know about you, but my plate is full and then some. Wellness checks are great and all, but they feel like a luxury we can't afford right now.
+
+Very truly yours,
+Joe MacMillan
+
+Senior Product Manager
+Cardiff Electric
+Product Management
++1 512-555-0132
+
+
+From:    Yo-Yo Engberk
+Sent:    Friday, June 10, 1983 10:04 AM
+To:      Malcolm Levitan; Larry Goins; Ed Burris; Joe MacMillan; Barry Shields; Cameron Howe
+
+Categories: Wellness Check
+
+Subject:    Wellness Check
+
+Hello Team,
+
+I hope this email finds you all coding like champs! It's time for our regular wellness check to make sure we're not burning out (literally, I've seen some long hours on our project logs). Let's take a collective deep breath and prioritize self-care. We can't build the future if we're running on fumes!
+
+Remember, it's okay to take a step back and recharge. I'll be sending around a schedule soon for some team-building activities to help us decompress.
+
+Stay awesome, and let me know if you have any questions or concerns!
+
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142
+

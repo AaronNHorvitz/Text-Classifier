@@ -1,0 +1,35 @@
+
+From:    Gordon Clark
+Sent:    Thursday, March 10, 1983 01:14 PM
+To:      John Bosworth; Malcolm Levitan; Larry Goins; Yo-Yo Engberk
+
+Categories:    System Outage
+
+Dear Yo-Yo,
+
+I'm not exactly thrilled to be dealing with system outages right now. In fact, I'm feeling pretty down about it all. But, I guess that's what makes life interesting, right? A little excitement never hurt anyone.
+
+Listen, I understand the importance of getting this resolved ASAP. I'll definitely lend a hand in tracking down the problem. Maybe we can even grab some beers and have a debugging party. Sounds like fun to me! Who knows, maybe we'll even find that elusive bug that's been causing all the trouble.
+
+Let's get together and tackle this issue head-on. I'm game if you are.
+
+Very truly yours,
+Gordon Clark
+Chief Engineer, Cardiff Electric Engineering +1 512-555-0198
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, March 10, 1983 01:14 PM
+To:      Gordon Clark; John Bosworth; Malcolm Levitan; Larry Goins
+
+Categories: System Outage
+
+Subject: System Outage
+
+System Alert!
+
+Hi all,
+
+I'm calling in sick (just kidding, I'm not actually sick). We've got a system outage and I need your ninja skills to help me track down the culprit. Our dev team is on high alert, ready to pounce on the problem like a pack of wolves on a carcass.
+
+Let's get our debugging dance party started! If you have any leads or insights, hit reply ASAP. We're all in this together, like a well-oiled machine (or not, since we're having an outage .
+

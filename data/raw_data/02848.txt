@@ -1,0 +1,129 @@
+
+From:    John Bosworth
+Sent:    Tuesday, April 26, 1983 04:03 PM
+To:      Gordon Clark; Larry Goins
+
+Categories:    Compliance
+
+Dear Larry,
+
+I'm thrilled to see that we're finally talking about compliance. As someone who's been in the trenches, I can tell you that it's not just a necessary evil - it's a vital part of our success. And let me tell you, I've got a few choice words for those who think it's just a bunch of bureaucratic nonsense.
+
+You know as well as I do that we're not just selling gadgets and gizmos - we're building relationships with the people who matter most to us. And what's the key to building strong relationships? Trust. And trust is built on a foundation of transparency, accountability, and compliance.
+
+Now, I'm not saying it's going to be easy. But I am saying that it's worth it. Because when we do things the right way - the compliant way - we're not just protecting ourselves, we're building a reputation that will last for years to come.
+
+So, let's get to work on this compliance thing. Let's make sure we're doing everything by the book, and then some. I'm excited to see where this takes us, Larry.
+
+Very truly yours,
+
+John Bosworth
++1 512-555-0179
+Vice President of Sales
+Cardiff Electric
+Sales
+
+
+
+From:    Malcolm Levitan
+Sent:    Tuesday, April 26, 1983 04:03 PM
+To:      Gordon Clark; John Bosworth; Larry Goins
+
+Categories:    Compliance
+
+Dear Larry,
+
+I must say, I'm intrigued by this whole compliance thing. It's like you're trying to tame the beast that is our mainframe access issue. I get it, Joe might be a genius, but even geniuses need a little guidance sometimes. And who knows, maybe some structure will actually help us avoid those headaches down the line.
+
+I'm curious, Larry - have you considered involving me in this compliance process? As a programmer, I think I could bring a unique perspective to the table. Plus, it would be nice to get my hands dirty and see what kind of creative solutions we can come up with.
+
+Let's work together to make sure our mainframe is secure and compliant. I'm game if you are!
+
+Very truly yours,
+Malcolm Levitan
++1 512-555-0182
+Programmer, Cardiff Electric, Software Development
+
+
+From:    Larry Goins
+Sent:    Tuesday, April 26, 1983 04:03 PM
+To:      Malcolm Levitan; Gordon Clark; John Bosworth; Larry Goins
+
+Categories:    Compliance
+
+Hi Joe,
+
+I'm feeling inspired by all the excitement around compliance. You're right, it's not about being a buzzkill, but rather making sure we're doing things the right way. I mean, who doesn't love a good checklist?
+
+You know me well enough to know that I'm not trying to tie you up in knots with bureaucratic nonsense. But sometimes, a little structure can go a long way in preventing headaches down the line. And let's be real, we're all about making money, but we have to make sure we're doing it legally and ethically.
+
+I understand your frustration with the steps I outlined for resolving the mainframe access issue. But trust me, Joe, those steps are there to protect us from ourselves. Just because you're a genius doesn't mean you can't use a little help sometimes.
+
+So, let's work together to get this compliance thing sorted out, shall we? Your genius and my attention to detail can make for a pretty unstoppable team.
+
+Very truly yours,
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric
+Technical Support
+
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, April 26, 1983 04:03 PM
+To:      Malcolm Levitan; Gordon Clark; John Bosworth; Larry Goins
+
+Categories:    Compliance
+
+Dear Larry,
+
+I'm writing to you today feeling like I've got a thousand pounds of stress on my shoulders. Compliance, huh? You're really getting at me with this one. Look, I get it. You're trying to cover your behind in case something goes wrong. But let me tell you, nothing ever goes wrong around here. And even if it does, I'll be the one fixing it.
+
+I'm not going to waste my time on some bureaucratic nonsense like that. Just give me the access I need and we can get back to making money. You're just trying to tie me up in knots with your little steps to resolve this issue. Forget about it, Larry.
+
+
+
+From:    Joe MacMillan
+Sent:    Tuesday, April 26, 1983 04:03 PM
+To:      Yo-Yo Engberk; Malcolm Levitan; Gordon Clark; John Bosworth; Larry Goins
+
+Categories:    Compliance
+
+Dear Larry,
+
+Compliance? Are you kidding me? That's like saying "Don't worry, we're going to make sure our mainframe is secure... because we don't want anyone messing with it." Who needs security when you've got a genius like me running the show?
+
+Look, Larry, I know what's really going on here. You're just trying to cover your behind in case something goes wrong. Well, let me tell you, nothing ever goes wrong around here. And even if it does, I'll be the one fixing it.
+
+As for your little steps to resolve this issue, forget about it. I'm not wasting my time on some bureaucratic nonsense like that. Just give me the access I need and we can get back to making money.
+
+
+
+From:    Larry Goins
+Sent:    Tuesday, April 26, 1983 04:03 PM
+To:      Yo-Yo Engberk; Malcolm Levitan; Gordon Clark; John Bosworth; Joe MacMillan
+
+Categories: Compliance
+
+Subject: Compliance Issue with Mainframe Access
+
+
+Hi Yo-Yo, Malcolm, Gordon, John, and Joe,
+
+I'm reaching out to provide some guidance on a compliance issue we've been experiencing with mainframe access. As you know, our team has been working diligently to ensure our systems are up to date and secure. Recently, we've encountered an issue where certain users are unable to access specific files and folders within the mainframe.
+
+After conducting a thorough investigation, I've identified that this issue is caused by a misconfigured permissions setting. To resolve this, please follow these steps:
+
+1. Log in to the mainframe using your authorized credentials.
+2. Navigate to the affected folder and right-click on it.
+3. Select "Properties" and click on the "Security" tab.
+4. Ensure that the correct user groups are listed with read-write permissions.
+
+If you're still experiencing issues after completing these steps, please don't hesitate to reach out to me directly. I'll be happy to provide further assistance.
+
+Best regards,
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric
+Technical Support

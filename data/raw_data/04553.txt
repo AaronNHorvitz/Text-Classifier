@@ -1,0 +1,66 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, July 07, 1983 02:29 PM
+To:      Cameron Howe; Gordon Clark; Ed Burris; Larry Goins; Joe MacMillan; Barry Shields; Donna Clark; Malcolm Levitan
+
+Categories:    System Outage
+
+Dear John,
+
+Listen up, because I'm only going to say this once. This system outage is a total joke. You're telling me that some genius at Cardiff Electric decided to drop the customer table without anyone noticing? Please. That's like saying the sun rises in the west.
+
+As for your little plan to optimize the database, forget it. We don't have time for that when we're still trying to figure out how to keep our systems from crashing every five minutes. I'm not even going to bother reading your email about query logging and table modifications because honestly, who cares?
+
+You want to know what I care about? I care about getting this system back online so we can actually do some work around here. So maybe instead of trying to solve the world's problems with database queries, you could try doing that.
+
+
+
+From:    John Bosworth
+Sent:    Thursday, July 07, 1983 02:29 PM
+To:      Cameron Howe; Gordon Clark; Yo-Yo Engberk; Ed Burris; Larry Goins; Joe MacMillan; Barry Shields; Donna Clark; Malcolm Levitan
+
+Categories:    System Outage
+
+Hi Malcolm,
+
+Thanks for the heads up on the system outage. I've been thinking about our database and how we can optimize it for better performance. This timeout issue sounds like a great opportunity to dig in and make some improvements.
+
+I agree that this error message looks like a classic "table or view does not exist" issue, which makes me think of a couple things. First, have you checked the customer table itself? Is it possible that the table has been modified or dropped recently without our knowledge? Second, I'm wondering if we can use some kind of query logging to help identify the root cause of this timeout.
+
+I'd love to discuss this further with you and see if we can work together to get to the bottom of this. Let me know when you're free to chat.
+
+Very truly yours,
+John Bosworth
+Vice President of Sales, Cardiff Electric
++1 512-555-0179
+
+
+
+From:    Malcolm Levitan
+Sent:    Thursday, July 07, 1983 02:29 PM
+To:      Cameron Howe; Gordon Clark; Yo-Yo Engberk; Ed Burris; Larry Goins; Joe MacMillan; Barry Shields; Donna Clark; John Bosworth
+
+Categories: System Outage
+
+Subject:    System Outage
+
+
+Dear All,
+
+I'm writing to report a system outage that occurred at 02:45 AM this morning. As per our monitoring logs, the issue appears to be related to an unexpected timeout in the database query handler (code snippet below).
+
+```sql
+SELECT * FROM customers WHERE country='USA' AND last_order_date > '1982-01-01';
+```
+
+The error message reads "ORA-00942: table or view does not exist". I've tried reproducing the issue, but so far, no luck. I'm hoping someone may have some insight into what's causing this.
+
+I've also attached a log excerpt (Attachment: system_log.txt) for further analysis.
+
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182

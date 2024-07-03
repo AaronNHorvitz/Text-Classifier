@@ -1,0 +1,564 @@
+{
+    "roles_departments_topics": {
+      "Supplier": {
+        "departments": {
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Procurement": ["Supplier Relations", "Invoice", "Contract Negotiation", "Product Recall"],
+          "Logistics": ["Supplier Relations", "System Outage", "Product Recall", "Compliance"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "Quality Control": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Research and Development": ["Project Update", "Product Launch", "Research Collaboration", "Supplier Relations"],
+          "IT": ["System Outage", "Technical Support", "Compliance", "Supplier Relations"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Customer": {
+        "departments": {
+          "Purchasing": ["Sales Inquiry", "Supplier Relations", "Contract Negotiation", "Invoice"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Supplier Relations"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Supplier Relations"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Logistics": ["Supplier Relations", "System Outage", "Compliance", "Product Recall"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Product Development": ["Project Update", "Product Launch", "Research Collaboration", "Supplier Relations"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Partner": {
+        "departments": {
+          "Strategic Partnerships": ["Partnership Proposal", "Project Update", "Research Collaboration", "Compliance"],
+          "Business Development": ["Partnership Proposal", "Project Update", "Research Collaboration", "Sales Inquiry"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Partnership Proposal"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Partnership Proposal"],
+          "Legal": ["Legal Advice", "Compliance", "Contract Negotiation", "Partnership Proposal"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Partnership Proposal"],
+          "Research and Development": ["Project Update", "Product Launch", "Research Collaboration", "Partnership Proposal"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Partnership Proposal"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Distributor": {
+        "departments": {
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Logistics": ["Supplier Relations", "System Outage", "Product Recall", "Compliance"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "Inventory Management": ["Supplier Relations", "System Outage", "Product Recall", "Compliance"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Procurement": ["Supplier Relations", "Invoice", "Contract Negotiation", "Product Recall"],
+          "IT": ["System Outage", "Technical Support", "Compliance", "Supplier Relations"],
+          "Quality Control": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Investor": {
+        "departments": {
+          "Investment Management": ["Investment Opportunities", "Market Analysis", "Portfolio Update", "Compliance"],
+          "Finance": ["Expense Report", "Compliance", "Investment Opportunities", "Portfolio Update"],
+          "Legal": ["Legal Advice", "Compliance", "Contract Negotiation", "Investment Opportunities"],
+          "Business Development": ["Partnership Proposal", "Project Update", "Market Analysis", "Investment Opportunities"],
+          "Strategic Planning": ["Market Analysis", "Project Update", "Compliance", "Investment Opportunities"],
+          "Research and Analysis": ["Market Analysis", "Project Update", "Investment Opportunities", "Portfolio Update"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Investment Opportunities", "Market Analysis"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Investment Opportunities"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Investment Opportunities"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Consultant": {
+        "departments": {
+          "Consulting Services": ["Project Update", "Research Collaboration", "Compliance", "Market Analysis"],
+          "Business Development": ["Partnership Proposal", "Project Update", "Market Analysis", "Sales Inquiry"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Partnership Proposal"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Partnership Proposal"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Legal": ["Legal Advice", "Compliance", "Contract Negotiation", "Partnership Proposal"],
+          "Research and Analysis": ["Market Analysis", "Project Update", "Research Collaboration", "Partnership Proposal"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Partnership Proposal"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Partnership Proposal"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Service Provider": {
+        "departments": {
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Supplier Relations"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Supplier Relations"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Legal": ["Legal Advice", "Compliance", "Contract Negotiation", "Supplier Relations"],
+          "Product Development": ["Project Update", "Product Launch", "Research Collaboration", "Supplier Relations"],
+          "Quality Assurance": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Reseller": {
+        "departments": {
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "Procurement": ["Supplier Relations", "Invoice", "Contract Negotiation", "Product Recall"],
+          "Logistics": ["Supplier Relations", "System Outage", "Product Recall", "Compliance"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Supplier Relations"],
+          "Inventory Management": ["Supplier Relations", "System Outage", "Product Recall", "Compliance"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Supplier Relations"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Manufacturer": {
+        "departments": {
+          "Production": ["Project Update", "Product Recall", "Quality Assurance", "Supplier Relations"],
+          "Quality Control": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Research and Development": ["Project Update", "Product Launch", "Research Collaboration", "Supplier Relations"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Logistics": ["Supplier Relations", "System Outage", "Product Recall", "Compliance"],
+          "Procurement": ["Supplier Relations", "Invoice", "Contract Negotiation", "Product Recall"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Supplier Relations"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Research Partner": {
+        "departments": {
+          "Research and Development": ["Project Update", "Research Collaboration", "Product Launch", "Compliance"],
+          "Strategic Partnerships": ["Partnership Proposal", "Project Update", "Research Collaboration", "Compliance"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Legal": ["Legal Advice", "Compliance", "Contract Negotiation", "Partnership Proposal"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Research Collaboration"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Partnership Proposal"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Research Collaboration"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Partnership Proposal"],
+          "Business Development": ["Partnership Proposal", "Project Update", "Research Collaboration", "Sales Inquiry"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Integrator": {
+        "departments": {
+          "Systems Integration": ["Project Update", "Technical Support", "Compliance", "Research Collaboration"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Supplier Relations"],
+          "Research and Development": ["Project Update", "Product Launch", "Research Collaboration", "Supplier Relations"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Supplier Relations"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Legal": ["Legal Advice", "Compliance", "Contract Negotiation", "Supplier Relations"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "OEM (Original Equipment Manufacturer)": {
+        "departments": {
+          "Engineering": ["Project Update", "Research Collaboration", "Product Launch", "Quality Assurance"],
+          "Production": ["Project Update", "Product Recall", "Quality Assurance", "Supplier Relations"],
+          "Quality Control": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Logistics": ["Supplier Relations", "System Outage", "Product Recall", "Compliance"],
+          "Procurement": ["Supplier Relations", "Invoice", "Contract Negotiation", "Product Recall"],
+          "Research and Development": ["Project Update", "Product Launch", "Research Collaboration", "Supplier Relations"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Supplier Relations"]
+        }
+      },
+      "End User": {
+        "departments": {
+          "Operations": ["Project Update", "System Outage", "Compliance", "Supplier Relations"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Supplier Relations"],
+          "Procurement": ["Supplier Relations", "Invoice", "Contract Negotiation", "Product Recall"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Product Development": ["Project Update", "Product Launch", "Research Collaboration", "Supplier Relations"],
+          "Logistics": ["Supplier Relations", "System Outage", "Product Recall", "Compliance"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Media Contact": {
+        "departments": {
+          "Public Relations": ["Press Release", "Event Planning", "Internal Announcement", "Industry News"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Event Planning"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Partnership Proposal"],
+          "Editorial": ["Press Release", "Industry News", "Internal Announcement", "Research Collaboration"],
+          "Communications": ["Press Release", "Event Planning", "Internal Announcement", "Industry News"],
+          "Research and Analysis": ["Market Analysis", "Project Update", "Industry News", "Partnership Proposal"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Legal": ["Legal Advice", "Compliance", "Contract Negotiation", "Partnership Proposal"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Research Collaboration"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Regulator": {
+        "departments": {
+          "Compliance": ["Compliance", "Audit Report", "Regulatory Update", "Quality Assurance"],
+          "Legal": ["Legal Advice", "Compliance", "Contract Negotiation", "Regulatory Update"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Audit Report"],
+          "Research and Analysis": ["Market Analysis", "Project Update", "Compliance", "Regulatory Update"],
+          "Communications": ["Press Release", "Internal Announcement", "Regulatory Update", "Industry News"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Audit Report"],
+          "Quality Assurance": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Inspection": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Competitor": {
+        "departments": {
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Market Analysis"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Market Analysis"],
+          "Research and Development": ["Project Update", "Product Launch", "Research Collaboration", "Market Analysis"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Market Analysis"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Research Collaboration"],
+          "Legal": ["Legal Advice", "Compliance", "Contract Negotiation", "Market Analysis"],
+          "Quality Assurance": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Product Development": ["Project Update", "Product Launch", "Research Collaboration", "Market Analysis"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Trade Show Organizer": {
+        "departments": {
+          "Event Planning": ["Event Planning", "Press Release", "Internal Announcement", "Industry News"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Event Planning"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Partnership Proposal"],
+          "Logistics": ["Supplier Relations", "System Outage", "Compliance", "Event Planning"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Event Planning"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Event Planning"],
+          "Communications": ["Press Release", "Event Planning", "Internal Announcement", "Industry News"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Training Provider": {
+        "departments": {
+          "Training and Development": ["Training and Development", "Event Planning", "Internal Announcement", "Research Collaboration"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Training and Development"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Training and Development"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Training and Development"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Training and Development"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Training and Development"],
+          "Content Development": ["Training and Development", "Project Update", "Research Collaboration", "Internal Announcement"],
+          "Quality Assurance": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Logistics Partner": {
+        "departments": {
+          "Logistics": ["Supplier Relations", "System Outage", "Compliance", "Product Recall"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Supplier Relations"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Procurement": ["Supplier Relations", "Invoice", "Contract Negotiation", "Product Recall"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Supplier Relations"],
+          "Quality Control": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Software Developer": {
+        "departments": {
+          "Software Development": ["Project Update", "Technical Support", "Product Launch", "Research Collaboration"],
+          "Quality Assurance": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "Research and Development": ["Project Update", "Product Launch", "Research Collaboration", "Supplier Relations"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Supplier Relations"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Supplier Relations"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Hardware Supplier": {
+        "departments": {
+          "Procurement": ["Supplier Relations", "Invoice", "Contract Negotiation", "Product Recall"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "Logistics": ["Supplier Relations", "System Outage", "Product Recall", "Compliance"],
+          "Quality Control": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Supplier Relations"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Supplier Relations"],
+          "Research and Development": ["Project Update", "Product Launch", "Research Collaboration", "Supplier Relations"]
+        }
+      },
+      "Market Analyst": {
+        "departments": {
+          "Research and Analysis": ["Market Analysis", "Project Update", "Compliance", "Industry News"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Market Analysis"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Market Analysis"],
+          "Communications": ["Press Release", "Event Planning", "Internal Announcement", "Industry News"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Market Analysis"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Research Collaboration"],
+          "Business Development": ["Partnership Proposal", "Project Update", "Market Analysis", "Sales Inquiry"],
+          "Strategic Planning": ["Market Analysis", "Project Update", "Compliance", "Investment Opportunities"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Auditor": {
+        "departments": {
+          "Audit": ["Audit Report", "Compliance", "Quality Assurance", "Regulatory Update"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Compliance": ["Compliance", "Audit Report", "Regulatory Update", "Quality Assurance"],
+          "Legal": ["Legal Advice", "Compliance", "Contract Negotiation", "Regulatory Update"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Audit Report"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Audit Report"],
+          "Research and Analysis": ["Market Analysis", "Project Update", "Compliance", "Regulatory Update"],
+          "Quality Assurance": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Communications": ["Press Release", "Internal Announcement", "Regulatory Update", "Industry News"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Insurance Provider": {
+        "departments": {
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Insurance Policy Update"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Insurance Policy Update"],
+          "Claims": ["Insurance Claims", "Compliance", "Customer Feedback", "Quality Assurance"],
+          "Underwriting": ["Insurance Policy Update", "Compliance", "Customer Feedback", "Quality Assurance"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Legal": ["Legal Advice", "Compliance", "Contract Negotiation", "Insurance Policy Update"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Insurance Policy Update"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Insurance Policy Update"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Insurance Policy Update"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Legal Advisor": {
+        "departments": {
+          "Legal": ["Legal Advice", "Compliance", "Contract Negotiation", "Regulatory Update"],
+          "Compliance": ["Compliance", "Audit Report", "Regulatory Update", "Quality Assurance"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Regulatory Update"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Regulatory Update"],
+          "Research and Analysis": ["Market Analysis", "Project Update", "Compliance", "Regulatory Update"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Regulatory Update"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Regulatory Update"],
+          "Communications": ["Press Release", "Internal Announcement", "Regulatory Update", "Industry News"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "HR Consultant": {
+        "departments": {
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"],
+          "Training and Development": ["Training and Development", "Event Planning", "Internal Announcement", "Research Collaboration"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Training and Development"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Training and Development"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Training and Development"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Training and Development"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Legal": ["Legal Advice", "Compliance", "Contract Negotiation", "Regulatory Update"],
+          "Research and Analysis": ["Market Analysis", "Project Update", "Compliance", "Regulatory Update"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Training and Development"]
+        }
+      },
+      "Public Relations Firm": {
+        "departments": {
+          "Public Relations": ["Press Release", "Event Planning", "Internal Announcement", "Industry News"],
+          "Communications": ["Press Release", "Event Planning", "Internal Announcement", "Industry News"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Event Planning"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Partnership Proposal"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "Research and Analysis": ["Market Analysis", "Project Update", "Industry News", "Partnership Proposal"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Event Planning"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Event Planning"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Technical Support": {
+        "departments": {
+          "Technical Support": ["Technical Support", "System Outage", "Customer Feedback", "Quality Assurance"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Research Collaboration"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Supplier Relations"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Research and Development": ["Project Update", "Product Launch", "Research Collaboration", "Supplier Relations"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Quality Assurance": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Quality Assurance Partner": {
+        "departments": {
+          "Quality Assurance": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Supplier Relations"],
+          "Research and Development": ["Project Update", "Product Launch", "Research Collaboration", "Supplier Relations"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Logistics": ["Supplier Relations", "System Outage", "Product Recall", "Compliance"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Supplier Relations"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Prototype Developer": {
+        "departments": {
+          "Product Development": ["Project Update", "Product Launch", "Research Collaboration", "Quality Assurance"],
+          "Research and Development": ["Project Update", "Product Launch", "Research Collaboration", "Quality Assurance"],
+          "Engineering": ["Project Update", "Product Launch", "Research Collaboration", "Quality Assurance"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Supplier Relations"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Research Collaboration"],
+          "Quality Control": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Financial Advisor": {
+        "departments": {
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Investment Management": ["Investment Opportunities", "Market Analysis", "Portfolio Update", "Compliance"],
+          "Strategic Planning": ["Market Analysis", "Project Update", "Compliance", "Investment Opportunities"],
+          "Legal": ["Legal Advice", "Compliance", "Contract Negotiation", "Investment Opportunities"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Investment Opportunities"],
+          "Research and Analysis": ["Market Analysis", "Project Update", "Investment Opportunities", "Portfolio Update"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Investment Opportunities"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Investment Opportunities", "Market Analysis"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Investment Opportunities"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Marketing Agency": {
+        "departments": {
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Event Planning"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Partnership Proposal"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "Public Relations": ["Press Release", "Event Planning", "Internal Announcement", "Industry News"],
+          "Communications": ["Press Release", "Event Planning", "Internal Announcement", "Industry News"],
+          "Research and Analysis": ["Market Analysis", "Project Update", "Industry News", "Partnership Proposal"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Event Planning"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Event Planning"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "System Integrator": {
+        "departments": {
+          "Systems Integration": ["Project Update", "Technical Support", "Compliance", "Research Collaboration"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Supplier Relations"],
+          "Research and Development": ["Project Update", "Product Launch", "Research Collaboration", "Supplier Relations"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Supplier Relations"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Legal": ["Legal Advice", "Compliance", "Contract Negotiation", "Supplier Relations"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Data Center": {
+        "departments": {
+          "IT": ["Technical Support", "System Outage", "Compliance", "Supplier Relations"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Supplier Relations"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "Quality Control": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Research and Development": ["Project Update", "Product Launch", "Research Collaboration", "Supplier Relations"],
+          "Logistics": ["Supplier Relations", "System Outage", "Product Recall", "Compliance"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Cloud Service Provider": {
+        "departments": {
+          "IT": ["Technical Support", "System Outage", "Compliance", "Supplier Relations"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Supplier Relations"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "Quality Assurance": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Research and Development": ["Project Update", "Product Launch", "Research Collaboration", "Supplier Relations"],
+          "Logistics": ["Supplier Relations", "System Outage", "Product Recall", "Compliance"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Training Partner": {
+        "departments": {
+          "Training and Development": ["Training and Development", "Event Planning", "Internal Announcement", "Research Collaboration"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Training and Development"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Training and Development"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Training and Development"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Training and Development"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Training and Development"],
+          "Content Development": ["Training and Development", "Project Update", "Research Collaboration", "Internal Announcement"],
+          "Quality Assurance": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Environmental Consultant": {
+        "departments": {
+          "Consulting": ["Project Update", "Compliance", "Research Collaboration", "Quality Assurance"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Supplier Relations"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Research and Development": ["Project Update", "Product Launch", "Research Collaboration", "Supplier Relations"],
+          "Quality Control": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Supplier Relations"],
+          "Legal": ["Legal Advice", "Compliance", "Contract Negotiation", "Supplier Relations"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Security Provider": {
+        "departments": {
+          "Security": ["System Outage", "Compliance", "Incident Report", "Technical Support"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Supplier Relations"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Research Collaboration"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Supplier Relations"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Supplier Relations"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Supplier Relations"],
+          "Research and Development": ["Project Update", "Product Launch", "Research Collaboration", "Supplier Relations"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Quality Assurance": ["Quality Assurance", "Product Recall", "Supplier Relations", "Compliance"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Event Planner": {
+        "departments": {
+          "Event Planning": ["Event Planning", "Press Release", "Internal Announcement", "Industry News"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Event Planning"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Event Planning"],
+          "Logistics": ["Supplier Relations", "System Outage", "Compliance", "Event Planning"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Event Planning"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Event Planning"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Event Planning"],
+          "Communications": ["Press Release", "Event Planning", "Internal Announcement", "Industry News"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      },
+      "Talent Agency": {
+        "departments": {
+          "Talent Management": ["Contract Negotiation", "Performance Review", "New Hire Announcement", "Team Building"],
+          "Sales": ["Sales Inquiry", "Customer Feedback", "Contract Negotiation", "Partnership Proposal"],
+          "Marketing": ["Marketing Campaign", "Press Release", "Customer Feedback", "Event Planning"],
+          "Customer Service": ["Customer Feedback", "Technical Support", "Product Recall", "Event Planning"],
+          "Finance": ["Invoice", "Expense Report", "Contract Negotiation", "Compliance"],
+          "Legal": ["Legal Advice", "Compliance", "Contract Negotiation", "Partnership Proposal"],
+          "Research and Analysis": ["Market Analysis", "Project Update", "Industry News", "Partnership Proposal"],
+          "Operations": ["Project Update", "System Outage", "Compliance", "Event Planning"],
+          "IT": ["Technical Support", "System Outage", "Compliance", "Event Planning"],
+          "Human Resources": ["HR Matters", "New Hire Announcement", "Performance Review", "Team Building"]
+        }
+      }
+    }
+  }

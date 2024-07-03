@@ -1,0 +1,18 @@
+
+From:    Yo-Yo Engberk
+Sent:    Wednesday, January 12, 1983 02:35 PM
+To:      Donna Clark; Larry Goins; Debbie Malinowski; Joe MacMillan; John Bosworth
+
+Categories: Vacation Notice
+
+Subject: Vacation Notice
+
+
+Hi Team,
+
+Vacation mode activated! Just wanted to give y'all a heads up that I'll be taking some time off in the next few weeks. Don't worry, I've left detailed instructions on how to keep our codebase from getting too buggy (see what I did there?). Seriously though, if anything critical comes up while I'm out, please don't hesitate to reach out.
+
+Best,
+Yo-Yo Engberk
+Programmer, Cardiff Electric | Software Development
++1 512-555-0142

@@ -1,0 +1,30 @@
+
+From:    Larry Goins
+Sent:    Tuesday, March 08, 1983 01:56 PM
+To:      Debbie Malinowski
+
+Categories: Health and Safety
+
+Subject:    Health and Safety Guidelines for Technical Support
+
+Dear Debbie,
+
+I'm writing to provide some important guidelines for our department regarding health and safety protocols. As we continue to work on new projects, it's essential that we prioritize a safe working environment.
+
+Please be aware of the following precautions when working with equipment or materials in the lab:
+
+1. Always follow proper calibration procedures before using any devices.
+2. Ensure adequate ventilation and lighting in the workspace.
+3. Report any hazardous situations or near-misses to your supervisor immediately.
+
+To troubleshoot common issues, I recommend checking our internal wiki for step-by-step guides on dealing with power surges, electrical shorts, and other technical snags.
+
+If you have any questions or concerns, feel free to reach out to me directly. I'm more than happy to assist you in ensuring a safe and efficient work environment.
+
+Best regards,
+
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric
+Technical Suppor

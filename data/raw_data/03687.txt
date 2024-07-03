@@ -1,0 +1,31 @@
+
+From:    Ed Burris
+Sent:    Tuesday, May 31, 1983 01:25 PM
+To:      Joe MacMillan; Yo-Yo Engberk; Barry Shields
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance for Cardiff Electric Project
+
+
+Dear Joe, Yo-Yo, and Barry,
+
+As we continue to push forward with our project, I want to emphasize the importance of maintaining a high level of quality assurance. In order to ensure that we meet our objectives, I'm proposing the following key performance indicators (KPIs):
+
+• Reduce defects by 15% within the next quarter
+• Increase customer satisfaction ratings by 20% within the same timeframe
+• Implement a rigorous testing and validation process for all software releases
+
+To achieve these goals, I suggest we:
+
+• Conduct regular code reviews to identify and address potential issues early on
+• Increase our testing capacity by 30% through automation and resource allocation
+• Establish clear metrics and reporting mechanisms to track progress and identify areas for improvement
+
+Let's work together to make sure we're setting ourselves up for success. If you have any questions or concerns, please don't hesitate to reach out.
+
+Best regards,
+Ed Burris
+Project Manager
+Cardiff Electric
++1 512-555-0155

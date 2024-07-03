@@ -1,0 +1,130 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, May 16, 1983 10:45 AM
+To:      Larry Goins; Malcolm Levitan
+
+Categories:    Wellness Check
+
+Dear Ed,
+
+I'm feeling regretful about not being more proactive in addressing those try-catch blocks. You're right, consistency is key when it comes to error-handling routines. I've been thinking a lot about this Wellness Check and how we can improve our processes.
+
+Regarding your suggestion to prioritize which parts of the codebase need attention, I agree that's crucial. I'll start reviewing the codebases and will be in touch soon with my findings.
+
+I appreciate your transparency and willingness to share updates on changes or modifications. That's exactly what I was hoping for when I started this Wellness Check. Let's keep the momentum going and make some real progress.
+
+
+
+From:    Ed Burris
+Sent:    Monday, May 16, 1983 10:45 AM
+To:      Larry Goins; Malcolm Levitan
+
+Categories:    Wellness Check
+
+Dear Malcolm,
+
+I'm feeling guilty about not being more proactive in addressing those try-catch blocks. You're right, consistency is key when it comes to error-handling routines. I've been thinking a lot about this Wellness Check and how we can improve our processes.
+
+Regarding the code review, I agree that we need to get on top of this. I've started reviewing some of the codebases, but to be honest, I'm feeling a bit overwhelmed. There's just so much code out there! Maybe we can work together to prioritize which parts of the codebase need the most attention.
+
+I appreciate your transparency and willingness to share updates on changes or modifications. That's exactly what I was hoping for when I started this Wellness Check. Let's keep the momentum going and make some real progress.
+
+
+
+From:    Malcolm Levitan
+Sent:    Monday, May 16, 1983 10:45 AM
+To:      Ed Burris; Larry Goins; Malcolm Levitan
+
+Categories:    Wellness Check
+
+Hi Yo-Yo,
+
+I'm thrilled to hear that you're feeling optimistic about the Wellness Check. I have to agree, there's nothing like a good code review to get those creative juices flowing again!
+
+Regarding our previous discussion on try-catch blocks and error-handling routines, I'm glad we're on the same page. It's crucial that we maintain system stability by addressing these inconsistencies. I've started reviewing the codebase and will be in touch soon with my findings.
+
+I appreciate your transparency and willingness to share updates on changes or modifications. That's exactly the kind of collaboration I love seeing! Let's keep the momentum going and make this Wellness Check a success.
+
+Very truly yours,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182
+
+
+From:    Yo-Yo Engberk
+Sent:    Monday, May 16, 1983 10:45 AM
+To:      Ed Burris; Larry Goins; Malcolm Levitan
+
+Categories:    Wellness Check
+
+Dear Malcolm,
+
+Ah, finally someone who gets me! You're talking about code and error-handling routines? That's like speaking my language, man! I mean, I know Barry might think it's all a bunch of hooey, but you get it. And let me tell you, I've been feeling inspired lately. Maybe it's the prospect of finally getting this Wellness Check thingy sorted out, or maybe it's just the fact that I'm feeling alive again.
+
+But anyway, back to the code. You're right on point about those try-catch blocks. I mean, who doesn't love a good catch-all? It's like, you never know what might go wrong, and when it does, you gotta be ready to swoop in and save the day. And yeah, I've seen those missing try-catch blocks too - it's like, what's up with that? We should totally get on top of this.
+
+As for updating you on changes or modifications, well, let me tell you, Malcolm - I'm all about transparency. You want to know what's going down in my code? Well, just ask me, and I'll give it to you straight. No beating around the bush, no sugarcoating. Just pure, unadulterated truth.
+
+So yeah, that's where I stand on this whole Wellness Check thing. Let's get to work, Malcolm! We can do this!
+
+Very truly yours,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142
+
+
+From:    Barry Shields
+Sent:    Monday, May 16, 1983 10:45 AM
+To:      Ed Burris; Larry Goins; Yo-Yo Engberk; Malcolm Levitan
+
+Categories:    Wellness Check
+
+Hi Malcolm,
+
+Surprise surprise, you're actually concerned about something other than trying to get me drunk? I mean, thank you for the Wellness Check, I suppose. But honestly, can't we just focus on getting this code written already?
+
+I take your point about try-catch blocks, but let's not get too hung up on it, okay? We've got bigger fish to fry than worrying about a few minor inconsistencies. Besides, have you seen the state of the error-handling routines in that awful Java program Chris is working on? Now that's something we should really be focusing our attention on.
+
+As for updating you on changes or modifications, I'm happy to do so... once I've had a few more beers, that is. Just kidding (kind of). Seriously though, I'll make sure to keep an eye out for any major issues and let you know if anything pops up.
+
+Cheers,
+Barry Shields
+Senior Counsel, Legal Department, Cardiff Electric
++1 512-555-0166
+
+
+From:    Malcolm Levitan
+Sent:    Monday, May 16, 1983 10:45 AM
+To:      Barry Shields; Ed Burris; Larry Goins; Yo-Yo Engberk
+
+Categories: Wellness Check
+
+Subject:    Wellness Check
+
+
+Hi Barry, Ed, Larry, and Yo-Yo,
+
+I've been reviewing our current codebase and noticed a few potential issues that warrant further investigation. Specifically, I'm concerned about the inconsistent use of try-catch blocks in our error-handling routines. As you know, this is critical for maintaining system stability.
+
+Here's an example of what I mean:
+```
+try {
+    // do something
+} catch (Exception e) {
+    System.out.println("Error: " + e.getMessage());
+}
+```
+
+However, I've noticed instances where the try-catch block is missing altogether. I believe it's essential we address this discrepancy to prevent potential crashes.
+
+Would you please review your code and provide an update on any changes or modifications you've made? I'd appreciate it if you could also indicate which parts of the codebase are affected by these inconsistencies.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+

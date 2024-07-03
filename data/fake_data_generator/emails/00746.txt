@@ -1,0 +1,51 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, February 03, 1983 02:01 PM
+To:      Yo-Yo Engberk
+
+Categories:    Quality Assurance
+
+Dear Barry,
+
+I'm starting to think that maybe I should just give up on quality assurance altogether. It's like, what's the point, right? We're Cardiff Electric, we can just wing it and hope for the best. But then again, maybe that's not entirely true. Maybe there is something to this QA thing after all. I mean, 12 new issues in the beta release? That sounds like a lot of problems to me.
+
+I'm feeling pretty obsessive about this whole thing, Barry. Like, I just want it to be perfect. But at the same time, I don't know if that's even possible. Maybe we should just focus on making it good enough and call it a day. What do you think? Do you have any advice for someone who is clearly stuck in this never-ending cycle of quality assurance hell?
+
+Very truly yours,
+Yo-Yo Engberk
++1 512-555-0142
+Programmer, Cardiff Electric, Software Development
+
+
+From:    Barry Shields
+Sent:    Thursday, February 03, 1983 02:01 PM
+To:      Yo-Yo Engberk
+
+Categories:    Quality Assurance
+
+Hi Yo-Yo,
+
+I don't know what kind of magic you're trying to brew up over there, but I'm not buying into this "QA team" nonsense. You're telling me they found 12 new issues in the beta release? That's just a bunch of hooey. I mean, come on, we're not dealing with a bunch of amateur hour rejects here. We're Cardiff Electric, for crying out loud!
+
+And don't even get me started on these "debugging" problems you're having. You call that debugging? That's just plain lazy. You can't tell me you didn't see this coming a mile away. I mean, seriously, what kind of QA does it take to miss something as obvious as that?
+
+You want some Q&A love? Ha! I'll give you some Q&A love. Listen up, Yo-Yo: the answer is simple. You don't need no stinkin' "quality assurance" team telling you what's wrong. You just need a good dose of common sense and a healthy disrespect for authority.
+
+That's my two cents. Take it or leave it.
+
+
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, February 03, 1983 02:01 PM
+To:      Barry Shields
+
+Categories: Quality Assurance
+
+Subject: 
+
+Dear Barry,
+
+Oh boy, am I having a crappy day. Just had to debug a 5-line code snippet that was supposed to be easy peasy, lemon squeezy (it's not). And to top it off, our QA team just pointed out 12 new issues in the beta release. I mean, what's up with those people? Don't they know we're trying to change the world here?
+
+I'm writing because I need some Q&A love. Can you help me get my sanity back on track? Maybe we can even grab a virtual coffee and brainstorm some ways to make our code more bulletproof (see what I did there?). Seriously though, I'd appreciate any insights or war stories you might have.
+

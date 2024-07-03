@@ -1,0 +1,18 @@
+
+From:    Cameron Howe
+Sent:    Friday, April 22, 1983 04:08 PM
+To:      Malcolm Levitan
+
+Categories: Technical Support
+
+Subject: 
+
+Hello Malcolm,
+
+The software's been acting wonky again and I think I've found the culprit - a pesky little bug that's been driving me nuts. I've got a patch that should fix it, but I need your eyeballs on it before we deploy. Can you come by the office tomorrow to take a look? Oh, and bring your A-game, I have some other ideas I want to bounce off you.
+
+Cameron Howe
+Lead Software Developer
+Cardiff Electric | Software Development
++1 512-555-0147
+

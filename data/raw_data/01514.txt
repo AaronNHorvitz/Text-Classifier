@@ -1,0 +1,23 @@
+
+From:    Gordon Clark
+Sent:    Wednesday, March 02, 1983 03:07 PM
+To:      Ed Burris; Donna Clark; Barry Shields
+
+Categories: Product Recall
+
+Subject: Product Recall Notification
+
+
+Dear Ed, Donna, and Barry,
+
+I'm writing to inform you that we've had a critical failure in the GEM 3000's power management system. It appears that a faulty component has been causing the units to malfunction and potentially damage the surrounding hardware. As Chief Engineer, I'm deeply disappointed that this issue was not caught during our testing phase.
+
+Our analysis indicates that the affected components were manufactured by a third-party supplier, but we will be conducting an internal review to determine how this oversight occurred. In the meantime, I've instructed the team to begin recalling the defective units and replacing them with new ones.
+
+I expect all of you to prioritize this issue and work closely with our manufacturing department to ensure a swift resolution.
+
+Sincerely,
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Cardiff Electric
+Engineering Department

@@ -1,0 +1,24 @@
+
+From:    Gordon Clark
+Sent:    Monday, January 31, 1983 03:47 PM
+To:      Joe MacMillan
+
+Categories: Compliance
+
+Subject: Compliance Issue - 1983 Mainframe Upgrade
+
+
+Dear Joe,
+
+I'm writing to bring to your attention a compliance issue that's been bothering me. Our recent upgrade of the mainframe system has introduced some... let's say, creative workarounds to accommodate our proprietary software. I've been trying to reconcile these deviations with our regulatory obligations, but it's like trying to find a needle in a haystack.
+
+The problem is that our new system doesn't fully comply with Section 3.2.1 of the Federal Trade Commission Act. Specifically, our modifications to the authentication protocol may not meet the required standards for data integrity and security. I've tried to massage the numbers, but my gut tells me we're skating on thin ice.
+
+I'd like to schedule a meeting with you to discuss this further and explore possible solutions. I'm open to hearing your thoughts and ideas, as always.
+
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Engineering
+Cardiff Electric
+

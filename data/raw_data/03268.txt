@@ -1,0 +1,20 @@
+
+From:    Cameron Howe
+Sent:    Tuesday, May 10, 1983 01:44 PM
+To:      Gordon Clark; Yo-Yo Engberk; John Bosworth; Malcolm Levitan
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Hello Gordon, Yo-Yo, John, and Malcolm,
+
+I'm writing to report that our system is still down. I know we're all feeling the pressure, but I believe we can find a way to get it back up and running. I've been poking around in the code and I think I might have found the problem.
+
+Let's schedule an emergency meeting to go over my findings and come up with a plan to get us back online. I'm available tomorrow morning at 9am, but let me know if that doesn't work for you.
+
+Best,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric, Software Development

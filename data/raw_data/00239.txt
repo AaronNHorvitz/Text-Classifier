@@ -1,0 +1,29 @@
+
+From:    Gordon Clark
+Sent:    Thursday, January 13, 1983 01:28 PM
+To:      Cameron Howe; Donna Clark; Barry Shields; Debbie Malinowski; Malcolm Levitan
+
+Categories: Expense Report
+
+Subject:    Expense Report
+
+
+Hello Cameron, Donna, Barry, Debbie, and Malcolm,
+
+I'm writing to provide an update on my recent expenses related to the development of Cardiff Electric's new operating system. As you know, I've been pouring over the code, trying to optimize it for maximum efficiency and scalability. In doing so, I've incurred some additional costs, which I'd like to itemize below:
+
+* $500 spent on upgrading my home workstation with a faster CPU and more RAM
+* $250 on a new software development kit (SDK) to help streamline the coding process
+* $100 on consulting services from an outside expert to help me debug some particularly tricky code segments
+
+These expenses are all directly related to my work on the operating system, and I believe they will yield significant benefits in terms of speed, stability, and overall performance. I've also included a detailed breakdown of each expense on the attached spreadsheet.
+
+If you have any questions or concerns, please don't hesitate to reach out. I'm confident that these expenses will be justified once we see the results of our efforts.
+
+Best regards,
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Cardiff Electric
+Engineering Department
+

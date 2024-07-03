@@ -1,0 +1,45 @@
+
+From:    Joe MacMillan
+Sent:    Wednesday, February 23, 1983 12:52 PM
+To:      Larry Goins
+
+Categories:    Quality Assurance
+
+Hi Larry,
+
+I gotta say, I'm feeling pretty tender about this QA issue. I mean, we've been at this for a while now, and I'm starting to think that maybe we're just not thinking outside the box here. You know what I mean? It's like we're stuck in some kind of software hell, and we don't know how to get out.
+
+I did take a look at your write-up, and yeah, it seems like we've got some major issues with this compiler. But you know me, Larry - I'm not one to give up easy. I think we need to think about this from a different angle. Maybe we're looking at this all wrong. Maybe the problem isn't with the compiler at all.
+
+So here's what I want to do. I want us to set aside some time and really drill down on this thing. Get out the whiteboards, the flowcharts - whatever it takes. And let's make a list of every single possibility, no matter how crazy it sounds. Because you know what? Sometimes those are the ideas that end up being the most brilliant.
+
+Very truly yours,
+Joe MacMillan
+Senior Product Manager, Cardiff Electric
+Product Management
++1 512-555-0132
+
+
+From:    Larry Goins
+Sent:    Wednesday, February 23, 1983 12:52 PM
+To:      Joe MacMillan
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Issue with GAUTHER-80 Software
+
+
+Dear Joe,
+
+I'm writing to follow up on the QA issue we've been experiencing with the GAUTHER-80 software. I know we were hoping to have this resolved by now, but unfortunately, it's proving to be more challenging than initially thought.
+
+The symptoms are consistent: after upgrading to version 2.1, users are reporting inconsistent data retrieval and errors in processing. Our initial troubleshooting suggests a conflict between the new compiler and an outdated library module. I've attached a detailed technical write-up outlining the steps we've taken so far and some potential solutions.
+
+I'm feeling a bit frustrated that we're still stuck on this issue, but I'm confident that with your expertise and our combined efforts, we can get to the bottom of it.
+
+Best regards,
+Larry Goins
+Support Technician
+Cardiff Electric
+Technical Support
++1 512-555-0144

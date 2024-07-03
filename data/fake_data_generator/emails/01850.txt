@@ -1,0 +1,113 @@
+
+From:    Larry Goins
+Sent:    Wednesday, March 16, 1983 02:28 PM
+To:      Donna Clark; Yo-Yo Engberk; Joe MacMillan; John Bosworth; Malcolm Levitan
+
+Categories:    Apology
+
+Hi Gordon,
+
+I'm feeling pretty joyful today, and I think that's because we're actually having a productive conversation about something that matters - apologies! You know, I was reading through Debbie's email, and I just had to jump in. I love how you brought up the point that we need to stop apologizing for every little thing. It's like, yeah, mistakes happen, but what are we really doing to fix them?
+
+I think Malcolm did a great job of analyzing and fixing the bug, and it's awesome that everyone's patting themselves on the back for it. I mean, who doesn't love a good "job well done"? But let's not get too caught up in celebrating just yet. What we really need to focus on is making sure those kinds of errors don't happen in the first place.
+
+So, here's my take: instead of apologizing all the time, can we try to have more of these conversations where we actually talk about what went wrong and how we can do better next time? I think that's where the real growth happens. And hey, if we're lucky, maybe our software will even start working like it's supposed to!
+
+
+
+From:    Gordon Clark
+Sent:    Wednesday, March 16, 1983 02:28 PM
+To:      Donna Clark; Larry Goins; Yo-Yo Engberk; Joe MacMillan; John Bosworth; Malcolm Levitan
+
+Categories:    Apology
+
+Dear Debbie,
+
+I'm not sure what's more annoying, the fact that we're constantly apologizing for errors or the fact that nobody seems to care about actually fixing the root cause of the problem. I mean, come on, Malcolm fixed the bug and now everyone's patting themselves on the back like it was some kind of major accomplishment. It's just code, folks!
+
+I'm tired of hearing about how we need to "step up our game" and start producing quality work. Newsflash: if you're not writing good code in the first place, then what are we even doing here? I'd rather have a team that can actually deliver than one that's just trying to cover their tracks with apologetic emails.
+
+
+
+From:    Debbie Malinowski
+Sent:    Wednesday, March 16, 1983 02:28 PM
+To:      Donna Clark; Larry Goins; Yo-Yo Engberk; Joe MacMillan; Gordon Clark; John Bosworth; Malcolm Levitan
+
+Categories:    Apology
+
+Hi Malcolm,
+
+I just can't believe how many times we've had to apologize for errors in our software. It's like, what are we even doing wrong? I know we're trying to make a name for ourselves in the industry, but come on! Can't we just get it right once?
+
+I mean, I'm glad you were able to fix the bug and all, but this is getting ridiculous. We need to step up our game and start producing some quality work. I don't know about you, Malcolm, but I'm sick of always having to apologize for something.
+
+Just my two cents.
+
+Very truly yours,
+Debbie Malinowski
+Secretary, Cardiff Electric Administration
++1 512-555-0133
+
+
+From:    Cameron Howe
+Sent:    Wednesday, March 16, 1983 02:28 PM
+To:      Donna Clark; Larry Goins; Yo-Yo Engberk; Joe MacMillan; Debbie Malinowski; Gordon Clark; John Bosworth; Malcolm Levitan
+
+Categories:    Apology
+
+Dear Malcolm,
+
+Thanks for taking the time to analyze and fix that bug. I'm glad our software is now functioning as intended, and I appreciate your prompt correction of the issue.
+
+I know how frustrating it can be when errors crop up, especially when we're trying to make a name for ourselves in the industry. But thanks to your expertise, we can rest assured that our systems are running smoothly again.
+
+Thanks again, Malcolm. You've done it again!
+
+
+
+From:    Ed Burris
+Sent:    Wednesday, March 16, 1983 02:28 PM
+To:      Donna Clark; Larry Goins; Yo-Yo Engberk; Joe MacMillan; Debbie Malinowski; Gordon Clark; John Bosworth; Cameron Howe; Malcolm Levitan
+
+Categories:    Apology
+
+Hi Malcolm,
+Thanks for getting that bug fixed. I'm glad to hear that our software is now functioning as intended. I apologize, though, that the error caused any inconvenience. We can't have our systems malfunctioning when we're trying to make a name for ourselves in the industry.
+
+I appreciate your thorough analysis and prompt correction of the issue. It's not always easy to identify the root cause of a problem, especially one as complex as this. I'm confident that with your expertise on board, we'll continue to push the boundaries of what's possible.
+
+Thanks again, Malcolm. You've done it again.
+
+
+From:    Malcolm Levitan
+Sent:    Wednesday, March 16, 1983 02:28 PM
+To:      Donna Clark; Ed Burris; Larry Goins; Yo-Yo Engberk; Joe MacMillan; Debbie Malinowski; Gordon Clark; John Bosworth; Cameron Howe
+
+Categories: Apology
+
+Subject:    Apology: Corrected Bug Fixation
+
+
+Dear team,
+
+I am pleased to report that after conducting a thorough analysis, I have successfully identified and corrected the bug causing intermittent errors in our software. The culprit was an incorrect assignment of the variable "data" in the loop iteration.
+
+The corrected code snippet is as follows:
+
+```java
+for (int i = 0; i < data.length; i++) {
+    if (data[i] == null) {
+        // Corrected: data[i] = new Object();
+        data[i] = new HashMap<>();
+    }
+}
+```
+
+I have tested the revised code and can confirm that it now functions as intended. I apologize for any inconvenience this error may have caused and appreciate your understanding.
+
+Best regards,
+Malcolm Levitan
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0182
+

@@ -1,0 +1,25 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, February 15, 1983 02:52 PM
+To:      Debbie Malinowski; Larry Goins
+
+Categories: Compliance
+
+Subject: Compliance Issue with New Code Deployment
+
+
+Dear Debbie and Larry,
+
+I am writing to express my concern regarding the recent changes made to our code deployment process. As you are aware, I have been working on the compliance module for several weeks now, and I am finding it difficult to reconcile the discrepancies between the new code and our existing protocols.
+
+Specifically, I am concerned about the impact this will have on our SOX controls and the potential risks associated with introducing untested changes into production. I would appreciate it if you could provide a detailed explanation of the decision-making process behind these changes.
+
+As you know, I take pride in my work and strive for precision and accuracy. However, I feel that my trust has been misplaced, and I am left with more questions than answers.
+
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182

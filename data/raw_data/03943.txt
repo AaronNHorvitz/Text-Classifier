@@ -1,0 +1,44 @@
+
+From:    Ed Burris
+Sent:    Friday, June 10, 1983 01:43 PM
+To:      Barry Shields
+
+Categories:    System Outage
+
+Hi Barry,
+
+Look, I don't want to sugarcoat it - I'm skeptical about this whole system outage thing. You're telling me that our company's data is compromised and we've got security breaches on our hands? That sounds like a whole lotta drama.
+
+Now, I'm not saying you're not worried or anything, but have you considered the possibility that maybe, just maybe, someone might be blowing things out of proportion here?
+
+I mean, I know it's your job to freak out about this kind of thing, but can we at least try to get some facts straight before we start scrambling around like a bunch of headless chickens?
+
+Very truly yours,
+Ed Burris
+Project Manager
+Cardiff Electric
+
+
+From:    Barry Shields
+Sent:    Friday, June 10, 1983 01:43 PM
+To:      Ed Burris
+
+Categories: System Outage
+
+Subject:    System Outage Notification
+
+
+Dear Ed,
+
+I am compelled to express my utmost frustration and concern regarding the recent system outage that has compromised the confidentiality, integrity, and availability of our company's data. As Senior Counsel in the Legal department, it is imperative that I emphasize the gravity of this situation.
+
+Pursuant to our company's policies and relevant legislation, I hereby notify you that we are experiencing a critical systems failure. This outage has resulted in unanticipated consequences, including but not limited to, potential security breaches, data corruption, and loss of productivity.
+
+I request that you take immediate action to rectify this situation and provide a comprehensive report detailing the root cause of the failure, remediation steps taken, and measures implemented to prevent future occurrences.
+
+Sincerely,
+
+Barry Shields
+Senior Counsel
++1 512-555-0166
+Cardiff Electric. Legal Department

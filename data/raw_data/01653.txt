@@ -1,0 +1,25 @@
+
+From:    Gordon Clark
+Sent:    Tuesday, March 08, 1983 02:20 PM
+To:      Barry Shields; Larry Goins
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Dear Barry and Larry,
+
+I'm writing to document the unacceptable system outage that occurred yesterday evening. The root cause, in my opinion, lies with the recent changes made to the mainframe configuration without consulting me or the engineering team. I had specifically warned against these modifications, citing potential instability issues.
+
+As a result of this unprofessional decision-making, we lost critical data and experienced a minimum of 30 minutes of downtime. Our customers were left in the dark, and our reputation suffered as a direct consequence.
+
+I expect a full investigation into this incident and a detailed report outlining the necessary steps to prevent such failures in the future.
+
+
+Sincerely,
+Gordon Clark
+Chief Engineer, Engineering
+Cardiff Electric
++1 512-555-0198
+

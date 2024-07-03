@@ -1,0 +1,23 @@
+
+From:    Larry Goins
+Sent:    Monday, June 13, 1983 11:11 AM
+To:      Debbie Malinowski; Cameron Howe; John Bosworth; Donna Clark
+
+Categories: Apology
+
+Subject: Apology for Recent Issue
+
+
+Hi Debbie, Cameron, John, and Donna,
+
+I wanted to follow up on the recent issue we experienced with the PC/XT compatibility problem. After conducting a thorough analysis and running some additional tests, I'm happy to report that our technical team has identified the root cause of the issue.
+
+To resolve this, please try the following troubleshooting steps: 1) restart your system in MS-DOS mode, 2) run scandisk to check for any disk errors, and 3) re-run the PC/XT compatibility test. If you continue to experience issues after these steps, please don't hesitate to reach out.
+
+I apologize again for any inconvenience this may have caused and appreciate your patience and understanding as we work to resolve this matter.
+
+Best regards,
+Larry Goins
+Support Technician
++1 512-555-0144
+Cardiff Electric - Technical Support

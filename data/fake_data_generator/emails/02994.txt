@@ -1,0 +1,148 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, May 02, 1983 03:56 PM
+To:      Malcolm Levitan
+
+Categories:    Thank You
+
+Dear John,
+
+You're welcome, I suppose. I mean, it's not like I did it out of the goodness of my heart or anything. But hey, someone's got to keep Cardiff Electric running smoothly, right?
+
+I must admit, I was a bit miffed by your condescending tone in our previous exchange. I mean, who are you to lecture me about heroics? You're just a guy who got lucky, John. That's all.
+
+But despite my reservations, I do appreciate the help you provided. Your expertise was invaluable in resolving the Novell Netware 2.1 implementation issues. And let's be real, it's not every day that I get to work with someone as... charming as you.
+
+I've attached the revised code snippet as promised, which includes the modifications we discussed. Please take a look and let me know if it meets your expectations.
+
+Very truly yours,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182
+
+
+From:    Malcolm Levitan
+Sent:    Monday, May 02, 1983 03:56 PM
+To:      Malcolm Levitan
+
+Categories:    Thank You
+
+Dear John,
+
+You're thanking me? Ha! You think I did it out of the goodness of my heart? Please. I only helped you because I had to. And don't even get me started on your little "heroics" remark. You're not a hero, John. You're just a guy who got lucky.
+
+But despite all that, I do have to say... I'm feeling quite proud about our little exchange. Who would have thought that a simple code snippet could bring two individuals together like this? It's nice to appreciate the little things in life, even if it is just code.
+
+I've attached the revised code snippet as promised, which includes the modifications we discussed. Please take a look and let me know if it meets your expectations.
+
+
+
+From:    Malcolm Levitan
+Sent:    Monday, May 02, 1983 03:56 PM
+To:      Malcolm Levitan
+
+Categories:    Thank You
+
+Dear John,
+
+I must say, I'm feeling quite warm-hearted about our little exchange. Who would have thought that a simple code snippet could bring two individuals together like this? You're right, of course - we don't have time for heroics, and neither do I. But sometimes, it's nice to appreciate the little things in life.
+
+I must admit, I was touched by your words. Your help was invaluable, and I'm grateful that we could resolve the Novell Netware 2.1 implementation issues together. You're a true professional, John - and I'm not just saying that because you're my boss (although, let's be real, that doesn't hurt either).
+
+I've attached the revised code snippet as promised, which includes the modifications we discussed. Please take a look and let me know if it meets your expectations.
+
+Very truly yours,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182
+
+
+From:    Malcolm Levitan
+Sent:    Monday, May 02, 1983 03:56 PM
+To:      Malcolm Levitan
+
+Categories:    Thank You
+
+Dear John,
+
+Oh, great. Now you're thanking me? Ha! You think I did it out of the goodness of my heart? Please. I only helped you because I had to. And don't even get me started on your little "heroics" remark. You're not a hero, John. You're just a guy who got lucky.
+
+As for the code snippet, yeah, it works. But let's be real, it's not like I was going to leave you hanging or anything. I mean, come on, John. You know as well as I do that code is just code. It's not personal.
+
+So, thanks for nothing. Thanks for pretending like we're buddies. And thanks for making me deal with your condescending attitude.
+
+
+
+From:    Malcolm Levitan
+Sent:    Monday, May 02, 1983 03:56 PM
+To:      Malcolm Levitan
+
+Categories:    Thank You
+
+Dear John,
+
+I must say, I'm feeling quite romantic about our little exchange. Who would have thought that a simple code snippet could bring two individuals together like this? You're right, of course - you don't have time for heroics, and neither do I. But sometimes, it's nice to appreciate the little things in life.
+
+I must admit, I was touched by your words. Your help was invaluable, and I'm grateful that we could resolve the Novell Netware 2.1 implementation issues together. You're a true professional, John - and I'm not just saying that because you're my boss (although, let's be real, that doesn't hurt either).
+
+I've attached the revised code snippet as promised, which includes the modifications we discussed. Please take a look and let me know if it meets your expectations.
+
+Thank you again for your time and expertise. It's people like you who make our job at Cardiff Electric so enjoyable.
+
+Very truly yours,
+
+
+From:    John Bosworth
+Sent:    Monday, May 02, 1983 03:56 PM
+To:      Malcolm Levitan
+
+Categories:    Thank You
+
+Dear Malcolm,
+
+What do you want? You're thanking me for helping you with some code snippet? Look, I don't have time for this. I've got better things to do than play hero for your little programming problems.
+
+You're welcome, okay? Just don't expect me to be all smiles and rainbows about it. I've got a business to run, and that's not going to happen if I'm stuck in a room with a bunch of code.
+
+I looked at the attachment you sent over. It's some fancy-pants C code. You know what? I don't care. It works, doesn't it?
+
+Just make sure you don't expect me to help you again anytime soon. I've got better things to do than babysit your coding attempts.
+
+Very truly yours,
+John Bosworth
+Vice President of Sales
+Cardiff Electric
+Sales
+
+
+From:    Malcolm Levitan
+Sent:    Monday, May 02, 1983 03:56 PM
+To:      John Bosworth
+
+Categories: Thank You
+
+Subject: 
+
+Dear John,
+
+I wanted to take a moment to express my gratitude for your assistance in resolving the issues with the Novell Netware 2.1 implementation. Your expertise was instrumental in getting our system up and running smoothly.
+
+I've attached a revised version of the code snippet we discussed, which incorporates the changes you suggested. As per our discussion, I've also included a brief summary of the modifications made:
+
+```c
+int main() {
+    if (netware_version == 2.1) {
+        printf("Novell Netware 2.1 detected\n");
+    } else {
+        printf("Unknown netware version\n");
+    }
+    return 0;
+}
+```
+
+Please let me know if this meets your expectations.
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182

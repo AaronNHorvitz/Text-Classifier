@@ -1,0 +1,23 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, May 30, 1983 03:45 PM
+To:      John Bosworth
+
+Categories: Product Launch
+
+Subject: 
+
+Product Launch: Technical Considerations
+
+Dear John,
+
+I've been reviewing the product launch plans and I wanted to touch base regarding some technical aspects. Specifically, I'm curious about the decision to use TCP/IP for the new system. As you know, I've been working on optimizing the network stack for our current project, and I think some of those optimizations could be applied to this new architecture.
+
+Have you considered implementing a packet buffer to reduce latency? I've seen similar approaches work well in other systems. Additionally, have we discussed the implications of using IPv4 versus IPv6 for the new system?
+
+Looking forward to hearing your thoughts on these matters.
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182

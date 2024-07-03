@@ -1,0 +1,72 @@
+
+From:    Malcolm Levitan
+Sent:    Sunday, April 10, 1983 12:58 PM
+To:      Larry Goins; John Bosworth; Malcolm Levitan
+
+Categories:    Training and Development
+
+Hi Barry,
+
+Thanks for getting back to me. I'm glad my proposal caught your attention - I was hoping it would. Automation and standardization can make a huge difference in our training process, don't you think? And incorporating coding exercises with automated feedback is going to be a game-changer.
+
+As for the timeline, I estimate we'll need about 8-10 weeks to implement this new module. That's assuming everything goes smoothly, of course. But I'm confident that with your support, we can make it happen even faster.
+
+I did want to clarify one thing - I know you mentioned Python and Flask, but are there any specific requirements or constraints we need to work within? I don't want to assume anything that might impact the final product.
+
+Thanks again for your feedback. I look forward to hearing from you soon.
+
+
+
+From:    Barry Shields
+Sent:    Sunday, April 10, 1983 12:58 PM
+To:      Larry Goins; John Bosworth; Malcolm Levitan
+
+Categories:    Training and Development
+
+Hi Malcolm,
+
+I love a good proposal, and yours definitely got my attention. I'm all about efficiency, and if we can squeeze out 15% of our training time through automation and standardization, that's a no-brainer. The idea of incorporating coding exercises with automated feedback is pure genius.
+
+As someone who's always looking to improve, I appreciate the detailed breakdown of benefits you provided. Reduced instructor time, improved student understanding, and enhanced code quality are all music to my ears. And hey, if we can implement this using Python and Flask, that's just icing on the cake.
+
+I do have one question: what kind of timeline are we looking at for implementation? I'd love to get a better sense of when we can expect to see these changes roll out.
+
+Very truly yours,
+Barry Shields
+Senior Counsel
+Cardiff Electric
+Legal
+
+
+From:    Malcolm Levitan
+Sent:    Sunday, April 10, 1983 12:58 PM
+To:      Barry Shields; Larry Goins; John Bosworth
+
+Categories: Training and Development
+
+Subject: 
+Training and Development: Proposal for Improved Efficiency
+
+
+Dear Barry, Larry, John,
+
+I've been analyzing our current training and development processes, and I believe we can improve efficiency by 15% through a combination of automation and standardization. To achieve this, I propose implementing a new training module that incorporates coding exercises with automated feedback.
+
+The key benefits will be:
+
+* Reduced instructor time (estimated 30%)
+* Improved student understanding (measured through quizzes)
+* Enhanced code quality (through automated testing)
+
+To implement this, I'll need to develop a custom solution using Python and Flask. This will require approximately 40 hours of development time, which I've factored into my project schedule.
+
+Please let me know if you have any questions or concerns. I'm happy to discuss the proposal in more detail.
+
+
+Malcolm Levitan
+Programmer
++1 512-555-0182
+Cardiff Electric
+Software Development
+
+

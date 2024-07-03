@@ -1,0 +1,17 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, May 19, 1983 03:30 PM
+To:      Larry Goins
+
+Categories: Technical Support
+
+Subject: Bug-squashing bonanza!
+
+Dear Larry,
+
+Hope life isn't too buggy (get it?) and that you're ready to tackle some tech troubles. I'm reaching out from the Software Development trenches, where we've been having a blast debugging and optimizing our code.
+
+I'd love to pick your brain about some of the more esoteric issues we've run into in Technical Support. You know how it is - sometimes those pesky bugs just won't squish themselves!
+
+Let me know if you're available for a chat, and we can schedule something that suits you.
+

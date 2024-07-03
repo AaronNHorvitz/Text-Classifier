@@ -1,0 +1,18 @@
+
+From:    Yo-Yo Engberk
+Sent:    Friday, April 29, 1983 03:36 PM
+To:      Larry Goins; Malcolm Levitan; John Bosworth; Joe MacMillan; Cameron Howe
+
+Categories: Quality Assurance
+
+Subject:    Quality Control Conundrum
+
+
+Hi all,
+
+I'm having a bit of a brain dump over here, and I hope someone can help me debug my thoughts. We've been discussing QA processes for our new OS, and I'm torn between two approaches. On the one hand, I love the idea of automating tests to ensure our code is bug-free. On the other hand, I worry that we'll be so focused on testing that we'll neglect actual feature development.
+
+Can anyone offer some insight or a sanity check? Should we prioritize precision over progress? Or vice versa?
+
+Thanks in advance for your thoughts! I'd love to hear from you guys and figure this out.
+

@@ -1,0 +1,21 @@
+
+From:    Gordon Clark
+Sent:    Wednesday, March 02, 1983 03:14 PM
+To:      John Bosworth
+
+Categories: Technical Support
+
+Subject: Technical Support Request: PC-XT Compatibility Issues
+
+Dear John,
+
+EMAIL BODY
+I'm writing to seek technical support regarding our efforts to integrate the PC-XT with Cardiff Electric's proprietary software. Despite several attempts, we're experiencing issues with compatibility and data transfer. I've attached a detailed breakdown of our findings and proposed solutions, but I wanted to brief you on the current status.
+
+Our team has tried multiple configurations, including reinitializing the XT's ROM and adjusting the software's handling of file structures. Unfortunately, these efforts have yielded mixed results, and we're struggling to pinpoint the root cause. Given your expertise in this area, I was hoping for some guidance on how to proceed.
+
+EMAIL BODY (continued)
+As you know, time is of the essence; our project timeline is already compromised by these technical hurdles. I'm confident that with your input, we can resolve these issues and get back on track.
+
+Please let me know if you're available to discuss this matter further.
+

@@ -1,0 +1,26 @@
+
+From:    Gordon Clark
+Sent:    Friday, July 08, 1983 10:33 AM
+To:      Ed Burris
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Protocols
+
+
+Dear Ed,
+
+You're going to love this. The latest quality assurance protocols I've been implementing are a joke. A pathetic attempt at standardization in an industry that can't even be bothered to standardize itself. But hey, what do I know? I'm just the Chief Engineer around here.
+
+I've been documenting every issue, every failure, and every anomaly we encounter on our merry way to creating the next big thing. You know what's not an anomaly? The number of times Cardiff Electric has to rework code because someone decided it was a good idea to "improve" something without bothering to test it first.
+
+I'm telling you, Ed, this place is a never-ending well of frustration. But hey, at least we're making progress... on paper. In reality, I'm just wasting my time trying to keep the wheels from falling off this rickety machine.
+
+Take care,
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer
+Cardiff Electric
+Engineering
+

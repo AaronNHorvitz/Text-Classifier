@@ -1,0 +1,61 @@
+
+From:    Gordon Clark
+Sent:    Wednesday, January 12, 1983 03:03 PM
+To:      Gordon Clark
+
+Categories:    System Outage
+
+Dear Yo-Yo,
+
+I'm not sure what kind of expectations you had when you sent that email, but I'm feeling pretty vulnerable right now. Your tone was... harsh. And I'm still trying to figure out how someone with your level of technical expertise can't tell the difference between a minor issue and a major catastrophe.
+
+As for the system logs, I've reviewed them myself. We did identify the root cause of the outage, and it wasn't as catastrophic as you made it sound. It was a simple database synchronization issue that we corrected easily.
+
+Regarding implementing a more robust monitoring system, I agree with you wholeheartedly. That's why I outlined some potential solutions in my previous email. Maybe next time you could try to focus on the actual problem instead of tearing me apart for not being perfect.
+
+
+
+From:    Yo-Yo Engberk
+Sent:    Wednesday, January 12, 1983 03:03 PM
+To:      Gordon Clark
+
+Categories:    System Outage
+
+Dear Gordon,
+
+I'm not impressed. A minor issue with the database synchronization? You think that's all there was to it? Please. That's just a Band-Aid on a bullet wound.
+
+You're telling me that after months of development, we're still stuck in the dark ages when it comes to monitoring our systems? That's rich coming from you, Chief Engineer. I'm surprised you didn't suggest putting a Ouija board in front of the mainframe to fix the problem.
+
+I've reviewed your "potential solutions" and let me tell you, they're as useful as a chocolate teapot. You're not even trying. If we don't get our act together, we'll be lucky if we can still find the server under all the dust and cobwebs.
+
+Very truly yours,
+
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142
+
+
+From:    Gordon Clark
+Sent:    Wednesday, January 12, 1983 03:03 PM
+To:      Yo-Yo Engberk
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+
+Dear Yo-Yo,
+
+I've been reviewing the system logs and I'm pleased to report that our team has identified the root cause of last night's outage. It was a minor issue with the database synchronization, easily corrected by updating the protocol stack.
+
+In terms of moving forward, I recommend we implement a more robust monitoring system to catch these types of issues before they become major problems. I've outlined some potential solutions in the attached document (see below).
+
+Please review and let me know if you have any questions or concerns.
+
+Gordon Clark
+Chief Engineer
++1 512-555-0198

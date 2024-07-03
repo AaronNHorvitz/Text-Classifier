@@ -1,0 +1,24 @@
+
+From:    Gordon Clark
+Sent:    Sunday, February 13, 1983 09:02 AM
+To:      Cameron Howe; Barry Shields
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Process Review
+
+
+Hi Cameron and Barry,
+
+I'm compelled to bring up some concerns regarding our quality assurance process. As Chief Engineer, I've noticed inconsistencies in the testing protocols that have left me questioning the reliability of our products. Specifically, I've identified a discrepancy in the frequency of burn-in tests on our latest prototype.
+
+I've reviewed the specifications and found that they're not aligned with the actual implementation. This lack of precision raises red flags for me, as it could compromise the overall performance and longevity of the product. I believe we should revisit the QA process to ensure compliance with industry standards and minimize the risk of defects.
+
+In light of this, I'd like to schedule a meeting with you both to discuss the details and potential solutions. Please let me know your availability at your earliest convenience.
+
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Cardiff Electric
+Engineering Department
+

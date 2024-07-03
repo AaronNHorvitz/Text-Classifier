@@ -1,0 +1,27 @@
+
+From:    Gordon Clark
+Sent:    Wednesday, March 23, 1983 11:59 AM
+To:      Malcolm Levitan; Debbie Malinowski; Larry Goins
+
+Categories: Compliance
+
+Subject: Compliance Issue with New Prototype
+
+
+Dear Malcolm, Debbie, Larry,
+
+I'm writing to express my frustration and disappointment regarding the compliance issues we're experiencing with the new prototype. Despite our best efforts, I've found several critical flaws that put us at risk of non-compliance. The most egregious issue is the incorrect labeling on the circuit board, which could lead to serious consequences if not addressed immediately.
+
+Furthermore, I'm concerned about the lack of documentation for the modifications made to the original design. This oversight will undoubtedly lead to further complications and delays in getting our product certified.
+
+I implore you all to take immediate action to rectify these issues. I've outlined the necessary steps below:
+
+1. Review and revise the labeling on the circuit board to conform to industry standards.
+2. Prepare comprehensive documentation for the modifications made to the original design, including detailed descriptions and diagrams.
+
+Please confirm receipt of this email and indicate your plan of action to address these compliance issues.
+
+Sincerely,
+Gordon Clark
+Chief Engineer, Engineering Department, Cardiff Electric
++1 512-555-0198

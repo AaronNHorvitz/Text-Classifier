@@ -1,0 +1,20 @@
+
+From:    Yo-Yo Engberk
+Sent:    Friday, May 06, 1983 01:09 PM
+To:      Joe MacMillan
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance - Where's the Fun?
+
+Dear Joe,
+
+I'm writing to vent about our QA process. It's like trying to debug a bad joke - nobody gets it, and we're all just stuck in an infinite loop of disappointment. I mean, what's the point of having a quality assurance department if we can't even have a little fun with it? It's like saying "Halt and Catch Fire" without actually firing anything.
+
+Seriously though, I think we need to rethink our approach. Maybe it's time to bring in some new ideas, or at least some new tests. I've got a few things cooking in my lab (see what I did there?), and I'd love to run them by you. Let me know when you're free.
+
+Best,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
++1 512-555-0142

@@ -1,0 +1,23 @@
+
+From:    Larry Goins
+Sent:    Friday, April 22, 1983 03:47 PM
+To:      Joe MacMillan; Barry Shields; John Bosworth
+
+Categories: Congratulations
+
+Subject:    Congratulations on your Recent Successes!
+
+Dear Joe, Barry, and John,
+
+EMAIL BODY START
+I'm writing to extend my sincerest congratulations to each of you on the recent successes we've had as a team. I must admit, I'm still feeling a bit embarrassed about how we managed to troubleshoot that pesky 8086 issue, but in hindsight, it's clear our combined expertise really paid off. It's not every day we get to say we fixed something that was previously thought impossible!
+
+EMAIL BODY END
+
+EMAIL SIGNATURE START
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric
+Technical Support
+

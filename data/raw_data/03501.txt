@@ -1,0 +1,26 @@
+
+From:    Cameron Howe
+Sent:    Tuesday, May 24, 1983 11:10 AM
+To:      John Bosworth; Gordon Clark
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Hi John and Gordon,
+
+Listen up, because I'm only going to say it once. We're hitting some walls with the code, and I think we need to take a step back and re-evaluate our approach. I've been staring at these lines of code for hours, and I just can't shake the feeling that we're trying to fit a square peg into a round hole.
+
+I'd like to propose a meeting to discuss our options and come up with a new plan of attack. Let's get together this week and hash it out. My gut is telling me we need to make some changes, and I don't want to waste any more time on something that's not going to work in the long run.
+
+Let me know what you're thinking.
+
+
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development
+
+

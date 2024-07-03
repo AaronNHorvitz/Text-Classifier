@@ -1,0 +1,21 @@
+
+From:    Cameron Howe
+Sent:    Monday, May 30, 1983 11:08 AM
+To:      Donna Clark; Gordon Clark; Joe MacMillan
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Hi Gordon, Donna, Joe,
+
+I'm writing to give you all a sigh of relief - we finally got the bug fixed and the code is looking good. It was a tough slog, but we're on track to hit our milestones. I'll be sending out a detailed report later today, but for now, just know that things are moving in the right direction.
+
+Let's catch up soon and discuss the next steps. Maybe over lunch?
+
+Cheers,
+Cameron Howe
+Lead Software Developer, Cardiff Electric - Software Development
++1 512-555-0147
+

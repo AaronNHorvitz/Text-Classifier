@@ -1,0 +1,31 @@
+
+From:    Larry Goins
+Sent:    Wednesday, May 04, 1983 02:17 PM
+To:      Malcolm Levitan; Cameron Howe
+
+Categories: Industry News
+
+Subject: Industry News: IBM's PC-AT Announcement
+
+
+Dear Malcolm and Cameron,
+
+I wanted to bring to your attention a recent industry development that I think has significant implications for our company. IBM recently announced their entry into the AT market with the PC-AT, which I believe will have a profound impact on the industry as a whole.
+
+In terms of technical implications, this means that we'll need to be prepared to support any potential issues related to this new hardware platform. As you know, Cardiff Electric is committed to providing top-notch support for our customers, and this development underscores the importance of staying ahead of the curve in terms of knowledge and expertise.
+
+I've included some key details from the announcement below:
+
+* The PC-AT will be available with a range of storage options, including 20MB and 30MB hard drives.
+* The machine is designed to be compatible with existing AT software, making it a viable option for businesses looking to upgrade their systems.
+* IBM has stated that they plan to aggressively market the PC-AT, which could lead to increased demand for our support services.
+
+If you have any questions or would like more information on this topic, please don't hesitate to reach out. I'm always happy to provide guidance and support where possible.
+
+
+Best regards,
+Larry Goins
+Support Technician
+Cardiff Electric
+Technical Support
++1 512-555-0144

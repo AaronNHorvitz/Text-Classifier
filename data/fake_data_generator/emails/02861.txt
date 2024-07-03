@@ -1,0 +1,25 @@
+
+From:    Larry Goins
+Sent:    Tuesday, April 26, 1983 04:42 PM
+To:      Debbie Malinowski; Malcolm Levitan
+
+Categories: Social Event
+
+Subject: 
+
+Hello Debbie and Malcolm,
+
+I hope this email finds you both well. I wanted to reach out and invite you to our upcoming social event, a potluck lunch and technical discussion group. It's been a great way for us to bond as colleagues outside of our usual work routine.
+
+If you're interested in attending, please let me know by the end of the week so we can get an accurate headcount. I've included some technical tips below on how to troubleshoot common issues with our new software, just in case you have any questions before the event.
+
+The main topics we'll be discussing during the social are best practices for troubleshooting and some new features we're implementing in our department. It's always great to get feedback from you both and hear your thoughts on how we can improve our processes.
+
+If you have any dietary restrictions or special requests, please don't hesitate to let me know. We want to make sure everyone has a great time!
+
+Best regards,
+Larry Goins
+Support Technician
++1 512-555-0144
+Cardiff Electric
+Technical Support

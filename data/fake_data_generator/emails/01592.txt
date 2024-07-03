@@ -1,0 +1,24 @@
+
+From:    Gordon Clark
+Sent:    Monday, March 07, 1983 02:55 PM
+To:      Barry Shields; Larry Goins; Cameron Howe; Joe MacMillan; John Bosworth
+
+Categories: Reminder
+
+Subject:    Reminder: IBM PC Clone Protocol
+
+
+Dear All,
+
+I'm writing to remind everyone that our team is still working on implementing the IBM PC clone protocol for Cardiff Electric's latest project. As you know, time is of the essence, and we're running a bit behind schedule.
+
+To clarify, I'd like to reiterate the importance of precision in this implementation. We can't afford any errors or miscalculations that might compromise the overall performance of our product. I've attached the revised protocol document for your review; please let me know if you have any questions or concerns.
+
+Let's work together to get this done efficiently and effectively.
+
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Engineering Department
+Cardiff Electric
+

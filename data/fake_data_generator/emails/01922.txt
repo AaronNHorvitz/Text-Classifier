@@ -1,0 +1,25 @@
+
+From:    Larry Goins
+Sent:    Monday, March 21, 1983 11:59 AM
+To:      Gordon Clark; John Bosworth; Yo-Yo Engberk
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Hi Gordon, John, and Yo-Yo,
+
+I'm excited to share some progress updates from the Technical Support department. Our team has been working diligently to troubleshoot and resolve the issues you've been experiencing with the PC/IX-1200 system. I'm happy to report that we've made significant headway in identifying the root cause of the problem.
+
+To recap, our investigation revealed that the error was due to an incorrect jumper setting on the motherboard. By adjusting this setting, we were able to successfully boot up the system and run a series of diagnostic tests without any issues.
+
+As a result, I recommend implementing these changes on all affected systems to ensure optimal performance. If you have any further questions or concerns, please don't hesitate to reach out. We're always here to help.
+
+Best regards,
+
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric
+Technical Support

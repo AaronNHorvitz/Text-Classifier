@@ -1,0 +1,32 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, January 25, 1983 02:25 PM
+To:      Donna Clark; Debbie Malinowski; Yo-Yo Engberk; Gordon Clark; Barry Shields; Cameron Howe; Larry Goins
+
+Categories: Supplier Relations
+
+Subject:    Supplier Relations: Software Development Update
+
+
+Hello Donna Clark, Debbie Malinowski, Yo-Yo Engberk, Gordon Clark, Barry Shields, Cameron Howe, and Larry Goins,
+
+As we continue to refine our supplier relations process, I wanted to share an update on the software development front. Following our last meeting, I've been reviewing our current contracts with suppliers and identifying areas for improvement.
+
+One notable finding is that our existing agreements do not explicitly address issues related to code ownership and intellectual property. To rectify this, I propose we revise our standard contract templates to include provisions that clearly outline these terms.
+
+To facilitate this process, I've drafted a revised template (see below) and would appreciate feedback from the team on its feasibility and potential drawbacks:
+
+`if supplier_has_code_ownership:
+    print("Code ownership is explicitly stated.")
+else:
+    print("Code ownership is not explicitly stated.")`
+
+Please let me know if you have any questions or concerns.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+

@@ -1,0 +1,30 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, June 06, 1983 11:51 AM
+To:      Joe MacMillan
+
+Categories: Compliance
+
+Subject: Compliance Category Issue
+
+
+Dear Joe,
+
+I'm writing to express surprise at the scope of the compliance category requirements. Upon reviewing the documentation, I noticed that the categories don't appear to align with our current implementation of the software.
+
+For instance, in the "Data Integrity" subcategory, I found a discrepancy between the specification and our actual code. Specifically, the requirement states that we must implement "Error Handling for Duplicate Data Entries" using try-catch blocks. However, in our existing codebase, we're already utilizing `std::optional` to handle this scenario.
+
+I'd appreciate it if you could clarify or provide more context on what is expected. I've attached a snippet of the relevant code below:
+
+```cpp
+if (duplicate_entry) {
+    try {
+        // processing code
+    } catch (const std::runtime_error& e) {
+        log_error(e.what());
+    }
+}
+```
+
+As you can see, we're already utilizing try-catch blocks to handle duplicate data entries.
+

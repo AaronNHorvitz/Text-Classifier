@@ -1,0 +1,24 @@
+
+From:    Gordon Clark
+Sent:    Monday, January 03, 1983 11:14 AM
+To:      Donna Clark; Debbie Malinowski; Larry Goins; Malcolm Levitan; Cameron Howe; Joe MacMillan; Ed Burris; John Bosworth; Barry Shields
+
+Categories: Industry News
+
+Subject: Industry News - IBM PC/AT and 802.86 Spec
+
+
+Dear colleagues,
+
+I'm writing to bring attention to recent developments in the industry that warrant our consideration as engineers at Cardiff Electric. Specifically, I'd like to highlight IBM's announcement of the PC/AT platform and the release of the 802.86 networking specification.
+
+As you may know, these advancements have significant implications for our work on the ENCORE project. In my opinion, we must begin exploring ways to integrate these technologies into our architecture to stay competitive in the market. I'd like to schedule a meeting with the team to discuss this further and brainstorm potential strategies.
+
+
+Best regards,
+Gordon Clark
++1 512-555-0198
+Chief Engineer
+Cardiff Electric
+Engineering
+

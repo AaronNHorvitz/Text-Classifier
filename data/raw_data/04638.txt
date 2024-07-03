@@ -1,0 +1,25 @@
+
+From:    Gordon Clark
+Sent:    Friday, July 08, 1983 03:41 PM
+To:      John Bosworth; Malcolm Levitan; Cameron Howe
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Dear John, Malcolm, Cameron,
+
+I'm pleased to report that our efforts have yielded significant progress. The new IBM PC clone is taking shape, and I'm confident we're on track to meet our deadline. The team has been working tirelessly to ensure a seamless integration of the components.
+
+In particular, I'd like to highlight the impressive work Cameron has done in debugging the 8088 processor. Her diligence has saved us considerable time and effort. Additionally, Malcolm's contributions to the custom ROM have been invaluable. His attention to detail is exceptional.
+
+As we move forward, I recommend we schedule a meeting to discuss the final stages of development and our go-to-market strategy. I believe it's essential to ensure a smooth rollout and capitalize on this opportunity.
+
+Best regards,
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Engineering Department
+Cardiff Electric
+

@@ -1,0 +1,26 @@
+
+From:    Gordon Clark
+Sent:    Wednesday, July 13, 1983 10:44 AM
+To:      Barry Shields
+
+Categories: Product Recall
+
+Subject: Product Recall: Analysis and Recommendations
+
+
+Barry Shields,
+
+I'm writing to you today about a pressing matter that requires immediate attention. Our product, the PC-1000, has been experiencing some... let's call them "growing pains." I've been going over the schematics, and I believe we have a design flaw that's causing the hardware to malfunction.
+
+As Chief Engineer in the Engineering department, it's my responsibility to identify the root cause of these issues. After conducting a thorough analysis, I've found that the problem lies with the capacitor array on the motherboard. It's not a manufacturing defect per se, but rather an unforeseen consequence of our innovative design choices.
+
+I recommend we initiate a product recall and replace all affected units. This will require some retooling and additional testing, but in the long run, it'll save us from potential lawsuits and damage to our reputation.
+
+I'd be happy to discuss this further with you and answer any questions you may have.
+
+
+Gordon Clark
+Chief Engineer, Cardiff Electric
+Engineering Department
+Phone: +1 512-555-0198
+

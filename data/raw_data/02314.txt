@@ -1,0 +1,39 @@
+
+From:    Joe MacMillan
+Sent:    Thursday, April 07, 1983 12:21 PM
+To:      Gordon Clark; Cameron Howe
+
+Categories:    Personal Milestone
+
+Dear Cameron,
+
+What is wrong with you people? You're celebrating 100 lines of working code like it's some kind of victory. Newsflash: that's not a milestone, that's a warm-up exercise. You're still in the sandbox, kiddie pool stage. I've seen high schoolers crank out better code.
+
+And another thing, what's with this "little victories" nonsense? In my book, there are no little victories. There are only big ones and failures. And if you're not willing to take risks and push the boundaries, then you might as well be working at some soul-sucking corporation.
+
+I'm the one who brought you into Cardiff Electric, Cameron. I saw something in you that Gordon didn't. But let me tell you, it's going to take a lot more than 100 lines of code to impress me.
+
+
+
+From:    Cameron Howe
+Sent:    Thursday, April 07, 1983 12:21 PM
+To:      Joe MacMillan; Gordon Clark
+
+Categories: Personal Milestone
+
+Subject:    Reaching Orbit
+
+
+Hi Joe and Gordon,
+
+I'm writing to mark a personal milestone - I just hit 100 lines of working code. It's not much, but it's a start. And honestly, it feels like a lot when you're trying to launch a new OS from scratch.
+
+I know we've got our differences, but I hope you'll both take a moment to appreciate the little victories. Cardiff Electric is starting to feel like home (mostly), and I'm excited to see what the future holds.
+
+
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development
+

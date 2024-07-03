@@ -1,0 +1,26 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, July 07, 1983 01:58 PM
+To:      Ed Burris; Donna Clark; John Bosworth; Larry Goins
+
+Categories: Quality Assurance
+
+Subject: 
+
+The QA Chronicles
+
+
+Hi Ed, Donna, John, and Larry,
+
+I hope this email finds you all in top debugging form! I've been thinking a lot about our Quality Assurance processes lately, and I have to say, I'm feeling a little nostalgic for the old days of testing by trial and error. Remember when we used to spend hours setting up test cases just to prove that a single line of code didn't break something else? Ah, those were the days!
+
+In all seriousness, though, I think it's high time we revisited our QA procedures and saw if there are any ways we can streamline things without sacrificing quality. Maybe we could even implement some new tools or processes to help us catch those pesky bugs before they make it to production.
+
+Let me know what you all think, and maybe we can schedule a meeting to discuss further.
+
+Cheers,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric - Software Development
++1 512-555-0142
+

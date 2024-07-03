@@ -1,0 +1,29 @@
+
+From:    Ed Burris
+Sent:    Thursday, March 03, 1983 10:58 AM
+To:      Gordon Clark; Yo-Yo Engberk; Larry Goins
+
+Categories: Vacation Notice
+
+Subject: Vacation Notice
+
+
+Dear Gordon, Yo-Yo, and Larry,
+
+I'm writing to provide advance notice of my upcoming vacation. As we approach the midpoint of our project timeline, I want to ensure that all necessary tasks are completed before my departure.
+
+To ensure a seamless transition, I've outlined key objectives for each of you:
+
+* Gordon: Complete the current iteration of the GUI design by EOD Friday
+* Yo-Yo: Finalize testing and debugging of the existing codebase
+* Larry: Ensure all system backups are up to date and perform a test restore
+
+I'm confident that with your expertise, we'll maintain momentum while I'm away. If any issues arise, please don't hesitate to reach out to me or our team lead.
+
+I've included my contact information below for any urgent matters.
+
+Best regards,
+Ed Burris
+Project Manager, Cardiff Electric, Project Management Department
++1 512-555-0155
+

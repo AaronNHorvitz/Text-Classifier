@@ -1,0 +1,20 @@
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, March 24, 1983 09:41 AM
+To:      Barry Shields
+
+Categories: Compliance
+
+Subject: Compliance Conundrum
+
+Hi Barry,
+
+I'm feeling like a code monkey on a caffeine high - we're getting close to hitting our compliance milestones, and I want to make sure we don't trip over any unexpected bugs. Seriously though, I need your expertise on the latest FDA guidelines for software development. Can you help me wrangle those pesky regulations?
+
+Let's get this compliance party started!
+
+Yo-Yo Engberk
+Programmer
+Cardiff Electric - Software Development
++1 512-555-0142
+

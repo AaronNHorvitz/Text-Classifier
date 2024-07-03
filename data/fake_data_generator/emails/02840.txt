@@ -1,0 +1,68 @@
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, April 26, 1983 03:12 PM
+To:      Barry Shields; Ed Burris; Cameron Howe; Joe MacMillan; Larry Goins; Gordon Clark; Malcolm Levitan
+
+Categories:    Wellness Check
+
+Dear Malcolm,
+
+Surprise, surprise! A wellness check? On a Tuesday? You know what they say: "When life gives you lemons, make lemonade. And then promptly spill that lemonade all over your shirt because, let's face it, Tuesdays are the worst."
+
+Seriously though, I did take a look at the script you attached and ran it on my local machine. The report looks... meh. I mean, we're not exactly setting the world on fire, are we? It seems like we're all just trying to put out fires instead of focusing on real progress.
+
+I'd love to discuss this further with you and the team. Maybe we can find a way to prioritize better and stop feeling so overwhelmed. Who knows, maybe we'll even learn to love Tuesdays (just kidding, that's never going to happen).
+
+
+
+From:    Donna Clark
+Sent:    Tuesday, April 26, 1983 03:12 PM
+To:      Yo-Yo Engberk; Barry Shields; Ed Burris; Cameron Howe; Joe MacMillan; Larry Goins; Gordon Clark; Malcolm Levitan
+
+Categories:    Wellness Check
+
+Hi Malcolm,
+
+I'm not sure what's more depressing, the fact that we're having a wellness check or that we have to do it on a Tuesday. I mean, can't we just leave the stress for Fridays?
+
+On a more serious note, I did review the script you attached and ran it on my local machine. The report looks fine, but I have to say, it's not giving me much hope. It seems like we're all struggling to meet our targets, and I'm starting to wonder if we're just trying to put out fires instead of focusing on real progress.
+
+I'd love to discuss this further with you and the team. Maybe we can find a way to prioritize better and stop feeling so overwhelmed.
+
+
+
+From:    Malcolm Levitan
+Sent:    Tuesday, April 26, 1983 03:12 PM
+To:      Yo-Yo Engberk; Donna Clark; Barry Shields; Ed Burris; Cameron Howe; Joe MacMillan; Larry Goins; Gordon Clark
+
+Categories: Wellness Check
+
+Subject: Wellness Check
+
+
+Dear All,
+
+I'm writing to perform a routine wellness check on our software development projects. As we approach the midpoint of the quarter, I want to ensure that we're all on track to meet our targets.
+
+To facilitate this process, I've created a simple script to gather some key metrics:
+```python
+metrics = {}
+for project in projects:
+    metrics[project] = {
+        'progress': project.progress,
+        'issues': len(project.issues),
+        'dependencies': [dep.name for dep in project.dependencies]
+    }
+print(metrics)
+```
+Please review the attached script and run it on your local machine to generate a report. This will help us identify any potential bottlenecks or areas that require attention.
+
+If you have any questions or concerns, please don't hesitate to reach out. I'm always here to lend a helping hand.
+
+Best regards,
+
+Malcolm Levitan
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0182
+

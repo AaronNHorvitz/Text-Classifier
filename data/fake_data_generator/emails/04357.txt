@@ -1,0 +1,22 @@
+
+From:    Yo-Yo Engberk
+Sent:    Wednesday, June 29, 1983 04:05 PM
+To:      Ed Burris; Barry Shields; John Bosworth; Cameron Howe; Malcolm Levitan
+
+Categories: Quality Assurance
+
+Subject:    QA Quest Begins!
+
+Hi all,
+
+Let's get this quality party started! I've been thinking a lot about our QA processes and how we can make them more... well, awesome. I mean, who doesn't love a good bug squash? As you know, I'm always up for a challenge, so I'd like to propose some new ideas to take our QA game to the next level.
+
+I've outlined my thoughts below, but let me know what you think! Your input is invaluable (or at least very useful).
+
+Best,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142
+

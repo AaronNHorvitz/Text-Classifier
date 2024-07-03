@@ -1,0 +1,29 @@
+
+From:    Malcolm Levitan
+Sent:    Friday, March 11, 1983 02:35 PM
+To:      John Bosworth; Yo-Yo Engberk
+
+Categories: Technical Support
+
+Subject:    Technical Support Query: 4.2.0 to 5.1.0 Upgrade
+
+
+Dear John and Yo-Yo,
+
+I am writing to seek assistance with a technical query regarding our recent software upgrade from version 4.2.0 to 5.1.0. Specifically, I have noticed that the new API endpoint for retrieving customer order history is returning an incorrect number of results.
+
+After reviewing the updated codebase, I believe the issue may be related to the changes made in commit #3456. The modified query now uses a LEFT JOIN instead of an INNER JOIN, which could potentially introduce false positives. However, upon further inspection, I realize that this change was intended to address the edge case where customers have multiple open orders.
+
+I have attached a snippet of the relevant code for your review:
+
+```sql
+SELECT o.id, c.name
+FROM orders o
+LEFT JOIN customers c ON o.customer_id = c.id
+WHERE o.status = 'open';
+```
+
+Could you please help me determine the root cause of this discrepancy and provide guidance on how to rectify it? I have tried re-running the migration script, but the issue persists.
+
+Thank you in advance for your prompt attention to this matter.
+

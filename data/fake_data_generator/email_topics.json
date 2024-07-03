@@ -1,0 +1,176 @@
+{
+  "email_topics": [
+    {
+      "topic": "Project Update",
+      "description": "Regular updates on the progress of ongoing projects, including milestones achieved, challenges faced, and next steps."
+    },
+    {
+      "topic": "Meeting Request",
+      "description": "Requests to schedule meetings, including proposed times, agendas, and participants."
+    },
+    {
+      "topic": "Technical Support",
+      "description": "Inquiries or issues related to technical problems, including software bugs, hardware malfunctions, and troubleshooting steps."
+    },
+    {
+      "topic": "Sales Inquiry",
+      "description": "Requests for information about products or services, including pricing, availability, and specifications."
+    },
+    {
+      "topic": "Customer Feedback",
+      "description": "Feedback from customers regarding their experiences with products or services, including suggestions for improvements."
+    },
+    {
+      "topic": "Product Launch",
+      "description": "Announcements and details about new product launches, including features, benefits, and availability."
+    },
+    {
+      "topic": "Invoice",
+      "description": "Communication regarding billing and payment, including sending invoices, payment reminders, and receipts."
+    },
+    {
+      "topic": "Contract Negotiation",
+      "description": "Discussions and negotiations related to contract terms, including pricing, deliverables, and timelines."
+    },
+    {
+      "topic": "HR Matters",
+      "description": "Communications related to human resources, including employee onboarding, performance reviews, and policy updates."
+    },
+    {
+      "topic": "Legal Advice",
+      "description": "Requests for or provision of legal advice, including contract reviews, compliance issues, and risk management."
+    },
+    {
+      "topic": "Marketing Campaign",
+      "description": "Details and updates about marketing campaigns, including strategies, timelines, and performance metrics."
+    },
+    {
+      "topic": "Event Planning",
+      "description": "Communications related to organizing and planning events, including logistics, invitations, and agendas."
+    },
+    {
+      "topic": "Training and Development",
+      "description": "Information about training sessions, workshops, and development programs, including schedules and materials."
+    },
+    {
+      "topic": "Research Collaboration",
+      "description": "Discussions about research projects and collaborations, including objectives, methodologies, and findings."
+    },
+    {
+      "topic": "Compliance",
+      "description": "Information and updates related to regulatory compliance, including audits, reports, and corrective actions."
+    },
+    {
+      "topic": "Supplier Relations",
+      "description": "Communications with suppliers regarding orders, deliveries, and product quality."
+    },
+    {
+      "topic": "Internal Announcement",
+      "description": "Announcements intended for internal staff, including policy changes, organizational updates, and employee recognitions."
+    },
+    {
+      "topic": "Press Release",
+      "description": "Drafts and approvals of press releases, including content, distribution plans, and media contacts."
+    },
+    {
+      "topic": "Quality Assurance",
+      "description": "Updates and reports on quality assurance activities, including testing results, issues identified, and corrective actions."
+    },
+    {
+      "topic": "Product Recall",
+      "description": "Information regarding product recalls, including reasons for recall, actions to be taken, and customer notifications."
+    },
+    {
+      "topic": "Expense Report",
+      "description": "Submission and approval of expense reports, including itemized expenses and receipts."
+    },
+    {
+      "topic": "New Hire Announcement",
+      "description": "Introduction of new employees, including their roles, backgrounds, and contact information."
+    },
+    {
+      "topic": "Performance Review",
+      "description": "Feedback on employee performance, including achievements, areas for improvement, and goals."
+    },
+    {
+      "topic": "Team Building",
+      "description": "Information and updates about team-building activities and events."
+    },
+    {
+      "topic": "Industry News",
+      "description": "Sharing relevant news and updates from the industry, including trends, innovations, and key developments."
+    },
+    {
+      "topic": "Office Relocation",
+      "description": "Information about office moves, including new addresses, moving schedules, and logistical details."
+    },
+    {
+      "topic": "System Outage",
+      "description": "Notifications about system outages, including causes, expected downtime, and resolutions."
+    },
+    {
+      "topic": "Health and Safety",
+      "description": "Communications about health and safety protocols, including updates, guidelines, and incident reports."
+    },
+    {
+      "topic": "Partnership Proposal",
+      "description": "Proposals for new business partnerships, including benefits, terms, and collaboration plans."
+    },
+    {
+      "topic": "Volunteer Opportunities",
+      "description": "Information about volunteer opportunities and community engagement activities."
+    },
+    {
+      "topic": "Vacation Notice",
+      "description": "Notifications about planned vacation or leave, including dates and any handover plans."
+    },
+    {
+      "topic": "Personal Milestone",
+      "description": "Sharing of personal milestones, such as anniversaries, birthdays, or other significant events."
+    },
+    {
+      "topic": "Social Event",
+      "description": "Information about social events, gatherings, or informal meetings."
+    },
+    {
+      "topic": "Wellness Check",
+      "description": "Messages checking on an individual's well-being, particularly after an illness or personal difficulty."
+    },
+    {
+      "topic": "Congratulations",
+      "description": "Sending congratulations for achievements, promotions, or personal milestones."
+    },
+    {
+      "topic": "Condolences",
+      "description": "Expressing sympathy and condolences in response to personal loss or difficult times."
+    },
+    {
+      "topic": "Apology",
+      "description": "Apologizing for mistakes, misunderstandings, or any actions that caused inconvenience."
+    },
+    {
+      "topic": "Thank You",
+      "description": "Expressing gratitude for help, support, or successful collaboration."
+    },
+    {
+      "topic": "Invitation",
+      "description": "Invitations to events, meetings, or social gatherings."
+    },
+    {
+      "topic": "Reminder",
+      "description": "Reminders about upcoming deadlines, meetings, or events."
+    },
+    {
+      "topic": "Personal Update",
+      "description": "Sharing personal updates or news with colleagues or team members."
+    },
+    {
+      "topic": "Holiday Greetings",
+      "description": "Sending seasonal or holiday greetings."
+    },
+    {
+      "topic": "None",
+      "description": "No specific topic assigned."
+    }
+  ]
+}

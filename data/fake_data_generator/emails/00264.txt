@@ -1,0 +1,64 @@
+
+From:    Larry Goins
+Sent:    Sunday, January 16, 1983 09:50 AM
+To:      Gordon Clark; Ed Burris; John Bosworth; Malcolm Levitan
+
+Categories:    Compliance
+
+Hi Cameron,
+
+I'm feeling pretty grateful to be honest. Grateful that we're on top of compliance, and grateful that someone like Malcolm is paying attention to these kinds of details. It's easy to get complacent when you're busy writing code, but it's guys like Malcolm who make sure we don't get slapped with a fine or worse.
+
+I think implementing a revised reporting procedure is a great idea. I mean, what's the point of being compliant if you're not gonna do it right? And besides, it'll give us an excuse to review our internal controls and make sure we're not missing anything else. You know what they say: "An ounce of prevention is worth a pound of cure."
+
+So yeah, let's get on that. I'm happy to help Malcolm out with whatever he needs.
+
+
+
+From:    Cameron Howe
+Sent:    Sunday, January 16, 1983 09:50 AM
+To:      Gordon Clark; Ed Burris; John Bosworth; Larry Goins; Malcolm Levitan
+
+Categories:    Compliance
+
+Hi Malcolm,
+
+Thanks for bringing this to our attention. Compliance is a critical part of what we do, and I'm glad you're on top of things. I've taken a quick look at the issue you described, and it sounds like a minor oversight that can be easily corrected.
+
+I agree that implementing a revised reporting procedure would be a good idea. In fact, I think it's something we should have been doing all along. It'll also give us an opportunity to review our internal controls and make sure we're not missing anything else.
+
+Let me know if you'd like to discuss this further or if there's anything specific you need from me to move forward.
+
+Very truly yours,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric
+Software Development
+
+
+From:    Malcolm Levitan
+Sent:    Sunday, January 16, 1983 09:50 AM
+To:      Gordon Clark; Ed Burris; John Bosworth; Cameron Howe; Larry Goins
+
+Categories: Compliance
+
+Subject: Compliance Issue: SEC Reporting
+
+
+Dear Gordon, Ed, John, Cameron, and Larry,
+
+I'm writing to bring attention to a compliance issue that requires our immediate attention. As you are aware, our software development process relies heavily on the SEC's guidelines for reporting financial data. Unfortunately, I've discovered a discrepancy in our quarterly report that necessitates re-filing with the commission.
+
+The issue revolves around a minor error in our 10-Q filing, which has caused a ripple effect in our subsequent reports. I've reviewed the code and can attest that it is not a critical security vulnerability, but rather an oversight on our part.
+
+To rectify this situation, I propose we implement a revised reporting procedure to ensure accuracy and compliance with SEC regulations. This will involve updating our internal controls and conducting a thorough review of all quarterly reports from 2013 onward.
+
+Please let me know if you have any questions or concerns regarding this matter.
+
+
+Malcolm Levitan
++1 512-555-0182
+Programmer, Cardiff Electric
+Software Development
+
+

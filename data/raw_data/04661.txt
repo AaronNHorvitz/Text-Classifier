@@ -1,0 +1,23 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, July 11, 1983 11:57 AM
+To:      Ed Burris
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Process Improvement
+
+
+Dear Ed,
+
+I'm writing to discuss the current state of our quality assurance process. As we're working on integrating new features into the operating system, I believe it's essential to revisit and refine our testing procedures.
+
+In particular, I've been thinking about the need for more comprehensive regression testing. Our existing framework is solid, but I think we can improve upon it by incorporating some of the techniques outlined in the recent paper on "Test-Driven Development" by Kent Beck (1995). Specifically, I'd like to explore using JUnit and its built-in assertion mechanisms to drive our testing.
+
+I've attached a rough outline of what this might look like in terms of code structure. Please take a look and let me know if you have any thoughts or suggestions.
+
+Best regards,
+Malcolm Levitan
+Programmer
++1 512-555-0182
+Cardiff Electric, Software Development

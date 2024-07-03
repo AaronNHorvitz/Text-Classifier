@@ -1,0 +1,30 @@
+
+From:    Larry Goins
+Sent:    Tuesday, May 17, 1983 11:26 AM
+To:      Cameron Howe; Donna Clark
+
+Categories: Reminder
+
+Subject: Reminder
+
+Dear Cameron and Donna,
+
+EMAIL BODY
+
+
+I'm reaching out to follow up on our previous discussions regarding the technical issues with the PC-XT. As we previously identified, the problem seems to be related to a faulty DMA controller. I've been working on some troubleshooting steps to help resolve this issue.
+
+Firstly, please ensure that the DMA channel is set correctly in the BIOS settings. If you're still experiencing problems, we can try updating the firmware or swapping out the controller chip altogether.
+
+I apologize for any inconvenience this may have caused and appreciate your patience as we work through this together.
+
+EMAIL BODY
+
+
+Sincerely,
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric
+Technical Support
+

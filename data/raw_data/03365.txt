@@ -1,0 +1,18 @@
+
+From:    Larry Goins
+Sent:    Wednesday, May 18, 1983 03:02 PM
+To:      Ed Burris
+
+Categories: Personal Milestone
+
+Subject: Personal Milestone
+
+
+Hi Ed,
+
+It's hard to believe that it's been two years since we first brought online those early PCs. It feels like just yesterday we were struggling to get the thing to boot up, and now look at us - we're talking about personal milestones! I still remember the first time a customer came in here looking for help with their IBM 5150. You know, it's funny how far we've come.
+
+In all seriousness, Ed, I wanted to touch base with you regarding your recent inquiry about troubleshooting a stuck disk drive. I've been going over the logs and it seems that the issue is related to a corrupted system file. I've attached some steps for you to follow to try and resolve the problem. If those don't work, please give me a call and we can walk through it together.
+
+Thanks again for your patience and understanding during this difficult time. It means a lot to me.
+

@@ -1,0 +1,149 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, March 16, 1983 02:26 PM
+To:      Ed Burris; Yo-Yo Engberk; Cameron Howe; Malcolm Levitan
+
+Categories:    Technical Support
+
+Dear Donna,
+
+Ah, nostalgia washes over me like a warm breeze as I read through this thread. Technical support, indeed! It's like we're transported back to the good old days when code was king and error handling was an art form.
+
+I must say, I'm impressed by the collective effort put forth in this email chain. Debbie's suggestion about using a more straightforward exception handling mechanism is spot on. And Barry... well, Barry's contribution is always... enlightening.
+
+As for me, I'm still stuck on the TRY-CATCH-THROW mechanism. It's like trying to tame a wild mustang - sometimes it works, other times it doesn't, and you're left wondering what just happened.
+
+But that's why we have each other, Donna. We're in this together, and together we can conquer even the most recalcitrant code.
+
+So, here's my question: what if I told you I've been experimenting with a new approach - a combination of error handling and... (drumroll) ... pattern recognition? Would that be a step in the right direction?
+
+
+
+From:    Donna Clark
+Sent:    Wednesday, March 16, 1983 02:26 PM
+To:      Ed Burris; Yo-Yo Engberk; Cameron Howe; Malcolm Levitan
+
+Categories:    Technical Support
+
+Dear Malcolm,
+
+I'm thrilled to dive into the world of JOVIAL error handling with you. Your code snippet has me intrigued, and I'm excited to help you unravel the mystery behind those pesky exceptions.
+
+After reviewing your code, I think Debbie's suggestion about using a more straightforward exception handling mechanism is spot on. Sometimes, simplicity can be the key to unlocking those tricky errors. However, I also understand Barry's point that the TRY-CATCH-THROW mechanism might be overkill for this problem.
+
+I'd love to hear more about your thoughts and see if we can't come up with a solution that's both elegant and efficient. Let's work together to find the perfect solution for your JOVIAL error handling conundrum.
+
+
+
+From:    Larry Goins
+Sent:    Wednesday, March 16, 1983 02:26 PM
+To:      Ed Burris; Yo-Yo Engberk; Cameron Howe; Donna Clark; Malcolm Levitan
+
+Categories:    Technical Support
+
+Dear Malcolm,
+
+Ah, technical support at its finest! I can feel the romance in the air as we dive into the world of JOVIAL error handling. Your code snippet has me swooning, and I'm excited to help you unravel the mystery behind those pesky exceptions.
+
+Firstly, I must say that Debbie's suggestion about using a more straightforward exception handling mechanism is spot on. Sometimes, simplicity can be the key to unlocking those tricky errors. However, I also understand Barry's point about the TRY-CATCH-THROW mechanism being overkill for this problem.
+
+My approach would be to combine Debbie's suggestion with a dash of creative problem-solving. Let's rethink our approach and see if we can't come up with a solution that's both elegant and efficient.
+
+Please share your thoughts, and let's work together to find the perfect solution for your JOVIAL error handling conundrum.
+
+
+
+From:    Joe MacMillan
+Sent:    Wednesday, March 16, 1983 02:26 PM
+To:      Ed Burris; Yo-Yo Engberk; Cameron Howe; Larry Goins; Donna Clark; Malcolm Levitan
+
+Categories:    Technical Support
+
+Dear Malcolm,
+
+I just wanted to take a moment to express my gratitude for the opportunity to work on this technical support request. Your issue with JOVIAL error handling is exactly the kind of challenge that gets me pumped up and ready to tackle some tough coding problems.
+
+In response to your code snippet, I think you're absolutely right to be frustrated with the TRY-CATCH-THROW mechanism. It's a complex beast, and sometimes it can take some creative problem-solving to get it working as intended.
+
+That being said, I do think Debbie's suggestion about using a more straightforward exception handling mechanism is worth exploring. Sometimes, simplicity can be the best approach when dealing with errors. Who knows, maybe we'll even discover a new way of doing things that will make our coding lives easier!
+
+Let me know if you have any further questions or concerns, and I'll do my best to help you out.
+
+
+
+From:    Barry Shields
+Sent:    Wednesday, March 16, 1983 02:26 PM
+To:      Joe MacMillan; Ed Burris; Yo-Yo Engberk; Cameron Howe; Larry Goins; Donna Clark; Malcolm Levitan
+
+Categories:    Technical Support
+
+Dear Malcolm,
+
+I don't have time for error handling. What I need is a solution that works, not some fancy try-catch mechanism. You're wasting my time with this JOVIAL nonsense.
+
+Now, I've reviewed your code snippet. It looks like you're trying to catch an exception and rethrow it with a custom error message. Look, Malcolm, this isn't rocket science. The problem is that the THROW command is being executed before the CATCH block even has a chance to handle the exception. You need to rethink your approach.
+
+Here's what I would do: I'd rewrite the code to use a more straightforward exception handling mechanism. Forget about TRY-CATCH-THROW; it's overkill for this problem. Just use a simple IF-THEN statement to check for errors and handle them accordingly.
+
+Look, Malcolm, I don't have all day to explain this to you. Get back to me with a revised code snippet that works, and we can move forward.
+
+Very truly yours,
+Barry Shields
+Senior Counsel, Cardiff Electric
++1 512-555-0166
+
+
+From:    Debbie Malinowski
+Sent:    Wednesday, March 16, 1983 02:26 PM
+To:      Joe MacMillan; Ed Burris; Yo-Yo Engberk; Cameron Howe; Barry Shields; Larry Goins; Donna Clark; Malcolm Levitan
+
+Categories:    Technical Support
+
+Dear Malcolm,
+
+Oh, my goodness! You're talking about JOVIAL error handling? That's like speaking my love language! I'm all ears (or in this case, all eyes) when it comes to technical support. Please, tell me more about what you're experiencing and how I can help.
+
+From what I've gathered from your snippet of code, it seems like the issue might be related to the TRY-CATCH-THROW mechanism. Have you tried debugging by adding some print statements or using a logging tool to see where the exception is being thrown? Sometimes, those pesky exceptions can be tricky to catch (pun intended!).
+
+Let me know if there's anything else I can do to assist you in resolving this issue. I'm here for you, Malcolm!
+
+Very truly yours,
+Debbie Malinowski
++1 512-555-0133
+Secretary, Administration, Cardiff Electric
+
+
+From:    Malcolm Levitan
+Sent:    Wednesday, March 16, 1983 02:26 PM
+To:      Debbie Malinowski; Joe MacMillan; Ed Burris; Yo-Yo Engberk; Cameron Howe; Barry Shields; Larry Goins; Donna Clark
+
+Categories: Technical Support
+
+Subject: 
+
+Technical Support Request: Error Handling in JOVIAL
+
+Hi Joe,
+
+I've been working on implementing error handling mechanisms in our JOVIAL compiler, and I'm experiencing some issues with the exception handling framework. Specifically, I'm seeing unexpected behavior when trying to catch and rethrow exceptions in certain scenarios.
+
+Here's a snippet of code that reproduces the issue:
+```
+JOVIAL_ERR_HANDLER:
+  TRY
+    CALL MY_FCN()
+  CATCH
+    SET ERRNO = "MY_FCN_ERROR"
+    THROW
+  ENDTRY
+END
+```
+
+As you know, proper error handling is crucial for ensuring the stability and reliability of our software. I'd greatly appreciate it if you could review this code snippet and provide guidance on how to resolve this issue.
+
+Best,
+Malcolm Levitan
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0182
+

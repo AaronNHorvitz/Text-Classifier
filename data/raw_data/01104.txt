@@ -1,0 +1,22 @@
+
+From:    Ed Burris
+Sent:    Tuesday, February 15, 1983 03:21 PM
+To:      Joe MacMillan; Larry Goins; Yo-Yo Engberk; John Bosworth
+
+Categories: Reminder
+
+Subject: Reminder
+
+
+Dear Joe, Larry, Yo-Yo, and John,
+
+I'm calling out to all of you because we're at a critical juncture in the project timeline. As your Project Manager, I want to ensure that we stay on track and meet our objectives.
+
+Here are the key points to focus on:
+
+• Finish debugging the 8086 emulator by EOD today
+• Complete the PCB revisions for the first prototype
+• Coordinate with Manufacturing to schedule production runs
+
+Let's get this done. We can't afford any further delays or setbacks. I expect each of you to prioritize these tasks and report back to me with progress updates.
+

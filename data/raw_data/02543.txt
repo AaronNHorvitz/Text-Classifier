@@ -1,0 +1,22 @@
+
+From:    Gordon Clark
+Sent:    Wednesday, April 13, 1983 12:29 PM
+To:      Barry Shields; Ed Burris; Yo-Yo Engberk; Larry Goins; John Bosworth; Cameron Howe; Malcolm Levitan; Joe MacMillan
+
+Categories: Technical Support
+
+Subject: Technical Support Request - Critical Error in OS/2 Emulation
+
+Dear All,
+
+I'm writing to request immediate assistance with a critical issue affecting our OS/2 emulation platform. The problem stems from an unexpected error sequence that's causing system crashes and data loss. I've attached the relevant debug logs, but I'll summarize the key points: the error code is 0x8000001A, and it's triggered by attempts to access the root directory.
+
+As you can imagine, this is a high-priority issue that requires prompt resolution. I've tried isolating the problem using various diagnostic tools, but so far, I haven't been able to identify the root cause.
+
+I'd appreciate any suggestions or insights you may have on how to troubleshoot and resolve this issue ASAP.
+
+Gordon Clark
+Chief Engineer, Engineering Department
+Cardiff Electric
++1 512-555-0198
+

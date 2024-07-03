@@ -1,0 +1,27 @@
+
+From:    Cameron Howe
+Sent:    Tuesday, July 19, 1983 03:14 PM
+To:      Larry Goins; Donna Clark
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Dear Larry and Donna,
+
+I'm writing to you from the trenches of despair. We're experiencing a system outage that's got me questioning everything we thought we knew about Cardiff Electric. It's like trying to hold water in my hands - the more I grasp, the more it slips away.
+
+The truth is, I've never felt so helpless as a developer. Our code's a mess, and I'm starting to think it's not just the bugs that are the problem, but our entire approach. We're chasing a moving target, trying to stay ahead of the curve without understanding what we're really building.
+
+I know this sounds like a rant, but I need you both to know that I'm serious about changing things around here. We can't keep patching up the same old problems and expecting different results. It's time for us to take a step back, re-evaluate our priorities, and start building something that actually matters.
+
+That's all for now.
+
+
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric
+Software Development Department
+
+

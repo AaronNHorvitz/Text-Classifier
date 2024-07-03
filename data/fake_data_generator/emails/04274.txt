@@ -1,0 +1,27 @@
+
+From:    Larry Goins
+Sent:    Tuesday, June 21, 1983 01:01 PM
+To:      Malcolm Levitan; Donna Clark; Joe MacMillan
+
+Categories: Quality Assurance
+
+Subject: 
+
+Quality Assurance Concerns - Frustration Mounting
+
+
+Dear Malcolm, Donna, and Joe,
+
+I'm writing to express my growing frustration with the Quality Assurance process. As a Support Technician in Technical Support, I've been dealing with an increasing number of issues that seem to stem from inconsistent testing procedures. It's like we're chasing our tails trying to find the root cause of these problems.
+
+For instance, just yesterday, I spent over an hour troubleshooting a issue that was caused by a faulty component that wasn't properly flagged during QA. This is not the first time this has happened, and it's getting old.
+
+I've tried to bring this up in previous meetings, but my suggestions seem to fall on deaf ears. I'm starting to feel like we're not taking our process seriously enough. It's like we're just trying to patch things together rather than addressing the root causes.
+
+I'd appreciate any guidance or feedback you can offer on how to improve our Quality Assurance processes.
+
+
+Best,
+Larry Goins
++1 512-555-0144
+Support Technician, Cardiff Electric, Technical Support

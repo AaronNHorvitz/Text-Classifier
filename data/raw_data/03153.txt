@@ -1,0 +1,21 @@
+
+From:    Gordon Clark
+Sent:    Friday, May 06, 1983 10:55 AM
+To:      Barry Shields; Donna Clark; John Bosworth
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Process Improvements
+
+Dear Barry, Donna, and John,
+
+I've been reviewing our QA processes and I'm convinced we can streamline them to better reflect our engineering standards. Specifically, I think we can eliminate unnecessary steps in the testing phase and implement a more efficient documentation system.
+
+It's frustrating to see us still relying on manual checks when we're capable of automating so much of this process. I've seen similar approaches used at other companies with great success. I believe it's time for us to catch up and make some real improvements here.
+
+I'd like to schedule a meeting to discuss these ideas in more detail and explore the potential benefits. Let me know your availability and we can work out a time that suits everyone.
+
+Best regards,
+Gordon Clark
+Chief Engineer, Cardiff Electric Engineering Department
++1 512-555-0198

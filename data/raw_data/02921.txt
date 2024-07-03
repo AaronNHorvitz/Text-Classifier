@@ -1,0 +1,36 @@
+
+From:    Ed Burris
+Sent:    Friday, April 29, 1983 12:52 PM
+To:      Malcolm Levitan; Donna Clark; John Bosworth; Yo-Yo Engberk
+
+Categories:    Technical Support
+
+Hi Yo-Yo,
+
+Thanks for reaching out about those technical issues. You're right to keep us in the loop - we can't have our build being held hostage by teething problems, after all. I'm happy to help with any debugging you need to do - what specific bugs are causing you grief?
+
+Take it easy,
+Ed Burris
+
+Project Manager
+Cardiff Electric
+Project Management
+
+
+
+From:    Yo-Yo Engberk
+Sent:    Friday, April 29, 1983 12:52 PM
+To:      Malcolm Levitan; Ed Burris; Donna Clark; John Bosworth
+
+Categories: Technical Support
+
+Subject: Bugs & Bytes
+
+
+
+Hi Malcolm, Ed, Donna, and John,
+
+I hope this email finds you all coding like crazy! I wanted to touch base about some technical support issues that have been popping up. It seems our latest build is having some... let's call them "teething" problems. I'm working on a fix, but in the meantime, I thought it would be helpful to send out a general heads-up.
+
+On a slightly more personal note, I've been feeling like there's been a bug in my system lately - the kind that only gets fixed with a little bit of love and attention. Maybe one of you can help me debug?
+

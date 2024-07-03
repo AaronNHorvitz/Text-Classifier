@@ -1,0 +1,14 @@
+
+From:    Yo-Yo Engberk
+Sent:    Wednesday, March 30, 1983 12:02 PM
+To:      Ed Burris; Gordon Clark; Malcolm Levitan; Larry Goins; Debbie Malinowski
+
+Categories: Project Update
+
+Subject: Project Update
+
+
+Dear All,
+
+I hope this email finds you coding like the wind and not stuck in an infinite loop of meetings. I just wanted to drop a quick update on the project status. We're still chugging along, making great progress and having fun (well, as much fun as one can have writing code). The new features are coming along swimmingly, and I'm excited to show you all the goodies we've been working on.
+

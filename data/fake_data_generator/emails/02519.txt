@@ -1,0 +1,24 @@
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, April 12, 1983 09:04 AM
+To:      John Bosworth
+
+Categories: Project Update
+
+Subject: Project Update
+
+Hi John,
+
+I'm thrilled to report that our project is still humming along like a well-oiled machine (okay, maybe not quite, but it's doing okay!). We've hit some minor snags, but nothing a little creative debugging can't handle.
+
+On the bright side, we're making great progress on the user interface and I think you'll be impressed when you see the latest prototype. It's starting to look like something that won't make our users' eyes glaze over in confusion.
+
+Let me know if you have any questions or concerns. I'd love to chat more about it over a virtual cup of coffee (or beer, if you prefer!).
+
+Best,
+Yo-Yo Engberk
+Programmer
++1 512-555-0142
+Cardiff Electric
+Software Development
+

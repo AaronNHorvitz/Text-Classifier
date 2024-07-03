@@ -1,0 +1,71 @@
+
+From:    Larry Goins
+Sent:    Monday, June 13, 1983 03:33 PM
+To:      Yo-Yo Engberk; Barry Shields; Ed Burris; Larry Goins
+
+Categories:    Quality Assurance
+
+Dear Joe,
+
+I hope this email finds you well. I have to say, I'm feeling pretty content right now, just thinking about our conversation yesterday. You're absolutely right that we need to think about the bigger picture when it comes to Quality Assurance. But let me tell you, my friend, having a solid QA process in place is crucial for building trust with our customers and partners.
+
+I don't mean to contradict what you said earlier, but I think we can strike a balance between testing and looking at the bigger picture. By implementing more rigorous testing procedures, we can minimize errors and ensure a smoother user experience. This will not only benefit our customers but also reflect positively on Cardiff Electric as a whole.
+
+Let's set up a meeting to discuss this further and explore ways to improve our QA process. I think it would be beneficial to bring in some outside expertise to help us identify areas where we can improve.
+
+Best regards,
+Larry Goins
+Support Technician
+Cardiff Electric
+Technical Support
++1 512-555-0144
+
+
+From:    Joe MacMillan
+Sent:    Monday, June 13, 1983 03:33 PM
+To:      Yo-Yo Engberk; Barry Shields; Ed Burris; Larry Goins
+
+Categories:    Quality Assurance
+
+Hi Larry,
+
+I got your email. Quality Assurance, huh? Yeah, I'm all about that. In fact, I think it's the key to getting Cardiff Electric where we need to be. I mean, let's face it, our products are still stuck in the Stone Age. We're not exactly redefining the boundaries of technology here.
+
+But, hey, I get it. You want to make sure what we ship doesn't suck. And that's a noble pursuit. My problem is, Larry, I don't think you're looking at this from the right angle. We need to stop worrying so much about testing and start thinking about the bigger picture. What are our customers going to do with these products? Are they going to use them or just collect dust on a shelf?
+
+I'm not saying we should ignore QA, but let's put it into perspective. We're trying to change the game here, Larry. We can't afford to get bogged down in process and procedure.
+
+Very truly yours,
+
+Joe MacMillan
++1 512-555-0132
+Senior Product Manager
+Cardiff Electric
+Product Management
+
+
+From:    Larry Goins
+Sent:    Monday, June 13, 1983 03:33 PM
+To:      Yo-Yo Engberk; Joe MacMillan; Barry Shields; Ed Burris
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance - Some Thoughts
+
+
+Hello Yo-Yo, Joe, Barry, and Ed,
+
+I hope this email finds you all well. I'm sitting here in the Cardiff Electric lab, surrounded by the hum of our equipment and the smell of fresh coffee, feeling nostalgic for the good old days of IBM PCs and Apple IIe's. Ah, those were the days!
+
+On a more serious note, I wanted to reach out about our Quality Assurance process. As you know, we're always looking for ways to improve our products and services. In my opinion, having a robust QA process in place is crucial to ensuring that what we ship meets the highest standards.
+
+In particular, I think it would be beneficial to implement more rigorous testing procedures for our software releases. This could include more thorough bug hunting, as well as stress-testing and compatibility checks. By doing so, we can minimize errors and ensure a smoother user experience.
+
+I'd love to discuss this further with you all and hear your thoughts on the matter. Let me know if you're available to meet up sometime soon.
+
+Best regards,
+Larry Goins
+Support Technician
+Cardiff Electric
+Technical Support
++1 512-555-0144

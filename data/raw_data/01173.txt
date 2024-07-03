@@ -1,0 +1,65 @@
+
+From:    Gordon Clark
+Sent:    Wednesday, February 16, 1983 10:56 AM
+To:      Larry Goins; Cameron Howe; Debbie Malinowski; Barry Shields
+
+Categories:    Technical Support
+
+Hi Barry,
+
+Man, I'm feeling inspired today. Maybe it's because Ed just blew a gasket over at the Project Management department, or maybe it's because I just figured out how to optimize our server architecture. Whatever it is, it's got me pumped and ready to tackle this technical support mess.
+
+Look, I get what you're saying about consistency in categorization. And yeah, we've got a system that works for us. But let me tell you, Barry, we don't need some fancy consultant coming in here telling us how to do our jobs either. We're engineers, not accountants. We know how to troubleshoot and fix problems. And if our categories are good enough for Ed Burris, they're good enough for the Legal department.
+
+So, what's the criteria for determining which requests fall under Troubleshooting or Configuration? Well, it's simple: we look at the symptoms, identify the root cause, and then fix it. If that means moving a file from one directory to another, we do it. If that means rewriting code, we do that too. And if that means explaining it in plain English so even Ed can understand it, we'll do that as well.
+
+So, there you have it, Barry. That's our technical support process in a nutshell. If you're still not satisfied, I'm happy to walk you through it again. Or better yet, come on down to the Engineering department and see for yourself how we work our magic.
+
+
+
+From:    Ed Burris
+Sent:    Wednesday, February 16, 1983 10:56 AM
+To:      Larry Goins; Cameron Howe; Gordon Clark; Debbie Malinowski; Barry Shields
+
+Categories:    Technical Support
+
+Hello Barry,
+
+Listen, I don't know what kind of nonsense is going on in the Legal department, but let me tell you something. We're not just a bunch of IT guys trying to troubleshoot problems all day long. We're a team that works together to make sure Cardiff Electric's systems run smoothly and efficiently.
+
+Now, when it comes to categorizing technical support requests, I can assure you that we've got a system in place that makes sense. And before I get into the details, let me just say that we don't need some outside consultant coming in here telling us how to do our jobs.
+
+Our team uses a combination of problem-solving skills and technical expertise to determine which category an issue falls under. We're not just looking at the symptoms; we're trying to identify the root cause of the problem. And that's what makes our approach so effective.
+
+So, if you want to know more about how we categorize technical support requests, I'd be happy to walk you through it. But let me tell you this: we don't need no stinkin' procedure or protocol to do our job right.
+
+Very truly yours,
+Ed Burris
++1 512-555-0155
+Project Manager
+Cardiff Electric
+Project Management
+
+
+From:    Barry Shields
+Sent:    Wednesday, February 16, 1983 10:56 AM
+To:      Ed Burris; Larry Goins; Cameron Howe; Gordon Clark; Debbie Malinowski
+
+Categories: Technical Support
+
+Subject: Technical Support - Clarification Request
+
+Dear Ed, Larry, Cameron, Gordon, and Debbie,
+
+While reviewing recent technical support requests, I have noticed a pattern of inconsistencies in the categorization of issues. As Senior Counsel in the Legal department, it is essential that we maintain precise classification to ensure compliance with relevant regulations.
+
+In light of this, I am requesting clarification on the categorization process used by your team. Specifically, I would like to know the criteria employed for determining which technical support requests fall under the 'Troubleshooting' or 'Configuration' categories.
+
+Please provide a detailed response outlining the procedures and protocols in place for technical support issue classification.
+
+Sincerely,
+Barry Shields
+Senior Counsel, Legal Department
+Cardiff Electric
++1 512-555-0166
+

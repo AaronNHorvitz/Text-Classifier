@@ -1,0 +1,20 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, June 08, 1983 04:26 PM
+To:      Malcolm Levitan
+
+Categories: Technical Support
+
+Subject:    Fixing the FUBAR in our Technical Support
+
+Dear Malcolm,
+
+Let's get real - our Technical Support is a hot mess. I'm not here to sugarcoat it, but someone needs to say it out loud. We're getting slammed with complaints and issues that are just begging to be squashed.
+
+I've been digging through the code, and I think I can identify some of the root causes (or at least major contributors). I'd love to set up a meeting to go over my findings and brainstorm some solutions. Maybe we can even get some of our other devs involved to help spin this mess back under control.
+
+Let me know when you're free, and we can schedule something that won't make me want to pull my hair out.
+
+Cameron Howe
+Lead Software Developer
++1 512-555-0147

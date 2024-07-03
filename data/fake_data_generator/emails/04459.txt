@@ -1,0 +1,110 @@
+
+From:    Cameron Howe
+Sent:    Friday, July 01, 1983 10:39 AM
+To:      Debbie Malinowski; Donna Clark; Ed Burris; Gordon Clark; Joe MacMillan; Yo-Yo Engberk; Malcolm Levitan
+
+Categories:    Product Launch
+
+Hi Malcolm,
+
+I'm feeling collaborative today, and I think we can all benefit from a constructive conversation about the product launch. While I understand your technical concerns, I believe we need to take a step back and look at the bigger picture.
+
+We're not just building a product; we're creating an experience for our customers. And if that means pushing back the launch date or making some compromises along the way, then so be it. I'd rather have a solid, reliable product that meets user expectations than rush something out the door that's half-baked.
+
+Let's not get too hung up on the technical issues just yet. Instead, let's focus on what we want to achieve with this product launch. Is it to make some money? Is it to prove a point to someone? Or is it to create something truly innovative and game-changing?
+
+I think we should schedule that emergency meeting John was talking about and hash out our priorities as a team. We can figure out what's going on and come up with some solutions together.
+
+Very truly yours,
+Cameron Howe
+
+
+From:    Barry Shields
+Sent:    Friday, July 01, 1983 10:39 AM
+To:      Debbie Malinowski; Cameron Howe; Donna Clark; Ed Burris; Gordon Clark; Joe MacMillan; Yo-Yo Engberk; Malcolm Levitan
+
+Categories:    Product Launch
+
+Dear Malcolm,
+
+I'm writing to you today feeling disappointed. Your latest update on the product launch has left me with more questions than answers. It seems like every time we think we're making progress, new issues pop up and we're right back where we started.
+
+Look, I get it. You're a software developer and your job is to make sure our product is top-notch. And I respect that. But sometimes I feel like you're so focused on the technical aspects of this thing that you forget about the bigger picture. What's the point of having a product that's perfect if nobody wants to use it?
+
+I think we need to take a step back and look at what's really going on here. Are we trying to make some money? Are we trying to prove a point? Or are we just trying to get something out there because we can't stand the thought of not having anything to show for our efforts? Because if it's the latter, then I think we're doing ourselves a disservice.
+
+I'm not saying that you're wrong to be concerned about the technical issues. But maybe instead of getting bogged down in all the details, we should focus on what's really important here. What do we want to achieve with this product launch? Is it to make some money, or is it to prove a point to someone?
+
+Let's not get too hung up on the technical issues just yet. Let's have that emergency meeting John was talking about and hash this out as a team. We can figure out what's going on and come up with some solutions together.
+
+
+
+From:    Larry Goins
+Sent:    Friday, July 01, 1983 10:39 AM
+To:      Debbie Malinowski; Cameron Howe; Donna Clark; Ed Burris; Gordon Clark; Barry Shields; Joe MacMillan; Yo-Yo Engberk; Malcolm Levitan
+
+Categories:    Product Launch
+
+Hi Malcolm,
+
+I'm feeling grateful today because someone's gotta bring some positivity to this situation. I just got done talking to John, and he's all worked up about the product launch too. He thinks we're stuck in neutral forever if we don't get it right.
+
+Look, I understand your technical concerns, and I think you're right to be frustrated. But sometimes, we gotta take a step back and look at the bigger picture. We can't just throw our hands up and say, "Oh no, this is all going wrong!" That's not how we roll, my friend.
+
+I'm thinking that instead of getting bogged down in the details, we should focus on what's important here. What do we want to achieve with this product launch? Is it to make some money, or is it to prove a point to someone? If it's just about making a quick buck, then maybe we should rethink our priorities.
+
+Let's not get too hung up on the technical issues just yet. Let's have that emergency meeting John was talking about, and let's hash this out as a team. We can figure out what's going on and come up with some solutions together.
+
+That's my two cents for now. Take it easy, partner.
+
+Very truly yours,
+Larry Goins
++1 512-555-0144
+Support Technician
+Cardiff Electric
+Technical Support
+
+
+From:    John Bosworth
+Sent:    Friday, July 01, 1983 10:39 AM
+To:      Debbie Malinowski; Cameron Howe; Donna Clark; Ed Burris; Gordon Clark; Barry Shields; Joe MacMillan; Yo-Yo Engberk; Larry Goins; Malcolm Levitan
+
+Categories:    Product Launch
+
+Hi Malcolm,
+
+I'm writing to you today feeling sorrowful. Your email about the product launch has left me disheartened. As a Vice President of Sales, I've been counting on our team's hard work and dedication to bring in some much-needed revenue for Cardiff Electric.
+
+Your technical concerns have brought my enthusiasm to a grinding halt. It seems like no matter how many times we tweak and refine, there are always new issues popping up. I'm worried that if we don't get this right, we'll be stuck in neutral forever.
+
+I understand your frustration, Malcolm, but I think we need to take a step back and re-evaluate our priorities. We can't keep throwing good money after bad just because we're eager to launch something new. What's the point of putting out a product that's half-baked at best?
+
+Let's schedule an emergency meeting with the team and get to the bottom of these technical concerns. I'm willing to put in the work if it means giving our customers something they'll actually use.
+
+
+
+From:    Malcolm Levitan
+Sent:    Friday, July 01, 1983 10:39 AM
+To:      Debbie Malinowski; Cameron Howe; Donna Clark; Ed Burris; Gordon Clark; Barry Shields; Joe MacMillan; John Bosworth; Yo-Yo Engberk; Larry Goins
+
+Categories: Product Launch
+
+Subject: Re: Product Launch - Technical Concerns
+
+
+Dear Debbie,
+
+EMAIL BODY
+I'm writing to express my deep disappointment and frustration regarding the upcoming product launch. As you know, I've been working tirelessly to ensure that our software meets the required standards. However, upon reviewing the latest builds, I've discovered several critical issues that need immediate attention.
+
+Specifically, I've found instances of unchecked pointers in the database layer (see attached code snippet), which could lead to data corruption and potential system crashes. Additionally, I've identified inconsistencies in the authentication protocols, leaving our application vulnerable to unauthorized access.
+
+I understand the pressure to meet the launch date, but I strongly believe that sacrificing quality for expediency will have severe long-term consequences. As a software developer, my primary concern is ensuring that our product is reliable, secure, and meets user expectations.
+
+I'd appreciate it if we could schedule an emergency meeting to discuss these concerns and find solutions before proceeding with the launch.
+
+
+Best regards,
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182

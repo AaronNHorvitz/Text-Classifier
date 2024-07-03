@@ -1,0 +1,33 @@
+
+From:    Malcolm Levitan
+Sent:    Thursday, June 16, 1983 10:15 AM
+To:      Larry Goins
+
+Categories: Personal Milestone
+
+Subject:    Personal Milestone
+
+Dear Larry,
+
+I'm writing to report a personal milestone that I believe warrants attention. As you know, I've been working tirelessly to debug the 8086 emulator for our forthcoming product release.
+
+After weeks of perseverance and meticulous testing, I'm pleased to announce that I've finally resolved the infamous "segfault" error that has plagued us for months. The corrected code is attached below:
+
+```c
+void fixSegFault() {
+    if (error_code == SEGFault) {
+        printf("Segfault detected! Rebooting...\n");
+        reboot();
+    }
+}
+```
+
+Please note that I've tested the emulator with various input scenarios and it now consistently runs without errors. However, I'm feeling a bit desperate as we're running low on development time before the product launch.
+
+I'd appreciate any guidance or suggestions you might have to help me ensure the emulator meets our high standards for quality. Your input will be invaluable in helping me complete this critical task.
+
+Best regards,
+
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182

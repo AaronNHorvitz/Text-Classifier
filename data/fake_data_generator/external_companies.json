@@ -1,0 +1,3015 @@
+[
+    {
+        "name": "Lone Star Electronics",
+        "description": "Supplier of electronic components, based in Dallas, TX.",
+        "role": "Supplier",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0101",
+        "web_address": "www.lonestarelectronics.com"
+    },
+    {
+        "name": "Texas Instruments Inc.",
+        "description": "Semiconductor manufacturer headquartered in Dallas, TX.",
+        "role": "Manufacturer",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0102",
+        "web_address": "www.ti.com"
+    },
+    {
+        "name": "Houston Microchips",
+        "description": "Producer of microchips and integrated circuits, based in Houston, TX.",
+        "role": "Manufacturer",
+        "city": "Houston",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 713-555-0103",
+        "web_address": "www.houstonmicrochips.com"
+    },
+    {
+        "name": "Austin Tech Solutions",
+        "description": "Provider of custom software solutions, based in Austin, TX.",
+        "role": "Service Provider",
+        "city": "Austin",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 512-555-0104",
+        "web_address": "www.austintechsolutions.com"
+    },
+    {
+        "name": "San Antonio Circuit Works",
+        "description": "Manufacturer of printed circuit boards, based in San Antonio, TX.",
+        "role": "Manufacturer",
+        "city": "San Antonio",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 210-555-0105",
+        "web_address": "www.sacircuitworks.com"
+    },
+    {
+        "name": "Fort Worth Computing",
+        "description": "Retailer of personal computers and accessories, based in Fort Worth, TX.",
+        "role": "Retailer",
+        "city": "Fort Worth",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 817-555-0106",
+        "web_address": "www.fortworthcomputing.com"
+    },
+    {
+        "name": "El Paso Data Systems",
+        "description": "Distributor of data storage devices, based in El Paso, TX.",
+        "role": "Distributor",
+        "city": "El Paso",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 915-555-0107",
+        "web_address": "www.elpasodatasystems.com"
+    },
+    {
+        "name": "Lubbock Tech Expo",
+        "description": "Organizer of technology trade shows, based in Lubbock, TX.",
+        "role": "Trade Show Organizer",
+        "city": "Lubbock",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 806-555-0108",
+        "web_address": "www.lubbocktechexpo.com"
+    },
+    {
+        "name": "Amarillo Microtech",
+        "description": "Producer of computer memory modules, based in Amarillo, TX.",
+        "role": "Manufacturer",
+        "city": "Amarillo",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 806-555-0109",
+        "web_address": "www.amarillomicrotech.com"
+    },
+    {
+        "name": "Waco Electronics",
+        "description": "Supplier of electronic testing equipment, based in Waco, TX.",
+        "role": "Supplier",
+        "city": "Waco",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 254-555-0110",
+        "web_address": "www.wacoelectronics.com"
+    },
+    {
+        "name": "Plano Software Developers",
+        "description": "Software development firm, based in Plano, TX.",
+        "role": "Service Provider",
+        "city": "Plano",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 972-555-0111",
+        "web_address": "www.planosoftwaredevelopers.com"
+    },
+    {
+        "name": "Garland Tech Supplies",
+        "description": "Distributor of technology supplies, based in Garland, TX.",
+        "role": "Distributor",
+        "city": "Garland",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 972-555-0112",
+        "web_address": "www.garlandtechsupplies.com"
+    },
+    {
+        "name": "Irving Innovations",
+        "description": "Innovative tech startup focused on computer hardware, based in Irving, TX.",
+        "role": "Startup",
+        "city": "Irving",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 972-555-0113",
+        "web_address": "www.irvinginnovations.com"
+    },
+    {
+        "name": "McAllen Computer Systems",
+        "description": "Retailer of computer systems and peripherals, based in McAllen, TX.",
+        "role": "Retailer",
+        "city": "McAllen",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 956-555-0114",
+        "web_address": "www.mcallencomputersystems.com"
+    },
+    {
+        "name": "Beaumont Tech Services",
+        "description": "Provider of tech support services, based in Beaumont, TX.",
+        "role": "Service Provider",
+        "city": "Beaumont",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 409-555-0115",
+        "web_address": "www.beaumonttechservices.com"
+    },
+    {
+        "name": "Midland Digital Media",
+        "description": "Producer of digital media and software, based in Midland, TX.",
+        "role": "Manufacturer",
+        "city": "Midland",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 432-555-0116",
+        "web_address": "www.midlanddigitalmedia.com"
+    },
+    {
+        "name": "Abilene Data Corp",
+        "description": "Supplier of data processing equipment, based in Abilene, TX.",
+        "role": "Supplier",
+        "city": "Abilene",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 325-555-0117",
+        "web_address": "www.abilenedatacorp.com"
+    },
+    {
+        "name": "Sugar Land Tech Solutions",
+        "description": "Provider of enterprise tech solutions, based in Sugar Land, TX.",
+        "role": "Service Provider",
+        "city": "Sugar Land",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 281-555-0118",
+        "web_address": "www.sugarlandtechsolutions.com"
+    },
+    {
+        "name": "College Station Innovations",
+        "description": "Research and development firm, based in College Station, TX.",
+        "role": "Research Partner",
+        "city": "College Station",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 979-555-0119",
+        "web_address": "www.collegestationinnovations.com"
+    },
+    {
+        "name": "Round Rock Computer Parts",
+        "description": "Distributor of computer parts, based in Round Rock, TX.",
+        "role": "Distributor",
+        "city": "Round Rock",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 512-555-0120",
+        "web_address": "www.roundrockcomputerparts.com"
+    },
+    {
+        "name": "Tyler Technology Group",
+        "description": "Consulting firm for tech companies, based in Tyler, TX.",
+        "role": "Consultant",
+        "city": "Tyler",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 903-555-0121",
+        "web_address": "www.tylertechnologygroup.com"
+    },
+    {
+        "name": "Pearland Circuit Design",
+        "description": "Designers of custom circuit boards, based in Pearland, TX.",
+        "role": "Designer",
+        "city": "Pearland",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 281-555-0122",
+        "web_address": "www.pearlandcircuitdesign.com"
+    },
+    {
+        "name": "League City Tech Hub",
+        "description": "Co-working space for tech startups, based in League City, TX.",
+        "role": "Service Provider",
+        "city": "League City",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 281-555-0123",
+        "web_address": "www.leaguecitytechhub.com"
+    },
+    {
+        "name": "Longview Electronics",
+        "description": "Supplier of consumer electronics, based in Longview, TX.",
+        "role": "Supplier",
+        "city": "Longview",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 903-555-0124",
+        "web_address": "www.longviewelectronics.com"
+    },
+    {
+        "name": "Mesquite Software Solutions",
+        "description": "Software solutions provider, based in Mesquite, TX.",
+        "role": "Service Provider",
+        "city": "Mesquite",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 972-555-0125",
+        "web_address": "www.mesquitesoftwaresolutions.com"
+    },
+    {
+        "name": "Frisco Data Centers",
+        "description": "Operator of data centers, based in Frisco, TX.",
+        "role": "Service Provider",
+        "city": "Frisco",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 972-555-0126",
+        "web_address": "www.friscodatacenters.com"
+    },
+    {
+        "name": "Denton Tech Services",
+        "description": "Provider of tech services and support, based in Denton, TX.",
+        "role": "Service Provider",
+        "city": "Denton",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 940-555-0127",
+        "web_address": "www.dentontechnologyservices.com"
+    },
+    {
+        "name": "Richardson Innovations",
+        "description": "Tech innovation and research company, based in Richardson, TX.",
+        "role": "Research Partner",
+        "city": "Richardson",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 972-555-0128",
+        "web_address": "www.richardsoninnovations.com"
+    },
+    {
+        "name": "Flower Mound Tech Supply",
+        "description": "Supplier of tech and electronics, based in Flower Mound, TX.",
+        "role": "Supplier",
+        "city": "Flower Mound",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 972-555-0129",
+        "web_address": "www.flowermoundtechsupply.com"
+    },
+    {
+        "name": "Georgetown Electronics",
+        "description": "Retailer of home electronics, based in Georgetown, TX.",
+        "role": "Retailer",
+        "city": "Georgetown",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 512-555-0130",
+        "web_address": "www.georgetownelectronics.com"
+    },
+    {
+        "name": "Carrollton Circuit Co.",
+        "description": "Manufacturer of electronic circuits, based in Carrollton, TX.",
+        "role": "Manufacturer",
+        "city": "Carrollton",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 972-555-0131",
+        "web_address": "www.carrolltoncircuitco.com"
+    },
+    {
+        "name": "San Angelo Data Solutions",
+        "description": "Data solutions provider, based in San Angelo, TX.",
+        "role": "Service Provider",
+        "city": "San Angelo",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 325-555-0132",
+        "web_address": "www.sanangelodatasolutions.com"
+    },
+    {
+        "name": "Round Rock Robotics",
+        "description": "Robotics development firm, based in Round Rock, TX.",
+        "role": "Research Partner",
+        "city": "Round Rock",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 512-555-0133",
+        "web_address": "www.roundrockrobotics.com"
+    },
+    {
+        "name": "New York Media Group",
+        "description": "Publisher of tech magazines and journals, based in New York, NY.",
+        "role": "Media Contact",
+        "city": "New York",
+        "state": "NY",
+        "country": "USA",
+        "phone": "+1 212-555-0134",
+        "web_address": "www.nymediagroup.com"
+    },
+    {
+        "name": "Silicon Valley Investments",
+        "description": "Venture capital firm investing in tech startups, based in Palo Alto, CA.",
+        "role": "Investor",
+        "city": "Palo Alto",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 650-555-0135",
+        "web_address": "www.siliconvalleyinvestments.com"
+    },
+    {
+        "name": "Los Angeles Media Connections",
+        "description": "PR and media relations firm, based in Los Angeles, CA.",
+        "role": "Media Contact",
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 213-555-0136",
+        "web_address": "www.lamediaconnections.com"
+    },
+    {
+        "name": "San Francisco Tech Expo",
+        "description": "Organizer of tech expos and conferences, based in San Francisco, CA.",
+        "role": "Trade Show Organizer",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 415-555-0137",
+        "web_address": "www.sftechexpo.com"
+    },
+    {
+        "name": "Manhattan Tech Review",
+        "description": "Publisher of tech reviews and articles, based in Manhattan, NY.",
+        "role": "Media Contact",
+        "city": "Manhattan",
+        "state": "NY",
+        "country": "USA",
+        "phone": "+1 212-555-0138",
+        "web_address": "www.manhattantechreview.com"
+    },
+    {
+        "name": "Brooklyn Software Solutions",
+        "description": "Software development company, based in Brooklyn, NY.",
+        "role": "Service Provider",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "USA",
+        "phone": "+1 718-555-0139",
+        "web_address": "www.brooklynsoftwaresolutions.com"
+    },
+    {
+        "name": "Queens Hardware Supplies",
+        "description": "Supplier of computer hardware, based in Queens, NY.",
+        "role": "Supplier",
+        "city": "Queens",
+        "state": "NY",
+        "country": "USA",
+        "phone": "+1 718-555-0140",
+        "web_address": "www.queenshardwaresupplies.com"
+    },
+    {
+        "name": "Tokyo Screen Suppliers",
+        "description": "Supplier of computer screens and monitors, based in Tokyo, Japan.",
+        "role": "Supplier",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "Japan",
+        "phone": "+81 3-5551-0141",
+        "web_address": "www.tokyoscreensuppliers.com"
+    },
+    {
+        "name": "Houston Data Expo",
+        "description": "Organizer of data and tech expos, based in Houston, TX.",
+        "role": "Trade Show Organizer",
+        "city": "Houston",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 713-555-0142",
+        "web_address": "www.houstondataexpo.com"
+    },
+    {
+        "name": "Tech Valley Investors",
+        "description": "Investment firm specializing in tech ventures, based in Mountain View, CA.",
+        "role": "Investor",
+        "city": "Mountain View",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 650-555-0143",
+        "web_address": "www.techvalleyinvestors.com"
+    },
+    {
+        "name": "Dallas Semiconductor",
+        "description": "Manufacturer of semiconductors, based in Dallas, TX.",
+        "role": "Manufacturer",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0144",
+        "web_address": "www.dallassemiconductor.com"
+    },
+    {
+        "name": "Austin Innovations Hub",
+        "description": "Innovation hub for tech startups, based in Austin, TX.",
+        "role": "Service Provider",
+        "city": "Austin",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 512-555-0145",
+        "web_address": "www.austininnovationshub.com"
+    },
+    {
+        "name": "Fort Worth Electronics",
+        "description": "Supplier of consumer electronics, based in Fort Worth, TX.",
+        "role": "Supplier",
+        "city": "Fort Worth",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 817-555-0146",
+        "web_address": "www.fortworthelectronics.com"
+    },
+    {
+        "name": "Plano Circuit Design",
+        "description": "Designers of electronic circuits, based in Plano, TX.",
+        "role": "Designer",
+        "city": "Plano",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 972-555-0147",
+        "web_address": "www.planocircuitdesign.com"
+    },
+    {
+        "name": "Galveston Tech Solutions",
+        "description": "Provider of tech solutions and support, based in Galveston, TX.",
+        "role": "Service Provider",
+        "city": "Galveston",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 409-555-0148",
+        "web_address": "www.galvestontechsolutions.com"
+    },
+    {
+        "name": "Alpha Electronics",
+        "description": "Specializes in consumer electronics manufacturing.",
+        "role": "Manufacturer",
+        "city": "San Diego",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 619-555-0149",
+        "web_address": "www.alphaelectronics.com"
+    },
+    {
+        "name": "Beta Automation",
+        "description": "Provides industrial automation solutions.",
+        "role": "Service Provider",
+        "city": "Chicago",
+        "state": "IL",
+        "country": "USA",
+        "phone": "+1 312-555-0150",
+        "web_address": "www.betaautomation.com"
+    },
+    {
+        "name": "Gamma Aerospace",
+        "description": "Engaged in aerospace engineering and manufacturing.",
+        "role": "Manufacturer",
+        "city": "Seattle",
+        "state": "WA",
+        "country": "USA",
+        "phone": "+1 206-555-0151",
+        "web_address": "www.gammaaerospace.com"
+    },
+    {
+        "name": "Delta Motors",
+        "description": "Automobile manufacturer producing a range of vehicles.",
+        "role": "Manufacturer",
+        "city": "Detroit",
+        "state": "MI",
+        "country": "USA",
+        "phone": "+1 313-555-0152",
+        "web_address": "www.deltamotors.com"
+    },
+    {
+        "name": "Epsilon Robotics",
+        "description": "Develops advanced robotics systems for industrial use.",
+        "role": "Research Partner",
+        "city": "Boston",
+        "state": "MA",
+        "country": "USA",
+        "phone": "+1 617-555-0153",
+        "web_address": "www.epsilonrobotics.com"
+    },
+    {
+        "name": "Zeta Instruments",
+        "description": "Produces precision measurement instruments for laboratories.",
+        "role": "Manufacturer",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0154",
+        "web_address": "www.zetainstruments.com"
+    },
+    {
+        "name": "Eta Technologies",
+        "description": "Offers cutting-edge tech solutions for various industries.",
+        "role": "Service Provider",
+        "city": "Austin",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 512-555-0155",
+        "web_address": "www.etatechnologies.com"
+    },
+    {
+        "name": "Theta Aerospace",
+        "description": "Aerospace company focusing on aircraft design and manufacturing.",
+        "role": "Manufacturer",
+        "city": "Tucson",
+        "state": "AZ",
+        "country": "USA",
+        "phone": "+1 520-555-0156",
+        "web_address": "www.thetaaerospace.com"
+    },
+    {
+        "name": "Iota Engineering",
+        "description": "Provides engineering consulting services for infrastructure projects.",
+        "role": "Consultant",
+        "city": "Denver",
+        "state": "CO",
+        "country": "USA",
+        "phone": "+1 303-555-0157",
+        "web_address": "www.iotaengineering.com"
+    },
+    {
+        "name": "Kappa Energy",
+        "description": "Develops renewable energy technologies.",
+        "role": "Research Partner",
+        "city": "Portland",
+        "state": "OR",
+        "country": "USA",
+        "phone": "+1 503-555-0158",
+        "web_address": "www.kappaenergy.com"
+    },
+    {
+        "name": "Lambda Chemical Corp",
+        "description": "Chemical engineering company producing industrial chemicals.",
+        "role": "Manufacturer",
+        "city": "Houston",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 713-555-0159",
+        "web_address": "www.lambdachemical.com"
+    },
+    {
+        "name": "Mu Medical Devices",
+        "description": "Manufactures medical devices and diagnostic equipment.",
+        "role": "Manufacturer",
+        "city": "Minneapolis",
+        "state": "MN",
+        "country": "USA",
+        "phone": "+1 612-555-0160",
+        "web_address": "www.mumedicaldevices.com"
+    },
+    {
+        "name": "Nu Civil Engineering",
+        "description": "Civil engineering firm specializing in infrastructure development.",
+        "role": "Consultant",
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 213-555-0161",
+        "web_address": "www.nucivilengineering.com"
+    },
+    {
+        "name": "Xi Mechanical Systems",
+        "description": "Designs and manufactures mechanical systems and components.",
+        "role": "Manufacturer",
+        "city": "Charlotte",
+        "state": "NC",
+        "country": "USA",
+        "phone": "+1 704-555-0162",
+        "web_address": "www.ximechanicals.com"
+    },
+    {
+        "name": "Omicron Dynamics",
+        "description": "Provides dynamic systems and control solutions for automation.",
+        "role": "Service Provider",
+        "city": "Phoenix",
+        "state": "AZ",
+        "country": "USA",
+        "phone": "+1 602-555-0163",
+        "web_address": "www.omicrondynamics.com"
+    },
+    {
+        "name": "Pi Precision Tools",
+        "description": "Produces high-precision tools for various industries.",
+        "role": "Manufacturer",
+        "city": "Cleveland",
+        "state": "OH",
+        "country": "USA",
+        "phone": "+1 216-555-0164",
+        "web_address": "www.piprecisiontools.com"
+    },
+    {
+        "name": "Rho Construction",
+        "description": "Engages in large-scale construction projects.",
+        "role": "Service Provider",
+        "city": "Atlanta",
+        "state": "GA",
+        "country": "USA",
+        "phone": "+1 404-555-0165",
+        "web_address": "www.rhoconstruction.com"
+    },
+    {
+        "name": "Sigma Semiconductors",
+        "description": "Manufactures semiconductors for electronics.",
+        "role": "Manufacturer",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0166",
+        "web_address": "www.sigmasemiconductors.com"
+    },
+    {
+        "name": "Tau Telecom",
+        "description": "Telecommunications company providing communication solutions.",
+        "role": "Service Provider",
+        "city": "New York",
+        "state": "NY",
+        "country": "USA",
+        "phone": "+1 212-555-0167",
+        "web_address": "www.tautelecom.com"
+    },
+    {
+        "name": "Upsilon Utilities",
+        "description": "Offers utility management and infrastructure services.",
+        "role": "Service Provider",
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "USA",
+        "phone": "+1 215-555-0168",
+        "web_address": "www.upsilonutilities.com"
+    },
+    {
+        "name": "Phi Electronics",
+        "description": "Produces consumer and commercial electronic devices.",
+        "role": "Manufacturer",
+        "city": "Seattle",
+        "state": "WA",
+        "country": "USA",
+        "phone": "+1 206-555-0169",
+        "web_address": "www.phielectronics.com"
+    },
+    {
+        "name": "Chi Optics",
+        "description": "Develops optical and photonic technologies.",
+        "role": "Research Partner",
+        "city": "Rochester",
+        "state": "NY",
+        "country": "USA",
+        "phone": "+1 585-555-0170",
+        "web_address": "www.chioptics.com"
+    },
+    {
+        "name": "Psi Aviation",
+        "description": "Provides aviation engineering and maintenance services.",
+        "role": "Service Provider",
+        "city": "Miami",
+        "state": "FL",
+        "country": "USA",
+        "phone": "+1 305-555-0171",
+        "web_address": "www.psiaviation.com"
+    },
+    {
+        "name": "Omega Marine Engineering",
+        "description": "Specializes in marine engineering and shipbuilding.",
+        "role": "Manufacturer",
+        "city": "Norfolk",
+        "state": "VA",
+        "country": "USA",
+        "phone": "+1 757-555-0172",
+        "web_address": "www.omegamarineengineering.com"
+    },
+    {
+        "name": "Quantum Computing",
+        "description": "Develops quantum computing technologies.",
+        "role": "Research Partner",
+        "city": "Palo Alto",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 650-555-0173",
+        "web_address": "www.quantumcomputing.com"
+    },
+    {
+        "name": "Spectra Systems",
+        "description": "Produces high-performance computing systems.",
+        "role": "Manufacturer",
+        "city": "Boulder",
+        "state": "CO",
+        "country": "USA",
+        "phone": "+1 303-555-0174",
+        "web_address": "www.spectrasystems.com"
+    },
+    {
+        "name": "Pioneer Plastics",
+        "description": "Manufactures plastic components for various industries.",
+        "role": "Manufacturer",
+        "city": "St. Louis",
+        "state": "MO",
+        "country": "USA",
+        "phone": "+1 314-555-0175",
+        "web_address": "www.pioneerplastics.com"
+    },
+    {
+        "name": "Nexus Metals",
+        "description": "Produces metal components and alloys.",
+        "role": "Manufacturer",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "country": "USA",
+        "phone": "+1 412-555-0176",
+        "web_address": "www.nexusmetals.com"
+    },
+    {
+        "name": "Titanium Tech",
+        "description": "Specializes in titanium-based products and technologies.",
+        "role": "Manufacturer",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "USA",
+        "phone": "+1 410-555-0177",
+        "web_address": "www.titaniumtech.com"
+    },
+    {
+        "name": "Ironclad Engineering",
+        "description": "Provides structural engineering services.",
+        "role": "Service Provider",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 415-555-0178",
+        "web_address": "www.ironcladengineering.com"
+    },
+    {
+        "name": "Bronze Innovations",
+        "description": "Develops innovative bronze-based products.",
+        "role": "Manufacturer",
+        "city": "Cincinnati",
+        "state": "OH",
+        "country": "USA",
+        "phone": "+1 513-555-0179",
+        "web_address": "www.bronzeinnovations.com"
+    },
+    {
+        "name": "Copper Tech",
+        "description": "Manufactures copper components for electrical applications.",
+        "role": "Manufacturer",
+        "city": "Phoenix",
+        "state": "AZ",
+        "country": "USA",
+        "phone": "+1 602-555-0180",
+        "web_address": "www.coppertech.com"
+    },
+    {
+        "name": "Silver Solutions",
+        "description": "Engages in silver-based chemical engineering.",
+        "role": "Research Partner",
+        "city": "Reno",
+        "state": "NV",
+        "country": "USA",
+        "phone": "+1 775-555-0181",
+        "web_address": "www.silversolutions.com"
+    },
+    {
+        "name": "Goldline Electronics",
+        "description": "Produces gold-plated electronic components.",
+        "role": "Manufacturer",
+        "city": "Orlando",
+        "state": "FL",
+        "country": "USA",
+        "phone": "+1 407-555-0182",
+        "web_address": "www.goldlineelectronics.com"
+    },
+    {
+        "name": "Platinum Devices",
+        "description": "Manufactures platinum-based industrial devices.",
+        "role": "Manufacturer",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0183",
+        "web_address": "www.platinumdevices.com"
+    },
+    {
+        "name": "Neon Lighting",
+        "description": "Produces neon lighting solutions for commercial use.",
+        "role": "Manufacturer",
+        "city": "Las Vegas",
+        "state": "NV",
+        "country": "USA",
+        "phone": "+1 702-555-0184",
+        "web_address": "www.neonlighting.com"
+    },
+    {
+        "name": "Argon Systems",
+        "description": "Develops argon-based industrial systems.",
+        "role": "Research Partner",
+        "city": "Albuquerque",
+        "state": "NM",
+        "country": "USA",
+        "phone": "+1 505-555-0185",
+        "web_address": "www.argonsystems.com"
+    },
+    {
+        "name": "Krypton Labs",
+        "description": "Engages in advanced research and development.",
+        "role": "Research Partner",
+        "city": "Berkeley",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 510-555-0186",
+        "web_address": "www.kryptonlabs.com"
+    },
+    {
+        "name": "Xenon Innovations",
+        "description": "Develops xenon-based lighting and imaging technologies.",
+        "role": "Research Partner",
+        "city": "Pasadena",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 626-555-0187",
+        "web_address": "www.xenoninnovations.com"
+    },
+    {
+        "name": "Radon Engineering",
+        "description": "Provides radon mitigation and engineering solutions.",
+        "role": "Service Provider",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "country": "USA",
+        "phone": "+1 801-555-0188",
+        "web_address": "www.radonengineering.com"
+    },
+    {
+        "name": "Helium Tech",
+        "description": "Specializes in helium-based technologies and applications.",
+        "role": "Research Partner",
+        "city": "Houston",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 713-555-0189",
+        "web_address": "www.heliumtech.com"
+    },
+    {
+        "name": "Hydrogen Energy",
+        "description": "Develops hydrogen fuel cells and energy solutions.",
+        "role": "Research Partner",
+        "city": "Denver",
+        "state": "CO",
+        "country": "USA",
+        "phone": "+1 303-555-0190",
+        "web_address": "www.hydrogenenergy.com"
+    },
+    {
+        "name": "Lithium Power",
+        "description": "Produces lithium-based batteries and energy storage systems.",
+        "role": "Manufacturer",
+        "city": "San Diego",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 619-555-0191",
+        "web_address": "www.lithiumpower.com"
+    },
+    {
+        "name": "Beryllium Engineering",
+        "description": "Manufactures beryllium components for aerospace and defense.",
+        "role": "Manufacturer",
+        "city": "Dayton",
+        "state": "OH",
+        "country": "USA",
+        "phone": "+1 937-555-0192",
+        "web_address": "www.berylliumengineering.com"
+    },
+    {
+        "name": "Carbon Fiber Innovations",
+        "description": "Develops carbon fiber products for automotive and aerospace.",
+        "role": "Research Partner",
+        "city": "San Antonio",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 210-555-0193",
+        "web_address": "www.carbonfiberinnovations.com"
+    },
+    {
+        "name": "Nitrogen Solutions",
+        "description": "Produces nitrogen-based industrial chemicals.",
+        "role": "Manufacturer",
+        "city": "Tulsa",
+        "state": "OK",
+        "country": "USA",
+        "phone": "+1 918-555-0194",
+        "web_address": "www.nitrogensolutions.com"
+    },
+    {
+        "name": "Oxygen Technologies",
+        "description": "Provides oxygen generation and storage systems.",
+        "role": "Manufacturer",
+        "city": "Buffalo",
+        "state": "NY",
+        "country": "USA",
+        "phone": "+1 716-555-0195",
+        "web_address": "www.oxygentechnologies.com"
+    },
+    {
+        "name": "Fort Worth Electronics",
+        "description": "Supplier of electronic components.",
+        "role": "Supplier",
+        "city": "Fort Worth",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 817-555-0201",
+        "web_address": "www.fortworthelectronics.com"
+    },
+    {
+        "name": "Precision Circuits",
+        "description": "Supplier of high-quality circuit boards.",
+        "role": "Supplier",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0202",
+        "web_address": "www.precisioncircuits.com"
+    },
+    {
+        "name": "Silicon Valley Innovations",
+        "description": "Customer focused on cutting-edge tech.",
+        "role": "Customer",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0203",
+        "web_address": "www.svinnovations.com"
+    },
+    {
+        "name": "Empire Tech Solutions",
+        "description": "Customer providing tech services.",
+        "role": "Customer",
+        "city": "New York",
+        "state": "NY",
+        "country": "USA",
+        "phone": "+1 212-555-0204",
+        "web_address": "www.empiretech.com"
+    },
+    {
+        "name": "Lone Star Ventures",
+        "description": "Partner for tech investments.",
+        "role": "Partner",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0205",
+        "web_address": "www.lonestarventures.com"
+    },
+    {
+        "name": "Bay Area Partners",
+        "description": "Strategic partner in the tech industry.",
+        "role": "Partner",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 415-555-0206",
+        "web_address": "www.bayareapartners.com"
+    },
+    {
+        "name": "MetroTech Distributors",
+        "description": "Distributor of electronic components.",
+        "role": "Distributor",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0207",
+        "web_address": "www.metrotechdistributors.com"
+    },
+    {
+        "name": "Windy City Electronics",
+        "description": "Distributor of consumer electronics.",
+        "role": "Distributor",
+        "city": "Chicago",
+        "state": "IL",
+        "country": "USA",
+        "phone": "+1 312-555-0208",
+        "web_address": "www.windycityelectronics.com"
+    },
+    {
+        "name": "Tech Investors LLC",
+        "description": "Investor specializing in tech startups.",
+        "role": "Investor",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 415-555-0209",
+        "web_address": "www.techinvestorsllc.com"
+    },
+    {
+        "name": "Big Apple Ventures",
+        "description": "Investor focusing on innovative tech.",
+        "role": "Investor",
+        "city": "New York",
+        "state": "NY",
+        "country": "USA",
+        "phone": "+1 212-555-0210",
+        "web_address": "www.bigappleventures.com"
+    },
+    {
+        "name": "Dallas Tech Consultants",
+        "description": "Consultant for tech businesses.",
+        "role": "Consultant",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0211",
+        "web_address": "www.dallastechconsultants.com"
+    },
+    {
+        "name": "Silicon Solutions",
+        "description": "Consultant specializing in silicon technologies.",
+        "role": "Consultant",
+        "city": "Palo Alto",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 650-555-0212",
+        "web_address": "www.siliconsolutions.com"
+    },
+    {
+        "name": "Tech Support Services",
+        "description": "Provider of tech support services.",
+        "role": "Service Provider",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0213",
+        "web_address": "www.techsupportservices.com"
+    },
+    {
+        "name": "Golden Gate Tech Services",
+        "description": "Provider of IT support and services.",
+        "role": "Service Provider",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 415-555-0214",
+        "web_address": "www.goldengatetech.com"
+    },
+    {
+        "name": "TechResell Inc.",
+        "description": "Reseller of tech products.",
+        "role": "Reseller",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0215",
+        "web_address": "www.techresell.com"
+    },
+    {
+        "name": "Silicon Resellers",
+        "description": "Reseller of silicon-based products.",
+        "role": "Reseller",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0216",
+        "web_address": "www.siliconresellers.com"
+    },
+    {
+        "name": "Prime Manufacturing",
+        "description": "Manufacturer of tech components.",
+        "role": "Manufacturer",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0217",
+        "web_address": "www.primemanufacturing.com"
+    },
+    {
+        "name": "West Coast Electronics",
+        "description": "Manufacturer of consumer electronics.",
+        "role": "Manufacturer",
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 213-555-0218",
+        "web_address": "www.westcoastelectronics.com"
+    },
+    {
+        "name": "Research Innovations Inc.",
+        "description": "Research partner for tech projects.",
+        "role": "Research Partner",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0219",
+        "web_address": "www.researchinnovations.com"
+    },
+    {
+        "name": "California Research Group",
+        "description": "Research partner for innovative tech solutions.",
+        "role": "Research Partner",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 415-555-0220",
+        "web_address": "www.caresearchgroup.com"
+    },
+    {
+        "name": "Tech Integrators LLC",
+        "description": "Integrator of complex tech systems.",
+        "role": "Integrator",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0221",
+        "web_address": "www.techintegrators.com"
+    },
+    {
+        "name": "Silicon Integration",
+        "description": "Integrator for silicon-based technologies.",
+        "role": "Integrator",
+        "city": "Palo Alto",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 650-555-0222",
+        "web_address": "www.siliconintegration.com"
+    },
+    {
+        "name": "OEM Solutions",
+        "description": "OEM provider of electronic components.",
+        "role": "OEM (Original Equipment Manufacturer)",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0223",
+        "web_address": "www.oemsolutions.com"
+    },
+    {
+        "name": "West Coast OEM",
+        "description": "OEM provider for tech products.",
+        "role": "OEM (Original Equipment Manufacturer)",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 415-555-0224",
+        "web_address": "www.westcoastoem.com"
+    },
+    {
+        "name": "EndTech Solutions",
+        "description": "End user of advanced tech solutions.",
+        "role": "End User",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0225",
+        "web_address": "www.endtechsolutions.com"
+    },
+    {
+        "name": "Innovative Users Group",
+        "description": "End user of innovative tech products.",
+        "role": "End User",
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 213-555-0226",
+        "web_address": "www.innovativeusers.com"
+    },
+    {
+        "name": "TechMedia Group",
+        "description": "Media contact for tech news and articles.",
+        "role": "Media Contact",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0227",
+        "web_address": "www.techmediagroup.com"
+    },
+    {
+        "name": "Silicon Media LLC",
+        "description": "Media contact for silicon-based technologies.",
+        "role": "Media Contact",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0228",
+        "web_address": "www.siliconmedia.com"
+    },
+    {
+        "name": "TechReg Inc.",
+        "description": "Regulator for tech industry standards.",
+        "role": "Regulator",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0229",
+        "web_address": "www.techreginc.com"
+    },
+    {
+        "name": "Silicon Valley Reg",
+        "description": "Regulator for silicon technology standards.",
+        "role": "Regulator",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0230",
+        "web_address": "www.siliconvalleyreg.com"
+    },
+    {
+        "name": "Dallas Tech Competitors",
+        "description": "Competitor in the tech industry.",
+        "role": "Competitor",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0231",
+        "web_address": "www.dallastechcompetitors.com"
+    },
+    {
+        "name": "Silicon Valley Compete",
+        "description": "Competitor in silicon technologies.",
+        "role": "Competitor",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0232",
+        "web_address": "www.siliconvalleycompete.com"
+    },
+    {
+        "name": "Trade Show Organizers Inc.",
+        "description": "Organizer of tech trade shows.",
+        "role": "Trade Show Organizer",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0233",
+        "web_address": "www.tradeshoworganizers.com"
+    },
+    {
+        "name": "Silicon Valley Trade Shows",
+        "description": "Organizer of silicon tech trade shows.",
+        "role": "Trade Show Organizer",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0234",
+        "web_address": "www.siliconvalleytradeshows.com"
+    },
+    {
+        "name": "Tech Training LLC",
+        "description": "Provider of tech training programs.",
+        "role": "Training Provider",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0235",
+        "web_address": "www.techtraining.com"
+    },
+    {
+        "name": "Silicon Valley Training",
+        "description": "Provider of silicon tech training.",
+        "role": "Training Provider",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0236",
+        "web_address": "www.siliconvalleytraining.com"
+    },
+    {
+        "name": "Logistics Solutions Inc.",
+        "description": "Logistics partner for tech companies.",
+        "role": "Logistics Partner",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0237",
+        "web_address": "www.logisticssolutions.com"
+    },
+    {
+        "name": "Silicon Valley Logistics",
+        "description": "Logistics partner for silicon tech firms.",
+        "role": "Logistics Partner",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0238",
+        "web_address": "www.siliconvalleylogistics.com"
+    },
+    {
+        "name": "TechDev LLC",
+        "description": "Software developer for tech applications.",
+        "role": "Software Developer",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0239",
+        "web_address": "www.techdev.com"
+    },
+    {
+        "name": "Silicon Software Solutions",
+        "description": "Developer of silicon-based software.",
+        "role": "Software Developer",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0240",
+        "web_address": "www.siliconsoftware.com"
+    },
+    {
+        "name": "Hardware Supplies Inc.",
+        "description": "Supplier of tech hardware.",
+        "role": "Hardware Supplier",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0241",
+        "web_address": "www.hardwaresupplies.com"
+    },
+    {
+        "name": "Silicon Hardware Solutions",
+        "description": "Supplier of silicon-based hardware.",
+        "role": "Hardware Supplier",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0242",
+        "web_address": "www.siliconhardware.com"
+    },
+    {
+        "name": "Market Analysts Inc.",
+        "description": "Market analyst for tech industry.",
+        "role": "Market Analyst",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0243",
+        "web_address": "www.marketanalysts.com"
+    },
+    {
+        "name": "Silicon Valley Analysts",
+        "description": "Market analyst for silicon technologies.",
+        "role": "Market Analyst",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0244",
+        "web_address": "www.siliconvalleyanalysts.com"
+    },
+    {
+        "name": "Tech Auditors Inc.",
+        "description": "Provider of auditing services for tech companies.",
+        "role": "Auditor",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0245",
+        "web_address": "www.techauditors.com"
+    },
+    {
+        "name": "Silicon Valley Auditors",
+        "description": "Provider of auditing services for silicon tech companies.",
+        "role": "Auditor",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0246",
+        "web_address": "www.siliconvalleyauditors.com"
+    },
+    {
+        "name": "Tech Insurance Group",
+        "description": "Provider of insurance services for tech companies.",
+        "role": "Insurance Provider",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0247",
+        "web_address": "www.techinsurancegroup.com"
+    },
+    {
+        "name": "Silicon Valley Insurance",
+        "description": "Provider of insurance services for silicon tech companies.",
+        "role": "Insurance Provider",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0248",
+        "web_address": "www.siliconvalleyinsurance.com"
+    },
+    {
+        "name": "Legal Tech Advisors",
+        "description": "Legal advisor for tech companies.",
+        "role": "Legal Advisor",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0249",
+        "web_address": "www.legaltechadvisors.com"
+    },
+    {
+        "name": "Silicon Valley Legal",
+        "description": "Legal advisor for silicon tech companies.",
+        "role": "Legal Advisor",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0250",
+        "web_address": "www.siliconvalleylegal.com"
+    },
+    {
+        "name": "Tech HR Consultants",
+        "description": "HR consultant for tech companies.",
+        "role": "HR Consultant",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0251",
+        "web_address": "www.techhrconsultants.com"
+    },
+    {
+        "name": "Silicon Valley HR",
+        "description": "HR consultant for silicon tech companies.",
+        "role": "HR Consultant",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0252",
+        "web_address": "www.siliconvalleyhr.com"
+    },
+    {
+        "name": "Tech PR Firm",
+        "description": "Public relations firm for tech companies.",
+        "role": "Public Relations Firm",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0253",
+        "web_address": "www.techprfirm.com"
+    },
+    {
+        "name": "Silicon Valley PR",
+        "description": "Public relations firm for silicon tech companies.",
+        "role": "Public Relations Firm",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0254",
+        "web_address": "www.siliconvalleypr.com"
+    },
+    {
+        "name": "Tech Support Inc.",
+        "description": "Provider of technical support services for tech companies.",
+        "role": "Technical Support",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0255",
+        "web_address": "www.techsupportinc.com"
+    },
+    {
+        "name": "Silicon Valley Tech Support",
+        "description": "Provider of technical support services for silicon tech companies.",
+        "role": "Technical Support",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0256",
+        "web_address": "www.siliconvalleytechsupport.com"
+    },
+    {
+        "name": "Tech QA Partners",
+        "description": "Quality assurance partner for tech companies.",
+        "role": "Quality Assurance Partner",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0257",
+        "web_address": "www.techqapartners.com"
+    },
+    {
+        "name": "Silicon Valley QA",
+        "description": "Quality assurance partner for silicon tech companies.",
+        "role": "Quality Assurance Partner",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0258",
+        "web_address": "www.siliconvalleyqa.com"
+    },
+    {
+        "name": "Tech Prototype Developers",
+        "description": "Prototype developer for tech companies.",
+        "role": "Prototype Developer",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0259",
+        "web_address": "www.techprototype.com"
+    },
+    {
+        "name": "Silicon Valley Prototypes",
+        "description": "Prototype developer for silicon tech companies.",
+        "role": "Prototype Developer",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0260",
+        "web_address": "www.siliconvalleyprototypes.com"
+    },
+    {
+        "name": "Tech Financial Advisors",
+        "description": "Financial advisor for tech companies.",
+        "role": "Financial Advisor",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0261",
+        "web_address": "www.techfinancialadvisors.com"
+    },
+    {
+        "name": "Silicon Valley Finance",
+        "description": "Financial advisor for silicon tech companies.",
+        "role": "Financial Advisor",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0262",
+        "web_address": "www.siliconvalleyfinance.com"
+    },
+    {
+        "name": "Tech Marketing Agency",
+        "description": "Marketing agency for tech companies.",
+        "role": "Marketing Agency",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0263",
+        "web_address": "www.techmarketingagency.com"
+    },
+    {
+        "name": "Silicon Valley Marketing",
+        "description": "Marketing agency for silicon tech companies.",
+        "role": "Marketing Agency",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0264",
+        "web_address": "www.siliconvalleymarketing.com"
+    },
+    {
+        "name": "Tech Integrators Inc.",
+        "description": "System integrator for tech companies.",
+        "role": "System Integrator",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0265",
+        "web_address": "www.techintegratorsinc.com"
+    },
+    {
+        "name": "Silicon Valley Integrators",
+        "description": "System integrator for silicon tech companies.",
+        "role": "System Integrator",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0266",
+        "web_address": "www.siliconvalleyintegrators.com"
+    },
+    {
+        "name": "Tech Data Centers",
+        "description": "Data center services for tech companies.",
+        "role": "Data Center",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0267",
+        "web_address": "www.techdatacenters.com"
+    },
+    {
+        "name": "Silicon Valley Data",
+        "description": "Data center services for silicon tech companies.",
+        "role": "Data Center",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0268",
+        "web_address": "www.siliconvalleydata.com"
+    },
+    {
+        "name": "Tech Cloud Services",
+        "description": "Cloud service provider for tech companies.",
+        "role": "Cloud Service Provider",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0269",
+        "web_address": "www.techcloudservices.com"
+    },
+    {
+        "name": "Silicon Valley Cloud",
+        "description": "Cloud service provider for silicon tech companies.",
+        "role": "Cloud Service Provider",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0270",
+        "web_address": "www.siliconvalleycloud.com"
+    },
+    {
+        "name": "Tech Training Partners",
+        "description": "Training partner for tech companies.",
+        "role": "Training Partner",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0271",
+        "web_address": "www.techtrainingpartners.com"
+    },
+    {
+        "name": "Silicon Valley Training Partners",
+        "description": "Training partner for silicon tech companies.",
+        "role": "Training Partner",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0272",
+        "web_address": "www.siliconvalleytrainingpartners.com"
+    },
+    {
+        "name": "Tech Environmental Consultants",
+        "description": "Environmental consultant for tech companies.",
+        "role": "Environmental Consultant",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0273",
+        "web_address": "www.techenvironmentalconsultants.com"
+    },
+    {
+        "name": "Silicon Valley Environmental",
+        "description": "Environmental consultant for silicon tech companies.",
+        "role": "Environmental Consultant",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0274",
+        "web_address": "www.siliconvalleyenvironmental.com"
+    },
+    {
+        "name": "Tech Security Solutions",
+        "description": "Security provider for tech companies.",
+        "role": "Security Provider",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0275",
+        "web_address": "www.techsecuritysolutions.com"
+    },
+    {
+        "name": "Silicon Valley Security",
+        "description": "Security provider for silicon tech companies.",
+        "role": "Security Provider",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0276",
+        "web_address": "www.siliconvalleysecurity.com"
+    },
+    {
+        "name": "Tech Event Planners",
+        "description": "Event planner for tech industry events.",
+        "role": "Event Planner",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0277",
+        "web_address": "www.techeventplanners.com"
+    },
+    {
+        "name": "Silicon Valley Events",
+        "description": "Event planner for silicon tech industry events.",
+        "role": "Event Planner",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0278",
+        "web_address": "www.siliconvalleyevents.com"
+    },
+    {
+        "name": "Tech Talent Agency",
+        "description": "Talent agency for tech professionals.",
+        "role": "Talent Agency",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0279",
+        "web_address": "www.techtalentagency.com"
+    },
+    {
+        "name": "Silicon Valley Talent",
+        "description": "Talent agency for silicon tech professionals.",
+        "role": "Talent Agency",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0280",
+        "web_address": "www.siliconvalleytalent.com"
+    },
+    {
+        "name": "Tokyo Electronics",
+        "description": "Supplier of electronic components.",
+        "role": "Supplier",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "Japan",
+        "phone": "+81 3-555-0201",
+        "web_address": "www.tokyoelectronics.com"
+    },
+    {
+        "name": "Berlin Semiconductors",
+        "description": "Supplier of semiconductor materials.",
+        "role": "Supplier",
+        "city": "Berlin",
+        "state": "Berlin",
+        "country": "Germany",
+        "phone": "+49 30-555-0202",
+        "web_address": "www.berlinsemiconductors.com"
+    },
+    {
+        "name": "London Tech Solutions",
+        "description": "Customer focused on cutting-edge tech.",
+        "role": "Customer",
+        "city": "London",
+        "state": "England",
+        "country": "United Kingdom",
+        "phone": "+44 20-555-0203",
+        "web_address": "www.londontechsolutions.com"
+    },
+    {
+        "name": "Paris Innovations",
+        "description": "Customer providing tech services.",
+        "role": "Customer",
+        "city": "Paris",
+        "state": "Île-de-France",
+        "country": "France",
+        "phone": "+33 1-555-0204",
+        "web_address": "www.parisinnovations.com"
+    },
+    {
+        "name": "Munich Ventures",
+        "description": "Partner for tech investments.",
+        "role": "Partner",
+        "city": "Munich",
+        "state": "Bavaria",
+        "country": "Germany",
+        "phone": "+49 89-555-0205",
+        "web_address": "www.munichventures.com"
+    },
+    {
+        "name": "Seoul Tech Partners",
+        "description": "Strategic partner in the tech industry.",
+        "role": "Partner",
+        "city": "Seoul",
+        "state": "Seoul",
+        "country": "South Korea",
+        "phone": "+82 2-555-0206",
+        "web_address": "www.seoultechpartners.com"
+    },
+    {
+        "name": "Frankfurt Distribution",
+        "description": "Distributor of electronic components.",
+        "role": "Distributor",
+        "city": "Frankfurt",
+        "state": "Hesse",
+        "country": "Germany",
+        "phone": "+49 69-555-0207",
+        "web_address": "www.frankfurtdistribution.com"
+    },
+    {
+        "name": "Osaka Electronics",
+        "description": "Distributor of consumer electronics.",
+        "role": "Distributor",
+        "city": "Osaka",
+        "state": "Osaka",
+        "country": "Japan",
+        "phone": "+81 6-555-0208",
+        "web_address": "www.osakaelectronics.com"
+    },
+    {
+        "name": "Zurich Investors",
+        "description": "Investor specializing in tech startups.",
+        "role": "Investor",
+        "city": "Zurich",
+        "state": "Zurich",
+        "country": "Switzerland",
+        "phone": "+41 44-555-0209",
+        "web_address": "www.zurichinvestors.com"
+    },
+    {
+        "name": "Stockholm Innovations",
+        "description": "Investor focusing on innovative tech.",
+        "role": "Investor",
+        "city": "Stockholm",
+        "state": "Stockholm",
+        "country": "Sweden",
+        "phone": "+46 8-555-0210",
+        "web_address": "www.stockholminnovations.com"
+    },
+    {
+        "name": "Tel Aviv Tech Consultants",
+        "description": "Consultant for tech businesses.",
+        "role": "Consultant",
+        "city": "Tel Aviv",
+        "state": "Tel Aviv District",
+        "country": "Israel",
+        "phone": "+972 3-555-0211",
+        "web_address": "www.telavivtechconsultants.com"
+    },
+    {
+        "name": "Sydney Silicon Solutions",
+        "description": "Consultant specializing in silicon technologies.",
+        "role": "Consultant",
+        "city": "Sydney",
+        "state": "New South Wales",
+        "country": "Australia",
+        "phone": "+61 2-555-0212",
+        "web_address": "www.sydneysiliconsolutions.com"
+    },
+    {
+        "name": "Montreal Tech Support",
+        "description": "Provider of tech support services.",
+        "role": "Service Provider",
+        "city": "Montreal",
+        "state": "Quebec",
+        "country": "Canada",
+        "phone": "+1 514-555-0213",
+        "web_address": "www.montrealtechsupport.com"
+    },
+    {
+        "name": "Brisbane IT Services",
+        "description": "Provider of IT support and services.",
+        "role": "Service Provider",
+        "city": "Brisbane",
+        "state": "Queensland",
+        "country": "Australia",
+        "phone": "+61 7-555-0214",
+        "web_address": "www.brisbaneitservices.com"
+    },
+    {
+        "name": "Amsterdam Resell Inc.",
+        "description": "Reseller of tech products.",
+        "role": "Reseller",
+        "city": "Amsterdam",
+        "state": "North Holland",
+        "country": "Netherlands",
+        "phone": "+31 20-555-0215",
+        "web_address": "www.amsterdamresell.com"
+    },
+    {
+        "name": "Barcelona Silicon Resellers",
+        "description": "Reseller of silicon-based products.",
+        "role": "Reseller",
+        "city": "Barcelona",
+        "state": "Catalonia",
+        "country": "Spain",
+        "phone": "+34 93-555-0216",
+        "web_address": "www.barcelonasiliconresellers.com"
+    },
+    {
+        "name": "Milan Manufacturing",
+        "description": "Manufacturer of tech components.",
+        "role": "Manufacturer",
+        "city": "Milan",
+        "state": "Lombardy",
+        "country": "Italy",
+        "phone": "+39 02-555-0217",
+        "web_address": "www.milanmanufacturing.com"
+    },
+    {
+        "name": "Vancouver Electronics",
+        "description": "Manufacturer of consumer electronics.",
+        "role": "Manufacturer",
+        "city": "Vancouver",
+        "state": "British Columbia",
+        "country": "Canada",
+        "phone": "+1 604-555-0218",
+        "web_address": "www.vancouverelectronics.com"
+    },
+    {
+        "name": "Munich Research Innovations",
+        "description": "Research partner for tech projects.",
+        "role": "Research Partner",
+        "city": "Munich",
+        "state": "Bavaria",
+        "country": "Germany",
+        "phone": "+49 89-555-0219",
+        "web_address": "www.munichresearch.com"
+    },
+    {
+        "name": "Tokyo Research Group",
+        "description": "Research partner for innovative tech solutions.",
+        "role": "Research Partner",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "Japan",
+        "phone": "+81 3-555-0220",
+        "web_address": "www.tokyoresearchgroup.com"
+    },
+    {
+        "name": "Berlin Tech Integrators",
+        "description": "Integrator of complex tech systems.",
+        "role": "Integrator",
+        "city": "Berlin",
+        "state": "Berlin",
+        "country": "Germany",
+        "phone": "+49 30-555-0221",
+        "web_address": "www.berlintechintegrators.com"
+    },
+    {
+        "name": "Tel Aviv Silicon Integration",
+        "description": "Integrator for silicon-based technologies.",
+        "role": "Integrator",
+        "city": "Tel Aviv",
+        "state": "Tel Aviv District",
+        "country": "Israel",
+        "phone": "+972 3-555-0222",
+        "web_address": "www.telavivsiliconintegration.com"
+    },
+    {
+        "name": "Zurich OEM Solutions",
+        "description": "OEM provider of electronic components.",
+        "role": "OEM (Original Equipment Manufacturer)",
+        "city": "Zurich",
+        "state": "Zurich",
+        "country": "Switzerland",
+        "phone": "+41 44-555-0223",
+        "web_address": "www.zurichoemsolutions.com"
+    },
+    {
+        "name": "Stockholm OEM Providers",
+        "description": "OEM provider for tech products.",
+        "role": "OEM (Original Equipment Manufacturer)",
+        "city": "Stockholm",
+        "state": "Stockholm",
+        "country": "Sweden",
+        "phone": "+46 8-555-0224",
+        "web_address": "www.stockholmoem.com"
+    },
+    {
+        "name": "Munich EndTech Solutions",
+        "description": "End user of advanced tech solutions.",
+        "role": "End User",
+        "city": "Munich",
+        "state": "Bavaria",
+        "country": "Germany",
+        "phone": "+49 89-555-0225",
+        "web_address": "www.munichendtechsolutions.com"
+    },
+    {
+        "name": "Tel Aviv Innovative Users",
+        "description": "End user of innovative tech products.",
+        "role": "End User",
+        "city": "Tel Aviv",
+        "state": "Tel Aviv District",
+        "country": "Israel",
+        "phone": "+972 3-555-0226",
+        "web_address": "www.telavivinnovativeusers.com"
+    },
+    {
+        "name": "Paris TechMedia Group",
+        "description": "Media contact for tech news and articles.",
+        "role": "Media Contact",
+        "city": "Paris",
+        "state": "Île-de-France",
+        "country": "France",
+        "phone": "+33 1-555-0227",
+        "web_address": "www.paristechmedia.com"
+    },
+    {
+        "name": "London Silicon Media",
+        "description": "Media contact for silicon-based technologies.",
+        "role": "Media Contact",
+        "city": "London",
+        "state": "England",
+        "country": "United Kingdom",
+        "phone": "+44 20-555-0228",
+        "web_address": "www.londonsiliconmedia.com"
+    },
+    {
+        "name": "Berlin TechReg Inc.",
+        "description": "Regulator for tech industry standards.",
+        "role": "Regulator",
+        "city": "Berlin",
+        "state": "Berlin",
+        "country": "Germany",
+        "phone": "+49 30-555-0229",
+        "web_address": "www.berlintechreg.com"
+    },
+    {
+        "name": "Tokyo Silicon Valley Reg",
+        "description": "Regulator for silicon technology standards.",
+        "role": "Regulator",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "Japan",
+        "phone": "+81 3-555-0230",
+        "web_address": "www.tokyosiliconvalleyreg.com"
+    },
+    {
+        "name": "Tel Aviv Tech Competitors",
+        "description": "Competitor in the tech industry.",
+        "role": "Competitor",
+        "city": "Tel Aviv",
+        "state": "Tel Aviv District",
+        "country": "Israel",
+        "phone": "+972 3-555-0231",
+        "web_address": "www.telavivtechcompetitors.com"
+    },
+    {
+        "name": "London Silicon Valley Compete",
+        "description": "Competitor in silicon technologies.",
+        "role": "Competitor",
+        "city": "London",
+        "state": "England",
+        "country": "United Kingdom",
+        "phone": "+44 20-555-0232",
+        "web_address": "www.londonsiliconvalleycompete.com"
+    },
+    {
+        "name": "Munich Trade Show Organizers",
+        "description": "Organizer of tech trade shows.",
+        "role": "Trade Show Organizer",
+        "city": "Munich",
+        "state": "Bavaria",
+        "country": "Germany",
+        "phone": "+49 89-555-0233",
+        "web_address": "www.munichtradeshoworganizers.com"
+    },
+    {
+        "name": "Paris Silicon Valley Trade Shows",
+        "description": "Organizer of silicon tech trade shows.",
+        "role": "Trade Show Organizer",
+        "city": "Paris",
+        "state": "Île-de-France",
+        "country": "France",
+        "phone": "+33 1-555-0234",
+        "web_address": "www.parissiliconvalleytradeshows.com"
+    },
+    {
+        "name": "Tel Aviv Tech Training LLC",
+        "description": "Provider of tech training programs.",
+        "role": "Training Provider",
+        "city": "Tel Aviv",
+        "state": "Tel Aviv District",
+        "country": "Israel",
+        "phone": "+972 3-555-0235",
+        "web_address": "www.telavivtechtraining.com"
+    },
+    {
+        "name": "Sydney Silicon Valley Training",
+        "description": "Provider of silicon tech training.",
+        "role": "Training Provider",
+        "city": "Sydney",
+        "state": "New South Wales",
+        "country": "Australia",
+        "phone": "+61 2-555-0236",
+        "web_address": "www.sydneysiliconvalleytraining.com"
+    },
+    {
+        "name": "Paris Logistics Solutions",
+        "description": "Logistics partner for tech companies.",
+        "role": "Logistics Partner",
+        "city": "Paris",
+        "state": "Île-de-France",
+        "country": "France",
+        "phone": "+33 1-555-0237",
+        "web_address": "www.parislogisticssolutions.com"
+    },
+    {
+        "name": "London Silicon Valley Logistics",
+        "description": "Logistics partner for silicon tech firms.",
+        "role": "Logistics Partner",
+        "city": "London",
+        "state": "England",
+        "country": "United Kingdom",
+        "phone": "+44 20-555-0238",
+        "web_address": "www.londonsiliconvalleylogistics.com"
+    },
+    {
+        "name": "Berlin TechDev LLC",
+        "description": "Software developer for tech applications.",
+        "role": "Software Developer",
+        "city": "Berlin",
+        "state": "Berlin",
+        "country": "Germany",
+        "phone": "+49 30-555-0239",
+        "web_address": "www.berlintechdev.com"
+    },
+    {
+        "name": "Tokyo Silicon Software Solutions",
+        "description": "Developer of silicon-based software.",
+        "role": "Software Developer",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "Japan",
+        "phone": "+81 3-555-0240",
+        "web_address": "www.tokyosiliconsoftware.com"
+    },
+    {
+        "name": "London Hardware Supplies",
+        "description": "Supplier of tech hardware.",
+        "role": "Hardware Supplier",
+        "city": "London",
+        "state": "England",
+        "country": "United Kingdom",
+        "phone": "+44 20-555-0241",
+        "web_address": "www.londonhardwaresupplies.com"
+    },
+    {
+        "name": "Zurich Silicon Hardware Solutions",
+        "description": "Supplier of silicon-based hardware.",
+        "role": "Hardware Supplier",
+        "city": "Zurich",
+        "state": "Zurich",
+        "country": "Switzerland",
+        "phone": "+41 44-555-0242",
+        "web_address": "www.zurichsiliconhardware.com"
+    },
+    {
+        "name": "Paris Market Analysts",
+        "description": "Market analyst for tech industry.",
+        "role": "Market Analyst",
+        "city": "Paris",
+        "state": "Île-de-France",
+        "country": "France",
+        "phone": "+33 1-555-0243",
+        "web_address": "www.parismarketanalysts.com"
+    },
+    {
+        "name": "London Silicon Valley Analysts",
+        "description": "Market analyst for silicon technologies.",
+        "role": "Market Analyst",
+        "city": "London",
+        "state": "England",
+        "country": "United Kingdom",
+        "phone": "+44 20-555-0244",
+        "web_address": "www.londonsiliconvalleyanalysts.com"
+    },
+    {
+        "name": "Berlin Tech Auditors Inc.",
+        "description": "Provider of auditing services for tech companies.",
+        "role": "Auditor",
+        "city": "Berlin",
+        "state": "Berlin",
+        "country": "Germany",
+        "phone": "+49 30-555-0245",
+        "web_address": "www.berlintechauditors.com"
+    },
+    {
+        "name": "Tokyo Silicon Valley Auditors",
+        "description": "Provider of auditing services for silicon tech companies.",
+        "role": "Auditor",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "Japan",
+        "phone": "+81 3-555-0246",
+        "web_address": "www.tokyosiliconvalleyauditors.com"
+    },
+    {
+        "name": "Tel Aviv Tech Insurance Group",
+        "description": "Provider of insurance services for tech companies.",
+        "role": "Insurance Provider",
+        "city": "Tel Aviv",
+        "state": "Tel Aviv District",
+        "country": "Israel",
+        "phone": "+972 3-555-0247",
+        "web_address": "www.telavivtechinsurance.com"
+    },
+    {
+        "name": "London Silicon Valley Insurance",
+        "description": "Provider of insurance services for silicon tech companies.",
+        "role": "Insurance Provider",
+        "city": "London",
+        "state": "England",
+        "country": "United Kingdom",
+        "phone": "+44 20-555-0248",
+        "web_address": "www.londonsiliconvalleyinsurance.com"
+    },
+    {
+        "name": "Zurich Legal Tech Advisors",
+        "description": "Legal advisor for tech companies.",
+        "role": "Legal Advisor",
+        "city": "Zurich",
+        "state": "Zurich",
+        "country": "Switzerland",
+        "phone": "+41 44-555-0249",
+        "web_address": "www.zurichlegaltech.com"
+    },
+    {
+        "name": "Tel Aviv Silicon Valley Legal",
+        "description": "Legal advisor for silicon tech companies.",
+        "role": "Legal Advisor",
+        "city": "Tel Aviv",
+        "state": "Tel Aviv District",
+        "country": "Israel",
+        "phone": "+972 3-555-0250",
+        "web_address": "www.telavivsiliconvalleylegal.com"
+    },
+    {
+        "name": "Paris Tech HR Consultants",
+        "description": "HR consultant for tech companies.",
+        "role": "HR Consultant",
+        "city": "Paris",
+        "state": "Île-de-France",
+        "country": "France",
+        "phone": "+33 1-555-0251",
+        "web_address": "www.paristechhr.com"
+    },
+    {
+        "name": "London Silicon Valley HR",
+        "description": "HR consultant for silicon tech companies.",
+        "role": "HR Consultant",
+        "city": "London",
+        "state": "England",
+        "country": "United Kingdom",
+        "phone": "+44 20-555-0252",
+        "web_address": "www.londonsiliconvalleyhr.com"
+    },
+    {
+        "name": "Zurich Tech PR Firm",
+        "description": "Public relations firm for tech companies.",
+        "role": "Public Relations Firm",
+        "city": "Zurich",
+        "state": "Zurich",
+        "country": "Switzerland",
+        "phone": "+41 44-555-0253",
+        "web_address": "www.zurichtechpr.com"
+    },
+    {
+        "name": "Tel Aviv Silicon Valley PR",
+        "description": "Public relations firm for silicon tech companies.",
+        "role": "Public Relations Firm",
+        "city": "Tel Aviv",
+        "state": "Tel Aviv District",
+        "country": "Israel",
+        "phone": "+972 3-555-0254",
+        "web_address": "www.telavivsiliconvalleypr.com"
+    },
+    {
+        "name": "Berlin Tech Support Inc.",
+        "description": "Provider of technical support services for tech companies.",
+        "role": "Technical Support",
+        "city": "Berlin",
+        "state": "Berlin",
+        "country": "Germany",
+        "phone": "+49 30-555-0255",
+        "web_address": "www.berlintechsupport.com"
+    },
+    {
+        "name": "Tokyo Silicon Valley Tech Support",
+        "description": "Provider of technical support services for silicon tech companies.",
+        "role": "Technical Support",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "Japan",
+        "phone": "+81 3-555-0256",
+        "web_address": "www.tokyosiliconvalleytechsupport.com"
+    },
+    {
+        "name": "Zurich Tech QA Partners",
+        "description": "Quality assurance partner for tech companies.",
+        "role": "Quality Assurance Partner",
+        "city": "Zurich",
+        "state": "Zurich",
+        "country": "Switzerland",
+        "phone": "+41 44-555-0257",
+        "web_address": "www.zurichtechqa.com"
+    },
+    {
+        "name": "Tel Aviv Silicon Valley QA",
+        "description": "Quality assurance partner for silicon tech companies.",
+        "role": "Quality Assurance Partner",
+        "city": "Tel Aviv",
+        "state": "Tel Aviv District",
+        "country": "Israel",
+        "phone": "+972 3-555-0258",
+        "web_address": "www.telavivsiliconvalleyqa.com"
+    },
+    {
+        "name": "Paris Tech Prototype Developers",
+        "description": "Prototype developer for tech companies.",
+        "role": "Prototype Developer",
+        "city": "Paris",
+        "state": "Île-de-France",
+        "country": "France",
+        "phone": "+33 1-555-0259",
+        "web_address": "www.paristechprototypes.com"
+    },
+    {
+        "name": "London Silicon Valley Prototypes",
+        "description": "Prototype developer for silicon tech companies.",
+        "role": "Prototype Developer",
+        "city": "London",
+        "state": "England",
+        "country": "United Kingdom",
+        "phone": "+44 20-555-0260",
+        "web_address": "www.londonsiliconvalleyprototypes.com"
+    },
+    {
+        "name": "Zurich Tech Financial Advisors",
+        "description": "Financial advisor for tech companies.",
+        "role": "Financial Advisor",
+        "city": "Zurich",
+        "state": "Zurich",
+        "country": "Switzerland",
+        "phone": "+41 44-555-0261",
+        "web_address": "www.zurichtechfinancialadvisors.com"
+    },
+    {
+        "name": "Tel Aviv Silicon Valley Finance",
+        "description": "Financial advisor for silicon tech companies.",
+        "role": "Financial Advisor",
+        "city": "Tel Aviv",
+        "state": "Tel Aviv District",
+        "country": "Israel",
+        "phone": "+972 3-555-0262",
+        "web_address": "www.telavivsiliconvalleyfinance.com"
+    },
+    {
+        "name": "Paris Tech Marketing Agency",
+        "description": "Marketing agency for tech companies.",
+        "role": "Marketing Agency",
+        "city": "Paris",
+        "state": "Île-de-France",
+        "country": "France",
+        "phone": "+33 1-555-0263",
+        "web_address": "www.paristechmarketing.com"
+    },
+    {
+        "name": "London Silicon Valley Marketing",
+        "description": "Marketing agency for silicon tech companies.",
+        "role": "Marketing Agency",
+        "city": "London",
+        "state": "England",
+        "country": "United Kingdom",
+        "phone": "+44 20-555-0264",
+        "web_address": "www.londonsiliconvalleymarketing.com"
+    },
+    {
+        "name": "Zurich Tech Integrators",
+        "description": "System integrator for tech companies.",
+        "role": "System Integrator",
+        "city": "Zurich",
+        "state": "Zurich",
+        "country": "Switzerland",
+        "phone": "+41 44-555-0265",
+        "web_address": "www.zurichtechintegrators.com"
+    },
+    {
+        "name": "Tel Aviv Silicon Valley Integrators",
+        "description": "System integrator for silicon tech companies.",
+        "role": "System Integrator",
+        "city": "Tel Aviv",
+        "state": "Tel Aviv District",
+        "country": "Israel",
+        "phone": "+972 3-555-0266",
+        "web_address": "www.telavivsiliconvalleyintegrators.com"
+    },
+    {
+        "name": "Paris Tech Data Centers",
+        "description": "Data center services for tech companies.",
+        "role": "Data Center",
+        "city": "Paris",
+        "state": "Île-de-France",
+        "country": "France",
+        "phone": "+33 1-555-0267",
+        "web_address": "www.paristechdatacenters.com"
+    },
+    {
+        "name": "London Silicon Valley Data",
+        "description": "Data center services for silicon tech companies.",
+        "role": "Data Center",
+        "city": "London",
+        "state": "England",
+        "country": "United Kingdom",
+        "phone": "+44 20-555-0268",
+        "web_address": "www.londonsiliconvalleydata.com"
+    },
+    {
+        "name": "Zurich Tech Cloud Services",
+        "description": "Cloud service provider for tech companies.",
+        "role": "Cloud Service Provider",
+        "city": "Zurich",
+        "state": "Zurich",
+        "country": "Switzerland",
+        "phone": "+41 44-555-0269",
+        "web_address": "www.zurichtechcloudservices.com"
+    },
+    {
+        "name": "Tel Aviv Silicon Valley Cloud",
+        "description": "Cloud service provider for silicon tech companies.",
+        "role": "Cloud Service Provider",
+        "city": "Tel Aviv",
+        "state": "Tel Aviv District",
+        "country": "Israel",
+        "phone": "+972 3-555-0270",
+        "web_address": "www.telavivsiliconvalleycloud.com"
+    },
+    {
+        "name": "Paris Tech Training Partners",
+        "description": "Training partner for tech companies.",
+        "role": "Training Partner",
+        "city": "Paris",
+        "state": "Île-de-France",
+        "country": "France",
+        "phone": "+33 1-555-0271",
+        "web_address": "www.paristechtrainingpartners.com"
+    },
+    {
+        "name": "London Silicon Valley Training Partners",
+        "description": "Training partner for silicon tech companies.",
+        "role": "Training Partner",
+        "city": "London",
+        "state": "England",
+        "country": "United Kingdom",
+        "phone": "+44 20-555-0272",
+        "web_address": "www.londonsiliconvalleytrainingpartners.com"
+    },
+    {
+        "name": "Zurich Tech Environmental Consultants",
+        "description": "Environmental consultant for tech companies.",
+        "role": "Environmental Consultant",
+        "city": "Zurich",
+        "state": "Zurich",
+        "country": "Switzerland",
+        "phone": "+41 44-555-0273",
+        "web_address": "www.zurichtechenvironmentalconsultants.com"
+    },
+    {
+        "name": "Tel Aviv Silicon Valley Environmental",
+        "description": "Environmental consultant for silicon tech companies.",
+        "role": "Environmental Consultant",
+        "city": "Tel Aviv",
+        "state": "Tel Aviv District",
+        "country": "Israel",
+        "phone": "+972 3-555-0274",
+        "web_address": "www.telavivsiliconvalleyenvironmental.com"
+    },
+    {
+        "name": "Paris Tech Security Solutions",
+        "description": "Security provider for tech companies.",
+        "role": "Security Provider",
+        "city": "Paris",
+        "state": "Île-de-France",
+        "country": "France",
+        "phone": "+33 1-555-0275",
+        "web_address": "www.paristechsecuritysolutions.com"
+    },
+    {
+        "name": "London Silicon Valley Security",
+        "description": "Security provider for silicon tech companies.",
+        "role": "Security Provider",
+        "city": "London",
+        "state": "England",
+        "country": "United Kingdom",
+        "phone": "+44 20-555-0276",
+        "web_address": "www.londonsiliconvalleysecurity.com"
+    },
+    {
+        "name": "Zurich Tech Event Planners",
+        "description": "Event planner for tech industry events.",
+        "role": "Event Planner",
+        "city": "Zurich",
+        "state": "Zurich",
+        "country": "Switzerland",
+        "phone": "+41 44-555-0277",
+        "web_address": "www.zurichtecheventplanners.com"
+    },
+    {
+        "name": "Tel Aviv Silicon Valley Events",
+        "description": "Event planner for silicon tech industry events.",
+        "role": "Event Planner",
+        "city": "Tel Aviv",
+        "state": "Tel Aviv District",
+        "country": "Israel",
+        "phone": "+972 3-555-0278",
+        "web_address": "www.telavivsiliconvalleyevents.com"
+    },
+    {
+        "name": "Paris Tech Talent Agency",
+        "description": "Talent agency for tech professionals.",
+        "role": "Talent Agency",
+        "city": "Paris",
+        "state": "Île-de-France",
+        "country": "France",
+        "phone": "+33 1-555-0279",
+        "web_address": "www.paristechtalentagency.com"
+    },
+    {
+        "name": "London Silicon Valley Talent",
+        "description": "Talent agency for silicon tech professionals.",
+        "role": "Talent Agency",
+        "city": "London",
+        "state": "England",
+        "country": "United Kingdom",
+        "phone": "+44 20-555-0280",
+        "web_address": "www.londonsiliconvalleytalent.com"
+    },
+    {
+        "name": "Beta Automation",
+        "description": "Provides industrial automation solutions.",
+        "role": "Supplier",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 415-555-0281",
+        "web_address": "www.betaautomation.com"
+    },
+    {
+        "name": "Gamma Aerospace",
+        "description": "Engaged in aerospace engineering and manufacturing.",
+        "role": "Supplier",
+        "city": "Seattle",
+        "state": "WA",
+        "country": "USA",
+        "phone": "+1 206-555-0282",
+        "web_address": "www.gammaaerospace.com"
+    },
+    {
+        "name": "Delta Motors",
+        "description": "Automobile manufacturer producing a range of vehicles.",
+        "role": "Customer",
+        "city": "Detroit",
+        "state": "MI",
+        "country": "USA",
+        "phone": "+1 313-555-0283",
+        "web_address": "www.deltamotors.com"
+    },
+    {
+        "name": "Epsilon Robotics",
+        "description": "Develops advanced robotics systems for industrial use.",
+        "role": "Customer",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "country": "USA",
+        "phone": "+1 412-555-0284",
+        "web_address": "www.epsilonrobotics.com"
+    },
+    {
+        "name": "Zeta Instruments",
+        "description": "Produces precision measurement instruments for laboratories.",
+        "role": "Partner",
+        "city": "Chicago",
+        "state": "IL",
+        "country": "USA",
+        "phone": "+1 312-555-0285",
+        "web_address": "www.zetainstruments.com"
+    },
+    {
+        "name": "Eta Technologies",
+        "description": "Offers cutting-edge tech solutions for various industries.",
+        "role": "Partner",
+        "city": "Boston",
+        "state": "MA",
+        "country": "USA",
+        "phone": "+1 617-555-0286",
+        "web_address": "www.etatechnologies.com"
+    },
+    {
+        "name": "Theta Aerospace",
+        "description": "Aerospace company focusing on aircraft design and manufacturing.",
+        "role": "Distributor",
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 213-555-0287",
+        "web_address": "www.thetaaerospace.com"
+    },
+    {
+        "name": "Iota Engineering",
+        "description": "Provides engineering consulting services for infrastructure projects.",
+        "role": "Distributor",
+        "city": "Atlanta",
+        "state": "GA",
+        "country": "USA",
+        "phone": "+1 404-555-0288",
+        "web_address": "www.iotaengineering.com"
+    },
+    {
+        "name": "Kappa Energy",
+        "description": "Develops renewable energy technologies.",
+        "role": "Investor",
+        "city": "Houston",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 713-555-0289",
+        "web_address": "www.kappaenergy.com"
+    },
+    {
+        "name": "Lambda Chemical Corp",
+        "description": "Chemical engineering company producing industrial chemicals.",
+        "role": "Investor",
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "USA",
+        "phone": "+1 215-555-0290",
+        "web_address": "www.lambdachemical.com"
+    },
+    {
+        "name": "Mu Medical Devices",
+        "description": "Manufactures medical devices and diagnostic equipment.",
+        "role": "Consultant",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 214-555-0291",
+        "web_address": "www.mumedicaldevices.com"
+    },
+    {
+        "name": "Nu Civil Engineering",
+        "description": "Civil engineering firm specializing in infrastructure development.",
+        "role": "Consultant",
+        "city": "San Antonio",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 210-555-0292",
+        "web_address": "www.nucivilengineering.com"
+    },
+    {
+        "name": "Xi Mechanical Systems",
+        "description": "Designs and manufactures mechanical systems and components.",
+        "role": "Service Provider",
+        "city": "Denver",
+        "state": "CO",
+        "country": "USA",
+        "phone": "+1 303-555-0293",
+        "web_address": "www.ximechanical.com"
+    },
+    {
+        "name": "Omicron Dynamics",
+        "description": "Provides dynamic systems and control solutions for automation.",
+        "role": "Service Provider",
+        "city": "Phoenix",
+        "state": "AZ",
+        "country": "USA",
+        "phone": "+1 602-555-0294",
+        "web_address": "www.omicrondynamics.com"
+    },
+    {
+        "name": "Pi Precision Tools",
+        "description": "Produces high-precision tools for various industries.",
+        "role": "Reseller",
+        "city": "Portland",
+        "state": "OR",
+        "country": "USA",
+        "phone": "+1 503-555-0295",
+        "web_address": "www.piprecisiontools.com"
+    },
+    {
+        "name": "Rho Construction",
+        "description": "Engages in large-scale construction projects.",
+        "role": "Reseller",
+        "city": "Las Vegas",
+        "state": "NV",
+        "country": "USA",
+        "phone": "+1 702-555-0296",
+        "web_address": "www.rho-construction.com"
+    },
+    {
+        "name": "Sigma Semiconductors",
+        "description": "Manufactures semiconductors for electronics.",
+        "role": "Manufacturer",
+        "city": "San Jose",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 408-555-0297",
+        "web_address": "www.sigmasemiconductors.com"
+    },
+    {
+        "name": "Tau Telecom",
+        "description": "Telecommunications company providing communication solutions.",
+        "role": "Manufacturer",
+        "city": "Miami",
+        "state": "FL",
+        "country": "USA",
+        "phone": "+1 305-555-0298",
+        "web_address": "www.tautelecom.com"
+    },
+    {
+        "name": "Upsilon Utilities",
+        "description": "Offers utility management and infrastructure services.",
+        "role": "Research Partner",
+        "city": "Austin",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 512-555-0299",
+        "web_address": "www.upsilonutilities.com"
+    },
+    {
+        "name": "Phi Electronics",
+        "description": "Produces consumer and commercial electronic devices.",
+        "role": "Research Partner",
+        "city": "Fort Worth",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 817-555-0300",
+        "web_address": "www.phielectronics.com"
+    },
+    {
+        "name": "Chi Optics",
+        "description": "Develops optical and photonic technologies.",
+        "role": "Integrator",
+        "city": "Charlotte",
+        "state": "NC",
+        "country": "USA",
+        "phone": "+1 704-555-0301",
+        "web_address": "www.chioptics.com"
+    },
+    {
+        "name": "Psi Aviation",
+        "description": "Provides aviation engineering and maintenance services.",
+        "role": "Integrator",
+        "city": "Indianapolis",
+        "state": "IN",
+        "country": "USA",
+        "phone": "+1 317-555-0302",
+        "web_address": "www.psiaviation.com"
+    },
+    {
+        "name": "Omega Marine Engineering",
+        "description": "Specializes in marine engineering and shipbuilding.",
+        "role": "OEM (Original Equipment Manufacturer)",
+        "city": "New Orleans",
+        "state": "LA",
+        "country": "USA",
+        "phone": "+1 504-555-0303",
+        "web_address": "www.omegamarineengineering.com"
+    },
+    {
+        "name": "Quantum Computing",
+        "description": "Develops quantum computing technologies.",
+        "role": "OEM (Original Equipment Manufacturer)",
+        "city": "Palo Alto",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 650-555-0304",
+        "web_address": "www.quantumcomputing.com"
+    },
+    {
+        "name": "Spectra Systems",
+        "description": "Produces high-performance computing systems.",
+        "role": "End User",
+        "city": "Redmond",
+        "state": "WA",
+        "country": "USA",
+        "phone": "+1 425-555-0305",
+        "web_address": "www.spectrasystems.com"
+    },
+    {
+        "name": "Pioneer Plastics",
+        "description": "Manufactures plastic components for various industries.",
+        "role": "End User",
+        "city": "Chicago",
+        "state": "IL",
+        "country": "USA",
+        "phone": "+1 312-555-0306",
+        "web_address": "www.pioneerplastics.com"
+    },
+    {
+        "name": "Nexus Metals",
+        "description": "Produces metal components and alloys.",
+        "role": "Media Contact",
+        "city": "Cleveland",
+        "state": "OH",
+        "country": "USA",
+        "phone": "+1 216-555-0307",
+        "web_address": "www.nexusmetals.com"
+    },
+    {
+        "name": "Titanium Tech",
+        "description": "Specializes in titanium-based products and technologies.",
+        "role": "Media Contact",
+        "city": "St. Louis",
+        "state": "MO",
+        "country": "USA",
+        "phone": "+1 314-555-0308",
+        "web_address": "www.titaniumtech.com"
+    },
+    {
+        "name": "Ironclad Engineering",
+        "description": "Provides structural engineering services.",
+        "role": "Regulator",
+        "city": "Kansas City",
+        "state": "MO",
+        "country": "USA",
+        "phone": "+1 816-555-0309",
+        "web_address": "www.ironcladengineering.com"
+    },
+    {
+        "name": "Bronze Innovations",
+        "description": "Develops innovative bronze-based products.",
+        "role": "Regulator",
+        "city": "Milwaukee",
+        "state": "WI",
+        "country": "USA",
+        "phone": "+1 414-555-0310",
+        "web_address": "www.bronzeinnovations.com"
+    },
+    {
+        "name": "Copper Tech",
+        "description": "Manufactures copper components for electrical applications.",
+        "role": "Competitor",
+        "city": "Cincinnati",
+        "state": "OH",
+        "country": "USA",
+        "phone": "+1 513-555-0311",
+        "web_address": "www.coppertech.com"
+    },
+    {
+        "name": "Silver Solutions",
+        "description": "Engages in silver-based chemical engineering.",
+        "role": "Competitor",
+        "city": "Minneapolis",
+        "state": "MN",
+        "country": "USA",
+        "phone": "+1 612-555-0312",
+        "web_address": "www.silversolutions.com"
+    },
+    {
+        "name": "Goldline Electronics",
+        "description": "Produces gold-plated electronic components.",
+        "role": "Trade Show Organizer",
+        "city": "San Diego",
+        "state": "CA",
+        "country": "USA",
+        "phone": "+1 619-555-0313",
+        "web_address": "www.goldlineelectronics.com"
+    },
+    {
+        "name": "Platinum Devices",
+        "description": "Manufactures platinum-based industrial devices.",
+        "role": "Trade Show Organizer",
+        "city": "San Antonio",
+        "state": "TX",
+        "country": "USA",
+        "phone": "+1 210-555-0314",
+        "web_address": "www.platinumdevices.com"
+    },
+    {
+        "name": "Neon Lighting",
+        "description": "Produces neon lighting solutions for commercial use.",
+        "role": "Training Provider",
+        "city": "Nashville",
+        "state": "TN",
+        "country": "USA",
+        "phone": "+1 615-555-0315",
+        "web_address": "www.neonlighting.com"
+    },
+    {
+        "name": "Argon Systems",
+        "description": "Develops argon-based industrial systems.",
+        "role": "Training Provider",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "country": "USA",
+        "phone": "+1 405-555-0316",
+        "web_address": "www.argonsystems.com"
+    },
+    {
+        "name": "Krypton Labs",
+        "description": "Engages in advanced research and development.",
+        "role": "Logistics Partner",
+        "city": "Louisville",
+        "state": "KY",
+        "country": "USA",
+        "phone": "+1 502-555-0317",
+        "web_address": "www.kryptonlabs.com"
+    },
+    {
+        "name": "Xenon Innovations",
+        "description": "Develops xenon-based lighting and imaging technologies.",
+        "role": "Logistics Partner",
+        "city": "Memphis",
+        "state": "TN",
+        "country": "USA",
+        "phone": "+1 901-555-0318",
+        "web_address": "www.xenoninnovations.com"
+    },
+    {
+        "name": "Radon Engineering",
+        "description": "Provides radon mitigation and engineering solutions.",
+        "role": "Software Developer",
+        "city": "Raleigh",
+        "state": "NC",
+        "country": "USA",
+        "phone": "+1 919-555-0319",
+        "web_address": "www.radonengineering.com"
+    },
+    {
+        "name": "Helium Tech",
+        "description": "Specializes in helium-based technologies and applications.",
+        "role": "Software Developer",
+        "city": "Richmond",
+        "state": "VA",
+        "country": "USA",
+        "phone": "+1 804-555-0320",
+        "web_address": "www.heliumtech.com"
+    },
+    {
+        "name": "Hydrogen Energy",
+        "description": "Develops hydrogen fuel cells and energy solutions.",
+        "role": "Hardware Supplier",
+        "city": "Buffalo",
+        "state": "NY",
+        "country": "USA",
+        "phone": "+1 716-555-0321",
+        "web_address": "www.hydrogenenergy.com"
+    },
+    {
+        "name": "Lithium Power",
+        "description": "Produces lithium-based batteries and energy storage systems.",
+        "role": "Hardware Supplier",
+        "city": "Rochester",
+        "state": "NY",
+        "country": "USA",
+        "phone": "+1 585-555-0322",
+        "web_address": "www.lithiumpower.com"
+    },
+    {
+        "name": "Beryllium Engineering",
+        "description": "Manufactures beryllium components for aerospace and defense.",
+        "role": "Market Analyst",
+        "city": "Baltimore",
+        "state": "MD",
+        "country": "USA",
+        "phone": "+1 410-555-0323",
+        "web_address": "www.berylliumengineering.com"
+    },
+    {
+        "name": "Carbon Fiber Innovations",
+        "description": "Develops carbon fiber products for automotive and aerospace.",
+        "role": "Market Analyst",
+        "city": "Charlotte",
+        "state": "NC",
+        "country": "USA",
+        "phone": "+1 704-555-0324",
+        "web_address": "www.carbonfiberinnovations.com"
+    },
+    {
+        "name": "Nitrogen Solutions",
+        "description": "Produces nitrogen-based industrial chemicals.",
+        "role": "Auditor",
+        "city": "Columbus",
+        "state": "OH",
+        "country": "USA",
+        "phone": "+1 614-555-0325",
+        "web_address": "www.nitrogensolutions.com"
+    },
+    {
+        "name": "Oxygen Technologies",
+        "description": "Provides oxygen generation and storage systems.",
+        "role": "Auditor",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "country": "USA",
+        "phone": "+1 801-555-0326",
+        "web_address": "www.oxygentechnologies.com"
+    }
+]
+
+
+

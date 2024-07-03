@@ -1,0 +1,46 @@
+
+From:    Joe MacMillan
+Sent:    Saturday, May 21, 1983 04:11 PM
+To:      Barry Shields; Donna Clark; Yo-Yo Engberk; Debbie Malinowski; Malcolm Levitan
+
+Categories:    Industry News
+
+Hi Malcolm,
+
+What's the deal with PC Magazine suddenly caring about Unix-based operating systems? Are they trying to make a move on our turf? Newsflash, Malcolm: Cardiff Electric is already ahead of the curve when it comes to innovation. We don't need some magazine telling us what's "trendy" or "hot". Our 80286 project is going to change the game, and nobody - not even PC Magazine - can stop us.
+
+As for your little aside about server-side applications and performance reliability, let me tell you: we've been doing just fine without their endorsement. And if they want to jump on the Unix bandwagon, that's their prerogative. But don't try to pawn it off as some kind of revelation or groundbreaking discovery. We're the ones pushing the boundaries here.
+
+So, Malcolm, I'd love to hear your thoughts on how you think PC Magazine's little article is going to affect our work at Cardiff Electric. Just remember: we're not in this for the recognition; we're in it to win.
+
+Very truly yours,
+Joe MacMillan
+Senior Product Manager
+Product Management
+Cardiff Electric
+
+
+From:    Malcolm Levitan
+Sent:    Saturday, May 21, 1983 04:11 PM
+To:      Barry Shields; Donna Clark; Yo-Yo Engberk; Joe MacMillan; Debbie Malinowski
+
+Categories: Industry News
+
+Subject:    Industry News - PC Magazine Insights
+
+
+Dear All,
+
+I've been following recent industry trends and wanted to share some interesting findings from my reading of PC Magazine. Specifically, their latest issue highlights a growing interest in Unix-based operating systems, which I believe has implications for our own work on the 80286 project.
+
+In particular, I noted that PC Magazine's tests demonstrate improved performance and reliability when using Unix-based systems for server-side applications. This aligns with my own experiences experimenting with Xenix, as you know.
+
+I'm curious to hear your thoughts on this development and how it might influence our approach to software development at Cardiff Electric. Perhaps we can discuss potential synergies between our work on the 80286 and these emerging Unix-based technologies?
+
+Best regards,
+
+Malcolm Levitan
+Programmer
++1 512-555-0182
+Cardiff Electric, Software Development
+

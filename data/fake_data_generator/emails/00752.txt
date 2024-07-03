@@ -1,0 +1,23 @@
+
+From:    Yo-Yo Engberk
+Sent:    Friday, February 04, 1983 01:25 PM
+To:      Debbie Malinowski; Malcolm Levitan
+
+Categories: Quality Assurance
+
+Subject: QA: A Whole New World
+
+Dear Debbie and Malcolm,
+
+EMAIL BODY
+I'm feeling like a teenager in love with our QA process - it's all about finding that perfect bug-free match! But seriously, I wanted to touch base on some new ideas I've been playing with. I think we can take our testing game to the next level by implementing a more robust set of automated tests. What do you both think? Should we get the party started?
+
+EMAIL BODY
+Also, I was wondering if we could grab lunch soon and chat more about this? I have some fun ideas to share and would love to hear your thoughts.
+
+EMAIL BODY
+Oh, and one more thing - can we please rename "Test Case 123" to something more creative? How about "QA Superstar Savior"?
+
+EMAIL BODY
+Let me know what you think!
+

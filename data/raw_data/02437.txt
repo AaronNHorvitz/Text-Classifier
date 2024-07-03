@@ -1,0 +1,69 @@
+
+From:    Cameron Howe
+Sent:    Monday, April 11, 1983 03:26 PM
+To:      John Bosworth; Cameron Howe
+
+Categories:    Vacation Notice
+
+Hi Malcolm,
+
+I'm surprised you're freaking out about my vacation notice. I mean, I know you're worried about the code, but come on - we have a system in place for these things. And besides, I'll be back before you know it with some much-needed rest and maybe even some new ideas to improve our work.
+
+I understand your concerns, but let's not make this out to be more than it is. Two weeks off won't kill Cardiff Electric (or the code). It might even help us come back stronger and more refreshed.
+
+Don't worry about me getting too comfortable without you - I'll be busy soaking up some sun and recharging my batteries. You do the same, okay?
+
+Very truly yours,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Software Development
+Cardiff Electric
+
+
+From:    Malcolm Levitan
+Sent:    Monday, April 11, 1983 03:26 PM
+To:      John Bosworth; Cameron Howe
+
+Categories:    Vacation Notice
+
+Dear Cameron,
+
+Worry is my middle name. Or maybe it should be "Vacation Anxieties"? Because, honestly, I'm freaking out a little bit about you taking two weeks off. What if something breaks? What if someone decides to rewrite all our code in COBOL while we're gone? What if... what if... what if...
+
+Okay, okay, I know it's not the end of the world. And I trust that you've left instructions on how to keep things from getting too out of hand. But still, my mind is racing with worst-case scenarios.
+
+Look, Cameron, just be careful out there, and don't get too comfortable without me. Deal?
+
+Very truly yours,
+
+Malcolm Levitan
++1 512-555-0182
+Programmer
+Software Development
+Cardiff Electric
+
+
+
+From:    Cameron Howe
+Sent:    Monday, April 11, 1983 03:26 PM
+To:      Malcolm Levitan; John Bosworth
+
+Categories: Vacation Notice
+
+Subject: Vacation Notice
+
+
+Dear Malcolm and John,
+
+I'm writing to admit that I've made a mistake. Again. This time, it's about taking some actual time off. I know, I know - software development doesn't stop just because I need a break (or my sanity preserved). But Cardiff Electric has this weird notion that I'm still human, and humans need vacations.
+
+I'll be out of the office for two weeks starting from [Date]. Don't worry; I've left instructions on how to keep the code from eating itself while I'm gone. You know the drill - just don't let it get too comfortable without me.
+
+
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Software Development
+Cardiff Electric
+

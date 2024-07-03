@@ -1,0 +1,29 @@
+
+From:    Cameron Howe
+Sent:    Friday, February 04, 1983 03:04 PM
+To:      Debbie Malinowski; Barry Shields; Gordon Clark
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance: Where We're At
+
+Dear Debbie,
+
+ EMAIL BODY
+
+Hey guys, just wanted to give a quick update on our QA efforts. We've got some promising leads on the new algo and I'm feeling pretty optimistic about the chances of meeting our deadline. Of course, there's always room for improvement, but it's nice to have something to work with.
+
+EMAIL BODY (continued)
+
+I did want to touch base with you all about the testing process though - I think we're still missing some crucial steps in there somewhere. Maybe we can schedule a call to walk through everything and make sure we're on the same page?
+
+EMAIL BODY (final part)
+
+Oh, and one more thing: I've been having some pretty great thoughts about this whole QA thing... maybe we should start thinking outside the box and try some new approaches? Who knows what kind of innovation we could spark if we just let ourselves get a little wild.
+
+EMAIL SIGNATURE
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Cardiff Electric
+Software Development Department
+

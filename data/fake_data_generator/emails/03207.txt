@@ -1,0 +1,87 @@
+
+From:    Joe MacMillan
+Sent:    Monday, May 09, 1983 02:23 PM
+To:      Donna Clark; Barry Shields; Debbie Malinowski; Gordon Clark
+
+Categories:    Reminder
+
+Dear Gordon,
+
+I'm starting to think that reminding people about meetings is just a way to make sure they're sufficiently miserable beforehand. Can't we just get to the part where we complain about how terrible our jobs are and move on from there?
+
+Anyway, I'll be there tomorrow at 2 PM, mostly because I have no idea what's going on with this new PC project and I don't want to look like a complete idiot in front of everyone. Plus, it'll give me an excuse to vent about how awful the traffic is getting.
+
+I do have one question: what's the point of reviewing system architecture if we're just going to end up stuck in some bureaucratic nightmare? Can't we just skip all the pointless meetings and get straight to the part where we make a bunch of money off some mediocre technology?
+
+Very truly yours,
+Joe MacMillan
++1 512-555-0132
+Senior Product Manager, Cardiff Electric, Product Management
+
+
+From:    Gordon Clark
+Sent:    Monday, May 09, 1983 02:23 PM
+To:      Joe MacMillan; Donna Clark; Barry Shields; Debbie Malinowski; Gordon Clark
+
+Categories:    Reminder
+
+Dear John,
+
+Ugh, reminder? Really? Can't we just do something new for once instead of reviewing the same old system architecture? I mean, I know it's important, but can't we make it more exciting? Like, I don't know, a treasure hunt or something?
+
+Anyway, I'll be there tomorrow at 2 PM. And by "there", I mean stuck in traffic on the way to Cardiff Electric, wondering why I even bothered getting out of bed this morning.
+
+Best,
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Engineering Department
+Cardiff Electric
+
+
+From:    John Bosworth
+Sent:    Monday, May 09, 1983 02:23 PM
+To:      Joe MacMillan; Donna Clark; Barry Shields; Debbie Malinowski; Gordon Clark
+
+Categories:    Reminder
+
+Hi Gordon,
+
+I'm proud to be reminded about our system architecture review tomorrow. It's a big deal, and I'm excited to get everyone on the same page. Your summary looks good, but I do have one question: what's the plan for testing this new PC? We can't just launch it without making sure it's stable.
+
+I'll make sure to be there at 2 PM with my questions and concerns ready to go. Looking forward to seeing everyone then.
+
+Very truly yours,
+John Bosworth
++1 512-555-0179
+Vice President of Sales, Cardiff Electric, Sales
+
+
+
+From:    Gordon Clark
+Sent:    Monday, May 09, 1983 02:23 PM
+To:      Joe MacMillan; Donna Clark; Barry Shields; Debbie Malinowski; John Bosworth
+
+Categories: Reminder
+
+Subject: Reminder: System Architecture Review
+
+
+Dear All,
+
+I'm writing to remind everyone that our system architecture review is scheduled for tomorrow at 2 PM. As we discussed previously, this meeting will cover the high-level design of our new PC project.
+
+Please come prepared with any questions or concerns you have regarding the specifications and implementation details. I've included a summary of the key points below:
+
+
+The new PC will utilize the Intel 8086 processor for improved performance.
+The system architecture will incorporate a unique hybrid disk drive configuration to enhance data storage.
+
+
+Please let me know if you're unable to attend. If so, please coordinate with me or Joe MacMillan to schedule an alternative meeting.
+
+Best,
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Engineering Department
+Cardiff Electric
+

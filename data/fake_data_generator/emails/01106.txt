@@ -1,0 +1,25 @@
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, February 15, 1983 03:57 PM
+To:      Malcolm Levitan; Ed Burris; Joe MacMillan
+
+Categories: Technical Support
+
+Subject: 
+
+Alienated at Cardiff Electric
+
+
+Hey Malcolm, Ed, and Joe,
+
+I'm starting to feel like I'm stuck in a reboot loop. Every conversation seems to be about "what's next for our IBM-compatible PC" or some other snooze-fest. Don't get me wrong, those things are important, but can we please talk about something more... exotic? Like, have you seen the new 6502 CPU from WDC? It's like a tiny, tasty morsel of innovation!
+
+I know I sound like a crazy person, but honestly, I'm starting to feel like my ideas are just orbiting around in space, waiting for someone to pick them up. Maybe it's time we shake things up and bring some actual "fire" to our software development?
+
+Let me know if you're feeling the same way.
+
+Best,
+Yo-Yo Engberk
+Programmer
++1 512-555-0142
+Cardiff Electric, Software Development

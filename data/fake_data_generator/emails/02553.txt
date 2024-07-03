@@ -1,0 +1,22 @@
+
+From:    Cameron Howe
+Sent:    Wednesday, April 13, 1983 01:56 PM
+To:      Joe MacMillan; Debbie Malinowski; John Bosworth; Larry Goins; Malcolm Levitan
+
+Categories: Reminder
+
+Subject:    Reminder: Cardiff Electric's Software Development department
+
+
+Hello Joe, Debbie, John, Larry, and Malcolm,
+
+I'm writing to remind everyone that we're approaching a critical deadline for the 86k project. I've been obsessing over the code, and I think we can push it further than our initial estimates. The new specs are looking promising, but we need to stay focused.
+
+Let's touch base soon to discuss the latest developments and make sure we're all on the same page.
+
+Cameron Howe
+Lead Software Developer
+Cardiff Electric
+Software Development
++1 512-555-0147
+

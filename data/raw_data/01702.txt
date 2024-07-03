@@ -1,0 +1,48 @@
+
+From:    Barry Shields
+Sent:    Thursday, March 10, 1983 01:05 PM
+To:      Ed Burris; Malcolm Levitan
+
+Categories:    Thank You
+
+Hi Malcolm,
+
+Thanks. That's it. Thanks a lot.
+
+I'm not sure what kind of magic you're pulling over there, but our code looks like it was written by someone who actually knows how to write code now. I mean, we've had people trying to debug that memory leak for weeks, and suddenly, boom! It's gone. We can't even begin to thank you enough.
+
+I'm not going to lie, Malcolm. A part of me is a little jealous right now. You're the one who gets to go home tonight and tell your wife about how you solved some impossible problem, and I'm over here stuck in this dingy old office with Ed, trying to make sense of some half-baked prototype.
+
+But hey, that's not what matters. What matters is that we got it done, and we did it together (well, more like you did most of the work, but still). So thank you, Malcolm. Really, truly, sincerely, very truly yours,
+
+Barry Shields
+Senior Counsel, Cardiff Electric
+Phone: +1 512-555-0166
+
+
+From:    Malcolm Levitan
+Sent:    Thursday, March 10, 1983 01:05 PM
+To:      Barry Shields; Ed Burris
+
+Categories: Thank You
+
+Subject: 
+
+Dear Barry and Ed,
+
+EMAIL START
+
+I am writing to express my sincere gratitude for your prompt assistance in debugging the memory leak issue in our latest prototype. Your diligence and expertise have been invaluable, and I am thrilled to report that we are now on track to meet our project deadline.
+
+Specifically, your recommendation to implement a garbage collector using the Boehm-Demersia algorithm has yielded excellent results, and our code is now significantly more robust. The modified function snippet below demonstrates the improved performance:
+
+```c
+void free_list(struct node* head) {
+    while (head != NULL) {
+        struct node* temp = head;
+        head = head->next;
+        free(temp);
+    }
+}
+```
+

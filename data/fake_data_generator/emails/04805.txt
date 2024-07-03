@@ -1,0 +1,21 @@
+
+From:    Cameron Howe
+Sent:    Monday, July 18, 1983 04:11 PM
+To:      Debbie Malinowski; Yo-Yo Engberk; Larry Goins
+
+Categories: Quality Assurance
+
+Subject: Re: Quality Assurance
+
+
+Hi Debbie, Yo-Yo, Larry,
+
+I'm not gonna sugarcoat it - we're falling behind. I know we've been working hard, but our QA processes are still stuck in '80s land. It's like we're trying to put a square peg in a round hole and expecting it to magically fit. I get that we're trying to be innovative, but sometimes less is more. Can we please just take a step back and figure out what our QA priorities should be? Are we prioritizing speed over quality or vice versa?
+
+I'm guilty of being part of the problem too - my own code's been slipping lately. But I think that's the whole point: we're all in this together, and it's time to get real about where we are and where we want to go.
+
+
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Software Development, Cardiff Electric
+

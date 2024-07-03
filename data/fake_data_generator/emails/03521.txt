@@ -1,0 +1,24 @@
+
+From:    Gordon Clark
+Sent:    Tuesday, May 24, 1983 02:32 PM
+To:      Malcolm Levitan
+
+Categories: Technical Support
+
+Subject:    Technical Support Request: IBM PC/XT Emulation
+
+
+Dear Malcolm,
+
+I'm reaching out to request some assistance from your team regarding the emulation of IBM PC/XT architecture on our Cardiff Electric platform. As you know, we're working on a new project that requires precise technical support.
+
+After conducting preliminary tests, I've identified an issue with the current implementation. Specifically, there's a discrepancy in the interrupt handling mechanism that's causing the system to crash unpredictably. I believe your team may have some expertise in this area, and I'd like to request your guidance on how to resolve this problem.
+
+If you're available, could we schedule a call to discuss the details? I've attached some relevant diagrams and data for your reference.
+
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Engineering
+Cardiff Electric
+

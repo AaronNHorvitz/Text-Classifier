@@ -1,0 +1,22 @@
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, March 22, 1983 10:12 AM
+To:      Cameron Howe; Gordon Clark; Donna Clark; Barry Shields
+
+Categories: Quality Assurance
+
+Subject: Quality Control Like a Boss
+
+
+Hey Team!
+
+Let's get one thing straight - our QA game needs to be on fleek! I mean, we're building software that changes lives (or at least, makes them slightly more efficient), so let's make sure it's top-notch before we unleash it upon the world.
+
+I've been poking around some new testing tools and strategies, and I'm excited to share my findings with you all. It's time to take our QA to the next level!
+
+Keep on keeping on,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142

@@ -1,0 +1,28 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, February 28, 1983 09:04 AM
+To:      Ed Burris; Debbie Malinowski
+
+Categories: Training and Development
+
+Subject:    Training and Development Proposal
+
+
+Dear Ed,
+Hi Debbie,
+
+I am excited to propose a comprehensive training program for the Software Development department at Cardiff Electric. As you know, our team has been working diligently on the CP/M-86 porting project, but I believe we can improve our efficiency and quality by investing in regular training sessions.
+
+To that end, I have outlined a proposal below:
+
+* Conduct a series of 2-hour coding workshops focusing on efficient use of GEMDOS API
+* Invite industry experts to present on topics such as parallel processing and data compression algorithms
+* Set up an internal mentorship program where senior developers can guide junior team members
+
+I have attached a detailed proposal outline for your review. I believe this program will not only benefit the department but also enhance Cardiff Electric's reputation in the industry.
+
+Best regards,
+Malcolm Levitan
+Programmer, Software Development Department
+Cardiff Electric
+Phone: +1 512-555-0182

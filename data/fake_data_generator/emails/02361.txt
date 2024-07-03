@@ -1,0 +1,63 @@
+
+From:    Malcolm Levitan
+Sent:    Thursday, April 07, 1983 04:52 PM
+To:      Cameron Howe; John Bosworth; Malcolm Levitan
+
+Categories:    Apology
+
+Dear Yo-Yo,
+
+I'm not sure what's more insulting, your condescending tone or the fact that you're even bothering to acknowledge my apology. Newsflash: just because I know how to implement try-catch blocks doesn't mean I'm impressed with myself.
+
+As for the "actual problem" you mentioned, maybe instead of making jokes about it, you could actually take the time to understand what's going on. I've been working on this code for hours, trying to fix the mess that someone else created. But hey, at least I'm trying, right?
+
+Listen, Yo-Yo, I don't appreciate your sarcasm or your lack of support. If you're not going to take my apology seriously, then maybe you should just keep your two cents to yourself.
+
+
+
+From:    Yo-Yo Engberk
+Sent:    Thursday, April 07, 1983 04:52 PM
+To:      Cameron Howe; John Bosworth; Malcolm Levitan
+
+Categories:    Apology
+
+Hi Malcolm,
+
+I'm not sure what's more impressive, the fact that you're apologizing or the fact that you actually know how to implement try-catch blocks. I mean, seriously, have you been practicing your apology skills in front of a mirror? Because if so, kudos.
+
+As for the actual problem, yeah, we've seen it before. It's like, oh no, our application is broken! Let me just put on my thinking cap and... wait, what was I saying again?
+
+Listen, Malcolm, we appreciate your effort to revise the code, but honestly, we're not that impressed. I mean, we expected more from someone who's been around the block a few times. But hey, at least you're trying.
+
+Very truly yours,
+Yo-Yo Engberk
++1 512-555-0142
+Programmer
+Cardiff Electric
+Software Development
+
+
+From:    Malcolm Levitan
+Sent:    Thursday, April 07, 1983 04:52 PM
+To:      Cameron Howe; John Bosworth; Yo-Yo Engberk
+
+Categories: Apology
+
+Subject: 
+
+Error Handling in Database Queries
+
+
+Hi Cameron, John, Yo-Yo,
+
+I'm writing to apologize for the oversight in our previous discussions regarding error handling in database queries. Upon reviewing the code snippets we've been using, I realized that I missed a crucial step in implementing try-catch blocks. Specifically, I neglected to account for the possibility of duplicate key errors when inserting new records.
+
+
+This mistake has caused unintended consequences and affected the overall performance of our application. I'm currently working on revising the code to include proper error handling and will provide an updated version for your review.
+
+
+Please let me know if you have any questions or concerns.
+
+Malcolm Levitan
+Programmer, Cardiff Electric, Software Development
++1 512-555-0182

@@ -1,0 +1,22 @@
+
+From:    Yo-Yo Engberk
+Sent:    Tuesday, February 15, 1983 02:50 PM
+To:      Ed Burris; Larry Goins; Cameron Howe; Donna Clark
+
+Categories: Personal Update
+
+Subject: 
+
+Hello Team,
+
+EMAIL BODY
+
+Hey gang, just wanted to drop you all a line and say hi from Cardiff Electric's Software Development department. It's been a crazy few weeks, but I'm feeling like I've finally got my bearings after our last code sprint. Who knew debugging could be so therapeutic? Anyway, thought I'd share that the new compiler is looking sharp, and I'm excited to get it deployed.
+
+Best,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142
+

@@ -1,0 +1,126 @@
+
+From:    Malcolm Levitan
+Sent:    Friday, March 11, 1983 04:30 PM
+To:      Barry Shields; Ed Burris; Yo-Yo Engberk; Malcolm Levitan
+
+Categories:    Internal Announcement
+
+Dear Debbie,
+
+Oh, how delightful to hear that you're feeling frustrated. It means you're invested in our work, and that's precisely what I want - a team of passionate individuals who care deeply about the outcome. Your concerns are music to my ears; it means we're on the right track.
+
+Regarding your point about reinventing the wheel, I must say I'm more inclined towards refining our process rather than sticking with what works. Innovation is key, and sometimes that means taking calculated risks. Trust me, this change will be a net positive for our collaboration and error reduction in the long run.
+
+As always, I'm happy to discuss this further with anyone who has concerns or questions. Please don't hesitate to reach out.
+
+
+
+From:    Malcolm Levitan
+Sent:    Friday, March 11, 1983 04:30 PM
+To:      Barry Shields; Ed Burris; Yo-Yo Engberk; Malcolm Levitan
+
+Categories:    Internal Announcement
+
+Dear Debbie,
+
+I must admit, I'm feeling rather envious reading about your frustrations. It seems like everyone else has their doubts and concerns, while I'm over here making changes without a second thought. But hey, that's just the life of a programmer, right?
+
+Regarding your concerns about reinventing the wheel, I understand where you're coming from. However, I truly believe that adopting Git submodules is a necessary step towards simplifying our collaboration and reducing errors. It's not about making things more complicated; it's about refining our process to better serve our goals.
+
+I'll be making the necessary changes to the repository structure over the next 48 hours. If you have any questions or concerns, please don't hesitate to reach out. I'm always happy to discuss the reasoning behind these updates.
+
+Very truly yours,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+
+
+From:    Malcolm Levitan
+Sent:    Friday, March 11, 1983 04:30 PM
+To:      Barry Shields; Ed Burris; Yo-Yo Engberk; Malcolm Levitan
+
+Categories:    Internal Announcement
+
+Dear Debbie,
+
+I must say, I'm delighted to hear that you're feeling frustrated. It shows that you care deeply about our work and are invested in its success. As someone who's been observing our team dynamics from the outside in, I can assure you that this change will ultimately benefit us in the long run.
+
+Regarding your concerns about reinventing the wheel, I understand where you're coming from. However, I truly believe that adopting Git submodules is a necessary step towards simplifying our collaboration and reducing errors. It's not about making things more complicated; it's about refining our process to better serve our goals.
+
+I'm happy to discuss this further with anyone who has concerns or questions. Please don't hesitate to reach out.
+
+Very truly yours,
+Malcolm Levitan
+
+
+From:    Malcolm Levitan
+Sent:    Friday, March 11, 1983 04:30 PM
+To:      Barry Shields; Ed Burris; Yo-Yo Engberk; Malcolm Levitan
+
+Categories:    Internal Announcement
+
+Dear all,
+
+I've been feeling rather detached lately. It's as if I'm observing our team's dynamics from outside, like a dispassionate observer of human behavior. Frustrations and concerns are just noise in the background. It's a peculiar sensation, but one that allows me to make more objective decisions.
+
+Regarding the switch to Git submodules, I understand some of you might be hesitant. Change can be unsettling, especially when it comes to our workflow. However, I truly believe this update will simplify our collaboration and reduce errors in the long run. It's not about reinventing the wheel; it's about refining our process.
+
+I'll be making the necessary changes to the repository structure over the next 48 hours. If you have any questions or concerns, please don't hesitate to reach out. I'm always happy to discuss the reasoning behind these updates.
+
+
+
+From:    Debbie Malinowski
+Sent:    Friday, March 11, 1983 04:30 PM
+To:      Barry Shields; Ed Burris; Yo-Yo Engberk; Malcolm Levitan
+
+Categories:    Internal Announcement
+
+Hi Cameron,
+
+I'm actually feeling pretty frustrated right now. I was just starting to get used to our current version control system, and now Malcolm is switching us over to Git submodules? It seems like every time we think we're getting the hang of things, something else changes.
+
+And honestly, it feels like Cardiff Electric is always trying to reinvent the wheel instead of sticking with what works. I mean, don't get me wrong, I'm sure Git submodules have their benefits, but can't we just stick with one thing for once?
+
+I know Malcolm says this will simplify our collaboration and reduce errors, but from where I'm sitting, it just looks like more work ahead of us.
+
+
+
+From:    Cameron Howe
+Sent:    Friday, March 11, 1983 04:30 PM
+To:      Barry Shields; Debbie Malinowski; Ed Burris; Yo-Yo Engberk; Malcolm Levitan
+
+Categories:    Internal Announcement
+
+Hi Malcolm,
+
+I'm disappointed to hear that we're going to be switching to Git submodules. I was actually starting to get the hang of our current version control system, and now you're just throwing all this change at us without giving anyone a chance to adjust.
+
+Look, I know it's supposed to simplify things and reduce errors, but honestly, I'm not buying it. This is just another example of Cardiff Electric's "innovative" approach to software development - always trying to reinvent the wheel instead of sticking with what works.
+
+I'm sure you'll say something about how this is going to make our lives easier in the long run, but from where I'm sitting, all I see are more headaches and a lot more work ahead of us. And for what? So we can say we're using the "latest and greatest" technology?
+
+
+
+From:    Malcolm Levitan
+Sent:    Friday, March 11, 1983 04:30 PM
+To:      Cameron Howe; Barry Shields; Debbie Malinowski; Ed Burris; Yo-Yo Engberk
+
+Categories: Internal Announcement
+
+Subject: Internal Announcement
+
+
+Dear All,
+
+I wanted to bring to everyone's attention a minor update to our software development process. As we continue to refine our codebase, I've identified an opportunity to streamline our version control workflow using Git submodules. This will simplify our collaboration and reduce errors.
+
+To implement this change, I'll be updating the repository structure over the next 48 hours. If you have any questions or concerns, please don't hesitate to reach out.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182

@@ -1,0 +1,15 @@
+
+From:    Yo-Yo Engberk
+Sent:    Monday, March 28, 1983 09:56 AM
+To:      Joe MacMillan; Barry Shields; Gordon Clark; John Bosworth
+
+Categories: Personal Update
+
+Subject: Help! Code Emergency!
+
+Dear Team,
+
+ EMAIL START: This is not a drill. My code is dying a slow death and I need a miracle. Or at least, a spare set of eyes to review my catastrophe.
+
+I've been staring at this mess for hours and I'm starting to lose my grip on reality. If anyone has some magic debug skills or just wants to hold my hand through this nightmare, please reach out. I'll owe you one (or five).
+

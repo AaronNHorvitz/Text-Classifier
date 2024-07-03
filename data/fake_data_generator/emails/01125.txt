@@ -1,0 +1,70 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, February 15, 1983 10:34 AM
+To:      Cameron Howe; Malcolm Levitan
+
+Categories:    Vacation Notice
+
+Dear Donna and Cameron,
+
+I'm worried. Your email about my vacation notice has left me feeling anxious. Ambivalence is not a state I can operate in - I need to know exactly what's going on while I'm away. This five-day break from July 17th to July 22nd is already giving me the heebie-jeebies.
+
+You're right, Donna, we can't just leave things hanging, but your words are like a warm blanket of reassurance. The code snippet you liked? Yeah, that's just me trying to prove I'm not completely useless without my trusty computer.
+
+Look, Cameron, Donna, please tell me what I need to do to ensure everything runs smoothly while I'm away. I don't want any last-minute surprises or forgotten tasks piling up on my desk when I get back. If there's anything specific you need me to take care of before I leave, let me know.
+
+
+
+From:    Donna Clark
+Sent:    Tuesday, February 15, 1983 10:34 AM
+To:      Cameron Howe; Malcolm Levitan
+
+Categories:    Vacation Notice
+
+Hi Malcolm,
+
+Ambivalence is the perfect state to be in when faced with vacation notices. It's like, great, you're taking time off, but now we have to make sure everything runs smoothly while you're gone. I mean, don't get me wrong, it's not like we can just leave things hanging, but still.
+
+So, five days off from July 17th to July 22nd. Got it. You'll be unavailable during that time, and we should reach out if any urgent matters arise. Simple enough. The code snippet you provided is a nice touch, though. I mean, who doesn't love a good Python script?
+
+Look, Malcolm, I'm not going to sugarcoat things here. This vacation notice thing can be a real pain in the neck. But hey, we'll make do. We always do.
+
+Very truly yours,
+Donna Clark
+Director of Operations
+Cardiff Electric
+Operations
+
+
+
+From:    Malcolm Levitan
+Sent:    Tuesday, February 15, 1983 10:34 AM
+To:      Cameron Howe; Donna Clark
+
+Categories: Vacation Notice
+
+Subject: Vacation Notice
+
+
+Dear Cameron and Donna,
+
+I'm attempting to craft a vacation notice that meets our department's requirements. As per our internal procedures, I must notify the team of my planned absence and ensure a smooth transition for ongoing projects.
+
+The specifics are as follows: I'll be taking 5 days off from July 17th to July 22nd, inclusive. During this period, I'll make sure to complete all outstanding tasks and update my colleagues on the status of our current projects. If any issues arise, please don't hesitate to reach out to me via pager or phone (+1 512-555-0182).
+
+Please find below a snippet from our internal calendar system, detailing my availability during this period:
+```python
+import datetime
+from calendar import monthrange
+
+start_date = datetime.date(1983, 7, 17)
+end_date = datetime.date(1983, 7, 22)
+
+print(f"Unavailable: {start_date} to {end_date}")
+```
+
+In conclusion, I'll be unavailable from July 17th to July 22nd. If any urgent matters arise during this time, please contact me at the above phone number or through our internal messaging system.
+
+Best regards,
+Malcolm Levitan
+Programmer, Software Development, Cardiff Electric

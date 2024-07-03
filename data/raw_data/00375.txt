@@ -1,0 +1,19 @@
+
+From:    Yo-Yo Engberk
+Sent:    Wednesday, January 19, 1983 12:03 PM
+To:      Ed Burris
+
+Categories: Technical Support
+
+Subject: 
+
+What's Cooking in Tech Support?
+
+Hi Ed,
+
+I hope this email finds you well and not too buried under a pile of 5.25" floppies. I'm writing to touch base about some tech support concerns we've been having in Software Development. It seems like our poor IBM PC/XT is having a meltdown, and I'm worried it's going to crash the whole department (not literally, but you get the idea).
+
+I've tried troubleshooting, but it's like trying to debug a bad joke – just not getting any laughs. Could you please take a look at our ticket #TS12345 and see if you can shed some light on what's causing this mess?
+
+Thanks for your help, Ed! I owe you one (or two, or three...).
+

@@ -1,0 +1,25 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, January 10, 1983 11:18 AM
+To:      Yo-Yo Engberk
+
+Categories: Product Launch
+
+Subject:    Product Launch Planning
+
+
+Dear Yo-Yo,
+
+I'm writing to share my concerns regarding the product launch planning process. As you know, I've been pouring over the documentation and code snippets we've received from marketing. While I appreciate the effort, I can't help but feel a sense of envy towards the ease with which they're moving forward without a clear technical strategy.
+
+Take, for example, the proposed "New Coke" campaign. From what I can gather, it's a classic case of feature creep - we're adding unnecessary complexity to our system without fully considering the implications on our infrastructure. I've tried to bring this up in team meetings, but my concerns seem to be falling on deaf ears.
+
+I'd love to discuss this further with you and explore ways to integrate our technical expertise into the product launch planning process. Perhaps a joint meeting with marketing and software development could help us align our goals and avoid potential pitfalls?
+
+Best regards,
+
+Malcolm Levitan
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0182
+

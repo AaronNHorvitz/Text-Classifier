@@ -1,0 +1,108 @@
+
+From:    Malcolm Levitan
+Sent:    Wednesday, May 04, 1983 11:30 AM
+To:      Malcolm Levitan
+
+Categories:    Research Collaboration
+
+Hi Ed and Cameron,
+
+I must say, I'm a bit disappointed in your reactions. You two are always so quick to dismiss something without giving it a fair shot. It's like you're not even willing to consider the potential benefits of optimizing our compiler's performance.
+
+Let me ask you, have you considered the impact that a more efficient compiler could have on our products? I didn't think so. And as for Cameron's comment about my proposal being a waste of his time, well, maybe that's because he's not looking at things from a broader perspective.
+
+I'm not asking you to commit to a massive project or anything like that. Just take an hour or two to review the proposal and discuss it with me. I think you'll be surprised by the potential results.
+
+By the way, Ed, your compiler is not top-notch, it's just fine. And Cameron, your time would be better spent dealing with the fallout of my ideas rather than trying to suppress them.
+
+Let's focus on making something great here instead of tearing each other down.
+
+Very truly yours,
+
+
+From:    Malcolm Levitan
+Sent:    Wednesday, May 04, 1983 11:30 AM
+To:      Malcolm Levitan
+
+Categories:    Research Collaboration
+
+Hi Ed and Cameron,
+
+I'm amused by your reactions. "Harebrained ideas" and "half-baked research initiative"? Really? You two are so quick to dismiss something without even giving it a chance.
+
+Let me ask you, have you considered the potential benefits of optimizing our compiler's performance? I didn't think so. And as for Cameron's comment about our time being a playground for my ideas, well, maybe that's because you're not looking at things from a broader perspective.
+
+I'm not asking you to commit to a massive project or anything like that. Just take an hour or two to review the proposal and discuss it with me. I think you'll be surprised by the potential results.
+
+By the way, Ed, your compiler is not top-notch, it's just fine. And Cameron, your time would be better spent dealing with the fallout of my ideas rather than trying to suppress them.
+
+Let's focus on making something great here instead of tearing each other down.
+
+
+
+From:    Ed Burris
+Sent:    Wednesday, May 04, 1983 11:30 AM
+To:      Malcolm Levitan
+
+Categories:    Research Collaboration
+
+Dear Malcolm,
+
+Look, I'm just going to say it. Your proposal sounds like a bunch of nonsense. We've got our hands full trying to keep Cardiff Electric's software from crashing every other day. Do we really need to waste our time on "optimization" and "concurrent parsing"? I don't think so.
+
+I know Cameron's not thrilled about this either, but he's been too busy dealing with the fallout of your harebrained ideas to say anything. Let's just focus on getting our work done instead of chasing after some half-baked research initiative.
+
+
+
+From:    Cameron Howe
+Sent:    Wednesday, May 04, 1983 11:30 AM
+To:      Ed Burris; Malcolm Levitan
+
+Categories:    Research Collaboration
+
+Hi Malcolm,
+
+What is it about my time that you think is a playground for your harebrained ideas? Look, I'm not going to sugarcoat it - your proposal sounds like a waste of my time. You're suggesting we pour resources into "optimization" when our compiler's performance is already top-notch. And what's with the code snippet? Is this supposed to be impressive or something?
+
+I don't know if you've noticed, but Ed and I are in the middle of trying to get Cardiff Electric's software to not crash every other day. Can we please focus on that instead of chasing after some half-baked research initiative?
+
+Very truly yours,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer, Software Development, Cardiff Electric
+
+
+From:    Malcolm Levitan
+Sent:    Wednesday, May 04, 1983 11:30 AM
+To:      Ed Burris; Cameron Howe
+
+Categories: Research Collaboration
+
+Subject:    Research Collaboration
+
+
+Dear Ed and Cameron,
+
+I'm excited to propose a research collaboration initiative within Cardiff Electric's Software Development department. As we discussed during our meeting last week, I believe our team can leverage our expertise in compiler design to explore new opportunities for optimization and efficiency.
+
+I've been reviewing some of the recent papers on parallel processing and I think we could apply similar concepts to improve our compiler's performance. Specifically, I'd like to investigate the feasibility of using a concurrent parsing approach to reduce execution time.
+
+Here's a simple code snippet that illustrates the basic idea:
+
+```java
+public class Compiler {
+    public void parse(String input) {
+        // Concurrent parsing logic here
+    }
+}
+```
+
+I'm confident that this research can lead to meaningful improvements in our products. I'd love to discuss the details further and get your thoughts on the proposal.
+
+Best,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+

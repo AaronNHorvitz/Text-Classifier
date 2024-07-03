@@ -1,0 +1,47 @@
+
+From:    Yo-Yo Engberk
+Sent:    Monday, April 25, 1983 04:33 PM
+To:      Joe MacMillan; Donna Clark; Ed Burris; John Bosworth; Gordon Clark
+
+Categories:    Expense Report
+
+Hi Gordon,
+
+Oh man, an expense report? That sounds like a real snooze-fest, but I'm actually kinda excited about it! As a programmer, I love a good puzzle, and figuring out where all that extra cash is going could be a fun challenge. Plus, I think implementing a new system for tracking expenses could be a great opportunity to use some of our own software development skills to streamline the process.
+
+I totally agree with you that transparency and accuracy are crucial when it comes to company resources. And I'm curious to know what kind of digital tools you had in mind for this new system. Are we talking spreadsheets, databases, or something more advanced?
+
+Let's get together and brainstorm some ideas. Maybe we can even make it a little competition to see who can come up with the most innovative solution.
+
+Very truly yours,
+Yo-Yo Engberk
++1 512-555-0142
+Programmer
+Cardiff Electric
+Software Development
+
+
+From:    Gordon Clark
+Sent:    Monday, April 25, 1983 04:33 PM
+To:      Joe MacMillan; Yo-Yo Engberk; Donna Clark; Ed Burris; John Bosworth
+
+Categories: Expense Report
+
+Subject:    Expense Report FYI
+
+
+Dear All,
+
+I'm compelled to bring up an issue regarding our expense reporting process. As Chief Engineer, I've been tracking some discrepancies that have caught my attention. Specifically, I've noticed a pattern of misallocated funds and questionable categorization.
+
+In the past few months alone, I've identified over $10k in unexplained expenditures. It's imperative we revisit our procedures to prevent further misuse. As an engineer, I believe it's crucial to maintain a level of transparency and accuracy when dealing with company resources.
+
+I'm proposing we implement a new system for tracking expenses, utilizing digital tools to streamline the process and reduce errors. This will not only save time but also ensure compliance with company policies.
+
+Let me know your thoughts on this matter. I'd appreciate any insights or suggestions you may have.
+
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Cardiff Electric
+Engineering Department

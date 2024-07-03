@@ -1,0 +1,42 @@
+
+From:    Ed Burris
+Sent:    Tuesday, March 01, 1983 12:59 PM
+To:      Malcolm Levitan
+
+Categories:    Industry News
+
+Dear Malcolm,
+
+I'm feeling pretty grateful these days. Our project is moving along smoothly, and I think we're going to hit our targets easily. That being said, I do want to touch base with you about PC Magazine's latest rankings.
+
+You've got me thinking about how Cardiff Electric can leverage the trend towards local area networks (LANs) for business users. I agree that optimizing file transfer protocols could be a big opportunity for us. Have you given any more thought to how we could use this technology to improve our offerings?
+
+Let's schedule some time to discuss this further and see if there are any other industry developments we should be paying attention to.
+
+
+
+From:    Malcolm Levitan
+Sent:    Tuesday, March 01, 1983 12:59 PM
+To:      Ed Burris
+
+Categories: Industry News
+
+Subject:    Industry News: PC Magazine's Latest Rankings
+
+
+Hi Ed,
+
+I hope this email finds you well. I wanted to bring to your attention some recent industry developments that caught my eye. In their latest rankings, PC Magazine has listed our competitor IBM in 3rd place, behind Apple and Compaq. Interestingly, the article highlights the increasing importance of local area networks (LANs) for business users. This got me thinking about how Cardiff Electric could leverage this trend to improve our own offerings.
+
+The code snippet that caught my attention is from their benchmarking tests: "A network with a 10 Mbps Ethernet connection was able to transfer files at an average rate of 1.5 MBps." (Source: PC Magazine, March 1983). I think we could explore ways to optimize our file transfer protocols for faster data exchange over LANs.
+
+Let me know if you'd like to discuss this further or if there's anything else you're working on that I can help with.
+
+Best regards,
+
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+

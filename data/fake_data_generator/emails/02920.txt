@@ -1,0 +1,96 @@
+
+From:    Malcolm Levitan
+Sent:    Friday, April 29, 1983 04:08 PM
+To:      Gordon Clark; Malcolm Levitan
+
+Categories:    Project Update
+
+Hi Larry,
+
+I'm feeling regretful as I read through our conversation. I had hoped that we could avoid this kind of situation, but it seems like we're right back where we started. You're right to be frustrated - I can see how my constant push for deadlines and implementation has felt like a barrier to your input.
+
+In retrospect, I think I was trying too hard to meet the deadline and forgot about the value of collaboration. Your passion and conviction in our conversation have struck a chord with me, and I'm willing to listen and work together to find a solution that respects everyone's role in this project.
+
+Let's take a step back and focus on finding a way forward that incorporates your expertise and ideas. I'm open to delaying implementation until QA has had a chance to review the code, and I'd like to establish regular check-ins to ensure we're working together effectively.
+
+Please let me know what you think, and let's work together to find a solution that works for everyone.
+
+
+
+From:    Malcolm Levitan
+Sent:    Friday, April 29, 1983 04:08 PM
+To:      Gordon Clark; Malcolm Levitan
+
+Categories:    Project Update
+
+Dear Larry and Gordon,
+
+I'm feeling a sense of admiration as I read through our conversation. It's refreshing to see team members speaking their minds and advocating for a more collaborative approach. Your words have struck a chord with me, and I appreciate the passion and conviction you've brought to this discussion.
+
+In terms of project updates, I'd like to provide some context. As you know, we're under pressure to meet certain deadlines, but that doesn't mean we can't work together to ensure the quality of our code. I'm more than happy to delay implementation until QA has had a chance to review and provide feedback.
+
+In fact, I've been thinking about how we can better integrate your expertise into our workflow. Perhaps we can establish regular check-ins or even have you take the lead on certain aspects of the project. Your input would be invaluable in helping us avoid costly mistakes down the line.
+
+Let's work together to find a solution that respects everyone's role in this project. I'm looking forward to hearing your thoughts and ideas on how we can make this happen.
+
+Very truly yours,
+Malcolm Levitan
++1 512-555-0182
+Programmer, Cardiff Electric, Software Development
+
+
+From:    Malcolm Levitan
+Sent:    Friday, April 29, 1983 04:08 PM
+To:      Gordon Clark; Malcolm Levitan
+
+Categories:    Project Update
+
+Dear Larry and Gordon,
+
+I must say, I'm feeling a sense of admiration as I read through your email. It's refreshing to see team members speaking their minds and advocating for a more collaborative approach. Your words have struck a chord with me, and I appreciate the passion and conviction you've brought to this discussion.
+
+In terms of project updates, I'd like to provide some context. As you know, we're under pressure to meet certain deadlines, but that doesn't mean we can't work together to ensure the quality of our code. I'm more than happy to delay implementation until QA has had a chance to review and provide feedback.
+
+In fact, I've been thinking about how we can better integrate your expertise into our workflow. Perhaps we can establish regular check-ins or even have you take the lead on certain aspects of the project. Your input would be invaluable in helping us avoid costly mistakes down the line.
+
+Let's work together to find a solution that respects everyone's role in this project. I'm looking forward to hearing your thoughts and ideas on how we can make this happen.
+
+
+
+From:    Larry Goins
+Sent:    Friday, April 29, 1983 04:08 PM
+To:      Gordon Clark; Malcolm Levitan
+
+Categories:    Project Update
+
+Hi Malcolm,
+
+I'm feeling pretty disappointed right now. You're always asking us to provide input by some arbitrary deadline, and then we don't even get a chance to review the code before you go and rush into implementing it. It's like you think we're just here to rubber-stamp your decisions or something.
+
+Look, I know you're under pressure to meet some kind of deadline, but can't you see that we're trying to do our jobs over here? We need time to review the code and make sure it's going to work correctly. This constant rush-rush mentality is just going to end up causing more problems down the line.
+
+I'm not asking for much, Malcolm. Just a little bit of respect for our expertise would be nice. And maybe, you know, actually letting us do our jobs instead of constantly micromanaging everything.
+
+
+
+From:    Malcolm Levitan
+Sent:    Friday, April 29, 1983 04:08 PM
+To:      Larry Goins; Gordon Clark
+
+Categories: Project Update
+
+Subject:    
+Project Update
+
+Dear Larry and Gordon,
+
+I'm writing to provide an update on our project status. As of today, we're still waiting on feedback from QA regarding the 2.0 firmware patch. I've attached a snippet of the code in question: `if (checksum != expectedChecksum) { logError("Invalid checksum"); }`. If you could review and provide your input by EOD tomorrow, that would be greatly appreciated.
+
+I'm starting to feel a bit anxious about meeting the deadline. Any assistance or guidance would be invaluable at this point.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182

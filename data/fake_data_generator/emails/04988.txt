@@ -1,0 +1,66 @@
+
+From:    Malcolm Levitan
+Sent:    Friday, July 29, 1983 03:51 PM
+To:      Malcolm Levitan
+
+Categories:    Product Launch
+
+Dear Larry,
+
+I'm feeling rather tender today, which is probably why I'm having such a wonderful time pouring over the project timeline and technical specs for our new PC clone. You're right, we have made significant progress, and I'm excited to see it all come together.
+
+As you know, user interface is crucial in making this product a success. I've been working closely with the design team to ensure that our users will have an intuitive experience when interacting with our new PC clone. We're planning to include a comprehensive user manual and online support resources to help alleviate any concerns you might have about user adoption.
+
+I'd be happy to answer any questions you may have or provide further clarification on our project status. Let's catch up soon to discuss the finer points of this product launch.
+
+
+
+From:    Larry Goins
+Sent:    Friday, July 29, 1983 03:51 PM
+To:      Malcolm Levitan
+
+Categories:    Product Launch
+
+Hi Malcolm,
+
+I've been pouring over the project timeline and technical specs for the new PC clone, and I have to say, I'm impressed. You and the team are on track to deliver something truly remarkable. The attention to detail is impressive - 640KB RAM, Intel 8086 processor at 4.77MHz, built-in floppy disk drive... it's like a work of art.
+
+But let me ask you this: what about the user interface? Have we considered how users will interact with this thing? I mean, think about it - they're going to be staring at this screen for hours on end, and if it's not intuitive, we'll have a whole new set of problems on our hands.
+
+I know what you're thinking: "Larry, we've got this under control." But I'm just saying, let's not get ahead of ourselves. A little obsessive-compulsive disorder can be a good thing in our line of work.
+
+
+
+From:    Malcolm Levitan
+Sent:    Friday, July 29, 1983 03:51 PM
+To:      Larry Goins
+
+Categories: Product Launch
+
+Subject: Re: Product Launch
+
+Dear Larry,
+
+EMAIL BODY
+
+I've been reviewing the product launch plan and I'm pleased to report that our team has made significant progress. As you know, we're targeting a release date of April 15th for the new PC clone. I've attached the updated project timeline below:
+
+| Task | Start Date | End Date |
+| --- | --- | --- |
+| Development | March 1st | April 10th |
+| Testing | April 11th | April 14th |
+| Launch | April 15th | April 15th |
+
+As you can see, we're on track to meet our deadline. I've also included a brief summary of the product's key features and technical specifications:
+
+The PC-clone will support up to 640KB RAM, has an Intel 8086 processor at 4.77MHz, and comes with a built-in floppy disk drive.
+
+I'd be happy to answer any questions you may have or provide further clarification on our project status.
+
+EMAIL BODY
+
+Best regards,
+Malcolm Levitan
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0182

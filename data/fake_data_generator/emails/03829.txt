@@ -1,0 +1,21 @@
+
+From:    Gordon Clark
+Sent:    Tuesday, June 07, 1983 04:12 PM
+To:      Donna Clark
+
+Categories: Thank You
+
+Subject:    Thank You
+
+
+Dear Donna,
+
+I'm writing to express my gratitude for the assistance you provided during our recent meeting. Your insight into the new PC architecture was instrumental in helping me refine my approach to addressing the 8086 compatibility issue.
+
+To be frank, I feel a bit embarrassed that it took me as long as it did to recognize the potential pitfalls of relying solely on Intel's documentation. However, your guidance helped me sidestep some significant problems and will undoubtedly save us considerable time in the long run.
+
+Please know that your contributions are valued and appreciated. Your expertise is an essential component of our team's success.
+
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Cardiff Electric, Engineering Department

@@ -1,0 +1,61 @@
+
+From:    Gordon Clark
+Sent:    Monday, May 09, 1983 09:55 AM
+To:      Malcolm Levitan; Yo-Yo Engberk
+
+Categories:    Quality Assurance
+
+Dear Yo-Yo,
+
+I don't know what kind of fairy dust you're sprinkling around here, but I'm devastated. Devastated, I tell you! You're telling me we've got 99.9% bug-free software? Are you out of your mind?! We're talking Cardiff Electric here, not some fly-by-night operation trying to pawn off subpar products.
+
+And these new testing protocols of yours? Please. I've seen more rigorous QA processes at a high school science fair. You're just trying to spin this into something it's not. Tell me the truth, Yo-Yo. What's really going on here?
+
+
+
+From:    Joe MacMillan
+Sent:    Monday, May 09, 1983 09:55 AM
+To:      Malcolm Levitan; Gordon Clark; Yo-Yo Engberk
+
+Categories:    Quality Assurance
+
+Dear Yo-Yo,
+
+I'm not sure what kind of snake oil you're peddling, but I don't buy into your "quality control conquest" nonsense. What's the real story behind these supposed bug fixes? Are we really talking 99.9% error-free or is that just some pie-in-the-sky number to make us feel good?
+
+And what's with these new testing protocols you're so proud of? Are they going to actually catch those errors before they become major headaches, or are they just a bunch of meaningless checkboxes on a spreadsheet?
+
+Look, I'm not asking for much. Just tell me the truth and stop trying to spin this into some kind of feel-good story. I've got better things to do than listen to your marketing drivel.
+
+Very truly yours,
+Joe MacMillan
+
+Senior Product Manager
+Cardiff Electric
++1 512-555-0132
+Product Management
+
+
+From:    Yo-Yo Engberk
+Sent:    Monday, May 09, 1983 09:55 AM
+To:      Malcolm Levitan; Joe MacMillan; Gordon Clark
+
+Categories: Quality Assurance
+
+Subject: 
+
+Quality Control Conquest!
+
+Hi Malcolm, Joe, and Gordon,
+
+I'm thrilled to report that our QA team has been burning the midnight oil (or should I say, burning through error reports?) to get our software up to par. We're talking 99.9% bug-free, baby! Okay, maybe not quite there yet, but we're getting close!
+
+In all seriousness, I wanted to touch base with you guys about some of the new testing protocols we've implemented. I think they'll help us catch those pesky errors before they become major headaches.
+
+Let me know if you have any questions or want to schedule a demo. I'm always up for a tech chat (pun intended).
+
+Best,
+Yo-Yo Engberk
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0142

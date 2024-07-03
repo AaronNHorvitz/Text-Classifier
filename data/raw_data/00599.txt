@@ -1,0 +1,28 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, January 31, 1983 10:58 AM
+To:      Gordon Clark; Larry Goins; Barry Shields; Yo-Yo Engberk
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance Guidelines
+
+
+Dear Gordon, Larry, Barry, and Yo-Yo,
+
+As we continue to develop our software products, it is essential that we establish a robust quality assurance process. As you know, I've been working closely with the QA team to create guidelines for our testing procedures.
+
+I've attached an updated document outlining the key principles and methodologies we will be using moving forward. Specifically, this includes:
+
+1. **Code Review**: We will be implementing a peer review process for all code commits to ensure that new features are thoroughly tested and meet our quality standards.
+2. **Automated Testing**: I've worked with Yo-Yo to develop a set of automated tests that can be used to verify the functionality of our software components.
+
+If you have any questions or concerns regarding these guidelines, please don't hesitate to reach out. As always, my door is open for any discussions on this topic.
+
+Best regards,
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+

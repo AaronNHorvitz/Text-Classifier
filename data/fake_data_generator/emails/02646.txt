@@ -1,0 +1,43 @@
+
+From:    Joe MacMillan
+Sent:    Monday, April 18, 1983 03:06 PM
+To:      Cameron Howe; Donna Clark; Larry Goins; Malcolm Levitan; Gordon Clark
+
+Categories:    Project Update
+
+Dear Gordon,
+
+I'm not sure what's going to happen with this project, but I'm getting a bad feeling about it. You're telling me everything is fine and dandy, but I've got my doubts. I know you think you've solved some of the problems with the Digidisk architecture, but I've seen this kind of thing before. It always seems to end in disaster.
+
+I'm not saying that I don't appreciate your efforts or the work that the team has put in, but I just can't shake the feeling that we're missing something big here. Maybe it's because I know how Cardiff Electric operates and what they're really after. Maybe it's because I've seen some of the things that have happened in this industry before.
+
+I'm willing to give you the benefit of the doubt, Gordon. But I need you to be honest with me about what's going on here. Can we schedule a meeting to discuss this further? I want to hear more about your plans and see if there's anything I can do to help.
+
+Very truly yours,
+
+
+From:    Gordon Clark
+Sent:    Monday, April 18, 1983 03:06 PM
+To:      Cameron Howe; Donna Clark; Joe MacMillan; Larry Goins; Malcolm Levitan
+
+Categories: Project Update
+
+Subject:    Project Update
+
+
+Hello Cameron, Donna, Joe, Larry, and Malcolm,
+
+I'm pleased to provide an update on our project's progress. As of today, we've made significant strides in resolving the issues with the Digidisk architecture. I'm confident that our revised approach will yield a more robust and efficient design.
+
+In addition, I'd like to highlight the excellent work done by the team on the firmware updates. Their diligence has ensured a smoother user experience for our early adopters.
+
+I'll be scheduling meetings with each of you in the coming days to discuss the project's milestones and any outstanding concerns.
+
+Please let me know if you have any questions or require further clarification on any aspect of the project.
+
+Best regards,
+Gordon Clark
++1 512-555-0198
+Chief Engineer, Engineering Department
+Cardiff Electric
+

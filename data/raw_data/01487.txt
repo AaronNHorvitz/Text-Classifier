@@ -1,0 +1,26 @@
+
+From:    Cameron Howe
+Sent:    Tuesday, March 01, 1983 01:04 PM
+To:      Larry Goins; Barry Shields; Gordon Clark
+
+Categories: Quality Assurance
+
+Subject:    QA: Time to Rethink the Game
+
+
+Hi Larry, Barry, Gordon,
+
+Listen up, folks. It's time we shook things up in QA. I'm talking about a new approach, one that's more proactive and less reactive. We've been playing catch-up for too long. It's time we started anticipating problems instead of just patching them after they happen.
+
+I know what you're thinking: "But Cameron, we're not exactly swimming in resources." And you're right, we're not. But I say that's all the more reason to get creative and think outside the box (or in this case, the QA process). We can do better than just throwing people at a problem.
+
+So here's my proposal: let's set up a regular meeting with the dev team and the QA team to identify potential issues early on. Let's work together to come up with solutions that are more effective and efficient.
+
+What do you say, guys? Are you ready to take our QA game to the next level?
+
+Best,
+Cameron Howe
+Lead Software Developer
+Cardiff Electric
+Software Development
++1 512-555-0147

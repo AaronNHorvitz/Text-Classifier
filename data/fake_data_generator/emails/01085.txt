@@ -1,0 +1,21 @@
+
+From:    Yo-Yo Engberk
+Sent:    Monday, February 14, 1983 01:01 PM
+To:      Donna Clark; Gordon Clark; Ed Burris
+
+Categories: Technical Support
+
+Subject: Bug Squashed!
+
+Dear Donna, Gordon, Ed,
+
+I'm thrilled to report that the pesky bug in our tech support category has finally been caught and squashed (pun intended)! You won't believe how many lines of code I had to rewrite to get it right. Let's just say it was a wild ride.
+
+On a more serious note, I've tested the fix and all seems well. Our users should now be able to navigate our software without any major hiccups. Woohoo!
+
+Best,
+Yo-Yo Engberk
+Programmer
++1 512-555-0142
+Cardiff Electric
+Software Development

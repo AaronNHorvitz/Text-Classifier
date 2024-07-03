@@ -1,0 +1,35 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, March 28, 1983 03:02 PM
+To:      Joe MacMillan; Cameron Howe; Ed Burris; Yo-Yo Engberk
+
+Categories: Technical Support
+
+Subject:    Technical Support - New Bug Report
+
+
+Dear Joe, Cameron, Ed, and Yo-Yo,
+
+I'm excited to share with you a new bug report that I've been tracking in our database. After conducting some preliminary analysis, I believe we may have identified a previously unknown issue affecting our 8080 driver.
+
+Here's the code snippet causing the problem:
+
+```c
+if (port != 0) {
+    send_data = (char *)malloc(port);
+    if (!send_data)
+        return -1; // out of memory
+} else {
+    send_data = NULL;
+}
+```
+
+As you can see, it's related to a buffer overflow condition. I've been testing various scenarios and reproducing the issue consistently.
+
+I'd love to hear your thoughts on this and get some feedback on how to proceed with debugging. If anyone has any ideas or suggestions, please let me know!
+
+Best regards,
+Malcolm Levitan
+Programmer, Software Development
+Cardiff Electric
++1 512-555-0182

@@ -1,0 +1,25 @@
+
+From:    Cameron Howe
+Sent:    Thursday, June 16, 1983 03:23 PM
+To:      Larry Goins; Debbie Malinowski
+
+Categories: Technical Support
+
+Subject: Technical Support Request: Software Glitch
+
+Dear Larry and Debbie,
+
+I'm writing to pull my hair out over a bug that's been driving me crazy all day. We've got a software glitch in one of our modules, and I just can't seem to squash it no matter how many times I try to rewrite the code.
+
+The error is causing some weird data corruption issues, and I'm starting to feel like I'm trapped in some kind of digital Groundhog Day. I've tried every trick in the book (and a few that aren't even in the book), but nothing's working.
+
+I'd love it if one of you could take a look at my code and see if you can spot what's going on. If we don't get this fixed, it's going to be a real problem for our next release.
+
+Thanks for your help,
+
+Cameron Howe
+Lead Software Developer
+Cardiff Electric
+Software Development
++1 512-555-0147
+

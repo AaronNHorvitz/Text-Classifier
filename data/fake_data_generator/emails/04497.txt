@@ -1,0 +1,52 @@
+
+From:    Cameron Howe
+Sent:    Tuesday, July 05, 1983 03:32 PM
+To:      Cameron Howe
+
+Categories:    System Outage
+
+Hi Larry,
+
+I'm thrilled to hear that my email was like a breath of fresh air - I've been feeling ambitious lately, and talking about system outages has been eating away at me. Your analogy about finding the Holy Grail of debugging really resonates with me. I think we're onto something big here.
+
+I'm convinced that visualizing data flow is the key to solving these pesky system outages. It's like trying to find a needle in a haystack, but instead of just looking for the needle, we can follow the trail of breadcrumbs it leaves behind. And who knows, maybe we'll stumble upon something even bigger.
+
+Let's get together and start brainstorming more about this concept. I've got some ideas already, and I'd love to hear your thoughts.
+
+Very truly yours,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development
+
+
+From:    Larry Goins
+Sent:    Tuesday, July 05, 1983 03:32 PM
+To:      Cameron Howe
+
+Categories:    System Outage
+
+Dear Cameron,
+
+Hope's alive and kicking around here. Your email was like a breath of fresh air, man. System outages? Who cares about those when we can visualize data flow? That's like finding the Holy Grail of debugging! I'm all ears for brainstorming on this concept. You know what they say: "A picture is worth a thousand error messages." Let's get creative and find that needle in the haystack!
+
+
+
+From:    Cameron Howe
+Sent:    Tuesday, July 05, 1983 03:32 PM
+To:      Larry Goins
+
+Categories: System Outage
+
+Subject: System Outage
+
+
+Hi Larry,
+
+I'm writing to give you the lowdown on what's been happening in the software development department. You know how we've been struggling with those pesky system outages? Well, I think I might have stumbled upon a solution that could revolutionize our approach to debugging.
+
+Imagine if we could pinpoint the problem not just by looking at error messages, but by actually visualizing the flow of data through the system! It's like trying to find a needle in a haystack, except the needle is glowing and leading us straight to the source of the issue. I'm excited to start exploring this idea further and see where it takes us.
+
+Let me know if you're game for brainstorming more about this concept. I'd love to hear your thoughts!
+

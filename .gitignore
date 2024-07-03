@@ -90,15 +90,15 @@ venv.bak/
 Thumbs.db
 
 # Data Files
-data/
-*.csv
-*.json
-*.xls
-*.xlsx
-*.sqlite
-*.db
-*.h5
-*.nc
+# data/
+# *.csv
+# *.json
+# *.xls
+# *.xlsx
+# *.sqlite
+# *.db
+# *.h5
+# *.nc
 
 # Ignore all log files
 *.log

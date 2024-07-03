@@ -1,0 +1,31 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, April 05, 1983 02:41 PM
+To:      Ed Burris; Gordon Clark; Larry Goins; Debbie Malinowski; Joe MacMillan; Barry Shields; Cameron Howe; Yo-Yo Engberk; Donna Clark; John Bosworth
+
+Categories: Product Launch
+
+Subject: Product Launch Timeline and Milestones
+
+
+Dear Ed,
+Hello Gordon, Larry, Debbie, Joe, Barry, Cameron, Yo-Yo, Donna, John,
+
+I'm writing to request a review of our product launch timeline and milestones. As you know, I've been working closely with the marketing team to ensure that we meet our deadlines. However, after re-evaluating our progress, I've come to realize that we're facing some unforeseen delays.
+
+To mitigate these delays, I propose we adjust our project plan to reflect the following key dates:
+
+* Completion of feature X: March 15th
+* Final testing and QA: April 1st
+* Product launch: April 15th
+
+I've attached a revised Gantt chart (Levitan_Product_Launch_Gantt_Chart.txt) for your review. Please let me know if you have any questions or concerns.
+
+Best regards,
+
+Malcolm Levitan
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0182
+

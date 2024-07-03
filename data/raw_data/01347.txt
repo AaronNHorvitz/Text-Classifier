@@ -1,0 +1,23 @@
+
+From:    Barry Shields
+Sent:    Tuesday, February 22, 1983 04:14 PM
+To:      Larry Goins
+
+Categories: System Outage
+
+Subject: System Outage Notification
+
+Dear Larry,
+
+EMAIL BODY
+
+In accordance with Cardiff Electric's Incident Response Procedure, I am providing formal notification that a system outage has occurred. The affected systems include the mainframe and associated peripherals. As per our protocols, I will be conducting an investigation to identify the root cause of the issue.
+
+Please note that all relevant stakeholders have been informed, and we are working diligently to rectify the situation as expeditiously as possible.
+
+EMAIL SIGNATURE
+Barry Shields
+Senior Counsel
++1 512-555-0166
+Cardiff Electric
+Legal Department

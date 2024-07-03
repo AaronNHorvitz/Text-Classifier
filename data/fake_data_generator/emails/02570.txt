@@ -1,0 +1,21 @@
+
+From:    Cameron Howe
+Sent:    Thursday, April 14, 1983 02:33 PM
+To:      Barry Shields; Ed Burris; Joe MacMillan; Yo-Yo Engberk
+
+Categories: Project Update
+
+Subject: Project Update
+
+Dear All,
+
+Let's get real. We're not just building a PC clone, we're changing the game. And that means we need to push ourselves harder than ever before.
+
+I've been reviewing our code and I'm seeing some amazing stuff from all of you. But I know we can do even better. So here's my proposal: let's set aside one day a week for a hack session, where we focus on the most challenging parts of the project. Who's in?
+
+Best,
+Cameron Howe
++1 512-555-0147
+Lead Software Developer
+Cardiff Electric
+Software Development

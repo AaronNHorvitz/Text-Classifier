@@ -1,0 +1,25 @@
+
+From:    Yo-Yo Engberk
+Sent:    Monday, May 30, 1983 04:43 PM
+To:      Joe MacMillan; Barry Shields; Ed Burris; Larry Goins; Donna Clark
+
+Categories: Compliance
+
+Subject: Compliance Check-In
+
+
+Hello Team,
+
+I hope you're all doing well and not too bogged down in the usual bureaucratic swamp. I wanted to touch base with everyone about our compliance efforts. As you know, we need to ensure that our software is up to snuff for those pesky auditors.
+
+So, here's my request: can you please let me know if you've completed your section of the compliance checklist? If so, what did you find most challenging (besides my terrible jokes, of course)?
+
+I'm hoping we can all learn from each other and get this process wrapped up ASAP. After all, as we say in the biz, "time is money"... or in our case, "time is a bug that needs to be squashed".
+
+
+Cheers,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142

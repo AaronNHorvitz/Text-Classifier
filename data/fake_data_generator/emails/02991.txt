@@ -1,0 +1,27 @@
+
+From:    Yo-Yo Engberk
+Sent:    Monday, May 02, 1983 10:05 AM
+To:      Larry Goins; Donna Clark; Barry Shields
+
+Categories: Volunteer Opportunities
+
+Subject:    Volunteer Opportunities
+
+Dear All,
+
+EMAIL STARTING TO FEEL LIKE A FIRST DATE HERE... Okay, let's get down to business. We're looking for volunteers to help with some fun projects in our department. No, we won't make you rewrite the entire manual on 6502 assembly language (unless you want to, in which case, I'll provide a blank sheet of paper and a strong cup of tea).
+
+The opportunities include:
+
+* Helping us debug those pesky IBM PC emulators
+* Assisting with some experimental AI research (think neural networks, not Skynet... yet)
+* Joining our "Code Critique Club" to help each other improve our coding skills
+
+If any of these sound like your cup of tea (or coffee, or energy drink), let me know! We're super stoked to have you on board.
+
+Best,
+Yo-Yo Engberk
+Programmer
+Cardiff Electric
+Software Development
++1 512-555-0142

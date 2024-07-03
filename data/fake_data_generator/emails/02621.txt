@@ -1,0 +1,23 @@
+
+From:    Gordon Clark
+Sent:    Saturday, April 16, 1983 09:51 AM
+To:      Ed Burris; Barry Shields; Larry Goins; Cameron Howe
+
+Categories: Product Recall
+
+Subject:    Product Recall
+
+
+Dear Ed, Barry, Larry and Cameron,
+
+I'm writing to bring up a matter that's been weighing on my mind. The recent batch of 80486 CPUs has shown some...unpredictable behavior. I've run some tests, and it seems we're looking at a possible defect in the manufacturing process. I think it would be prudent to recall the affected units and re-test them.
+
+I know this might seem like a minor issue, but trust me when I say that a faulty CPU can cause all sorts of problems downstream. I've seen it happen before - it's a domino effect. We can't afford to have our reputation tarnished by a preventable mistake.
+
+
+Gordon Clark
+Chief Engineer
+Cardiff Electric
+Engineering Department
++1 512-555-0198
+

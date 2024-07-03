@@ -1,0 +1,26 @@
+
+From:    Ed Burris
+Sent:    Tuesday, February 22, 1983 03:01 PM
+To:      John Bosworth; Joe MacMillan
+
+Categories: Quality Assurance
+
+Subject: Quality Assurance - Next Steps
+
+Dear John and Joe,
+
+I wanted to follow up on our previous discussions regarding quality assurance for the Gordon Compyter project. As we move forward, it's essential that we prioritize this aspect to ensure a successful launch.
+
+Here are the key objectives for our next steps:
+
+• Conduct thorough testing of the system
+• Identify and address any defects or issues
+• Develop a plan to mitigate risks
+
+To achieve these objectives, I recommend the following tasks be completed by EOD Friday:
+
+• Joe, please review the project's current test plans and provide feedback on areas that need improvement.
+• John, please conduct a thorough risk assessment and identify potential pitfalls we should address.
+
+I'm confident that together, we can deliver a high-quality product that meets our customers' expectations. If you have any questions or concerns, please don't hesitate to reach out.
+

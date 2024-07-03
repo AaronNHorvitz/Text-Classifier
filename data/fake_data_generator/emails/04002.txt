@@ -1,0 +1,16 @@
+
+From:    Malcolm Levitan
+Sent:    Monday, June 13, 1983 09:51 AM
+To:      Barry Shields; Ed Burris; Yo-Yo Engberk; Joe MacMillan
+
+Categories: Congratulations
+
+Subject: 
+
+Dear Ed, Barry, Yo-Yo, and Joe,
+
+EMAIL START
+I am compelled to write this email as a necessary evil. Our latest iteration of the OS/2 emulator has been met with... let's say, "enthusiasm" from our beta testers. I'll spare you the details, but I will provide a concise summary: we've managed to achieve 87% compatibility with MS-DOS 3.1, which is a feat in itself.
+
+However, I must express my frustration at the lack of cohesion between our team's efforts. The inconsistent naming conventions used throughout the project are not only confusing but also a hindrance to further development. I implore you all to adopt a standardized approach to ensure we can maintain and expand upon this work.
+

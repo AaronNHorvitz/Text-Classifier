@@ -1,0 +1,31 @@
+
+From:    Malcolm Levitan
+Sent:    Tuesday, June 21, 1983 12:41 PM
+To:      Joe MacMillan; Barry Shields
+
+Categories: Reminder
+
+Subject: Reminder: Category System Overhaul
+
+
+Dear Joe and Barry,
+
+I'm writing to remind you that we're due to finalize the category system overhaul by the end of the week. As you know, this involves updating the database schema to accommodate the new product categories. I've attached a revised SQL script below:
+
+```
+ALTER TABLE products 
+ADD COLUMN category VARCHAR(50);
+
+UPDATE products SET category = 'New Category' WHERE product_id IN (1, 2);
+```
+
+Please review and confirm that your teams are on track to meet this deadline. If you have any questions or concerns, please don't hesitate to reach out.
+
+Best regards,
+
+Malcolm Levitan
+Programmer
++1 512-555-0182
+Cardiff Electric
+Software Development
+
