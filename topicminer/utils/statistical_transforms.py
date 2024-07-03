@@ -231,7 +231,7 @@ def upsample_classes(X, y, method=None):
         ]
         upsampled_df = (
             pd.concat(upsampled_data)
-            .sample(frac=1, random_state=42)
+            .sample(frac=1, random_state=RANDOM_STATE)
             .reset_index(drop=True)
         )
         X_resampled = upsampled_df.drop("target", axis=1).values
@@ -239,7 +239,7 @@ def upsample_classes(X, y, method=None):
     else:
         # Initialize resampler based on the method
         resampler = (
-            SMOTE(random_state=42) if method == "smote" else ADASYN(random_state=42)
+            SMOTE(random_state=RANDOM_STATE) if method == "smote" else ADASYN(random_state=RANDOM_STATE)
         )
         try:
             X_resampled, y_resampled = resampler.fit_resample(X, y)
@@ -260,43 +260,91 @@ def upsample_classes(X, y, method=None):
     return X_resampled, y_resampled
 
 
-def train_test_split_utility(upsampling_method=None):
-    """
-    Splits the dataset into training and testing sets and optionally applies upsampling to address class imbalance.
+# def train_test_split_utility(upsampling_method=None):
+#     """
+#     Splits the dataset into training and testing sets and optionally applies upsampling to address class imbalance.
 
-    This function integrates text features with additional numerical features extracted from emails, such as word count,
-    character count, and token count, creating a comprehensive feature set for model training.
+#     This function integrates text features with additional numerical features extracted from emails, such as word count,
+#     character count, and token count, creating a comprehensive feature set for model training.
 
-    Parameters
-    ----------
-    upsampling_method : str, optional
-        The method used for upsampling the minority class in the training dataset. Options include:
-        - 'duplicate': Duplicates samples in minority classes.
-        - 'smote': Synthetic Minority Over-sampling Technique.
-        - 'adasyn': Adaptive Synthetic Sampling Approach.
-        If None, no upsampling is applied. Default is None.
+#     Parameters
+#     ----------
+#     upsampling_method : str, optional
+#         The method used for upsampling the minority class in the training dataset. Options include:
+#         - 'duplicate': Duplicates samples in minority classes.
+#         - 'smote': Synthetic Minority Over-sampling Technique.
+#         - 'adasyn': Adaptive Synthetic Sampling Approach.
+#         If None, no upsampling is applied. Default is None.
 
-    Returns
-    -------
-    tuple
-        A tuple of four elements containing:
-        - X_train_bal (ndarray): The feature matrix for the training data after optional upsampling.
-        - X_test (ndarray): The feature matrix for the testing data.
-        - y_train_bal (ndarray): The target vector for the training data after optional upsampling.
-        - y_test (ndarray): The target vector for the testing data.
+#     Returns
+#     -------
+#     tuple
+#         A tuple of four elements containing:
+#         - X_train_bal (ndarray): The feature matrix for the training data after optional upsampling.
+#         - X_test (ndarray): The feature matrix for the testing data.
+#         - y_train_bal (ndarray): The target vector for the training data after optional upsampling.
+#         - y_test (ndarray): The target vector for the testing data.
 
-    Notes
-    -----
-    The function reads data from a predefined source which is assumed to include specific columns for text and labels, along with
-    additional numeric features. It combines text features processed through TF-IDF vectorization with these numeric features
-    to form the final feature set used for model training and testing.
+#     Notes
+#     -----
+#     The function reads data from a predefined source which is assumed to include specific columns for text and labels, along with
+#     additional numeric features. It combines text features processed through TF-IDF vectorization with these numeric features
+#     to form the final feature set used for model training and testing.
 
-    Examples
-    --------
-    >>> X_train_bal, X_test, y_train_bal, y_test = train_test_split_utility(upsampling_method='smote')
-    >>> print(f"Training features shape: {X_train_bal.shape}")
-    >>> print(f"Test features shape: {X_test.shape}")
-    """
+#     Examples
+#     --------
+#     >>> X_train_bal, X_test, y_train_bal, y_test = train_test_split_utility(upsampling_method='smote')
+#     >>> print(f"Training features shape: {X_train_bal.shape}")
+#     >>> print(f"Test features shape: {X_test.shape}")
+#     """
+#     # Load and prepare data
+#     emails_df = read_json_to_dataframe(
+#         columns=[
+#             PROCESSED_TEXT_COL,
+#             CATEGORIES_COL,
+#             WORD_COUNT_COL,
+#             CHARACTER_COUNT_COL,
+#             TOKEN_COUNT_COL,
+#         ]
+#     )
+
+#     # Create initial TF-IDF matrix
+#     tfidf = TfidfVectorizer(stop_words="english", max_features=1000)
+#     tfidf_features = tfidf.fit_transform(emails_df[PROCESSED_TEXT_COL])
+
+#     # Extract additional features
+#     additional_features = emails_df[
+#         ["word_count", "character_count", "token_count"]
+#     ].values
+
+#     # Combine TF-IDF features with additional features
+#     features = hstack([tfidf_features, additional_features]).toarray()
+
+#     # Obtain and encode labels
+#     labels = emails_df[CATEGORIES_COL]
+#     if not issubclass(labels.dtype.type, np.integer):
+#         labels = encode_labels(labels)
+
+#     # Split the data
+#     random_state = check_random_state(RANDOM_STATE)
+#     X_train, X_test, y_train, y_test = train_test_split(
+#         features, labels, test_size=TEST_SIZE, random_state=random_state
+#     )
+
+#     print(
+#         f"Shapes - X_train: {X_train.shape}, X_test: {X_test.shape}, y_train: {y_train.shape}, y_test: {y_test.shape}"
+#     )
+
+#     # Upsample Data
+#     X_train_bal, y_train_bal = X_train, y_train
+#     if upsampling_method:
+#         X_train_bal, y_train_bal = upsample_classes(
+#             X_train, y_train, method=upsampling_method
+#         )
+
+#     return X_train_bal, X_test, y_train_bal, y_test
+
+def train_test_split_utility(upsampling_method=None, use_lda_features=False):
     # Load and prepare data
     emails_df = read_json_to_dataframe(
         columns=[
@@ -305,6 +353,7 @@ def train_test_split_utility(upsampling_method=None):
             WORD_COUNT_COL,
             CHARACTER_COUNT_COL,
             TOKEN_COUNT_COL,
+            'lda_topics' 
         ]
     )
 
@@ -317,8 +366,20 @@ def train_test_split_utility(upsampling_method=None):
         ["word_count", "character_count", "token_count"]
     ].values
 
-    # Combine TF-IDF features with additional features
-    features = hstack([tfidf_features, additional_features]).toarray()
+    # Handle LDA features if required
+    if use_lda_features:
+        num_topics = 5  # Set this to your number of LDA topics
+        lda_features_list = []
+        for lda_dict in emails_df['lda_topics']:
+            lda_vector = np.zeros(num_topics)
+            for topic_id, prob in lda_dict.items():
+                if int(topic_id) < num_topics:
+                    lda_vector[int(topic_id)] = prob
+            lda_features_list.append(lda_vector)
+        lda_features = np.array(lda_features_list)
+        features = hstack([tfidf_features, additional_features, lda_features]).toarray()
+    else:
+        features = hstack([tfidf_features, additional_features]).toarray()
 
     # Obtain and encode labels
     labels = emails_df[CATEGORIES_COL]

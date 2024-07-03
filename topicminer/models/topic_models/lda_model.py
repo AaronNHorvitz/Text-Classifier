@@ -9,7 +9,19 @@ from gensim.models import CoherenceModel, LdaMulticore
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 
+# Local configuration and settings
+from ...config import (
+    RAW_DATA_DIR,
+    UNWANTED_TEXTS_FILE,
+    PROCESSED_DATA_DIR_CSV,
+    PROCESSED_DATA_DIR_JSON,
+    PROCESSED_TEXT_COL,
+    PROCESSED_EMAILS_JSON_FILE
+)
+
+
 import warnings
+import json
 
 # Local application imports
 #from topicminer import create_tfidf_corpus, prepare_corpus_and_dictionary
@@ -287,3 +299,20 @@ def train_models_and_find_optimal(
     plt.show()
 
     return best_model, best_num_topics, best_coherence
+
+def add_lda_embedings():
+
+    lda_model_tfidf = train_lda_model(passes=10, num_topics=5, iterations=100)
+    dictionary, corpus = prepare_corpus_and_dictionary()
+
+    with open(PROCESSED_EMAILS_JSON_FILE, 'r+') as file:
+        json_data = json.load(file)
+        for email in json_data:
+            processed_text = email[PROCESSED_TEXT_COL]
+            bow = dictionary.doc2bow(processed_text.split())
+            lda_topics = lda_model_tfidf.get_document_topics(bow, minimum_probability=0.01)
+            email['lda_topics'] = {str(topic_id): float(prob) for topic_id, prob in lda_topics}
+        
+        file.seek(0)  # Rewind to start of file
+        json.dump(json_data, file, indent=4)
+        file.truncate()  # Remove remaining part of old data

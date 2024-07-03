@@ -10,3 +10,5 @@ supports various methods of topic extraction and management, enhancing the analy
 
 from .doc2vec_kmeans import *
 from .lda_model import *
+from .word2vec_kmeans import *
+

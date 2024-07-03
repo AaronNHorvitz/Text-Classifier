@@ -4,12 +4,17 @@ import logging
 # Absolute path to the root of the project (one level up from the directory containing the config.py file)
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 
-#Path definitions for various resources
+#Directory path definitions
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 RAW_DATA_DIR = os.path.join(DATA_DIR, 'raw_data')
 PROCESSED_DATA_DIR_CSV = os.path.join(DATA_DIR, 'processed_data', 'csv_format')
 PROCESSED_DATA_DIR_JSON = os.path.join(DATA_DIR, 'processed_data', 'json_format')
+
+#File Paths 
+PROCESSED_EMAILS_JSON_FILE = os.path.join(PROCESSED_DATA_DIR_JSON,'processed_emails.json')
+PROCESSED_EMAIL_IDS_JSON_FILE = os.path.join(PROCESSED_DATA_DIR_JSON,'email_ids.json')
 UNWANTED_TEXTS_FILE = os.path.join(DATA_DIR, 'unwanted_texts', 'unwanted_texts.json')
+
 
 # Logging configuration
 LOG_DIR = os.path.join(BASE_DIR, 'logs')

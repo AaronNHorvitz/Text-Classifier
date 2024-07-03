@@ -73,6 +73,9 @@ from nltk.tokenize import word_tokenize
 # Utilities for progress tracking
 from tqdm import tqdm
 
+# nltk.data.path.append('/projects/merc_text_analytics/nltk_data') # Add the path to the NLTK data directory if the data is not found in local
+nltk.data.path.append("./topicminoer/data/nltk_data")
+
 # Local configuration and settings
 from ..config import (
     RAW_DATA_DIR,
@@ -80,21 +83,13 @@ from ..config import (
     PROCESSED_DATA_DIR_CSV,
     PROCESSED_DATA_DIR_JSON,
     PROCESSED_TEXT_COL,
-)
-
-# nltk.data.path.append('/projects/merc_text_analytics/nltk_data') # Add the path to the NLTK data directory if the data is not found in local
-nltk.data.path.append("./topicminoer/data/nltk_data")
-
-# Utilities for progress tracking
-from tqdm import tqdm
-
-from ..config import (
+    PROCESSED_EMAILS_JSON_FILE,
+    PROCESSED_EMAIL_IDS_JSON_FILE,
     RAW_DATA_DIR,
     UNWANTED_TEXTS_FILE,
     PROCESSED_DATA_DIR_CSV,
-    PROCESSED_DATA_DIR_JSON,
+    PROCESSED_DATA_DIR_JSON
 )
-
 
 def generate_email_text(
     email_date: str,
@@ -427,6 +422,13 @@ def read_text_file(file_path: str, word_wrap_limit=100) -> list:
 
 
 def load_unwanted_email_text():
+    # Check if the file exists
+    if not os.path.exists(UNWANTED_TEXTS_FILE):
+        print(f"{UNWANTED_TEXTS_FILE} not found. Creating an empty file.")
+        # Create an empty JSON file with an empty 'unwanted_texts' list
+        with open(UNWANTED_TEXTS_FILE, "w") as file:
+            json.dump({"unwanted_texts": []}, file)
+        return set()
 
     try:
         with open(UNWANTED_TEXTS_FILE, "r") as file:
@@ -437,13 +439,12 @@ def load_unwanted_email_text():
             raise ValueError(
                 f"JSON file at {UNWANTED_TEXTS_FILE} is missing the 'unwanted_texts' key."
             )
-    except (FileNotFoundError, json.JSONDecodeError) as e:
-        print(f"Error reading JSON file: {e}")
+    except json.JSONDecodeError as e:
+        print(f"Error decoding JSON file: {e}")
         return set()
     except ValueError as ve:
         print(ve)
         return set()
-
 
 def save_unwanted_texts(unwanted_texts_filepath, texts):
     """Save the unwanted texts to a JSON file, ensuring data is converted from a set to a list."""
@@ -491,7 +492,7 @@ def preprocess_text(
     tokens = [
         word
         for word in tokens
-        if word.isalpha() and word not in stop_words and len(word) > 1
+        if word.isalpha() and word not in stop_words and len(word) > 2
     ]
 
     # Initialize the NLTK lemmatizer and lemmatize the words.
@@ -874,10 +875,11 @@ def process_emails_to_json(chunk_size: int = 100, analyze_emails=True):
     of unique email identifiers.
     """
     # Establish file paths
-    json_file_path = os.path.join(PROCESSED_DATA_DIR_JSON, "processed_emails.json")
-    ids_file_path = os.path.join(PROCESSED_DATA_DIR_JSON, "email_ids.json")
+    json_file_path = PROCESSED_EMAILS_JSON_FILE 
+    ids_file_path = PROCESSED_EMAIL_IDS_JSON_FILE
 
     # Create a list of text files
+    print(RAW_DATA_DIR)
     files = [f for f in os.listdir(RAW_DATA_DIR) if f.endswith(".txt")]
     
     # Establish email data list
