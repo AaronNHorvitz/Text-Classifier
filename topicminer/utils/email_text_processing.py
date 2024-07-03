@@ -1,52 +1,39 @@
-# TODO: Update email processing functions to include Dask and batch processing for larger loads.
-
+#topicminer/utils/email_processing.py
 """
--------------------------------------------------------------------------------
-File: email_processing.py
-Written by: Aaron Noah Horvitz
-Last Revision Date: 6/10/2024
+Utilities for Email Processing in TopicMiner
 
-Description:
------------
-This module is part of the Topic Miner project, aimed at processing and analyzing
-emails saved as .txt files. It provides essential functions for reading, formatting,
-cleaning, and parsing email data, making it ready for analysis and modeling. This
-module is particularly useful in preprocessing steps where emails need to be extracted
-from their raw formats, cleaned of unwanted text, and formatted for further analytical
-processing.
+This module, `topicminer/utils/email_processing.py`, provides a suite of functions designed to handle and process
+email data for the TopicMiner project. It includes functionalities for reading and writing emails, parsing email
+content from text files, preprocessing textual data, and managing unwanted text entries in emails. The utilities
+facilitate the transformation of raw email data into a structured format suitable for further analysis and machine
+learning tasks.
 
-Key Functions:
--------------
-- generate_email_text: Generates structured email text from provided components.
-- add_unwanted_email_text: Adds new unwanted phrases to a JSON file for text cleaning.
-- delete_unwanted_email_text: Removes specified unwanted phrases from a JSON file.
-- load_unwanted_email_text: Loads unwanted phrases from a JSON file for text preprocessing.
-- clean_text_email_body: Cleans the email body by removing specified unwanted text.
-- format_and_save_emails: Formats and saves emails from a DataFrame to text files.
-- parse_top_email_from_chain: Extracts the top email from a chain of emails.
-- process_emails_in_directory: Processes all emails within a directory into a DataFrame for analysis.
+The module integrates natural language processing (NLP) techniques for text normalization and cleaning, such as
+tokenization, stop word removal, and lemmatization, using the NLTK library. It also features functions for encoding
+detection, formatting emails, handling JSON data related to emails, and generating unique identifiers for emails.
 
-Dependencies:
-------------
-- Standard Library: json, os, re, textwrap
-- Third-party Libraries: pandas, nltk
-- Data Files: JSON files for unwanted texts, email text files for processing
+Functions:
+- `generate_email_text`: Formats email details into a structured email text.
+- `add_unwanted_email_text`: Adds new unwanted text strings to a JSON file to help clean email data.
+- `delete_unwanted_email_text`: Removes specified unwanted text strings from a JSON file.
+- `format_and_save_emails`: Converts email data from a DataFrame to formatted text files.
+- `parse_top_email_from_chain`: Extracts the most recent email from a chain of emails.
+- `read_text_file`: Reads text file content, handling different text encodings.
+- `load_unwanted_email_text`: Loads a list of unwanted text strings from a JSON file.
+- `preprocess_text`: Applies several preprocessing steps to clean and normalize text.
+- `view_file`: Displays the content of a text file with proper encoding handling.
+- `convert_date_format`: Converts date strings from 'YYYY-MM-DD' to a more readable format.
+- `parse_date_day_time`: Extracts date and time information from text, formatting it into a standardized form.
+- `clean_email_body_text`: Cleans the email body by removing specified unwanted phrases.
+- `process_emails_to_csv`: Processes and saves email data from text files into a structured CSV format.
+- `generate_doc_id`: Generates a unique identifier for an email based on its content.
+- `load_existing_ids`: Loads existing document IDs from a JSON file.
+- `save_doc_ids`: Saves document identifiers to a file.
+- `append_to_json`: Appends data to a JSON file and ensures valid JSON structure.
+- `process_emails_to_json`: Serializes email data into JSON format and manages duplicates.
+- `read_emails_and_analyze`: Analyzes email data from a JSON file, summarizing and displaying statistics.
 
-Usage:
------
-This module is designed to be imported and used in Python scripts or Jupyter Notebooks
-where comprehensive email data processing is required. It supports tasks ranging from
-simple email text generation to complex processing of large sets of email data stored in directories.
-
-Examples:
---------
-To process emails in a directory and load their cleaned data into a DataFrame:
->>> data_path = './data/emails/'
->>> unwanted_text_file_path = './data/unwanted_texts.json'
->>> emails_df = process_emails_in_directory(data_path, unwanted_text_file_path)
->>> print(emails_df.head())
-
--------------------------------------------------------------------------------
+Each function is equipped with detailed documentation on its purpose, parameters, return values, and usage examples, supporting efficient data handling and preprocessing for email analysis tasks in the TopicMiner project.
 """
 
 # Standard library imports
