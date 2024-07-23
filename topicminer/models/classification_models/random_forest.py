@@ -234,7 +234,6 @@ class AutoLabelEncoder:
         """
         return issubclass(y.dtype.type, np.integer)
 
-
 def rf_cv(params, data, targets, scoring="f1"):
     """
     Conducts cross-validation for a RandomForestClassifier with specified parameters.
