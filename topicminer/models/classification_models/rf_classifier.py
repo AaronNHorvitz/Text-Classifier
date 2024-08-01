@@ -234,7 +234,7 @@ class AutoLabelEncoder:
         """
         return issubclass(y.dtype.type, np.integer)
 
-def rf_cv(params, data, targets, scoring="f1"):
+def rf_classifier_cross_val(params, data, targets, scoring="f1"):
     """
     Conducts cross-validation for a RandomForestClassifier with specified parameters.
 
@@ -299,7 +299,7 @@ def rf_cv(params, data, targets, scoring="f1"):
     return np.mean(cross_val_score(estimator, data, targets, scoring=scorer, cv=4))
 
 
-def optimize_rf(data, targets, scoring="f1"):
+def optimize_rf_classifier(data, targets, scoring="f1"):
     """
     Optimizes hyperparameters for a RandomForestClassifier using Bayesian optimization.
 
@@ -340,7 +340,7 @@ def optimize_rf(data, targets, scoring="f1"):
     }
 
     optimizer = BayesianOptimization(
-        f=lambda n_estimators, max_depth, min_samples_split: rf_cv(
+        f=lambda n_estimators, max_depth, min_samples_split: rf_classifier_cross_val(
             {
                 "n_estimators": n_estimators,
                 "max_depth": max_depth,

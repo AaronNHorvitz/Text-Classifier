@@ -1,0 +1,17 @@
+\documentclass{article}%
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathtools}
+\usepackage[thinc]{esdiff}
+
+ \begin{document}
+
+\begin{alignat*}{3}
+     \diff{f}{x} &\qquad \diff*[4]{g}{t}{t = 1} \\[2ex]
+     \diffp{f}{x} &\qquad\diffp{g}{tu}& & \qquad & \diffp*{g}{{t^2}{u^3}}{(0,0)}
+ \end{alignat*}
+
+ \end{document}
+
+ 

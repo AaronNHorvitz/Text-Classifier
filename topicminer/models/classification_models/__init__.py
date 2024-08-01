@@ -22,7 +22,8 @@ comprehensive coverage of typical classification needs in natural language proce
 """
 
 
-from .random_forest import *
+from .rf_classifier import *
+from .xgb_classifier import *
 # from .svm import *
 # from .naive_bayes import *
 # from .logistic_regression import *
