@@ -23,6 +23,9 @@ from sklearn.metrics import (
 )
 from sklearn.model_selection import cross_val_score
 from joblib import parallel_backend
+import matplotlib.pyplot as plt
+from itertools import cycle
+from sklearn.preprocessing import label_binarize
 
 
 import warnings
@@ -273,6 +276,86 @@ def optimize_xgb(data, targets, scoring="f1", workers=None):
     optimizer.maximize(init_points=2, n_iter=10)
     return optimizer.max
 
+# def plot_multi_class_roc_auc(y_true, y_scores, n_classes, title='Multi-class ROC'):
+#     # Binarize the output labels for each class
+#     y_test = label_binarize(y_true, classes=[*range(n_classes)])
+#     fpr, tpr, roc_auc = dict(), dict(), dict()
+    
+#     # Compute ROC curve and ROC area for each class
+#     for i in range(n_classes):
+#         fpr[i], tpr[i], _ = roc_curve(y_test[:, i], y_scores[:, i])
+#         roc_auc[i] = auc(fpr[i], tpr[i])
+
+#     # Plot all ROC curves
+#     plt.figure(figsize=(10, 8))
+#     colors = cycle(['blue', 'red', 'green', 'cyan', 'magenta', 'yellow', 'black', 'pink', 'lightblue', 'lightgreen', 'gray'])
+#     for i, color in zip(range(n_classes), colors):
+#         plt.plot(fpr[i], tpr[i], color=color, lw=2,
+#                  label='ROC curve of class {0} (area = {1:0.2f})'.format(i, roc_auc[i]))
+
+#     plt.plot([0, 1], [0, 1], 'k--', lw=2)
+#     plt.xlim([0.0, 1.0])
+#     plt.ylim([0.0, 1.05])
+#     plt.xlabel('False Positive Rate')
+#     plt.ylabel('True Positive Rate')
+#     plt.title(title)
+#     plt.legend(loc="lower right")
+#     plt.show()
+
+#     return roc_auc
+
+def plot_multi_class_roc_auc(y_true, y_scores, n_classes, title='Multi-class ROC'):
+    # Binarize the output labels for each class
+    y_test = label_binarize(y_true, classes=[*range(n_classes)])
+    fpr, tpr, roc_auc = dict(), dict(), dict()
+    
+    # Compute ROC curve and ROC area for each class
+    for i in range(n_classes):
+        fpr[i], tpr[i], _ = roc_curve(y_test[:, i], y_scores[:, i])
+        roc_auc[i] = auc(fpr[i], tpr[i])
+
+    # Compute micro-average ROC curve and ROC area
+    fpr["micro"], tpr["micro"], _ = roc_curve(y_test.ravel(), y_scores.ravel())
+    roc_auc["micro"] = auc(fpr["micro"], tpr["micro"])
+
+    # Aggregate all false positive rates
+    all_fpr = np.unique(np.concatenate([fpr[i] for i in range(n_classes)]))
+
+    # Interpolate all ROC curves at these points
+    mean_tpr = np.zeros_like(all_fpr)
+    for i in range(n_classes):
+        mean_tpr += np.interp(all_fpr, fpr[i], tpr[i])
+
+    # Average and compute AUC for the macro-average
+    mean_tpr /= n_classes
+    fpr["macro"], tpr["macro"], _ = all_fpr, mean_tpr, None
+    roc_auc["macro"] = auc(fpr["macro"], tpr["macro"])
+
+    # Plot all ROC curves
+    plt.figure(figsize=(10, 8))
+    plt.plot(fpr["micro"], tpr["micro"],
+             label='Micro-average ROC curve (area = {0:0.2f})'.format(roc_auc["micro"]),
+             color='deeppink', linestyle=':', linewidth=4)
+
+    plt.plot(fpr["macro"], tpr["macro"],
+             label='Macro-average ROC curve (area = {0:0.2f})'.format(roc_auc["macro"]),
+             color='navy', linestyle=':', linewidth=4)
+
+    colors = cycle(['aqua', 'darkorange', 'cornflowerblue', 'yellow', 'green', 'red', 'purple', 'pink', 'brown', 'grey', 'olive'])
+    for i, color in zip(range(n_classes), colors):
+        plt.plot(fpr[i], tpr[i], color=color, lw=2,
+                 label='ROC curve of class {0} (area = {1:0.2f})'.format(i, roc_auc[i]))
+
+    plt.plot([0, 1], [0, 1], 'k--', lw=2)
+    plt.xlim([0.0, 1.0])
+    plt.ylim([0.0, 1.05])
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('True Positive Rate')
+    plt.title(title)
+    plt.legend(loc="lower right")
+    plt.show()
+
+    return roc_auc
 
 def score_xgb_classifier(X_train_bal, X_test, y_train_bal, y_test, xgb_clf):
     # Predict and evaluate on the training set
@@ -300,3 +383,29 @@ def score_xgb_classifier(X_train_bal, X_test, y_train_bal, y_test, xgb_clf):
     print(f"Precision: {test_precision:.4f}")
     print(f"Recall: {test_recall:.4f}")
     print(f"F1-Score: {test_f1:.4f}")
+
+
+# def score_xgb_classifier(X_train_bal, X_test, y_train_bal, y_test, xgb_clf):
+#     y_train_pred = xgb_clf.predict(X_train_bal)
+#     y_test_pred = xgb_clf.predict(X_test)
+    
+#     y_train_prob = xgb_clf.predict_proba(X_train_bal)
+#     y_test_prob = xgb_clf.predict_proba(X_test)
+    
+#     train_accuracy = accuracy_score(y_train_bal, y_train_pred)
+#     test_accuracy = accuracy_score(y_test, y_test_pred)
+    
+#     train_f1 = f1_score(y_train_bal, y_train_pred, average='weighted')
+#     test_f1 = f1_score(y_test, y_test_pred, average='weighted')
+    
+#     n_classes = y_train_prob.shape[1]
+#     plot_multi_class_roc_auc(y_train_bal, y_train_prob, n_classes, title='Training Set ROC')
+#     plot_multi_class_roc_auc(y_test, y_test_prob, n_classes, title='Test Set ROC')
+    
+#     print("==== Training Metrics ====")
+#     print(f"Accuracy: {train_accuracy:.4f}")
+#     print(f"F1-Score: {train_f1:.4f}")
+    
+#     print("\n==== Testing Metrics ====")
+#     print(f"Accuracy: {test_accuracy:.4f}")
+#     print(f"F1-Score: {test_f1:.4f}")
