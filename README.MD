@@ -16,10 +16,13 @@ TopicMiner/
 │	│   ├── topic_models/
 │	│   │   ├── __init__.py
 │	│   │   ├── doc2vec_kmeans.py
+│	│   │   ├── word2vec_kmeans.py
 │	│   │   └── lda_model.py
 │	│   │ 
 │	│   └── classification_models/
-│	│        └── __init__.py     
+│	│       ├── rf_classifier.py
+│	│       ├── xgb_classifier.py
+│	│       └── __init__.py     
 │	│
 │	├── visualizations/
 │	│   ├── __init__.py
@@ -51,9 +54,19 @@ TopicMiner/
 │   ├── raw_data/
 │   ├── unwanted_texts/
 │   └── processed_data/
+│	    ├── csv_format
+│	    ├── data_frame
+│	    └── json_format
 │
 ├── notebooks/
-│   └── 001_tutorial_text_pruning_and_processing
+│   ├── 001_tutorial_text_pruning_and_processing.ipynb
+│   ├── 002_tutorial_add_embedings.ipynb
+│   ├── 003_tutorial_lda_model.ipynb
+│   ├── 004_tutorial_doc2vec_kmeans.ipynb
+│   ├── 005_tutorial_word2vec_kmeans.ipynb
+│   ├── 006_tutorial_random_forest_classification.ipynb
+│   ├── 007_tutorial_xgboost_classifier.ibynb
+│   └── 008_email_classifier
 │
 ├── sandbox/
 │
