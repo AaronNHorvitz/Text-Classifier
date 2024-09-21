@@ -2,6 +2,22 @@
 
 TopicMiner is a comprehensive text analytics toolkit designed to process and analyze email data to extract meaningful insights. It utilizes advanced natural language processing techniques, including topic modeling and text classification, to categorize and visualize email content efficiently. The toolkit is structured to support modular development and easy scalability.
 
+## Table of Contents
+- [TopicMiner](#topicminer)
+  - [Project Structure](#project-structure)
+  - [Description of Directories](#description-of-directories)
+  - [Usage](#usage)
+    - [1. Set Up Your Environment](#1-set-up-your-environment)
+    - [2. Prepare Your Data](#2-prepare-your-data)
+    - [3. Running Analysis](#3-running-analysis)
+    - [4. Visualizing Data](#4-visualizing-data)
+    - [5. Export Results](#5-export-results)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Contact](#contact)
+  
 ## Project Structure
 ```
 TopicMiner/
