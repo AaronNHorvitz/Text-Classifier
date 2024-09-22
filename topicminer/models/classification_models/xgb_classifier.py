@@ -39,144 +39,6 @@ warnings.filterwarnings(
     "ignore", category=DeprecationWarning
 )  # Ignore deprecation warnings
 
-
-# class AutoLabelEncoder:
-#     """
-#     Provides an automatic mechanism for encoding and decoding label data,
-#     simplifying the handling of categorical labels for machine learning models.
-#     This class is a wrapper around the `LabelEncoder` from scikit-learn, adding
-#     functionality to automatically check if labels are numeric and only transform
-#     them if they are not.
-
-#     Attributes
-#     ----------
-#     encoder : LabelEncoder
-#         A `LabelEncoder` object from scikit-learn used for encoding label data.
-#     is_encoded : bool
-#         Flag indicating whether the encoder has been fitted and labels have been
-#         transformed.
-
-#     Methods
-#     -------
-#     fit_transform(y)
-#         Fits the label encoder and transforms labels to numeric form if they are
-#         not already numeric.
-#     transform(y)
-#         Transforms labels using the fitted encoder if they have been previously
-#         encoded.
-#     inverse_transform(y)
-#         Converts numeric labels back to their original form if they have been
-#         previously encoded.
-#     is_numeric(y)
-#         Static method to check if the label data is numeric.
-
-#     Examples
-#     --------
-#     >>> labels = ['apple', 'banana', 'apple', 'orange']
-#     >>> encoder = AutoLabelEncoder()
-#     >>> numeric_labels = encoder.fit_transform(labels)
-#     >>> print(numeric_labels)
-#     [0 1 0 2]
-#     >>> original_labels = encoder.inverse_transform(numeric_labels)
-#     >>> print(original_labels)
-#     ['apple', 'banana', 'apple', 'orange']
-#     """
-
-#     def __init__(self):
-#         self.encoder = LabelEncoder()
-#         self.is_encoded = False
-
-#     def fit_transform(self, y):
-#         """
-#         Fit label encoder and transform labels to numeric format if not already numeric.
-
-#         Parameters
-#         ----------
-#         y : array-like
-#             The label data to encode. Can be any sequence-like object that can
-#             be converted to an array.
-
-#         Returns
-#         -------
-#         ndarray
-#             Array of transformed labels in numeric format.
-
-#         Notes
-#         -----
-#         If the labels are already numeric, this method does not modify them.
-#         The encoder remembers the labels and can be used later for inverse transformations.
-#         """
-#         if not self.is_numeric(y):
-#             y = self.encoder.fit_transform(y)
-#             self.is_encoded = True
-#         return y
-
-#     def transform(self, y):
-#         """
-#         Transform labels using the already fitted encoder.
-
-#         Parameters
-#         ----------
-#         y : array-like
-#             Labels to transform. Must be the same as or a subset of the labels
-#             used during fit_transform.
-
-#         Returns
-#         -------
-#         ndarray
-#             Array of transformed labels in numeric format if previously encoded;
-#             otherwise, returns the input array as is.
-
-#         Raises
-#         ------
-#         ValueError
-#             If trying to transform without first calling `fit_transform`.
-#         """
-#         if self.is_encoded:
-#             return self.encoder.transform(y)
-#         return y
-
-#     def inverse_transform(self, y):
-#         """
-#         Convert numeric labels back to original labels if they were previously transformed.
-
-#         Parameters
-#         ----------
-#         y : array-like
-#             Numeric labels to convert back to original labels.
-
-#         Returns
-#         -------
-#         ndarray
-#             Array of original labels.
-
-#         Raises
-#         ------
-#         ValueError
-#             If trying to inverse transform without first calling `fit_transform`.
-#         """
-#         if self.is_encoded:
-#             return self.encoder.inverse_transform(y)
-#         return y
-
-#     @staticmethod
-#     def is_numeric(y):
-#         """
-#         Determine if the label data is already in numeric format.
-
-#         Parameters
-#         ----------
-#         y : array-like
-#             Label data to check.
-
-#         Returns
-#         -------
-#         bool
-#             True if the data type of the labels is an integer type; False otherwise.
-#         """
-#         return issubclass(y.dtype.type, np.integer)
-
-
 def train_xgb_classifier(
     X_train_bal, y_train_bal, params, eval_metric="mlogloss", workers=None
 ):
@@ -186,8 +48,10 @@ def train_xgb_classifier(
         print("Max workers is 8, setting workers to 8")
 
     # Initialize the XGBoost classifier with provided parameters
+
     xgb_clf = XGBClassifier(
-        verbosity=0,  # turning off XGBoost logging
+        use_label_encoder=False,  # Add this line
+        verbosity=0,  # zero turns off XGBoost logging
         n_estimators=int(params["params"]["n_estimators"]),
         max_depth=int(params["params"]["max_depth"]),
         learning_rate=float(params["params"]["learning_rate"]),
@@ -211,6 +75,7 @@ def xgb_classifier_cross_val(params, data, targets, scoring="f1", workers=None):
         print("Max workers is 8, setting workers to 8")
 
     estimator = XGBClassifier(
+        use_label_encoder=False,  # Add this line
         verbosity=0,  # Turning off XGBoost logging
         n_estimators=int(params["n_estimators"]),
         max_depth=int(params["max_depth"]),
@@ -282,34 +147,6 @@ def optimize_xgb(data, targets, scoring="f1", workers=None):
 
     optimizer.maximize(init_points=2, n_iter=10)
     return optimizer.max
-
-# def plot_multi_class_roc_auc(y_true, y_scores, n_classes, title='Multi-class ROC'):
-#     # Binarize the output labels for each class
-#     y_test = label_binarize(y_true, classes=[*range(n_classes)])
-#     fpr, tpr, roc_auc = dict(), dict(), dict()
-    
-#     # Compute ROC curve and ROC area for each class
-#     for i in range(n_classes):
-#         fpr[i], tpr[i], _ = roc_curve(y_test[:, i], y_scores[:, i])
-#         roc_auc[i] = auc(fpr[i], tpr[i])
-
-#     # Plot all ROC curves
-#     plt.figure(figsize=(10, 8))
-#     colors = cycle(['blue', 'red', 'green', 'cyan', 'magenta', 'yellow', 'black', 'pink', 'lightblue', 'lightgreen', 'gray'])
-#     for i, color in zip(range(n_classes), colors):
-#         plt.plot(fpr[i], tpr[i], color=color, lw=2,
-#                  label='ROC curve of class {0} (area = {1:0.2f})'.format(i, roc_auc[i]))
-
-#     plt.plot([0, 1], [0, 1], 'k--', lw=2)
-#     plt.xlim([0.0, 1.0])
-#     plt.ylim([0.0, 1.05])
-#     plt.xlabel('False Positive Rate')
-#     plt.ylabel('True Positive Rate')
-#     plt.title(title)
-#     plt.legend(loc="lower right")
-#     plt.show()
-
-#     return roc_auc
 
 def plot_multi_class_roc_auc(y_true, y_scores, n_classes, title='Multi-class ROC'):
     # Binarize the output labels for each class
@@ -391,28 +228,3 @@ def score_xgb_classifier(X_train_bal, X_test, y_train_bal, y_test, xgb_clf):
     print(f"Recall: {test_recall:.4f}")
     print(f"F1-Score: {test_f1:.4f}")
 
-
-# def score_xgb_classifier(X_train_bal, X_test, y_train_bal, y_test, xgb_clf):
-#     y_train_pred = xgb_clf.predict(X_train_bal)
-#     y_test_pred = xgb_clf.predict(X_test)
-    
-#     y_train_prob = xgb_clf.predict_proba(X_train_bal)
-#     y_test_prob = xgb_clf.predict_proba(X_test)
-    
-#     train_accuracy = accuracy_score(y_train_bal, y_train_pred)
-#     test_accuracy = accuracy_score(y_test, y_test_pred)
-    
-#     train_f1 = f1_score(y_train_bal, y_train_pred, average='weighted')
-#     test_f1 = f1_score(y_test, y_test_pred, average='weighted')
-    
-#     n_classes = y_train_prob.shape[1]
-#     plot_multi_class_roc_auc(y_train_bal, y_train_prob, n_classes, title='Training Set ROC')
-#     plot_multi_class_roc_auc(y_test, y_test_prob, n_classes, title='Test Set ROC')
-    
-#     print("==== Training Metrics ====")
-#     print(f"Accuracy: {train_accuracy:.4f}")
-#     print(f"F1-Score: {train_f1:.4f}")
-    
-#     print("\n==== Testing Metrics ====")
-#     print(f"Accuracy: {test_accuracy:.4f}")
-#     print(f"F1-Score: {test_f1:.4f}")
