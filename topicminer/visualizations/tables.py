@@ -1,3 +1,5 @@
+ # topicminer/visualizations/tables.py 
+
 import pandas as pd
 
 # Set default display settings for pandas DataFrames

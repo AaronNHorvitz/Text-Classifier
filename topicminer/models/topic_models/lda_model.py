@@ -1,5 +1,4 @@
-# toipcminer/models/topic_models/lda_model.py
-
+# topicminer/models/topic_modles/lda_model.py
 
 # Standard library imports
 from typing import List, Tuple

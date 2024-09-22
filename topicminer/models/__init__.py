@@ -1,3 +1,5 @@
+# topicminer/models/__init__.py
+
 """
 Models Package for TopicMiner
 
@@ -9,6 +11,5 @@ topic extraction, and data enrichment across different model types including top
 or clustering models in the future.
 """
 
-# topicminer/models/__init__.py
 from .topic_models import *
 from .classification_models import *

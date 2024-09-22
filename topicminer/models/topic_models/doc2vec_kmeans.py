@@ -1,4 +1,4 @@
-# toipcminer/models/topic_models/doc2vec_kmeans.py
+# topicminer/models/topic_modles/doc2vec_kmeans.py
 
 """
 This module implements the Doc2Vec_KMeans_Cat class which combines the use of Doc2Vec for generating document embeddings

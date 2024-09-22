@@ -1,4 +1,4 @@
- #topicminer/utils/widgets.py  
+ # topicminer/utils/widgets.py  
 """ 
 -------------------------------------------------------------------------------
 File: widgets.py

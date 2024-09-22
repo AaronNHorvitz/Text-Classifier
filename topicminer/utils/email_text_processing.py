@@ -1,4 +1,4 @@
-#topicminer/utils/email_processing.py
+#topicminer/utils/email_text_processing.py
 """
 Utilities for Email Processing in TopicMiner
 

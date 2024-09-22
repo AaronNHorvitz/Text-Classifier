@@ -1,4 +1,4 @@
-# topicminer/models/classification_models/random_forest.py
+# topicminer/models/classification_models/classification_modles/rf_classifier.py
 """
 This module defines and manages operations related to random forest classification, 
 including model training, parameter optimization, and performance evaluation.

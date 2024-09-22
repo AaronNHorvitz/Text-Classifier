@@ -1,3 +1,9 @@
+# topicminer/models/classification_models/classification_modles/xgb_classifier.py
+"""
+This module defines and manages operations related to the XBGoost classification, 
+including model training, parameter optimization, and performance evaluation.
+"""
+
 import numpy as np
 
 from sklearn.preprocessing import LabelEncoder

@@ -1,4 +1,4 @@
-# topicminer/__init__.py
+# topicminer/visualizations/__init__.py
 from .models import *
 from .visualizations import *
 from .utils import *

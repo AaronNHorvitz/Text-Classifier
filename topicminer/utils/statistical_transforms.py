@@ -1,4 +1,4 @@
-# topicminer/utils/statistical_transformation.py
+# topicminer/utils/statistical_transforms.py
 """
 This module (`statistical_transforms.py`) provides various statistical and machine learning utility functions for handling and transforming data. It includes functionality for data preprocessing, text analysis, feature extraction, data resampling, and model preparation. It is designed to facilitate the preprocessing and handling of text data for applications in topic mining and classification.
 

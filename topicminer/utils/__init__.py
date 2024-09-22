@@ -1,3 +1,5 @@
+# topicminer/utils/__init__.py
+
 """
 Utilities Toolkit for TopicMiner
 
@@ -7,7 +9,7 @@ This module initializes the utilities package for the TopicMiner project, consol
 common functions used across various parts of the project. The utilities include functions for date conversion, text processing,
 email handling, and interactive widgets, making them essential for processing and analyzing email data efficiently.
 """
-# topicminer/utils/__init__.py
+
 from .email_text_processing import *
 from .widgets import *
 from .statistical_transforms import *
