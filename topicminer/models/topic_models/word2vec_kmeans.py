@@ -1,4 +1,4 @@
-# topicminer/models/topic_modles/doc2vec_kmeans.py
+# topicminer/models/topic_modles/word2vec_kmeans.py
 """
 This module, word2vec_kmeans.py, integrates Word2Vec embedding with KMeans clustering to categorize text documents.
 The Word2Vec_KMeans_Cat class within facilitates the embedding of text data into vector space using Word2Vec and 

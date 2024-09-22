@@ -27,12 +27,11 @@ from sklearn.metrics import (
     recall_score,
     roc_auc_score,
 )
-from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import cross_val_score, StratifiedKFold
 from joblib import parallel_backend
 import matplotlib.pyplot as plt
 from itertools import cycle
 from sklearn.preprocessing import label_binarize
-
 
 import warnings
 
@@ -236,13 +235,15 @@ def xgb_classifier_cross_val(params, data, targets, scoring="f1", workers=None):
     else:
         scorer = scoring
 
+    skf = StratifiedKFold(n_splits=4, shuffle=True, random_state=42)
+
     try:
         results = cross_val_score(
-            estimator, data, targets, scoring=scorer, cv=4, n_jobs=workers
+            estimator, data, targets, scoring=scorer, cv=skf, n_jobs=workers
         )
     except Exception as e:
         print("An error occurred during model training:", e)
-        return None
+        return -np.inf  # Return negative infinity to allow optimizer to continue
 
     return np.mean(results)
 
