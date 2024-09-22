@@ -4,20 +4,27 @@ TopicMiner is a comprehensive text analytics toolkit designed to process and ana
 
 ## Table of Contents
 - [TopicMiner](#topicminer)
+  - [Features](#features)
   - [Project Structure](#project-structure)
   - [Description of Directories](#description-of-directories)
+  - [Installation](#installation)
   - [Usage](#usage)
     - [1. Set Up Your Environment](#1-set-up-your-environment)
     - [2. Prepare Your Data](#2-prepare-your-data)
     - [3. Running Analysis](#3-running-analysis)
     - [4. Visualizing Data](#4-visualizing-data)
     - [5. Export Results](#5-export-results)
-  - [Features](#features)
-  - [Installation](#installation)
   - [Contributing](#contributing)
   - [License](#license)
   - [Contact](#contact)
-  
+
+## Features
+- **Topic Modeling**: Utilize advanced techniques like LDA, Doc2Vec with K-Means, and Word2Vec with K-Means to uncover hidden topics in email data.
+- **Text Classification**: Implement robust classification models including Random Forest and XGBoost classifiers for categorizing emails.
+- **Data Visualization**: Generate insightful visualizations to interpret model outcomes and data trends.
+- **Modular Design**: Easily extend and scale the toolkit with a well-structured and modular codebase.
+- **Comprehensive Testing**: Ensure reliability with extensive unit tests covering all components.
+
 ## Project Structure
 ```
 TopicMiner/
@@ -36,9 +43,9 @@ TopicMiner/
 │	│   │   └── lda_model.py
 │	│   │ 
 │	│   └── classification_models/
+│	│       ├── __init__.py   
 │	│       ├── rf_classifier.py
-│	│       ├── xgb_classifier.py
-│	│       └── __init__.py     
+│	│       └──  xgb_classifier.py
 │	│
 │	├── visualizations/
 │	│   ├── __init__.py

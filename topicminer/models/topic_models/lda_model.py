@@ -1,36 +1,5 @@
-"""
-Module: random_forest.py
+# toipcminer/models/topic_models/lda_model.py
 
-Provides a suite of functions and a class for training and evaluating Random Forest classifiers,
-optimized through Bayesian optimization, with utilities for handling label encoding and data preparation.
-
-The module includes the following main components:
-- `AutoLabelEncoder`: A class to handle automatic conversion between categorical and numerical labels.
-- `rf_cv`: Function to perform cross-validation for a RandomForestClassifier.
-- `optimize_rf`: Function to optimize hyperparameters for RandomForestClassifier using Bayesian optimization.
-- `train_rf_classifier`: Function to train a RandomForestClassifier with specified parameters.
-- `score_rf_classifier`: Function to evaluate a RandomForestClassifier on training and test datasets.
-
-Dependencies:
-- Standard libraries: os, sys, json
-- Data manipulation: numpy, pandas
-- Machine Learning: scikit-learn
-- Visualization: matplotlib
-- Custom utilities: Local modules for text processing and statistical transforms
-
-Examples and detailed function/method descriptions are provided within the module to facilitate its use in
-training, optimizing, and deploying RandomForest models for classification tasks, particularly on text data.
-
-Warnings:
-- The module suppresses sklearn-related UserWarning by default to improve readability of the output.
-
-Author:
-- [Your Name]
-
-Notes:
-- The module assumes access to properly formatted configuration settings and utility functions for text and data processing.
-
-"""
 
 # Standard library imports
 from typing import List, Tuple
