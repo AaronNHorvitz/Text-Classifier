@@ -27,11 +27,13 @@ from sklearn.metrics import (
     recall_score,
     roc_auc_score,
 )
-from sklearn.model_selection import cross_val_score, StratifiedKFold
+from sklearn.model_selection import cross_val_score, StratifiedKFold, KFold
 from joblib import parallel_backend
 import matplotlib.pyplot as plt
 from itertools import cycle
 from sklearn.preprocessing import label_binarize
+from sklearn.multiclass import OneVsRestClassifier
+from topicminer.utils.statistical_transforms import calculate_sample_weights
 
 import warnings
 
@@ -40,43 +42,45 @@ warnings.filterwarnings(
 )  # Ignore deprecation warnings
 
 def train_xgb_classifier(
-    X_train_bal, y_train_bal, params, eval_metric="mlogloss", workers=None
+    X_train, y_train, params, eval_metric="logloss", workers=None
 ):
-
-    if workers and workers > 8:
+    if workers is not None and workers > 8:
         workers = 8
         print("Max workers is 8, setting workers to 8")
-
-    # Initialize the XGBoost classifier with provided parameters
 
     xgb_clf = XGBClassifier(
-        use_label_encoder=False,  # Add this line
-        verbosity=0,  # zero turns off XGBoost logging
-        n_estimators=int(params["params"]["n_estimators"]),
-        max_depth=int(params["params"]["max_depth"]),
-        learning_rate=float(params["params"]["learning_rate"]),
-        min_child_weight=int(params["params"]["min_child_weight"]),
-        subsample=params["params"]["subsample"],
-        colsample_bytree=params["params"]["colsample_bytree"],
-        gamma=params["params"]["gamma"],
+        use_label_encoder=False,
+        verbosity=0,
+        n_estimators=int(params["n_estimators"]),
+        max_depth=int(params["max_depth"]),
+        learning_rate=float(params["learning_rate"]),
+        min_child_weight=int(params["min_child_weight"]),
+        subsample=float(params["subsample"]),
+        colsample_bytree=float(params["colsample_bytree"]),
+        gamma=float(params["gamma"]),
         eval_metric=eval_metric,
-        n_jobs=workers,
+        n_jobs=workers if workers is not None else 1,
     )
 
-    # Fit the model on the balanced training data
-    xgb_clf.fit(X_train_bal, y_train_bal)
+    # Wrap the classifier with OneVsRestClassifier
+    ovr_clf = OneVsRestClassifier(xgb_clf, n_jobs=workers)
 
-    return xgb_clf
+    # Calculate sample weights
+    sample_weights = calculate_sample_weights(y_train)
 
+    # Fit the classifier with sample weights
+    ovr_clf.fit(X_train, y_train, sample_weight=sample_weights)
 
-def xgb_classifier_cross_val(params, data, targets, scoring="f1", workers=None):
+    return ovr_clf
+
+def xgb_classifier_cross_val(params, data, targets, workers=None):
     if workers and workers > 8:
         workers = 8
         print("Max workers is 8, setting workers to 8")
-
-    estimator = XGBClassifier(
-        use_label_encoder=False,  # Add this line
-        verbosity=0,  # Turning off XGBoost logging
+    
+    xgb_clf = XGBClassifier(
+        use_label_encoder=False,
+        verbosity=0,
         n_estimators=int(params["n_estimators"]),
         max_depth=int(params["max_depth"]),
         learning_rate=float(params["learning_rate"]),
@@ -84,36 +88,29 @@ def xgb_classifier_cross_val(params, data, targets, scoring="f1", workers=None):
         subsample=params["subsample"],
         colsample_bytree=params["colsample_bytree"],
         gamma=params["gamma"],
-        eval_metric="mlogloss",
+        eval_metric="logloss",
         n_jobs=workers,
     )
 
-    if scoring not in ["accuracy", "roc_auc"]:
-        if scoring == "precision":
-            scorer = make_scorer(precision_score, average="weighted")
-        elif scoring == "recall":
-            scorer = make_scorer(recall_score, average="weighted")
-        elif scoring == "f1":
-            scorer = make_scorer(f1_score, average="weighted")
-        else:
-            raise ValueError("Unsupported scoring method")
-    else:
-        scorer = scoring
+    ovr_clf = OneVsRestClassifier(xgb_clf, n_jobs=workers)
 
-    skf = StratifiedKFold(n_splits=4, shuffle=True, random_state=42)
+    # Use KFold as StratifiedKFold does not support multi-label
+    kf = KFold(n_splits=4, shuffle=True, random_state=42)
+
+    scorer = make_scorer(f1_score, average='micro')  # or 'macro'
 
     try:
         results = cross_val_score(
-            estimator, data, targets, scoring=scorer, cv=skf, n_jobs=workers
+            ovr_clf, data, targets, scoring=scorer, cv=kf, n_jobs=workers, error_score='raise'
         )
     except Exception as e:
         print("An error occurred during model training:", e)
-        return -np.inf  # Return negative infinity to allow optimizer to continue
+        return np.nan  # Return NaN to indicate failure
 
     return np.mean(results)
 
 
-def optimize_xgb(data, targets, scoring="f1", workers=None):
+def optimize_xgb(data, targets, workers=None):
     param_bounds = {
         "n_estimators": (100, 200),
         "max_depth": (3, 6),
@@ -137,12 +134,11 @@ def optimize_xgb(data, targets, scoring="f1", workers=None):
             },
             data,
             targets,
-            scoring=scoring,
             workers=workers,
         ),
         pbounds=param_bounds,
         random_state=1,
-        verbose=2,  # You may want to set verbose=0 to further reduce output
+        verbose=2,
     )
 
     optimizer.maximize(init_points=2, n_iter=10)

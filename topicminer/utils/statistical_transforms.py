@@ -33,13 +33,15 @@ from typing import Tuple, List
 # Data handling
 import pandas as pd
 import numpy as np
+import re
 
 # Machine Learning: General
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.utils import check_random_state, resample
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder, MultiLabelBinarizer
 from scipy.sparse import hstack
+from sklearn.utils.class_weight import compute_sample_weight
 
 # Machine Learning: Imbalanced data handling
 from imblearn.over_sampling import SMOTE, ADASYN
@@ -60,8 +62,30 @@ from ..config import (
     WORD_COUNT_COL,
     CHARACTER_COUNT_COL,
     TOKEN_COUNT_COL,
+    CATEGORY_MAPPING,
 )
 
+def process_categories(row):
+
+    if pd.isna(row[CATEGORIES_COL]):
+        return []
+    # Split categories by semicolon or comma
+    categories = re.split(r'[;,]', row[CATEGORIES_COL])
+
+    # Strip whitespace and convert to lowercase
+    categories = [cat.strip().lower() for cat in categories if cat.strip()]
+
+    # Map categories to standardized names
+    return map_categories(categories)
+
+def map_categories(categories_list, category_mapping=CATEGORY_MAPPING):
+
+    mapped_categories = []
+    for category in categories_list:
+        mapped_category = category_mapping.get(category, None)
+        if mapped_category:
+            mapped_categories.append(mapped_category)
+    return mapped_categories
 
 def suppress_warnings():
     """
@@ -255,6 +279,12 @@ def upsample_classes(X, y, method=None):
                 return upsample_classes(X, y, method="duplicate")
 
     return X_resampled, y_resampled
+
+def calculate_sample_weights(y):
+    # Compute sample weights for multi-label data
+    sample_weights = compute_sample_weight('balanced', y)
+    return sample_weights
+
     
 def train_test_split_utility(upsampling_method=None, use_lda_features=False):
     """
@@ -307,16 +337,31 @@ def train_test_split_utility(upsampling_method=None, use_lda_features=False):
             'lda_topics' 
         ]
     )
-
+    
+    # Filter out emails with no categories
+    emails_df = emails_df[emails_df[CATEGORIES_COL].notna()]
+    
+    # Parse and map categories
+    def process_categories(row):
+        if pd.isna(row[CATEGORIES_COL]):
+            return []
+        categories = [cat.strip() for cat in row[CATEGORIES_COL].split(';')]
+        return map_categories(categories)
+    
+    emails_df['mapped_categories'] = emails_df.apply(process_categories, axis=1)
+    
+    # Filter out emails with no mapped categories
+    emails_df = emails_df[emails_df['mapped_categories'].map(len) > 0]
+    
     # Create initial TF-IDF matrix
     tfidf = TfidfVectorizer(stop_words="english", max_features=1000)
     tfidf_features = tfidf.fit_transform(emails_df[PROCESSED_TEXT_COL])
-
+    
     # Extract additional features
     additional_features = emails_df[
         ["word_count", "character_count", "token_count"]
     ].values
-
+    
     # Handle LDA features if required
     if use_lda_features:
         num_topics = 5  # Set this to your number of LDA topics
@@ -331,27 +376,23 @@ def train_test_split_utility(upsampling_method=None, use_lda_features=False):
         features = hstack([tfidf_features, additional_features, lda_features]).toarray()
     else:
         features = hstack([tfidf_features, additional_features]).toarray()
-
-    # Obtain and encode labels
-    labels = emails_df[CATEGORIES_COL]
-    if not issubclass(labels.dtype.type, np.integer):
-        labels = encode_labels(labels)
-
+    
+    # Use MultiLabelBinarizer to encode labels
+    mlb = MultiLabelBinarizer()
+    labels = mlb.fit_transform(emails_df['mapped_categories'])
+    
     # Split the data
     random_state = check_random_state(RANDOM_STATE)
     X_train, X_test, y_train, y_test = train_test_split(
         features, labels, test_size=TEST_SIZE, random_state=random_state
     )
-
+    
     print(
         f"Shapes - X_train: {X_train.shape}, X_test: {X_test.shape}, y_train: {y_train.shape}, y_test: {y_test.shape}"
     )
-
-    # Upsample Data
+    
+    # Upsample Data - Not recommended for multi-label data
     X_train_bal, y_train_bal = X_train, y_train
-    if upsampling_method:
-        X_train_bal, y_train_bal = upsample_classes(
-            X_train, y_train, method=upsampling_method
-        )
-
-    return X_train_bal, X_test, y_train_bal, y_test
+    # Consider alternative methods if upsampling is necessary
+    
+    return X_train_bal, X_test, y_train_bal, y_test, mlb

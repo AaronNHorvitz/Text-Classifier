@@ -60,6 +60,23 @@ RANDOM_STATE=42
 TOKEN_FILTER_NO_BELOW = 2  # Tokens must appear in at least this many documents
 TOKEN_FILTER_NO_ABOVE = 0.5  # Tokens must appear in no more than 10% of documents
 
+# Configuration for Category Mapping
+CATEGORY_MAPPING = {
+        'payment issues': 'Payment Issues',
+        'payments issues': 'Payment Issues',
+        'tos report related': 'Time of Sale Issues',
+        'super user change': 'Superuser Issues',
+        'cant find in ecm': 'Can’t find in ECM',
+        'can’t find in ecm': 'Can’t find in ECM',
+        'returns': 'Returns',
+        'duplicate vin': 'Duplicate VIN',
+        'cp199': 'CP199',
+        'bad actor': 'Bad Actor',
+        'elevate to mgmt': 'Elevate to Management',
+        'elevate to management': 'Elevate to Management',
+        # Add other mappings as needed
+    }
+
 # Configuration guidance for TOKEN_FILTER_NO_BELOW and TOKEN_FILTER_NO_ABOVE
 # These parameters control the filtering of tokens in the dictionary creation process based on their document frequency.
 # Adjust these settings based on the number of documents in your corpus to improve model relevance and performance.
